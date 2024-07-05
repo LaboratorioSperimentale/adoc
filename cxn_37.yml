@@ -1,0 +1,58 @@
+name: 
+# “human-intelligible” name for the construction, see wiki (LINK)
+
+cxn-machine-readable: 
+# path/to/conll/file
+    
+definition: 
+# description of construction (form and function)
+
+restrictions: 
+# summarize constraints that apply to construction
+
+coll-preferences: 
+# ...
+
+usage: # specify only if marked
+    - Formal/Informal
+    - Spoken/Written
+    - Standard/Non-Standard
+
+form-tags:
+    - tag1
+    - tag2
+    - ...
+
+function-tags:
+    - tag1
+    - tag2
+    - ...
+
+complexity-level: 
+# one value among [word, phrase, clause, beyond-clause]
+
+category-tags:
+# 
+
+schematicity:
+#
+
+links:
+    - horizontal: id1, id2, id3, ...
+    - vertical: ida, idb, idc, ...
+
+examples:
+    - id_esempio_1
+    - id_esempio_2
+
+cefr-level:
+# either nothing (~) or one value among [A1, A2, B1, B2, C1, C2]
+
+references:
+    - reference 1
+    - reference 2
+    - reference 3
+
+collector: github_id
+
+note:
