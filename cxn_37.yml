@@ -20,12 +20,12 @@ usage: # specify the value for one or more of the following oppositions. Delete 
     - Spoken/Written
     - Standard/Non-Standard
 
-form-tags: #insert one or more formal tags of the cxn type. First look up possible "construction" tags on https://comparative-concepts.github.io/cc-database/. If no tag applies, choose a name commonly used in the (typological) literature) 
+form-tags: #insert one or more formal tags of the cxn type. First look up possible "construction"/"strategy" tags on https://comparative-concepts.github.io/cc-database/. If no tag applies, choose a name commonly used in the (typological) literature) 
     - tag1
     - tag2
     - ...
 
-function-tags: #insert one or more functional tags of the cxn type. First look up "meaning" tags on https://comparative-concepts.github.io/cc-database/. If no tag applies, choose a name commonly used in the (typological) literature) 
+function-tags: #insert one or more functional tags of the cxn type. First look up "meaning"/"information packaging" tags on https://comparative-concepts.github.io/cc-database/. If no tag applies, choose a name commonly used in the (typological) literature) 
     - tag1
     - tag2
     - ...
