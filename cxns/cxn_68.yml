@@ -49,11 +49,11 @@ links: #specify the ids of the constructions linked (horizontally and/or vertica
     - vertical: 170
 
 examples: #id of the example 
-    - 1_Paisà
-    - 2_Paisà
-    - 3_Paisà
-    - 4_Paisà
-    - 5_Paisà
+    - 1_Paisà_FP06072024
+    - 2_Paisà_FP06072024
+    - 3_Paisà_FP06072024
+    - 4_Paisà_FP06072024
+    - 5_Paisà_FP06072024
 
 cefr-level: ~
 # either nothing (~) or one value among [A1, A2, B1, B2, C1, C2]
