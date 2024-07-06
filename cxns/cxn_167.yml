@@ -53,10 +53,10 @@ links: #specify the ids of the constructions linked (horizontally and/or vertica
 
 examples: #id of the example 
     - 3214_it_postwita
-    - 6_Paisà
-    - 7_Paisà
-    - 8_Paisà
-    - 9_Paisà
+    - 6_Paisà_FP06072024
+    - 7_Paisà_FP06072024
+    - 8_Paisà_FP06072024
+    - 9_Paisà_FP06072024
 
 cefr-level: ~
 # either nothing (~) or one value among [A1, A2, B1, B2, C1, C2]
