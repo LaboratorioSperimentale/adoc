@@ -5,7 +5,8 @@ cxn-machine-readable: cxn_68.conllc
 # filename of the conll file
     
 definition: >
-"A new piece of information comes to the speaker's knowledge from an external source. 
+"A new piece of information comes to the speaker's knowledge from an external source. , but the moment of acquisition
+and the moment of enunciation are distinct. 
 The new piece of information is often unexpected or contradicts the speaker's expectations on the state of affairs."
 # description of construction 
 
