@@ -1,13 +1,17 @@
-name: salta fuori che V
+name: "salta fuori che V"
 # “human-intelligible” name for the construction, see wiki 
 
 cxn-machine-readable: cxn_68.conllc
 # filename of the conll file
     
-definition: A new piece of information comes to the speaker's knowledge from an external source. The new piece of information is often unexpected or contradicts the speaker's expectations on the state of affairs.
+definition: >
+"A new piece of information comes to the speaker's knowledge from an external source. 
+The new piece of information is often unexpected or contradicts the speaker's expectations on the state of affairs."
 # description of construction 
 
-restrictions: The main verb saltare fuori is always impersonal, so it has no subject and it is always found in the 3rd person singular. The verb in the complement clause is always in a finite form.
+restrictions: >
+"The main verb saltare fuori is always impersonal, so it has no subject and it is always found in the 3rd person singular. 
+The verb in the complement clause is always in a finite form."
 # summarize constraints that apply to construction. The field can also be empty (~)
 
 coll-preferences: ~
@@ -21,22 +25,22 @@ usage: ~
     
 
 form-tags: #insert one or more formal tags of the cxn type. First look up possible "construction" tags on https://comparative-concepts.github.io/cc-database/. If no tag applies, choose a name commonly used in the (typological) literature) 
-    - complement clause construction
-    - impersonal construction
+    - "complement clause construction"
+    - "impersonal construction"
 
 
 function-tags: #insert one or more functional tags of the cxn type. First look up "meaning" tags on https://comparative-concepts.github.io/cc-database/. If no tag applies, choose a name commonly used in the (typological) literature) 
-    - evidentiality
-    - mirativity
+    - "evidentiality"
+    - "mirativity"
     
 
-complexity-level: clause
+complexity-level: "clause"
 # one value among [word, phrase, clause, beyond-clause]
 
-category-tags: not applicable
+category-tags: "not applicable"
 # one value among [adjective, adverb, conjunction, discourse marker, interjection, noun, preposition, pronoun, verb, onomatopoeia, not applicable, other]
 
-schematicity: partially filled/schematic
+schematicity: "partially filled/schematic"
 # one value among [lexically filled, partially filled/schematic, fully schematic]
 
 links: #specify the ids of the constructions linked (horizontally and/or vertically)
@@ -54,9 +58,14 @@ cefr-level: ~
 # either nothing (~) or one value among [A1, A2, B1, B2, C1, C2]
 
 references: #include references with (Author Date) citation system (this will be later linked to a full bibliography on the website). E.g., (Pincopallino et al. 2024)
-    - (Pisciotta, forthcoming)
+    - "(Pisciotta, forthcoming)"
 
 
 collector: fla-pi 
 
-note: This construction can have both an evidential and a mirative reading, depending on the surrounding context. It is often found in adversative (example1, example5), temporal, or more generally, coordinate clauses (example3), which favour a mirative "counterexpectation" reading (i.e., the event or state in the complement clause is in contrast with the speaker's expectations). More rarely, the external source of information is specified in the context, triggering an evidential interpretation (i.e., the speaker gets to know something from a source).  #fill with further comments and observations. See the guidelines
+note: >
+"This construction can have both an evidential and a mirative reading, depending on the surrounding context. 
+It is often found in adversative (example1, example5), temporal, or more generally, coordinate clauses (example3), which favour a mirative "counterexpectation" reading 
+(i.e., the event or state in the complement clause is in contrast with the speaker's expectations). 
+More rarely, the external source of information is specified in the context, triggering an evidential interpretation (i.e., the speaker gets to know something from a source)."  
+#fill with further comments and observations. See the guidelines
