@@ -5,9 +5,10 @@ cxn-machine-readable: cxn_68.conllc
 # filename of the conll file
     
 definition: >
-"A new piece of information comes to the speaker's knowledge from an external source. , but the moment of acquisition
-and the moment of enunciation are distinct. 
-The new piece of information is often unexpected or contradicts the speaker's expectations on the state of affairs."
+"A new piece of information comes to the speaker's knowledge from an external source. 
+The information acquired is often unexpected or contradicts the speaker's expectations on the state of affairs, thus generating surprise in the speaker. 
+However, since the moment of acquisition and the moment of enunciation are distinct, this construction does not convey that the speaker is currently surprised, 
+but it is used to convey or generate surprise in the audience."
 # description of construction 
 
 restrictions: >
