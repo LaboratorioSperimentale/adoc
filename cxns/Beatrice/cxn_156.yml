@@ -4,10 +4,10 @@ name: NP-dat tocca V-inf
 cxn-machine-readable: cxn_156.conllc                                                             
 # filename of the conll file
     
-definition: The subject (epxressed by the NP and has the role of Experiencer) has to carry out an action unwillingly. Such an obligation is the consequence of the State of Affairs.
+definition: "The subject (epxressed by the NP and has the role of Experiencer) has to carry out an action unwillingly. Such an obligation is the consequence of the State of Affairs."
 # description of construction 
 
-restrictions: "toccare is conjugated in the 3rd person singular form and V is in the infinitive form"
+restrictions: "the verb toccare is in the 3rd person singular form and V is in the infinitive form"
 # summarize constraints that apply to construction
 
 coll-preferences: 
