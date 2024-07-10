@@ -4,7 +4,7 @@ name: NP-dat tocca V-inf
 cxn-machine-readable: cxn_156.conllc                                                             
 # filename of the conll file
     
-definition: 
+definition: The Experiencer has to carry out an action unwillingly. Such an obligation is the consequence of the State of Affairs.
 # description of construction 
 
 restrictions: 
