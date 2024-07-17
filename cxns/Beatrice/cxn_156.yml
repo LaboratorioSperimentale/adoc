@@ -41,8 +41,9 @@ links: #specify the ids of the constructions linked (horizontally and/or vertica
     - vertical: ida, idb, idc, ...
 
 examples: #name of the example file 
-    - id_esempio
-    - id_esempio_2
+    - isst_tanl-679
+    - CORIS_MONITOR2011_13
+    - itTenTen20_17072024_BB
 
 cefr-level:
 # either nothing (~) or one value among [A1, A2, B1, B2, C1, C2]
