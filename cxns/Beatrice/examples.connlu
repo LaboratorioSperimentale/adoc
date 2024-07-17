@@ -1,1 +1,23 @@
+# sent_id = isst_tanl-679										
+# text = Toccava a me indicare la relatrice per la legge sulla violenza femminile.										
+1	Toccava	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	_	156:C
+2	a	a	ADP	E	_	3	case	3:case	_	156:A
+3	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	1	obl	1:obl:a	_	156:B
+4	indicare	indicare	VERB	V	VerbForm=Inf	1	csubj	1:csubj	_	156:D
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	6:det	_	
+6	relatrice	relatore	NOUN	S	Gender=Fem|Number=Sing	4	obj	4:obj	_	
+7	per	per	ADP	E	_	9	case	9:case	_	
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	9:det	_	
+9	legge	legge	NOUN	S	Gender=Fem|Number=Sing	6	nmod	6:nmod:per	_	
+10-Nov	sulla	_	_	_	_	_	_	_	_	
+10	su	su	ADP	E	_	12	case	12:case	_	
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	12:det	_	
+12	violenza	violenza	NOUN	S	Gender=Fem|Number=Sing	9	nmod	9:nmod:su	_	
+13	femminile	femminile	ADJ	A	Number=Sing	12	amod	12:amod	SpaceAfter=No	
+14	.	.	PUNCT	FS	_	1	punct	1:punct	_	
 
+#sent_id = CORIS_MONITOR2011_13
+#text = Ci mettevo un mucchio di tempo a decidere, come fanno i bambini di cinque anni con i gusti del gelato, e il lunedì mi toccava digiunare tutto il giorno, per smaltire l'abbuffata.
+
+#sent_id = itTenTen_17072024_BB
+#text = Quindi tocca smettere di lamentarsi e ricominciare a combattere.
