@@ -30,3 +30,48 @@
 
 #sent_id = KIParla_BOD2019
 #text = è una cosa che non puoi mh non puoi fare a meno di notare
+
+#sent_id = PAISÀ_18072024BB1													
+#text = Se gli antichi potevano fare a meno della nozione di " bello " in senso stretto era perché avevano termini appropriati per il bello visibile , chiamato " simmetria " , come per il bello udibile , chiamato " armonia " .													
+1	Se	se	C	CS	_	17	mod	_	_				
+2	gli	il	R	RD	|gen=m|num=p|	3	det	_	_				
+3	antichi	antico	A	A	|gen=m|num=p|	1	sub	_	_				
+4	potevano	potere	V	VM	|mod=i|num=p|per=3|ten=i|	5	modal	_	_				
+5	fare	fare	V	V	|mod=f|	1	sub	_	_	104:A			
+6	a	a	E	E	_	5	comp	_	_	104:B			
+7	meno	meno	B	B	_	6	prep	_	_	104:C			
+8	della	di	E	EA	|gen=f|num=s|	7	comp	_	_	104:D			
+9	nozione	nozione	S	S	|gen=f|num=s|	8	prep	_	_	104:E			
+10	di	di	E	E	_	9	comp	_	_				
+11	"	"	F	FB	_	12	punc	_	_					
+12	bello	bello	S	S	|gen=m|num=s|	10	prep	_	_				
+13	"	"	F	FB	_	17	punc	_	_					
+14	in	in	E	E	_	17	comp	_	_				
+15	senso	senso	S	S	|gen=m|num=s|	14	prep	_	_				
+16	stretto	stretto	A	A	|gen=m|num=s|	15	mod	_	_				
+17	era	essere	V	V	|mod=i|num=s|per=3|ten=i|	0	ROOT	_	_				
+18	perché	perché	C	CS	_	17	mod	_	_				
+19	avevano	avere	V	V	|mod=i|num=p|per=3|ten=i|	18	sub	_	_				
+20	termini	termine	S	S	|gen=m|num=p|	19	obj	_	_				
+21	appropriati	appropriare	V	V	|gen=m|mod=p|num=p|	20	mod	_	_				
+22	per	per	E	E	_	21	comp	_	_				
+23	il	il	R	RD	|gen=m|num=s|	24	det	_	_				
+24	bello	bello	S	S	|gen=m|num=s|	22	prep	_	_				
+25	visibile	visibile	A	A	|gen=n|num=s|	24	mod	_	_				
+26	,	,	F	FF	_	27	punc	_	_				
+27	chiamato	chiamare	V	V	|gen=m|mod=p|num=s|	24	mod	_	_				
+28	"	"	F	FB	_	29	punc	_	_					
+29	simmetria	simmetria	S	S	|gen=f|num=s|	27	pred	_	_				
+30	"	"	F	FB	_	29	punc	_	_					
+31	,	,	F	FF	_	33	punc	_	_				
+32	come	come	B	B	_	33	mod	_	_				
+33	per	per	E	E	_	22	prep	_	_				
+34	il	il	R	RD	|gen=m|num=s|	35	det	_	_				
+35	bello	bello	S	S	|gen=m|num=s|	33	prep	_	_				
+36	udibile	udibile	A	A	|gen=n|num=s|	35	mod	_	_				
+37	,	,	F	FF	_	38	punc	_	_				
+38	chiamato	chiamare	V	V	|gen=m|mod=p|num=s|	35	mod	_	_				
+39	"	"	F	FB	_	40	punc	_	_					
+40	armonia	armonia	S	S	|gen=f|num=s|	38	pred	_	_				
+41	"	"	F	FB	_	40	punc	_	_					
+42	.	.	F	FS	_	17	punc	_	_				
