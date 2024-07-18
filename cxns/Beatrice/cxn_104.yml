@@ -44,6 +44,7 @@ examples: #name of the example file
     - itTenTen20_18072024_BB1
     - itTenTen20_17072024_BB1
     - KIParla_BOD2019
+    - PAISÀ_18072024BB1
 
 cefr-level:
 # either nothing (~) or one value among [A1, A2, B1, B2, C1, C2]
