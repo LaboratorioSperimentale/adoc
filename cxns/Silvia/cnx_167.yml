@@ -1,15 +1,15 @@
-name: VN compounds
+name: porta-N compounds
 # “human-intelligible” name for the construction, see wiki 
 
-cxn-machine-readable: cxn_147.conllc                                                             
+cxn-machine-readable: cxn_167.conllc                                                             
 # filename of the conll file
     
-definition: "Morphological construction that creates exocentric compounds mostly referring to a person or an artifact that performs a given action."
+definition: "Morphological construction that creates exocentric compounds that refer to a person carrying something or an artefact containing something."
 
-restrictions: "The first constituent is a VERB (in the form of imperative 2SG), the second constituent is a NOUN. The entire word can be a NOUN or an ADJ."
+restrictions: "The first constituent is the verb portare (in the form of imperative 2SG), the second constituent is a NOUN. The entire word can be a NOUN or an ADJ."
 # summarize constraints that apply to construction
 
-coll-preferences: "The VERB is frequently bysillabic."
+coll-preferences: "The second constituent is frequently a noun referring to a concrete entity"
 # a description of the type of preferred fillers for the slots. 
 
 
@@ -24,7 +24,7 @@ form-tags: #insert one or more formal tags of the cxn type. First look up possib
     - morphology
 
 function-tags: #insert one or more functional tags of the cxn type. First look up "meaning"/"information packaging" tags on https://comparative-concepts.github.io/cc-database/. If no tag applies, choose a name commonly used in the (typological) literature) 
-    - professional nouns
+    - instrument noun
 
 complexity-level: word
 # one value among [word, phrase, clause, beyond-clause]
@@ -32,12 +32,12 @@ complexity-level: word
 category-tags: noun, adjective
 # one value among [adjective, adverb, conjunction, discourse marker, interjection, noun, preposition, pronoun, verb, onomatopoeia, not applicable, other]
 
-schematicity: fully schematic
+schematicity: partially schematic
 # one value among [lexically filled, partially filled/schematic, fully schematic]
 
 links: #specify the ids of the constructions linked (horizontally and/or vertically)
     - horizontal: ~
-    - vertical: 167
+    - vertical: 147
 
 examples: #name of the example file 
     - examples.conllu
