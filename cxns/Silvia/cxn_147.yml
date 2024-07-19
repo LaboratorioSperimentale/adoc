@@ -37,7 +37,7 @@ schematicity: fully schematic
 
 links: #specify the ids of the constructions linked (horizontally and/or vertically)
     - horizontal: ~
-    - vertical: 167
+    - vertical: 168
 
 examples: #name of the example file 
     - examples.conllu
