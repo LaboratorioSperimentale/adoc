@@ -15,8 +15,8 @@
 11-2	foglio	foglio	NOUN							147:A-2
 12	.	.	PUNCT	FS	_	1	punct	1:punct	_	
 
-#sent_id = ItTenten20_19072024_SM
-#text = "Questi portachiavi in plastica dura dalla forma rotonda daranno un tocco di originalità al tuo look"
+# sent_id = ItTenten20_19072024_SM
+# text = Questi portachiavi in plastica dura dalla forma rotonda daranno un tocco di originalità al tuo look
 
 1 Questi
 2 portachiavi 
