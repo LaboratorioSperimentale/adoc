@@ -2,7 +2,7 @@
 # name = VN compounds
 # function = A person or an artifact performing the action of ref:A-1
 # horizontal_links = ~
-# vertical_links = 167
+# vertical_links = 168
 # fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED EXCLUSION SEM_FEATS SEM_ROLES ADJACENCY IDENTITY
 A    _    _    _    NOUN,ADJ    _    _    _    _    _    artifact, person    _    _
 A-1    _    _    VERB    Number=Sing|Person=2|Mood=Imp    _    _    _    _    _    _    _    _
