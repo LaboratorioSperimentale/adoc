@@ -1,15 +1,15 @@
-name: fare a meno di
+name: fare a meno di N/V
 # “human-intelligible” name for the construction, see wiki 
 
 cxn-machine-readable: cxn_104.conllc                                                             
 # filename of the conll file
     
-definition: "The construction means that the subject gives up on doing something/on something/on someone."
+definition: "The construction means that the subject does without something/someone/doing something."
 
-restrictions: 
+restrictions: "The free slot can be either a Verb or a Noun"
 # summarize constraints that apply to construction
 
-coll-preferences: "The construction is most frequently introduced by a deontic modal verb such as "dovere" 'must, have to', or by a negated possibility modal such as "potere". 
+coll-preferences: "The construction is most frequently introduced by a deontic modal verb such as "dovere" 'must, have to', or by a negated possibility modal such as "non potere" 'not be able to'. 
 > In the latter case, the construction means that the subject can't help doing something or can't do without something."
 # a description of the type of preferred fillers for the slots. 
 
@@ -23,7 +23,7 @@ form-tags: #insert one or more formal tags of the cxn type. First look up possib
     - ...
 
 function-tags: #insert one or more functional tags of the cxn type. First look up "meaning"/"information packaging" tags on https://comparative-concepts.github.io/cc-database/. If no tag applies, choose a name commonly used in the (typological) literature) 
-    - devo pensarci meglio
+    - tag1
     - 
     - ...
 
