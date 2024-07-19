@@ -36,7 +36,7 @@ schematicity: fully schematic
 # one value among [lexically filled, partially filled/schematic, fully schematic]
 
 links: #specify the ids of the constructions linked (horizontally and/or vertically)
-    - horizontal:
+    - horizontal: ~
     - vertical: 167
 
 examples: #name of the example file 
