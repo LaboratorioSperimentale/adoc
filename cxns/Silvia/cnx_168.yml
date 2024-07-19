@@ -1,7 +1,7 @@
 name: porta-N compounds
 # “human-intelligible” name for the construction, see wiki 
 
-cxn-machine-readable: cxn_167.conllc                                                             
+cxn-machine-readable: cxn_168.conllc                                                             
 # filename of the conll file
     
 definition: "Morphological construction that creates exocentric compounds that refer to a person carrying something or an artefact containing something."
