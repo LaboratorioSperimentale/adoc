@@ -8,3 +8,9 @@ A	_	a	ADP	_	B	case	0	_	_	_	_	_
 B	_	_	PRON; NOUN; PROPN	Prontype=Prs	C	iobj	0	_	per	Experiencer	A	_
 C	_	toccare	VERB	Number=Sing|Person=3	0	root	1	_	contact	_	B	_
 D	_	_	VERB	VerbForm=Inf	C	csubj	1	_	_	_	_	_
+
+
+# fields = ID	UD.FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	REQUIRED	EXCLUSION	SEM_FEATS	SEM_ROLES	ADJACENCY	IDENTITY
+A	_	_	PRON	Clitic=yes	B	iobj	0	_	per	Experiencer	_	_
+B	_	toccare	VERB	Number=Sing|Person=3	0	root	1	_	contact	_	A	_
+C	_	_	VERB	VerbForm=Inf	B	csubj	1	_	_	_	_	_
