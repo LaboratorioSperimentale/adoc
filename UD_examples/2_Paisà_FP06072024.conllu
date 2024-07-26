@@ -4,11 +4,11 @@
 # sent_id = 2_Paisà_FP06072024
 # text = Poi ci siamo messi a parlare ... e salta fuori che era davvero Chris Squire ! !
 1	Poi	poi	ADV	B	_	4	advmod	_	_
-2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	CXN=345:B
 3	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
-4	messi	mettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
-5	a	a	ADP	E	_	6	mark	_	_
-6	parlare	parlare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+4	messi	mettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	CXN=345:A
+5	a	a	ADP	E	_	6	mark	_	CXN=345:C
+6	parlare	parlare	VERB	V	VerbForm=Inf	4	xcomp	_	CXN=345:D
 7	...	...	PUNCT	FF	_	9	punct	_	_
 8	e	e	CCONJ	CC	_	9	cc	_	_
 9	salta	saltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	CXN=68:A
