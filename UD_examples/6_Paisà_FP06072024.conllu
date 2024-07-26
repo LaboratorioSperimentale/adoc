@@ -1,0 +1,54 @@
+# sent_id = 6_Paisà_FP06072024
+# text = diamine ci vorrebbero far cambiare macchina perché i diesel euro 3 inquinano ... poi viene fuori che il Filtro anti particolato è completamente inutile visto che ogni tot km si intasa e automaticamente butta gran parte di quello che ha trattenuto ... allora quale era la vera motivazione di tutto ciò ?
+1	diamine	diamine	I	I	_	4	mod	_	_
+2	ci	ci	P	PC	|gen=n|num=n|	4	comp_ind	_	_
+3	vorrebbero	volere	V	VM	|mod=d|num=p|per=3|ten=p|	4	modal	_	_
+4	far	fare	V	V	|mod=f|	0	ROOT	_	_
+5	cambiare	cambiare	V	V	|mod=f|	4	arg	_	_
+6	macchina	macchina	S	S	|gen=f|num=s|	5	obj	_	_
+7	perché	perché	C	CS	_	5	mod	_	_
+8	i	il	R	RD	|gen=m|num=p|	9	det	_	_
+9	diesel	diesel	S	S	|gen=m|num=n|	12	subj	_	_
+10	euro	euro	S	S	|gen=m|num=n|	9	mod	_	_
+11	3	3	N	N	_	10	mod	_	_
+12	inquinano	inquinare	V	V	|mod=i|num=p|per=3|ten=p|	7	sub	_	_
+13	...	...	F	FF	_	12	punc	_	_
+14	poi	poi	B	B	_	15	mod	_	_
+15	viene	venire	V	V	|mod=i|num=s|per=3|ten=p|	12	conj	_	_	167:A
+16	fuori	fuori	B	B	_	15	mod	_	_	167:B
+17	che	che	C	CS	_	15	subj	_	_	167:C
+18	il	il	R	RD	|gen=m|num=s|	19	det	_	_
+19	Filtro	filtro	S	S	|gen=m|num=s|	22	subj	_	_
+20	anti	anti	A	A	|gen=n|num=n|	21	mod	_	_
+21	particolato	particolato	S	S	|gen=m|num=s|	22	subj	_	_
+22	è	essere	V	V	|mod=i|num=s|per=3|ten=p|	17	sub	_	_
+23	completamente	completo	B	B	_	24	mod	_	_
+24	inutile	inutile	A	A	|gen=n|num=s|	22	pred	_	_	167:D
+25	visto	vedere	V	V	|gen=m|mod=p|num=s|	17	sub	_	_
+26	che	che	C	CS	_	25	concat	_	_
+27	ogni	ogni	D	DI	|gen=n|num=s|	29	mod	_	_
+28	tot	tot	D	DI	|gen=n|num=n|	29	mod	_	_
+29	km	km	S	SA	_	31	subj	_	_
+30	si	si	P	PC	|gen=n|num=n|per=3|	31	clit	_	_
+31	intasa	intasare	V	V	|mod=i|num=s|per=3|ten=p|	26	sub	_	_
+32	e	e	C	CC	_	31	con	_	_
+33	automaticamente	automatico	B	B	_	34	mod	_	_
+34	butta	buttare	V	V	|mod=i|num=s|per=3|ten=p|	31	conj	_	_
+35	gran	gran	A	A	|gen=n|num=s|	36	mod	_	_
+36	parte	parte	S	S	|gen=f|num=s|	34	obj	_	_
+37	di	di	E	E	_	36	comp	_	_
+38	quello	quello	P	PD	|gen=m|num=s|	37	prep	_	_
+39	che	che	P	PR	|gen=n|num=n|	41	subj	_	_
+40	ha	avere	V	VA	|mod=i|num=s|per=3|ten=p|	41	aux	_	_
+41	trattenuto	trattenere	V	V	|gen=m|mod=p|num=s|	38	mod_rel	_	_
+42	...	...	F	FF	_	41	punc	_	_
+43	allora	allora	B	B	_	41	mod	_	_
+44	quale	quale	D	DQ	|gen=n|num=s|	45	pred	_	_
+45	era	essere	V	V	|mod=i|num=s|per=3|ten=i|	38	mod_rel	_	_
+46	la	il	R	RD	|gen=f|num=s|	48	det	_	_
+47	vera	vero	A	A	|gen=f|num=s|	48	mod	_	_
+48	motivazione	motivazione	S	S	|gen=f|num=s|	45	pred	_	_
+49	di	di	E	E	_	48	comp	_	_
+50	tutto	tutto	D	DI	|gen=m|num=s|	51	mod	_	_
+51	ciò	ciò	P	PD	|gen=m|num=s|	49	prep	_	_
+52	?	?	F	FS	_	4	punc	_	_

@@ -1,0 +1,27 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = ItTenten20_19072024_SM
+# text = Questi portachiavi in plastica dura dalla forma rotonda daranno un tocco di originalità al tuo look
+1	Questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	portachiavi	portachiavo	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	CXN=168:A
+2.1	porta	portare	VERB	_	Number=Sing|Person=2|Mood=Imp	11	root/m	_	CXN=168:A.1
+2.2	chiavi	chiave	NOUN	_	Number=Plur	2.1	case/m	_	CXN=168:A.2
+3	in	in	ADP	E	_	4	case	_	_
+4	plastica	plastica	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	dura	duro	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	forma	forma	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+9	rotonda	rotondo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	daranno	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tocco	tocco	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	originalità	originalità	NOUN	S	Gender=Fem	12	nmod	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	look	look	NOUN	S	Gender=Masc	10	obl	_	SpaceAfter=No

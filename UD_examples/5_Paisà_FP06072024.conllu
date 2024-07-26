@@ -1,0 +1,44 @@
+# sent_id = 5_Paisà_FP06072024
+# text = Mantovano smentisce clamorosamente Travaglio : non è vero che Vito ( Alfredo ) è parlamentare Pdl ; il giornalista replica che ha fatto tre legislature , ma salta fuori che era in Forza Italia prima e non è stato più ricandidato .
+1	Mantovano	Mantovano	S	SP	_	2	subj	_	_
+2	smentisce	smentire	V	V	|mod=i|num=s|per=3|ten=p|	0	ROOT	_	_
+3	clamorosamente	clamoroso	B	B	_	2	mod	_	_
+4	Travaglio	Travaglio	S	SP	_	2	subj	_	_
+5	:	:	F	FC	_	2	punc	_	_
+6	non	non	B	BN	_	7	neg	_	_
+7	è	essere	V	V	|mod=i|num=s|per=3|ten=p|	0	ROOT	_	_
+8	vero	vero	A	A	|gen=m|num=s|	7	pred	_	_
+9	che	che	C	CS	_	7	subj	_	_
+10	Vito	Vito	S	SP	_	0	ROOT	_	_
+11	(	(	F	FB	_	12	punc	_	_
+12	Alfredo	Alfredo	S	SP	_	10	mod	_	_
+13	)	)	F	FB	_	12	punc	_	_
+14	è	essere	V	V	|mod=i|num=s|per=3|ten=p|	0	ROOT	_	_
+15	parlamentare	parlamentare	S	S	|gen=n|num=s|	14	pred	_	_
+16	Pdl	Pdl	S	SP	_	15	mod	_	_
+17	;	;	F	FC	_	16	punc	_	_
+18	il	il	R	RD	|gen=m|num=s|	19	det	_	_
+19	giornalista	giornalista	S	S	|gen=n|num=s|	20	subj	_	_
+20	replica	replicare	V	V	|mod=i|num=s|per=3|ten=p|	0	ROOT	_	_
+21	che	che	C	CS	_	20	arg	_	_
+22	ha	avere	V	VA	|mod=i|num=s|per=3|ten=p|	23	aux	_	_
+23	fatto	fare	V	V	|gen=m|mod=p|num=s|	21	sub	_	_
+24	tre	tre	N	N	_	25	mod	_	_
+25	legislature	legislatura	S	S	|gen=f|num=p|	23	obj	_	_
+26	,	,	F	FF	_	23	con	_	_
+27	ma	ma	C	CC	_	23	con	_	_
+28	salta	saltare	V	V	|mod=i|num=s|per=3|ten=p|	23	conj	_	_	68:A
+29	fuori	fuori	B	B	_	28	mod	_	_	68:B
+30	che	che	C	CS	_	28	subj	_	_	68:C
+31	era	essere	V	V	|mod=i|num=s|per=3|ten=i|	30	sub	_	_	68:D
+32	in	in	E	E	_	31	comp_loc	_	_
+33	Forza	Forza	S	SP	_	32	prep	_	_
+34	Italia	Italia	S	SP	_	33	mod	_	_
+35	prima	primo	N	NO	|gen=f|num=s|	34	mod_temp	_	_
+36	e	e	C	CC	_	23	con	_	_
+37	non	non	B	BN	_	41	neg	_	_
+38	è	essere	V	VA	|mod=i|num=s|per=3|ten=p|	39	aux	_	_
+39	stato	essere	V	VA	|gen=m|mod=p|num=s|	41	aux	_	_
+40	più	più	B	B	_	41	mod	_	_
+41	ricandidato	ricandidato	V	V	|gen=m|mod=p|num=s|	23	conj	_	_
+42	.	.	F	FS	_	20	punc	_	_

@@ -1,0 +1,22 @@
+# sent_id = 3_Paisà_FP06072024
+# text = E salta fuori anche che , in tutto quel tempo , aveva sempre abitato tre case oltre la mia .
+1	E	e	C	CC	_	2	con	_	_
+2	salta	saltare	V	V	|mod=i|num=s|per=3|ten=p|	0	ROOT	_	_	68:A
+3	fuori	fuori	B	B	_	2	mod	_	_	68:B
+4	anche	anche	B	B	_	5	mod	_	_
+5	che	che	C	CS	_	2	subj	_	_	68:C
+6	,	,	F	FF	_	7	punc	_	_
+7	in	in	E	E	_	14	comp	_	_
+8	tutto	tutto	A	A	|gen=m|num=s|	10	mod	_	_
+9	quel	quello	D	DD	|gen=m|num=s|	10	mod	_	_
+10	tempo	tempo	S	S	|gen=m|num=s|	7	prep	_	_
+11	,	,	F	FF	_	7	punc	_	_
+12	aveva	avere	V	VA	|mod=i|num=s|per=3|ten=i|	14	aux	_	_
+13	sempre	sempre	B	B	_	14	mod	_	_
+14	abitato	abitare	V	V	|gen=m|mod=p|num=s|	5	sub	_	_	68:D
+15	tre	tre	N	N	_	16	mod	_	_
+16	case	casa	S	S	|gen=f|num=p|	14	subj_pass	_	_
+17	oltre	oltre	E	E	_	14	comp	_	_
+18	la	il	R	RD	|gen=f|num=s|	19	det	_	_
+19	mia	mio	A	AP	|gen=f|num=s|	17	prep	_	_
+20	.	.	F	FS	_	2	punc	_	_

@@ -1,0 +1,49 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = PAISÀ_18072024BB1
+# text = Se gli antichi potevano fare a meno della nozione di " bello " in senso stretto era perché avevano termini appropriati per il bello visibile , chiamato " simmetria " , come per il bello udibile , chiamato " armonia " .
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	antichi	antico	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	potevano	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	18	advcl	_	CXN=104:A
+6	a	a	ADP	E	_	7	case	_	CXN=104:B
+7	meno	meno	ADV	B	_	5	advmod	_	CXN=104:C
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	CXN=104:D
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	nozione	nozione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	CXN=104:E
+11	di	di	ADP	E	_	13	case	_	_
+12	"	"	PUNCT	FB	_	13	punct	_	_
+13	bello	bello	ADJ	A	Gender=Masc|Number=Sing	10	nmod	_	_
+14	"	"	PUNCT	FB	_	13	punct	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	senso	senso	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+17	stretto	stretto	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+19	perché	perché	SCONJ	CS	_	20	mark	_	_
+20	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	ccomp	_	_
+21	termini	termine	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+22	appropriati	appropriato	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+23	per	per	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	bello	bello	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+26	visibile	visibile	ADJ	A	Number=Sing	25	amod	_	_
+27	,	,	PUNCT	FF	_	25	punct	_	_
+28	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
+29	"	"	PUNCT	FB	_	30	punct	_	_
+30	simmetria	simmetria	NOUN	S	Gender=Fem|Number=Sing	28	xcomp	_	_
+31	"	"	PUNCT	FB	_	30	punct	_	_
+32	,	,	PUNCT	FF	_	36	punct	_	_
+33	come	come	ADV	E	_	36	case	_	_
+34	per	per	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	bello	bello	NOUN	S	Gender=Masc|Number=Sing	25	conj	_	_
+37	udibile	udibile	ADJ	A	Number=Sing	36	amod	_	_
+38	,	,	PUNCT	FF	_	36	punct	_	_
+39	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	acl	_	_
+40	"	"	PUNCT	FB	_	41	punct	_	_
+41	armonia	armonia	NOUN	S	Gender=Fem|Number=Sing	39	xcomp	_	_
+42	"	"	PUNCT	FB	_	41	punct	_	_
+43	.	.	PUNCT	FS	_	18	punct	_	SpaceAfter=No

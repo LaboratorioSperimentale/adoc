@@ -1,0 +1,62 @@
+# sent_id = 1_Paisà_FP06072024
+# text = Quando la defunta principessa Marlene sposò il duca Freid , non rivelò mai la verità sulla propria gravidanza , lasciando credere al marito che il nascituro era figlio suo. tuttavia in un diario rinvenuto da Millerna , salta fuori che in realà quel bambino era frutto della passione fra marlene ed Allen , cosa intuibile anche dalla forte somiglianza.
+1	Quando	quando	C	CS	_	12	mod	_	_
+2	la	il	R	RD	|gen=f|num=s|	4	det	_	_
+3	defunta	defunto	A	A	|gen=f|num=s|	4	mod	_	_
+4	principessa	principe	S	S	|gen=f|num=s|	6	subj	_	_
+5	Marlene	Marlene	S	SP	_	4	mod	_	_
+6	sposò	sposare	V	V	|mod=i|num=s|per=3|ten=s|	1	sub	_	_
+7	il	il	R	RD	|gen=m|num=s|	8	det	_	_
+8	duca	duca	S	S	|gen=m|num=s|	6	obj	_	_
+9	Freid	Freid	S	SP	_	8	mod	_	_
+10	,	,	F	FF	_	1	punc	_	_
+11	non	non	B	BN	_	12	neg	_	_
+12	rivelò	rivelare	V	V	|mod=i|num=s|per=3|ten=s|	0	ROOT	_	_
+13	mai	mai	B	B	_	12	mod_temp	_	_
+14	la	il	R	RD	|gen=f|num=s|	15	det	_	_
+15	verità	verità	S	S	|gen=f|num=n|	12	obj	_	_
+16	sulla	su	E	EA	|gen=f|num=s|	15	comp	_	_
+17	propria	proprio	A	AP	|gen=f|num=s|	18	mod	_	_
+18	gravidanza	gravidanza	S	S	|gen=f|num=s|	16	prep	_	_
+19	,	,	F	FF	_	20	punc	_	_
+20	lasciando	lasciare	V	V	|mod=g|	12	conj	_	_
+21	credere	credere	V	V	|mod=f|	20	arg	_	_
+22	al	al	E	EA	|gen=m|num=s|	21	comp	_	_
+23	marito	marito	S	S	|gen=m|num=s|	22	prep	_	_
+24	che	che	C	CS	_	21	arg	_	_
+25	il	il	R	RD	|gen=m|num=s|	26	det	_	_
+26	nascituro	nascituro	S	S	|gen=m|num=s|	27	subj	_	_
+27	era	essere	V	V	|mod=i|num=s|per=3|ten=i|	24	sub	_	_
+28	figlio	figlio	S	S	|gen=m|num=s|	27	pred	_	_
+29	suo.	suo.	S	SA	_	27	pred	_	_
+30	tuttavia	tuttavia	B	B	_	29	mod	_	_
+31	in	in	E	E	_	27	comp_loc	_	_
+32	un	un	R	RI	|gen=m|num=s|	33	det	_	_
+33	diario	diario	S	S	|gen=m|num=s|	31	prep	_	_
+34	rinvenuto	rinvenire	V	V	|gen=m|mod=p|num=s|	33	mod	_	_
+35	da	da	E	E	_	34	comp	_	_
+36	Millerna	Millerna	S	SP	_	35	prep	_	_
+37	,	,	F	FF	_	31	punc	_	_
+38	salta	saltare	V	V	|mod=i|num=s|per=3|ten=p|	27	conj	_	_	68:A
+39	fuori	fuori	B	B	_	38	mod	_	_	68:B
+40	che	che	C	CS	_	38	arg	_	_	68:C
+41	in	in	E	E	_	45	comp_loc	_	_
+42	realà	realà	S	SP	_	41	prep	_	_
+43	quel	quello	D	DD	|gen=m|num=s|	44	mod	_	_
+44	bambino	bambino	S	S	|gen=m|num=s|	45	subj	_	_
+45	era	essere	V	V	|mod=i|num=s|per=3|ten=i|	40	sub	_	_	68:D
+46	frutto	frutto	S	S	|gen=m|num=s|	45	pred	_	_
+47	della	di	E	EA	|gen=f|num=s|	46	comp	_	_
+48	passione	passione	S	S	|gen=f|num=s|	47	prep	_	_
+49	fra	fra	E	E	_	48	comp	_	_
+50	marlene	marlene	S	S	|gen=f|num=s|	49	prep	_	_
+51	ed	ed	C	CC	_	50	con	_	_
+52	Allen	Allen	S	SP	_	50	conj	_	_
+53	,	,	F	FF	_	46	con	_	_
+54	cosa	cosa	S	S	|gen=f|num=s|	46	mod	_	_
+55	intuibile	intuibile	A	A	|gen=n|num=s|	54	mod	_	_
+56	anche	anche	B	B	_	57	mod	_	_
+57	dalla	da	E	EA	|gen=f|num=s|	55	comp	_	_
+58	forte	forte	A	A	|gen=n|num=s|	59	mod	_	_
+59	somiglianza	somiglianza	S	S	|gen=f|num=s|	57	prep	_	_
+60	.	.	F	FS	_	12	punc	_	_

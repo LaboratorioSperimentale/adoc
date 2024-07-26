@@ -1,0 +1,16 @@
+# sent_id = tut-3121
+# text = Vediamo allora qualche criterio per ricomporre o confermare il proprio portafoglio.
+1	Vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+2	allora	allora	ADV	B	_	1	advmod	1:advmod	_
+3	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	4	det	4:det	_
+4	criterio	criterio	NOUN	S	Gender=Masc|Number=Sing	1	obj	1:obj	_
+5	per	per	ADP	E	_	6	mark	6:mark	_
+6	ricomporre	ricomporre	VERB	V	VerbForm=Inf	4	acl	4:acl:per	_
+7	o	o	CCONJ	CC	_	8	cc	8:cc	_
+8	confermare	confermare	VERB	V	VerbForm=Inf	6	conj	4:acl:per|6:conj:o	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	11:det	_
+10	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	11:det:poss	_
+11	portafoglio	portafoglio	NOUN	S	Gender=Masc|Number=Sing	8	obj	8:obj	SpaceAfter=No|CXN=147:A|CXN=168:A
+11.1	porta	portare	VERB	_	Number=Sing|Person=2|Mood=Imp	11	root/m	_	CXN=147:A.1|CXN=168:A.1
+11.2	foglio	foglio	NOUN	_	Numer=Sing	11.1	case/m	_	CXN=147:A.2|CXN=168:A.2
+12	.	.	PUNCT	FS	_	1	punct	1:punct	_

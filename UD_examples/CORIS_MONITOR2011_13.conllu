@@ -1,0 +1,45 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = CORIS_MONITOR2011_13
+# text = Ci mettevo un mucchio di tempo a decidere, come fanno i bambini di cinque anni con i gusti del gelato, e il lunedì mi toccava digiunare tutto il giorno, per smaltire l'abbuffata.
+1	Ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	_
+2	mettevo	mettere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	mucchio	mucchio	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	decidere	decidere	VERB	V	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	come	come	SCONJ	CS	_	11	mark	_	_
+11	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	cinque	cinque	NUM	N	NumType=Card	16	nummod	_	_
+16	anni	anno	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	gusti	gusto	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	gelato	gelato	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	28	punct	_	_
+24	e	e	CCONJ	CC	_	28	cc	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	lunedì	lunedì	NOUN	S	Gender=Masc	28	obl	_	_
+27	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	28	iobj	_	_
+28	toccava	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+29	digiunare	digiunare	VERB	V	VerbForm=Inf	28	xcomp	_	_
+30	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	32	det:predet	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	29	punct	_	_
+34	per	per	ADP	E	_	35	mark	_	_
+35	smaltire	smaltire	VERB	V	VerbForm=Inf	29	advcl	_	_
+36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
+37	abbuffata	abbuffata	NOUN	S	Gender=Fem|Number=Sing	35	obj	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+

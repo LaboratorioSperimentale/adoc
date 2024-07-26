@@ -1,16 +1,16 @@
 name: VN compounds
-# “human-intelligible” name for the construction, see wiki 
+# “human-intelligible” name for the construction, see wiki
 
-cxn-machine-readable: cxn_147.conllc                                                             
+cxn-machine-readable: cxn_147.conllc
 # filename of the conll file
-    
+
 definition: "Morphological construction that creates exocentric compounds mostly referring to a person or an artifact that performs a given action."
 
 restrictions: "The first constituent is a VERB (in the form of imperative 2SG), the second constituent is a NOUN. The entire word can be a NOUN or an ADJ."
 # summarize constraints that apply to construction
 
 coll-preferences: "The VERB is frequently bysillabic."
-# a description of the type of preferred fillers for the slots. 
+# a description of the type of preferred fillers for the slots.
 
 
 usage: # specify the value for one or more of the following oppositions. Delete the ones that do not apply (e.g., when the cxn is freely used in both the contexts)
@@ -18,12 +18,12 @@ usage: # specify the value for one or more of the following oppositions. Delete 
     - Both spoken and written
     - Standard
 
-form-tags: #insert one or more formal tags of the cxn type. First look up possible "construction"/"strategy" tags on https://comparative-concepts.github.io/cc-database/. If no tag applies, choose a name commonly used in the (typological) literature) 
+form-tags: #insert one or more formal tags of the cxn type. First look up possible "construction"/"strategy" tags on https://comparative-concepts.github.io/cc-database/. If no tag applies, choose a name commonly used in the (typological) literature)
     - exocentric compound
     - compounding
     - morphology
 
-function-tags: #insert one or more functional tags of the cxn type. First look up "meaning"/"information packaging" tags on https://comparative-concepts.github.io/cc-database/. If no tag applies, choose a name commonly used in the (typological) literature) 
+function-tags: #insert one or more functional tags of the cxn type. First look up "meaning"/"information packaging" tags on https://comparative-concepts.github.io/cc-database/. If no tag applies, choose a name commonly used in the (typological) literature)
     - professional nouns
 
 complexity-level: word
@@ -39,7 +39,7 @@ links: #specify the ids of the constructions linked (horizontally and/or vertica
     - horizontal: ~
     - vertical: 168
 
-examples: #name of the example file 
+examples: #name of the example file
     - tut-3121
     - ItTenten20_19072024_SM
 
@@ -48,8 +48,8 @@ cefr-level: ~
 
 references: #include references
     - "Micheli, M. S. (2020). Composizione italiana in diacronia. Le parole composte dell'italiano nel quadro della Morfologia delle Costruzioni. Berlin: DeGruyter."
-    
 
-collector: msilviamich 
+
+collector: msilviamich
 
 note: #fill with further comments and observations. See the guidelines

@@ -1,0 +1,46 @@
+# sent_id = 4_Paisà_FP06072024
+# text = Da varie ricerche e approfondimenti di psicologia salta fuori che una simile condizione può innescare una forma di gelosia così tormentosa , per sé e per l' altro , da impedire un' equilibrata crescita del rapporto di coppia , indipendente e senza macchie .
+1	Da	da	E	E	_	8	comp_temp	_	_
+2	varie	vario	D	DI	|gen=f|num=p|	3	mod	_	_
+3	ricerche	ricerca	S	S	|gen=f|num=p|	1	prep	_	_
+4	e	e	C	CC	_	3	con	_	_
+5	approfondimenti	approfondimento	S	S	|gen=m|num=p|	3	conj	_	_
+6	di	di	E	E	_	5	comp	_	_
+7	psicologia	psicologia	S	S	|gen=f|num=s|	6	prep	_	_
+8	salta	saltare	V	V	|mod=i|num=s|per=3|ten=p|	0	ROOT	_	_	68:A
+9	fuori	fuori	B	B	_	8	mod	_	_	68:B
+10	che	che	C	CS	_	8	arg	_	_	68:C
+11	una	una	R	RI	|gen=f|num=s|	13	det	_	_
+12	simile	simile	A	A	|gen=n|num=s|	13	mod	_	_
+13	condizione	condizione	S	S	|gen=f|num=s|	15	subj	_	_
+14	può	potere	V	VM	|mod=i|num=s|per=3|ten=p|	15	modal	_	_
+15	innescare	innescare	V	V	|mod=f|	10	sub	_	_	68:D
+16	una	una	R	RI	|gen=f|num=s|	17	det	_	_
+17	forma	forma	S	S	|gen=f|num=s|	15	obj	_	_
+18	di	di	E	E	_	17	comp	_	_
+19	gelosia	gelosia	S	S	|gen=f|num=s|	18	prep	_	_
+20	così	così	B	B	_	21	mod	_	_
+21	tormentosa	tormentoso	A	A	|gen=f|num=s|	19	mod	_	_
+22	,	,	F	FF	_	8	con	_	_
+23	per	per	E	E	_	8	comp	_	_
+24	sé	sé	P	PE	|gen=n|num=n|per=3|	23	prep	_	_
+25	e	e	C	CC	_	23	con	_	_
+26	per	per	E	E	_	23	conj	_	_
+27	l'	il	R	RD	|gen=n|num=s|	28	det	_	_
+28	altro	altro	P	PI	|gen=m|num=s|	26	prep	_	_
+29	,	,	F	FF	_	23	punc	_	_
+30	da	da	E	E	_	23	concat	_	_
+31	impedire	impedire	V	V	|mod=f|	30	prep	_	_
+32	un'	una	R	RI	|gen=f|num=s|	34	det	_	_
+33	equilibrata	equilibrato	A	A	|gen=f|num=s|	34	mod	_	_
+34	crescita	crescita	S	S	|gen=f|num=s|	31	obj	_	_
+35	del	di	E	EA	|gen=m|num=s|	34	comp	_	_
+36	rapporto	rapporto	S	S	|gen=m|num=s|	35	prep	_	_
+37	di	di	E	E	_	36	comp	_	_
+38	coppia	coppia	S	S	|gen=f|num=s|	37	prep	_	_
+39	,	,	F	FF	_	40	punc	_	_
+40	indipendente	indipendente	A	A	|gen=n|num=s|	38	mod	_	_
+41	e	e	C	CC	_	35	con	_	_
+42	senza	senza	E	E	_	23	conj	_	_
+43	macchie	macchia	S	S	|gen=f|num=p|	42	prep	_	_
+44	.	.	F	FS	_	8	punc	_	_

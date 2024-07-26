@@ -1,0 +1,31 @@
+# sent_id = 7_Paisà_FP06072024
+# text = Dall' analisi dei giudici contabili viene fuori inoltre che per il decommissioning « nel 2008 sono stati sostenuti costi per 46,4 milioni di euro » , manutenzione esclusa .
+1	Dall'	da	E	EA	|gen=n|num=s|	6	comp_loc	_	_
+2	analisi	analisi	S	S	|gen=f|num=n|	1	prep	_	_
+3	dei	di	E	EA	|gen=m|num=p|	2	comp	_	_
+4	giudici	giudice	S	S	|gen=m|num=p|	3	prep	_	_
+5	contabili	contabile	A	A	|gen=n|num=p|	4	mod	_	_
+6	viene	venire	V	V	|mod=i|num=s|per=3|ten=p|	0	ROOT	_	_	167:A
+7	fuori	fuori	B	B	_	6	mod	_	_	167:B
+8	inoltre	inoltre	B	B	_	6	concat	_	_
+9	che	che	C	CS	_	6	arg	_	_	167:C
+10	per	per	E	E	_	18	comp	_	_
+11	il	il	R	RD	|gen=m|num=s|	12	det	_	_
+12	decommissioning	decommissioning	S	S	|gen=m|num=n|	10	prep	_	_
+13	«	«	F	FB	_	18	punc	_	_
+14	nel	in	E	EA	|gen=m|num=s|	18	comp_temp	_	_
+15	2008	2008	N	N	_	14	prep	_	_
+16	sono	essere	V	VA	|mod=i|num=p|per=3|ten=p|	17	aux	_	_
+17	stati	essere	V	VA	|gen=m|mod=p|num=p|	18	aux	_	_
+18	sostenuti	sostenere	V	V	|gen=m|mod=p|num=p|	9	sub	_	_	167:D
+19	costi	costo	S	S	|gen=m|num=p|	18	obj	_	_
+20	per	per	E	E	_	19	comp	_	_
+21	46,4	46,4	N	N	_	22	mod	_	_
+22	milioni	milione	S	S	|gen=m|num=p|	20	prep	_	_
+23	di	di	E	E	_	22	comp	_	_
+24	euro	euro	S	S	|gen=m|num=n|	23	prep	_	_
+25	»	»	F	FB	_	22	punc	_	_
+26	,	,	F	FF	_	19	con	_	_
+27	manutenzione	manutenzione	S	S	|gen=f|num=s|	19	conj	_	_
+28	esclusa	escludere	V	V	|gen=f|mod=p|num=s|	27	mod	_	_
+29	.	.	F	FS	_	6	punc	_	_

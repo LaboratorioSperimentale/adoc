@@ -1,0 +1,38 @@
+# sent_id = 8_Paisà_FP06072024
+# text = Sommando le spese annuali di tutti gli Stati membri viene fuori che l' Unione europea spende più di 311,9 miliardi di USD , seconda solo agli Stati Uniti d' America con 518 miliardi di USD .
+1	Sommando	sommare	V	V	|mod=g|	10	mod	_	_
+2	le	il	R	RD	|gen=f|num=p|	3	det	_	_
+3	spese	spesa	S	S	|gen=f|num=p|	1	obj	_	_
+4	annuali	annuale	A	A	|gen=n|num=p|	3	mod	_	_
+5	di	di	E	E	_	3	comp	_	_
+6	tutti	tutto	T	T	|gen=m|num=p|	9	mod	_	_
+7	gli	il	R	RD	|gen=m|num=p|	9	det	_	_
+8	Stati	Stati	S	SP	_	9	mod	_	_
+9	membri	membro	S	S	|gen=m|num=p|	3	mod	_	_
+10	viene	venire	V	V	|mod=i|num=s|per=3|ten=p|	0	ROOT	_	_	167:A
+11	fuori	fuori	B	B	_	10	mod	_	_	167:B
+12	che	che	C	CS	_	10	arg	_	_	167:C
+13	l'	il	R	RD	|gen=n|num=s|	14	det	_	_
+14	Unione	Unione	S	SP	_	16	subj	_	_
+15	europea	europeo	A	A	|gen=f|num=s|	14	mod	_	_
+16	spende	spendere	V	V	|mod=i|num=s|per=3|ten=p|	12	sub	_	_	167:D
+17	più	più	B	B	_	16	mod	_	_
+18	di	di	E	E	_	17	comp	_	_
+19	311,9	311,9	N	N	_	20	mod	_	_
+20	miliardi	miliardo	S	S	|gen=m|num=p|	18	prep	_	_
+21	di	di	E	E	_	20	comp	_	_
+22	USD	USD	S	SP	_	21	prep	_	_
+23	,	,	F	FF	_	20	punc	_	_
+24	seconda	secondo	N	NO	|gen=f|num=s|	20	mod	_	_
+25	solo	solo	B	B	_	26	mod	_	_
+26	agli	al	E	EA	|gen=m|num=p|	20	comp	_	_
+27	Stati	Stati	S	SP	_	26	prep	_	_
+28	Uniti	Uniti	S	SP	_	27	mod	_	_
+29	d'	d'	E	E	_	27	comp_loc	_	_
+30	America	America	S	SP	_	29	prep	_	_
+31	con	con	E	E	_	16	comp	_	_
+32	518	518	N	N	_	33	mod	_	_
+33	miliardi	miliardo	S	S	|gen=m|num=p|	31	prep	_	_
+34	di	di	E	E	_	33	comp	_	_
+35	USD	USD	S	SP	_	34	prep	_	_
+36	.	.	F	FS	_	16	punc	_	_
