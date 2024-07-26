@@ -1,44 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
 # sent_id = 5_Paisà_FP06072024
 # text = Mantovano smentisce clamorosamente Travaglio : non è vero che Vito ( Alfredo ) è parlamentare Pdl ; il giornalista replica che ha fatto tre legislature , ma salta fuori che era in Forza Italia prima e non è stato più ricandidato .
-1	Mantovano	Mantovano	S	SP	_	2	subj	_	_
-2	smentisce	smentire	V	V	|mod=i|num=s|per=3|ten=p|	0	ROOT	_	_
-3	clamorosamente	clamoroso	B	B	_	2	mod	_	_
-4	Travaglio	Travaglio	S	SP	_	2	subj	_	_
-5	:	:	F	FC	_	2	punc	_	_
-6	non	non	B	BN	_	7	neg	_	_
-7	è	essere	V	V	|mod=i|num=s|per=3|ten=p|	0	ROOT	_	_
-8	vero	vero	A	A	|gen=m|num=s|	7	pred	_	_
-9	che	che	C	CS	_	7	subj	_	_
-10	Vito	Vito	S	SP	_	0	ROOT	_	_
-11	(	(	F	FB	_	12	punc	_	_
-12	Alfredo	Alfredo	S	SP	_	10	mod	_	_
-13	)	)	F	FB	_	12	punc	_	_
-14	è	essere	V	V	|mod=i|num=s|per=3|ten=p|	0	ROOT	_	_
-15	parlamentare	parlamentare	S	S	|gen=n|num=s|	14	pred	_	_
-16	Pdl	Pdl	S	SP	_	15	mod	_	_
-17	;	;	F	FC	_	16	punc	_	_
-18	il	il	R	RD	|gen=m|num=s|	19	det	_	_
-19	giornalista	giornalista	S	S	|gen=n|num=s|	20	subj	_	_
-20	replica	replicare	V	V	|mod=i|num=s|per=3|ten=p|	0	ROOT	_	_
-21	che	che	C	CS	_	20	arg	_	_
-22	ha	avere	V	VA	|mod=i|num=s|per=3|ten=p|	23	aux	_	_
-23	fatto	fare	V	V	|gen=m|mod=p|num=s|	21	sub	_	_
-24	tre	tre	N	N	_	25	mod	_	_
-25	legislature	legislatura	S	S	|gen=f|num=p|	23	obj	_	_
-26	,	,	F	FF	_	23	con	_	_
-27	ma	ma	C	CC	_	23	con	_	_
-28	salta	saltare	V	V	|mod=i|num=s|per=3|ten=p|	23	conj	_	_	68:A
-29	fuori	fuori	B	B	_	28	mod	_	_	68:B
-30	che	che	C	CS	_	28	subj	_	_	68:C
-31	era	essere	V	V	|mod=i|num=s|per=3|ten=i|	30	sub	_	_	68:D
-32	in	in	E	E	_	31	comp_loc	_	_
-33	Forza	Forza	S	SP	_	32	prep	_	_
-34	Italia	Italia	S	SP	_	33	mod	_	_
-35	prima	primo	N	NO	|gen=f|num=s|	34	mod_temp	_	_
-36	e	e	C	CC	_	23	con	_	_
-37	non	non	B	BN	_	41	neg	_	_
-38	è	essere	V	VA	|mod=i|num=s|per=3|ten=p|	39	aux	_	_
-39	stato	essere	V	VA	|gen=m|mod=p|num=s|	41	aux	_	_
-40	più	più	B	B	_	41	mod	_	_
-41	ricandidato	ricandidato	V	V	|gen=m|mod=p|num=s|	23	conj	_	_
-42	.	.	F	FS	_	20	punc	_	_
+1	Mantovano	Mantovano	PROPN	SP	_	2	nsubj	_	_
+2	smentisce	smentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	clamorosamente	clamorosamente	ADV	B	_	2	advmod	_	_
+4	Travaglio	Travaglio	PROPN	SP	_	2	obj	_	_
+5	:	:	PUNCT	FC	_	2	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	vero	vero	ADJ	A	Gender=Masc|Number=Sing	2	parataxis	_	_
+9	che	che	SCONJ	CS	_	15	mark	_	_
+10	Vito	Vito	PROPN	SP	_	15	nsubj	_	_
+11	(	(	PUNCT	FB	_	12	punct	_	_
+12	Alfredo	Alfredo	PROPN	SP	_	10	nmod	_	_
+13	)	)	PUNCT	FB	_	12	punct	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	parlamentare	parlamentare	ADJ	A	Number=Sing	8	ccomp	_	_
+16	Pdl	Pdl	PROPN	SP	_	15	nmod	_	_
+17	;	;	PUNCT	FC	_	8	punct	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	giornalista	giornalista	NOUN	S	Number=Sing	20	nsubj	_	_
+20	replica	replicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+21	che	che	SCONJ	CS	_	23	mark	_	_
+22	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	ccomp	_	_
+24	tre	tre	NUM	N	NumType=Card	25	nummod	_	_
+25	legislature	legislatura	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	_
+26	,	,	PUNCT	FF	_	28	punct	_	_
+27	ma	ma	CCONJ	CC	_	28	cc	_	_
+28	salta	saltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	conj	_	CXN=68:A
+29	fuori	fuori	ADV	B	_	28	advmod	_	CXN=68:B
+30	che	che	SCONJ	CS	_	33	mark	_	CXN=68:C
+31	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	cop	_	CXN=68:D
+32	in	in	ADP	E	_	33	case	_	_
+33	Forza	Forza	PROPN	SP	_	28	ccomp	_	_
+34	Italia	Italia	PROPN	SP	_	33	flat:name	_	_
+35	prima	prima	ADV	B	_	33	advmod	_	_
+36	e	e	CCONJ	CC	_	41	cc	_	_
+37	non	non	ADV	BN	PronType=Neg	41	advmod	_	_
+38	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	_
+39	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	41	aux:pass	_	_
+40	più	più	ADV	B	_	41	advmod	_	_
+41	ricandidato	ricandidare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	33	conj	_	_
+42	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
