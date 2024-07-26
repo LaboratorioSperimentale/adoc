@@ -1,9 +1,9 @@
 # cxn_id = 147
 # name = VN compounds
 # function = A person or an artifact performing the action of ref:A-1
-# horizontal_links = ~
-# vertical_links = 168
+# horizontal_links = -
+# vertical_links = -
 # fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED EXCLUSION SEM_FEATS SEM_ROLES ADJACENCY IDENTITY
-A    _    _    _    NOUN,ADJ    _    _    _    _    _    artifact, person    _    _
-A-1    _    _    VERB    Number=Sing|Person=2|Mood=Imp    _    _    _    _    _    _    _    _
-A-2    _    _    NOUN    _    _    case/m    _    _    _    _    _    _
+A	_	_	NOUN,ADJ	_	0	root	_	_	_	artifact, person	_	_
+A.1	_	_	VERB	Number=Sing|Person=2|Mood=Imp	A	root/m	_	_	_	_	_	_
+A.2	_	_	NOUN	_	A.1	case/m	_	_	_	_	_	_
