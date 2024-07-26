@@ -1,77 +1,62 @@
 name: "viene fuori che V"
-# “human-intelligible” name for the construction, see wiki 
 
 cxn-machine-readable: cxn_167.conllc
-# filename of the conll file
-    
+
 definition: >
-"A new piece of information comes to the speaker's knowledge from an external source. 
-The information acquired is often unexpected or contradicts the speaker's expectations on the state of affairs, thus generating surprise in the speaker. 
-However, since the moment of acquisition and the moment of enunciation are distinct, this construction does not convey that the speaker is currently surprised, 
-but it is used to convey or generate surprise in the audience.
-In some cases, the new piece of information is not discovered from external sources, but it comes as the result or consequence of some action."
-# description of construction 
+    A new piece of information comes to the speaker's knowledge from an external source.
+    The information acquired is often unexpected or contradicts the speaker's expectations on the state of affairs, thus generating surprise in the speaker.
+    However, since the moment of acquisition and the moment of enunciation are distinct, this construction does not convey that the speaker is currently surprised, but it is used to convey or generate surprise in the audience.
+    In some cases, the new piece of information is not discovered from external sources, but it comes as the result or consequence of some action."
 
 restrictions: >
-"The main verb venire is always impersonal, so it has no subject and it is always found in the 3rd person singular. 
-The verb in the complement clause is always in a finite form."
-# summarize constraints that apply to construction. The field can also be empty (~)
+    The main verb venire is always impersonal, so it has no subject and it is always found in the 3rd person singular.
+    The verb in the complement clause is always in a finite form."
 
-coll-preferences: ~
-# can contain: a) a list of lemmas that appear as most common fillers of the empty slots; b) a description of the type of preferred fillers for the slots. 
-# In case of multiple slots: - Slot1: [a,b,c,d]
-# - Slot2: [a,b,c,d] 
-# The field can also be empty (~)
+coll-preferences:
 
-usage: ~
-# either none (~) or specify the value for one or more of the following oppositions. Delete the ones that do not apply (e.g., when the cxn is freely used in both the contexts)
-    
 
-form-tags: #insert one or more formal tags of the cxn type. First look up possible "construction" tags on https://comparative-concepts.github.io/cc-database/. If no tag applies, choose a name commonly used in the (typological) literature) 
+usage:
+
+
+
+form-tags:
     - "complement clause construction"
     - "impersonal construction"
     - "(non-indexed?)"
 
 
-function-tags: #insert one or more functional tags of the cxn type. First look up "meaning" tags on https://comparative-concepts.github.io/cc-database/. If no tag applies, choose a name commonly used in the (typological) literature) 
+function-tags:
     - "evidentiality"
     - "mirativity"
-    
-    
-    
+
 
 complexity-level: "clause"
-# one value among [word, phrase, clause, beyond-clause]
 
 category-tags: "not applicable"
-# one value among [adjective, adverb, conjunction, discourse marker, interjection, noun, preposition, pronoun, verb, onomatopoeia, not applicable, other]
 
 schematicity: "partially filled/schematic"
-# one value among [lexically filled, partially filled/schematic, fully schematic]
 
-links: #specify the ids of the constructions linked (horizontally and/or vertically)
+links:
     - horizontal: 68, 168, 169
     - vertical: 170
 
-examples: #id of the example 
+examples:
     - 3214_it_postwita
     - 6_Paisà_FP06072024
     - 7_Paisà_FP06072024
     - 8_Paisà_FP06072024
     - 9_Paisà_FP06072024
 
-cefr-level: ~
-# either nothing (~) or one value among [A1, A2, B1, B2, C1, C2]
+cefr-level:
 
-references: #include references with (Author Date) citation system (this will be later linked to a full bibliography on the website). E.g., (Pincopallino et al. 2024)
+references:
     - "(Pisciotta, forthcoming)"
 
 
-collector: fla-pi 
+collector: fla-pi
 
 note: >
-"This construction can have both an evidential and a mirative reading, depending on the surrounding context. 
-When found in adversative (example2), temporal, or more generally, coordinate clauses, a mirative "counterexpectation" interpretation is triggered (i.e., the event or state in the complement clause is in contrast with the speaker's or participants' expectations). 
-When the external source of information is specified in the context (example3), the evidential interpretation is more salient (i.e., the speaker gets to know something from a source).
-Sometimes, the phrase usually specifying the source refers instead to the event or process that produces the complement clause event as its result"
-#result  #fill with further comments and observations. See the guidelines
+    This construction can have both an evidential and a mirative reading, depending on the surrounding context.
+    When found in adversative (example2), temporal, or more generally, coordinate clauses, a mirative "counterexpectation" interpretation is triggered (i.e., the event or state in the complement clause is in contrast with the speaker's or participants' expectations).
+    When the external source of information is specified in the context (example3), the evidential interpretation is more salient (i.e., the speaker gets to know something from a source).
+    Sometimes, the phrase usually specifying the source refers instead to the event or process that produces the complement clause event as its result"

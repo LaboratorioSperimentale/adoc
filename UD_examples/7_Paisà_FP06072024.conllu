@@ -1,31 +1,40 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
 # sent_id = 7_Paisà_FP06072024
 # text = Dall' analisi dei giudici contabili viene fuori inoltre che per il decommissioning « nel 2008 sono stati sostenuti costi per 46,4 milioni di euro » , manutenzione esclusa .
-1	Dall'	da	E	EA	|gen=n|num=s|	6	comp_loc	_	_
-2	analisi	analisi	S	S	|gen=f|num=n|	1	prep	_	_
-3	dei	di	E	EA	|gen=m|num=p|	2	comp	_	_
-4	giudici	giudice	S	S	|gen=m|num=p|	3	prep	_	_
-5	contabili	contabile	A	A	|gen=n|num=p|	4	mod	_	_
-6	viene	venire	V	V	|mod=i|num=s|per=3|ten=p|	0	ROOT	_	_	167:A
-7	fuori	fuori	B	B	_	6	mod	_	_	167:B
-8	inoltre	inoltre	B	B	_	6	concat	_	_
-9	che	che	C	CS	_	6	arg	_	_	167:C
-10	per	per	E	E	_	18	comp	_	_
-11	il	il	R	RD	|gen=m|num=s|	12	det	_	_
-12	decommissioning	decommissioning	S	S	|gen=m|num=n|	10	prep	_	_
-13	«	«	F	FB	_	18	punc	_	_
-14	nel	in	E	EA	|gen=m|num=s|	18	comp_temp	_	_
-15	2008	2008	N	N	_	14	prep	_	_
-16	sono	essere	V	VA	|mod=i|num=p|per=3|ten=p|	17	aux	_	_
-17	stati	essere	V	VA	|gen=m|mod=p|num=p|	18	aux	_	_
-18	sostenuti	sostenere	V	V	|gen=m|mod=p|num=p|	9	sub	_	_	167:D
-19	costi	costo	S	S	|gen=m|num=p|	18	obj	_	_
-20	per	per	E	E	_	19	comp	_	_
-21	46,4	46,4	N	N	_	22	mod	_	_
-22	milioni	milione	S	S	|gen=m|num=p|	20	prep	_	_
-23	di	di	E	E	_	22	comp	_	_
-24	euro	euro	S	S	|gen=m|num=n|	23	prep	_	_
-25	»	»	F	FB	_	22	punc	_	_
-26	,	,	F	FF	_	19	con	_	_
-27	manutenzione	manutenzione	S	S	|gen=f|num=s|	19	conj	_	_
-28	esclusa	escludere	V	V	|gen=f|mod=p|num=s|	27	mod	_	_
-29	.	.	F	FS	_	6	punc	_	_
+1-2	Dall'	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	analisi	analisi	NOUN	S	Gender=Fem	8	obl	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	giudici	giudice	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+7	contabili	contabile	ADJ	A	Number=Plur	6	amod	_	_
+8	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CXN=167:A
+9	fuori	fuori	ADV	B	_	8	advmod	_	CXN=167:B
+10	inoltre	inoltre	ADV	B	_	8	advmod	_	_
+11	che	che	SCONJ	CS	_	21	mark	_	CXN=167:C
+12	per	per	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	decommissioning	decommissioning	NOUN	S	Gender=Masc	21	obl	_	_
+15	«	«	PUNCT	FB	_	21	punct	_	_
+16-17	nel	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	2008	2008	NUM	N	NumType=Card	21	obl	_	_
+19	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	aux:pass	_	_
+21	sostenuti	sostenere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	ccomp	_	CXN=167:D
+22	costi	costo	NOUN	S	Gender=Masc|Number=Plur	21	nsubj:pass	_	_
+23	per	per	ADP	E	_	25	case	_	_
+24	46,4	46,4	NUM	N	NumType=Card	25	nummod	_	_
+25	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	euro	euro	NOUN	S	Gender=Masc	25	nmod	_	_
+28	»	»	PUNCT	FB	_	21	punct	_	_
+29	,	,	PUNCT	FF	_	22	punct	_	_
+30	manutenzione	manutenzione	NOUN	S	Gender=Fem|Number=Sing	22	appos	_	_
+31	esclusa	escluso	ADJ	A	Gender=Fem|Number=Sing	30	amod	_	_
+32	.	.	PUNCT	FS	_	8	punct	_	SpaceAfter=No

@@ -1,31 +1,36 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
 # sent_id = 9_Paisà_FP06072024
 # text = Ne viene fuori che per lo stesso processo ( che so , il solito furto aggravato da qualcosa ) un avvocato nel 1968 pigliava il quadruplo di oggi .
-1	Ne	ne	P	PC	|gen=n|num=n|	2	comp	_	_
-2	viene	venire	V	V	|mod=i|num=s|per=3|ten=p|	0	ROOT	_	_	167:A
-3	fuori	fuori	B	B	_	2	mod	_	_	167:B
-4	che	che	C	CS	_	2	subj	_	_	167:C
-5	per	per	E	E	_	11	comp	_	_
-6	lo	il	R	RD	|gen=m|num=s|	8	det	_	_
-7	stesso	stesso	A	A	|gen=m|num=s|	8	mod	_	_
-8	processo	processo	S	S	|gen=m|num=s|	5	prep	_	_
-9	(	(	F	FB	_	11	punc	_	_
-10	che	che	P	PR	|gen=n|num=n|	11	subj	_	_
-11	so	sapere	V	V	|mod=i|num=s|per=1|ten=p|	4	sub	_	_
-12	,	,	F	FF	_	4	con	_	_
-13	il	il	R	RD	|gen=m|num=s|	15	det	_	_
-14	solito	solito	A	A	|gen=m|num=s|	15	mod	_	_
-15	furto	furto	S	S	|gen=m|num=s|	16	subj	_	_
-16	aggravato	aggravare	V	V	|gen=m|mod=p|num=s|	4	sub	_	_
-17	da	da	E	E	_	16	comp	_	_
-18	qualcosa	qualcosa	P	PI	|gen=n|num=s|	17	prep	_	_
-19	)	)	F	FB	_	18	punc	_	_
-20	un	un	R	RI	|gen=m|num=s|	21	det	_	_
-21	avvocato	avvocato	S	S	|gen=m|num=s|	16	obj	_	_
-22	nel	in	E	EA	|gen=m|num=s|	21	comp_temp	_	_
-23	1968	1968	N	N	_	22	prep	_	_
-24	pigliava	pigliare	V	V	|mod=i|num=s|per=3|ten=i|	21	mod_rel	_	_	167:D
-25	il	il	R	RD	|gen=m|num=s|	26	det	_	_
-26	quadruplo	quadruplo	S	S	|gen=m|num=s|	24	obj	_	_
-27	di	di	E	E	_	26	comp	_	_
-28	oggi	oggi	S	S	|gen=m|num=s|	27	prep	_	_
-29	.	.	F	FS	_	2	punc	_	_
+1	Ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	2	iobj	_	_
+2	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CXN=167:A
+3	fuori	fuori	ADV	B	_	2	advmod	_	CXN=167:B
+4	che	che	SCONJ	CS	_	25	mark	_	CXN=167:C
+5	per	per	ADP	E	_	8	case	_	_
+6	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	processo	processo	NOUN	S	Gender=Masc|Number=Sing	25	obl	_	_
+9	(	(	PUNCT	FB	_	11	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	11	obj	_	_
+11	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	solito	solito	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	furto	furto	NOUN	S	Gender=Masc|Number=Sing	8	appos	_	_
+16	aggravato	aggravare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	acl	_	_
+17	da	da	ADP	E	_	18	case	_	_
+18	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	16	obl:agent	_	_
+19	)	)	PUNCT	FB	_	15	punct	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	avvocato	avvocato	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+22-23	nel	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	1968	1968	NUM	N	NumType=Card	25	obl	_	_
+25	pigliava	pigliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	CXN=167:D
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	quadruplo	quadruplo	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	oggi	oggi	ADV	B	_	27	advmod	_	_
+30	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No

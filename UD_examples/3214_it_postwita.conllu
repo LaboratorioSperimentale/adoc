@@ -1,4 +1,4 @@
-# sent_id = 3214_it_postwita_FP06072024
+# sent_id = 3214_it_postwita
 # text = Pensa se alla fine di tutto sto casino viene fuori che Borghezio è l'unico onesto
 1	Pensa	pensare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	SCONJ	CS	_	10	mark	_	_
@@ -10,11 +10,11 @@
 7	tutto	tutto	DET	DI	PronType=Ind	9	det:predet	_	_
 8	sto	questo	DET	DD	PronType=Dem	9	det	_	_
 9	casino	casino	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
-10	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_	167:A
-11	fuori	fuori	ADV	B	_	10	advmod	_	_	167:B
-12	che	che	SCONJ	CS	_	17	mark	_	_	167:C
+10	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	CXN=167:A
+11	fuori	fuori	ADV	B	_	10	advmod	_	CXN=167:B
+12	che	che	SCONJ	CS	_	17	mark	_	CXN=167:C
 13	Borghezio	Borghezio	PROPN	SP	_	17	nsubj	_	_
 14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
 15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 16	unico	unico	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
-17	onesto	onesto	ADJ	A	Gender=Masc|Number=Sing	10	ccomp	_	_	167:D
+17	onesto	onesto	ADJ	A	Gender=Masc|Number=Sing	10	ccomp	_	CXN=167:D
