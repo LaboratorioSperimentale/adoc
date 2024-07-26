@@ -30,9 +30,9 @@
 24	e	e	CCONJ	CC	_	28	cc	_	_
 25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
 26	lunedì	lunedì	NOUN	S	Gender=Masc	28	obl	_	_
-27	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	28	iobj	_	_
-28	toccava	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
-29	digiunare	digiunare	VERB	V	VerbForm=Inf	28	xcomp	_	_
+27	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	28	iobj	_	CXN=156b:A
+28	toccava	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	CXN=156b:B
+29	digiunare	digiunare	VERB	V	VerbForm=Inf	28	xcomp	_	CXN=156b:C
 30	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	32	det:predet	_	_
 31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
