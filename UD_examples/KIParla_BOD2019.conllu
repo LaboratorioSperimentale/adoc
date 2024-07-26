@@ -1,2 +1,16 @@
 #sent_id = KIParla_BOD2019
 #text = è una cosa che non puoi mh non puoi fare a meno di notare
+1	è	essere	_	_	_	_	_	_	_
+2	una	uno	_	_	_	_	_	_	_
+3	cosa	cosa	_	_	_	_	_	_	_
+4	che	che	_	_	_	_	_	_	_
+5	non	non	_	_	_	_	_	_	_
+6	puoi	potere	_	_	_	_	_	_	_
+7	mh	mh	_	_	_	_	_	_	_
+8	non	non	_	_	_	_	_	_	_
+9	puoi	potere	_	_	_	_	_	_	_
+10	fare	fare	_	_	_	_	_	_	CXN=104:A
+11	a	a	_	_	_	_	_	_	CXN=104:B
+12	meno	meno	_	_	_	_	_	_	CXN=104:C
+13	di	di	_	_	_	_	_	_	CXN=104:D
+14	notare	notare	_	_	_	_	_	_	CXN=104:E
