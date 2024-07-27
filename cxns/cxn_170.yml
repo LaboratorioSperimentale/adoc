@@ -1,0 +1,67 @@
+---
+name: mezzo ADJ
+# “human-intelligible” name for the construction, see wiki 
+
+cxn-machine-readable-formalization: cxn_170.conllc
+# filename of the conll file
+    
+definition: >
+"The property described by the adjective is reduced in degree. If the property is the result of a process, 
+the process may be only partially fulfilled. In some cases, it is not the degree of the property that is reduced, 
+but it is the speaker that wants to refer to a property which is not properly correspondent to the one denoted by the adjective.
+In some cases, the use of this construction conveys a pejorative evaluation by the speaker."
+# description of construction 
+
+restrictions: ~
+# summarize constraints that apply to construction
+
+coll-preferences: ~
+# a description of the type of preferred fillers for the slots (collocations etc.)
+
+usage: ~ # specify the value for one or more of the following oppositions. Delete the ones that do not apply (i.e., when the cxn is freely used in both the contexts)
+
+
+formal-tags: #insert one or more formal tags of the cxn type. First look up possible "construction"/"strategy" tags on https://comparative-concepts.github.io/cc-database/. If no tag applies, choose a name commonly used in the (typological) literature) 
+    - adjectival phrase
+    - admodifier
+    
+    
+
+functional-tags: #insert one or more functional tags of the cxn type. First look up "meaning"/"information structure" tags on https://comparative-concepts.github.io/cc-database/. If no tag applies, choose a name commonly used in the (typological) literature) 
+    - evaluation
+    - attenuation
+    - approximation
+
+
+complexity-level-tags: phrase
+# one value among [word, phrase, clause, beyond-clause]
+
+category-tags: adjective
+# one value among [adjective, adverb, conjunction, discourse marker, interjection, noun, preposition, pronoun, verb, onomatopoeia, not applicable, other]
+
+schematicity-level: partially filled/schematic
+# one value among [lexically filled, partially filled/schematic, fully schematic]
+
+cefr-level: ~
+# either nothing (~) or one value among [A1, A2, B1, B2, C1, C2]
+
+#specify the ids of the constructions linked (horizontally and/or vertically)
+horizontal-links: 169
+vertical-links: ~
+
+examples: #filename of the example file 
+    - VIT-7735
+    - isst_tanl-2834
+    - isst_tanl-1137
+    - Paisà_24072024_FP
+    - Paisà_24072024_FP_2
+
+note: >
+"This construction is often used in written genres that imitate informal speech, such as fiction prose, and CMC." 
+#fill with further comments and observations. See the guidelines
+
+references: #include references 
+    - "Benigni, Valentina. 2023. <i>È stato un mezzo disastro…</i> Fenomeni di convergenza tra approssimazione e intensificazione: uno studio contrastivo su italiano e russo. <i>Italica Wratislaviensia</i> 14(1). 9–34."
+    - "Pisciotta, Flavio. 2024. Evaluative (half-)prefixes in Italian: the expression of approximation through morphemes of half quantity. Presented at the Workshop <i>Unlocking evaluative morphology: Conceptual and methodological challenges</i>. March 14-15, 2024, Humboldt-Universität zu Berlin, Berlin."
+
+collector: Flavio #nome/username  
