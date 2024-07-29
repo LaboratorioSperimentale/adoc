@@ -3,7 +3,7 @@
 # function = A person carrying ref:A-2 or an artefact containing ref:A-2
 # horizontal_links =
 # vertical_links = 147
-# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED EXCLUSION SEM_FEATS SEM_ROLES ADJACENCY IDENTITY
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY
 A	_	_	NOUN,ADJ	_	0	root	_	_	_	artifact,person	_	_
 A.1	porta	portare	VERB	Number=Sing|Person=2|Mood=Imp	A	root/m	_	_	_	_	_	_
 A.2	_	_	NOUN	_	A.1	case/m	_	_	_	_	_	_

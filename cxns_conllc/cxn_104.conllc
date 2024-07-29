@@ -3,7 +3,7 @@
 # function = can't help/do without ref:E
 # horizontal_links =
 # vertical_links =
-# fields = ID	UD.FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	REQUIRED	EXCLUSION	SEM_FEATS	SEM_ROLES	ADJACENCY	IDENTITY
+# fields = ID	UD.FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	REQUIRED	WITHOUT	SEM_FEATS	SEM_ROLES	ADJACENCY	IDENTITY
 A	_	fare	VERB	VerbForm=Fin	C	root	1	_	_	_	_	_
 B	a	a	ADP	_	C	case	1	_	_	_	_	_
 C	meno	meno	ADV	_	0	advmod	1	_	_	_	B	_
