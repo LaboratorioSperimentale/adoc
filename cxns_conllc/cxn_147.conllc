@@ -7,3 +7,4 @@
 A	_	_	NOUN,ADJ	_	0	root	_	_	_	artifact, person	_	_
 A.1	_	_	VERB	Number=Sing|Person=2|Mood=Imp	A	root/m	_	_	_	_	_	_
 A.2	_	_	NOUN	_	A.1	case/m	_	_	_	_	_	_
+
