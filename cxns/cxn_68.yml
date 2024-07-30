@@ -11,9 +11,9 @@ restrictions: >
     "The main verb saltare fuori is always impersonal, so it has no subject and it is always found in the 3rd person singular.
     The verb in the complement clause is always in a finite form."
 
-coll-preferences:
+coll-preferences: ~
 
-usage:
+usage: ~
 
 form-tags:
     - "complement clause construction"
@@ -32,8 +32,8 @@ category-tags: "not applicable"
 schematicity: "partially filled/schematic"
 
 links: #specify the ids of the constructions linked (horizontally and/or vertically)
-    - horizontal: 167,168,169
-    - vertical: 170
+    - horizontal: 167
+    - vertical: 
 
 examples: #id of the example
     - 1_Paisà_FP06072024
@@ -42,13 +42,13 @@ examples: #id of the example
     - 4_Paisà_FP06072024
     - 5_Paisà_FP06072024
 
-cefr-level:
+cefr-level: ~
 
 references:
-    - "(Pisciotta, forthcoming)"
+    - "Pisciotta, Flavio (accettato) Ai confini tra evidenzialità e miratività: usi d’apparenza dei verbi sintagmatici di movimento con fuori. In <i>Continuo e discreto nelle scienze del linguaggio. Atti del LVI Congresso internazionale della Società di Linguistica Italiana, 14-16 settembre 2023, Torino</i>. Milano: Officinaventuno."
 
 
-collector: fla-pi
+collector: "Flavio Pisciotta"
 
 note: >
     "This construction can have both an evidential and a mirative reading, depending on the surrounding context.
