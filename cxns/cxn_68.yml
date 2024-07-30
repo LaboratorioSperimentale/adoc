@@ -33,7 +33,7 @@ schematicity: "partially filled/schematic"
 
 links: #specify the ids of the constructions linked (horizontally and/or vertically)
     - horizontal: 167
-    - vertical: 
+    - vertical: ~
 
 examples: #id of the example
     - 1_Paisà_FP06072024
