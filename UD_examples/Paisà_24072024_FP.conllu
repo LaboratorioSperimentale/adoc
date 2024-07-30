@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = Paisà_24072024_FP
+# text = Essa si distingue soprattutto in quanto le armate tedesche avevano precedentemente conquistato , in poche settimane , città e interi Paesi ; mentre in questo caso non furono capaci di conquistare una casa mezza diroccata , difesa per la maggior parte del tempo da poco più di una dozzina di soldati , nonostante vi avessero tentato per due mesi .
+1	Essa	esso	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	distingue	distinguere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	soprattutto	soprattutto	ADV	B	_	12	advmod	_	_
+5	in	in	ADP	E	_	12	mark	_	_
+6	quanto	quanto	ADV	B	_	5	fixed	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	armate	armata	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
+9	tedesche	tedesco	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+11	precedentemente	precedentemente	ADV	B	_	12	advmod	_	_
+12	conquistato	conquistare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	16	det	_	_
+16	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+17	,	,	PUNCT	FF	_	12	punct	_	_
+18	città	città	NOUN	S	Gender=Fem	12	obj	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	interi	intero	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+21	Paesi	paese	NOUN	S	Gender=Masc|Number=Plur	18	conj	_	_
+22	;	;	PUNCT	FC	_	12	punct	_	_
+23	mentre	mentre	SCONJ	CS	_	29	mark	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	_
+26	caso	caso	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+27	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+28	furono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	29	cop	_	_
+29	capaci	capace	ADJ	A	Number=Plur	3	advcl	_	_
+30	di	di	ADP	E	_	31	mark	_	_
+31	conquistare	conquistare	VERB	V	VerbForm=Inf	29	advcl	_	_
+32	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	casa	casa	NOUN	S	Gender=Fem|Number=Sing	31	obj	_	_
+34	mezza	mezzo	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	CXN=170a:A
+35	diroccata	diroccato	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	CXN=170a:C
+36	,	,	PUNCT	FF	_	33	punct	_	_
+37	difesa	difendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	33	acl	_	_
+38	per	per	ADP	E	_	41	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+40	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	41	amod	_	_
+41	parte	parte	NOUN	S	Gender=Fem|Number=Sing	37	obl	_	_
+42-43	del	_	_	_	_	_	_	_	_
+42	di	di	ADP	E	_	44	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	_
+45	da	da	ADP	E	_	47	case	_	_
+46	poco	poco	ADV	B	_	47	advmod	_	_
+47	più	più	PRON	PI	PronType=Ind	37	obl:agent	_	_
+48	di	di	ADP	E	_	50	case	_	_
+49	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	dozzina	dozzina	NOUN	S	Gender=Fem|Number=Sing	47	nmod	_	_
+51	di	di	ADP	E	_	52	case	_	_
+52	soldati	soldato	NOUN	S	Gender=Masc|Number=Plur	50	nmod	_	_
+53	,	,	PUNCT	FF	_	37	punct	_	_
+54	nonostante	nonostante	SCONJ	E	_	57	mark	_	_
+55	vi	vi	ADV	B	_	57	advmod	_	_
+56	avessero	avere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	57	aux	_	_
+57	tentato	tentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	advcl	_	_
+58	per	per	ADP	E	_	60	case	_	_
+59	due	due	NUM	N	NumType=Card	60	nummod	_	_
+60	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	57	obl	_	_
+61	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No

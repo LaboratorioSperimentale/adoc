@@ -1,0 +1,13 @@
+# sent_id = VIT-3960
+# text = Le faccio un esempio, così, semiserio:
+1	Le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	expl	_	_
+2	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	così	così	ADV	B	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	semiserio	semiserio	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No|CXN=169a:A
+8.1	semi	semi	BMORPH	_	_	8.2	der/m	_	CXN=169a:A.1
+8.2	serio	serio	ADJ	A	Gender=Masc|Number=Sing	8	root/m	_	CXN=169a:A.2
+9	:	:	PUNCT	FC	_	2	punct	_	_

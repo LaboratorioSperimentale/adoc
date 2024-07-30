@@ -1,0 +1,42 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id =  Paisà_24072024_FP_2
+# text = Il pensiero va ad una persona , stremata , impaurita , disidrata e infreddolita che con la barca mezza sommersa e fuori controllo deve ESTRARRE da chissà dove il suo ultimo rifugio ... forza e coraggio !
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ad	a	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	persona	persona	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	stremata	stremato	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	impaurita	impaurito	ADJ	A	Gender=Fem|Number=Sing	8	conj	_	_
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	disidrata	disidrato	ADJ	A	Gender=Fem|Number=Sing	8	conj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	infreddolita	infreddolito	ADJ	A	Gender=Fem|Number=Sing	8	conj	_	_
+15	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	barca	barca	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+19	mezza	mezzo	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	CXN=170a:A
+20	sommersa	sommerso	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	CXN=170a:C
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	fuori	fuori	ADP	E	_	23	case	_	_
+23	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	20	conj	_	_
+24	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	ESTRARRE	estrarre	VERB	V	VerbForm=Inf	6	acl:relcl	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	chissà	chissà	ADV	B	_	25	advmod	_	_
+28	dove	dove	ADV	B	_	25	advmod	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+30	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+31	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing|NumType=Ord	32	amod	_	_
+32	rifugio	rifugio	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+33	...	...	PUNCT	FF	_	25	punct	_	_
+34	forza	forza	NOUN	S	Gender=Fem|Number=Sing	32	appos	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	34	conj	_	_
+37	!	!	PUNCT	FS	_	3	punct	_	SpaceAfter=No
