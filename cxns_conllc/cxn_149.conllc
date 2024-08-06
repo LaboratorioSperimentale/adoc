@@ -1,0 +1,9 @@
+# cxn_id= 	149												
+# name= 	 Cognate Object Construction												
+# function=	"act the event of ref:C, where ref:C is morphologically or semantically related to ref:B"												
+# horizontal_links= id150,id151	 												
+# vertical_links=													
+# fields 	ID	UD.FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	REQUIRED	WITHOUT	SEM_FEATS	SEM_ROLES	ADJACENCY	IDENTITY
+	A	_	_	"NOUN, PROPN, PRON"	animacy:anim	B	nsubj	0	_	_	Affector	_	_
+	B	_	_	VERB	_	0	root	1	_	_	_	_	_
+	C	_	_	NOUN	_	B	obj	1	_	_	Undergoer	_	SEMFIELD=B
