@@ -53,4 +53,6 @@ jobs:
       - name: validate
         run: |
           source venv/bin/activate
-          python src/validate_cxn.py
+          for file in ${ALL_CHANGED_FILES}; do
+            python src/validate_cxn.py $file
+          done

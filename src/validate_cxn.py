@@ -34,32 +34,37 @@ class CXNValidator(cerberus.Validator):
 
 		#TODO validate conllu file with example
 
-v = CXNValidator(yaml.safe_load(open("validation/cxn_schema.yml")))
 
-n_warnings = 0
-for file in glob.glob("cxns/*"):
-	with open(file, encoding="utf-8") as stream:
-		try:
-			cxn = yaml.safe_load(stream)
+if __name__ == "__main__":
 
-			validation_test = v.validate(cxn)
-			label = "PASSED" if validation_test else "FAILED"
+	new_files = sys.argv[1:]
 
-			print("CONSTRUCTION N.", Path(file).stem.split("_")[1], "-", label)
+	v = CXNValidator(yaml.safe_load(open("validation/cxn_schema.yml")))
+
+	n_warnings = 0
+	for file in new_files:
+		with open(file, encoding="utf-8") as stream:
+			try:
+				cxn = yaml.safe_load(stream)
+
+				validation_test = v.validate(cxn)
+				label = "PASSED" if validation_test else "FAILED"
+
+				print("CONSTRUCTION N.", Path(file).stem.split("_")[1], "-", label)
 
 
-			for field, value in v.errors.items():
+				for field, value in v.errors.items():
 
-				print(f"WARNING: {field}")
-				for x in value:
-					print(f"\t{x}")
-					n_warnings += 1
+					print(f"WARNING: {field}")
+					for x in value:
+						print(f"\t{x}")
+						n_warnings += 1
+					print()
 				print()
-			print()
 
-		except yaml.YAMLError as exc:
-			print(exc)
+			except yaml.YAMLError as exc:
+				print(exc)
 
-if n_warnings > 0:
-	print(f"During check {n_warnings} warnings have been detected. Please check your files!")
-	sys.exit(1)
+	if n_warnings > 0:
+		print(f"During check {n_warnings} warnings have been detected. Please check your files!")
+		sys.exit(1)
