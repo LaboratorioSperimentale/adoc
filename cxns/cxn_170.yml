@@ -1,6 +1,6 @@
 name: mezzo ADJ
 
-cxn-machine-readable-formalization: cxn_170.conllc
+cxn-machine-readable: cxn_170.conllc
 
 definition: |
     The property described by the adjective is reduced in degree. If the property is the result of a process,
@@ -14,22 +14,23 @@ coll-preferences:
 
 usage:
 
-formal-tags:
+form-tags:
     - adjectival phrase
     - admodifier
 
-functional-tags:
+function-tags:
     - evaluation
     - attenuation
     - approximation
 
 
-complexity-level-tags: phrase
+complexity-level:
+    - phrase
 
 category-tags:
     - adjective
 
-schematicity-level: partially filled/schematic
+schematicity: partially filled/schematic
 
 cefr-level:
 

@@ -14,9 +14,11 @@ form-tags:
 
 function-tags:
 
-complexity-level: phrase
+complexity-level:
+    - phrase
 
-category-tags: verb
+category-tags:
+    - verb
 
 schematicity: partially filled/schematic
 

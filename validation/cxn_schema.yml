@@ -1,6 +1,6 @@
 name:
   type: string
-  regex: '^[a-zA-Z\.-0-9\?!" ]+$'
+  regex: '^[a-zA-Z\.-0-9\?!" )()]+$'
   required: True
 
 cxn-machine-readable:

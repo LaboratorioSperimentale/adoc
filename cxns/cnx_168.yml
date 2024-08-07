@@ -9,8 +9,10 @@ restrictions: The first constituent is the verb portare (in the form of imperati
 coll-preferences: The second constituent is frequently a noun referring to a concrete entity
 
 usage:
-    - Both formal and informal
-    - Both spoken and written
+    - Formal
+    - Informal
+    - Spoken
+    - Written
     - Standard
 
 form-tags:
@@ -21,13 +23,14 @@ form-tags:
 function-tags:
     - instrument noun
 
-complexity-level: word
+complexity-level:
+    - word
 
 category-tags:
     - noun
     - adjective
 
-schematicity: partially schematic
+schematicity: partially filled/schematic
 
 horizontal-links:
 vertical-links:

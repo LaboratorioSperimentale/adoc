@@ -17,9 +17,11 @@ form-tags:
 function-tags:
     - deontic modality
 
-complexity-level: clause
+complexity-level:
+    - clause
 
-category-tags: verb
+category-tags:
+    - verb
 
 schematicity: partially filled/schematic
 

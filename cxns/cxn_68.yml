@@ -25,9 +25,11 @@ function-tags:
     - mirativity
 
 
-complexity-level: clause
+complexity-level:
+    - clause
 
-category-tags: not applicable
+category-tags:
+    - not applicable
 
 schematicity: partially filled/schematic
 

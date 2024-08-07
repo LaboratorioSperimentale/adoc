@@ -1,6 +1,6 @@
 name: semiADJ
 
-cxn-machine-readable-formalization: cxn_169.conllc
+cxn-machine-readable: cxn_169.conllc
 
 definition: >
     The property described by the adjective is reduced in degree. If the property is the result of a process,
@@ -14,23 +14,24 @@ coll-preferences:
 
 usage:
 
-formal-tags:
+form-tags:
     - affixation
     - prefixation
     - neoclassical word formation
 
-functional-tags:
+function-tags:
     - evaluation
     - attenuation
     - approximation
     - kin-categorization
 
-complexity-level-tags: word
+complexity-level:
+    - word
 
 category-tags:
     - adjective
 
-schematicity-level: partially filled/schematic
+schematicity: partially filled/schematic
 
 cefr-level:
 

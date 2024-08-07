@@ -9,8 +9,10 @@ restrictions: The first constituent is a VERB (in the form of imperative 2SG), t
 coll-preferences: The VERB is frequently bysillabic.
 
 usage:
-    - Both formal and informal
-    - Both spoken and written
+    - Formal
+    - Informal
+    - Spoken
+    - Written
     - Standard
 
 form-tags:
@@ -21,7 +23,8 @@ form-tags:
 function-tags:
     - professional nouns
 
-complexity-level: word
+complexity-level:
+    - word
 
 category-tags:
     - noun
