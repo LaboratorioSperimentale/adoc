@@ -65,3 +65,4 @@
 59	due	due	NUM	N	NumType=Card	60	nummod	_	_
 60	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	57	obl	_	_
 61	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+

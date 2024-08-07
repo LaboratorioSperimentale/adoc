@@ -23,3 +23,4 @@
 18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	mia	mio	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	nmod	_	_
 20	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+

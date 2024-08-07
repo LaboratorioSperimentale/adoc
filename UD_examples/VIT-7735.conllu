@@ -24,3 +24,4 @@
 22	mezzo	mezzo	ADV	B	Gender=Masc|Number=Sing	23	advmod	_	CXN=170b:A
 23	nudo	nudo	ADJ	A	Gender=Masc|Number=Sing	18	xcomp	_	SpaceAfter=No|CXN=170b:C
 24	.	.	PUNCT	FS	_	9	punct	_	_
+

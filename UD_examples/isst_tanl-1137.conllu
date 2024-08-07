@@ -50,3 +50,4 @@
 43	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	44:det	_
 44	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	41	nmod	41:nmod:di	SpaceAfter=No
 45	.	.	PUNCT	FS	_	2	punct	2:punct	_
+

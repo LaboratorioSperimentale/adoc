@@ -5,7 +5,7 @@
 # text = Questi portachiavi in plastica dura dalla forma rotonda daranno un tocco di originalità al tuo look
 1	Questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	portachiavi	portachiavo	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	CXN=168:A|CXN=147:A
-2.1	porta	portare	VERB	_	Number=Sing|Person=2|Mood=Imp	11	root/m	_	CXN=168:A.1|CXN=147:A.1
+2.1	porta	portare	VERB	_	Mood=Imp|Number=Sing|Person=2	11	root/m	_	CXN=168:A.1|CXN=147:A.1
 2.2	chiavi	chiave	NOUN	_	Number=Plur	2.1	case/m	_	CXN=168:A.2|CXN=147:A.2
 3	in	in	ADP	E	_	4	case	_	_
 4	plastica	plastica	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
@@ -25,3 +25,4 @@
 16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 17	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
 18	look	look	NOUN	S	Gender=Masc	10	obl	_	SpaceAfter=No
+

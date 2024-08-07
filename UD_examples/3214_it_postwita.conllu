@@ -18,3 +18,4 @@
 15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
 16	unico	unico	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
 17	onesto	onesto	ADJ	A	Gender=Masc|Number=Sing	10	ccomp	_	CXN=167:D
+

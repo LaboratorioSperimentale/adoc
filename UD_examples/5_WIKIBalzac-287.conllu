@@ -1,7 +1,7 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = 5_WIKIBalzac-287
 # text = "L'artista della Comédie Humaine", egli scrisse, "è semi-sommerso dallo storico.
-1	 	PUNCT	FB	_	3	punct	3:punct	SpaceAfter=No
+1	"	"	PUNCT	FB	_	3	punct	3:punct	SpaceAfter=No
 2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	3:det	SpaceAfter=No
 3	artista	artista	NOUN	S	Number=Sing	17	nsubj	17:nsubj	_
 4-5	della	_	_	_	_	_	_	_	_
@@ -9,12 +9,12 @@
 5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	6:det	_
 6	Comédie	Comédie	PROPN	SP	_	3	nmod	3:nmod:di	_
 7	Humaine	Humaine	PROPN	SP	_	6	flat:name	6:flat:name	SpaceAfter=No
-8	_	_ 	PUNCT	FB	_	3	punct	3:punct	SpaceAfter=No
+8	"	"	PUNCT	FB	_	3	punct	3:punct	SpaceAfter=No
 9	,	,	PUNCT	FF	_	3	punct	3:punct	_
 10	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj	_
 11	scrisse	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 12	,	,	PUNCT	FF	_	11	punct	11:punct	_
-13	_	_	PUNCT	FB	_	17	punct	17:punct	SpaceAfter=No
+13	"	"	PUNCT	FB	_	17	punct	17:punct	SpaceAfter=No
 14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	17:cop	_
 15	semi	semi	ADJ	A	_	17	amod	17:amod	SpaceAfter=No|CXN=169b:A
 16	-	-	PUNCT	FF	_	17	punct	17:punct	SpaceAfter=No|CXN=169b:B
@@ -24,3 +24,4 @@
 19	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	20:det	_
 20	storico	storico	NOUN	S	Gender=Masc|Number=Sing	17	obl:agent	17:obl:agent:da	SpaceAfter=No
 21	.	.	PUNCT	FS	_	17	punct	17:punct	_
+
