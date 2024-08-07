@@ -34,18 +34,20 @@ class CXNValidator(cerberus.Validator):
 
 		#TODO validate conllu file with example
 
-#		exec(f"python3 tools/validate.py --lang it --level 2 --no-space-after ../UD_examples/VIT-8523.conllu")
-
 v = CXNValidator(yaml.safe_load(open("validation/cxn_schema.yml")))
 
+n_warnings = 0
 for file in glob.glob("cxns/*"):
 	with open(file, encoding="utf-8") as stream:
 		try:
-			print("CONSTRUCTION N.", Path(file).stem.split("_")[1])
 			cxn = yaml.safe_load(stream)
-			print(v.validate(cxn))
 
-			n_warnings = 0
+			validation_test = v.validate(cxn)
+			label = "PASSED" if validation_test else "FAILED"
+
+			print("CONSTRUCTION N.", Path(file).stem.split("_")[1], "-", label)
+
+
 			for field, value in v.errors.items():
 
 				print(f"WARNING: {field}")
@@ -53,11 +55,10 @@ for file in glob.glob("cxns/*"):
 					print(f"\t{x}")
 					n_warnings += 1
 				print()
-			# input()
-
-			if n_warnings > 0:
-				print("Please check your warnings!")
-				sys.exit(1)
 
 		except yaml.YAMLError as exc:
 			print(exc)
+
+if n_warnings > 0:
+	print(f"During check {n_warnings} warnings have been detected. Please check your files!")
+	sys.exit(1)
