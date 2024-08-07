@@ -55,6 +55,7 @@ for file in glob.glob("cxns/*"):
 					print(f"\t{x}")
 					n_warnings += 1
 				print()
+			print()
 
 		except yaml.YAMLError as exc:
 			print(exc)
