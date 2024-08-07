@@ -1,5 +1,5 @@
+import sys
 import glob
-import warnings
 import cerberus
 import yaml
 from pathlib import Path
@@ -45,13 +45,19 @@ for file in glob.glob("cxns/*"):
 			cxn = yaml.safe_load(stream)
 			print(v.validate(cxn))
 
+			n_warnings = 0
 			for field, value in v.errors.items():
-				s = field+"\n"
+
+				print(f"WARNING: {field}")
 				for x in value:
-					s+=f"\t{x}\n"
-
-				warnings.warn(s)
-
+					print(f"\t{x}")
+					n_warnings += 1
+				print()
 			# input()
+
+			if n_warnings > 0:
+				print("Please check your warnings!")
+				sys.exit(1)
+
 		except yaml.YAMLError as exc:
 			print(exc)
