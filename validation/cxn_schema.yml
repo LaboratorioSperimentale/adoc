@@ -1,0 +1,83 @@
+name:
+  type: string
+  regex: '^[a-zA-Z\.-0-9\?!" ]+$'
+  required: True
+
+cxn-machine-readable:
+  type: string
+  required: True
+
+definition:
+  type: string
+
+restrictions:
+  type: string
+  nullable: True
+
+coll-preferences:
+  type: string
+  nullable: True
+
+usage:
+  type: list
+  allowed: ['Formal', 'Informal', 'Spoken', 'Written', 'Standard', 'Non-Standard']
+  nullable: True
+
+form-tags:
+  type: list
+  schema:
+    type: string
+  nullable: True
+  check_with: CClist
+
+function-tags:
+  type: list
+  schema:
+    type: string
+  nullable: True
+  check_with: CClist
+
+complexity-level:
+  type: list
+  allowed: ['word', 'phrase', 'clause', 'beyond-clause']
+  nullable: True
+
+category-tags:
+  type: list
+  allowed: ['adjective', 'adverb', 'conjunction', 'discourse marker', 'interjection', 'noun', 'preposition', 'pronoun', 'verb', 'onomatopoeia', 'not applicable', 'other']
+
+schematicity:
+  type: string
+  allowed: ['lexically filled', 'partially filled/schematic', 'fully schematic']
+
+horizontal-links:
+  type: list
+  nullable: True
+  schema:
+    type: integer
+
+vertical-links:
+  type: list
+  nullable: True
+  schema:
+    type: integer
+
+examples:
+  type: list
+  schema:
+    type: string
+
+cefr-level:
+  type: string
+  nullable: True
+
+references:
+  type: list
+  schema:
+    type: string
+
+collector:
+  type: string
+
+note:
+  type: string
