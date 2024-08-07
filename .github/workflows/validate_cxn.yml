@@ -29,6 +29,12 @@ jobs:
         with:
           python-version: 3.11
 
+      - name: install dependencies
+        run: |
+            python3 -m venv venv
+            . venv/bin/activate
+            pip install -r requirements.txt
+
       # Runs a set of commands using the runners shell
       - name: validate
         run: |
