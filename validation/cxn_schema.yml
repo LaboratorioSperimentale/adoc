@@ -5,6 +5,7 @@ name:
 
 cxn-machine-readable:
   type: string
+  check_with: conllc_path
   required: True
 
 definition:
@@ -25,17 +26,17 @@ usage:
 
 form-tags:
   type: list
+  nullable: True
   schema:
     type: string
-  nullable: True
-  check_with: CClist
+    check_with: CClist_construction
 
 function-tags:
   type: list
+  nullable: True
   schema:
     type: string
-  nullable: True
-  check_with: CClist
+    check_with: CClist_meaning
 
 complexity-level:
   type: list
@@ -66,6 +67,7 @@ examples:
   type: list
   schema:
     type: string
+    check_with: conllu_path
 
 cefr-level:
   type: string
@@ -73,11 +75,14 @@ cefr-level:
 
 references:
   type: list
+  nullable: True
   schema:
     type: string
 
 collector:
   type: string
+  nullable: True
 
 note:
   type: string
+  nullable: True
