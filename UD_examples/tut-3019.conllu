@@ -1,0 +1,42 @@
+# sent_id = tut-3019
+# text = Vi piacerebbe incontrare e intervistare l'idolo delle vostre serate casalinghe, quello che da anni ammirate e spiate trasmissione dopo trasmissione e che vorreste vedere dal vivo, toccarlo con mano?
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	2:iobj	_
+2	piacerebbe	piacere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	incontrare	incontrare	VERB	V	VerbForm=Inf	2	csubj	2:csubj	_
+4	e	e	CCONJ	CC	_	5	cc	5:cc	_
+5	intervistare	intervistare	VERB	V	VerbForm=Inf	3	conj	2:csubj|3:conj:e	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	7:det	SpaceAfter=No
+7	idolo	idolo	NOUN	S	Gender=Masc|Number=Sing	5	obj	5:obj	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	11:case	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	11:det	_
+10	vostre	vostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	11:det:poss	_
+11	serate	serata	NOUN	S	Gender=Fem|Number=Plur	7	nmod	7:nmod:di	_
+12	casalinghe	casalingo	ADJ	A	Gender=Fem|Number=Plur	11	amod	11:amod	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	7:punct	_
+14	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nmod	7:nmod|18:obj	_
+15	che	che	PRON	PR	PronType=Rel	18	obj	14:ref	_
+16	da	da	ADP	E	_	17	case	17:case	_
+17	anni	anno	NOUN	S	Gender=Masc|Number=Plur	18	obl	18:obl:da	_
+18	ammirate	ammirare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	14	acl:relcl	14:acl:relcl	_
+19	e	e	CCONJ	CC	_	20	cc	20:cc	_
+20	spiate	spiare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	18	conj	14:acl:relcl|18:conj:e	_
+21	trasmissione	trasmissione	NOUN	S	Gender=Fem|Number=Sing	18	obl	18:obl	CXN=113:A
+22	dopo	dopo	ADP	E	_	23	case	23:case	CXN=113:B
+23	trasmissione	trasmissione	NOUN	S	Gender=Fem|Number=Sing	21	nmod	21:nmod:dopo	CXN=113:C
+24	e	e	CCONJ	CC	_	27	cc	27:cc	_
+25	che	che	PRON	PR	PronType=Rel	27	obj	27:obj	_
+26	vorreste	volere	AUX	VM	Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	27	aux	27:aux	_
+27	vedere	vedere	VERB	V	VerbForm=Inf	18	conj	14:acl:relcl|18:conj:e	_
+28-29	dal	_	_	_	_	_	_	_	_
+28	da	da	ADP	E	_	30	case	30:case	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	30:det	_
+30	vivo	vivo	NOUN	S	Gender=Masc|Number=Sing	27	obl	27:obl:da	SpaceAfter=No
+31	,	,	PUNCT	FF	_	32	punct	32:punct	_
+32-33	toccarlo	_	_	_	_	_	_	_	_
+32	toccar	toccare	VERB	V	VerbForm=Inf	3	conj	2:csubj|3:conj:e	_
+33	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	obj	32:obj	_
+34	con	con	ADP	E	_	35	case	35:case	_
+35	mano	mano	NOUN	S	Gender=Fem|Number=Sing	32	obl	32:obl:con	SpaceAfter=No
+36	?	?	PUNCT	FS	_	2	punct	2:punct	_
+

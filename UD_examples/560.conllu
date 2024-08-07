@@ -1,0 +1,23 @@
+# sent_id = 560
+# text = È online @user1! I discorsi di Mario Monti in formato commentabile, frase per frase: http://t.co/tRSYrHev via @user2
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	online	online	ADJ	A	_	0	root	_	_
+3	@user1	@user1	SYM	SYM	_	2	nsubj	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	_
+5	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	discorsi	discorso	NOUN	S	Gender=Masc|Number=Plur	2	parataxis	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Mario	mario	PROPN	SP	_	6	nmod	_	_
+9	Monti	Monti	PROPN	SP	_	8	flat:name	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	formato	formato	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+12	commentabile	commentabile	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	frase	frase	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	CXN=114:A
+15	per	per	ADP	E	_	16	case	_	CXN=114:B
+16	frase	frase	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No|CXN=114:C
+17	:	:	PUNCT	FC	_	2	punct	_	_
+18	http://t.co/tRSYrHev	http://t.co/tRSYrHev	SYM	X	_	2	parataxis	_	_
+19	via	via	ADP	E	_	20	case	_	_
+20	@user2	@user2	SYM	SYM	_	2	vocative	_	_
+

@@ -1,0 +1,31 @@
+# sent_id = 2_Europarl-232
+# text = L'incremento dei margini, delle garanzie di sicurezza nei trasporti è un processo che deve continuare a migliorare giorno dopo giorno.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	incremento	incremento	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	margini	margine	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	garanzie	garanzia	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12-13	nei	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	trasporti	trasporto	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	processo	processo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	continuare	continuare	VERB	V	VerbForm=Inf	17	acl:relcl	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	migliorare	migliorare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+23	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	CXN=113:A
+24	dopo	dopo	ADP	E	_	25	case	_	CXN=113:B
+25	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No|CXN=113:C
+26	.	.	PUNCT	FS	_	17	punct	_	_

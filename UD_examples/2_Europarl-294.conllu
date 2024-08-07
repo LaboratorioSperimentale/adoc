@@ -1,0 +1,23 @@
+# sent_id = 2_Europarl-294
+# text = Settore dopo settore, si assiste all'approvazione progressiva di norme minime che gli stati membri debbono rispettare.
+1	Settore	settore	NOUN	S	Gender=Masc|Number=Sing	6	obl	6:obl	CXN=113:A
+2	dopo	dopo	ADP	E	_	3	case	3:case	CXN=113:B
+3	settore	settore	NOUN	S	Gender=Masc|Number=Sing	1	nmod	1:nmod:dopo	SpaceAfter=No|CXN=113:C
+4	,	,	PUNCT	FF	_	1	punct	1:punct	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	6:expl:impers	_
+6	assiste	assistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+7-Aug	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	9:case	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	9:det	_
+9	approvazione	approvazione	NOUN	S	Gender=Fem|Number=Sing	6	obl	6:obl:a	_
+10	progressiva	progressivo	ADJ	A	Gender=Fem|Number=Sing	9	amod	9:amod	_
+11	di	di	ADP	E	_	12	case	12:case	_
+12	norme	norma	NOUN	S	Gender=Fem|Number=Plur	9	nmod	9:nmod:di|19:obj	_
+13	minime	minimo	ADJ	A	Gender=Fem|Number=Plur	12	amod	12:amod	_
+14	che	che	PRON	PR	PronType=Rel	19	obj	12:ref	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	16:det	_
+16	stati	stato	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	19:nsubj	_
+17	membri	membro	NOUN	S	Gender=Masc|Number=Plur	16	compound	16:compound	_
+18	debbono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	19:aux	_
+19	rispettare	rispettare	VERB	V	VerbForm=Inf	12	acl:relcl	12:acl:relcl	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	6:punct	_

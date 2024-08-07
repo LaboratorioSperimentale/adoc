@@ -1,0 +1,14 @@
+# sent_id = 4287
+# text = giorno dopo giorno mi accorgo quanto Louis sia importante per me
+1	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	CXN=113:A
+2	dopo	dopo	ADP	E	_	3	case	_	CXN=113:B
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	CXN=113:C
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	expl	_	_
+5	accorgo	accorgere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	quanto	quanto	PRON	PI	PronType=Ind	5	obj	_	_
+7	Louis	Louis	PROPN	SP	_	9	nsubj	_	_
+8	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	importante	importante	ADJ	A	Number=Sing	6	acl:relcl	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	obl	_	_
+
