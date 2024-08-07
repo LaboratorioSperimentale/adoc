@@ -49,10 +49,12 @@ if __name__ == "__main__":
 				cxn = yaml.safe_load(stream)
 
 				validation_test = v.validate(cxn)
-				label = "PASSED" if validation_test else "FAILED"
 
+				if validation_test:
+					output_str = fg.green + f"CONSTRUCTION N. {Path(file).stem.split('_')[1]} - PASSED" + fg.rs
+				else:
+					output_str = fg(255, 10, 10) + f"CONSTRUCTION N. {Path(file).stem.split('_')[1]} - FAILED" + fg.rs
 
-				output_str = fg(255, 10, 10) + f"CONSTRUCTION N. {Path(file).stem.split('_')[1]} - {label}" + fg.rs
 				print(output_str)
 
 
