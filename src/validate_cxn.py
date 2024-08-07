@@ -1,4 +1,5 @@
 import glob
+import warnings
 import cerberus
 import yaml
 from pathlib import Path
@@ -35,7 +36,7 @@ class CXNValidator(cerberus.Validator):
 
 #		exec(f"python3 tools/validate.py --lang it --level 2 --no-space-after ../UD_examples/VIT-8523.conllu")
 
-v = CXNValidator(yaml.safe_load(open("/home/runner/work/adoc/adoc/validation/cxn_schema.yml")))
+v = CXNValidator(yaml.safe_load(open("validation/cxn_schema.yml")))
 
 for file in glob.glob("cxns/*"):
 	with open(file, encoding="utf-8") as stream:
@@ -45,10 +46,12 @@ for file in glob.glob("cxns/*"):
 			print(v.validate(cxn))
 
 			for field, value in v.errors.items():
-				print(f"WARNING: {field}")
+				s = field+"\n"
 				for x in value:
-					print(f"\t{x}")
-				print()
+					s+=f"\t{x}\n"
+
+				warnings.warn(s)
+
 			# input()
 		except yaml.YAMLError as exc:
 			print(exc)
