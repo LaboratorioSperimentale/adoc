@@ -29,9 +29,8 @@ category-tags:
 
 schematicity: fully schematic
 
-links:
-    - horizontal:
-    - vertical:
+horizontal-links:
+vertical-links:
 
 examples:
     - tut-3121

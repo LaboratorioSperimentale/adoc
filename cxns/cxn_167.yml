@@ -31,9 +31,9 @@ category-tags: not applicable
 
 schematicity: partially filled/schematic
 
-links:
-    - horizontal: 68
-    - vertical:
+horizontal-links:
+    - 68
+vertical-links:
 
 examples:
     - 3214_it_postwita

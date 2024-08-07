@@ -29,9 +29,9 @@ category-tags:
 
 schematicity: partially schematic
 
-links:
-    - horizontal:
-    - vertical: 147
+horizontal-links:
+vertical-links:
+    - 147
 
 examples:
     - tut-3121
@@ -44,4 +44,4 @@ references:
 
 collector: msilviamich
 
-note: -
+note:

@@ -25,9 +25,8 @@ category-tags: verb
 
 schematicity: partially filled/schematic
 
-links:
-    - horizontal:
-    - vertical:
+horizontal-links:
+vertical-links:
 
 examples:
     - itTenTen20_18072024_BB1

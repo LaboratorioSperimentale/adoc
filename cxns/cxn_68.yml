@@ -31,9 +31,9 @@ category-tags: not applicable
 
 schematicity: partially filled/schematic
 
-links:
-    - horizontal: 167
-    - vertical:
+horizontal-links:
+    - 167
+vertical-links:
 
 examples:
     - 1_Paisà_FP06072024
@@ -42,7 +42,7 @@ examples:
     - 4_Paisà_FP06072024
     - 5_Paisà_FP06072024
 
-cefr-level: -
+cefr-level:
 
 references:
     - Pisciotta2023confini

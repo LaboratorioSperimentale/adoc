@@ -23,9 +23,8 @@ category-tags: verb
 
 schematicity: partially filled/schematic
 
-links:
-    - horizontal:
-    - vertical:
+horizontal-links:
+vertical-links:
 
 examples:
     - isst_tanl-679
