@@ -41,7 +41,7 @@ examples:
     - isst_tanl-3198
     - ParlaMint-IT_2015-03-11-LEG17-Sed-407_68
     - ParlaMint-IT_2015-03-11-LEG17-Sed-407_226
-    - "560"
+    - sent_560
 
 cefr-level:
 

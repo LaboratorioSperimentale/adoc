@@ -37,7 +37,7 @@ horizontal-links:
 vertical-links:
 
 examples:
-    - "4287"
+    - sent_4287
     - 2_Europarl-232
     - tut-3019
     - test-162
