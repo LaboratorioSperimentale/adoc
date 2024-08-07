@@ -1,3 +1,6 @@
 [submodule "cc-database"]
 	path = cc-database
 	url = https://github.com/comparative-concepts/cc-database
+[submodule "tools"]
+	path = tools
+	url = https://github.com/UniversalDependencies/tools
