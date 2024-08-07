@@ -1,56 +1,56 @@
-name: "salta fuori che V"
+name: salta fuori che V
 
 cxn-machine-readable: cxn_68.conllc
 
-definition: >
-    "A new piece of information comes to the speaker's knowledge from an external source.
+definition: |
+    A new piece of information comes to the speaker's knowledge from an external source.
     The information acquired is often unexpected or contradicts the speaker's expectations on the state of affairs, thus generating surprise in the speaker.
-    However, since the moment of acquisition and the moment of enunciation are distinct, this construction does not convey that the speaker is currently surprised, but it is used to convey or generate surprise in the audience."
+    However, since the moment of acquisition and the moment of enunciation are distinct, this construction does not convey that the speaker is currently surprised, but it is used to convey or generate surprise in the audience.
 
-restrictions: >
-    "The main verb saltare fuori is always impersonal, so it has no subject and it is always found in the 3rd person singular.
-    The verb in the complement clause is always in a finite form."
+restrictions: |
+    The main verb saltare fuori is always impersonal, so it has no subject and it is always found in the 3rd person singular.
+    The verb in the complement clause is always in a finite form.
 
-coll-preferences: ~
+coll-preferences:
 
-usage: ~
+usage:
 
 form-tags:
-    - "complement clause construction"
-    - "impersonal construction"
+    - complement clause construction
+    - impersonal construction
 
 
 function-tags:
-    - "evidentiality"
-    - "mirativity"
+    - evidentiality
+    - mirativity
 
 
-complexity-level: "clause"
+complexity-level: clause
 
-category-tags: "not applicable"
+category-tags: not applicable
 
-schematicity: "partially filled/schematic"
+schematicity: partially filled/schematic
 
-links: #specify the ids of the constructions linked (horizontally and/or vertically)
+links:
     - horizontal: 167
-    - vertical: ~
+    - vertical:
 
-examples: #id of the example
+examples:
     - 1_Paisà_FP06072024
     - 2_Paisà_FP06072024
     - 3_Paisà_FP06072024
     - 4_Paisà_FP06072024
     - 5_Paisà_FP06072024
 
-cefr-level: ~
+cefr-level: -
 
 references:
-    - "Pisciotta, Flavio (accettato) Ai confini tra evidenzialità e miratività: usi d’apparenza dei verbi sintagmatici di movimento con fuori. In <i>Continuo e discreto nelle scienze del linguaggio. Atti del LVI Congresso internazionale della Società di Linguistica Italiana, 14-16 settembre 2023, Torino</i>. Milano: Officinaventuno."
+    - Pisciotta2023confini
 
 
-collector: "Flavio"
+collector: Flavio
 
-note: >
-    "This construction can have both an evidential and a mirative reading, depending on the surrounding context.
-    It is often found in adversative (example1, example5), temporal, or more generally, coordinate clauses (example3), which favour a mirative "counterexpectation" reading (i.e., the event or state in the complement clause is in contrast with the speaker's expectations).
-    More rarely, the external source of information is specified in the context, triggering an evidential interpretation (i.e., the speaker gets to know something from a source)."
+note: |
+    This construction can have both an evidential and a mirative reading, depending on the surrounding context.
+    It is often found in adversative (example1, example5), temporal, or more generally, coordinate clauses (example3), which favour a mirative 'counterexpectation' reading (i.e., the event or state in the complement clause is in contrast with the speaker's expectations).
+    More rarely, the external source of information is specified in the context, triggering an evidential interpretation (i.e., the speaker gets to know something from a source).

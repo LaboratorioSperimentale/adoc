@@ -2,11 +2,11 @@ name: fare a meno di N/V
 
 cxn-machine-readable: cxn_104.conllc
 
-definition: "The construction means that the subject does without something/someone/doing something."
+definition: The construction means that the subject does without something/someone/doing something.
 
-restrictions: "The free slot can be either a Verb or a Noun"
+restrictions: The free slot can be either a Verb or a Noun
 
-coll-preferences: >
+coll-preferences: |
     The construction is most frequently introduced by a deontic modal verb such as "dovere" 'must, have to', or by a negated possibility modal such as "non potere" 'not be able to'.
     In the latter case, the construction means that the subject can't help doing something or can't do without something.
 
@@ -36,7 +36,6 @@ examples:
     - PAISÀ_18072024BB1
 
 cefr-level:
-
 
 references:
 

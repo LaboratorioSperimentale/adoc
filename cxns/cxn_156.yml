@@ -2,13 +2,11 @@ name: (A) NP tocca V
 
 cxn-machine-readable: cxn_156.conllc
 
-definition: "The subject (Experiencer epxressed by the NP) has to carry out an action unwillingly. Such an obligation is the consequence of the State of Affairs."
+definition: The subject (Experiencer epxressed by the NP) has to carry out an action unwillingly. Such an obligation is the consequence of the State of Affairs.
 
-
-restrictions: "The verb toccare is in the 3rd person singular form and V is in the infinitive form"
+restrictions: The verb toccare is in the 3rd person singular form and V is in the infinitive form
 
 coll-preferences:
-
 
 usage:
     - Informal

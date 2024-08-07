@@ -2,13 +2,11 @@ name: VN compounds
 
 cxn-machine-readable: cxn_147.conllc
 
-definition: >
-    "Morphological construction that creates exocentric compounds mostly referring to a person or an artifact that performs a given action."
+definition: Morphological construction that creates exocentric compounds mostly referring to a person or an artifact that performs a given action.
 
-restrictions: >
-    "The first constituent is a VERB (in the form of imperative 2SG), the second constituent is a NOUN. The entire word can be a NOUN or an ADJ."
+restrictions: The first constituent is a VERB (in the form of imperative 2SG), the second constituent is a NOUN. The entire word can be a NOUN or an ADJ.
 
-coll-preferences: "The VERB is frequently bysillabic."
+coll-preferences: The VERB is frequently bysillabic.
 
 usage:
     - Both formal and informal
@@ -25,7 +23,9 @@ function-tags:
 
 complexity-level: word
 
-category-tags: noun, adjective
+category-tags:
+    - noun
+    - adjective
 
 schematicity: fully schematic
 
@@ -40,7 +40,7 @@ examples:
 cefr-level:
 
 references:
-    - "Micheli, M. S. (2020). Composizione italiana in diacronia. Le parole composte dell'italiano nel quadro della Morfologia delle Costruzioni. Berlin: DeGruyter."
+    - Micheli2020composizione
 
 
 collector: msilviamich

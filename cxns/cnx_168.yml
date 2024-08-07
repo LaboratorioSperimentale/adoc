@@ -2,14 +2,11 @@ name: porta-N compounds
 
 cxn-machine-readable: cxn_168.conllc
 
-definition: >
-    "Morphological construction that creates exocentric compounds that refer to a person carrying something or an artefact containing something."
+definition: Morphological construction that creates exocentric compounds that refer to a person carrying something or an artefact containing something.
 
-restrictions: >
-    "The first constituent is the verb portare (in the form of imperative 2SG), the second constituent is a NOUN. The entire word can be a NOUN or an ADJ."
+restrictions: The first constituent is the verb portare (in the form of imperative 2SG), the second constituent is a NOUN. The entire word can be a NOUN or an ADJ.
 
-coll-preferences: >
-    "The second constituent is frequently a noun referring to a concrete entity"
+coll-preferences: The second constituent is frequently a noun referring to a concrete entity
 
 usage:
     - Both formal and informal
@@ -26,24 +23,24 @@ function-tags:
 
 complexity-level: word
 
-category-tags: noun, adjective
-# one value among [adjective, adverb, conjunction, discourse marker, interjection, noun, preposition, pronoun, verb, onomatopoeia, not applicable, other]
+category-tags:
+    - noun
+    - adjective
 
 schematicity: partially schematic
 
 links:
-    - horizontal: -
+    - horizontal:
     - vertical: 147
 
 examples:
     - tut-3121
     - ItTenten20_19072024_SM
 
-cefr-level: -
+cefr-level:
 
 references:
-    - "Micheli, M. S. (2020). Composizione italiana in diacronia. Le parole composte dell'italiano nel quadro della Morfologia delle Costruzioni. Berlin: DeGruyter."
-
+    - Micheli2020composizione
 
 collector: msilviamich
 
