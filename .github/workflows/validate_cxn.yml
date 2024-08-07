@@ -51,6 +51,8 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: validate
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
           source venv/bin/activate
           for file in ${ALL_CHANGED_FILES}; do
