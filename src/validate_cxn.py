@@ -3,7 +3,7 @@ import cerberus
 import yaml
 from pathlib import Path
 
-CC_DB = yaml.safe_load(open("/home/runner/work/adoc/adoc/cc-database/cc-database.yaml"))
+CC_DB = yaml.safe_load(open("cc-database/cc-database.yaml"))
 CC_LIST = {x["Name"]:x["Type"] for x in CC_DB}
 
 
