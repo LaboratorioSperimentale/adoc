@@ -3,6 +3,7 @@ import glob
 import cerberus
 import yaml
 from pathlib import Path
+from sty import fg, bg, ef, rs
 
 CC_DB = yaml.safe_load(open("cc-database/cc-database.yaml"))
 CC_LIST = {x["Name"]:x["Type"] for x in CC_DB}
@@ -50,7 +51,9 @@ if __name__ == "__main__":
 				validation_test = v.validate(cxn)
 				label = "PASSED" if validation_test else "FAILED"
 
-				print("CONSTRUCTION N.", Path(file).stem.split("_")[1], "-", label)
+
+				output_str = fg(255, 10, 10) + f"CONSTRUCTION N. {Path(file).stem.split('_')[1]} - {label}" + fg.rs
+				print(output_str)
 
 
 				for field, value in v.errors.items():
@@ -67,4 +70,4 @@ if __name__ == "__main__":
 
 	if n_warnings > 0:
 		print(f"During check {n_warnings} warnings have been detected. Please check your files!")
-		# sys.exit(1)
+	print()

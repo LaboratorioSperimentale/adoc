@@ -3,3 +3,4 @@ pybtex
 networkx
 regex
 cerberus
+sty
