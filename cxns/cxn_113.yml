@@ -4,7 +4,7 @@ cxn-machine-readable: cxn_113.conllc
 
 definition: |
     The discontinuous nominal reduplication with the preposition "dopo" (after) creates a modifier conveying a succession/iteration/distribution of N.
-    
+
 restrictions: |
     The two Ns are identical. Both Ns are singular and bare. The whole cxn is fixed.
 
@@ -19,9 +19,9 @@ form-tags:
 
 function-tags:
     - succession
-    – iteration
+    - iteration
     - distributivity
-    – intensification
+    - intensification
 
 complexity-level:
     - phrase
@@ -46,7 +46,7 @@ examples:
 cefr-level:
 
 references:
-    - Masini, Francesca. 2024. Costruzioni su costruzioni: idiomaticity and regularity of NPN discontinuous reduplications in Italian. In Federica Casadei & Sabine Elisabeth Koesters Gensini (eds.), I fraseologismi schematici. Questioni descrittive e teoriche, 51-83. Rome: Aracne.
+    - Masini2024costruzioni
 
 
 collector: Francesca Masini
