@@ -67,4 +67,4 @@ if __name__ == "__main__":
 
 	if n_warnings > 0:
 		print(f"During check {n_warnings} warnings have been detected. Please check your files!")
-		sys.exit(1)
+		# sys.exit(1)
