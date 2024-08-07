@@ -3,7 +3,7 @@ import cerberus
 import yaml
 from pathlib import Path
 
-CC_DB = yaml.safe_load(open("cc-database/cc-database.yaml"))
+CC_DB = yaml.safe_load(open("/home/runner/work/adoc/adoc/cc-database/cc-database.yaml"))
 CC_LIST = {x["Name"]:x["Type"] for x in CC_DB}
 
 
@@ -35,7 +35,7 @@ class CXNValidator(cerberus.Validator):
 
 #		exec(f"python3 tools/validate.py --lang it --level 2 --no-space-after ../UD_examples/VIT-8523.conllu")
 
-v = CXNValidator(yaml.safe_load(open("validation/cxn_schema.yml")))
+v = CXNValidator(yaml.safe_load(open("/home/runner/work/adoc/adoc/validation/cxn_schema.yml")))
 
 for file in glob.glob("cxns/*"):
 	with open(file, encoding="utf-8") as stream:
