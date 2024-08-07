@@ -37,11 +37,11 @@ horizontal-links:
 vertical-links:
 
 examples:
-    - 4287
-    - 2_Europarl-232
-    - tut-3019
-    - test-162
-    - 2_Europarl-294
+    - isst_tanl-3641
+    - isst_tanl-3198
+    - ParlaMint-IT_2015-03-11-LEG17-Sed-407_68
+    - ParlaMint-IT_2015-03-11-LEG17-Sed-407_226
+    - 560
 
 cefr-level:
 
