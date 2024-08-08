@@ -51,9 +51,9 @@ if __name__ == "__main__":
 				validation_test = v.validate(cxn)
 
 				if validation_test:
-					output_str = fg.green + f"CONSTRUCTION N. {Path(file).stem.split('_')[1]} - PASSED" + fg.rs
+					output_str = fg.green + f"[PASSED] CONSTRUCTION N. {Path(file).stem.split('_')[1]}: {cxn['name']}" + fg.rs
 				else:
-					output_str = fg(255, 10, 10) + f"CONSTRUCTION N. {Path(file).stem.split('_')[1]} - FAILED" + fg.rs
+					output_str = fg(255, 10, 10) + f"[FAILED] CONSTRUCTION N. {Path(file).stem.split('_')[1]}: {cxn['name']}" + fg.rs
 
 				print(output_str)
 
@@ -62,7 +62,15 @@ if __name__ == "__main__":
 
 					print(f"WARNING: {field}")
 					for x in value:
-						print(f"\t{x}")
+						if len(x) > 0:
+							if type(x) == str:
+								print(f"\t{x}")
+							else:
+								for element in x:
+									if type(element) == int:
+										print(f"\titem-{element}: {' - '.join(x[element])}")
+						else:
+							print(f"\t{x}")
 						n_warnings += 1
 					print()
 				print()
