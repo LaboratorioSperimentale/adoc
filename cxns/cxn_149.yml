@@ -2,23 +2,19 @@ name: Cognate Object Construction
 
 cxn-machine-readable: cxn_149.conllc
 
-definition: 
+definition:
 
-restrictions: 
+restrictions:
 
 coll-preferences:
 
 usage:
-    - 
 
 form-tags:
-    - 
 
 function-tags:
-    - 
 
 complexity-level:
-    - 
 
 category-tags:
     - verb
@@ -26,11 +22,12 @@ category-tags:
 
 schematicity: abstract
 
-horizontal-links: 150,151
+horizontal-links:
+    - 150
+    - 151
 vertical-links:
 
 examples:
-    
 
 cefr-level:
 
