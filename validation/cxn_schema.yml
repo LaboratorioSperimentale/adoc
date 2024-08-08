@@ -78,6 +78,7 @@ references:
   nullable: True
   schema:
     type: string
+    check_with: bibentry
 
 collector:
   type: string

@@ -4,9 +4,11 @@ import cerberus
 import yaml
 from pathlib import Path
 from sty import fg, bg, ef, rs
+from pybtex.database import parse_file
 
 CC_DB = yaml.safe_load(open("cc-database/cc-database.yaml"))
 CC_LIST = {x["Name"]:x["Type"] for x in CC_DB}
+BIB = parse_file("bibliography/entries.bib", bib_format="bibtex")
 
 
 class CXNValidator(cerberus.Validator):
@@ -34,6 +36,12 @@ class CXNValidator(cerberus.Validator):
 			self._error(field, f"Value '{value}' is not a file in 'UD_examples folder'")
 
 		#TODO validate conllu file with example
+
+	def _check_with_bibentry(self, field, value):
+
+		if not value in BIB.entries:
+			self._error(field, f"Value '{value}' is not a valid bibliographical identifier'")
+
 
 
 if __name__ == "__main__":
