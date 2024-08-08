@@ -1,12 +1,12 @@
 import sys
-import glob
+from pathlib import Path
+
 import cerberus
 import yaml
-from pathlib import Path
-from sty import fg, bg, ef, rs
+from sty import fg
 from pybtex.database import parse_file
 
-CC_DB = yaml.safe_load(open("cc-database/cc-database.yaml"))
+CC_DB = yaml.safe_load(open("cc-database/cc-database.yaml", encoding="utf-8"))
 CC_LIST = {x["Name"]:x["Type"] for x in CC_DB}
 BIB = parse_file("bibliography/entries.bib", bib_format="bibtex")
 
@@ -48,7 +48,7 @@ if __name__ == "__main__":
 
 	new_files = sys.argv[1:]
 
-	v = CXNValidator(yaml.safe_load(open("validation/cxn_schema.yml")))
+	v = CXNValidator(yaml.safe_load(open("validation/cxn_schema.yml", encoding="utf-8")))
 
 	n_warnings = 0
 	for file in new_files:
@@ -59,9 +59,13 @@ if __name__ == "__main__":
 				validation_test = v.validate(cxn)
 
 				if validation_test:
-					output_str = fg.green + f"[PASSED] CONSTRUCTION N. {Path(file).stem.split('_')[1]}: {cxn['name']}" + fg.rs
+					output_str = fg.green + \
+						f"[PASSED] CONSTRUCTION N. {Path(file).stem.split('_')[1]}: {cxn['name']}" + \
+							fg.rs
 				else:
-					output_str = fg(255, 10, 10) + f"[FAILED] CONSTRUCTION N. {Path(file).stem.split('_')[1]}: {cxn['name']}" + fg.rs
+					output_str = fg(255, 10, 10) + \
+						f"[FAILED] CONSTRUCTION N. {Path(file).stem.split('_')[1]}: {cxn['name']}" + \
+							fg.rs
 
 				print(output_str)
 
@@ -89,3 +93,4 @@ if __name__ == "__main__":
 	if n_warnings > 0:
 		print(f"During check {n_warnings} warnings have been detected. Please check your files!")
 	print()
+
