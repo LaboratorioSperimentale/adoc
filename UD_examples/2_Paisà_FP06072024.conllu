@@ -14,9 +14,9 @@
 9	salta	saltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	CXN=68:A
 10	fuori	fuori	ADV	B	_	9	advmod	_	CXN=68:B
 11	che	che	SCONJ	CS	_	14	mark	_	CXN=68:C
-12	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	CXN=68:D
+12	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
 13	davvero	davvero	ADV	B	_	14	advmod	_	_
-14	Chris	Chris	PROPN	SP	_	9	ccomp	_	_
+14	Chris	Chris	PROPN	SP	_	9	ccomp	_	CXN=68:D
 15	Squire	Squire	PROPN	SP	_	14	flat:name	_	_
 16	!	!	PUNCT	FS	_	4	punct	_	_
 17	!	!	PUNCT	FS	_	4	punct	_	SpaceAfter=No
