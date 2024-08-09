@@ -33,9 +33,9 @@
 28	salta	saltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	conj	_	CXN=68:A
 29	fuori	fuori	ADV	B	_	28	advmod	_	CXN=68:B
 30	che	che	SCONJ	CS	_	33	mark	_	CXN=68:C
-31	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	cop	_	CXN=68:D
+31	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	33	cop	_	_
 32	in	in	ADP	E	_	33	case	_	_
-33	Forza	Forza	PROPN	SP	_	28	ccomp	_	_
+33	Forza	Forza	PROPN	SP	_	28	ccomp	_	CXN=68:D
 34	Italia	Italia	PROPN	SP	_	33	flat:name	_	_
 35	prima	prima	ADV	B	_	33	advmod	_	_
 36	e	e	CCONJ	CC	_	41	cc	_	_
