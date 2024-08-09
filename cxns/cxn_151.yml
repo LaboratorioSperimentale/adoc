@@ -2,35 +2,33 @@ name: WITH-pattern Cognate Object Construction
 
 cxn-machine-readable: cxn_151.conllc
 
-definition: 
+definition:
 
-restrictions: 
+restrictions:
 
 coll-preferences:
 
 usage:
-    - 
 
 form-tags:
-    - 
 
 function-tags:
-    - 
 
 complexity-level:
-    - 
 
 category-tags:
     - verb
     - noun
 
-schematicity: abstract
+schematicity: fully schematic
 
-horizontal-links: 149,150
+horizontal-links:
+    - 149
+    - 150
 vertical-links:
 
 examples:
-    
+
 
 cefr-level:
 
