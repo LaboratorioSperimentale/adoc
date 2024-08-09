@@ -2,19 +2,24 @@ name: Cognate Object Construction
 
 cxn-machine-readable: cxn_149.conllc
 
-definition:
+definition: > argument structure construction in which an intransitive verb combines with a direct object that is either morphologically
+or semantically cognate to the verb 
 
-restrictions:
+restrictions: the object needs to be morphologically or semantically cognate to the verb
 
 coll-preferences:
 
 usage:
+    - Formal
+    - Informal
+    - Written
+    - Standard
 
-form-tags:
+form-tags: cc:cxn:argument-complex-predicate
 
 function-tags:
 
-complexity-level:
+complexity-level: clause
 
 category-tags:
     - verb
@@ -28,12 +33,16 @@ horizontal-links:
 vertical-links:
 
 examples:
+    - VIT-4917.conllu
+    - MONITOR2014_16.conllu
 
 cefr-level:
 
 references:
+    - mellonimasini2017cognate
+    - busso2020valency
 
-collector:
+collector: LuciaBusso
 
 note:
 
