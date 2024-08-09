@@ -18,7 +18,7 @@ form-tags:
     - cc:cxn:complex-predicate
 
 function-tags:
-
+    - #proposte non cc: absence, caritive, privative; proposte cc che non mi convincono molto: sem:subtractive; sem:negative-circumstantial 
 complexity-level:
     - phrase
 
