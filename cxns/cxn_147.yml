@@ -17,7 +17,7 @@ usage:
 
 form-tags:
     - exocentric compound
-    - compounding
+    - cc:str:compounding
     - morphology
 
 function-tags:

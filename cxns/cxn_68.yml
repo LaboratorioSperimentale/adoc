@@ -16,12 +16,12 @@ coll-preferences:
 usage:
 
 form-tags:
-    - complement clause construction
+    - cc:cxn:complement-clause-construction
     - impersonal construction
 
 
 function-tags:
-    - evidentiality
+    - cc:sem:evidentiality
     - mirativity
 
 

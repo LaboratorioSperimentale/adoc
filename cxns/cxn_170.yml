@@ -15,8 +15,8 @@ coll-preferences:
 usage:
 
 form-tags:
-    - adjectival phrase
-    - admodifier
+    - cc:cxn:adjectival-phrase
+    - cc:cxn:admodifier
 
 function-tags:
     - evaluation

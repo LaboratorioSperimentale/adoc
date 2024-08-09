@@ -15,7 +15,7 @@ coll-preferences:
 usage:
 
 form-tags:
-    - affixation
+    - cc:str:affixation
     - prefixation
     - neoclassical word formation
 

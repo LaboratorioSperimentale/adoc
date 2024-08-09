@@ -7,23 +7,44 @@ from sty import fg
 from pybtex.database import parse_file
 
 CC_DB = yaml.safe_load(open("cc-database/cc-database.yaml", encoding="utf-8"))
-CC_LIST = {x["Name"]:x["Type"] for x in CC_DB}
+CC_LIST = {x["Id"]:x["Type"] for x in CC_DB}
 BIB = parse_file("bibliography/entries.bib", bib_format="bibtex")
 
 
 class CXNValidator(cerberus.Validator):
 
 	def _check_with_CClist_construction(self, field, value):
-		if not value in CC_LIST:
-			self._error(field, f"Value '{value}' not in list of comparative concepts")
-		elif CC_LIST[value] not in ["cxn", "str"]:
-			self._error(field, f"Value '{value}' has type '{CC_LIST[value]}' in list of comparative concepts, types 'str' or 'cxn' required")
+
+		if value is not None:
+			if value.startswith("cc"):
+				cc, category, name_str = value.split(":")
+				cc_id = f"{category}:{name_str}"
+				if not category in ["cxn", "str"]:
+					self._error(field, f"Value '{cc_id}' has type '{CC_LIST[cc_id]}' in list of comparative concepts, types 'str' or 'cxn' required")
+
+				if not cc_id in CC_LIST:
+					self._error(field, f"Value '{cc_id}' not in list of comparative concepts")
+
+			else:
+				self._error(field, f"Value '{value}' created by author")
+
 
 	def _check_with_CClist_meaning(self, field, value):
-		if not value in CC_LIST:
-			self._error(field, f"Value '{value}' not in list of comparative concepts")
-		elif CC_LIST[value] not in ["inf", "sem"]:
-			self._error(field, f"Value '{value}' has type '{CC_LIST[value]}' in list of comparative concepts, types 'inf' or 'sem' required")
+
+		if value is not None:
+			if value.startswith("cc"):
+				cc, category, name_str = value.split(":")
+				cc_id = f"{category}:{name_str}"
+				if not category in ["inf", "sem"]:
+					self._error(field, f"Value '{cc_id}' has type '{CC_LIST[cc_id]}' in list of comparative concepts, types 'str' or 'cxn' required")
+
+				if not cc_id in CC_LIST:
+					self._error(field, f"Value '{cc_id}' not in list of comparative concepts")
+
+			else:
+				self._error(field, f"Value '{value}' created by author")
+
+
 
 	def _check_with_conllc_path(self, field, value):
 		p = Path("cxns_conllc").joinpath(value)
