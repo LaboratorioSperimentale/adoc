@@ -3,8 +3,9 @@
 # udpipe_model_licence = CC BY-NC-SA									
 # newdoc									
 # newpar									
-# sent_id = https://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=58879730&End=58879732									
-# text = Mi sembrava di vivere una vita che non avevo avuto la minima possibilit‡† di prevedere.									
+# sent_id = CORIS_MONITOR2014_16
+#source: https://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=58879730&End=58879732									
+# text = Mi sembrava di vivere una vita che non avevo avuto la minima possibilit√†¬† di prevedere.									
 1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	
 2	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	
 3	di	di	ADP	E	_	4	mark	_	
@@ -17,7 +18,7 @@
 10	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	
 11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	
 12	minima	minimo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	
-13	possibilit‡	possibilit‡	NOUN	S	Gender=Fem	10	obj	_	
+13	possibilit√†	possibilit√†	NOUN	S	Gender=Fem	10	obj	_	
 14	di	di	ADP	E	_	15	mark	_	
 15	prevedere	prevedere	VERB	V	VerbForm=Inf	13	acl	_	SpaceAfter=No
 16	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
