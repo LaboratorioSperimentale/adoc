@@ -18,8 +18,8 @@
 13	realà	realà	NOUN	S	Gender=Fem	17	obl	_	_
 14	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
 15	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
-16	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	CXN=68:D
-17	frutto	frutto	NOUN	S	Gender=Masc|Number=Sing	9	ccomp	_	_
+16	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	cop	_	_
+17	frutto	frutto	NOUN	S	Gender=Masc|Number=Sing	9	ccomp	_	CXN=68:D
 18-19	della	_	_	_	_	_	_	_	_
 18	di	di	ADP	E	_	20	case	_	_
 19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
