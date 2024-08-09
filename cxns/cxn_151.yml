@@ -1,16 +1,21 @@
-name: WITH-pattern Cognate Object Construction
+name: OF-pattern Cognate Object Construction
 
 cxn-machine-readable: cxn_151.conllc
 
-definition:
+definition: > argument structure construction in which an intransitive verb combines with a prepositional object introduced by "di" that is either morphologically
+or semantically cognate to the verb
 
-restrictions:
+restrictions: the object needs to be morphologically or semantically cognate to the verb
 
 coll-preferences:
 
 usage:
+    - Formal
+    - Informal
+    - Written
+    - Standard
 
-form-tags:
+form-tags: cc:cxn:argument-complex-predicate
 
 function-tags:
 
@@ -33,8 +38,9 @@ examples:
 cefr-level:
 
 references:
+- mellonimasini2017cognate
 
-collector:
+collector: LuciaBusso
 
 note:
 
