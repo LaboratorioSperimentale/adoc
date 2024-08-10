@@ -16,9 +16,8 @@ usage:
     - Standard
 
 form-tags:
-    - exocentric compound
-    - compounding
-    - morphology
+    - exocentricity
+    - str:compounding
 
 function-tags:
     - instrument noun
