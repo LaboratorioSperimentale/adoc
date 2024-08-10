@@ -1,5 +1,5 @@
 # sent_id = VIT-7735
-# source = . . .
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-VIT/it_vit-ud-train VIT-7735
 # text = Per la prima volta in cinque anni lo sentono sgridare i compagni addormentati, che l'hanno lasciato in un vespaio mezzo nudo.
 1	Per	per	ADP	E	_	4	case	_	_
 2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_

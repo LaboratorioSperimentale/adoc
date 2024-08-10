@@ -1,5 +1,5 @@
 # sent_id = VIT-3857
-# source = . . .
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-VIT/it_vit-ud-train VIT-3857
 # text = Il secondo, l'ufficio semi direzionale, è una cella di un metro e mezzo per tre per quattro d'altezza, con luci al neon lividissime e altarino computer nell'angolo, al servizio di funzionari piranha.
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	secondo	secondo	ADJ	NO	NumType=Ord	11	nsubj	_	SpaceAfter=No

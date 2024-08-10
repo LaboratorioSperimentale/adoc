@@ -1,5 +1,5 @@
 # sent_id = VIT-2589
-# source = . . .
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-VIT/it_vit-ud-train VIT-2589
 # text = 2) variazioni delle rimanenze dei prodotti in corso di lavorazione, semilavorati, e finiti - in questa voce deve essere indicata la differenza algebrica tra il valore delle rimanenze finali e delle iniziali relative ai prodotti risultanti dalla produzione e a quelli in corso di fabbricazione.
 1	2	2	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
 2	)	)	PUNCT	FB	_	1	punct	_	_
