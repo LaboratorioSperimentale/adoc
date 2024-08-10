@@ -2,6 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.12-230717
 # udpipe_model_licence = CC BY-NC-SA
 # sent_id = 5_Paisà_FP06072024
+# source = http://hdl.handle.net/20.500.12124/3 paisa.raw.utf8/7707149 .
 # text = Mantovano smentisce clamorosamente Travaglio : non è vero che Vito ( Alfredo ) è parlamentare Pdl ; il giornalista replica che ha fatto tre legislature , ma salta fuori che era in Forza Italia prima e non è stato più ricandidato .
 1	Mantovano	Mantovano	PROPN	SP	_	2	nsubj	_	_
 2	smentisce	smentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_

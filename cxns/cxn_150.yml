@@ -2,8 +2,8 @@ name: WITH-pattern Cognate Object Construction
 
 cxn-machine-readable: cxn_150.conllc
 
-definition: > argument structure construction in which an intransitive verb combines with a prepositional object introduced by "con" that is either morphologically
-or semantically cognate to the verb
+definition: >
+    argument structure construction in which an intransitive verb combines with a prepositional object introduced by "con" that is either morphologically or semantically cognate to the verb
 
 restrictions: the object needs to be morphologically or semantically cognate to the verb
 
@@ -15,11 +15,13 @@ usage:
     - Written
     - Standard
 
-form-tags: cc:cxn:argument-complex-predicate
+form-tags:
+    - cc:cxn:argument-complex-predicate
 
 function-tags:
 
-complexity-level: clause
+complexity-level:
+    - clause
 
 category-tags:
     - verb
@@ -36,7 +38,8 @@ examples:
 
 cefr-level:
 
-references: mellonimasini2017cognate
+references:
+    - mellonimasini2017cognate
 
 collector: LuciaBusso
 

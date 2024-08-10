@@ -1,4 +1,5 @@
 # sent_id = isst_tanl-3641
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-ISDT/it_isdt-ud-test isst_tanl-3641
 # text = Ma conoscono bene Carmen Castillo, la signora cilena nella cui casa, a Parigi, è avvenuto l'incontro tra Gaston Salvatore e la Payita, e che conferma punto per punto l'intervista.
 1	Ma	ma	CCONJ	CC	_	2	cc	2:cc	_
 2	conoscono	conoscere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_

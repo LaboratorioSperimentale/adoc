@@ -2,6 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.12-230717
 # udpipe_model_licence = CC BY-NC-SA
 # sent_id = 1_Paisà_FP06072024
+# source = http://hdl.handle.net/20.500.12124/3 paisa.raw.utf8/1830888 .
 # text = tuttavia in un diario rinvenuto da Millerna , salta fuori che in realà quel bambino era frutto della passione fra marlene ed Allen , cosa intuibile anche dalla forte somiglianza.
 1	tuttavia	tuttavia	ADV	B	_	9	advmod	_	_
 2	in	in	ADP	E	_	4	case	_	_

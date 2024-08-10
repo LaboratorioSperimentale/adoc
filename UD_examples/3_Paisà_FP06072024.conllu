@@ -2,6 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.12-230717
 # udpipe_model_licence = CC BY-NC-SA
 # sent_id = 3_Paisà_FP06072024
+# source = http://hdl.handle.net/20.500.12124/3 paisa.raw.utf8/7404393 .
 # text = E salta fuori anche che , in tutto quel tempo , aveva sempre abitato tre case oltre la mia .
 1	E	e	CCONJ	CC	_	2	cc	_	_
 2	salta	saltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CXN=68:A

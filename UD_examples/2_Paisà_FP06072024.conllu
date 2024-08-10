@@ -2,6 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.12-230717
 # udpipe_model_licence = CC BY-NC-SA
 # sent_id = 2_Paisà_FP06072024
+# source = http://hdl.handle.net/20.500.12124/3 paisa.raw.utf8/7404393 .
 # text = Poi ci siamo messi a parlare ... e salta fuori che era davvero Chris Squire ! !
 1	Poi	poi	ADV	B	_	4	advmod	_	_
 2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	CXN=345:B

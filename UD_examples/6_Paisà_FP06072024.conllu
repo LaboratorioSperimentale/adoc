@@ -2,6 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.12-230717
 # udpipe_model_licence = CC BY-NC-SA
 # sent_id = 6_Paisà_FP06072024
+# source = http://hdl.handle.net/20.500.12124/3 paisa.raw.utf8/7617893 .
 # text = diamine ci vorrebbero far cambiare macchina perché i diesel euro 3 inquinano ... poi viene fuori che il Filtro anti particolato è completamente inutile visto che ogni tot km si intasa e automaticamente butta gran parte di quello che ha trattenuto ... allora quale era la vera motivazione di tutto ciò ?
 1	diamine	diamine	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
 2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	iobj	_	_

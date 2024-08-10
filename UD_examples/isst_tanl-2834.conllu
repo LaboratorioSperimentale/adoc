@@ -1,4 +1,5 @@
 # sent_id = isst_tanl-2834
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-ISDT/it_isdt-ud-train isst_tanl-2834
 # text = La famiglia Didoni, mezzo brianzola e mezzo bergamasca di origine, da sempre abita a Quarto Oggiaro, i ragazzi sono tutti cresciuti bene nelle strade del quartiere dalla fama di ghetto e adesso qui la gente è raggiante per l'inatteso riscatto d'immagine arrivato dalla lontana Svezia.
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	_
 2	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	15:nsubj	_

@@ -2,6 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.12-230717
 # udpipe_model_licence = CC BY-NC-SA
 # sent_id = 9_Paisà_FP06072024
+# source = http://hdl.handle.net/20.500.12124/3 paisa.raw.utf8/7008598 .
 # text = Ne viene fuori che per lo stesso processo ( che so , il solito furto aggravato da qualcosa ) un avvocato nel 1968 pigliava il quadruplo di oggi .
 1	Ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	2	iobj	_	_
 2	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CXN=167:A

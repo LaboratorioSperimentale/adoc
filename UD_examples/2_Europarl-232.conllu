@@ -1,4 +1,5 @@
 # sent_id = 2_Europarl-232
+# source =
 # text = L'incremento dei margini, delle garanzie di sicurezza nei trasporti è un processo che deve continuare a migliorare giorno dopo giorno.
 1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	incremento	incremento	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_

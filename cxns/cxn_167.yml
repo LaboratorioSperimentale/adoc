@@ -19,11 +19,11 @@ usage:
 form-tags:
     - cc:cxn:complement-clause-construction
     - impersonal construction
-    - (non-indexed?)
+    - cc:str:non-indexed
 
 function-tags:
     - cc:sem:evidentiality
-    - mirativity
+    - cc:sem:mirative
 
 complexity-level:
     - clause

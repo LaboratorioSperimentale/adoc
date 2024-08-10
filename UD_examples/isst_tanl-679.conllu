@@ -1,4 +1,5 @@
 # sent_id = isst_tanl-679
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-ISDT/it_isdt-ud-train isst_tanl-679
 # text = Toccava a me indicare la relatrice per la legge sulla violenza femminile.
 1	Toccava	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	CXN=156a:C
 2	a	a	ADP	E	_	3	case	3:case	CXN=156a:A

@@ -2,6 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.12-230717
 # udpipe_model_licence = CC BY-NC-SA
 # sent_id = 4_Paisà_FP06072024
+# source = http://hdl.handle.net/20.500.12124/3 paisa.raw.utf8/7703257 .
 # text = Da varie ricerche e approfondimenti di psicologia salta fuori che una simile condizione può innescare una forma di gelosia così tormentosa , per sé e per l' altro , da impedire un' equilibrata crescita del rapporto di coppia , indipendente e senza macchie .
 1	Da	da	ADP	E	_	3	case	_	_
 2	varie	vario	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_

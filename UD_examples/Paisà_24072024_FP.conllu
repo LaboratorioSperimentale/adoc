@@ -2,6 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.12-230717
 # udpipe_model_licence = CC BY-NC-SA
 # sent_id = Paisà_24072024_FP
+# source = http://hdl.handle.net/20.500.12124/3 paisa.raw.utf8/2704629 .
 # text = Essa si distingue soprattutto in quanto le armate tedesche avevano precedentemente conquistato , in poche settimane , città e interi Paesi ; mentre in questo caso non furono capaci di conquistare una casa mezza diroccata , difesa per la maggior parte del tempo da poco più di una dozzina di soldati , nonostante vi avessero tentato per due mesi .
 1	Essa	esso	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_

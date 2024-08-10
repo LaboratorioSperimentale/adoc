@@ -2,8 +2,8 @@ name: Cognate Object Construction
 
 cxn-machine-readable: cxn_149.conllc
 
-definition: > argument structure construction in which an intransitive verb combines with a direct object that is either morphologically
-or semantically cognate to the verb 
+definition: >
+    argument structure construction in which an intransitive verb combines with a direct object that is either morphologically or semantically cognate to the verb
 
 restrictions: the object needs to be morphologically or semantically cognate to the verb
 
@@ -15,11 +15,13 @@ usage:
     - Written
     - Standard
 
-form-tags: cc:cxn:argument-complex-predicate
+form-tags:
+    - cc:cxn:argument-complex-predicate
 
 function-tags:
 
-complexity-level: clause
+complexity-level:
+    - clause
 
 category-tags:
     - verb

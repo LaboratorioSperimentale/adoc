@@ -2,6 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.12-230717
 # udpipe_model_licence = CC BY-NC-SA
 # sent_id = 8_Paisà_FP06072024
+# source = http://hdl.handle.net/20.500.12124/3 paisa.raw.utf8/1933900 .
 # text = Sommando le spese annuali di tutti gli Stati membri viene fuori che l' Unione europea spende più di 311,9 miliardi di USD , seconda solo agli Stati Uniti d' America con 518 miliardi di USD .
 1	Sommando	sommare	VERB	V	VerbForm=Ger	10	advcl	_	_
 2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_

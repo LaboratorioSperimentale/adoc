@@ -1,4 +1,5 @@
 # sent_id = isst_tanl-1137
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-ISDT/it_isdt-ud-train isst_tanl-1137
 # text = gli acrobati con i costumi lisi, il pubblico a bocca aperta, qualche sospiro degli uomini davanti al seno mezzo nudo della trapezista e le donne con lo chador sul capo pronte a coprire gli occhi dei bambini.
 1	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	2:det	_
 2	acrobati	acrobata	NOUN	S	Gender=Masc|Number=Plur	0	root	0:root	_

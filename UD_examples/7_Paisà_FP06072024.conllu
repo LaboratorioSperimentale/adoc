@@ -2,6 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.12-230717
 # udpipe_model_licence = CC BY-NC-SA
 # sent_id = 7_Paisà_FP06072024
+# source = http://hdl.handle.net/20.500.12124/3 paisa.raw.utf8/7502087 .
 # text = Dall' analisi dei giudici contabili viene fuori inoltre che per il decommissioning « nel 2008 sono stati sostenuti costi per 46,4 milioni di euro » , manutenzione esclusa .
 1-2	Dall'	_	_	_	_	_	_	_	_
 1	Da	da	ADP	E	_	3	case	_	_

@@ -1,4 +1,5 @@
 # sent_id = 2_Europarl-294
+# source =
 # text = Settore dopo settore, si assiste all'approvazione progressiva di norme minime che gli stati membri debbono rispettare.
 1	Settore	settore	NOUN	S	Gender=Masc|Number=Sing	6	obl	6:obl	CXN=113:A
 2	dopo	dopo	ADP	E	_	3	case	3:case	CXN=113:B

@@ -1,4 +1,5 @@
 # sent_id = isst_tanl-3198
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-ISDT/it_isdt-ud-train isst_tanl-3198
 # text = Per ottenere i disegni, il primo strato di cemento viene versato, colore per colore, in uno stampo.
 1	Per	per	ADP	E	_	2	mark	2:mark	_
 2	ottenere	ottenere	VERB	V	VerbForm=Inf	12	advcl	12:advcl:per	_

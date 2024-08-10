@@ -2,6 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.12-230717
 # udpipe_model_licence = CC BY-NC-SA
 # sent_id = PAISÀ_18072024BB1
+# source = http://hdl.handle.net/20.500.12124/3 paisa.raw.utf8/0045650 .
 # text = Se gli antichi potevano fare a meno della nozione di " bello " in senso stretto era perché avevano termini appropriati per il bello visibile , chiamato " simmetria " , come per il bello udibile , chiamato " armonia " .
 1	Se	se	SCONJ	CS	_	5	mark	_	_
 2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_

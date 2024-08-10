@@ -2,6 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.12-230717
 # udpipe_model_licence = CC BY-NC-SA
 # sent_id =  Paisà_24072024_FP_2
+# source = http://hdl.handle.net/20.500.12124/3 paisa.raw.utf8/7005694 .
 # text = Il pensiero va ad una persona , stremata , impaurita , disidrata e infreddolita che con la barca mezza sommersa e fuori controllo deve ESTRARRE da chissà dove il suo ultimo rifugio ... forza e coraggio !
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_

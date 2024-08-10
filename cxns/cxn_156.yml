@@ -13,6 +13,7 @@ usage:
 
 form-tags:
     - impersonal construction
+    - cc:str:non-indexed
 
 function-tags:
     - cc:sem:deontic-modality
