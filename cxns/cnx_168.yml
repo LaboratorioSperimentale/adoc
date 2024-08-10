@@ -16,7 +16,7 @@ usage:
     - Standard
 
 form-tags:
-    - exocentricity
+    - exocentric
     - cc:str:compounding
 
 function-tags:
