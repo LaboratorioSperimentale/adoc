@@ -21,7 +21,7 @@ function-tags:
     - succession
     - iteration
     - distributivity
-    - intensification
+    - cxn:intensifier
 
 complexity-level:
     - phrase
