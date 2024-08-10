@@ -17,7 +17,7 @@ usage:
 
 form-tags:
     - exocentricity
-    - str:compounding
+    - cc:str:compounding
 
 function-tags:
     - instrument noun
