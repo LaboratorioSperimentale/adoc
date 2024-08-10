@@ -1,4 +1,5 @@
 # sent_id = test-162
+# source = . . .
 # text = Lavoriamo ora dopo ora e non possiamo speculare su lesioni permanenti.
 1	Lavoriamo	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 2	ora	ora	NOUN	S	Gender=Fem|Number=Sing	1	obl	1:obl	CXN=113:A

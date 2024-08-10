@@ -1,4 +1,5 @@
 # sent_id = tut-3019
+# source = . . .
 # text = Vi piacerebbe incontrare e intervistare l'idolo delle vostre serate casalinghe, quello che da anni ammirate e spiate trasmissione dopo trasmissione e che vorreste vedere dal vivo, toccarlo con mano?
 1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	2:iobj	_
 2	piacerebbe	piacere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_

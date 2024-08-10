@@ -2,6 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.12-230717
 # udpipe_model_licence = CC BY-NC-SA
 # sent_id = itTenTen20_17072024_BB
+# source =
 # text = Quindi tocca smettere di lamentarsi e ricominciare a combattere.
 1	Quindi	quindi	CCONJ	CC	_	2	cc	_	_
 2	tocca	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CXN=156a:C

@@ -1,4 +1,5 @@
 # sent_id = ParlaMint-IT_2015-03-11-LEG17-Sed-407_68
+# source = . . .
 # text = Pertanto, anche su questo aspetto è opportuno lasciare agli operatori e alla magistratura la possibilità di valutare caso per caso.
 1	Pertanto	pertanto	ADV	B	_	8	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	1	punct	_	_

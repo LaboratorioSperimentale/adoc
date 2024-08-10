@@ -1,4 +1,5 @@
 # sent_id = VIT-3960
+# source = . . .
 # text = Le faccio un esempio, così, semiserio:
 1	Le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	expl	_	_
 2	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_

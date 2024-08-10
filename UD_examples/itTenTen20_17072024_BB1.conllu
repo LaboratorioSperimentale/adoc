@@ -2,6 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.12-230717
 # udpipe_model_licence = CC BY-NC-SA
 # sent_id = itTenTen20_17072024_BB1
+# source = . . .
 # text = L'inglese non puo' fare a meno di attaccare bottone.
 1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	inglese	inglese	NOUN	S	Number=Sing	5	nsubj	_	_

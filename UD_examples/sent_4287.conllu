@@ -1,4 +1,5 @@
 # sent_id = sent_4287
+# source = . . .
 # text = giorno dopo giorno mi accorgo quanto Louis sia importante per me
 1	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	CXN=113:A
 2	dopo	dopo	ADP	E	_	3	case	_	CXN=113:B

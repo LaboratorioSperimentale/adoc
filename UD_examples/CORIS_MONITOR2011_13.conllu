@@ -2,6 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.12-230717
 # udpipe_model_licence = CC BY-NC-SA
 # sent_id = CORIS_MONITOR2011_13
+# source = . . .
 # text = Ci mettevo un mucchio di tempo a decidere, come fanno i bambini di cinque anni con i gusti del gelato, e il lunedì mi toccava digiunare tutto il giorno, per smaltire l'abbuffata.
 1	Ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	_
 2	mettevo	mettere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
