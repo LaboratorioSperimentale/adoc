@@ -1,5 +1,5 @@
 # sent_id = tut-3121
-# source = . . .
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-ISDT/it_isdt-ud-train tut-3121
 # text = Vediamo allora qualche criterio per ricomporre o confermare il proprio portafoglio.
 1	Vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 2	allora	allora	ADV	B	_	1	advmod	1:advmod	_
