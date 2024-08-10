@@ -16,9 +16,8 @@ usage:
     - Standard
 
 form-tags:
-    - exocentric compound
+    - exocentric
     - cc:str:compounding
-    - morphology
 
 function-tags:
     - professional nouns
