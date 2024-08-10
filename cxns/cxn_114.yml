@@ -19,9 +19,9 @@ form-tags:
 
 function-tags:
     - succession
-    - iteration
+    - iterativity
     - distributivity
-    - intensification
+    - cxn:intensifier
 
 complexity-level:
     - phrase
