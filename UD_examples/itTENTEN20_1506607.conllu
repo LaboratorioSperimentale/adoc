@@ -1,0 +1,28 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe									
+# udpipe_model = italian-isdt-ud-2.12-230717									
+# udpipe_model_licence = CC BY-NC-SA									
+# newdoc									
+# newpar									
+# sent_id = ItTENTEN20_1506607									
+#source=	https://ske.li/10u								
+# text = Ci guardavano e sorridevano con un sorriso di amorevole comprensione, un po' velato di tristezza, cosìsembrava.									
+1	Ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	_
+2	guardavano	guardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	sorridevano	sorridere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	CXN=150:B
+5	con	con	ADP	E	_	7	case	_	CXN=150:C
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	CXN=150:D
+8	di	di	ADP	E	_	10	case	_	_
+9	amorevole	amorevole	ADJ	A	Number=Sing	10	amod	_	_
+10	comprensione	comprensione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	po'	poco	ADV	B	_	14	advmod	_	_
+14	velato	velare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	tristezza	tristezza	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	2	punct	_	_
+18	così	così	ADV	B	_	19	advmod	_	_
+19	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
