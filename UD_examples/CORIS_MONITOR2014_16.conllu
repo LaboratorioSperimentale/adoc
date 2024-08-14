@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.12-230717
 # udpipe_model_licence = CC BY-NC-SA
 # sent_id = CORIS_MONITOR2014_16
-# source: https://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=58879730&End=58879732
+# source = . https://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=58879730&End=58879732 2552984
 # text = Mi sembrava di vivere una vita che non avevo avuto la minima possibilità  di prevedere.
 1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_
 2	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_

@@ -1,30 +1,30 @@
 # sent_id = ParlaMint-IT_2015-03-11-LEG17-Sed-407_68
-# source = . . .
+# source = http://hdl.handle.net/11356/1911 ParlaMint-IT/2015/ParlaMint-IT_2015-03-11-LEG17-Senato-sed-407 ParlaMint-IT_2015-03-11-LEG17-Senato-sed-407.ana.seg19.4
 # text = Pertanto, anche su questo aspetto è opportuno lasciare agli operatori e alla magistratura la possibilità di valutare caso per caso.
-1	Pertanto	pertanto	ADV	B	_	8	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	FF	_	1	punct	_	_
-3	anche	anche	ADV	B	_	6	advmod	_	_
-4	su	su	ADP	E	_	6	case	_	_
-5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
-6	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
-7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-8	opportuno	opportuno	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
-9	lasciare	lasciare	VERB	V	VerbForm=Inf	8	csubj	_	_
-10-Nov	agli	_	_	_	_	_	_	_	_
+1	Pertanto	pertanto	ADV	B	_	8	advmod	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	NER=O
+3	anche	anche	ADV	B	_	6	advmod	_	NER=O
+4	su	su	ADP	E	_	6	case	_	NER=O
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	NER=O
+6	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	NER=O
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	NER=O
+8	opportuno	opportuno	ADJ	A	Gender=Masc|Number=Sing	0	root	_	NER=O
+9	lasciare	lasciare	VERB	V	VerbForm=Inf	8	csubj	_	NER=O
+10-11	agli	_	_	_	_	_	_	_	NER=O
 10	a	a	ADP	E	_	12	case	_	_
 11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
-12	operatori	operatore	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
-13	e	e	CCONJ	CC	_	16	cc	_	_
-14-15	alla	_	_	_	_	_	_	_	_
+12	operatori	operatore	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	NER=O
+13	e	e	CCONJ	CC	_	16	cc	_	NER=O
+14-15	alla	_	_	_	_	_	_	_	NER=O
 14	a	a	ADP	E	_	16	case	_	_
 15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	magistratura	magistratura	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
-17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
-18	possibilità	possibilità	NOUN	S	Gender=Fem	9	obj	_	_
-19	di	di	ADP	E	_	20	mark	_	_
-20	valutare	valutare	VERB	V	VerbForm=Inf	18	acl	_	_
-21	caso	caso	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	CXN=114:A
-22	per	per	ADP	E	_	23	case	_	CXN=114:B
-23	caso	caso	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No|CXN=114:C
-24	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+16	magistratura	magistratura	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	NER=B-ORG
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	NER=O
+18	possibilità	possibilità	NOUN	S	Gender=Fem	9	obj	_	NER=O
+19	di	di	ADP	E	_	20	mark	_	NER=O
+20	valutare	valutare	VERB	V	VerbForm=Inf	18	acl	_	NER=O
+21	caso	caso	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	NER=O|CXN=114:A
+22	per	per	ADP	E	_	23	case	_	NER=O|CXN=114:B
+23	caso	caso	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	NER=O|SpaceAfter=No|CXN=114:C
+24	.	.	PUNCT	FS	_	8	punct	_	NER=O
 

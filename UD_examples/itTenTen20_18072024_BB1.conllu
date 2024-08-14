@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.12-230717
 # udpipe_model_licence = CC BY-NC-SA
 # sent_id = itTenTen20_18072024_BB1
-# source = . . .
+# source = . itTenTen20 .
 # text = Ma certo, in fondo si può fare a meno di quasi tutto.
 1	Ma	ma	CCONJ	CC	_	8	cc	_	_
 2	certo	certo	ADV	B	_	8	advmod	_	SpaceAfter=No

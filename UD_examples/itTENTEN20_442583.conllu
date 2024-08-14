@@ -1,30 +1,28 @@
-# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe								
-# udpipe_model = italian-isdt-ud-2.12-230717								
-# udpipe_model_licence = CC BY-NC-SA								
-# newdoc								
-# newpar								
-# sent_id = 1	itTENTEN20_442583							
-#source=	https://ske.li/10v							
-# text = Spossato dalla giornata dormii di un sonno continuo e profondo che neppure gli incubi che mi straziavano riuscirono a interrompere								
-1	Spossato	spossare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_
-02-mar	dalla	_	_	_	_	_	_	_
-2	da	da	ADP	E	_	4	case	_
-3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_
-4	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	1	obl	_
-5	dormii	dormire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	CXN=151:B
-6	di	di	ADP	E	_	8	case	CXN=151:C
-7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_
-8	sonno	sonno	NOUN	S	Gender=Masc|Number=Sing	5	obl	CXN=151:D
-9	continuo	continuo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_
-10	e	e	CCONJ	CC	_	11	cc	_
-11	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	9	conj	_
-12	che	che	PRON	PR	PronType=Rel	19	obj	_
-13	neppure	neppure	ADV	BN	PronType=Neg	15	advmod	_
-14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_
-15	incubi	incubo	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_
-16	che	che	PRON	PR	PronType=Rel	18	nsubj	_
-17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	iobj	_
-18	straziavano	straziare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_
-19	riuscirono	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_
-20	a	a	ADP	E	_	21	mark	_
-21	interrompere	interrompere	VERB	V	VerbForm=Inf	19	xcomp	SpaceAfter=No
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = itTENTEN20_442583
+# source = . itTenTen20 .
+# text = Spossato dalla giornata dormii di un sonno continuo e profondo che neppure gli incubi che mi straziavano riuscirono a interrompere
+1	Spossato	spossare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+2-3	dalla	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	dormii	dormire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	CXN=151:B
+6	di	di	ADP	E	_	8	case	_	CXN=151:C
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	sonno	sonno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	CXN=151:D
+9	continuo	continuo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	profondo	profondo	ADJ	A	Gender=Masc|Number=Sing	9	conj	_	_
+12	che	che	PRON	PR	PronType=Rel	19	obj	_	_
+13	neppure	neppure	ADV	BN	PronType=Neg	15	advmod	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	incubi	incubo	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	_	_
+16	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	iobj	_	_
+18	straziavano	straziare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	acl:relcl	_	_
+19	riuscirono	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+20	a	a	ADP	E	_	21	mark	_	_
+21	interrompere	interrompere	VERB	V	VerbForm=Inf	19	xcomp	_	SpaceAfter=No

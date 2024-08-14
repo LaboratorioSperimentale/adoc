@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.12-230717
 # udpipe_model_licence = CC BY-NC-SA
 # sent_id = ItTenten20_19072024_SM
-# source = . . .
+# source = . itTenTen20 .
 # text = Questi portachiavi in plastica dura dalla forma rotonda daranno un tocco di originalità al tuo look
 1	Questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
 2	portachiavi	portachiavo	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	CXN=168:A|CXN=147:A

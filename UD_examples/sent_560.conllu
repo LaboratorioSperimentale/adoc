@@ -1,5 +1,5 @@
 # sent_id = sent_560
-# source = . . .
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-PoSTWITA/it_postwita-ud-train 560
 # text = È online @user1! I discorsi di Mario Monti in formato commentabile, frase per frase: http://t.co/tRSYrHev via @user2
 1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	online	online	ADJ	A	_	0	root	_	_
