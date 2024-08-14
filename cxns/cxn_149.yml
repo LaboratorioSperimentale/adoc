@@ -35,8 +35,8 @@ horizontal-links:
 vertical-links:
 
 examples:
-    - VIT-4917.conllu
-    - MONITOR2014_16.conllu
+    - VIT-4917
+    - CORIS_MONITOR2014_16
 
 cefr-level:
 
