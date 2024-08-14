@@ -1,0 +1,31 @@
+"# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe"									
+# udpipe_model = italian-isdt-ud-2.12-230717									
+# udpipe_model_licence = CC BY-NC-SA									
+# newdoc									
+# newpar									
+# sent_id = 1	itTENTEN20_332878								
+"# text = Zeffiro rideva sotto i baffi e Tachis, peggio, sorrideva di un sorriso a metá  tra l'affettuoso e il bonariamente beffardo."									
+1	Zeffiro	Zeffiro	PROPN	SP	_	2	nsubj	_	_
+2	rideva	ridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	sotto	sotto	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	baffi	baffo	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6	e	e	CCONJ	CC	_	11	cc	_	_
+7	Tachis	Tachis	PROPN	SP	_	11	nsubj	_	SpaceAfter=No | CXN=151:A
+8	","	","	PUNCT	FF	_	7	punct	_	_
+9	peggio	peggio	ADV	B	_	11	advmod	_	SpaceAfter=No
+10	","	","	PUNCT	FF	_	9	punct	_	_
+11	sorrideva	sorridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	CXN=151:B
+12	di	di	ADP	E	_	14	case	_	CXN=151:C
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	CXN=151:D
+15	a	a	ADP	E	_	16	case	_	_
+16	metá	metá	NOUN	S	Gender=Fem	14	nmod	_	_
+17	tra	tra	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	affettuoso	affettuoso	ADJ	A	Gender=Masc|Number=Sing	14	nmod	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	bonariamente	bonariamente	ADV	B	_	23	advmod	_	_
+23	beffardo	beffardo	ADJ	A	Gender=Masc|Number=Sing	19	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
