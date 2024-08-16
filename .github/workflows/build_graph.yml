@@ -1,0 +1,43 @@
+# This is a basic workflow to help you get started with Actions
+name: build_graph
+on:
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      # Sets up Python environment
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.11
+
+      - name: install dependencies
+        run: |
+            python3 -m venv venv
+            . venv/bin/activate
+            pip install -r requirements.txt
+
+      # Runs a set of commands using the runners shell
+      - name: build
+        id : build-graph
+        run: |
+          source venv/bin/activate
+          python src/build_graph.py cxns/* >> $GITHUB_OUTPUT
+
+      - name: List file to commit
+        env:
+          GRAPH_FILE: ${{ steps.build-graph.outputs.graph_file }}
+        run: |
+          echo $graph_file
