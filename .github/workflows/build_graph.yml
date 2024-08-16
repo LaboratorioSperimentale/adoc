@@ -42,3 +42,11 @@ jobs:
           GRAPH_FILE: ${{ steps.build-graph.outputs.graph_file }}
         run: |
           echo $graph_file
+
+      - name: commit
+        run: |
+            git config user.name github-actions
+            git config user.email github-actions@github.com
+            git add $graph_file
+            git commit -m "updated graph file"
+            git push
