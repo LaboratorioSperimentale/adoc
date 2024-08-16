@@ -6,7 +6,6 @@ import yaml
 from sty import fg, bg
 from pybtex.database import parse_file
 
-import utils as u
 
 CC_DB = yaml.safe_load(open("cc-database/cc-database.yaml", encoding="utf-8"))
 CC_LIST = {x["Id"]:x["Type"] for x in CC_DB}
@@ -117,7 +116,6 @@ if __name__ == "__main__":
 							else:
 								n_errors += 1
 							print(f"\t{x}")
-					# print()
 				print()
 
 				if n_errors > 0:

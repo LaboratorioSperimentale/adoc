@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = itTENTEN20_924906
+# source = . itTenTen20 .
+# text = un bambino è sveglio quando è calmo, ha gli occhi ben aperti, segue con lo sguardo e vuole comunicare (veglia calma) oppure quando geme, fa smorfie, muove braccia e gambe si ripiega su se stesso, talora piange con pianto forte e difficilmente consolabile (veglia attiva).
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	CXN=150:A
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	sveglio	sveglio	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	quando	quando	SCONJ	CS	_	7	mark	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	calmo	calmo	ADJ	A	Gender=Masc|Number=Sing	4	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12	ben	bene	ADV	B	_	13	advmod	_	_
+13	aperti	aperto	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	segue	seguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	comunicare	comunicare	VERB	V	VerbForm=Inf	7	conj	_	_
+22	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+23	veglia	veglia	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+24	calma	calmo	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	)	)	PUNCT	FB	_	23	punct	_	_
+26	oppure	oppure	CCONJ	CC	_	38	cc	_	_
+27	quando	quando	SCONJ	CS	_	28	mark	_	_
+28	geme	gemere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	advcl	_	_
+29	,	,	PUNCT	FF	_	30	punct	_	_
+30	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	_
+31	smorfie	smorfia	NOUN	S	Gender=Fem|Number=Plur	30	obj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	33	punct	_
+33	muove	muovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	_
+34	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	33	obj	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36	gambe	gamba	NOUN	S	Gender=Fem|Number=Plur	34	conj	_	_
+37	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	38	expl	_	_
+38	ripiega	ripiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+39	su	su	ADP	E	_	40	case	_	_
+40	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	38	obl	_	_
+41	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	40	amod	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	38	punct	_	_
+43	talora	talora	ADV	B	_	44	advmod	_	_
+44	piange	piangere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	conj	_	CXN=150:B
+45	con	con	ADP	E	_	46	case	_	CXN=150:C
+46	pianto	pianto	NOUN	S	Gender=Masc|Number=Sing	44	obl	_	CXN=150:D
+47	forte	forte	ADJ	A	Number=Sing	46	amod	_	_
+48	e	e	CCONJ	CC	_	50	cc	_	_
+49	difficilmente	difficilmente	ADV	B	_	50	advmod	_	_
+50	consolabile	consolabile	ADJ	A	Number=Sing	47	conj	_	_
+51	(	(	PUNCT	FB	_	52	punct	_	SpaceAfter=No
+52	veglia	veglia	NOUN	S	Gender=Fem|Number=Sing	44	obl	_	_
+53	attiva	attivo	ADJ	A	Gender=Fem|Number=Sing	52	amod	_	SpaceAfter=No
+54	)	)	PUNCT	FB	_	52	punct	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
