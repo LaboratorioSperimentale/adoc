@@ -34,8 +34,8 @@ jobs:
         id : build-graph
         run: |
           source venv/bin/activate
-          output = $(python src/build_graph.py cxns/*)
-          echo "$output" >> $GITHUB_OUTPUT
+          output=$(python src/build_graph.py cxns/*)
+          echo graph_file=$output >> $GITHUB_OUTPUT
 
       - name: List file to commit
         env:
