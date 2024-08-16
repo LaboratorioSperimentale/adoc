@@ -41,7 +41,7 @@ jobs:
         env:
           GRAPH_FILE: ${{ steps.build-graph.outputs.graph_file }}
         run: |
-          echo $graph_file
+          echo $GRAPH_FILE
 
       - name: commit
         run: |
