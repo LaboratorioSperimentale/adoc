@@ -14,7 +14,6 @@ def build_graph(cxns_list):
 	edges_to_add = []
 
 	for file in cxns_list:
-		print(file)
 		cxn_id = int(Path(file).stem.split("_")[1])
 
 		with open(file, encoding="utf-8") as stream:
@@ -62,3 +61,4 @@ if __name__ == "__main__":
 
 	files_list = sys.argv[1:]
 	file_output = build_graph(files_list)
+	print(file_output)
