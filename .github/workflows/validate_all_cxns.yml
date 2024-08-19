@@ -46,10 +46,8 @@ jobs:
               if [ $? -eq 1 ]
                 then
                   echo "Issue with $file"
-                  exit 0
                 else
                   echo "all good!"
-                  exit 0
                 fi
               echo $exitcode;
               echo "";
