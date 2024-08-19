@@ -46,6 +46,7 @@ jobs:
               if [ $exitcode -eq 1 ]
                 then
                   echo "Issue with $file";
+              fi
+              echo $exitcode;
               echo "";
-              fi;
             done
