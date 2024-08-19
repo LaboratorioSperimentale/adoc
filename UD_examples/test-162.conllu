@@ -13,3 +13,4 @@
 10	lesioni	lesione	NOUN	S	Gender=Fem|Number=Plur	8	obl	8:obl:su	_
 11	permanenti	permanenti	ADJ	A	Number=Plur	10	amod	10:amod	SpaceAfter=No
 12	.	.	PUNCT	FS	_	1	punct	1:punct	_
+

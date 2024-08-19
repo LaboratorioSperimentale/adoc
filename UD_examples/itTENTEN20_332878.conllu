@@ -10,7 +10,7 @@
 4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
 5	baffi	baffo	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
 6	e	e	CCONJ	CC	_	11	cc	_	_
-7	Tachis	Tachis	PROPN	SP	_	11	nsubj	_	SpaceAfter=No | CXN=151:A
+7	Tachis	Tachis	PROPN	SP	_	11	nsubj	_	SpaceAfter=No|CXN=151:A
 8	,	,	PUNCT	FF	_	7	punct	_	_
 9	peggio	peggio	ADV	B	_	11	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	FF	_	9	punct	_	_

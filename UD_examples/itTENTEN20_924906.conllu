@@ -31,11 +31,11 @@
 25	)	)	PUNCT	FB	_	23	punct	_	_
 26	oppure	oppure	CCONJ	CC	_	38	cc	_	_
 27	quando	quando	SCONJ	CS	_	28	mark	_	_
-28	geme	gemere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	advcl	_	_
+28	geme	gemere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	advcl	_	SpaceAfter=No
 29	,	,	PUNCT	FF	_	30	punct	_	_
 30	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	_
 31	smorfie	smorfia	NOUN	S	Gender=Fem|Number=Plur	30	obj	_	SpaceAfter=No
-32	,	,	PUNCT	FF	_	33	punct	_
+32	,	,	PUNCT	FF	_	33	punct	_	_
 33	muove	muovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	_
 34	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	33	obj	_	_
 35	e	e	CCONJ	CC	_	36	cc	_	_
