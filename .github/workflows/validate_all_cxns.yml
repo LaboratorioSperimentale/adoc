@@ -43,7 +43,7 @@ jobs:
             for file in UD_examples/*; do
               echo $file;
               exitcode=$(grep -v -P "^[0-9]+\.[0-9]" $file | python tools/validate.py --lang it --level 3);
-              if [ $exitcode -ne 0 ];
+              if [ $? -ne 0 ];
                 then
                   echo "Issue with $file";
               fi;
