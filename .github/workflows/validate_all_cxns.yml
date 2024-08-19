@@ -47,4 +47,5 @@ jobs:
                 then
                   echo "Issue with $file";
               echo "";
+              fi;
             done
