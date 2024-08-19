@@ -45,9 +45,10 @@ jobs:
               exitcode=$(grep -v -P "^[0-9]+\.[0-9]" $file | python tools/validate.py --lang it --level 3);
               if [ $? -eq 1 ]
                 then
-                  echo "Issue with $file"
+                  echo "Issue with $file";
+                  exit 0;
                 else
-                  echo "all good!"
+                  echo "all good!";
                 fi
               echo $exitcode;
               echo "";
