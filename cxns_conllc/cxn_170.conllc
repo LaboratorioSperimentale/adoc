@@ -1,23 +1,23 @@
 # cxn_id = 170a
 # name =  mezzo ADJ
-# function = not fully or not properly ref:A-2
-# horizontal_links = 170
+# function = not fully or not properly ref:A.2
+# horizontal_links = 169
 # vertical_links =
 # UPOS = ADJ
 # DEPREL = amod
 # fields = ID	UD.FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	REQUIRED	WITHOUT	SEM_FEATS	SEM_ROLES	ADJACENCY	IDENTITY
 A	_	mezzo	ADJ	_	0	root	1	_	_	_	_	_
-B	-	-	PUNCT	//	A,C	punct	0	_	//	//	A	_
+B	-	-	PUNCT	_	A,C	punct	0	_	_	_	A	_
 C	_	_	ADJ	_	0	root	1	_	_	_	B,A	HEAD=A
 
 
 # cxn_id = 170b
 # name =  mezzo ADJ
-# function = not fully or not properly ref:A-2
-# horizontal_links = 170
+# function = not fully or not properly ref:A.2
+# horizontal_links = 169
 # vertical_links =
 # UPOS = ADJ
 # fields = ID	UD.FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	REQUIRED	WITHOUT	SEM_FEATS	SEM_ROLES	ADJACENCY	IDENTITY
 A	_	mezzo	ADV	_	C	advmod	1	_	_	_	_	_
-B	-	-	PUNCT	//	A,C	punct	0	_	//	//	A	_
+B	-	-	PUNCT	_	A,C	punct	0	_	_	_	A	_
 C	_	_	ADJ	_	0	root	1	_	_	_	B,A	_

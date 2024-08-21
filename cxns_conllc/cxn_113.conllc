@@ -1,8 +1,8 @@
-# cxn_id = 113												
-# name = discontinuous reduplication Ni dopo Ni												
-# function = modifier conveying a succession/iteration/distribution of N												
-# horizontal_links = 114												
-# vertical_links =												
+# cxn_id = 113
+# name = discontinuous reduplication Ni dopo Ni
+# function = modifier conveying a succession/iteration/distribution of ref:A
+# horizontal_links = 114
+# vertical_links =
 # fields = ID	UD.FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	REQUIRED	EXCLUSION	SEM_FEATS	SEM_ROLES	ADJACENCY	IDENTITY
 A	_	_	NOUN	Number=Sing	0	root:obl	1	_	_	_	_	UD.FORM=C
 B	dopo	dopo	ADP	_	C	case	1	_	_	_	A	_
