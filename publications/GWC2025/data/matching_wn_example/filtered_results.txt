@@ -1,0 +1,427 @@
+sent_id	left_context	pivot	right_context	matching	manual_check
+isst_tanl-129	Fanno 	fatica	 ad ammettere che una mescolanza misteriosa di fattori genetici, di educazione e di stimoli ambientali, possa produrre individui che sanno fare cose che essi non potranno mai nemmeno immaginare. 	not_cxn	
+isst_tanl-894	i serbi abbandonano in massa la Krajina espugnata dall' esercito di Zagabria, gli ultimi croati vengono espulsi dalla Bosnia serba per vendetta e per far 	posto	" ai nuovi arrivi; "	not_cxn	
+tut-3301	E qui Baudo, chiamato a Raitre dal direttore Angelo Guglielmi non solo per fare 	ascolto	 ma anche per convincere i più riottosi tra i teleutenti a comprare l'antenna supplementare indispensabile in alcune zone per ricevere il segnale della rete e lasciarle quindi in eredità un cospicuo patrimonio aggiuntivo di spettatori tecnologicamente attrezzati, spiega la sua teoria. 	not_cxn	
+5_WIKIBalzac-128	Pianificò di divenire lui stesso questo candidato, facendo 	appello	 soprattutto alle classi più elevate di Chinon. 	not_cxn	
+isst_tanl-287	Fa 	fatica	 a respirare, non vuole parlare con nessuno. 	not_cxn	
+isst_tanl-332	"Gli aviatori italiani erano a pranzo quando una sessantina di uomini dell' ""Armee Nationale Congolaise"", ammutinati, fecero "	irruzione	 nel locale e li scambiarono per soldati belgi. 	not_cxn	
+isst_tanl-350	"""Hanno fatto "	fuoco	 prima su mio marito. 	cxn	false_positive
+isst_tanl-537	Paul Samuelson ha fatto parzialmente 	marcia	 indietro rispetto al suo giudizio inizialmente negativo sulla riforma delle pensioni, sulla quale Modigliani mantiene invece le sue perplessità. 	not_cxn	
+isst_tanl-578	Nel 1967 fa 	scandalo	" la ""dichiarazione sulla lingua"" sottoscritta da diciotto istituti di cultura e da intellettuali ""di regime"" come Miroslav Krleza, membro del Comitato Centrale della Lega dei Comunisti e amico personale di Tito. "	not_cxn	
+isst_tanl-683	"Andava ogni giorno da Berlusconi, poi veniva da me e mi diceva ""Stai dalla parte degli stupratori, farò "	campagna	" elettorale contro di te"". "	not_cxn	
+isst_tanl-712	Comunque, per tornare alle quote e alla difficoltà di far 	politica	, credo che Livia Turco abbia proprio ragione: 	not_cxn	
+isst_tanl-750	Certo, il telespettatore deve essere informato correttamente, ed è per questo che noi facciamo scarso 	uso	 degli esperti. 	not_cxn	
+isst_tanl-794	E solo una folle corsa a sirene spiegate, a bordo di un'auto che finge di far 	parte	 di un convoglio di alti ufficiali in fuoristrada e corre troppo in fretta per essere fermata, consente a un gruppo di giornalisti di arrivare fino alla periferia di Petrinja. 	not_cxn	
+isst_tanl-984	Vi fanno 	parte	 5 membri dell' Accademia delle Scienze, 42 professori universitari, giornalisti, scrittori, registi, attori. 	not_cxn	
+isst_tanl-1053	"Sembra vero comunque che in palestra amassero intrattenersi oltre il previsto per i 18 mesi dell' amicizia; che lui andasse a farle "	visita	 regolarmente, tre volte alla settimana, e che più di una volta sia arrivato tardi a impegni vari, anche di lavoro, perché trattenuto da lei. 	not_cxn	
+isst_tanl-1980	Perciò fa 	piacere	 finirci in mezzo e perdersi in un immenso parco che, per ordine, pulizia e cura, non ha nulla da invidiare a quelli tanto celebrati d'Oltralpe. 	cxn	
+isst_tanl-2008	Per i miei antenati, come per i suoi, pisciare sull' aia, davanti all' uscio di casa, è stato per secoli un comportamento tradizionale e pieno di dignità e mi fa 	piacere	 che lei non abbia tralignato. 	cxn	
+isst_tanl-2023	"come chiunque si muova negli universi dello spettacolo e della politica, anche lei ha bisogno che il suo nome non scompaia, che i suoi spettacoli vengano segnalati, eccetera; in cambio, l'Industria della Fama rivendica alcuni diritti - per esempio, quello di mostrarla mentre fa "	pipì	. 	not_cxn	
+isst_tanl-2043	Stavolta a inaugurare le danze non è il giocatore che, anzi, mantenendo fede ai buoni propositi, fa 	professione	" di cristiana rassegnazione (""mi sento molto meglio dello scorso anno, mi sento forte, vorrei partire alla pari degli altri per dimostrare quello che valgo"" si limita a sussurrare). "	not_cxn	
+isst_tanl-2276	Sul podio un'aria nuova e una bandiera che rammenta qualcosa e non si può far 	finta	 di niente. 	not_cxn	
+isst_tanl-2543	L'uomo sfoderò due pistole e fece 	fuoco	 nove volte contro la ragazza. 	cxn	false_positive
+isst_tanl-2879	L'uomo li aveva rimproverati perché facevano 	baccano	 mentre lui tentava di prendere sonno sulla gradinata della chiesa e loro hanno reagito colpendolo . 	not_cxn	
+isst_tanl-2885	Allora Simonetti ha deciso di invitarli a fare meno 	chiasso	: 	not_cxn	
+isst_tanl-2908	Due attività in molti casi strettamente collegate e che fanno 	capo	 agli stessi personaggi. 	not_cxn	
+isst_tanl-3364	Se è giallastra, meglio fare 	attenzione	 all' alimentazione. 	not_cxn	
+isst_tanl-3660	"""Guardi però che non è stata la notizia che Allende si sia suicidato quella che ha fatto più "	impressione	" in Cile"", mi dice Cavallo. "	not_cxn	false_negative
+isst_tanl-3894	dicono le statistiche che l'87 per cento degli infartuati è pensionato o ha fatto 	richiesta	" per la pensione; "	not_cxn	
+isst_tanl-4063	"""Per questo facciamo sempre di più "	appello	 alle offerte di ogni tipo. 	not_cxn	
+tut-50	Salve le disposizioni delle leggi penali [c.p. 499] e di polizia [nonché le norme dell' ordinamento corporativo] (1) e le disposizioni particolari concernenti beni determinati, quando il proprietario abbandona la conservazione, la coltivazione o l'esercizio di beni che interessano la produzione nazionale, in modo da nuocere gravemente alle esigenze della produzione stessa, può farsi 	luogo	 all' espropriazione dei beni da parte dell' autorità amministrativa, premesso il pagamento di una giusta indennità. 	not_cxn	
+tut-92	Nei trasferimenti di proprietà, nelle divisioni e nelle assegnazioni a qualunque titolo, aventi per oggetto terreni destinati a coltura o suscettibili di coltura, e nella costituzione o nei trasferimenti di diritti reali sui terreni stessi non deve farsi 	luogo	 a frazionamenti che non rispettino la minima unità colturale. 	not_cxn	
+tut-165	Quando l'inosservanza degli obblighi imposti ai proprietari [860, 861] risulta tale da compromettere l'attuazione del piano di bonifica, può farsi 	luogo	 all' espropriazione parziale o totale del fondo appartenente al proprietario inadempiente, osservate le disposizioni della legge speciale. 	not_cxn	
+tut-166	L'espropriazione ha luogo a favore del consorzio, se questo ne fa 	richiesta	, o, in mancanza, a favore di altra persona che si obblighi ad eseguire le opere offrendo opportune garanzie. 	not_cxn	
+tut-300	La disposizione non si applica quando gli alberi fanno 	parte	 di filare situato lungo il confine. 	not_cxn	
+tut-483	Nel caso che la separazione dei materiali non sia richiesta o che i materiali siano inseparabili, il terzo che ne ha fatto 	uso	 e il proprietario del suolo che sia stato in malafede (2) sono tenuti in solido al pagamento di una indennità pari al valore dei materiali stessi. 	not_cxn	
+tut-485	Può altresì chiedere il risarcimento dei danni, tanto nei confronti del terzo che ne abbia fatto 	uso	 senza il suo consenso, quanto nei confronti del proprietario del suolo che in malafede abbia autorizzato l'uso [2043]. 	not_cxn	
+tut-487	Se nella costruzione di un edificio si occupa in buona fede (1) una porzione (2) del fondo attiguo, e il proprietario di questo non fa 	opposizione	 entro tre mesi (3) dal giorno in cui ebbe inizio la costruzione, l'autorità giudiziaria, tenuto conto delle circostanze, può attribuire al costruttore la proprietà dell' edificio e del suolo occupato (4). 	not_cxn	
+tut-778	Se durante l'usufrutto un terzo commette usurpazione sul fondo o altrimenti offende le ragioni del proprietario, l'usufruttuario è tenuto a fargliene 	denunzia	 e, omettendola , è responsabile dei danni che eventualmente siano derivati al proprietario. 	not_cxn	
+tut-799	Se l'usufrutto è stabilito sopra un fondo, del quale fa 	parte	 un edificio, e questo viene in qualsiasi modo a perire, l'usufruttuario ha diritto di godere dell' area e dei materiali. 	not_cxn	
+tut-881	Se però di tale facoltà egli non ha fatto 	uso	 al tempo della concessione dell' acquedotto, deve sopportare la metà delle spese occorrenti. 	not_cxn	
+tut-890	Se si fa 	luogo	 al prosciugamento, può essere assegnata una congrua indennità a coloro che al prosciugamento si sono opposti. 	not_cxn	
+tut-1047	Ciascun partecipante può servirsi della cosa comune, purché non ne alteri la destinazione e non impedisca agli altri partecipanti di farne parimenti 	uso	 secondo il loro diritto. 	not_cxn	
+tut-1146	Il creditore che riceve il pagamento deve, a richiesta e a spese del debitore, rilasciare quietanza e farne 	annotazione	 sul titolo, se questo non è restituito al debitore. 	not_cxn	
+tut-1175	Il debitore non può essere considerato in mora, se tempestivamente ha fatto 	offerta	 della prestazione dovuta, anche senza osservare le forme indicate nella sezione III del precedente capo, a meno che il creditore l'abbia rifiutata per un motivo legittimo. 	not_cxn	
+tut-1246	Il delegato non può neppure opporre le eccezioni relative al rapporto tra il delegante e il delegatario, se ad esso le parti non hanno fatto espresso 	riferimento	. 	not_cxn	
+tut-1321	Tutti hanno diritto di professare liberamente la propria fede religiosa in qualsiasi forma, individuale o associata, di farne 	propaganda	 e di esercitarne in privato o in pubblico il culto, purché non si tratti di riti contrari al buon costume. 	not_cxn	
+tut-1328	In tali casi, quando vi sia assoluta urgenza e non sia possibile il tempestivo intervento dell' Autorità giudiziaria, il sequestro della stampa periodica può essere eseguito da ufficiali di polizia giudiziaria, che devono immediatamente, e non mai oltre ventiquattro ore, fare 	denunzia	 all' Autorità giudiziaria. 	not_cxn	
+tut-1516	I membri del Governo, anche se non fanno 	parte	 delle Camere, hanno diritto, e se richiesti obbligo, di assistere alle sedute. 	not_cxn	
+tut-1577	Ogni altra legge che importi nuove o maggiori spese deve indicare i mezzi per farvi 	fronte	. 	not_cxn	
+tut-1690	Ne fanno 	parte	 di diritto il primo presidente e il procuratore generale della Corte di cassazione. 	not_cxn	
+tut-1694	Non possono, finché sono in carica, essere iscritti negli albi professionali, né far 	parte	 del Parlamento o di un Consiglio regionale. 	not_cxn	
+tut-1806	Lo statuto è sottoposto a referendum popolare qualora entro tre mesi dalla sua pubblicazione ne faccia 	richiesta	 un cinquantesimo degli elettori della Regione o un quinto dei componenti il Consiglio regionale. 	not_cxn	
+tut-1834	Si può, con legge costituzionale, sentiti i Consigli regionali, disporre la fusione di Regioni esistenti o la creazione di nuove Regioni con un minimo di un milione di abitanti, quando ne facciano 	richiesta	 tanti Consigli comunali che rappresentino almeno un terzo delle popolazioni interessate, e la proposta sia approvata con referendum dalla maggioranza delle popolazioni stesse. 	not_cxn	
+tut-1835	Si può, con l'approvazione della maggioranza delle popolazioni della Provincia o delle Province interessate e del Comune o dei Comuni interessati espressa mediante referendum e con legge della Repubblica, sentiti i Consigli regionali, consentire che Provincie e Comuni, che ne facciano 	richiesta	, siano staccati da una Regione e aggregati ad un'altra. 	not_cxn	
+tut-1865	Le leggi stesse sono sottoposte a referendum popolare quando, entro tre mesi dalla loro pubblicazione, ne facciano 	domanda	 un quinto dei membri di una Camera o cinquecentomila elettori o cinque Consigli regionali. 	not_cxn	
+tut-1867	Non si fa 	luogo	 a referendum se la legge è stata approvata nella seconda votazione da ciascuna delle Camere a maggioranza di due terzi dei suoi componenti. 	not_cxn	
+tut-1876	Per la prima composizione del Senato della Repubblica sono nominati senatori, con decreto del Presidente della Repubblica, i deputati dell' Assemblea Costituente che posseggono i requisiti di legge per essere senatori e che: * sono stati presidenti del Consiglio dei Ministri o di Assemblee legislative, * hanno fatto 	parte	 del disciolto Senato, * hanno avuto almeno tre elezioni, compresa quella all' Assemblea Costituente, * sono stati dichiarati decaduti nella seduta della Camera dei deputati del 9 novembre 1926, * hanno scontato la pena della reclusione non inferiore a cinque anni in seguito a condanna del tribunale speciale fascista per la difesa dello Stato. 	not_cxn	
+tut-1877	Sono nominati altresì senatori, con decreto del Presidente della Repubblica, i membri del disciolto Senato che hanno fatto 	parte	 della Consulta Nazionale. 	not_cxn	
+tut-2000	(32) La presente direttiva è conforme ad alcuni principi sull' applicazione della nuova strategia illustrata nella risoluzione del Consiglio, del 7 maggio 1985, relativa ad una nuova strategia in materia di armonizzazione tecnica e normalizzazione [5], e al criterio di far 	riferimento	 alle norme europee armonizzate. 	not_cxn	
+tut-2088	Alcune di esse sono state tuttavia organizzate nei paesi terzi o nei paesi candidati all' adesione per far 	fronte	 ad esigenze specifiche legate alla protezione dell' euro, come nel caso delle attività intraprese in Colombia, per tutti i paesi dell' America del sud, e in Bulgaria, anche per gli altri paesi dell' Europa sud-orientale. 	not_cxn	
+tut-2092	Il coordinamento delle azioni del programma e di altre attività di formazione è affidato al Gruppo di esperti contro la falsificazione dell' euro, di cui fanno 	parte	 esperti di tutti gli Stati membri e dei paesi candidati e a cui partecipano rappresentanti di Europol, della BCE e di Interpol, conformemente al settimo considerando della decisione Pericle. 	not_cxn	
+tut-2117	Il testo delle decisioni nelle lingue facenti 	fede	, ad eccezione dei dati riservati, è disponibile sul sito http://europa.eu.int/comm/secretariat@general/sgb/state@aids. 	cxn	false_positive
+tut-2126	(Il testo in lingua inglese è il solo facente 	fede	). 	cxn	false_positive
+tut-2277	A Tirana la polizia ha impedito nuove manifestazioni presidiando i luoghi di possibile raduno, mentre uno dei capi della protesta contro le finanziarie-truffa è stato picchiato dai suoi stessi sostenitori per aver aderito al forum democratico di cui fanno 	parte	 anche forze di sinistra. 	not_cxn	
+tut-2446	Il presidente dell' Inter, Massimo Moratti, ha acquistato il 4,9% della Camfin, la holding azionista di riferimento del gruppo Pirelli e che fa 	capo	 alla famiglia Tronchetti Provera. 	not_cxn	
+tut-2548	Per questo fare 	giustizia	 oggi è difficile. 	not_cxn	
+tut-2574	Secondo Luigi Fabri, presidente del comitato degli imprenditori italiani in Albania il rischio fa 	parte	 dell' attività imprenditoriale e credo che questa esperienza sia interessante, malgrado tutto. 	not_cxn	
+tut-2591	Inoltre a seguito dei contatti già avviati domenica, il ministro Lamberto Dini ha fatto pervenire un messaggio al presidente della Commissione Europea Jacques Santer, in merito al ruolo che l'Ue può svolgere nell' attivare gli strumenti necessari per far 	fronte	 alla situazione. 	not_cxn	
+tut-2874	Gli fa 	eco	 il sindaco di Pino Torinese, Antonio Pecorari: 	not_cxn	
+tut-3003	Gli indigeni non li vedono di buon'occhio, questi stranieri, anche perché la colonia spendacciona ma discreta che ha preso il posto dei vecchi di Bruxelles, ha imposto lo squarcio di alcuni tra i più vecchi ed antichi della città per far 	posto	" ai palazzi della ""zuppa europea"" come vengono chiamati dalle cattive lingue. "	not_cxn	
+tut-3101	ha perso la vista nel Viet, ma è in grado col suo bastone foderato in rasoio di far 	giustizia	, di guidare, compiere acrobazie. 	not_cxn	
+tut-3148	Mazowiecki, emozionato, ha fatto 	visita	 ieri al suo amico Papa, che l'ha abbracciato, l'ha invitato a colazione e, parlando della situazione polacca, ha detto, a mo di scongiuro: 	not_cxn	
+tut-3345	Documentato a Rimini nel 1482, fece 	testamento	 nel 1487 e morì a Sansepolcro il 12 ottobre 1492. 	not_cxn	
+tut-3604	La linea Yamanote (山手線, Yamanote-sen) è una linea ferroviaria suburbana di Tokyo, a scartamento ridotto, posseduta e gestita dalla compagnia East Japan Railway Company (facente 	parte	 del gruppo JR Group). 	not_cxn	
+tut-3618	Il servizio sulla linea fa 	uso	 di treni serie E231 composti da 11 carrozze introdotti gradualmente a partire dall' aprile 2002. 	not_cxn	
+tut-3633	Per far 	fronte	 all' incapacità della Linea Musashino di trasportare tutte le merci richieste venne utilizzata anche la Linea Saikyō e la Linea Shōnan-Shinjuku. 	not_cxn	
+tut-3642	"Mantenne entrambe le denominazioni fino al 1971, quando le Ferrovie Nazionali Giapponesi scelsero di adottare la vecchia pronuncia di ""Yamanote"", questo per evitare di fare "	confusione	 con la stazione di Yamate della Linea Negishi di Yokohama, nella stessa regione della Linea Yamanote. 	cxn	false_positive
+tut-3691	Non trovando risposta alla loro iniziativa Broglio e altri membri del CRS iniziarono a coinvolgere nel progetto società aerospaziali che non facevano 	parte	 dell' ELDO e non erano rappresentate nella CIA formulando un programma nazionale più ampio. 	not_cxn	
+tut-3719	La legge n. 97 del 9 marzo 1971 che stanziava 5,7 miliardi dei 29,4 miliardi di lire messi a disposizione per le spese complessive delle attività spaziali nazionali subì i ritardi dell' iter legislativo e anzichè essere distribuita nel triennio 1969-1971, venne impiegata per far 	fronte	 anche alle spese degli anni 1972 e 1973. 	not_cxn	
+splet-15	l'opuscolo deve fare esplicito 	riferimento	" a quanto sopra; "	not_cxn	
+quest-37	Di quale gruppo musicale faceva 	parte	 Michael Jackson da bambino? 	not_cxn	
+quest-644	Di quale partito fa 	parte	 Duarte Lima? 	not_cxn	
+quest-1787	Di quale gruppo comico faceva 	parte	 John Cleese? 	not_cxn	
+quest-1887	Di quale gruppo musicale faceva 	parte	 Jimmy Page prima dei Led Zeppelin? 	not_cxn	
+test-52	Regista è appunto il Fondo Strategico, che fa 	capo	 alla Cassa Depositi e Prestiti. 	not_cxn	
+test-100	Cinquantacinque anni, ex manager Olivetti, Caio è stato tra i pochi italiani a fare 	carriera	 all' estero. 	not_cxn	
+test-125	il nome che si sta facendo 	strada	. 	not_cxn	
+test-205	A Roma forse sentiamo più forte questo contrasto tra l’ambiente maestoso e carico di bellezza artistica, e il disagio sociale di chi fa più 	fatica	. 	not_cxn	
+test-248	La bambina ha dormito su un albero e il bambino su una roccia, poi si sono fatti 	forza	 e si sono mossi, ma sono caduti in un dirupo. 	not_cxn	
+1_CC-51	Quanto sopra si applica all' opera anche quando questa faccia 	parte	 di una collezione di opere, anche se ciò non comporta che la collezione di opere di per sé ed indipendentemente dall' opera stessa debba essere soggetta ai termini ed alle condizioni della presente licenza. 	not_cxn	
+1_CC-65	nella misura in cui sia ragionevolmente possibile, l'Uniform Resource Identifier, che il Licenziante specifichi dover essere associato con l'opera, salvo che tale URI non faccia 	riferimento	" alla informazione di protezione di diritto d'autore o non dia informazioni sulla licenza dell' opera; "	not_cxn	
+2_Europarl-233	In tal senso, desidero anche fare brevemente 	riferimento	 ai problemi dei tunnel, menzionati dagli onorevoli Rack e Swoboda. 	not_cxn	
+2_Europarl-262	Gli emendamenti presentati e approvati all' unanimità in sede di commissione fanno 	riferimento	 in due casi alla suddetta procedura di comitatologia recentemente modificata. 	not_cxn	
+2_Europarl-470	pertanto, gli stati membri dovranno a loro volta farsi 	carico	 delle proprie responsabilità ed eseguire adeguatamente i propri compiti. 	not_cxn	
+3_UDHR-68	Nessuno può essere costretto a far 	parte	 di un'associazione. 	not_cxn	
+5_WIKIBalzac-9	Quando finì gli studi, Balzac fece 	apprendistato	 in un ufficio legale, ma lasciò i suoi studi di legge dopo essersi stancato della sua inumanità e banale routine. 	not_cxn	
+5_WIKIBalzac-254	la scena di un giovane che arriva al paese per fare 	fortuna	" è onnipresente nel romanzo realista, e compare ripetutamente nelle opere di Balzac, come in "" Illusions perdues "". "	not_cxn	
+7_WIKIShake-38	Gli studiosi fanno 	riferimento	" all' arco di tempo tra gli anni 1585 e 1592 come agli ""anni perduti"" di Shakespeare. "	not_cxn	
+7_WIKIShake-92	Thomas fu obbligato dal tribunale ecclesiastico a fare pubblica 	penitenza	, fatto che avrebbe causato ulteriore disonore e imbarazzo alla famiglia Shakespeare. 	cxn	
+7_WIKIShake-153	Della compagnia di Shakespeare facevano 	parte	 attori del calibro di Richard Burbage, William Kempe, Henry Condell e John Herninges. 	not_cxn	
+7_WIKIShake-159	Nel 1623 John Heminges e Henry Condell, due degli amici di Shakespeare che facevano 	parte	 dei King's Men, pubblicarono il First Folio, un'edizione completa delle opere di Shakespeare. 	not_cxn	
+7_WIKIShake-181	Anche prima della pubblicazione non autorizzata dei due sonetti ne Il pellegrino appassionato nel 1599, Francis Meres aveva fatto 	riferimento	" nel 1598 agli ""zuccherosi sonetti tra i suoi amici privati"". "	not_cxn	
+7_WIKIShake-260	Il drammaturgo e critico George Bernard Shaw si fece 	beffa	" del culto dell' adorazione di Shakespeare, definendolo ""bardolatria"". "	not_cxn	
+9_PS-140	L'identità delle persone si compone di elementi singoli e di elementi facenti 	parte	 di unità più ampie, e l'impatto delle persone sulla realtà dipende da quali elementi prevalgano sul comportamento. 	not_cxn	
+9_PS-199	Dal canto loro, gli Stati Uniti hanno fatto 	affidamento	 sui prodotti cinesi a basso costo per aumentare il potere d'acquisto dei consumatori ormai provati. 	cxn	false_positive
+9_PS-335	Iniziative volte a migliorare le conoscenze nutrizionali del pubblico sono anch'esse cruciali - non da ultimo perché possono motivare i cittadini a far 	pressione	 sui loro governi affinché passino all' azione. 	not_cxn	
+9_PS-354	Secondo alcuni dati diffusi dall' Ocse, solo il 55% delle sudcoreane di età compresa tra i 15 e i 64 anni fa 	parte	 della forza lavoro, contro una media del 65% nelle economie avanzate. 	not_cxn	
+9_PS-428	Il Fmi raramente fa 	notizia	 in prima pagina negli Stati Uniti o negli altri grandi paesi, tranne quando vi è coinvolta una dimensione personale scabrosa. 	not_cxn	
+9_PS-587	Ovviamente, quando un paese è a corto di opzioni, farà 	finta	 di collaborare per ottenere l'accesso ai fondi ufficiali di salvataggio. 	not_cxn	
+2Parole_1-85	Sono aumentate anche le persone che fanno 	volontariato	, cioè dedicano parte del loro tempo libero alle persone in difficoltà, per esempio i poveri o gli ammalati. 	not_cxn	
+2Parole_1-187	Caterina è timida e insicura, ma dopo un po’di tempo fa 	amicizia	 con le sue nuove compagne di scuola. 	not_cxn	
+2Parole_2-47	Queste persone fanno 	fatica	 a leggere e a capire gli articoli dei giornali che sono troppo lunghi e che contengono parole difficili. 	not_cxn	
+2Parole_2-81	Facciamo 	attenzione	 a non sciupare le radici, a non rompere il fusto e i rami della pianta. 	not_cxn	
+2Parole_2-83	Se facciamo 	fatica	 a far uscire la pianta dal vaso possiamo rompere il vaso con un martello. 	not_cxn	
+2Parole_2-213	La Costituzione Europea è la legge fondamentale comune a tutti i paesi che fanno 	parte	 dell’ Unione Europea. 	not_cxn	
+2Parole_2-215	Dal 1° maggio 10 nuovi paesi fanno 	parte	 dell’ Unione europea 	not_cxn	
+2Parole_2-216	Dal 1° maggio 2004, 10 nuovi paesi europei fanno 	parte	 dell’ Unione europea. 	not_cxn	
+2Parole_2-220	Prima dell’ ingresso di questi paesi nessun paese dell’ Europa dell’ est faceva 	parte	 dell’ Unione europea. 	not_cxn	
+2Parole_2-257	Cinque di queste donne sono entrate a far 	parte	 della Commissione che doveva scrivere la Costituzione. 	not_cxn	
+2Parole_2-281	Quando l'impasto diventa liscio e faccio più 	fatica	 a mescolare, lo verso nella teglia unta. 	not_cxn	
+2Parole_4-262	Se qualche giocatore si fa 	male	 e non può giocare, l’allenatore del Milan, Carlo Ancellotti, ha sempre a disposizione altri campioni. 	cxn	false_positive
+2Parole_5-105	I redattori di dueparole, cioè le persone che scrivono gli articoli, fanno 	parte	" dell' associazione ""Parlar chiaro"". "	not_cxn	
+2Parole_5-106	Le persone che fanno 	parte	 di questa associazione lavorano per eliminare le barriere linguistiche. 	not_cxn	
+2Parole_5-108	In particolare, le persone che fanno 	parte	" dell' associazione ""Parlar chiaro"" vogliono eliminare gli ostacoli che impediscono a molti lettori di capire i giornali italiani. "	not_cxn	
+2Parole_5-146	I rappresentanti dei Paesi che fanno 	parte	 dell’ Onu, Organizzazione delle Nazioni Unite, sono contrari alla decisione dei rappresentanti del governo dell’ Iran. 	not_cxn	
+2Parole_5-178	Infatti le donne fanno sempre più 	fatica	 a conciliare il ruolo di moglie, di mamme, di figlie e di lavoratrici. 	not_cxn	
+2Parole_6-69	I personaggi dei fumetti usano la parola “Ouch” quando vanno a sbattere contro qualcosa e si fanno 	male	. 	cxn	false_positive
+2Parole_6-98	Oscar Berger ha incontrato le organizzazioni del Guatemala che difendono i diritti umani e ha chiesto a Rigoberta Menchù di far 	parte	 del nuovo governo. 	not_cxn	
+2Parole_6-207	Le persone che fanno 	parte	 dell' Unicef si occupano dei problemi dei bambini di tutto il mondo. 	not_cxn	
+2Parole_6-246	Però i piloti che decidono di partire con poca benzina nel serbatoio devono fermarsi durante la gara per fare 	rifornimento	 di benzina. 	not_cxn	
+isst_tanl-128	Per lo stesso motivo però, spesso, fanno 	fatica	 ad ammettere che qualcun altro sia veramente più dotato, possegga qualità e capacità superiori. 	not_cxn	
+isst_tanl-591	Stravince le elezioni del 1990, e si lancia in virtuosismi nazionalistici da far 	invidia	 a Slobo Milosevic: 	cxn	
+isst_tanl-2174	Il ginocchio mi fa sempre un po' 	male	", ma gli ultimi test al Sestriere mi hanno dato molta sicurezza e l'ora della gara è ottima"". "	cxn	
+isst_tanl-2903	Slot machine abusive in un bar di piazza San Giovanni dove hanno fatto 	irruzione	 gli agenti del commissariato Esquilino. 	not_cxn	
+tut-372	Il proprietario di un fondo limitato o attraversato da un'acqua non pubblica, che corre naturalmente e sulla quale altri non ha diritto, può, mentre essa trascorre, farne 	uso	 per l'irrigazione dei suoi terreni e per l'esercizio delle sue industrie, ma deve restituire le colature e gli avanzi al corso ordinario (1). 	not_cxn	
+tut-1036	Parimenti si fa 	luogo	 alle dovute indennità in conseguenza delle modificazioni o limitazioni di turni, che siano state disposte dall' autorità giudiziaria. 	not_cxn	
+tut-3037	L'Isola verde fa 	omaggio	 al «Cumenda» che la ideò. 	not_cxn	
+test-9	I colossi dell' agrochimica Bayer e Syngenta hanno fatto separatamente 	causa	 all' Unione Europea. 	not_cxn	
+test-299	Una persona così merita di essere internato a vita e gettata via la chiave”, fa 	eco	 Edoardo M.. 	not_cxn	
+362	Facendo 	riferimento	 al FAI , che è un' associazione che opera a tutela dei beni storici presenti sul territorio italiano , la mia mente si proietta immediatamente sul castello medievale che domina il paese dove abito , Sabbionara d' Avio , che è gestito appunto dal FAI . 	not_cxn	
+364	Ed è così che si finisce per regredire sempre di più , fino ad arrivare al punto di vergognarsi di far 	parte	 della propria nazione . 	not_cxn	
+428	Infatti fra gli spettatori non vi erano soltanto scienziati , ma anche molte persone credenti , attratte dalla prospettiva che un religioso potesse fare 	chiarezza	 riguardo alle interazioni tra fisica , scienza e fede , che come ben noto , in passato non sono state idilliache . 	not_cxn	
+464	Su questa dichiarazione ci sarebbe da discutere a lungo e sinceramente io penso che non ne sarei in grado perché le mie conoscenze sono limitate , posso solo dire che tutto quello che non si conosce fa 	paura	 , ma che per conoscere le cose bisogna attivarsi e lentamente andando avanti queste appariranno sempre più chiare . 	cxn	
+746	Il tempo può avere avuto un esordio ed un origine , può far 	parte	 integrale di noi oppure è una cosa a parte che attraversa noi stessi ? 	not_cxn	
+783	Cosa c' è oltre quel mare che tanto spaventa e da cui molti non fanno 	ritorno	 ? 	not_cxn	
+950	sprezzanti ed orgogliosi di fronte alle religioni , molte persone non si accorgono di far 	parte	" di una "" setta "" ancora più assurda e pericolosa , la società di massa . "	not_cxn	
+1168	Se guardiamo la storia dell' uomo possiamo affermare che la cattiveria ha sempre fatto 	parte	 di lui e questa è l' unica cosa che può trasformare la scienza in una minaccia . 	not_cxn	
+748	Ogni individuo sebbene si senta indistruttibile non può fare 	affidamento	 solo su sé stesso , ed è proprio in questi momenti che entra in gioco la figura dell' amico . 	cxn	false_positive
+1228	Beh , non ne abbiamo di problemi … perché … più in crisi di così !!! Infatti , il mercato musicale nel nostro paese è in ristagno da anni ormai , e quindi non facciamo più neanche 	testo	 . 	not_cxn	
+1244	Il paesaggio italiano non è caratterizzato solo da natura , ma di questo complesso ne fa 	parte	 una forte presenza umana la quale lo ha modellato durante i secoli grazie alla sua presenza . 	not_cxn	
+121	Svoltesi nell' ultimo fine settimana le nuove elezioni per il parlamento , si può trarre a consuntivo la conclusione che l' atteggiamento più diffuso tra i cittadini facenti 	parte	 dei paesi aderenti all' Unione Europea è l' euroscetticismo . 	not_cxn	
+275	All' inizio può essere una delusione , si può soffrire , ma anche questa è un' esperienza che ognuno di noi ha provato o proverà , ciò fa 	parte	 della vita che ci dà la possibilità di aprire gli occhi per un futuro migliore che dia sempre meno spazio a spiacevoli episodi . 	not_cxn	
+297	Il bene della società lo forma proprio chi ne fa 	parte	 . 	not_cxn	
+ParlaMint-IT_2015-03-11-LEG17-Sed-407_197	Il secondo aspetto deficitario del provvedimento in esame è il fatto che si fa 	riferimento	 alle «comunità famiglia», quando non esistano famiglie affidatarie, ma le comunità famiglia non esistono. 	not_cxn	
+ParlaMint-IT_2015-03-11-LEG17-Sed-407_204	Ho portato solo due esempi, perché il sottoscritto ha una visione parziale delle cose, ma se accade - ci sono sentenze che lo testimoniano - che dopo sette anni i figli sballottati possono rientrare nel nucleo originario, non facciamo l'errore di dire che dopo due anni questi figli vengono adottati dalla famiglia affidataria perché tanti magistrati, anche in buona fede, con questo provvedimento chiuderebbero tanti fascicoli e farebbero statisticamente anche «bella 	figura	» perché si chiudono le pratiche e si definiscono le cause. 	not_cxn	
+ParlaMint-IT_2015-03-11-LEG17-Sed-407_208	Si dice, inoltre, che l'adozione effettuata dopo lo screening, la dichiarazione di adottabilità, il fatto che il minore faccia 	richiesta	 di tornare nella famiglia di origine oppure in altra famiglia e tutto ciò che risponde all' interesse del minore deve essere messo come preambolo al tutto, prima di poter definire la questione con l'adottabilità finale. 	not_cxn	
+ParlaMint-IT_2015-03-11-LEG17-Sed-407_235	Credo che, andando ad osservare tutte le parti di questo disegno di legge, dobbiamo anche farci 	scrupolo	 del fatto che questa è una materia estremamente eterogenea, nella quale agiscono molteplici elementi e persone e in cui i percorsi, che sono quelli che portano all' affido e poi alla dichiarazione di adottabilità del minore, sono percorsi difficili, in cui in realtà ogni bambino dovrebbe essere un caso a sé, ma in realtà ogni bambino diventa un numero. 	cxn	
+ParlaMint-IT_2015-03-11-LEG17-Sed-407_265	Infatti, com'è stato detto in tanti interventi, oggi i bambini vengono dati in affidamento, non soltanto a coppie con vincolo matrimoniale (come fa 	riferimento	 l'articolo 6 della legge 4 maggio 1983, n.184), ma anche a coppie conviventi o a singoli. 	not_cxn	
+ParlaMint-IT_2015-03-11-LEG17-Sed-407_266	Dobbiamo certamente rispettare il vincolo della continuità affettiva, il diritto alla famiglia e, ovviamente, il diritto nell' interesse supremo dei bambini, laddove esistono quelle condizioni che non consentono il rientro in famiglia, che per noi è prioritario (ci sarebbe quindi da discutere di quanto lo Stato fa o deve fare per rimuovere tutti quegli ostacoli ai quali fa 	riferimento	 l'articolo 3 della Costituzione e consentire, appunto, alle famiglie a cui sono stati sottratti i bambini di vederli rientrare e vivere serenamente), tuttavia, quando ciò non è possibile, occorre garantire il diritto dei bambini e delle bambine ad una vita serena e a un futuro. 	not_cxn	
+ParlaMint-IT_2015-03-11-LEG17-Sed-407_268	Pensiamo pertanto che il Parlamento, senza introdurre scorciatoie per altre motivazioni politiche cui ha fatto 	riferimento	 la relatrice, su questo emendamento debba prendere coraggiosamente una decisione, nell' interesse supremo dei bambini. 	not_cxn	
+ParlaMint-IT_2015-03-11-LEG17-Sed-407_305	"Qualora, a seguito di un periodo di affidamento» - non si utilizza quindi l'aggettivo ""prolungato"" - «il minore faccia "	ritorno	 nella famiglia di origine o sia dato in affidamento ad altra famiglia o adottato da altra famiglia, è comunque tutelata ...». 	not_cxn	
+ParlaMint-IT_2020-03-11-LEG18-Sed-200_191	non sono temi su cui fare 	populismo	. 	not_cxn	
+ParlaMint-IT_2020-03-11-LEG18-Sed-200_235	Oggi non basta far 	finta	 di niente, non basta lasciare che, alla fine, siano gli altri o gli italiani da soli a pensarci . 	not_cxn	
+ParlaMint-IT_2020-03-11-LEG18-Sed-200_255	Ringraziamo anche queste sigle sindacali che, assieme, si sono unite, superando le divisioni naturali che esistono tra ogni sigla sindacale per far 	fronte	 a questo problema. 	not_cxn	
+ParlaMint-IT_2015-03-11-LEG17-Sed-407_60	Quindi, la famiglia di origine durante l'affidamento occupa una posizione centrale accanto alla famiglia affidataria e insieme devono fare 	squadra	 tenendosi in contatto nell' interesse del minore. 	not_cxn	
+ParlaMint-IT_2020-03-11-LEG18-Sed-200_50	È evidente che tutti questi sforzi, profusi dall' amministrazione al solo scopo di evitare che l'epidemia si faccia 	largo	 nelle carceri, rischiano di essere gravemente compromessi dalle rivolte di questi giorni che hanno causato l'inagibilità di un numero elevatissimo di posti detentivi. 	not_cxn	
+ParlaMint-IT_2020-03-11-LEG18-Sed-200_74	Purtroppo ce ne dobbiamo far 	carico	, perché pensare che si possa addebitare a lui o a gli ultimi Ministri una situazione che viene da lontano è profondamente sleale, in termini personali e politici. 	not_cxn	
+ParlaMint-IT_2020-03-11-LEG18-Sed-200_102	Il capo del DAP ha gravissime responsabilità in questa vicenda ed è bene che vada a casa perché non si può far 	finta	 che nulla sia accaduto. 	not_cxn	
+ParlaMint-IT_2020-03-11-LEG18-Sed-200_126	Per questo, signor Ministro, pensiamo che non si possa silenziosamente far 	finta	 di nulla: 	not_cxn	
+it_partut-ud-33	Quanto sopra si applica all' opera anche quando questa faccia 	parte	 di una collezione di opere, anche se ciò non comporta che la collezione di opere di per sé ed indipendentemente dall' opera stessa debba essere soggetta ai termini ed alle condizioni della presente licenza. 	not_cxn	
+it_partut-ud-39	Quanto sopra si applica all' opera anche quando questa faccia 	parte	 di una collezione di opere, anche se ciò non comporta che la collezione di opere di per sé ed indipendentemente dall' opera stessa debba essere soggetta ai termini ed alle condizioni della presente licenza. 	not_cxn	
+it_partut-ud-41	nella misura in cui sia ragionevolmente possibile,l'Uniform Resource Identifier,che il Licenziante specifichi dover essere associato con l'opera,salvo che tale URI non faccia 	riferimento	" alla informazione di protezione di diritto d'autore o non dia informazioni sulla licenza dell' opera; "	not_cxn	
+it_partut-ud-235	In tal senso, desidero anche fare brevemente 	riferimento	 ai problemi dei tunnel, menzionati dagli onorevoli Rack e Swoboda. 	not_cxn	
+it_partut-ud-260	Gli emendamenti presentati e approvati all' unanimità in sede di commissione fanno 	riferimento	 in due casi alla suddetta procedura di comitatologia recentemente modificata. 	not_cxn	
+it_partut-ud-630	(32) La presente direttiva è conforme ad alcuni principi sull' applicazione della nuova strategia illustrata nella risoluzione del consiglio, del 7 maggio 1985, relativa ad una nuova strategia in materia di armonizzazione tecnica e normalizzazione [5], e al criterio di far 	riferimento	 alle norme europee armonizzate. 	not_cxn	
+it_partut-ud-712	Alcune di esse sono state tuttavia organizzate nei paesi terzi o nei paesi candidati all' adesione per far 	fronte	 ad esigenze specifiche legate alla protezione dell' euro, come nel caso delle attività intraprese in Colombia, per tutti i paesi dell' America del sud, e in Bulgaria, anche per gli altri paesi dell' Europa sud-orientale. 	not_cxn	
+it_partut-ud-716	Il coordinamento delle azioni del programma e di altre attività di formazione è affidato al gruppo di esperti contro la falsificazione dell' euro, di cui fanno 	parte	 esperti di tutti gli stati membri e dei paesi candidati e a cui partecipano rappresentanti di Europol, della BCE e di Interpol, conformemente al settimo considerando della decisione Pericle. 	not_cxn	
+it_partut-ud-783	Nessuno può essere costretto a far 	parte	 di un'associazione. 	not_cxn	
+it_partut-ud-1138	L'identità delle persone si compone di elementi singoli e di elementi facenti 	parte	 di unità più ampie, e l'impatto delle persone sulla realtà dipende da quali elementi prevalgano sul comportamento. 	not_cxn	
+it_partut-ud-1192	Dal canto loro, gli Stati Uniti hanno fatto 	affidamento	 sui prodotti cinesi a basso costo per aumentare il potere d'acquisto dei consumatori ormai provati. 	cxn	false_positive
+it_partut-ud-1317	Iniziative volte a migliorare le conoscenze nutrizionali del pubblico sono anch'esse cruciali - non da ultimo perché possono motivare i cittadini a far 	pressione	 sui loro governi affinché passino all' azione. 	not_cxn	
+it_partut-ud-1335	Secondo alcuni dati diffusi dall' OCSE, solo il 55% delle sudcoreane di età compresa tra i 15 e i 64 anni fa 	parte	 della forza lavoro, contro una media del 65% nelle economie avanzate. 	not_cxn	
+it_partut-ud-1395	Il FMI raramente fa 	notizia	 in prima pagina negli Stati Uniti o negli altri grandi paesi, tranne quando vi è coinvolta una dimensione personale scabrosa. 	not_cxn	
+it_partut-ud-1546	Quando finì gli studi, Balzac fece 	apprendistato	 in un ufficio legale, ma lasciò i suoi studi di legge dopo essersi stancato della sua inumanità e banale routine. 	not_cxn	
+it_partut-ud-1761	la scena di un giovane che arriva al paese per fare 	fortuna	" è onnipresente nel romanzo realista, e compare ripetutamente nelle opere di Balzac, come in ""Illusions perdues"". "	not_cxn	
+it_partut-ud-1840	Gli studiosi fanno 	riferimento	" all' arco di tempo tra gli anni 1585 e 1592 come agli ""anni perduti"" di Shakespeare. "	not_cxn	
+it_partut-ud-1892	Thomas fu obbligato dal tribunale ecclesiastico a fare pubblica 	penitenza	, fatto che avrebbe causato ulteriore disonore e imbarazzo alla famiglia Shakespeare. 	cxn	
+it_partut-ud-1951	Della compagnia di Shakespeare facevano 	parte	 attori del calibro di Richard Burbage, William Kempe, Henry Condell e John Herninges. 	not_cxn	
+it_partut-ud-1957	Nel 1623 John Heminges e Henry Condell, due degli amici di Shakespeare che facevano 	parte	 dei King's Men, pubblicarono il First Folio, un'edizione completa delle opere di Shakespeare. 	not_cxn	
+it_partut-ud-1979	Anche prima della pubblicazione non autorizzata dei due sonetti ne Il pellegrino appassionato nel 1599, Francis Meres aveva fatto 	riferimento	" nel 1598 agli ""zuccherosi sonetti tra i suoi amici privati"". "	not_cxn	
+it_partut-ud-2058	Il drammaturgo e critico George Bernard Shaw si fece 	beffa	" del culto dell' adorazione di Shakespeare, definendolo ""bardolatria"". "	not_cxn	
+it_partut-ud-1011	Tali testi fanno 	fede	 alle stesse condizioni dei testi dei trattati di cui al primo comma redatti nelle lingue attuali. 	cxn	false_positive
+333	Bossi: il governo Monti? Fa 	schifo	 (da che pulpito). Ancora la situazione è come prima ... bisogna dare tempo per cambiare l'eredità lasciata 	cxn	
+493	"#Bossi: "" Il #governo #Monti fa "	schifo	" "". E #Berlusconi si dimise perché "" ricattato "" http://t.co/DAlfShQL "	cxn	
+2869	#Paritàsessi non è sfoggiare ascelle pelose o #pisciare in un imbuto per farlo in piedi, ma essere libere di fare, insieme, 	carriera	 e figli 	not_cxn	
+3566	@user oggi pomeriggio vado a fare 	palestra	 :3 tu ?? 	not_cxn	
+3611	La7 parlano ancora di #Grillo e di come fa 	paura	 alla #politica. Penso sia cosa buona #farepauraallapolitica. 	cxn	
+4781	#portaaporta secondo sondaggio, da spauracchio ora comincia a fare 	paura	 #Grillo quale sarà contromossa della politica? 	cxn	
+5121	"@user Spero proprio che #Grillo spazzi via la "" malapolitica "" esistente, partecipazione dei cittadinie e fare "	politica	 x passione 	not_cxn	
+6596	Bossi: Il governo Monti fa 	schifo	. Tu di piú! No, tu di piú! 	cxn	
+6710	Se il programma avrà fatto meno 	ascolto	 sul pubblico del Nord Italia, darà la colpa a Siani. #sapevatelo #amici 	not_cxn	
+5998	Letta: sicuramente non farò 	parte	 del governo Monti. e siamo un passo avanti. #finecorsa 	not_cxn	
+6171	La rivoluzione dei cento fiori di Mario Monti è partita. Le liberalizzazioni hanno cominciato a farsi 	strada	 ... http://t.co/ShPktma1 	not_cxn	
+6686	@user Anche una mia amica dovrebbe andarci ! :D Io sto cercando la voglia di fare 	latino	! D: 	not_cxn	
+5988	#Grillo vola nei sondaggi e fa 	paura	 a tutti i politici, che come mausolei hanno paura di essere cagati in testa. 	cxn	
+28	Forse #Grillo fa 	finta	 di non capire che in rete si segue anche chi non si approva e chi si disprezza. Da le cifre come le dava °Berlusconi 	not_cxn	
+73	@user non avevo fatto 	caso	 al tuo nuovo nome akldl inutile dire che mi piace da morire 	not_cxn	
+350	RT @user: comunichiamo! se non comunichi non si può fare 	pace	! quante volte ho mandato a fanculo Luhan e quante gliene ho dette nessu… 	cxn	false_positive
+1206	@user #Grillo non vuole il bene dell' #Italia, vuole entrare nella #Casta perchè gli fanno comodo 12000 	euro	 al mese di più ... 	not_cxn	
+1310	Casini: « Se facciamo 	governo	 Monti è un miracolo » http://t.co/zzRfeOQW 	not_cxn	
+1798	"Se il Movimento5stelle fosse davvero forte e davvero "" della rete "", si libererebbe da #Grillo e farebbe "	politica	 come Movimento. Invece no. 	not_cxn	
+1826	#Grillo deve far davvero 	paura	". Oggi Sartori sul "" partito liquido "" e Napolitano sul "" demagogo "". Effetto vittima, che pagherà ancora di più. "	cxn	
+2149	Governo Monti, il Vaticano: « Bella squadra ». Sono i tifosi a fare 	schifo	. Insuperabile @user :D 	cxn	
+3017	Non so se mi fanno più 	schifo	 i cinepanettoni o i film di Zalone. Nel dubbio, non ne guardo nessuno dei due. 	cxn	
+3028	ho appena fatto geografia per lunedì, latino per martedì e storia per venerdì. ieri ho fatto 	inglese	 per lunedì e un po' di matematica .. 	not_cxn	
+3028	ho appena fatto 	geografia	 per lunedì, latino per martedì e storia per venerdì. ieri ho fatto inglese per lunedì e un po' di matematica .. 	not_cxn	
+3813	@user Votano per chi difende il sindacato non arrendevole. #Grillo non fa 	parte	 di questo club. Per lui fa tutto schifo ... 	not_cxn	
+4344	""" @user: Nichi bisogna fare "	autocritica	 e non interpretare un berlusconismo di ritorno !!!! 	not_cxn	
+6381	RT @user :' ridi che passa ' pt 21 Come si riproducono le pietre? facendo 	sasso	 	not_cxn	
+6700	tutti pensano che #Grillo e' l'antipolitica e non farà mai 	paura	 .. anche la #Lega nacque così ... intanto pero' facciamo #piazzapulita 	cxn	
+5892	A Montecitorio un MegaCondom per il #WorldAIDSDay. Chiediamo al Governo #Monti di fare 	prevenzione	 e informazione http://t.co/dCyExBN2 	not_cxn	
+16	Indicazioni per Mario Monti sul cosa e dove si dovrebbe tagliare per fare 	cassa	. http://t.co/UtjtFDbr 	not_cxn	
+193	""" @user1: @user2: Si fa "	fatica	 a vedere anche un solo segnale di equità nella manovra del governo Monti ... Io concordo 	not_cxn	
+435	#portaaporta #Vespa ha fatto pura 	propaganda	 per #Grillo e quasi mi sono convinta a dare un voto alternativo e di discontinuità 	not_cxn	
+531	@user dovrebbe fare 	pace	 col cervello 	cxn	false_positive
+538	Bossi: « Il governo Monti fa 	schifo	, sono improvvisati ». Il trota invece, e Calderoli, mirabili statisti. 	cxn	
+599	tutti pensano che #Grillo e' #l'antipolitica e non farà mai 	paura	 .. anche la #Lega nacque così ... intanto pero' facciamo #piazzapulita 	cxn	
+645	@user me lo son perso stasera, cmq preferisco i vip, gli sconosciuti in tv fanno 	tristezza	 	cxn	
+707	Devi renderti conto che alcune persone possono far 	parte	" del tuo cuore, ma non della tua vita ;) "	not_cxn	
+708	Meno male che è #Grillo a fare 	demagogia	. Politici, andate a lavorare per davvero. #piazzapulita 	not_cxn	
+863	quand' è che Mario #Monti in treno non farà più 	notizia	? #mobbastaveramenteperò http://t.co/GtMmOT57 via @user 	not_cxn	
+936	@user non si puo fare 	indigestione	 di rugby, impossibile ... 	not_cxn	
+940	Si va verso il #Governo #Monti ... un moderato, garante dei poteri forti, speriamo almeno che sia equo e non faccia 	macelleria	 sociale. 	not_cxn	
+941	Non sono un fan degli attuali partiti, ma #Beppe #Grillo mi fa 	paura	, non mi fido degli imbonitori. Abbiamo già dato per 20 anni, grazie. 	cxn	
+944	Ok facciamo 	finta	 che #Grillo dica cose giuste e poi scompaia. Dopo di lui? 	not_cxn	
+953	Vendola favorevole al governo Monti. Non me l'aspettavo e mi fa 	piacere	! #FullMonti #3O8 #fatepresto 	cxn	
+968	@user Beh? Non è stato il primo a dire che Grillo non era in grado di far 	politica	 perchè manda sempre tutti a cagare? #Grillo vai! 	not_cxn	
+1060	@user1 Ci sono circhi e circhi. #Grillo fa 	parte	 della categoria degli artisti. Poi, ci sono le categorie dei pezzenti @user2 	not_cxn	
+1198	voglio fare 	sesso	 :* 	not_cxn	
+1322	Mario Monti mi fai 	schifo	. UN BANCHIERE AL GOVERNO ... SENZA UN ITALIANO CHE TI HA VOTATO ... ma chi cazzo sei? ma che cazzo vuoi? 	cxn	
+1327	@user: Non ho sentito dichiarazioni Pd ... il governo Monti si farà perché a qualcuno faceva 	paura	 assumersi le proprie responsabilità 	cxn	
+1342	Fa 	schifo	 il posto fisso. Meglio 5 anni di parlamento ed avere la pensione d'oro a vita. Vero signor Mario? #monti 	cxn	
+1486	#Legaladrona vuol far 	pulizia	 ed entra #Bossi? Tutto come nulla fosse? Ma che presa x il culo! #Vergogna! #Grillo #M5S 	not_cxn	
+1550	@user ti pagano a fare 	cosa	? 	not_cxn	
+1590	RT @user: conte fa il 	possibilista	 e pragmatico sui moduli. e poi dobbiamo tenerci padoin sulla fascia contro il principio di re… 	not_cxn	
+1721	@user io la vedo così: #Grillo fa 	politica	 SUI sondaggi. Non ha la minima idea di cosa fare dell' Italia. Cavalca il malcontento. 	not_cxn	
+1983	@user #Grillo Sono felice di non condividere le idee, di chi utilizza simili tragici espedienti per fare 	propaganda	 	not_cxn	
+2039	#Napolitano dovrebbe fare 	nome	 di #Grillo se si riferisce a lui quando parla di demagoghi se no è facile che la gente pensi a #UDC #PD #PDL 	not_cxn	
+2069	Melli fa tanto 	giocatore	 anni 70 	not_cxn	
+2071	@user ma non fare 	danno	! u___u 	not_cxn	
+2201	"@user Prima avevamo un presidente comico; oggi invece un comico che vuole fare "	presidente	 #Grillo #Piazzapulita 	not_cxn	
+2203	@user e io non faccio 	parte	 della famiglia #Grillo ?? :D 	not_cxn	
+2209	"#Grillo ha raggiunto la fase "" delirio di onnipotenza "", ma nel nulla cosmico della politica italiana anche quello fa "	brodo	 .. 	not_cxn	
+2225	Bossi: « Il governo Monti fa 	schifo	 ». Un giudizio tecnico. 	cxn	
+2267	Aria di inciucio, Pdl: Se nel governo Monti ci sarà Amato chiediamo che ne faccia 	parte	 anche Letta http://t.co/6Uje4Oo4 #oramonti 	not_cxn	
+2285	Preferisco fare 	affidamento	 su un #Grillo piuttosto che su un Bossi o un Berlusconi. Onestamente eh, poi magari non farà un cazzo. 	cxn	false_positive
+2300	RT @user: - DARE PESO ALLE VOSTRE CRETINATE. MA NON CI FATE 	CASO	? PERCHE' I VOSTRI IDOLI CI STANNO MALE MA TAYLOR NO? CHI PENSA A CO… 	not_cxn	
+2310	@user non ne ho mai fatto 	parte	, quindi non so bene come funziona lol 	not_cxn	
+2324	#Grillo fà propio 	paura	 alla #sinistra, il buon #bersani pensi a governare e stia sui banchi di #Montecitorio 	cxn	
+2334	Si fa 	fatica	" a vedere anche un solo segnale di equità nella manovra del governo Monti. Tutto grava sulle spalle ... http://t.co/sVuimqsq "" "	not_cxn	
+2554	#Grillo inizia a far 	paura	 a tutti. 	cxn	
+2617	#Vauro: È più facile fare 	satira	 sulla Fornero e su questo governo che su Berlusconi. #governo #monti 	not_cxn	
+2633	Ma vietare i botti a #Capodanno fa 	parte	 della #fase2 del Governo #Monti? Non ditemi che e' per evitare di pagare gli straordinari ai PS? :) 	not_cxn	
+2824	Google ora fa 	concorrenza	 anche alle compagnie telefoniche, col progetto Google “ Fi ”: http://t.co/b2Ly0P2jtS http://t.co/323qyReAUN 	not_cxn	
+2842	Davanti alla morte di 700 persone bisognerebbe solo fare 	silenzio	! Grande Roy! #unomaggiotaranto https://t.co/XdN2wbpM1P 	not_cxn	
+2901	""" @user: ✨ Cita e rispondi di feds ✨ Cosa pensi della tua vita? "" che fa "	schifo	 	cxn	
+2913	#D'Alema: “ Ho fatto 	sacrificio	 e ho ascoltato #Grillo su Internet: è un incrocio tra il primo #Bossi e il Gabibbo. ”: http://t.co/IQBxkY1w 	not_cxn	
+2941	(Siete divertenti) Fino a ieri #Grillo e il #M5S non l'avete c..o, ora fa 	paura	, e tutti addosso. 	cxn	
+3013	Bossi ha appena detto che il governo Monti fa 	schifo	, perché è un governo di improvvisatori. Senza commento. 	cxn	
+3018	RT @user: la mia tl continua a fare 	schifo	 	cxn	
+3035	RT @user: Ehi Martedì, lo so che non sei Lunedì, ma fai 	schifo	 lo stesso. 	cxn	
+3066	#Ballarò Maroni rimprovera il governo monti di fare cassa, mi chiedo dove stesse quando con quattro manovre hanno fatto 	cassa	 e scasso 	not_cxn	
+3066	#Ballarò Maroni rimprovera il governo monti di fare 	cassa	, mi chiedo dove stesse quando con quattro manovre hanno fatto cassa e scasso 	not_cxn	
+3164	@user sto anche facendo 	pausa	 con yogurt ... ottimo parlare di ste cose ... #solocosebelle e buone !!! yeeesss ma venite in camper? 	not_cxn	
+3280	Fa 	notizia	 Mario Monti, sorpreso alla guida senza cintura e al cellulare. Così ci sembra meno grave l'accusa per camorra all' on. Cosentino 	not_cxn	
+3484	di questo passo mi metto di nuovo a fare 	acacia	 	not_cxn	
+3593	come fa a piacervi la pioggia? si ok è bella quando siete in casa a leggere ma allora non fa 	differenza	, è nello stare fuori la differenza 	not_cxn	
+3669	RT @user: l'amore non ricambiato fa 	schifo	 	cxn	
+3791	Bossi: ' Il governo Monti? Fa 	schifo	 ' http://t.co/HA1ePo8P 	cxn	
+3837	invecchia di 50 anni in pochi giorni. Voleva far 	parte	 del governo Monti http://t.co/grUqQE70 	not_cxn	
+3865	@user No è solo una tipica minchiata alla #Grillo parole a caso per fare 	fumo	 ... 	not_cxn	
+3897	Mario #Monti In Italia oggi Bill Gates non potrebbe mai fare 	strada	, bisogna liberalizzare 	not_cxn	
+3907	#Occupiamoiltesoro Il governo Monti ci fa 	schifo	. Default selettivo. Welfare universale. Più risorse alla cultura http://t.co/5YjgJDf9 	cxn	
+3916	Male male male .. Un governo Monti con Letta vice, Palma e Frattini riconfermati, Ichino (Pd) al welfare ... Per fare 	cosa	? #elezionisubito 	not_cxn	
+3971	26. ti dicono che sei brutta, cosa fai? non ci faccio 	caso	 anche se ci rimango male lo stesso. 	not_cxn	
+3999	Il nuovo Bossi-pensiero: � Il governo Monti fa 	schifo	 � http://t.co/8mDZSpoU via @user 	cxn	
+4013	In conclusione #piazzapulita e #serviziopubblico hanno fatto 	campagna	 elettorale per #Grillo a due set. dal voto, un' operazione democratica 	not_cxn	
+4043	Se Letta entra a far 	parte	 del governo Monti per me il governo Monti può andare anche a fanculo. 	not_cxn	
+4136	@user: Gianni Letta: Sicuramente non farò 	parte	 del governo Monti (ag Dire) e meno male! 	not_cxn	
+4264	devo andare a fare 	fisioterapia	 	not_cxn	
+4268	Governo #Monti non so come andrà ma l'unica cosa che mi fa 	piacere	 e' vedere #faccenuove anche se un po' datate 	cxn	
+4269	#Grillo vola nei sondaggi e fa 	paura	 #Bersani e #Vendola preoccupati: comincia il tutti contro tutti! http://t.co/ndYyyssL @user 	cxn	
+4271	Mi sbaglio o #Grillo disse che non avrebbe mai fatto 	politica	? Ricordo male o il #M5S disse che non si sarebbe mai candidato alle politiche? 	not_cxn	
+4568	@user la distanza fa 	schifo	, gn 	cxn	
+4586	#Grillo, a differenza di ciò che dice, non ha proposte concrete, spara a zero su tutto e tutti, è facile far 	politica	 così #Piazzapulita 	not_cxn	
+4721	@user fa 	paura	? hahaha 	cxn	
+4927	#Grillo fa 	finta	 di non capire che in rete si segue anche se disprezzi o non condividi. Fa le stime a #cazzo come #Berlusconi 	not_cxn	
+4952	Faccio 	fatica	 a dirlo , ma ... una spruzzata di Thatcher, please. #Thatcher4italy #liberalizzazioni #taxi #farmacie #benzinai #governo #Monti 	not_cxn	
+4979	Ricapitolando: #Grillo fa bene a fuggire dai giornalisti, non va paragonato a Stracquadanio e io faccio 	demagogia	. Il #nuovomiracoloitaliano 	not_cxn	
+5028	“ @user: Spieghiamo a #Grillo che la politica non è un teatro ... e non si fa 	spettacolo	 ... #piazzapulita ” grazie ai ns politici 	not_cxn	
+5036	i bocchini che fa mia 	madre	 sono monotoni (cit. Mario Monti) 	not_cxn	
+5077	Mario Monti nominato senatore a vita. I primi momenti del post - Berlusconi mi fanno 	terrore	 ... 	cxn	
+5275	Mario Monti a Porta a Porta | Il video dell' intervista di ieri sera: « Vespa, non sono qui per far 	piacere	 a lei » http://t.co/6Zttq2wC 	cxn	
+5302	Letta: È venuto il momento che l'A.D. di Fimeccanica, Orsi, faccia 	pulizia	. Sosteniamo la posizione di Mario Monti http://t.co/ZtxFx7IQ 	not_cxn	
+5306	ciao, sono ancora io carlottina e ti dico che mi fai sempre più 	pena	, w 1D! (@user live on http://t.co/5czb1cZi) 	cxn	
+5320	Perché #Grillo mi fa 	paura	 almeno quanto il becerume leghista? 	cxn	
+5450	la mia mamma ha fatto 	pizzaaaa	" &lt;3 :3 "	not_cxn	
+5487	#serviziopubblico è l'unico programma che sta facendo 	informazione	, gli altri veramente sono l'istituto Luce con sto governo #Monti 	not_cxn	
+5538	@user1 Può far 	luce	 sul nuovo profilo Twitter di Mario Monti? E' l'ennesimio falso? Mi riferisco a @user2 	not_cxn	
+5649	#Grillo gioca sulla debolezza sociale. Fare 	attenzione	 #Piazzapulita 	not_cxn	
+5654	Forse con il governo #Monti si tornerà a fare 	politica	. 	not_cxn	
+5678	POLITICA. A Napoli oggi De Magistris fa 	rete	 con amministratori del Sud e anima opposizione a governo Monti + unanimismo che lo sostiene. 	not_cxn	
+5917	#rt seguimi e ti seguo. Voglio seguire tanti Smilers, Selenators, Directioners, Lovatics, Beliebers e altri fandom di cui fate 	parte	. x38 	not_cxn	
+6374	Quello che fa 	festa	 per la pensione e deve lavorare altri 7 anni: La mini riforma del governo Monti gioca brutti ... http://t.co/xqraBFIR 	not_cxn	
+5854	Il fatto che #Grillo non sia un politico ma che, tra una parolaccia e l'altra, faccia 	politica	 dà fastido a molti, in maniera bipartisan 	not_cxn	
+6094	capisco che sperate nel governo monti, però non fate 	finta	 di non vederne contraddizioni e pericolosità 	not_cxn	
+6390	Il governo #Monti fa 	retromarcia	 http://t.co/6OBUC9Zj 	not_cxn	
+6333	RT @user: Cose irresistibili in una ragazza pt. 58 Quando fanno 	finta	 di non credere ai complimenti invece dentro saltano di gioia 	not_cxn	
+5830	A me le scelte del Governo Monti non mi fanno piangere, mi fanno 	schifo	! 	cxn	
+6599	@user appena me ne sono accorta l'ho cancellato subito ahahhah invece jasy non ci avevo fatto proprio 	caso	 ahhaha 	not_cxn	
+6270	RT @user: benvenuti al concerto della boyband piu' famosa, che si mettono a fare 	carta	 sasso e forbici come se niente fosse http://t .… 	not_cxn	
+5898	ogni tanto vi propongo delle vignette, datemi il vostro parere, anche se vi fanno 	schifo	 http://t.co/Vv63284B 	cxn	
+5850	Specifico: Gianni Letta: sicuramente non farò 	parte	 del governo Monti. e siamo un passo avanti. #finecorsa 	not_cxn	
+6337	Ma una donna in grado di essere chiamata a far 	parte	 del Governo #Monti? No, eh ?! 	not_cxn	
+6311	#ballaró il Governo Monti ha fatto 	cassa	 e non poteva che farla sulla massa, pensionati ... 	not_cxn	
+6109	@user Ilvo Diamanti sta giustamente dicendo che riavvicina la gente alla politica, della quale #Grillo entrerà a far 	parte	 con 1 part. 	not_cxn	
+6637	Chi dice sì al governo Monti? http://t.co/sZmWVHB6 leggere questi nomi fa 	impressione	 eh, però mandiamo giù sto rospo: Governo Monti sia! 	not_cxn	false_negative
+n01038025	Potrebbe anche attendere la fine del suo primo mandato per fare 	uso	 di una disposizione presente nell' Accordo di Parigi per ritirarsi dal patto. 	not_cxn	
+n01060069	"Ha ammesso, inoltre, che ""bisogna vedere in quali casi abbia riconosciuto la necessità di fare "	qualcosa	" di diverso - qualcosa di migliore - e in quali abbia espresso sentimenti di pentimento"". "	not_cxn	
+n01128021	Pertanto, molte persone aprono velocemente le e-mail o fanno 	clic	 senza riflettere su link e allegati senza immaginare le possibili conseguenze. 	not_cxn	
+w01085006	Faceva 	affidamento	 su volontari e truppe della milizia statale, che avevano problemi logistici, di addestramento e di cibo nei campi base militari in Florida. 	cxn	false_positive
+w01134062	Nel 1955, Mishima iniziò a fare 	sollevamento	 pesi e continuò il suo regime di allenamento di tre sessioni per settimana per tutti gli ultimi 15 anni della sua vita. 	not_cxn	
+n05006013	L'enfasi, l'ironia sottile, le allusioni dirette e altri espedienti verbali fanno 	parte	 dell' oratoria parlamentare ma i colpi bassi o le pagliacciate no. 	not_cxn	
+dev_72	Un operaio di Terni scrive a Civati. “Dai, fatti 	forza	“. [@user] 	not_cxn	
+dev_108	Movimento 5 Stelle, Grillo fa 	autocritica	". ""Avete sbagliato"" [@user] "	not_cxn	
+dev_122	PURE SCUOLA ZOO FA 	POLITICA	!!! :-) Oi oi Basta che cos è un comizio!!! Ke scandalo, parliamo della buona scuola, ... http://t.co/djEtyTIyX3 	not_cxn	
+dev_127	Letta: sicuramente non farò 	parte	 del governo Monti. e siamo un passo avanti. #finecorsa 	not_cxn	
+train_74	Fa 	notizia	 Mario Monti, sorpreso alla guida senza cintura e al cellulare. Così ci sembra meno grave l'accusa per camorra all' on. Cosentino 	not_cxn	
+train_78	@user dovrebbe fare 	pace	 col cervello 	cxn	false_positive
+train_196	Cicciolina: “Quando facevo 	politica	 ero come Grillo“. Circondata da cazzoni. [rubagalline] 	not_cxn	
+train_214	Faccio 	fatica	 a dirlo , ma ... una spruzzata di Thatcher, please. #Thatcher4italy #liberalizzazioni #taxi #farmacie #benzinai #governo #Monti 	not_cxn	
+train_310	RT @user: Ehi Martedì, lo so che non sei Lunedì, ma fai 	schifo	 lo stesso. 	cxn	
+train_368	Bossi: « Il governo Monti fa 	schifo	 ». Un giudizio tecnico. 	cxn	
+train_405	"Renzi: ""Speculare su un morto fa "	schifo	""". Finalmente una presa di posizione sul Giubileo. [acid rain] "	cxn	
+train_587	quand' è che Mario #Monti in treno non farà più 	notizia	? #mobbastaveramenteperò http://t.co/GtMmOT57 via @user 	not_cxn	
+train_596	Ma vietare i botti a #Capodanno fa 	parte	 della #fase2 del Governo #Monti? Non ditemi che e' per evitare di pagare gli straordinari ai PS? :) 	not_cxn	
+train_613	#Ballarò Maroni rimprovera il governo monti di fare cassa, mi chiedo dove stesse quando con quattro manovre hanno fatto 	cassa	 e scasso 	not_cxn	
+train_613	#Ballarò Maroni rimprovera il governo monti di fare 	cassa	, mi chiedo dove stesse quando con quattro manovre hanno fatto cassa e scasso 	not_cxn	
+train_628	Fa 	schifo	 il posto fisso. Meglio 5 anni di parlamento ed avere la pensione d'oro a vita. Vero signor Mario? #monti 	cxn	
+train_664	Il M5S Pizzarotti: “Ora Grillo faccia 	autocritica	“. Hai anche un ultimo desiderio? [@user] 	not_cxn	
+train_675	come facciamo buona 	scuola	" con l'ingrosso dei precari &lt;http://t.co/xmAu9Io8UV&gt; "	not_cxn	
+train_681	@user1 @user2 #labuonascuola ne fanno 	parte	 anche i 600 milioni di tagli ? 	not_cxn	
+train_691	Ma tutti voi che twittate pubblicizzando #labuonascuola ci fate o ci siete? O vi paga Renzi per fargli 	propaganda	? 	not_cxn	
+train_730	Capito che il ns premier andava male in inglese non capisce la matematica e parla un italiano dialettale come farà 	riforma	 scuola? #lagabbia 	not_cxn	
+train_766	Bossi: « Il governo Monti fa 	schifo	, sono improvvisati ». Il trota invece, e Calderoli, mirabili statisti. 	cxn	
+train_772	(Siete divertenti) Fino a ieri #Grillo e il #M5S non l'avete c..o, ora fa 	paura	, e tutti addosso. 	cxn	
+train_821	Educatrice fa 	sesso	 con un sedicenne per incentivarlo a studiare. Si laurea domani. [@user] 	not_cxn	
+train_901	Niente più Precari in scuola Italika! Entreranno direttemente a fare 	parte	 del mondo dei disokkupati #labuonascuola 	not_cxn	
+train_950	Ho fatto 1 	sogno	" oggi : pensavo : "" che bella la nuova scuola riformata "" , poi mi sono svegliato e ho letto Tagli lineari Altro che #labuonascuola "	not_cxn	
+train_955	@user #labuonascuola io faccio 	campagna	 perché nessun docente della mia scuola compili il questionario. É comunque una battaglia facile 	not_cxn	
+train_976	Schettino fa 	campagna	 elettorale per il Pd. Gli hanno dato i servizi sociali. [@user] 	not_cxn	
+train_1010	@user: Gianni Letta: Sicuramente non farò 	parte	 del governo Monti (ag Dire) e meno male! 	not_cxn	
+train_1055	Attivisti del Movimento 5 Stelle fanno 	irruzione	 nella sede del Secolo XIX. Non capivano l'emoticon. [@user] 	not_cxn	
+train_1073	@user1 ahahaah non ci avevo fatto 	caso	!!! #labuonascuola per @user2 @user3 serve #Sgarbi capra capra capra!! :)) 	not_cxn	
+test_22	Greci vicini al tracollo finanziario. Come tutti quelli che hanno fatto 	filosofia	. [@user] 	not_cxn	
+VIT-4068	"""quando alla Texas Italia"", dice Accolla, ""abbiamo sostituito, in un anno, 60 terminali stupidi con 240 personal computer che fanno quasi esclusivamente "	posta	 elettronica, abbiamo anche dovuto addestrare 500 persone per 40 ore a persona. 	not_cxn	
+VIT-4176	I fotoni, cioè le particelle che trasportano fino a noi la luce e quindi l'energia prodotta all' interno del sole, impiegano ben 10 milioni di anni per farsi 	strada	 dal nucleo della stella fino alla sua superficie e le innumerevoli reazioni che subiscono lungo il cammino cancellano dalla loro memoria ogni ricordo delle condizioni presenti all' interno del motore. 	not_cxn	
+VIT-4343	Della facoltà di proporre i ricorsi e dei termini per ricorrere deve farsi espressa 	menzione	 in calce all' elenco dei trasferimenti e passaggi ai sensi dell' art. 1 ultimo comma, del DPR 24/11/1971, n. 1199. 	not_cxn	
+VIT-4351	Sono ammessi ai trasferimenti per compensazione - sempre per una sola provincia - gli insegnanti iscritti nelle graduatorie previste dalla presente ordinanza che, avendone fatta 	richiesta	 mediante indicazione nella apposita casella del modulo domanda, non abbiano già ottenuto il trasferimento nelle precedenti fasi procedurali, anche se, in caso di presentazione di due domande ai sensi del precedente art. 6, sia stato possibile accogliere quella riferita alla provincia di titolarità. 	not_cxn	
+VIT-4741	c) gli insegnanti che si trovino tuttora in sede provvisoria perché trasferiti per compensazione per l'anno scolastico in corso e in subordine quelli che, trasferiti per compensazione per l'anno scolastico successivo, ne abbiano fatto 	richiesta	" a norma del precedente art. 23; "	not_cxn	
+VIT-293	L'uso probatorio di chi ha fatto 	parte	" di un'organizzazione criminale, contro la stessa organizzazione, è indispensabile per sconfiggere la criminalità organizzata; tanto che non esiste paese moderno in cui si manifestino queste forme di criminalità che non se ne avvalga. "	not_cxn	
+VIT-379	Questa, almeno, l'opinione provvisoria di uno degli esperti balistici incaricati dal pm Davide Iori di far 	luce	 sulla misteriosa morte del funzionario trovato su una collina fuori Roma, quindici mesi fa. 	not_cxn	
+VIT-393	Con Christopher Martino ha discusso delle priorità italiane, ad esempio la volontà di entrare a far 	parte	 del gruppo di contatto in Bosnia o la determinazione a testimoniare un allargamento del consiglio di sicurezza permanente delle Nazioni Unite in modo tale da includere anche il nostro paese. 	not_cxn	
+VIT-554	È dall' inizio del 1991 che, fatta 	eccezione	 per due soli mesi, la bilancia corrente tedesca chiude costantemente in rosso. 	not_cxn	
+VIT-964	Al di là degli slogan, si fa comunque 	strada	 - in questo nuovo mondo editoriale - una distinzione sempre più netta non solo in base alle piattaforme usate (più orientate al televisore, o più orientate al computer), ma anche in base al contenuto: quella tra i cd rom contenenti solo testo e quello dei cosiddetti multimedia interattivi (Mmi) sui differenti formati cd rom Xa, cd I, Amiga Cd 32. 	not_cxn	
+VIT-1027	Una commissione d'inchiesta per far 	luce	 sulle frodi all' Aima. 	not_cxn	
+VIT-1028	Roma - il ministro delle risorse agricole affonda ancora i colpi sul fronte delle frodi agricole e istituisce per decreto una commissione d'inchiesta per fare piena 	luce	 sulle disfunzioni del sistema dei pagamenti agli agricoltori e alle imprese effettuato in passato dall' Aima, l'azienda di stato per gli interventi sul mercato agricolo. 	not_cxn	
+VIT-1274	"A pensarla diversamente è Mimmo Sanna, amministratore della Caimar (commercio e lavorazione di alluminio, 6,5 miliardi di fatturato, 11 dipendenti): &lt;fare "	industria	 a Oristano - spiega - è un'impresa difficilissima: il mercato locale è piccolo e povero. 	not_cxn	
+VIT-1601	Sostanzialmente conforme appare l'orientamento del Ministero il quale, dopo aver precisato che gli investimenti meramente patrimoniali (anche immobili strumentali) sono esclusi dall' agevolazione e aver fatto generale 	riferimento	" agli investimenti innovativi di cui alla legge 317/91, conclude ritenendo &lt;agevolabile qualsiasi costo patrimonializzato che riguardi processi sia commerciali che amministrativi in senso lato&gt;, precisando, inoltre, che &lt;l'investimento potrà riguardare tanto i beni materiali quanto quelli immateriali, quali l'acquisizione di brevetti, know how e simili&gt;. "	not_cxn	
+VIT-1638	Se il lavoratore dipendente assolve gli obblighi di dichiarazione dei propri redditi attraverso il sostituto di imposta - in pratica ha fatto 	ricorso	" al modello 730/94 Irpef - anche il contributo per le prestazioni del Servizio Sanitario Nazionale (pari al 5,4% fino a 40 milioni di lire e al 4,6% fino a 100 milioni, riferiti al 1993) dovuto per i &lt;redditi diversi da lavoro subordinato&gt; si deve sempre versare con il modello 10 / s (Inps). "	not_cxn	
+VIT-1915	È fatto 	obbligo	 a chiunque spetti di osservarlo e di farlo osservare. 	not_cxn	
+VIT-2034	Anche lo stato fa 	causa	 ai big del tabacco Usa. 	not_cxn	
+VIT-3161	Fra trentaquattro anni (prima anzi, molto prima) Domenico scorgerà inaspettatamente i fuochi del mio accampamento e si domanderà perché mai nel frattempo, io abbia fatto così poco 	cammino	. 	not_cxn	
+VIT-3223	Del resto, anche a terra potrai fare 	fortuna	""". "	not_cxn	
+VIT-3245	La Donna, a cui Stefano non aveva mai fatto 	parola	 del misterioso squalo, accolse con gioia la sua decisione. 	not_cxn	
+VIT-5151	"""il governo dovrebbe dire se i cittadini di alcune zone del nostro paese devono essere più preoccupati di altri e non fare "	mistificazione	""". "	not_cxn	
+VIT-5308	Renato Ruggiero (che ha sempre ammesso di mirare, una volta lasciata la diplomazia, a una poltrona da top manager) sarebbe stato messo in consiglio d'amministrazione per fare 	apprendistato	 e prepararsi a prendere il posto di Umberto Nordio, 66 anni, rimasto alla presidenza grazie alla deroga per lui fatta alla disposizione per cui gli amministratori delle aziende pubbliche devono lasciare il timone al raggiungimento del sessantacinquesimo anno di età. 	not_cxn	
+VIT-5358	Fra la gente comincia a farsi 	strada	" l'idea che è tornato il tempo delle vacche grasse, in cui si può chiedere tutto"". "	not_cxn	
+VIT-5716	Nell' area dei paesi capitalistici più sviluppati, di cui l'Italia fa 	parte	, l'Offensiva conservatrice - che negli ultimi anni si è manifestata con ampiezza, sul piano politico, economico, sociale e su quello degli orientamenti culturali di massa - ha comportato alti costi sociali e umani e ha determinato un generale aggravamento delle tensioni e degli squilibri, senza riuscire a mettere in moto una generale ripresa dello sviluppo economico. 	not_cxn	
+VIT-5792	Apprezziamo le tradizioni democratiche del popolo americano, ricordiamo il ruolo fondamentale che gli Stati Uniti hanno svolto nella guerra contro il fascismo e il nazismo, siamo consapevoli del loro peso nella vita mondiale e in particolare nella realtà occidentale di cui l'Italia fa 	parte	. 	not_cxn	
+VIT-6208	Ad esso fa 	riferimento	 tanta parte delle migliori energie che si battono per il rinnovamento del paese. 	not_cxn	
+VIT-6238	L'attenzione data al sorgere di nuovi movimenti non si è adeguatamente accompagnata ad un conseguente rinnovamento del partito e del suo modo di fare 	politica	. 	not_cxn	
+VIT-6253	Ma è ormai necessario che ci si liberi da complessi difensivi e remore paralizzanti per fare 	politica	 con rinnovata sicurezza e duttilità. 	not_cxn	
+VIT-6270	Le Formule neoliberistiche - se hanno potuto far 	leva	 su gravi ritardi culturali delle sinistre - si sono manifestate essenzialmente come forte strumento ideologico piuttosto che come analisi fondata e come soluzione effettiva. 	not_cxn	
+VIT-6371	Sull' Alexanderplatz di cui parliamo a parte farà 	perno	 la vita creativa, mentre sull' isola dei musei, nell' ex settore orientale, troveremo - come al Louvre o al museo d'Orsay - le tappe obbligate della cultura: dal museo di Pergamo alla galleria nazionale. 	not_cxn	
+VIT-6853	Policlinico - il Rettore della Sapienza Giorgio Tecce ha annunciato che intende fare 	ricorso	 al consiglio di stato contro la decisione del Tar che ha permesso a Tommaso Longhi di tornare sabato scorso a ricoprire l'incarico di direttore generale del policlinico. 	not_cxn	
+VIT-7007	Chiamati al microfono da Barbara Palombelli, che con il padre e i fratelli fa 	parte	 dei soci storici, salgono così sulla pedana l'architetto Lietta Cuomo, l'antiquario Cesare Lampronti, Corrado Pani, il giovane Nicola Maccanico promessa del calcetto, il pubblicitario Cino Marchese, l'industriale Vittorio Merloni (appena rientrato dalla missione d'affari in Cina). 	not_cxn	
+VIT-7252	Il padre è un poliziotto, separato: fa 	fuoco	 davanti alla moglie e tenta il suicidio. 	cxn	false_positive
+VIT-7343	Giancarlo Cito, però, noto come ex telepredicatore (la sua emittente televisiva, At 6, è stata oscurata dal garante), sotto processo per presunte connivenze mafiose, non intende assolutamente fare 	marcia	 indietro. 	not_cxn	
+VIT-7351	"""noi prendiamo le direttive - ha detto Michele Lupo - ma sapremo farne buon "	uso	, con la massima prudenza. 	not_cxn	
+VIT-7414	Ma ci penserà l'inverno a fare 	giustizia	. 	not_cxn	
+VIT-7434	Ci hanno mandato via dalla spiaggia di Rapallo, dicono che facciamo troppo 	casino	": e allora siamo saliti quassù, pensavamo non ci fosse nessuno"". "	not_cxn	
+VIT-7915	"Vincenzo Vita, responsabile informazione del Pds, sostiene che ""a dimostrazione di una scarsa correttezza istituzionale, Forza Italia ha solo fatto "	ostruzionismo	", frapponendo mille ostacoli alla messa all' ordine del giorno del progetto Bogi"". "	not_cxn	
+VIT-8153	Tanto è vero che accettò un incarico che veniva considerato al di sotto della sua fama, quello di far 	parte	 del gruppo dei tre consiglieri economici del presidente. 	not_cxn	
+VIT-8186	Il Rialzo, comunque, ha avuto natura solo tecnica così come di natura tecnica è stato il calo di Cir, Italcementi e Rinascente che, a partire da lunedì, non faranno più 	parte	" del paniere delle ""star"" su cui si basa il Fib 30. "	not_cxn	
+VIT-8305	Di Federico Geremicca sotto il sole già caldo delle nove del mattino, ieri Scalfaro ha lasciato l'Italia facendo 	rotta	 verso l'America Latina. 	not_cxn	
+VIT-8323	"Per altro, più che tra polo e olivo, lo scontro continua a svolgersi all' interno dei due poli: visto che i detentori dei ""pacchetti di maggioranza"" dei due schieramenti - cioè D'Alema, Fini e Berlusconi - non fanno "	mistero	 di puntare ad un passaggio elettorale il più ravvicinato possibile. 	not_cxn	
+VIT-8447	Ieri anche il consiglio regionale del Veneto ha votato all' unanimità una mozione per far 	pressione	" ""affinché la Francia rinunci a riprendere gli esperimenti"". "	not_cxn	
+VIT-8619	A fare 	rumore	", lontano da quello che il primo ministro di Sarajevo Silajidzic chiama il ""genocidio in diretta televisiva"", è ancora la diplomazia, gli alti comandi militari che il portavoce Gary Coward non sa più come difendere. "	not_cxn	
+VIT-8690	Chi deve fare 	ammenda	, dopo un anno e più di continua regressione verso la cultura e la violenza tribali? 	not_cxn	
+VIT-8759	Dal nostro corrispondente Fiammetta Cucurnia Mosca - per tre giorni Mosca ha fatto 	finta	 di nulla, come se l'attacco di cuore che ha colpito il presidente russo martedì scorso fosse una cosa da nulla, poco più di un raffreddore, un'influenza, un mal di schiena. 	not_cxn	
+VIT-8896	L'edificio faceva 	parte	 di un carcere dove venivano eseguite condanne a morte dai Khmer rossi durante il regime di Pol Pot. 	not_cxn	
+VIT-8934	Il Polo ha fatto 	muro	 invece sul 371 bis, che resta tale e quale: niente arresto per falsa testimonianza al pm, e processo per il teste bugiardo solo alla fine del giudizio di primo grado. 	not_cxn	
+VIT-9091	Roma - tre poli televisivi con due reti nazionali ciascuno: è questo l'unico modo, secondo Pippo Baudo per fare 	spazio	" al ""terzo polo"". "	not_cxn	
+VIT-9094	Una seconda rete, pagata dal canone, che fa solo 	cultura	 e sport. 	not_cxn	
+VIT-9139	L'esplosione e il successivo incendio di uno dei reattori dell' impianto ucraino provocò una gigantesca nube radioattiva che attraversò l'Europa e centinaia di migliaia di persone furono contaminate nella regione che al tempo faceva 	parte	 dell' Unione Sovietica. 	not_cxn	
+VIT-9161	La coperta fa 	parte	" del ""kit"" che viene consegnato ad ogni profugo. "	not_cxn	
+VIT-4806	Pertanto il movimento su tali sezioni verrà disposto soltanto se l'aspirante ne avrà fatta 	richiesta	 con indicazione di apposita preferenza, tenendo sempre presente che il numero complessivo delle preferenze non dovrà essere superiore a 15. 	not_cxn	
+VIT-4809	I movimenti su cattedre per le quali è previsto il completamento in una o due scuole della medesima sede o di altra sede saranno disposti soltanto se gli interessati ne avranno fatta esplicita 	richiesta	 nel modulo domanda. 	not_cxn	
+VIT-4818	I Docenti che siano titolari di cattedra costituita su scuole diverse, qualora intendano essere trasferiti nella scuola di completamento dovranno, viceversa, farne apposita 	domanda	. 	not_cxn	
+VIT-9635	Può essere, certo, eletto in parlamento, fare 	politica	" da segretario di partito, ma non stare al governo"". "	not_cxn	
+VIT-9785	Ne fanno 	testo	 i lacci e lacciuoli in cui si è cercato e si cerca di irretire i presìdi (leggi procure) addetti alla pulizia ambientale (nulla da eccepire sulla necessità di vigilare perché codesti presìdi non debordino dalle loro funzioni, come, peraltro, accadde in passato, ma qui mi pare li si voglia murare per consentire a lupi, volpi e topi di fogna di circolare liberamente). 	not_cxn	
+VIT-9786	Ne fa 	testo	" il temerario ringhiare di Craxi che minaccia di regolare personalmente i conti con i magistrati di ""mani pulite"" che egli, latitante, si permette di chiamare fuorilegge, non senza redarguire chi in Italia (evidentemente a lui obbligato) non lo imita. "	not_cxn	
+VIT-9787	Ne fa 	testo	 l'irrequietezza di Bossi, il quale non è un uomo di stato: ma che ha dimostrato di essere un ottimo cane da tartufi. 	not_cxn	
+VIT-9788	Ne fa 	testo	" il dott Di Pietro il quale, anziché riprendere il proprio posto in seno ai ""presidi"", si difende dai lanciatori di fango, scappando. "	not_cxn	
+VIT-9789	Ne fa 	testo	" la stampa piuttosto tiepida nello stigmatizzare le piccole e grandi manovre che preludono, quanto, all' affermazione che la ""Bastiglia"" è inviolabile. "	not_cxn	
+VIT-9879	Lavora sodo, si fa 	strada	 nel mondo dell' arte e nel giornalismo, organizza convegni, incontri, mostre, nell' indifferenza generale. 	not_cxn	
