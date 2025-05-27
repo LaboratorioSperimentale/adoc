@@ -18,3 +18,10 @@
 # ADJACENCY => either "_" or ID and it means this.ID<ID
 # LINEARITY => either "_" or ID and it means this.ID<<ID
 # IDENTITY => either "_" or [column_name]=ID. It means that this.column == ID.column
+
+def conllc2grew():
+	pass
+
+if __name__ == "__main__":
+
+	conllc2grew()
