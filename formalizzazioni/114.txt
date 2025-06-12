@@ -1,0 +1,10 @@
+pattern {
+  X1 [upos="NOUN"];           
+  X2 [form=/per/i, upos="ADP"]; 
+  X3 [upos="NOUN"];             
+
+  X1.lemma = X3.lemma;
+
+  X1 < X2;                      
+  X2 < X3;                     
+}
