@@ -18,7 +18,9 @@ pattern { A [lemma=/fare/i, upos="VERB"];
 # PoSTWITA
 
 # sent_id = 980
+
 # text = Nn posso fare a meno di pensare ad un terzino sx del foggia ai tempi di zeman quando ti vedo #quasi30anni
+
 1	Nn	non	ADV	BN	PronType=Neg	3	advmod	_	_
 2	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
 3	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
@@ -46,7 +48,9 @@ pattern { A [lemma=/fare/i, upos="VERB"];
 23	#quasi30anni	#quasi30anni	SYM	SYM	_	3	parataxis:hashtag	_	_
 
 # sent_id = 1521
+
 # text = Preferisco essere io impopolare. Di me si può fare a meno, dell'Europa no Mario Monti
+
 1	Preferisco	preferire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	essere	essere	AUX	V	VerbForm=Inf	4	cop	_	_
 3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
@@ -72,7 +76,9 @@ pattern { A [lemma=/fare/i, upos="VERB"];
 #ISDT
 
 # sent_id = isst_tanl-2692
+
 # text = Di certo un'apparizione di cui si sarebbe fatto volentieri a meno.
+
 1	Di	di	ADP	E	_	2	case	2:case	_
 2	certo	certo	ADV	B	_	4	advmod	4:advmod	_
 3	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	4:det	SpaceAfter=No
@@ -90,7 +96,9 @@ pattern { A [lemma=/fare/i, upos="VERB"];
 #VIT
 
 # sent_id = VIT-4039
+
 # text = In sostanza, sembra che il primo risultato dell'office automation sia quello di fare a meno delle macchine da scrivere.
+
 1	In	in	ADP	E	_	2	case	_	_
 2	sostanza	sostanza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
 3	,	,	PUNCT	FF	_	4	punct	_	_
