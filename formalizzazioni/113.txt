@@ -1,0 +1,17 @@
+pattern {
+
+  N1 [upos="NOUN", Number="Sing"];
+
+  PreposizioneDopo [form=/dopo/i, upos="ADP"];
+
+  N2 [upos="NOUN", Number="Sing"];
+
+  N1 -[nmod]-> N2;                
+  N2 -[case]-> PreposizioneDopo;  
+
+  N1.lemma = N2.lemma;
+
+  N1 < PreposizioneDopo;    
+  PreposizioneDopo < N2;
+  
+  }
