@@ -1,0 +1,121 @@
+pattern { A [lemma=/fare/i, upos="VERB"];
+          B [form=/a/i, upos="ADP"];
+          C [form=/meno/i, upos="ADV"];
+          D [form=/di/i, upos="ADP"];
+          E [upos=NOUN|PRON|VERB];
+
+          C -[case]-> B;
+          A -[advmod]-> C;
+          A -[obl|xcomp]-> E;
+          E -[case|mark]->D;
+
+          B<C;
+        }
+
+
+############
+
+# PoSTWITA
+
+# sent_id = 980
+# text = Nn posso fare a meno di pensare ad un terzino sx del foggia ai tempi di zeman quando ti vedo #quasi30anni
+1	Nn	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	meno	meno	ADV	B	_	3	advmod	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	pensare	pensare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+8	ad	ad	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	terzino	terzino	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	sx	sinistro	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	foggia	foggia	PROPN	SP	_	10	nmod	_	_
+15-16	ai	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	zeman	zeman	PROPN	SP	_	17	nmod	_	_
+20	quando	quando	SCONJ	CS	_	22	mark	_	_
+21	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	22	obj	_	_
+22	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+23	#quasi30anni	#quasi30anni	SYM	SYM	_	3	parataxis:hashtag	_	_
+
+# sent_id = 1521
+# text = Preferisco essere io impopolare. Di me si può fare a meno, dell'Europa no Mario Monti
+1	Preferisco	preferire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	essere	essere	AUX	V	VerbForm=Inf	4	cop	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	impopolare	impopolare	ADJ	A	Number=Sing	1	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+6	Di	di	ADP	E	_	7	case	_	_
+7	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	obl	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+9	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	fare	fare	VERB	V	VerbForm=Inf	1	parataxis	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	meno	meno	ADV	B	_	10	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14-15	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+14	di	di	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	Europa	europa	PROPN	SP	_	10	conj	_	_
+17	no	no	INTJ	I	_	16	orphan	_	_
+18	Mario	mario	PROPN	SP	_	1	parataxis	_	_
+19	Monti	Monti	PROPN	SP	_	18	flat:name	_	_
+
+
+#ISDT
+
+# sent_id = isst_tanl-2692
+# text = Di certo un'apparizione di cui si sarebbe fatto volentieri a meno.
+1	Di	di	ADP	E	_	2	case	2:case	_
+2	certo	certo	ADV	B	_	4	advmod	4:advmod	_
+3	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	4:det	SpaceAfter=No
+4	apparizione	apparizione	NOUN	S	Gender=Fem|Number=Sing	0	root	0:root|9:obl	_
+5	di	di	ADP	E	_	6	case	6:case	_
+6	cui	cui	PRON	PR	PronType=Rel	9	obl	4:ref	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:impers	9:expl:impers	_
+8	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	9:aux	_
+9	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	4:acl:relcl	_
+10	volentieri	volentieri	ADV	B	_	9	advmod	9:advmod	_
+11	a	a	ADP	E	_	12	case	12:case	_
+12	meno	meno	ADV	B	_	9	advmod	9:advmod	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	4:punct	_
+
+#VIT
+
+# sent_id = VIT-4039
+# text = In sostanza, sembra che il primo risultato dell'office automation sia quello di fare a meno delle macchine da scrivere.
+1	In	in	ADP	E	_	2	case	_	_
+2	sostanza	sostanza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	14	mark	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	primo	primo	ADJ	NO	NumType=Ord	8	amod	_	_
+8	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	office	office	X	SW	Foreign=Yes	8	nmod	_	_
+12	automation	automation	X	SW	Foreign=Yes	11	flat:foreign	_	_
+13	sia	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	ccomp	_	_
+15	di	di	ADP	E	_	16	mark	_	_
+16	fare	fare	VERB	V	VerbForm=Inf	14	acl	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	meno	meno	ADV	B	_	16	advmod	_	_
+19-20	delle	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	macchine	macchina	NOUN	S	Gender=Fem|Number=Plur	16	obl	_	_
+22	da	da	ADP	E	_	23	mark	_	_
+23	scrivere	scrivere	VERB	V	VerbForm=Inf	21	acl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+
