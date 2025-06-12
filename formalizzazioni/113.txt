@@ -15,3 +15,24 @@ pattern {
   PreposizioneDopo < N2;
   
   }
+
+############
+
+# text = È lui il nemico che giorno dopo giorno ci ricorda la nostra limitatezza :
+# sent_id = 532
+# file_id = 2117
+# type = ALTRO
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	nemico	nemico	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	che	che	PRON	PR	_	10	nsubj	_	_
+6	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+7	dopo	dopo	ADP	E	_	8	case	_	_
+8	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=1|PronType=Prs	10	iobj	_	_
+10	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	limitatezza	limitatezza	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+14	:	:	PUNCT	FC	_	2	punct	_	_
