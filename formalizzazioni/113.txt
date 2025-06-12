@@ -18,10 +18,12 @@ pattern {
 
 ############
 
-# text = È lui il nemico che giorno dopo giorno ci ricorda la nostra limitatezza :
+#ISDT
+
 # sent_id = 532
-# file_id = 2117
-# type = ALTRO
+
+# text = È lui il nemico che giorno dopo giorno ci ricorda la nostra limitatezza :
+
 1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
 3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -36,3 +38,7 @@ pattern {
 12	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
 13	limitatezza	limitatezza	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
 14	:	:	PUNCT	FC	_	2	punct	_	_
+
+#ISDT
+
+
