@@ -18,7 +18,100 @@ pattern {
 
 ############
 
+# ISDT
+
+# sent_id = tut-3019
+
+# text = Vi piacerebbe incontrare e intervistare l'idolo delle vostre serate casalinghe, quello che da anni ammirate e spiate trasmissione dopo trasmissione e che vorreste vedere dal vivo, toccarlo con mano?
+
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	2:iobj	_
+2	piacerebbe	piacere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	incontrare	incontrare	VERB	V	VerbForm=Inf	2	csubj	2:csubj	_
+4	e	e	CCONJ	CC	_	5	cc	5:cc	_
+5	intervistare	intervistare	VERB	V	VerbForm=Inf	3	conj	2:csubj|3:conj:e	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	7:det	SpaceAfter=No
+7	idolo	idolo	NOUN	S	Gender=Masc|Number=Sing	5	obj	5:obj	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	11:case	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	11:det	_
+10	vostre	vostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	11:det:poss	_
+11	serate	serata	NOUN	S	Gender=Fem|Number=Plur	7	nmod	7:nmod:di	_
+12	casalinghe	casalingo	ADJ	A	Gender=Fem|Number=Plur	11	amod	11:amod	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	7:punct	_
+14	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nmod	7:nmod|18:obj	_
+15	che	che	PRON	PR	PronType=Rel	18	obj	14:ref	_
+16	da	da	ADP	E	_	17	case	17:case	_
+17	anni	anno	NOUN	S	Gender=Masc|Number=Plur	18	obl	18:obl:da	_
+18	ammirate	ammirare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	14	acl:relcl	14:acl:relcl	_
+19	e	e	CCONJ	CC	_	20	cc	20:cc	_
+20	spiate	spiare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	18	conj	14:acl:relcl|18:conj:e	_
+21	trasmissione	trasmissione	NOUN	S	Gender=Fem|Number=Sing	18	obl	18:obl	_
+22	dopo	dopo	ADP	E	_	23	case	23:case	_
+23	trasmissione	trasmissione	NOUN	S	Gender=Fem|Number=Sing	21	nmod	21:nmod:dopo	_
+24	e	e	CCONJ	CC	_	27	cc	27:cc	_
+25	che	che	PRON	PR	PronType=Rel	27	obj	27:obj	_
+26	vorreste	volere	AUX	VM	Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	27	aux	27:aux	_
+27	vedere	vedere	VERB	V	VerbForm=Inf	18	conj	14:acl:relcl|18:conj:e	_
+28-29	dal	_	_	_	_	_	_	_	_
+28	da	da	ADP	E	_	30	case	30:case	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	30:det	_
+30	vivo	vivo	NOUN	S	Gender=Masc|Number=Sing	27	obl	27:obl:da	SpaceAfter=No
+31	,	,	PUNCT	FF	_	32	punct	32:punct	_
+32-33	toccarlo	_	_	_	_	_	_	_	_
+32	toccar	toccare	VERB	V	VerbForm=Inf	3	conj	2:csubj|3:conj:e	_
+33	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	obj	32:obj	_
+34	con	con	ADP	E	_	35	case	35:case	_
+35	mano	mano	NOUN	S	Gender=Fem|Number=Sing	32	obl	32:obl:con	SpaceAfter=No
+36	?	?	PUNCT	FS	_	2	punct	2:punct	_
+
 #ISDT
+
+# sent_id = test-162
+
+# text = Lavoriamo ora dopo ora e non possiamo speculare su lesioni permanenti.
+
+1	Lavoriamo	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+2	ora	ora	NOUN	S	Gender=Fem|Number=Sing	1	obl	1:obl	_
+3	dopo	dopo	ADP	E	_	4	case	4:case	_
+4	ora	ora	NOUN	S	Gender=Fem|Number=Sing	2	nmod	2:nmod:dopo	_
+5	e	e	CCONJ	CC	_	8	cc	8:cc	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	8:advmod	_
+7	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
+8	speculare	speculare	VERB	V	VerbForm=Inf	1	conj	1:conj:e	_
+9	su	su	ADP	E	_	10	case	10:case	_
+10	lesioni	lesione	NOUN	S	Gender=Fem|Number=Plur	8	obl	8:obl:su	_
+11	permanenti	permanenti	ADJ	A	Number=Plur	10	amod	10:amod	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	1:punct	_
+
+#ISDT
+
+# sent_id = 2_Europarl-294
+
+# text = Settore dopo settore, si assiste all'approvazione progressiva di norme minime che gli stati membri debbono rispettare.
+
+1	Settore	settore	NOUN	S	Gender=Masc|Number=Sing	6	obl	6:obl	_
+2	dopo	dopo	ADP	E	_	3	case	3:case	_
+3	settore	settore	NOUN	S	Gender=Masc|Number=Sing	1	nmod	1:nmod:dopo	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	1:punct	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	6:expl:impers	_
+6	assiste	assistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	9:case	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	9:det	_
+9	approvazione	approvazione	NOUN	S	Gender=Fem|Number=Sing	6	obl	6:obl:a	_
+10	progressiva	progressivo	ADJ	A	Gender=Fem|Number=Sing	9	amod	9:amod	_
+11	di	di	ADP	E	_	12	case	12:case	_
+12	norme	norma	NOUN	S	Gender=Fem|Number=Plur	9	nmod	9:nmod:di|19:obj	_
+13	minime	minimo	ADJ	A	Gender=Fem|Number=Plur	12	amod	12:amod	_
+14	che	che	PRON	PR	PronType=Rel	19	obj	12:ref	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	16:det	_
+16	stati	stato	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	19:nsubj	_
+17	membri	membro	NOUN	S	Gender=Masc|Number=Plur	16	compound	16:compound	_
+18	debbono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	19:aux	_
+19	rispettare	rispettare	VERB	V	VerbForm=Inf	12	acl:relcl	12:acl:relcl	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	6:punct	_
+
+#MarkIT
 
 # sent_id = 532
 
@@ -39,6 +132,298 @@ pattern {
 13	limitatezza	limitatezza	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
 14	:	:	PUNCT	FC	_	2	punct	_	_
 
-#ISDT
+# MarkIT
 
+# sent_id = 355
 
+# file_id = 1669
+
+# type = FRASI_SCISSE
+
+# text = Vedere la gioia negli occhi dei tuoi familiari è la gratificazione più grande , una soddisfazione immensa che ti appaga come mai avresti immaginato e , non appena arrivi a questo stato d' animo ti accorgi che non sono gli oggetti a renderti veramente felice ma è l' amore delle persone al tuo fianco che giorno dopo giorno ti riempie le giornate di gioia .
+
+1	Vedere	vedere	VERB	V	VerbForm=Inf	13	csubj	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4-5	negli	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+9	tuoi	tuo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	familiari	familiare	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	gratificazione	gratificazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	grande	grande	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+16	,	[PUNCT]	PUNCT	FF	_	13	punct	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	soddisfazione	soddisfazione	NOUN	S	Gender=Fem|Number=Sing	13	appos	_	_
+19	immensa	immenso	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	che	che	PRON	PR	_	22	nsubj	_	_
+21	ti	ti	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=2|PronType=Prs	22	iobj	_	_
+22	appaga	appagare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+23	come	come	ADP	E	_	26	mark	_	_
+24	mai	mai	ADV	B	_	26	advmod	_	_
+25	avresti	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	26	aux	_	_
+26	immaginato	immaginare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	advcl	_	_
+27	e	e	CCONJ	CC	_	22	cc	_	_
+28	,	[PUNCT]	PUNCT	FF	_	31	punct	_	_
+29	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+30	appena	appena	SCONJ	CS	_	31	mark	_	_
+31	arrivi	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	38	advcl	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	34	det	_	_
+34	stato	stato	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+35	d'	di	ADP	E	_	36	case	_	_
+36	animo	animo	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	_
+37	ti	ti	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=2|PronType=Prs	38	expl	_	_
+38	accorgi	accorgere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	22	conj	_	_
+39	che	che	SCONJ	CS	_	43	mark	_	_
+40	non	non	ADV	BN	PronType=Neg	43	advmod	_	_
+41	sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	43	cop	_	_
+42	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+43	oggetti	oggetto	NOUN	S	Gender=Masc|Number=Plur	38	ccomp	_	_
+44	a	a	ADP	E	_	45	mark	_	_
+45-46	renderti	_	_	_	_	_	_	_	_
+45	render	rendere	VERB	V	VerbForm=Inf	43	acl	_	_
+46	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	45	obj	_	_
+47	veramente	veramente	ADV	B	_	48	advmod	_	_
+48	felice	felice	ADJ	A	Gender=Masc|Number=Sing	45	xcomp	_	_
+49	ma	ma	CCONJ	CC	_	52	cc	_	_
+50	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	cop	_	_
+51	l'	il	DET	RD	_	52	det	_	_
+52	amore	amore	NOUN	S	Gender=Masc|Number=Sing	43	conj	_	_
+53-54	delle	_	_	_	_	_	_	_	_
+53	di	di	ADP	E	_	55	case	_	_
+54	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	55	det	_	_
+55	persone	persona	NOUN	S	Gender=Fem|Number=Plur	52	nmod	_	_
+56-57	al	_	_	_	_	_	_	_	_
+56	a	a	ADP	E	_	59	case	_	_
+57	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	59	det	_	_
+58	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	59	det:poss	_	_
+59	fianco	fianco	NOUN	S	Gender=Masc|Number=Sing	55	nmod	_	_
+60	che	che	PRON	PR	_	65	nsubj	_	_
+61	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	65	nmod	_	_
+62	dopo	dopo	ADP	E	_	63	case	_	_
+63	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	61	nmod	_	_
+64	ti	ti	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=2|PronType=Prs	65	iobj	_	_
+65	riempie	riempire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	52	acl:relcl	_	_
+66	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	67	det	_	_
+67	giornate	giornata	NOUN	S	Gender=Fem|Number=Plur	65	obj	_	_
+68	di	di	ADP	E	_	69	case	_	_
+69	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	65	obl	_	_
+70	.	[PUNCT]	PUNCT	FS	_	13	punct	_	_
+
+# TWITTIRO
+
+# sent_id = train_332
+
+# text = @user passo dopo passo si procede verso il baratro.... #labuonascuola
+
+# twittiro = EXPLICIT	HYPERBOLE
+
+1	@user	@user	SYM	SYM	_	6	vocative:mention	_	_
+2	passo	passo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+3	dopo	dopo	ADP	E	_	4	case	_	_
+4	passo	passo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	procede	procedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	verso	verso	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	baratro	baratro	NOUN	S	_	6	obl	_	SpaceAfter=No
+10	....	....	PUNCT	FS	_	6	punct	_	_
+11	#labuonascuola	#labuonascuola	SYM	SYM	_	6	parataxis:hashtag	_	SpacesAfter=\n
+
+# TWITTIRO
+
+# sent_id = train_722
+
+# text = Passo dopo passo ... http://t.co/AzVVyrFuOs E se non cammini ? #labuonascuola #statosociale #giuntaCrocetta
+
+# twittiro = EXPLICIT	RHETORICAL QUESTION
+
+1	Passo	passo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	dopo	dopo	ADP	E	_	3	case	_	_
+3	passo	passo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4	...	...	PUNCT	FF	_	1	punct	_	_
+5	http://t.co/AzVVyrFuOs	http://t.co/AzVVyrFuOs	SYM	X	_	1	dep	_	_
+6	E	e	CCONJ	CC	_	9	discourse	_	_
+7	se	se	SCONJ	CS	_	9	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	cammini	camminare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+10	?	?	PUNCT	FS	_	9	punct	_	_
+11	#labuonascuola	#labuonascuola	SYM	SYM	_	1	parataxis:hashtag	_	_
+12	#statosociale	#statosociale	SYM	SYM	_	1	parataxis:hashtag	_	_
+13	#giuntaCrocetta	#giuntaCrocetta	SYM	SYM	_	1	parataxis:hashtag	_	SpacesAfter=\n
+
+# VIT
+
+# sent_id = VIT-448
+
+# text = L'investimento salirà progressivamente anno dopo anno, fino a raggiungere i 10 miliardi di Rand nel 1999 quando dovranno essere conseguiti gli altri obiettivi del programma: 2 milioni e mezzo di posti di lavoro, un milione di case, elettrificazione diffusa.
+
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	investimento	investimento	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	salirà	salire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	progressivamente	progressivamente	ADV	B	_	3	advmod	_	_
+5	anno	anno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	dopo	dopo	ADP	E	_	7	case	_	_
+7	anno	anno	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	fino	fino	ADV	B	ExtPos=ADP	11	mark	_	_
+10	a	a	ADP	E	_	9	fixed	_	_
+11	raggiungere	raggiungere	VERB	V	VerbForm=Inf	3	advcl	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	10	10	NUM	N	NumType=Card	14	nummod	_	_
+14	miliardi	miliardo	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Rand	Rand	PROPN	SP	_	14	nmod	_	_
+17-18	nel	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	1999	1999	NUM	N	NumType=Card	11	obl	_	_
+20	quando	quando	SCONJ	CS	_	23	mark	_	_
+21	dovranno	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	23	aux	_	_
+22	essere	essere	AUX	VA	VerbForm=Inf	23	aux:pass	_	_
+23	conseguiti	conseguire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	ccomp	_	_
+24	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+25	altri	altro	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	_
+26	obiettivi	obiettivo	NOUN	S	Gender=Masc|Number=Plur	23	nsubj:pass	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	programma	programma	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+30	:	:	PUNCT	FC	_	26	punct	_	_
+31	2	2	NUM	N	NumType=Card	32	nummod	_	_
+32	milioni	milione	NOUN	S	Gender=Masc|Number=Plur	26	appos	_	_
+33	e	e	CCONJ	CC	_	34	cc	_	_
+34	mezzo	mezzo	NOUN	S	_	32	conj	_	_
+35	di	di	ADP	E	_	36	case	_	_
+36	posti	posto	NOUN	S	Gender=Masc|Number=Plur	34	nmod	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	41	punct	_	_
+40	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	milione	milione	NUM	N	NumType=Card	32	conj	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	case	casa	NOUN	S	Gender=Fem|Number=Plur	41	nmod	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	41	punct	_	_
+45	elettrificazione	elettrificazione	NOUN	S	Gender=Fem|Number=Sing	32	conj	_	_
+46	diffusa	diffuso	ADJ	A	Gender=Fem|Number=Sing	45	amod	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	3	punct	_	_
+
+# VIT
+
+# sent_id = VIT-1608
+
+# text = Come in un gioco di scatole cinesi, la "Fiscopoli" ligure scopre giorno dopo giorno nuovi episodi di malaffare e il mare è così pescoso che gli inquirenti hanno decapitato ieri l'ufficio Iva genovese per una tangente in cui si sono imbattuti, quasi per caso, esaminando la documentazione della ditta sotto inchiesta per altri reati, nell'ambito di indagini che pure avevano già portato in carcere un folto gruppo di militari delle fiamme gialle.
+
+1	Come	come	ADP	E	ExtPos=ADP	4	case	_	_
+2	in	in	ADP	E	_	1	fixed	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	gioco	gioco	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	scatole	scatola	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+7	cinesi	cinese	ADJ	A	Number=Plur	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	14	punct	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	Fiscopoli	Fiscopoli	PROPN	SP	_	14	nsubj	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	11	punct	_	_
+13	ligure	ligure	ADJ	A	Number=Sing	11	amod	_	_
+14	scopre	scoprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+16	dopo	dopo	ADP	E	_	17	case	_	_
+17	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+19	episodi	episodio	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	malaffare	malaffare	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+22	e	e	CCONJ	CC	_	27	cc	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	mare	mare	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+25	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+26	così	così	ADV	B	_	27	advmod	_	_
+27	pescoso	pescoso	ADJ	A	Gender=Masc|Number=Sing	14	conj	_	_
+28	che	che	SCONJ	CS	_	32	mark	_	_
+29	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	inquirenti	inquirente	NOUN	S	Number=Plur	32	nsubj	_	_
+31	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	decapitato	decapitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	ccomp	_	_
+33	ieri	ieri	ADV	B	_	32	advmod	_	_
+34	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	SpaceAfter=No
+35	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	32	obj	_	_
+36	Iva	Iva	PROPN	SP	_	35	nmod	_	_
+37	genovese	genovese	ADJ	A	Number=Sing	35	amod	_	_
+38	per	per	ADP	E	_	40	case	_	_
+39	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+40	tangente	tangente	NOUN	S	Gender=Fem|Number=Sing	32	obl	_	_
+41	in	in	ADP	E	_	42	case	_	_
+42	cui	cui	PRON	PR	PronType=Rel	45	obl	_	_
+43	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	45	expl	_	_
+44	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	45	aux	_	_
+45	imbattuti	imbattere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	40	acl:relcl	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	45	punct	_	_
+47	quasi	quasi	ADV	B	_	49	advmod	_	_
+48	per	per	ADP	E	_	49	case	_	_
+49	caso	caso	NOUN	S	Gender=Masc|Number=Sing	45	obl	_	SpaceAfter=No
+50	,	,	PUNCT	FF	_	45	punct	_	_
+51	esaminando	esaminare	VERB	V	VerbForm=Ger	45	advcl	_	_
+52	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
+53	documentazione	documentazione	NOUN	S	Gender=Fem|Number=Sing	51	obj	_	_
+54-55	della	_	_	_	_	_	_	_	_
+54	di	di	ADP	E	_	56	case	_	_
+55	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	56	det	_	_
+56	ditta	ditta	NOUN	S	Gender=Fem|Number=Sing	53	nmod	_	_
+57	sotto	sotto	ADP	E	_	58	case	_	_
+58	inchiesta	inchiesta	NOUN	S	Gender=Fem|Number=Sing	56	nmod	_	_
+59	per	per	ADP	E	_	61	case	_	_
+60	altri	altro	ADJ	A	Gender=Masc|Number=Plur	61	amod	_	_
+61	reati	reato	NOUN	S	Gender=Masc|Number=Plur	58	nmod	_	SpaceAfter=No
+62	,	,	PUNCT	FF	_	61	punct	_	_
+63-64	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+63	in	in	ADP	E	_	65	case	_	_
+64	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	65	det	_	_
+65	ambito	ambito	NOUN	S	Gender=Masc|Number=Sing	61	nmod	_	_
+66	di	di	ADP	E	_	67	case	_	_
+67	indagini	indagine	NOUN	S	Gender=Fem|Number=Plur	65	nmod	_	_
+68	che	che	PRON	PR	PronType=Rel	72	nsubj	_	_
+69	pure	pure	CCONJ	CC	_	68	cc	_	_
+70	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	72	aux	_	_
+71	già	già	ADV	B	_	72	advmod	_	_
+72	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	67	acl:relcl	_	_
+73	in	in	ADP	E	_	74	case	_	_
+74	carcere	carcere	NOUN	S	Number=Sing	72	obl	_	_
+75	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	77	det	_	_
+76	folto	folto	ADJ	A	Gender=Masc|Number=Sing	77	amod	_	_
+77	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	72	obj	_	_
+78	di	di	ADP	E	_	79	case	_	_
+79	militari	militare	NOUN	S	Gender=Masc|Number=Plur	77	nmod	_	_
+80-81	delle	_	_	_	_	_	_	_	_
+80	di	di	ADP	E	_	82	case	_	_
+81	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	82	det	_	_
+82	fiamme	fiamma	NOUN	S	Gender=Fem|Number=Plur	79	nmod	_	_
+83	gialle	giallo	ADJ	A	Gender=Fem|Number=Plur	82	amod	_	SpaceAfter=No
+84	.	.	PUNCT	FS	_	14	punct	_	_
+
+# PoSTWITA
+
+# sent_id = 4287
+
+# text = giorno dopo giorno mi accorgo quanto Louis sia importante per me
+
+1	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+2	dopo	dopo	ADP	E	_	3	case	_	_
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	expl	_	_
+5	accorgo	accorgere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	quanto	quanto	PRON	PI	PronType=Ind	5	obj	_	_
+7	Louis	Louis	PROPN	SP	_	9	nsubj	_	_
+8	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	importante	importante	ADJ	A	Number=Sing	6	acl:relcl	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	obl	_	_
