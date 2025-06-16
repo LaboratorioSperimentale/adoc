@@ -1,18 +1,18 @@
 pattern {
 
-  N1 [upos="NOUN", Number="Sing"];
+  A [upos="NOUN", Number="Sing"];
 
   PreposizioneDopo [form=/dopo/i, upos="ADP"];
 
-  N2 [upos="NOUN", Number="Sing"];
+  B [upos="NOUN", Number="Sing"];
 
-  N1 -[nmod]-> N2;                
-  N2 -[case]-> PreposizioneDopo;  
+  A -[nmod]-> B;                
+  B -[case]-> PreposizioneDopo;  
 
-  N1.lemma = N2.lemma;
+  A.lemma = B.lemma;
 
-  N1 < PreposizioneDopo;    
-  PreposizioneDopo < N2;
+  A < PreposizioneDopo;    
+  PreposizioneDopo < B;
   
   }
 
