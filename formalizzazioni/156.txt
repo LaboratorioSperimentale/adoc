@@ -3,3 +3,253 @@ pattern {
   B [upos=VERB, VerbForm=Inf];  
   A < B
 }
+
+# PoSTWITA
+
+# sent_id = 5154
+
+# text = #PattyScanuVerissimo ce tocca sorbirci tutto
+
+1	#PattyScanuVerissimo	#PattyScanuVerissimo	SYM	SYM	_	3	parataxis:hashtag	_	_
+2	ce	ce	PRON	PC	Number=Plur|Person=1|PronType=Prs	3	iobj	_	Clitic=Yes
+3	tocca	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	sorbirci	_	_	_	_	_	_	_	_
+4	sorbir	sorbire	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	ci	ci	PRON	PC	Number=Plur|Person=1|PronType=Prs	4	expl	_	Clitic=Yes
+6	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obj	_	_
+
+# PoSTWITA
+
+# sent_id = 445
+
+# text = Adesso mi tocca sentire che il blocco dei #TIR è un complotto contro il governo #monti. Che faccia tosta! #italiablocatta
+
+1	Adesso	adesso	ADV	B	_	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	tocca	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sentire	sentire	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	che	che	SCONJ	CS	_	13	mark	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	blocco	blocco	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	#TIR	#TIR	SYM	SYM	_	7	nmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	complotto	complotto	NOUN	S	Gender=Masc|Number=Sing	4	ccomp	_	_
+14	contro	contro	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	governo	governo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	#monti	#monti	SYM	SYM	_	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+19	Che	che	DET	DE	PronType=Exc	20	det	_	_
+20	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	3	parataxis	_	_
+21	tosta	tosto	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	!	!	PUNCT	FS	_	20	punct	_	_
+23	#italiablocatta	#italiablocatta	SYM	SYM	_	3	parataxis:hashtag	_	_
+
+# PoSTWITA
+
+# sent_id = 445
+
+# text = Adesso mi tocca sentire che il blocco dei #TIR è un complotto contro il governo #monti. Che faccia tosta! #italiablocatta
+
+1	Adesso	adesso	ADV	B	_	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	tocca	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sentire	sentire	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	che	che	SCONJ	CS	_	13	mark	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	blocco	blocco	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	#TIR	#TIR	SYM	SYM	_	7	nmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	complotto	complotto	NOUN	S	Gender=Masc|Number=Sing	4	ccomp	_	_
+14	contro	contro	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	governo	governo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	#monti	#monti	SYM	SYM	_	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+19	Che	che	DET	DE	PronType=Exc	20	det	_	_
+20	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	3	parataxis	_	_
+21	tosta	tosto	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	!	!	PUNCT	FS	_	20	punct	_	_
+23	#italiablocatta	#italiablocatta	SYM	SYM	_	3	parataxis:hashtag	_	_
+
+# PoSTWITA
+
+# sent_id = 1931
+
+# text = Con la riforma delle #pensioni del governo #Monti ci toccherà ascoltare gli orgasmi calcistici di José #altafini per almeno altri 5 anni
+
+1	Con	con	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	#pensioni	#pensioni	SYM	SYM	_	3	nmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	governo	governo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+10	#Monti	#Monti	SYM	SYM	_	9	nmod	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	12	iobj	_	_
+12	toccherà	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+13	ascoltare	ascoltare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	orgasmi	orgasmo	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	calcistici	calcistico	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	José	José	PROPN	SP	_	15	nmod	_	_
+19	#altafini	#altafini	SYM	SYM	_	18	flat:name	_	_
+20	per	per	ADP	E	_	24	case	_	_
+21	almeno	almeno	ADV	B	_	24	advmod	_	_
+22	altri	altro	DET	DI	PronType=Ind	24	det	_	_
+23	5	5	NUM	N	NumType=Card	24	nummod	_	_
+24	anni	anno	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+
+# PoSTWITA
+
+# sent_id = 2182
+
+# text = Cala il sipario sul #Quirinale. Rito della campanella concluso. Adesso tocca riassestare l'Italia. Buon lavoro a Mario Monti. #governomonti
+
+1	Cala	calare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	sipario	sipario	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4-5	sul	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	#Quirinale	#Quirinale	SYM	SYM	_	1	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+8	Rito	rito	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+9-10	della	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	campanella	campanella	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	concluso	concludere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	parataxis	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	12	punct	_	_
+14	Adesso	adesso	ADV	B	_	15	advmod	_	_
+15	tocca	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+16	riassestare	riassestare	VERB	V	VerbForm=Inf	15	xcomp	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	Italia	italia	PROPN	SP	_	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	15	punct	_	_
+20	Buon	buono	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+21	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	1	discourse	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	Mario	mario	PROPN	SP	_	21	nmod	_	_
+24	Monti	Monti	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	21	punct	_	_
+26	#governomonti	#governomonti	SYM	SYM	_	1	parataxis:hashtag	_	_
+
+# TWITTIRO
+
+# sent_id = train_363
+
+# text = Con la riforma delle #pensioni del governo #Monti ci toccherà ascoltare gli orgasmi calcistici di José #altafini per almeno altri 5 anni
+
+# twittiro = EXPLICIT	EX:CONTEXT SHIFT
+
+1	Con	con	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	#pensioni	#pensioni	SYM	SYM	_	3	nmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	governo	governo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+10	#Monti	#Monti	SYM	SYM	_	9	nmod	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	12	iobj	_	_
+12	toccherà	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+13	ascoltare	ascoltare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	orgasmi	orgasmo	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	calcistici	calcistico	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	José	José	PROPN	SP	_	15	nmod	_	_
+19	#altafini	#altafini	SYM	SYM	_	18	flat:name	_	_
+20	per	per	ADP	E	_	24	case	_	_
+21	almeno	almeno	ADV	B	_	24	advmod	_	_
+22	altri	altro	DET	DI	PronType=Ind	24	det	_	_
+23	5	5	NUM	N	NumType=Card	24	nummod	_	_
+24	anni	anno	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+
+# VIT
+
+# sent_id = VIT-1824
+
+# text = Aldo Ceccherini, magistrato milanese a cui è toccato raccontare i conflitti e i compromessi che hanno fatto più volte slittare la nostra riforma del novantauno (in forse anche all'ultimo appuntamento del prossimo 4 luglio), ha ricordato i disaccordi sui requisiti per accedere all'ufficio.
+
+1	Aldo	Aldo	PROPN	SP	_	44	nsubj	_	_
+2	Ceccherini	Ceccherini	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	magistrato	magistrato	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+5	milanese	milanese	ADJ	A	Number=Sing	4	amod	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	cui	cui	PRON	PR	PronType=Rel	9	obl	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	toccato	toccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+10	raccontare	raccontare	VERB	V	VerbForm=Inf	9	ccomp	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	conflitti	conflitto	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	compromessi	compromesso	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	_
+16	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+17	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+18	fatto	fare	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	aux	_	_
+19	più	più	ADV	B	_	20	advmod	_	_
+20	volte	volta	NOUN	S	Gender=Fem|Number=Plur	21	obl	_	_
+21	slittare	slittare	VERB	V	VerbForm=Inf	15	acl:relcl	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	novantauno	novantauno	NUM	N	NumType=Card	24	nmod	_	_
+28	(	(	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+29	in	in	ADP	E	_	30	case	_	_
+30	forse	forse	ADV	B	_	24	advmod	_	_
+31	anche	anche	ADV	B	_	35	advmod	_	_
+32-33	all'	_	_	_	_	_	_	_	SpaceAfter=No
+32	a	a	ADP	E	_	35	case	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+34	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	35	amod	_	_
+35	appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+36-37	del	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	39	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+38	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	39	amod	_	_
+39	4	4	NUM	N	NumType=Card	35	nmod	_	_
+40	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	39	flat	_	SpaceAfter=No
+41	)	)	PUNCT	FB	_	30	punct	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	1	punct	_	_
+43	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	_
+44	ricordato	ricordare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+45	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	_	_
+46	disaccordi	disaccordo	NOUN	S	Gender=Masc|Number=Plur	44	obj	_	_
+47-48	sui	_	_	_	_	_	_	_	_
+47	su	su	ADP	E	_	49	case	_	_
+48	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
+49	requisiti	requisito	NOUN	S	Gender=Masc|Number=Plur	44	obl	_	_
+50	per	per	ADP	E	_	51	mark	_	_
+51	accedere	accedere	VERB	V	VerbForm=Inf	49	acl	_	_
+52-53	all'	_	_	_	_	_	_	_	SpaceAfter=No
+52	a	a	ADP	E	_	54	case	_	_
+53	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	54	det	_	_
+54	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	51	obl	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	44	punct	_	_
+
+# PoSTWITA
+
+# PoSTWITA
