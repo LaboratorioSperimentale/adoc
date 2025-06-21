@@ -1,3 +1,5 @@
+156a
+
 pattern {
   A [lemma="toccare", upos=VERB]; 
   B [upos=VERB, VerbForm=Inf];  
@@ -250,6 +252,111 @@ pattern {
 54	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	51	obl	_	SpaceAfter=No
 55	.	.	PUNCT	FS	_	44	punct	_	_
 
-# PoSTWITA
+156b
+
+pattern {
+  A [upos=PRON, Clitic=Yes];          
+  B [lemma="toccare", upos=VERB];     
+  C [upos=VERB, VerbForm=Inf];  
+  
+  A < B; B < C
+}
 
 # PoSTWITA
+
+# sent_id = 445
+
+# text = Adesso mi tocca sentire che il blocco dei #TIR è un complotto contro il governo #monti. Che faccia tosta! #italiablocatta
+
+1	Adesso	adesso	ADV	B	_	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	tocca	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sentire	sentire	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	che	che	SCONJ	CS	_	13	mark	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	blocco	blocco	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+8-9	dei	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	#TIR	#TIR	SYM	SYM	_	7	nmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	complotto	complotto	NOUN	S	Gender=Masc|Number=Sing	4	ccomp	_	_
+14	contro	contro	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	governo	governo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	#monti	#monti	SYM	SYM	_	16	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+19	Che	che	DET	DE	PronType=Exc	20	det	_	_
+20	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	3	parataxis	_	_
+21	tosta	tosto	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	!	!	PUNCT	FS	_	20	punct	_	_
+23	#italiablocatta	#italiablocatta	SYM	SYM	_	3	parataxis:hashtag	_	_
+
+# PoSTWITA
+
+# sent_id = 1931
+
+# text = Con la riforma delle #pensioni del governo #Monti ci toccherà ascoltare gli orgasmi calcistici di José #altafini per almeno altri 5 anni
+
+1	Con	con	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	#pensioni	#pensioni	SYM	SYM	_	3	nmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	governo	governo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+10	#Monti	#Monti	SYM	SYM	_	9	nmod	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	12	iobj	_	_
+12	toccherà	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+13	ascoltare	ascoltare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	orgasmi	orgasmo	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	calcistici	calcistico	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	José	José	PROPN	SP	_	15	nmod	_	_
+19	#altafini	#altafini	SYM	SYM	_	18	flat:name	_	_
+20	per	per	ADP	E	_	24	case	_	_
+21	almeno	almeno	ADV	B	_	24	advmod	_	_
+22	altri	altro	DET	DI	PronType=Ind	24	det	_	_
+23	5	5	NUM	N	NumType=Card	24	nummod	_	_
+24	anni	anno	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+
+# TWITTIRO
+
+# sent_id = train_363
+
+# text = Con la riforma delle #pensioni del governo #Monti ci toccherà ascoltare gli orgasmi calcistici di José #altafini per almeno altri 5 anni
+
+# twittiro = EXPLICIT	EX:CONTEXT SHIFT
+
+1	Con	con	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	riforma	riforma	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	#pensioni	#pensioni	SYM	SYM	_	3	nmod	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	governo	governo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+10	#Monti	#Monti	SYM	SYM	_	9	nmod	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	12	iobj	_	_
+12	toccherà	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+13	ascoltare	ascoltare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	orgasmi	orgasmo	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+16	calcistici	calcistico	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	José	José	PROPN	SP	_	15	nmod	_	_
+19	#altafini	#altafini	SYM	SYM	_	18	flat:name	_	_
+20	per	per	ADP	E	_	24	case	_	_
+21	almeno	almeno	ADV	B	_	24	advmod	_	_
+22	altri	altro	DET	DI	PronType=Ind	24	det	_	_
+23	5	5	NUM	N	NumType=Card	24	nummod	_	_
+24	anni	anno	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
