@@ -1,0 +1,5 @@
+pattern {
+  A [lemma="toccare", upos=VERB]; 
+  B [upos=VERB, VerbForm=Inf];  
+  A < B
+}
