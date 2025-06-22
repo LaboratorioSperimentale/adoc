@@ -1,0 +1,361 @@
+pattern {
+  A [lemma="mettere", upos=VERB];       
+  B [upos=PRON, Clitic=Yes, PronType=Prs];
+  C [form="a", upos=ADP];                
+  D [upos=VERB, VerbForm=Inf];          
+
+  A -[expl]-> B;
+  A -[xcomp]-> D;
+  D -[mark]-> C;
+}
+
+#ISDT
+
+# sent_id = isst_tanl-720
+
+# text = Certo, quando si mette a fare la piccola democristiana non mi piace.
+
+1	Certo	certo	ADV	B	_	13	advmod	13:advmod	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	1:punct	_
+3	quando	quando	SCONJ	CS	_	5	mark	5:mark	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	5:expl	_
+5	mette	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	13:advcl:quando	_
+6	a	a	ADP	E	_	7	mark	7:mark	_
+7	fare	fare	VERB	V	VerbForm=Inf	5	xcomp	5:xcomp	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	10:det	_
+9	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	10	amod	10:amod	_
+10	democristiana	democristiano	NOUN	S	Gender=Fem|Number=Sing	7	xcomp	7:xcomp	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	13:advmod	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	iobj	13:iobj	_
+13	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+14	.	.	PUNCT	FS	_	13	punct	13:punct	_
+
+#ISDT
+
+# sent_id = isst_tanl-1676
+
+# text = Come non bastasse, il popolare "professore" dalla barbetta a pioggia, che ogni lunedì sera dal piccolo schermo ci conduce con competenza scientifica nel "regno degli animali", sembra essersi messo di impegno a condire questo suo intreccio cupo e godibilissimo con molto sesso.
+
+1	Come	come	SCONJ	CS	_	3	mark	3:mark	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	3:advmod	_
+3	bastasse	bastare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	advcl	38:advcl:come	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	3:punct	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	_
+6	popolare	popolare	ADJ	A	Number=Sing	8	amod	8:amod	_
+7	"	"	PUNCT	FB	_	8	punct	8:punct	SpaceAfter=No
+8	professore	professore	NOUN	S	Gender=Masc|Number=Sing	38	nsubj	25:nsubj|38:nsubj	SpaceAfter=No
+9	"	"	PUNCT	FB	_	12	punct	12:punct	_
+10-11	dalla	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	12:case	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	12:det	_
+12	barbetta	barbetta	NOUN	S	Gender=Fem|Number=Sing	8	nmod	8:nmod:da	_
+13	a	a	ADP	E	_	14	case	14:case	_
+14	pioggia	pioggia	NOUN	S	Gender=Fem|Number=Sing	12	nmod	12:nmod:a	SpaceAfter=No
+15	,	,	PUNCT	FF	_	8	punct	8:punct	_
+16	che	che	PRON	PR	PronType=Rel	25	nsubj	8:ref	_
+17	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	18	det	18:det	_
+18	lunedì	lunedì	NOUN	S	Gender=Masc	25	obl	25:obl	_
+19	sera	sera	NOUN	S	Gender=Fem|Number=Sing	18	nmod	18:nmod	_
+20-21	dal	_	_	_	_	_	_	_	_
+20	da	da	ADP	E	_	23	case	23:case	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	23:det	_
+22	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	23	amod	23:amod	_
+23	schermo	schermo	NOUN	S	Gender=Masc|Number=Sing	25	obl	25:obl:da	_
+24	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	25	obj	25:obj	_
+25	conduce	condurre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	8:acl:relcl	_
+26	con	con	ADP	E	_	27	case	27:case	_
+27	competenza	competenza	NOUN	S	Gender=Fem|Number=Sing	25	obl	25:obl:con	_
+28	scientifica	scientifico	ADJ	A	Gender=Fem|Number=Sing	27	amod	27:amod	_
+29-30	nel	_	_	_	_	_	_	_	_
+29	in	in	ADP	E	_	32	case	32:case	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	32:det	_
+31	"	"	PUNCT	FB	_	32	punct	32:punct	SpaceAfter=No
+32	regno	regno	NOUN	S	Gender=Masc|Number=Sing	27	nmod	27:nmod:in	_
+33-34	degli	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	35:case	_
+34	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	35:det	_
+35	animali	animale	NOUN	S	Gender=Masc|Number=Plur	32	nmod	32:nmod:di	SpaceAfter=No
+36	"	"	PUNCT	FB	_	32	punct	32:punct	SpaceAfter=No
+37	,	,	PUNCT	FF	_	8	punct	8:punct	_
+38	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+39-40	essersi	_	_	_	_	_	_	_	_
+39	esser	essere	AUX	VA	VerbForm=Inf	41	aux	41:aux	_
+40	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	41	expl	41:expl	_
+41	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	38	ccomp	38:ccomp	_
+42	di	di	ADP	E	_	43	case	43:case	_
+43	impegno	impegno	NOUN	S	Gender=Masc|Number=Sing	41	obl	41:obl:di	_
+44	a	a	ADP	E	_	45	mark	45:mark	_
+45	condire	condire	VERB	V	VerbForm=Inf	41	xcomp	41:xcomp	_
+46	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	48	det	48:det	_
+47	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	48	det:poss	48:det:poss	_
+48	intreccio	intreccio	NOUN	S	Gender=Masc|Number=Sing	45	obj	45:obj	_
+49	cupo	cupo	ADJ	A	Gender=Masc|Number=Sing	48	amod	48:amod	_
+50	e	e	CCONJ	CC	_	51	cc	51:cc	_
+51	godibilissimo	godibile	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	49	conj	48:amod|49:conj:e	_
+52	con	con	ADP	E	_	54	case	54:case	_
+53	molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	54	det	54:det	_
+54	sesso	sesso	NOUN	S	Gender=Masc|Number=Sing	45	obl	45:obl:con	SpaceAfter=No
+55	.	.	PUNCT	FS	_	38	punct	38:punct	_
+
+#ISDT
+
+# sent_id = isst_tanl-2100
+
+# text = Invece appena la strada ha cominciato a salire verso La Mongie, dov'era lo striscione d'arrivo, Fabiana s'è messa in testa al gruppo a fare l'andatura e, una dopo l'altra, tutte hanno perduto le sue ruote.
+
+1	Invece	invece	ADV	B	_	6	advmod	6:advmod	_
+2	appena	appena	ADV	B	_	6	advmod	6:advmod	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	4:det	_
+4	strada	strada	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	6:nsubj|8:nsubj	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	6:aux	_
+6	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	advcl	23:advcl	_
+7	a	a	ADP	E	_	8	mark	8:mark	_
+8	salire	salire	VERB	V	VerbForm=Inf	6	xcomp	6:xcomp	_
+9	verso	verso	ADP	E	_	11	case	11:case	_
+10	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	11:det	_
+11	Mongie	Mongie	PROPN	SP	_	8	obl	8:obl:verso	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	11:punct	_
+13	dov'	dove	ADV	B	_	14	advmod	11:ref	SpaceAfter=No
+14	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	11:acl:relcl	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	_
+16	striscione	striscione	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	14:nsubj	_
+17	d'	di	ADP	E	_	18	case	18:case	SpaceAfter=No
+18	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	16:nmod:di	SpaceAfter=No
+19	,	,	PUNCT	FF	_	11	punct	11:punct	_
+20	Fabiana	Fabiana	PROPN	SP	_	23	nsubj	23:nsubj|30:nsubj	_
+21	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	23:expl	SpaceAfter=No
+22	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	23:aux	_
+23	messa	mettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	_
+24	in	in	ADP	E	_	25	case	25:case	_
+25	testa	testa	NOUN	S	Gender=Fem|Number=Sing	23	obl	23:obl:in	_
+26-27	al	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	28:case	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	28:det	_
+28	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	25	nmod	25:nmod:a	_
+29	a	a	ADP	E	_	30	mark	30:mark	_
+30	fare	fare	VERB	V	VerbForm=Inf	23	xcomp	23:xcomp	_
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	32:det	SpaceAfter=No
+32	andatura	andatura	NOUN	S	Gender=Fem|Number=Sing	30	obj	30:obj	_
+33	e	e	CCONJ	CC	_	42	cc	42:cc	SpaceAfter=No
+34	,	,	PUNCT	FF	_	42	punct	42:punct	_
+35	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	40	nmod	40:nmod	_
+36	dopo	dopo	ADP	E	_	38	case	38:case	_
+37	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	38	det	38:det	SpaceAfter=No
+38	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	35	nmod	35:nmod:dopo	SpaceAfter=No
+39	,	,	PUNCT	FF	_	35	punct	35:punct	_
+40	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	42	nsubj	42:nsubj	_
+41	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	aux	42:aux	_
+42	perduto	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	conj	23:conj:e	_
+43	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	45	det	45:det	_
+44	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	45	det:poss	45:det:poss	_
+45	ruote	ruota	NOUN	S	Gender=Fem|Number=Plur	42	obj	42:obj	SpaceAfter=No
+46	.	.	PUNCT	FS	_	23	punct	23:punct	_
+
+#ISDT
+
+# sent_id = 5_WIKIBalzac-84
+
+# text = Balzac si mise a scrivere opere più lunghe, e entro il 1826 egli aveva scritto nove romanzi, tutti pubblicati sotto pseudonimi e spesso prodotti in collaborazione con altri scrittori.
+
+1	Balzac	Balzac	PROPN	SP	_	3	nsubj	3:nsubj|5:nsubj	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	3:expl	_
+3	mise	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
+4	a	a	ADP	E	_	5	mark	5:mark	_
+5	scrivere	scrivere	VERB	V	VerbForm=Inf	3	xcomp	3:xcomp	_
+6	opere	opera	NOUN	S	Gender=Fem|Number=Plur	5	obj	5:obj	_
+7	più	più	ADV	B	_	8	advmod	8:advmod	_
+8	lunghe	lungo	ADJ	A	Gender=Fem|Number=Plur	6	amod	6:amod	SpaceAfter=No
+9	,	,	PUNCT	FF	_	16	punct	16:punct	_
+10	e	e	CCONJ	CC	_	16	cc	16:cc	_
+11	entro	entro	ADP	E	_	13	case	13:case	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	13:det	_
+13	1826	1826	NUM	N	NumType=Card	16	nummod	16:nummod	_
+14	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	16:nsubj	_
+15	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	16:aux	_
+16	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	3:conj:e	_
+17	nove	nove	NUM	N	NumType=Card	18	nummod	18:nummod	_
+18	romanzi	romanzo	NOUN	S	Gender=Masc|Number=Plur	16	obj	16:obj	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	18:punct	_
+20	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	21	obl	21:obl	_
+21	pubblicati	pubblicare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl	18:acl	_
+22	sotto	sotto	ADP	E	_	23	case	23:case	_
+23	pseudonimi	pseudonimo	NOUN	S	Gender=Masc|Number=Plur	21	obl	21:obl:sotto	_
+24	e	e	CCONJ	CC	_	26	cc	26:cc	_
+25	spesso	spesso	ADV	B	_	26	advmod	26:advmod	_
+26	prodotti	produrre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	conj	18:acl|21:conj:e	_
+27	in	in	ADP	E	_	28	case	28:case	_
+28	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	26	obl	26:obl:in	_
+29	con	con	ADP	E	_	31	case	31:case	_
+30	altri	altro	ADJ	A	Gender=Masc|Number=Plur	31	amod	31:amod	_
+31	scrittori	scrittore	NOUN	S	Gender=Masc|Number=Plur	28	nmod	28:nmod:con	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	3:punct	_
+
+#ISDT
+
+# sent_id = 2Parole_1-92
+
+# text = Il papà di Nemo si mette subito a cercare Nemo.
+
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	_
+2	papà	papà	NOUN	S	Gender=Masc	6	nsubj	6:nsubj|9:nsubj	_
+3	di	di	ADP	E	_	4	case	4:case	_
+4	Nemo	Nemo	PROPN	SP	_	2	nmod	2:nmod:di	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	6:expl	_
+6	mette	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+7	subito	subito	ADV	B	_	6	advmod	6:advmod	_
+8	a	a	ADP	E	_	9	mark	9:mark	_
+9	cercare	cercare	VERB	V	VerbForm=Inf	6	xcomp	6:xcomp	_
+10	Nemo	Nemo	PROPN	SP	_	9	obj	9:obj	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	6:punct	_
+
+#PoSTWITA
+
+# sent_id = 70
+
+# text = @user pure i mariti si mettono a flirtare su whatsapp con quelle rimorchiate su tw
+
+1	@user	@user	SYM	SYM	_	6	vocative	_	_
+2	pure	pure	ADV	B	_	6	advmod	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	mariti	marito	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	mettono	mettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	flirtare	flirtare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	su	su	ADP	E	_	10	case	_	_
+10	whatsapp	whatsapp	PROPN	SP	_	8	obl	_	_
+11	con	con	ADP	E	_	12	case	_	_
+12	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	8	obl	_	_
+13	rimorchiate	rimorchiare	VERB	V	Gender=Fem|Number=Plur|Person=2|Tense=Past|VerbForm=Part	12	acl	_	_
+14	su	su	ADP	E	_	15	case	_	_
+15	tw	twitter	PROPN	SP	_	13	obl	_	_
+
+#PoSTWITA
+
+# sent_id = 3484
+
+# text = di questo passo mi metto di nuovo a fare acacia
+
+1	di	di	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	passo	passo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	expl	_	_
+5	metto	mettere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	5	obl	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	fare	fare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+10	acacia	acacia	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+
+#PoSTWITA
+
+# sent_id = 4590
+
+# text = Quando anche #Grillo &amp; c. Ve la metteranno nel culo ... be, non mettetevi a piangere. #sappiatelo
+
+1	Quando	quando	SCONJ	CS	_	8	mark	_	_
+2	anche	anche	ADV	B	_	3	advmod	_	_
+3	#Grillo	#Grillo	SYM	SYM	_	8	nsubj	_	_
+4	&amp;	&amp;	SYM	SYM	_	5	cc	_	_
+5	c.	c.	PROPN	SP	_	3	conj	_	_
+6	Ve	ve	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	8	iobj	_	_
+7	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	metteranno	mettere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	16	advcl	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	culo	culo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	...	...	PUNCT	FS	_	8	punct	_	_
+13	be	be	INTJ	I	_	16	discourse	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16-17	mettetevi	_	_	_	_	_	_	_	_
+16	mettete	mettere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	16	expl	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	piangere	piangere	VERB	V	VerbForm=Inf	16	xcomp	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	16	punct	_	_
+21	#sappiatelo	#sappiatelo	SYM	SYM	_	16	parataxis:hashtag	_	_
+
+#ParTUT
+
+# sent_id = it_partut-ud-1614
+
+# text = Balzac si mise a scrivere opere più lunghe, e entro il 1826 egli aveva scritto nove romanzi, tutti pubblicati sotto pseudonimi e spesso prodotti in collaborazione con altri scrittori.
+
+1	Balzac	Balzac	PROPN	SP	_	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	mise	mettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	scrivere	scrivere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	opere	opera	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	lunghe	lungo	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	16	punct	_	_
+10	e	e	CCONJ	CC	_	16	cc	_	_
+11	entro	entro	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	1826	1826	NUM	N	NumType=Card	16	obl	_	_
+14	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+15	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	aux	_	_
+16	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+17	nove	nove	NUM	N	NumType=Card	18	nummod	_	_
+18	romanzi	romanzo	NOUN	S	Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	21	obl	_	_
+21	pubblicati	pubblicare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	acl	_	_
+22	sotto	sotto	ADP	E	_	23	case	_	_
+23	pseudonimi	pseudonimo	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	_
+24	e	e	CCONJ	CC	_	26	cc	_	_
+25	spesso	spesso	ADV	B	_	26	advmod	_	_
+26	prodotti	produrre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	23	conj	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+29	con	con	ADP	E	_	31	case	_	_
+30	altri	altro	ADJ	A	Gender=Masc|Number=Plur	31	amod	_	_
+31	scrittori	scrittore	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+#VIT
+
+# sent_id = VIT-4047
+
+# text = Forse per entrambi i motivi, così come le grandi industrie automobilistiche si sono messe a produrre i robot che fanno le automobili, e li usano per fare altri robot, che fanno altre macchine.
+
+1	Forse	forse	ADV	B	_	15	advmod	_	_
+2	per	per	ADP	E	_	5	case	_	_
+3	entrambi	entrambi	DET	T	Gender=Masc|Number=Plur|PronType=Ind	5	det:predet	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	motivi	motivo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	così	così	ADV	B	ExtPos=SCONJ	15	mark	_	_
+8	come	come	SCONJ	CS	_	7	fixed	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	grandi	grande	ADJ	A	Number=Plur	11	amod	_	_
+11	industrie	industria	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+12	automobilistiche	automobilistico	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+14	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	messe	mettere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	advcl	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	produrre	produrre	VERB	V	VerbForm=Inf	15	xcomp	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	robot	robot	NOUN	S	Gender=Masc	17	obj	_	_
+20	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+21	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	_
+22	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	automobili	automobile	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	SpaceAfter=No
+24	,	,	PUNCT	FC	_	27	punct	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	27	obj	_	_
+27	usano	usare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+28	per	per	ADP	E	_	29	mark	_	_
+29	fare	fare	VERB	V	VerbForm=Inf	27	advcl	_	_
+30	altri	altro	ADJ	A	Gender=Masc|Number=Plur	31	amod	_	_
+31	robot	robot	NOUN	S	Gender=Masc	29	obj	_	SpaceAfter=No
+32	,	,	PUNCT	FC	_	31	punct	_	_
+33	che	che	PRON	PR	PronType=Rel	34	nsubj	_	_
+34	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	31	acl:relcl	_	_
+35	altre	altro	ADJ	A	Gender=Fem|Number=Plur	36	amod	_	_
+36	macchine	macchina	NOUN	S	Gender=Fem|Number=Plur	34	obj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	5	punct	_	_
