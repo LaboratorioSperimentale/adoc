@@ -1,0 +1,561 @@
+170b
+
+pattern {
+  A [lemma=/mezzo/i, upos=ADJ];
+  B [upos=NOUN|PROPN|ADJ]; 
+  B -[amod]-> A
+ }
+
+ #Old
+
+# sent_id = OldItalian_Dante_Inferno-240
+
+# text = Così tornavan per lo cerchio tetro da ogne mano a l'opposito punto, gridandosi anche loro ontoso metro; poi si volgea ciascun, quand'era giunto, per lo suo mezzo cerchio a l'altra giostra.
+
+1	Così	così	ADV	b	_	2	advmod	_	Canto=7|Verso=31
+2	tornavan	tornare	VERB	vi1iip3	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Canto=7|Verso=31
+3	per	per	ADP	epskpl	_	5	case	_	Canto=7|Verso=31
+4	lo	il	DET	rdms	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Canto=7|Verso=31
+5	cerchio	cerchio	NOUN	sm2ms	Gender=Masc|Number=Sing	2	obl:lmod	_	Canto=7|Verso=31
+6	tetro	tetro	ADJ	a1ms	Gender=Masc|Number=Sing	5	amod	_	Canto=7|Verso=31
+7	da	da	ADP	epskdl	_	9	case	_	Canto=7|Verso=32
+8	ogne	ogni	DET	ai2ms	Number=Sing|PronType=Tot	9	det	_	Canto=7|Verso=32
+9	mano	mano	NOUN	sf2fs	Gender=Fem|Number=Sing	2	obl:lmod	_	Canto=7|Verso=32
+10	a	a	ADP	epskml	_	13	case	_	Canto=7|Verso=32
+11	l'	il	DET	rdms	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	Canto=7|SpaceAfter=No|Verso=32
+12	opposito	opporre	VERB	vta2pra1ms	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	13	acl	_	Canto=7|Verso=32
+13	punto	punto	NOUN	sm2ms	Gender=Masc|Number=Sing	2	obl:lmod	_	Canto=7|SpaceAfter=No|Verso=32
+14	,	,	PUNCT	_	_	15	punct	_	_
+15-16	gridandosi	_	_	_	_	_	_	_	Canto=7|Verso=33
+15	gridando	gridare	VERB	vta+1gp	VerbForm=Conv|Voice=Act	2	advcl	_	Canto=7|Verso=33
+16	si	si	PRON	pf3xre	Clitic=Yes|Person=3|PronType=Prs|Reflex=Yes	15	expl:pv	_	Canto=7|Verso=33
+17	anche	anche	ADV	b	_	15	advmod	_	Canto=7|Verso=33
+18	loro	loro	DET	as1ms	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	20	det:poss	_	Canto=7|Verso=33
+19	ontoso	ontoso	ADJ	a1ms	Gender=Masc|Number=Sing	20	amod	_	Canto=7|Verso=33
+20	metro	metro	NOUN	sm2ms	Gender=Masc|Number=Sing	15	obj	_	Canto=7|SpaceAfter=No|Verso=33
+21	;	;	PUNCT	_	_	15	punct	_	_
+22	poi	poi	ADV	b	_	24	advmod:tmod	_	Canto=7|Verso=34
+23	si	si	PRON	pf3ypr	Clitic=Yes|Person=3|PronType=Prs|Reflex=Yes	24	expl:pv	_	Canto=7|Verso=34
+24	volgea	volgere	VERB	vta+2iis3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	Canto=7|Verso=34
+25	ciascun	ciascuno	PRON	pi	Gender=Masc|Number=Sing|PronType=Ind	24	nsubj	_	Canto=7|SpaceAfter=No|Verso=34
+26	,	,	PUNCT	_	_	29	punct	_	_
+27	quand'	quando	SCONJ	csst	_	29	mark	_	Canto=7|SpaceAfter=No|Verso=34
+28	era	essere	AUX	vi4iis3	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	aux	_	Canto=7|Verso=34
+29	giunto	giungere	VERB	vi2iss3	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Tense=Past|VerbForm=Part	24	advcl	_	Canto=7|SpaceAfter=No|Verso=34
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	per	per	ADP	epskpl	_	35	case	_	Canto=7|Verso=35
+32	lo	il	DET	rdms	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	Canto=7|Verso=35
+33	suo	suo	DET	as1ms	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	35	det:poss	_	Canto=7|Verso=35
+34	mezzo	mezzo	ADJ	a1ms	Gender=Masc|Number=Sing	35	amod	_	Canto=7|Verso=35
+35	cerchio	cerchio	NOUN	sm2ms	Gender=Masc|Number=Sing	24	obl	_	Canto=7|Verso=35
+36	a	a	ADP	epskml	_	39	case	_	Canto=7|Verso=35
+37	l'	il	DET	rdfs	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	39	det	_	Canto=7|SpaceAfter=No|Verso=35
+38	altra	altro	DET	ai	Gender=Fem|Number=Sing|PronType=Ind	39	det	_	Canto=7|Verso=35
+39	giostra	giostra	NOUN	sf1fs	Gender=Fem|Number=Sing	24	obl:lmod	_	Canto=7|SpaceAfter=No|Verso=35
+40	.	.	PUNCT	_	_	2	punct	_	_
+
+#ISDT
+
+# sent_id = isst_tanl-203
+
+# text = I partner libici pensavano di risolvere i problemi di approvvigionamento alimentare acquistando una fazenda in Brasile, grande quanto mezza Italia.
+
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	2:det	_
+2	partner	partner	NOUN	S	_	4	nsubj	4:nsubj|6:nsubj	_
+3	libici	libico	ADJ	A	Gender=Masc|Number=Plur	2	amod	2:amod	_
+4	pensavano	pensare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	_
+5	di	di	ADP	E	_	6	mark	6:mark	_
+6	risolvere	risolvere	VERB	V	VerbForm=Inf	4	xcomp	4:xcomp	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	8:det	_
+8	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	6	obj	6:obj	_
+9	di	di	ADP	E	_	10	case	10:case	_
+10	approvvigionamento	approvvigionamento	NOUN	S	Gender=Masc|Number=Sing	8	nmod	8:nmod:di	_
+11	alimentare	alimentare	ADJ	A	Number=Sing	10	amod	10:amod	_
+12	acquistando	acquistare	VERB	V	VerbForm=Ger	6	advcl	6:advcl	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	14:det	_
+14	fazenda	fazenda	NOUN	S	Gender=Fem	12	obj	12:obj	_
+15	in	in	ADP	E	_	16	case	16:case	_
+16	Brasile	Brasile	PROPN	SP	_	14	nmod	14:nmod:in	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	14:punct	_
+18	grande	grande	ADJ	A	Number=Sing	14	amod	14:amod	_
+19	quanto	quanto	ADP	E	_	21	case	21:case	_
+20	mezza	mezzo	ADJ	A	Gender=Fem|Number=Sing	21	amod	21:amod	_
+21	Italia	Italia	PROPN	SP	_	18	obl	18:obl:quanto	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	4:punct	_
+
+#ISDT
+
+# sent_id = isst_tanl-2741
+
+# text = Parlano, raccontano di quel bravo elettricista tanto conosciuto, proprio per il suo lavoro, in paese e in mezza Brianza.
+
+1	Parlano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	3:punct	_
+3	raccontano	raccontare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	1:conj	_
+4	di	di	ADP	E	_	7	case	7:case	_
+5	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	7:det	_
+6	bravo	bravo	ADJ	A	Gender=Masc|Number=Sing	7	amod	7:amod	_
+7	elettricista	elettricista	NOUN	S	Number=Sing	3	obl	3:obl:di	_
+8	tanto	tanto	ADV	B	_	9	advmod	9:advmod	_
+9	conosciuto	conoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	7:acl	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	9:punct	_
+11	proprio	proprio	ADV	B	_	15	advmod	15:advmod	_
+12	per	per	ADP	E	_	15	case	15:case	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	15:det	_
+14	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	15:det:poss	_
+15	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	9	obl	9:obl:per	SpaceAfter=No
+16	,	,	PUNCT	FF	_	3	punct	3:punct	_
+17	in	in	ADP	E	_	18	case	18:case	_
+18	paese	paese	NOUN	S	Gender=Masc|Number=Sing	3	obl	3:obl:in	_
+19	e	e	CCONJ	CC	_	22	cc	22:cc	_
+20	in	in	ADP	E	_	22	case	22:case	_
+21	mezza	mezzo	ADJ	A	Gender=Fem|Number=Sing	22	amod	22:amod	_
+22	Brianza	Brianza	PROPN	SP	_	18	conj	3:obl:in|18:conj:e	SpaceAfter=No
+23	.	.	PUNCT	FS	_	1	punct	1:punct	_
+
+#ISDT
+
+# sent_id = isst_tanl-2797
+
+# text = "È una vergogna - commenta senza mezzi termini Cinzia Zucaro, una signora che da venti minuti aspetta il 101 in largo Argentina sotto un sole implacabile -.
+
+1	"	"	PUNCT	FB	_	4	punct	4:punct	SpaceAfter=No
+2	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	4:det	_
+4	vergogna	vergogna	NOUN	S	Gender=Fem|Number=Sing	0	root	0:root	_
+5	-	-	PUNCT	FB	_	6	punct	6:punct	_
+6	commenta	commentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	4:parataxis	_
+7	senza	senza	ADP	E	_	9	case	9:case	_
+8	mezzi	mezzo	ADJ	A	Gender=Masc|Number=Plur	9	amod	9:amod	_
+9	termini	termine	NOUN	S	Gender=Masc|Number=Plur	6	obl	6:obl:senza	_
+10	Cinzia	Cinzia	PROPN	SP	_	6	nsubj	6:nsubj	_
+11	Zucaro	Zucaro	PROPN	SP	_	10	flat:name	10:flat:name	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	10:punct	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	14:det	_
+14	signora	signore	NOUN	S	Gender=Fem|Number=Sing	10	appos	10:appos|19:nsubj	_
+15	che	che	PRON	PR	PronType=Rel	19	nsubj	14:ref	_
+16	da	da	ADP	E	_	18	case	18:case	_
+17	venti	venti	NUM	N	NumType=Card	18	nummod	18:nummod	_
+18	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	19	obl	19:obl:da	_
+19	aspetta	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	14:acl:relcl	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	21:det	_
+21	101	101	NUM	N	NumType=Card	19	obj	19:obj	_
+22	in	in	ADP	E	_	23	case	23:case	_
+23	largo	largo	NOUN	S	Gender=Masc|Number=Sing	19	obl	19:obl:in	_
+24	Argentina	Argentina	PROPN	SP	_	23	nmod	23:nmod	_
+25	sotto	sotto	ADP	E	_	27	case	27:case	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	27:det	_
+27	sole	sole	NOUN	S	Gender=Masc|Number=Sing	19	obl	19:obl:sotto	_
+28	implacabile	implacabile	ADJ	A	Number=Sing	27	amod	27:amod	_
+29	-	-	PUNCT	FB	_	6	punct	6:punct	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	4:punct	_
+
+#VIT
+
+# sent_id = VIT-5100
+
+# text = E, per rimediare i francesi sono costretti a vendere elettricità a prezzi stracciati a mezza Europa, Italia compresa.
+
+1	E	e	CCONJ	CC	_	8	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	8	punct	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	rimediare	rimediare	VERB	V	VerbForm=Inf	8	advcl	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	francesi	francese	NOUN	S	Gender=Masc|Number=Plur	8	nsubj:pass	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	costretti	costringere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	vendere	vendere	VERB	V	VerbForm=Inf	8	ccomp	_	_
+11	elettricità	elettricità	NOUN	S	Gender=Fem	10	obj	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	prezzi	prezzo	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+14	stracciati	stracciato	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	mezza	mezzo	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+17	Europa	Europa	PROPN	SP	_	10	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	17	punct	_	_
+19	Italia	Italia	PROPN	SP	_	17	appos	_	_
+20	compresa	compreso	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	8	punct	_	_
+
+#VIT
+
+# sent_id = VIT-7421
+
+# text = Di Massimo Calandri Portofino - il "safari" notturno al cinghiale s'è risolto in un mezzo fiasco, ma per fortuna è stato smentito chi ieri sera temeva di vederli scorrazzare tra i ciottoli della suggestiva piazzetta di Portofino, magari grugnire soddisfatti tra gli attesi Piersilvio Berlusconi e Rotschild, la biondissima Ivana Trump e Sting, grufolanti ospiti a sorpresa del concerto jazz di Ray Charles:
+
+1	Di	di	ADP	E	_	2	case	_	_
+2	Massimo	Massimo	PROPN	SP	_	16	obl:agent	_	_
+3	Calandri	Calandri	PROPN	SP	_	2	flat:name	_	_
+4	Portofino	Portofino	PROPN	SP	_	16	parataxis	_	_
+5	-	-	PUNCT	FF	_	16	punct	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	safari	safari	NOUN	S	Gender=Masc	16	nsubj	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	_
+10	notturno	notturno	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cinghiale	cinghiale	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+14	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	SpaceAfter=No
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	risolto	risolvere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	in	in	ADP	E	_	20	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	mezzo	mezzo	ADJ	A	Gender=Masc|Number=Sing|PronType=Ind	20	amod	_	_
+20	fiasco	fiasco	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FC	_	27	punct	_	_
+22	ma	ma	CCONJ	CC	_	27	cc	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	27	obl	_	_
+25	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+26	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	aux:pass	_	_
+27	smentito	smentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
+28	chi	chi	PRON	PR	PronType=Rel	31	nsubj	_	_
+29	ieri	ieri	ADV	B	_	28	advmod	_	_
+30	sera	sera	ADV	B	Gender=Fem|Number=Sing	29	advmod	_	_
+31	temeva	temere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	acl:relcl	_	_
+32	di	di	ADP	E	_	33	mark	_	_
+33-34	vederli	_	_	_	_	_	_	_	_
+33	veder	vedere	VERB	V	VerbForm=Inf	31	ccomp	_	_
+34	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	33	obj	_	_
+35	scorrazzare	scorrazzare	VERB	V	VerbForm=Inf	33	xcomp	_	_
+36	tra	tra	ADP	E	_	38	case	_	_
+37	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	ciottoli	ciottolo	NOUN	S	Gender=Masc|Number=Plur	35	obl	_	_
+39-40	della	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	42	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+41	suggestiva	suggestivo	ADJ	A	Gender=Fem|Number=Sing	42	amod	_	_
+42	piazzetta	piazzetta	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	_
+43	di	di	ADP	E	_	44	case	_	_
+44	Portofino	Portofino	PROPN	SP	_	42	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	47	punct	_	_
+46	magari	magari	ADV	B	_	47	advmod	_	_
+47	grugnire	grugnire	VERB	V	VerbForm=Inf	35	conj	_	_
+48	soddisfatti	soddisfatto	ADJ	A	Gender=Masc|Number=Plur	47	amod	_	_
+49	tra	tra	ADP	E	_	52	case	_	_
+50	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	52	det	_	_
+51	attesi	atteso	ADJ	A	Gender=Masc|Number=Plur	52	amod	_	_
+52	Piersilvio	Piersilvio	PROPN	SP	_	47	nmod	_	_
+53	Berlusconi	Berlusconi	PROPN	SP	_	52	flat:name	_	_
+54	e	e	CCONJ	CC	_	55	cc	_	_
+55	Rotschild	Rotschild	PROPN	SP	_	52	conj	_	SpaceAfter=No
+56	,	,	PUNCT	FF	_	59	punct	_	_
+57	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	59	det	_	_
+58	biondissima	biondo	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	59	amod	_	_
+59	Ivana	Ivana	PROPN	SP	_	55	conj	_	_
+60	Trump	Trump	PROPN	SP	_	59	flat:name	_	_
+61	e	e	CCONJ	CC	_	62	cc	_	_
+62	Sting	Sting	PROPN	SP	_	55	conj	_	SpaceAfter=No
+63	,	,	PUNCT	FF	_	65	punct	_	_
+64	grufolanti	grufolare	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	65	acl	_	_
+65	ospiti	ospite	NOUN	S	Number=Plur	59	appos	_	_
+66	a	a	ADP	E	_	67	case	_	_
+67	sorpresa	sorpresa	NOUN	S	Gender=Fem|Number=Sing	65	nmod	_	_
+68-69	del	_	_	_	_	_	_	_	_
+68	di	di	ADP	E	_	70	case	_	_
+69	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	70	det	_	_
+70	concerto	concerto	NOUN	S	Gender=Masc|Number=Sing	65	nmod	_	_
+71	jazz	jazz	NOUN	S	Gender=Masc	70	compound	_	_
+72	di	di	ADP	E	_	73	case	_	_
+73	Ray	Ray	PROPN	SP	_	70	nmod	_	_
+74	Charles	Charles	PROPN	SP	_	73	flat:name	_	SpaceAfter=No
+75	:	:	PUNCT	FS	_	16	punct	_	_
+
+#VIT
+
+# sent_id = VIT-7429
+
+# text = Era trascorsa da poco la mezzanotte quando Carlo Repetto, direttore dell'ente monte di Portofino, ha suonato la carica ai suoi cacciatori: una decina di guardie ecozoofile, mezza dozzina di carabinieri, altrettante guardie forestali, un pugno di vigili urbani e qualche rappresentante dell'ente.
+
+1	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	trascorsa	trascorrere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	poco	poco	ADV	B	_	2	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	mezzanotte	mezzanotte	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+7	quando	quando	SCONJ	CS	_	20	mark	_	_
+8	Carlo	Carlo	PROPN	SP	_	20	nsubj	_	_
+9	Repetto	Repetto	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	8	appos	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	ente	ente	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	monte	monte	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	Portofino	Portofino	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	8	punct	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	suonato	suonare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	carica	carica	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23-24	ai	_	_	_	_	_	_	_	_
+23	a	a	ADP	E	_	26	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+25	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	cacciatori	cacciatore	NOUN	S	Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+27	:	:	PUNCT	FB	_	26	punct	_	_
+28	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	decina	decina	NUM	N	NumType=Card	26	appos	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	guardie	guardia	NOUN	S	Gender=Fem|Number=Plur	29	nmod	_	_
+32	ecozoofile	ecozoofila	ADJ	A	Gender=Fem|Number=Plur	31	amod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	35	punct	_	_
+34	mezza	mezzo	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	_
+35	dozzina	dozzina	NOUN	S	Gender=Fem|Number=Sing	29	conj	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	carabinieri	carabiniere	NOUN	S	Gender=Masc|Number=Plur	35	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	35	punct	_	_
+39	altrettante	altrettanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	40	det	_	_
+40	guardie	guardia	NOUN	S	Gender=Fem|Number=Plur	29	conj	_	_
+41	forestali	forestale	ADJ	A	Number=Plur	40	amod	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	40	punct	_	_
+43	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	pugno	pugno	NOUN	S	Gender=Masc|Number=Sing	29	conj	_	_
+45	di	di	ADP	E	_	46	case	_	_
+46	vigili	vigile	NOUN	S	Number=Plur	44	nmod	_	_
+47	urbani	urbano	ADJ	A	Gender=Masc|Number=Plur	46	amod	_	_
+48	e	e	CCONJ	CC	_	50	cc	_	_
+49	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	50	det	_	_
+50	rappresentante	rappresentante	NOUN	S	Number=Sing	46	conj	_	_
+51-52	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+51	di	di	ADP	E	_	53	case	_	_
+52	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	53	det	_	_
+53	ente	ente	NOUN	S	Gender=Masc|Number=Sing	50	nmod	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	2	punct	_	_
+
+#PoSTWITA
+
+# sent_id = 2208
+
+# text = Chissà se anche le cinque stelle di #Grillo prevedono la mezza pensione. @user
+
+1	Chissà	chissà	ADV	B	_	9	advmod	_	_
+2	se	se	SCONJ	CS	_	9	mark	_	_
+3	anche	anche	ADV	B	_	6	advmod	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	cinque	cinque	NUM	N	NumType=Card	6	nummod	_	_
+6	stelle	stella	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	#Grillo	#Grillo	SYM	SYM	_	6	nmod	_	_
+9	prevedono	prevedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	mezza	mezzo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	pensione	pensione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	_
+14	@user	@user	SYM	SYM	_	9	vocative	_	_
+
+#PoSTWITA
+
+# sent_id = 397
+
+# text = Maurizio Landini parla a La crisi. In mezz' ora di ieri sera del programma del governo Monti .... http://t.co/NyQ6wCXU
+
+1	Maurizio	maurizio	PROPN	SP	_	3	nsubj	_	_
+2	Landini	Landini	PROPN	SP	_	1	flat:name	_	_
+3	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	La	La	PROPN	SP	_	3	obl	_	_
+6	crisi	crisi	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+8	In	in	ADP	E	_	10	case	_	_
+9	mezz'	mezzo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	CorrectSpaceAfter=No
+10	ora	ora	NOUN	S	Gender=Fem|Number=Sing	3	parataxis	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	ieri	ieri	ADV	B	_	10	nmod	_	_
+13	sera	sera	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	programma	programma	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	governo	governo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	Monti	Monti	PROPN	SP	_	19	nmod	_	_
+21	....	....	PUNCT	FS	_	3	punct	_	_
+22	http://t.co/NyQ6wCXU	http://t.co/NyQ6wCXU	SYM	X	_	3	parataxis	_	_
+
+#VIT
+
+#sent_id = 1949
+
+# text = Io non conosco mezze misure ... Nella mia vita o sei tutto o sei niente !!
+
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	conosco	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mezze	mezzo	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	_
+5	misure	misura	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	...	...	PUNCT	FS	_	3	punct	_	_
+7-8	Nella	_	_	_	_	_	_	_	_
+7	In	In	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	vita	vita	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+11	o	o	CCONJ	CC	_	13	cc	_	_
+12	sei	essere	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	parataxis	_	_
+14	o	o	CCONJ	CC	_	16	cc	_	_
+15	sei	essere	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	niente	niente	PRON	PI	PronType=Ind	13	conj	_	_
+17	!!	!	PUNCT	FS	_	13	punct	_	NonCan=PunctVar
+
+#ParTUT
+
+# sent_id = it_partut-ud-1327
+
+# text = Il successo della Corea del sud nell'ultimo mezzo secolo deve molto alla rapida crescita della sua forza lavoro con un buon livello d'istruzione.
+
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	successo	successo	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Corea	Corea	PROPN	SP	_	2	nmod	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	sud	sud	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9-10	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	in	in	ADP	E	_	13	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+11	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	13	amod	_	_
+12	mezzo	mezzo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	secolo	secolo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+14	deve	dovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	molto	molto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	obj	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	rapida	rapido	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+19	crescita	crescita	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+20-21	della	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	forza	forza	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+24	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	23	compound	_	_
+25	con	con	ADP	E	_	28	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	buon	buono	ADJ	A	Gender=Masc|Number=Sing	28	amod	_	_
+28	livello	livello	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+29	d'	di	ADP	E	_	30	case	_	SpaceAfter=No
+30	istruzione	istruzione	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	14	punct	_	_
+
+#TWITTIRO
+
+# sent_id = train_963
+
+# text = Quindi mezzo governo è nelle scuole, hanno preso alla lettere chi sbraitava "tornate a studiare" #sischerza #labuonascuola
+
+# twittiro = EXPLICIT	EX:OXYMORON PARADOX
+
+1	Quindi	quindi	CCONJ	CC	_	7	discourse	_	_
+2	mezzo	mezzo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	governo	governo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5-6	nelle	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	parataxis	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+14	chi	chi	PRON	PR	PronType=Rel	10	obj	_	_
+15	sbraitava	sbraitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+16	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+17	tornate	tornare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	parataxis	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	studiare	studiare	VERB	V	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
+20	"	"	PUNCT	FB	_	19	punct	_	_
+21	#sischerza	#sischerza	SYM	SYM	_	7	parataxis:hashtag	_	_
+22	#labuonascuola	#labuonascuola	SYM	SYM	_	7	parataxis:hashtag	_	SpacesAfter=\n
+
+#TWITTIRO
+
+# sent_id = test_12
+
+# text = Sgarbi ricoverato d'urgenza a Modena: "Ero a mezz'ora dalla morte". Bel modo di definire Piacenza. [@user]
+
+# twittiro = EXPLICIT	ANALOGY
+
+1	Sgarbi	Sgarbi	PROPN	SP	_	2	nsubj:pass	_	_
+2	ricoverato	ricoverato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	d'	di	ADP	E	_	4	case	_	SpaceAfter=No
+4	urgenza	urgenza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Modena	modena	PROPN	SP	_	2	obl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+8	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+9	Ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	12	cop	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	mezz'	mezzo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+12	ora	ora	NOUN	S	Gender=Fem|Number=Sing	2	parataxis	_	_
+13-14	dalla	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	morte	morte	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	12	punct	_	_
+18	Bel	bello	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	modo	modo	NOUN	S	Gender=Masc|Number=Sing	12	parataxis:appos	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	definire	definire	VERB	V	VerbForm=Inf	19	acl	_	_
+22	Piacenza	Piacenza	PROPN	SP	_	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	19	punct	_	_
+24	[	[	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+25	@user	@user	SYM	SYM	_	2	vocative:mention	_	SpaceAfter=No
+26	]	]	PUNCT	FB	_	25	punct	_	SpacesAfter=\n
+
+#PUD
+
+# sent_id = w01043027
+
+# newdoc id = w01043
+
+# text = Nel 1340 Il Cairo aveva una popolazione che raggiungeva quasi mezzo milione di abitanti, fattore che la rendeva la città più grande a ovest della Cina.
+
+# text_en = By 1340, Cairo had a population of close to half a million, making it the largest city west of China.
+
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	IN	_	3	case	_	_
+2	il	il	DET	DT	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	1340	1340	NUM	CD	_	6	obl	_	_
+4	Il	Il	DET	DT	Gender=Masc|Number=Sing	5	det	_	_
+5	Cairo	Cairo	PROPN	NNP	Gender=Masc|Number=Sing	6	nsubj	_	_
+6	aveva	avere	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
+7	una	uno	DET	DT	Gender=Fem|Number=Sing	8	det	_	_
+8	popolazione	popolazione	NOUN	NN	Gender=Fem|Number=Sing	6	obj	_	_
+9	che	che	PRON	WP	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	raggiungeva	raggiungere	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	acl:relcl	_	_
+11	quasi	quasi	ADV	RB	_	12	advmod	_	_
+12	mezzo	mezzo	ADJ	JJ	Gender=Masc|Number=Sing	13	amod	_	_
+13	milione	milione	NOUN	NN	_	10	obj	_	_
+14	di	di	ADP	IN	_	15	case	_	_
+15	abitanti	abitante	NOUN	NN	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	,	_	13	punct	_	_
+17	fattore	fattore	NOUN	NN	Gender=Masc|Number=Sing	13	appos	_	_
+18	che	che	PRON	WP	Gender=Masc|Number=Sing	20	nsubj	_	_
+19	la	la	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	20	obj	_	_
+20	rendeva	rendere	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	17	acl:relcl	_	_
+21	la	il	DET	DT	Gender=Fem|Number=Sing	22	det	_	_
+22	città	città	NOUN	NN	Gender=Fem|Number=Sing	20	xcomp	_	_
+23	più	più	ADV	RBS	_	24	advmod	_	_
+24	grande	grande	ADJ	JJ	Gender=Fem|Number=Sing	22	amod	_	_
+25	a	a	ADP	IN	_	26	case	_	_
+26	ovest	ovest	NOUN	NN	Gender=Masc|Number=Sing	22	nmod	_	_
+27-28	della	_	_	_	_	_	_	_	_
+27	di	di	ADP	IN	_	29	case	_	_
+28	la	il	DET	DT	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Cina	Cina	PROPN	NNP	Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	.	_	6	punct	_	_
