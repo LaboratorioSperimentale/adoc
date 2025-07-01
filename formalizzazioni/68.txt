@@ -1,0 +1,8 @@
+pattern {
+  A [form="viene", lemma="venire", upos=VERB];
+  B [lemma="fuori", upos=ADV];
+  C [lemma="che", upos=SCONJ];
+  
+  A -[advmod]-> B;
+  B < C;
+}
