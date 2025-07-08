@@ -143,9 +143,7 @@ def parse_custom_conllu_cxn(conllu_string):
 
 
 def generate_grew_query_from_parsed(nodes_data, relations_data=None, identity_constraints=None, adjacency_constraints=None, children_deprel_constraints=None, pattern_name=""):
-    """
-
-    """
+    
     query_lines = []
 
     if pattern_name:
