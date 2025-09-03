@@ -20,7 +20,7 @@ def parse_token(cols):
 # TODO: handle more than one construction
 def parse(construction_str, mapping=None):
 
-    construction = construction_str.split("\n")
+	construction = construction_str.split("\n")
 
 	ret = { "metadata": [],
 			"tokens": []
