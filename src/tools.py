@@ -1,7 +1,19 @@
 
 def parse_token(cols):
     header = ["id", "form", "lemma", "upos", "feats", "head", "deprel", "required", "without", "sem_feats", "sem_roles", "adjacency", "identity"]
-    return {x:y for x, y in zip(header, cols)}
+
+	ret = {}
+	for x, y in zip(header, cols):
+		if x in ["id", "feats"]:
+			ret[x]=y
+		elif x in ["form", "lemma", "upos"]:
+			ret[x] = y.split(",")
+		elif x in ["required"]:
+			ret[x]=int(y)
+		else:
+			ret[x]=y
+
+    return ret
 
 
 
