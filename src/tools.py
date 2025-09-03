@@ -1,6 +1,6 @@
 
 def parse_token(cols):
-    header = ["id", "form", "lemma", "upos", "feats", "head", "deprel", "required", "without", "sem_feats", "sem_roles", "adjacency", "identity"]
+	header = ["id", "form", "lemma", "upos", "feats", "head", "deprel", "required", "without", "sem_feats", "sem_roles", "adjacency", "identity"]
 
 	ret = {}
 	for x, y in zip(header, cols):
@@ -9,11 +9,11 @@ def parse_token(cols):
 		elif x in ["form", "lemma", "upos"]:
 			ret[x] = y.split(",")
 		elif x in ["required"]:
-			ret[x]=int(y)
+			ret[x]=bool(int(y))
 		else:
 			ret[x]=y
 
-    return ret
+	return ret
 
 
 
@@ -37,5 +37,5 @@ def parse(construction):
 
 
 if __name__ == "__main__":
-    with open("/Users/ludovica/Documents/projects/adoc/cxns_conllc/cxn_68.conllc") as fin:
-        print(parse(fin.readlines()))
+	with open("/Users/ludovica/Documents/projects/adoc/cxns_conllc/cxn_68.conllc") as fin:
+		print(parse(fin.readlines()))
