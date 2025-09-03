@@ -18,7 +18,9 @@ def parse_token(cols):
 
 
 # TODO: handle more than one construction
-def parse(construction):
+def parse(construction_str, mapping=None):
+
+    construction = construction_str.split("\n")
 
 	ret = { "metadata": [],
 			"tokens": []
@@ -38,4 +40,8 @@ def parse(construction):
 
 if __name__ == "__main__":
 	with open("/Users/ludovica/Documents/projects/adoc/cxns_conllc/cxn_68.conllc") as fin:
-		print(parse(fin.readlines()))
+		res = parse(fin.read())
+
+		print(res["metadata"])
+		for tok in res["tokens"]:
+			print(tok)
