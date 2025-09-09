@@ -1,0 +1,21 @@
+pattern {
+  A[];
+  A[upos=NOUN|PROPN|PRON];
+
+  B[];
+  B[upos=VERB];
+
+  C[];
+  C[form=/di/i];
+  C[lemma="di"];
+  C[upos=ADP];
+
+  D[];
+  D[upos=NOUN];
+
+
+  B -[nsubj]-> A;
+  D -[case]-> C;
+  B -[obl]-> D;
+
+}

@@ -7,4 +7,4 @@
 A	_	_	NOUN,PROPN,PRON	Animacy:Anim	B	nsubj	0	_	_	Affector	_	_
 B	_	_	VERB	_	0	root	1	CHILDREN:DEPREL=obj	_	_	_	_
 C	di	di	ADP	_	D	case	1	_	_	_	_	_
-D	_	_	NOUN	_	B	obj	1	_	_	Undergoer	_	SEMFIELD=B
+D	_	_	NOUN	_	B	obl	1	_	_	Undergoer	_	SEMFIELD=B

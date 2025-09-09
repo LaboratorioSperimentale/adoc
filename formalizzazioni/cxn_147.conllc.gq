@@ -1,0 +1,7 @@
+pattern {
+  A[];
+  A[upos=NOUN|ADJ];
+  
+  
+  
+}

@@ -1,0 +1,17 @@
+pattern {
+  A[];
+  A[upos=NOUN|PROPN|PRON];
+  
+  B[];
+  B[upos=VERB];
+  
+  C[];
+  C[upos=NOUN];
+  
+  B.semfield = C.semfield;
+  
+  
+  B -[nsubj]-> A;
+  B -[obj]-> C;
+  
+}

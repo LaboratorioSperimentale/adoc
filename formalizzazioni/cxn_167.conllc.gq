@@ -1,0 +1,27 @@
+pattern {
+  A[];
+  A[lemma="venire"];
+  A[upos=VERB];
+  A[Number=Sing];
+  A[Person=3];
+  
+  B[];
+  B[form=/fuori/i];
+  B[lemma="fuori"];
+  B[upos=ADV];
+  
+  C[];
+  C[form=/che/i];
+  C[lemma="che"];
+  C[upos=SCONJ];
+  
+  D[];
+  D[upos=VERB|NOUN|ADJ];
+  D[VerbForm=Fin];
+  
+  
+  A -[advmod]-> B;
+  D -[mark]-> C;
+  A -[csubj]-> D;
+  
+}

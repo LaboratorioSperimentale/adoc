@@ -1,0 +1,23 @@
+pattern {
+  A[];
+  A[upos=NOUN];
+  A[Number=Sing];
+  
+  B[];
+  B[form=/per/i];
+  B[lemma="per"];
+  B[upos=ADP];
+  
+  C[];
+  C[upos=NOUN];
+  C[Number=Sing];
+  
+  A.form = C.form;
+  
+  A < B;
+  B < C;
+  
+  C -[case]-> B;
+  A -[nmod]-> C;
+  
+}

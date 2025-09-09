@@ -1,0 +1,21 @@
+pattern {
+  A[];
+  A[upos=PRON];
+  A[Clitic=yes];
+  
+  B[];
+  B[lemma="toccare"];
+  B[upos=VERB];
+  B[Number=Sing];
+  B[Person=3];
+  
+  C[];
+  C[upos=VERB];
+  C[VerbForm=Inf];
+  
+  A < B;
+  
+  B -[iobj]-> A;
+  B -[csubj]-> C;
+  
+}

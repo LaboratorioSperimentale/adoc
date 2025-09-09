@@ -1,0 +1,27 @@
+pattern {
+  A[];
+  A[lemma="a"];
+  A[upos=ADP];
+  
+  B[];
+  B[upos=PRON|NOUN|PROPN];
+  B[Prontype=Prs];
+  
+  C[];
+  C[lemma="toccare"];
+  C[upos=VERB];
+  C[Number=Sing];
+  C[Person=3];
+  
+  D[];
+  D[upos=VERB];
+  D[VerbForm=Inf];
+  
+  A < B;
+  B < C;
+  
+  B -[case]-> A;
+  C -[iobj]-> B;
+  C -[csubj]-> D;
+  
+}

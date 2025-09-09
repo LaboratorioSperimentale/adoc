@@ -1,0 +1,19 @@
+pattern {
+  A[];
+  A[lemma="mezzo"];
+  A[upos=ADV];
+  
+  B[];
+  B[form=/-/i];
+  B[lemma="-"];
+  B[upos=PUNCT];
+  
+  C[];
+  C[upos=ADJ];
+  
+  A < B;
+  B < C;
+  
+  C -[advmod]-> A;
+  
+}

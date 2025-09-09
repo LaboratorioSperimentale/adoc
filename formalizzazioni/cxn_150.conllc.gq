@@ -1,0 +1,24 @@
+pattern {
+  A[];
+  A[upos=NOUN|PROPN|PRON];
+  A[Animacy=Anim];
+  
+  B[];
+  B[upos=VERB];
+  
+  C[];
+  C[form=/con/i];
+  C[lemma="con"];
+  C[upos=ADP];
+  
+  D[];
+  D[upos=NOUN];
+  
+  B.semfield = D.semfield;
+  
+  
+  B -[nsubj]-> A;
+  D -[case]-> C;
+  B -[obj]-> D;
+  
+}

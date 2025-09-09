@@ -1,0 +1,25 @@
+pattern {
+  A[];
+  A[lemma="mettere"];
+  A[upos=VERB];
+  
+  B[];
+  B[upos=PRON];
+  B[Clitic=Yes];
+  B[PronType=Prs];
+  
+  C[];
+  C[form=/a/i];
+  C[lemma="a"];
+  C[upos=ADP];
+  
+  D[];
+  D[upos=VERB];
+  D[VerbForm=Inf];
+  
+  
+  A -[expl]-> B;
+  D -[mark]-> C;
+  A -[xcomp]-> D;
+  
+}

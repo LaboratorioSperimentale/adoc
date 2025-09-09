@@ -1,0 +1,11 @@
+pattern {
+  A[];
+  A[form=/semi.+/i];
+  A[lemma="semi.+"];
+  A[upos=ADJ| NOUN];
+  
+  A.feats = A.2.feats;
+  
+  
+  
+}

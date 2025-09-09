@@ -1,0 +1,33 @@
+pattern {
+  A[];
+  A[lemma="fare"];
+  A[upos=VERB];
+  A[VerbForm=Fin];
+  
+  B[];
+  B[form=/a/i];
+  B[lemma="a"];
+  B[upos=ADP];
+  
+  C[];
+  C[form=/meno/i];
+  C[lemma="meno"];
+  C[upos=ADV];
+  
+  D[];
+  D[form=/di/i];
+  D[lemma="di"];
+  D[upos=ADP];
+  
+  E[];
+  E[upos=NOUN|PRON|VERB];
+  E[VerbForm=Inf];
+  
+  B < C;
+  
+  C -[case]-> B;
+  A -[advmod]-> C;
+  E -[case| mark]-> D;
+  C -[obl| xcomp]-> E;
+  
+}
