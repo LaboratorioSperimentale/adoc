@@ -7,4 +7,4 @@
 A	_	saltare	VERB	Number=Sing|Person=3	0	root	1	CHILDREN:DEPREL=nsubj	_	_	_	_
 B	fuori	fuori	ADV	_	A	advmod	1	_	_	_	_	_
 C	che	che	SCONJ	_	D	mark	1	_	_	_	_	_
-D	_	_	VERB,NOUN,ADJ	VerbForm=Fin	A	csubj	1	_	_	Eventuality	_	_
+D	_	_	VERB,NOUN,ADJ	VerbForm=Fin	A	csubj,ccomp	1	_	_	Eventuality	_	_

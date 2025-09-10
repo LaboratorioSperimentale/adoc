@@ -4,9 +4,9 @@
 # horizontal_links =
 # vertical_links =
 # fields = ID	UD.FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	REQUIRED	WITHOUT	SEM_FEATS	SEM_ROLES	ADJACENCY	IDENTITY
-A	_	fare	VERB	VerbForm=Fin	0	root	1	_	_	_	_	_
+A	_	fare	VERB	_	0	root	1	_	_	_	_	_
 B	a	a	ADP	_	C	case	1	_	_	_	_	_
 C	meno	meno	ADV	_	A	advmod	1	_	_	_	B	_
-D	di	di	ADP	_	E	case, mark	1	_	_	_	_	_
-E	_	_	NOUN,PRON,VERB	VerbForm=Inf	C	obl, xcomp	1	_	_	_	_	_
+D	di	di	ADP	_	E	case,mark	1	_	_	_	_	_
+E	_	_	NOUN,PRON,VERB	VerbForm=Inf	A	obl, xcomp	1	_	_	_	_	_
 
