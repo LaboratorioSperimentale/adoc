@@ -211,8 +211,13 @@ if __name__ == "__main__":
         identity_constraints=identity_constraints,
     )
 
+    # TODO: run query on corpora
+
     print(f"\n--- Query generata dal file '{file_da_testare}' ---")
     print(query_grew_generata)
 
     with open(f"formalizzazioni/{os.path.basename(file_da_testare)}.gq","w",encoding="utf-8") as f:
         f.write(query_grew_generata)
+
+
+# TODO: parse ITWAC, Repubblica, Paisà
