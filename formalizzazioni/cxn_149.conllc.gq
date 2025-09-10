@@ -8,7 +8,6 @@ pattern {
   C[];
   C[upos=NOUN];
   
-  B.semfield = C.semfield;
   
   
   B -[nsubj]-> A;

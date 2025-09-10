@@ -5,17 +5,17 @@ pattern {
   
   B[];
   B[upos=PRON|NOUN|PROPN];
-  B[Prontype=Prs];
+  B[Prontype=Prs]|[!Prontype]; 
   
   C[];
   C[lemma="toccare"];
   C[upos=VERB];
-  C[Number=Sing];
-  C[Person=3];
+  C[Number=Sing]|[!Number]; 
+  C[Person=3]|[!Person]; 
   
   D[];
   D[upos=VERB];
-  D[VerbForm=Inf];
+  D[VerbForm=Inf]|[!VerbForm]; 
   
   A < B;
   B < C;

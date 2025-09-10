@@ -5,8 +5,8 @@ pattern {
   
   B[];
   B[upos=PRON];
-  B[Clitic=Yes];
-  B[PronType=Prs];
+  B[Clitic=Yes]|[!Clitic]; 
+  B[PronType=Prs]|[!PronType]; 
   
   C[];
   C[form=/a/i];
@@ -15,7 +15,7 @@ pattern {
   
   D[];
   D[upos=VERB];
-  D[VerbForm=Inf];
+  D[VerbForm=Inf]|[!VerbForm]; 
   
   
   A -[expl]-> B;

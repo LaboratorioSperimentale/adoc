@@ -1,7 +1,7 @@
 pattern {
   A[];
   A[upos=NOUN];
-  A[Number=Sing];
+  A[Number=Sing]|[!Number]; 
   
   B[];
   B[form=/dopo/i];
@@ -10,13 +10,14 @@ pattern {
   
   C[];
   C[upos=NOUN];
-  C[Number=Sing];
+  C[Number=Sing]|[!Number]; 
   
   A.form = C.form;
   
   A < B;
   B < C;
   
+  * -[obl]-> A;
   C -[case]-> B;
   A -[nmod]-> C;
   

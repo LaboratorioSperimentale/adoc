@@ -2,7 +2,6 @@ pattern {
   A[];
   A[lemma="fare"];
   A[upos=VERB];
-  A[VerbForm=Fin];
   
   B[];
   B[form=/a/i];
@@ -21,13 +20,13 @@ pattern {
   
   E[];
   E[upos=NOUN|PRON|VERB];
-  E[VerbForm=Inf];
+  E[VerbForm=Inf]|[!VerbForm]; 
   
   B < C;
   
   C -[case]-> B;
   A -[advmod]-> C;
-  E -[case| mark]-> D;
-  C -[obl| xcomp]-> E;
+  E -[case|mark]-> D;
+  A -[obl|xcomp]-> E;
   
 }

@@ -1,7 +1,7 @@
 pattern {
   A[];
   A[upos=NOUN|PROPN|PRON];
-  A[Animacy=Anim];
+  A[Animacy=Anim]|[!Animacy]; 
   
   B[];
   B[upos=VERB];
@@ -14,7 +14,6 @@ pattern {
   D[];
   D[upos=NOUN];
   
-  B.semfield = D.semfield;
   
   
   B -[nsubj]-> A;

@@ -2,8 +2,8 @@ pattern {
   A[];
   A[lemma="saltare"];
   A[upos=VERB];
-  A[Number=Sing];
-  A[Person=3];
+  A[Number=Sing]|[!Number]; 
+  A[Person=3]|[!Person]; 
   
   B[];
   B[form=/fuori/i];
@@ -17,11 +17,11 @@ pattern {
   
   D[];
   D[upos=VERB|NOUN|ADJ];
-  D[VerbForm=Fin];
+  D[VerbForm=Fin]|[!VerbForm]; 
   
   
   A -[advmod]-> B;
   D -[mark]-> C;
-  A -[csubj]-> D;
+  A -[csubj|ccomp]-> D;
   
 }
