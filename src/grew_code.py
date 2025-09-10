@@ -13,10 +13,10 @@ def parse_custom_conllu_cxn(conllu_string):
     lines = conllu_string.strip().split('\n')
 
     nodes_data = {}
-    relations_data = []
-    adjacency_data = []
+    # relations_data = []
+    # adjacency_data = []
     identity_data = set()
-    children_deprel_constraints = []
+    # children_deprel_constraints = []
 
     # header_map = {}
 
@@ -75,10 +75,16 @@ def parse_custom_conllu_cxn(conllu_string):
         head = parts[HEADER_MAP['HEAD']]
         if head != '_':
             node_props['head'] = head
+        if head == '0':
+            node_props['head'] = "*"
+
 
         deprels = parts[HEADER_MAP['DEPREL']]
-        if deprels != '_' and not deprels.startswith("root"):
-            node_props['deprel'] = deprels.split(",")
+        if deprels != '_':
+            if deprels.startswith('root') and len(deprels.split(":")) > 1:
+                node_props['deprel'] = [deprels.split(":")[1]]
+            elif not deprels.startswith("root"):
+                node_props['deprel'] = deprels.split(",")
 
         nodes_data[node_id] = node_props
 
@@ -131,8 +137,8 @@ def parse_custom_conllu_cxn(conllu_string):
                 #! no way not to have '=' in this field
                 # if '=' in identity_field:
                 attr, other_node_id = constraint.split('=')
-
                 attr_lower = attr.lower().replace('ud.', '')
+
                 identity_data.add(
                     (
                         (min(node_id, other_node_id.strip()), max(node_id, other_node_id.strip())),
@@ -199,15 +205,15 @@ def generate_grew_query_from_parsed(nodes_data, relations_data=None, identity_co
             query_lines.append(f"{node_name}[form=/{node['form']}/i];")
 
         if "lemma" in node:
-            lemma_str = [f'"{el}"' for el in node["lemma"]]
+            lemma_str = [f'"{el.strip()}"' for el in node["lemma"]]
             query_lines.append(f"{node_name}[lemma={'|'.join(lemma_str)}];")
 
         if "upos" in node:
-            query_lines.append(f"{node_name}[upos={'|'.join(node['upos'])}];")
+            query_lines.append(f"{node_name}[upos={'|'.join([x.strip() for x in node['upos']])}];")
 
         if "features" in node:
             for k, v in node["features"].items():
-                query_lines.append(f"{node_name}[{k}={v}];")
+                query_lines.append(f"{node_name}[{k}={v}]|[!{k}]; ")
         query_lines.append("")
 
         # attributes = []
@@ -235,13 +241,14 @@ def generate_grew_query_from_parsed(nodes_data, relations_data=None, identity_co
     #         query_lines.append(f'  {source} -[{deprel}]-> {target};')
 
     for (nodes, field) in identity_constraints:
-        node_a, node_b = nodes
-        query_lines.append(f"{node_a}.{field} = {node_b}.{field};")
-        # for constraint in identity_constraints:
-        #     node1 = constraint['node1']
-        #     node2 = constraint['node2']
-        #     attr = constraint['attr']
-        #     query_lines.append(f'  {node1}.{attr} = {node2}.{attr};')
+        if field in ['form', 'lemma', 'upos']:
+            node_a, node_b = nodes
+            query_lines.append(f"{node_a}.{field} = {node_b}.{field};")
+            # for constraint in identity_constraints:
+            #     node1 = constraint['node1']
+            #     node2 = constraint['node2']
+            #     attr = constraint['attr']
+            #     query_lines.append(f'  {node1}.{attr} = {node2}.{attr};')
         query_lines.append("")
 
     for node_name, node in nodes_data.items():
@@ -251,7 +258,7 @@ def generate_grew_query_from_parsed(nodes_data, relations_data=None, identity_co
 
     for node_name, node in nodes_data.items():
         if "head" in node and "deprel" in node:
-            query_lines.append(f"{node['head']} -[{'|'.join(node['deprel'])}]-> {node_name};")
+            query_lines.append(f"{node['head']} -[{'|'.join([x.strip() for x in node['deprel']])}]-> {node_name};")
     query_lines.append("")
     # if adjacency_constraints:
     #     query_lines.append("")
