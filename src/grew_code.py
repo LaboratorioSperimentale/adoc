@@ -113,7 +113,7 @@ def generate_grew_query_from_parsed(nodes_data,
 
     query_lines = []
     
-    query_lines.append("pattern {")
+    query_lines.append(f"pattern {{")
 
     for node_name, node in nodes_data.items():
         query_lines.append(f'{node_name}[];')
@@ -176,7 +176,11 @@ if __name__ == "__main__":
     output_dir_queries = "formalizzazioni"
     os.makedirs(output_dir_queries, exist_ok=True)
     
-    queries_to_run = []
+    all_queries_grew = []
+    base_filename, _ = os.path.splitext(os.path.basename(file_da_testare))
+    
+    match = re.search(r'\d+', base_filename)
+    cxn_number = match.group(0) if match else "0"
 
     for i, (nodes, identity_constraints) in enumerate(parsed_constructions):
         print(f"\n--- Parsing Construction {i+1} ---")
@@ -190,20 +194,20 @@ if __name__ == "__main__":
 
         print(f"\n--- Query generata per la costruzione {i+1} ---")
         print(query_grew_generata)
-
-        base_filename, _ = os.path.splitext(os.path.basename(file_da_testare))
-        alphabet_suffix = chr(ord('a') + i)
-        output_filename = f"{output_dir_queries}/{base_filename}_{alphabet_suffix}.gq"
         
-        with open(output_filename, "w", encoding="utf-8") as f:
-            f.write(query_grew_generata)
-        print(f"Query salvata in '{output_filename}'")
-        queries_to_run.append(output_filename)
+        alphabet_suffix = chr(ord('a') + i)
+        header = f"# cxn={cxn_number}_{alphabet_suffix}"
+        all_queries_grew.append(f"{header}\n{query_grew_generata}")
+
+    output_filename = f"{output_dir_queries}/{base_filename}.gq"
+    
+    with open(output_filename, "w", encoding="utf-8") as f:
+        f.write("\n---\n".join(all_queries_grew))
+    print(f"\nTutte le query sono state salvate in un unico file: '{output_filename}'")
 
     print("\n--- Esecuzione delle query sui corpora ---")
     
     corpora_dir = "corpora"
-   
     output_results_dir = "risultati_query_corpora"
 
     if not os.path.isdir(corpora_dir):
@@ -217,24 +221,20 @@ if __name__ == "__main__":
             corpus_base_name, _ = os.path.splitext(os.path.basename(corpus_file))
             corpus_path = os.path.join(corpora_dir, corpus_file)
             
-            for query_file in queries_to_run:
-                query_base_name = os.path.splitext(os.path.basename(query_file))[0]
-
-                output_result_filename = f"{output_results_dir}/{query_base_name}_su_{corpus_base_name}.txt"
-                
-                print(f"- Esecuzione della query '{query_file}' su '{corpus_path}'...")
-                
-                try:
-                    with open(output_result_filename, "w", encoding="utf-8") as outfile:
-                       
-                        subprocess.run(
-                            ["grew", "-graph", corpus_path, "-query", query_file],
-                            stdout=outfile, stderr=subprocess.PIPE, check=True
-                        )
-                    print(f"  Risultati salvati in '{output_result_filename}'")
-                        
-                except FileNotFoundError:
-                    print("Errore: L'eseguibile di Grew non è stato trovato. Assicurati che sia installato e nel tuo PATH.")
-                    break
-                except subprocess.CalledProcessError as e:
-                    print(f"  Errore durante l'esecuzione di Grew. Errore standard: {e.stderr.decode('utf-8')}")
+            output_result_filename = f"{output_results_dir}/{base_filename}_su_{corpus_base_name}.txt"
+            
+            print(f"- Esecuzione delle query del file '{output_filename}' su '{corpus_path}'...")
+            
+            try:
+                with open(output_result_filename, "w", encoding="utf-8") as outfile:
+                    subprocess.run(
+                        ["grew", "-graph", corpus_path, "-query", output_filename],
+                        stdout=outfile, stderr=subprocess.PIPE, check=True
+                    )
+                print(f"  Risultati salvati in '{output_result_filename}'")
+                    
+            except FileNotFoundError:
+                print("Errore: L'eseguibile di Grew non è stato trovato. Assicurati che sia installato e nel tuo PATH.")
+                break
+            except subprocess.CalledProcessError as e:
+                print(f"  Errore durante l'esecuzione di Grew. Errore standard: {e.stderr.decode('utf-8')}")
