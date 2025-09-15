@@ -261,7 +261,7 @@ L'idea di base è usare i campi per esprimere le restrizioni che la costruzione 
   nessuna restrizione è imposta sul campo
 - il campo **form** va compilato nel caso in cui la forma sia fissa. Ad esempio, nella costruzione
   di cui sopra (N dopo N), "dopo" è un token fissato a livello di forma.
-  Il campo form può essere espresso tramite espressione regolare.
+  Il campo form può essere espresso tramite espressione regolare (prefissando la stringa con r).
 - il campo **lemma** esprime restrizioni a livello di lemma. Ad esempio, nella costruzione
   "salta fuori che X", il primo elemento ("salta") può variare nel paradigma del lemma "saltare" che
   è la restrizione che ci interessa fissare
@@ -390,13 +390,189 @@ slot, abbiamo bisogno di introdurre alcune operazioni sui possibili valori:
   - per la relazione di dipendenza *tranne root* (e.g., "!det")
   - per i semantic roles e le semantic features
 
-- **congiunzione**: nel caso delle features e dei filtri che vogliamo applicare (**EXCLUSION**)
+- **congiunzione**: nel caso delle features e dei filtri che vogliamo applicare (**EXCLUSION**),
+  potremmo voler esprimere più di un constraint. Ad esempio un certo elemento deve essere un nome di
+  genere femminile e numero singolare.
+  In continuità con il formato CoNLL-U, questo viene espresso dal simbolo pipe (|, ad esempio
+  Gender=Fem|Number=Sing).
 
-
-Un altro aspetto da considerare è l'opzionalità
+Un altro aspetto da considerare è l'**opzionalità**. Nella costruzione sopra ("che bello!") potremmo
+voler includere il punto esclamativo come opzionale. Per questo il campo **REQUIRED** può contenere
+i valori 0 o 1.
 
 ## Morfologia
 
-## Esempi
+Le costruzioni che vogliamo rappresentare ovviamente non agiscono necessariamente a livello della
+frase. Potrebbero interessare anche livelli inferiori, come ad esempio il livello morfologico,
+o superiori, come il livello testuale.
+
+Il formato CoNLL-C può essere utilizzato per costruzioni al livello morfologico.
+In questo caso dobbiamo rappresentare gli elementi a livello morfologico (sotto il livello di
+parola) che costituiscono la costruzione.
+
+Prendiamo in considerazione il caso della costruzione "X-issimo", che genera i superlativi degli
+aggettivi.
+Possiamo modellare la costruzione nel seguente modo:
+
+ID | FORM | LEMMA | UPOS | FEATS | HEAD | DEPREL | IDENTITY | ADJACENCY | EXCLUSION
+------- | ------- | ------- | ------- | ------- | ------- | ------- | ------ | ------ | ------
+A | r".*issim[oaie]" | _ | ADJ | Degree=Sup | 0 | root | _ | _ | _
+A-1 | _ | _ | ADJ | _ | A | root/m | _ | _ | _
+A-2 | _ | -issmo | BMORPH | _ | A-1 | der/m | _ | _ | _
+
+Gli elementi morfologici sono caratterizzati da:
+
+- ID composto da due componenti: lettera che identifica la parola a cui si riferiscono e un numero
+  progressivo
+- Come parte del discorso, gli elementi che esistono come lessemi liberi mantengono la loro parte
+  del discorso, mentre le forme legate (affissi, affissoidi, forme combinatorie) sono annotate come
+  BMORPH
+- per le dipendenze, al livello di morfema introduciamo le seguenti relazioni:
+  - root/m: la radice all'interno della costruzione morfologica. Nella derivazione corrisponde allo stemma, nella composizione corrisponde alla testa del composto.
+  - der/m: la relazione che lega l'affisso derivazionale allo stemma
+  - case/m: la relazione che lega il complemento alla testa nei composti subordinant (e.g., capostazione)
+  - mod/m: la relazione che lega l'attributo alla testa nei composti attributivi (e.g., altopiano)
+  - conj/m: la relazione che lega il secondo costituente al primo nei composti coordinanti (e.g., cartongesso)
+
+## Variazione formale in CoNLL-C
+
+Può capitare che i vincoli illustrati fin qui non bastino a rappresentare in modo soddisfacente la
+costruzione in modo compatibile con Universal Dependencies, spesso a causa di variazioni
+ortografiche o idiosincrasie del formato.
+
+Ad esempio, la costruzione "semiX" o "similX" può essere istanziata sia in modo univerbato, sia con
+la presenza di "-", sia tramite modificazione.
+
+In questi casi, il file `conllc` può contenere più di una struttura.
+
+## Esempi in CoNLL-Uc
+
+Una volta che la formalizzazione è finita, possiamo utilizzarla per annotare istanze della
+costruzione nei corpora a nostra disposizione, in particolare allineando i nostri elementi con
+l'annotazione UD.
+
+Come abbiamo visto, il formato CoNLL-U si compone di 10 colonne. A queste aggiungiamo un'ulteriore
+colonna con la nostra annotazione.
+
+Consideriamo il seguente esempio CoNLL-U:
+```
+# sent_id = 3214_it_postwita
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-PoSTWITA/it_postwita-ud-train 3214
+# text = Pensa se alla fine di tutto sto casino viene fuori che Borghezio è l'unico onesto
+```
+
+ID | FORM | LEMMA | UPOS | XPOS | FEATS | HEAD | DEPREL | DEPS | MISC
+------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | -------
+1 | Pensa | pensare | VERB | V | Mood=Imp\|Number=Sing\|Person=2\|Tense=Pres\|VerbForm=Fin | 0 | root | _ | _
+2 | se | se | SCONJ | CS | _ | 10 | mark | _ | _
+3-4 | alla | _ | _ | _ | _ | _ | _ | _ | _
+3 | a | a | ADP | E | _ | 5 | case | _ | _
+4 | la | il | DET | RD | Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art | 5 | det | _ | _
+5 | fine | fine | NOUN | S | Gender=Fem\|Number=Sing | 10 | obl | _ | _
+6 | di | di | ADP | E | _ | 9 | case | _ | _
+7 | tutto | tutto | DET | DI | PronType=Ind | 9 | det:predet | _ | _
+8 | sto | questo | DET | DD | PronType=Dem | 9 | det | _ | _
+9 | casino | casino | NOUN | S | Gender=Masc\|Number=Sing | 5 | nmod | _ | _
+10 | viene | venire | VERB | V | Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin | 1 | ccomp | _ | CXN=167:A
+11 | fuori | fuori | ADV | B | _ | 10 | advmod | _ | CXN=167:B
+12 | che | che | SCONJ | CS | _ | 17 | mark | _ | CXN=167:C
+13 | Borghezio | Borghezio | PROPN | SP | _ | 17 | nsubj | _ | _
+14 | è | essere | AUX | V | Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin | 17 | cop | _ | _
+15 | l' | il | DET | RD | Definite=Def\|Number=Sing\|PronType=Art | 17 | det | _ | SpaceAfter=No
+16 | unico | unico | ADJ | A | Gender=Masc\|Number=Sing | 17 | amod | _ | _
+17 | onesto | onesto | ADJ | A | Gender=Masc\|Number=Sing | 10 | ccomp | _ | _
+
+Avendo a disposizione una formalizzazione CoNLL-C per la costruzione "viene fuori che X" come di seguito:
+
+ID | FORM | LEMMA | UPOS | FEATS | HEAD | DEPREL | REQUIRED | EXCLUSION | SEM_FEATS | SEM_ROLES | ADJACENCY | IDENTITY
+------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | -------- | -------- | --------
+A | _ | venire | VERB | Number=Sing\|Person=3 | 0 | root | 1 | CHILDREN:DEPREL=nsubj | _ | _ | _ | _
+B | fuori | fuori | ADV | _ | A | advmod | 1 | _ | _ | _ | _ | _
+C | che | che | SCONJ | _ | D | mark | 1 | _ | _ | _ | _ | _
+D | _ | _ | VERB,NOUN,ADJ | VerbForm=Fin | A | csubj,ccomp | 1 | _ | _ | Eventuality | _ | _
+
+Possiamo procedere ad annotare la frase aggiungendo gli elementi necessari:
+
+ID | FORM | LEMMA | UPOS | XPOS | FEATS | HEAD | DEPREL | DEPS | MISC | CONSTRUCTION
+------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | -------
+1 | Pensa | pensare | VERB | V | Mood=Imp\|Number=Sing\|Person=2\|Tense=Pres\|VerbForm=Fin | 0 | root | _ | _ | _
+2 | se | se | SCONJ | CS | _ | 10 | mark | _ | _ | _
+3-4 | alla | _ | _ | _ | _ | _ | _ | _ | _ | _
+3 | a | a | ADP | E | _ | 5 | case | _ | _ | _
+4 | la | il | DET | RD | Definite=Def\|Gender=Fem\|Number=Sing\|PronType=Art | 5 | det | _ | _ | _
+5 | fine | fine | NOUN | S | Gender=Fem\|Number=Sing | 10 | obl | _ | _ | _
+6 | di | di | ADP | E | _ | 9 | case | _ | _ | _
+7 | tutto | tutto | DET | DI | PronType=Ind | 9 | det:predet | _ | _ | _
+8 | sto | questo | DET | DD | PronType=Dem | 9 | det | _ | _ | _
+9 | casino | casino | NOUN | S | Gender=Masc\|Number=Sing | 5 | nmod | _ | _ | _
+10 | viene | venire | VERB | V | Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin | 1 | ccomp | _ | _ | 167:A
+11 | fuori | fuori | ADV | B | _ | 10 | advmod | _ | _ | 167:B
+12 | che | che | SCONJ | CS | _ | 17 | mark | _ | _ | 167:C
+13 | Borghezio | Borghezio | PROPN | SP | _ | 17 | nsubj | _ | _ | _
+14 | è | essere | AUX | V | Mood=Ind\|Number=Sing\|Person=3\|Tense=Pres\|VerbForm=Fin | 17 | cop | _ | _ | _
+15 | l' | il | DET | RD | Definite=Def\|Number=Sing\|PronType=Art | 17 | det | _ | SpaceAfter=No | _
+16 | unico | unico | ADJ | A | Gender=Masc\|Number=Sing | 17 | amod | _ | _ | _
+17 | onesto | onesto | ADJ | A | Gender=Masc\|Number=Sing | 10 | ccomp | _ | | 167:D
+
+Su una stessa frase e anche su uno stesso elemento possono essere presenti annotazioni di più costruzioni.
+Quando questo accade, sono legate da pipe (|).
+
+Nel caso delle costruzioni morfologiche, gli elementi al di sotto del livello di parola vanno aggiunti
+all'esempio.
+
+```
+# sent_id = VIT-8523
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-VIT/it_vit-ud-train VIT-8523
+# text = Pochi, i cittadini di buona volontà, e seminascosti da un ingente presidio di poliziotti e di militari.
+```
+
+ID | FORM | LEMMA | UPOS | XPOS | FEATS | HEAD | DEPREL | DEPS | MISC | CONSTRUCTION
+------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | -------
+1 | Pochi | poco | PRON | PI | Gender=Masc\|Number=Plur\|PronType=Ind | 0 | root | _ | SpaceAfter=No | _
+2 | , | , | PUNCT | FF | _ | 1 | punct | _ | _ | _
+3 | i | il | DET | RD | Definite=Def\|Gender=Masc\|Number=Plur\|PronType=Art | 4 | det | _ | _ | _
+4 | cittadini | cittadino | NOUN | S | Gender=Masc\|Number=Plur | 1 | appos | _ | _ | _
+5 | di | di | ADP | E | _ | 7 | case | _ | _ | _
+6 | buona | buono | ADJ | A | Gender=Fem\|Number=Sing | 7 | amod | _ | _ | _
+7 | volontà | volontà | NOUN | S | Gender=Fem | 4 | nmod | _ | SpaceAfter=No | _
+8 | , | , | PUNCT | FF | _ | 10 | punct | _ | _ | _
+9 | e | e | CCONJ | CC | _ | 10 | cc | _ | _ | _
+10 | seminascosti | seminascosto | ADJ | A | Gender=Masc\|Number=Plur | 1 | conj | _  | _ | 169a:A
+10.1 | semi | semi | BMORPH | _ | _ | 10.2 | der/m | _ | _ | 169a:A.1
+10.2 | nascosti | nascosto | ADJ | A | Gender=Masc\|Number=Plur | 10 | root/m | _ | _ | 169a:A.2
+11 | da | da | ADP | E | _ | 14 | case | _ | _ | _
+12 | un | uno | DET | RI | Definite=Ind\|Gender=Masc\|Number=Sing\|PronType=Art | 14 | det | _ | _ | _
+13 | ingente | ingente | ADJ | A | Number=Sing | 14 | amod | _ | _ | _
+14 | presidio | presidio | NOUN | S | Gender=Masc\|Number=Sing | 10 | obl | _ | _ | _
+15 | di | di | ADP | E | _ | 16 | case | _ | _ | _
+16 | poliziotti | poliziotto | NOUN | S | Gender=Masc\|Number=Plur | 14 | nmod | _ | _ | _
+17 | e | e | CCONJ | CC | _ | 19 | cc | _ | _ | _
+18 | di | di | ADP | E | _ | 19 | case | _ | _ | _
+19 | militari | militare | NOUN | S | Gender=Masc\|Number=Plur | 16 | conj | _ | SpaceAfter=No | _
+20 | . | . | PUNCT | FS | _ | 1 | punct | _ | _ | _
 
 ## E quindi come si fa?
+
+A regime ci saranno degli step automatici nel processo e l'annotazione sarà mediata da un'interfaccia.
+Per adesso, seguiamo questi step:
+
+1. Creiamo il file `.yaml` per la nostra costruzione a partire dal template. Assegnamo un ID a caso.
+   L'unico requisito è che non sia già stato scelto.
+2. Compiliamo lo yaml per quanto possibile, e creiamo il corrispondente file `.conllc`
+3. Proviamo a cercare alcuni esempi della costruzione che vogliamo formalizzare su grew match,
+   su tutti i corpora italiani
+4. Se non riusciamo a trovare esempi (i corpora sono relativamente piccoli),
+   cerchiamo qualcosa di simile in lingue affini (es. altre lingue romanze o in generale lingue che
+   parliamo e dove riusciamo a trovare una struttura simile)
+5. Scegliamo la rappresentazione sintattica che ci sembra più fedele a ciò che vogliamo rappresentare
+   e partiamo da quella per costruire il file CoNLL-C (può essere utile anche excel per compilare meglio
+   il formato tabulare)
+6. Cerchiamo degli esempi preferibilmente già nei corpora UD (tramite grew match).
+   1. Se ne troviamo, salviamo l'esempio in un file dedicato e aggiungiamo l'annotazione degli elementi
+   2. Se non troviamo nessun esempio già in UD, cerchiamolo in altre risorse. Possiamo parsarlo in UD
+      usando strumenti come ad esempio [udpipe](https://lindat.mff.cuni.cz/services/udpipe/) o al minimo
+      tokenizzarlo mettendo ogni token su una riga diversa. L'annotazione fornita da UDPipe probabilmente
+      non sarà perfetta ma dovrebbe essere semplice da modificare. A quel punto possiamo aggiungere
+      l'esempio in un file dedicato ed aggiungere l'annotazione relativa alla nostra costruzione.
+7. Controlliamo che gli esempi già presenti per altre costruzioni non contengano anche esempi della nostra
+   costruzione. In caso positivo, aggiungiamo l'annotazione del caso.
