@@ -336,8 +336,67 @@ Iniziamo ora con restrizioni aggiuntive che allontanano il nostro formato dal fo
 
 #### Restrizioni semantiche
 
+Spesso importanti restrizioni sulla produttività della costruzione provengono dal campo semantico
+legato ad uno slot.
+Sebbene UD non preveda annotazione di questo tipo, in CoNLL-C due campi (**SEM_FEATS** e **SEM_ROLES**)
+sono dedicati a specificare restrizioni di questo tipo.
+
+- Per le features semantiche (**SEM_FEATS**), è possibile specificare la classe ontologica per nomi e
+  verbi (`OntoClass`), l'Aktionsart per i verbi (`Aktionsart`) e la classe da ontologie dedicate per
+  aggettivi e avverbi (`AdjClass` e `AdvClass`).
+  Se quindi ad esempio vogliamo formalizzare una sottocostruzione della costruzione precedente,
+  restringendo la produttività ai nomi di tempo (ora dopo ora, giorno dopo giorno, ma escludendo
+  settore dopo settore), possiamo esprimerlo così
+
+  ID | FORM | LEMMA | UPOS | FEATS | HEAD | DEPREL | IDENTITY | ADJACENCY | EXCLUSION | SEM_FEATS
+  ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------ | ------ | ------ | ------
+  A | _ | _ | NOUN | Number=Sing | 0 | root | FORM=C | _ | CHILDREN:DEPREL=amod | time
+  B | dopo | dopo | ADP | _ | C | case | _ | A | _ | _
+  C | _ | _ | NOUN | Number=Sing | A | nmod | FORM=A | B | CHILDREN:DEPREL=amod | time
+
+- Similmente, possiamo annotae il ruolo semantico realizzato dagli elementi della costruzione,
+  seguendo la tassonomia prevista da [Unified Verb Index](https://uvi.colorado.edu/references_page#ThematicRoleHierarchy)
+
 #### Precisazioni sulla sintassi dei campi
+
+Se pensiamo in termini di restrizioni, per poter esprimere al meglio le restrizioni possibili sugli
+slot, abbiamo bisogno di introdurre alcune operazioni sui possibili valori:
+
+- **disgiunzione**: se pensiamo alla costruzione "che X!", non possiamo esprimere la parte del discorso
+  da attribuire a X con una sola etichetta. Vogliamo infatti rappresentare costrutti diversi, che
+  includono sia aggettivi (Che bello!) sia nomi (Che noia!)
+  Per esprimere la disgiunzione tra due valori ("ADJ" oppure "NOUN") possiamo in generale usare
+  la virgola.
+
+  ID | FORM | LEMMA | UPOS | FEATS | HEAD | DEPREL | IDENTITY | ADJACENCY | EXCLUSION
+  ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------ | ------ | ------
+  A | che | che | DET | _ | B | det | _ | _ | _
+  B | _ | _ | ADJ,NOUN | _ | 0 | root | _ | _ | _
+
+  La disgiunzione può avvenire:
+  - nel campo **LEMMA** (e.g., "che,qual")
+  - per ogni feature morfosintattica (e.g. VerbForm=Fin,Part)
+  - per la relazione di dipendenza *tranne root* (e.g., "det,amod")
+  - per i semantic roles e le semantic features
+
+- **negazione**: allo stesso modo, potremmo voler restringere la produttività escludendo un valore
+  piuttosto che elencando i valori possibili (per esempio: lo slot può essere riempito da qualsiasi
+  categoria tranne che un nome proprio). In questo caso usiamo il punto esclamativo per segnalarlo
+  ("!PROPN")
+
+  La negazione può avvenire:
+  - nel campo **LEMMA** (e.g., "!che")
+  - per ogni feature morfosintattica (e.g. VerbForm=!Fin)
+  - per la relazione di dipendenza *tranne root* (e.g., "!det")
+  - per i semantic roles e le semantic features
+
+- **congiunzione**: nel caso delle features e dei filtri che vogliamo applicare (**EXCLUSION**)
+
+
+Un altro aspetto da considerare è l'opzionalità
 
 ## Morfologia
 
 ## Esempi
+
+## E quindi come si fa?
