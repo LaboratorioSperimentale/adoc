@@ -8,7 +8,7 @@ HEADER = ["ID", "UD.FORM", "LEMMA", "UPOS", "FEATS", "HEAD", "DEPREL", "REQUIRED
 HEADER_MAP = {field: pos for pos, field in enumerate(HEADER)}
 
 def parse_custom_conllu_cxn(conllu_string):
-    
+
     constructions = []
     current_conllu = []
 
@@ -16,21 +16,23 @@ def parse_custom_conllu_cxn(conllu_string):
     for line in lines:
         if line.startswith("# cxn_id ="):
             if current_conllu:
-                constructions.append("\n".join(current_conllu))
-            current_conllu = [line]
+                # constructions.append("\n".join(current_conllu))
+                constructions.append(current_conllu)
+            current_conllu = [line.strip()]
         else:
-            current_conllu.append(line)
-    
+            current_conllu.append(line.strip())
+
     if current_conllu:
-        constructions.append("\n".join(current_conllu))
+        # constructions.append("\n".join(current_conllu))
+        constructions.append(current_conllu)
 
     parsed_data = []
     for cxn_string in constructions:
-        lines = cxn_string.strip().split('\n')
+        # lines = cxn_string.strip().split('\n')
         nodes_data = {}
         identity_data = set()
-        
-        for line in lines:
+
+        for line in cxn_string:
             line = line.strip()
             if not line:
                 continue
@@ -47,7 +49,7 @@ def parse_custom_conllu_cxn(conllu_string):
             node_id = parts[HEADER_MAP['ID']]
             if "." in node_id:
                 continue
-            
+
             node_props = {}
 
             form = parts[HEADER_MAP['UD.FORM']]
@@ -107,12 +109,12 @@ def parse_custom_conllu_cxn(conllu_string):
     return parsed_data
 
 def generate_grew_query_from_parsed(nodes_data,
-                                  identity_constraints=[],
-                                  children_deprel_constraints=None,
-                                  pattern_name=""):
+                                identity_constraints=[],
+                                children_deprel_constraints=None,
+                                pattern_name=""):
 
     query_lines = []
-    
+
     query_lines.append(f"pattern {{")
 
     for node_name, node in nodes_data.items():
@@ -122,7 +124,7 @@ def generate_grew_query_from_parsed(nodes_data,
             query_lines.append(f"{node_name}[form=/{node['form']}/i];")
 
         if "lemma" in node:
-            lemma_str = [f'/{el.strip()}/i' for el in node["lemma"]]
+            lemma_str = [f'"{el.strip()}"' for el in node["lemma"]]
             query_lines.append(f"{node_name}[lemma={ '|'.join(lemma_str) }];")
 
         if "upos" in node:
@@ -156,8 +158,8 @@ def generate_grew_query_from_parsed(nodes_data,
     return "\n".join(query_lines)
 
 if __name__ == "__main__":
-    file_da_testare = sys.argv[1]
 
+    file_da_testare = sys.argv[1]
     print(f"\n--- reading '{file_da_testare}' ---")
 
     try:
@@ -168,17 +170,17 @@ if __name__ == "__main__":
         sys.exit()
 
     parsed_constructions = parse_custom_conllu_cxn(mio_input_conllu)
-    
+
     if not parsed_constructions:
         print("Nessuna costruzione trovata nel file.")
         sys.exit()
 
     output_dir_queries = "formalizzazioni"
     os.makedirs(output_dir_queries, exist_ok=True)
-    
+
     all_queries_grew = []
     base_filename, _ = os.path.splitext(os.path.basename(file_da_testare))
-    
+
     match = re.search(r'\d+', base_filename)
     cxn_number = match.group(0) if match else "0"
 
@@ -194,47 +196,47 @@ if __name__ == "__main__":
 
         print(f"\n--- Query generata per la costruzione {i+1} ---")
         print(query_grew_generata)
-        
+
         alphabet_suffix = chr(ord('a') + i)
         header = f"# cxn={cxn_number}_{alphabet_suffix}"
         all_queries_grew.append(f"{header}\n{query_grew_generata}")
 
     output_filename = f"{output_dir_queries}/{base_filename}.gq"
-    
+
     with open(output_filename, "w", encoding="utf-8") as f:
         f.write("\n---\n".join(all_queries_grew))
     print(f"\nTutte le query sono state salvate in un unico file: '{output_filename}'")
 
-    print("\n--- Esecuzione delle query sui corpora ---")
-    
-    corpora_dir = "corpora"
-    output_results_dir = "risultati_query_corpora"
+    # print("\n--- Esecuzione delle query sui corpora ---")
 
-    if not os.path.isdir(corpora_dir):
-        print(f"Errore: La cartella dei corpora '{corpora_dir}' non è stata trovata. Impossibile eseguire le query.")
-        sys.exit()
-    
-    os.makedirs(output_results_dir, exist_ok=True)
+    # corpora_dir = "corpora"
+    # output_results_dir = "risultati_query_corpora"
 
-    for corpus_file in os.listdir(corpora_dir):
-        if corpus_file.endswith(('.conllu', '.conllc')):
-            corpus_base_name, _ = os.path.splitext(os.path.basename(corpus_file))
-            corpus_path = os.path.join(corpora_dir, corpus_file)
-            
-            output_result_filename = f"{output_results_dir}/{base_filename}_su_{corpus_base_name}.txt"
-            
-            print(f"- Esecuzione delle query del file '{output_filename}' su '{corpus_path}'...")
-            
-            try:
-                with open(output_result_filename, "w", encoding="utf-8") as outfile:
-                    subprocess.run(
-                        ["grew", "-graph", corpus_path, "-query", output_filename],
-                        stdout=outfile, stderr=subprocess.PIPE, check=True
-                    )
-                print(f"  Risultati salvati in '{output_result_filename}'")
-                    
-            except FileNotFoundError:
-                print("Errore: L'eseguibile di Grew non è stato trovato. Assicurati che sia installato e nel tuo PATH.")
-                break
-            except subprocess.CalledProcessError as e:
-                print(f"  Errore durante l'esecuzione di Grew. Errore standard: {e.stderr.decode('utf-8')}")
+    # if not os.path.isdir(corpora_dir):
+    #     print(f"Errore: La cartella dei corpora '{corpora_dir}' non è stata trovata. Impossibile eseguire le query.")
+    #     sys.exit()
+
+    # os.makedirs(output_results_dir, exist_ok=True)
+
+    # for corpus_file in os.listdir(corpora_dir):
+    #     if corpus_file.endswith(('.conllu', '.conllc')):
+    #         corpus_base_name, _ = os.path.splitext(os.path.basename(corpus_file))
+    #         corpus_path = os.path.join(corpora_dir, corpus_file)
+
+    #         output_result_filename = f"{output_results_dir}/{base_filename}_su_{corpus_base_name}.txt"
+
+    #         print(f"- Esecuzione delle query del file '{output_filename}' su '{corpus_path}'...")
+
+    #         try:
+    #             with open(output_result_filename, "w", encoding="utf-8") as outfile:
+    #                 subprocess.run(
+    #                     ["grew", "-graph", corpus_path, "-query", output_filename],
+    #                     stdout=outfile, stderr=subprocess.PIPE, check=True
+    #                 )
+    #             print(f"  Risultati salvati in '{output_result_filename}'")
+
+    #         except FileNotFoundError:
+    #             print("Errore: L'eseguibile di Grew non è stato trovato. Assicurati che sia installato e nel tuo PATH.")
+    #             break
+    #         except subprocess.CalledProcessError as e:
+    #             print(f"  Errore durante l'esecuzione di Grew. Errore standard: {e.stderr.decode('utf-8')}")
