@@ -143,3 +143,4 @@ def main_parser(file_paths):
             print(f"Si è verificato un errore inaspettato durante l'analisi di '{file_path}': {e}")
             
 main_parser(['repubblica.sample', 'paisa.sample', 'itwac.sample'])
+
