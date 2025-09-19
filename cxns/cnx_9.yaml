@@ -1,0 +1,49 @@
+name: N da N
+
+cxn-machine-readable: cxn_9.conllc
+
+definition: A NOUN wich is specified by the NOUN that follows connected to the first one by the ADP "da"
+
+restrictions: 
+
+coll-preferences: 
+
+usage:
+    - Formal
+    - Informal
+    - Spoken
+    - Written
+    - Standard
+
+form-tags:
+    - exocentric
+    - cc:str:compounding 
+
+function-tags:
+    - instrument noun
+
+complexity-level:
+    - word
+
+category-tags:
+    - noun
+    - adjective
+
+schematicity: partially filled/schematic
+
+horizontal-links:
+vertical-links:
+    - 147
+
+examples:
+    - tut-3121
+    - ItTenten20_19072024_SM
+
+cefr-level:
+
+references:
+    - Micheli2020composizione
+
+collector: msilviamich
+
+note:
