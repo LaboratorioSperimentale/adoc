@@ -1,0 +1,51 @@
+name: Sia X che Y
+
+cxn-machine-readable: cxn_122.conllc
+
+definition: |
+    Coordination...
+
+restrictions: |
+    X and Y are NOUNS, ADJ or ADV.
+
+coll-preferences: The VERB is frequently bysillabic.
+
+usage:
+    - Formal
+    - Informal
+    - Spoken
+    - Written
+    - Standard
+
+form-tags:
+    - exocentric
+    - cc:str:compounding
+
+function-tags:
+    - professional nouns
+
+complexity-level:
+    - word
+
+category-tags:
+    - noun
+    - adjective
+
+schematicity: fully schematic
+
+horizontal-links:
+vertical-links:
+
+examples:
+    - tut-3121
+    - ItTenten20_19072024_SM
+
+cefr-level:
+
+references:
+    - Micheli2020composizione
+
+
+collector: msilviamich
+
+note: lalalallalala
