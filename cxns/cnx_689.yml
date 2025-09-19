@@ -1,0 +1,49 @@
+name: quanto a N
+
+cxn-machine-readable: cxn_689.conllc
+
+definition: 
+
+restrictions: 
+
+coll-preferences: 
+
+usage:
+    - Formal
+    - Informal
+    - Spoken
+    - Written
+    - Standard
+
+form-tags:
+    - 
+    - cc:str:
+
+function-tags:
+    - 
+
+complexity-level:
+    - 
+
+category-tags:
+    - 
+    - 
+
+schematicity: partially filled/schematic
+
+horizontal-links:
+vertical-links:
+    - 
+
+examples:
+    - 
+    - 
+
+cefr-level:
+
+references:
+    - 
+
+collector: lea
+
+note:
