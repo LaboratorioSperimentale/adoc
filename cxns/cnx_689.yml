@@ -2,9 +2,9 @@ name: quanto a N
 
 cxn-machine-readable: cxn_689.conllc
 
-definition: 
+definition: aboutness construction
 
-restrictions: 
+restrictions: the N must be about something you want to talk about
 
 coll-preferences: 
 
@@ -17,16 +17,16 @@ usage:
 
 form-tags:
     - 
-    - cc:str:
+    - 
 
 function-tags:
     - 
 
-complexity-level:
-    - 
+complexity-level: 
+    - clause
 
-category-tags:
-    - 
+category-tags: 
+    - noun
     - 
 
 schematicity: partially filled/schematic
@@ -35,7 +35,7 @@ horizontal-links:
 vertical-links:
     - 
 
-examples:
+examples: 
     - 
     - 
 

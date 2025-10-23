@@ -1,0 +1,10 @@
+# cxn_id = 122
+# name = sia X che Y
+# function = X and Y are included
+# horizontal_links =
+# vertical_links =
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY
+A	sia	sia	CCONJ	_	B	cc	_	_	_	_	_	UPOS=C; number=C
+B	_	_	NOUN, ADJ, ADV, VERB	VerbForm=Inf	0	root	_	_	_	_	_	_
+C	che	che	CCONJ	_	D	cc	_	_	_	_	_	UPOS=A; number=A
+D	_	_	NOUN, ADJ, ADV, VERB	VerbForm=Inf	A	cconj	_	_	_	_	_	_

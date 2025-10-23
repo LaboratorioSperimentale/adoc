@@ -1,0 +1,5 @@
+# cxn_id = 150										
+A	_	_	VERB	_	0	root	_	_		_
+B	in	in	ADP	_	D	case	_	A		_
+C	malo	malo	ADJ	Gender=Masc|Number=Sing	D	amod	_	B		_
+D	modo	modo	NOUN	Gender=Masc|Number=Sing	A	obl	_	C		_

@@ -1,14 +1,14 @@
-name: Sia X che Y
+name: sia X che Y
 
 cxn-machine-readable: cxn_122.conllc
 
 definition: |
-    Coordination...
+    Coordination between two properties or entities: the speaker wants to include both in a concept.
 
 restrictions: |
-    X and Y are NOUNS, ADJ or ADV.
+    X and Y may be NOUNS, ADJ or ADV (but they must have the same UPOS and same features). Even V-INF are permitted, if nominal.
 
-coll-preferences: The VERB is frequently bysillabic.
+coll-preferences:
 
 usage:
     - Formal
@@ -18,18 +18,20 @@ usage:
     - Standard
 
 form-tags:
-    - exocentric
-    - cc:str:compounding
+    #- exocentric
+    #- cc:str:compounding
 
 function-tags:
-    - professional nouns
+    #- professional nouns
 
 complexity-level:
-    - word
+    - phrase
 
 category-tags:
     - noun
     - adjective
+    - adverb
+    - v-inf
 
 schematicity: fully schematic
 
@@ -43,9 +45,9 @@ examples:
 cefr-level:
 
 references:
-    - Micheli2020composizione
+    #- Micheli2020composizione
 
 
-collector: msilviamich
+collector: leosanpietro
 
-note: lalalallalala
+note:
