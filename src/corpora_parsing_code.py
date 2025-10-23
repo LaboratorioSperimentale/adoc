@@ -1,12 +1,25 @@
 import spacy
+from spacy.tokens import Doc
 import re
 import os
 import spacy_conll
+import tqdm
 
 def _get_nlp_instance():
+    def custom_tokenizer(text):
+        tokens = text.split(" ")
+
+        # your existing code to fill the list with tokens
+
+        # replace this line:
+        return Doc(nlp.vocab, tokens)
+
+        # with this:
+        # return Doc(nlp.vocab, tokens)
 
     try:
-        nlp = spacy.load("it_core_news_sm")
+        nlp = spacy.load("it_core_news_sm", exclude=["ner"])
+        nlp.tokenizer = custom_tokenizer
         nlp.add_pipe("conll_formatter", last=True)
         return nlp
     except OSError:
@@ -39,17 +52,18 @@ def _parse_structured_corpus(file_path, nlp, outfile):
                 if url:
                     outfile.write(f"# newdoc url = {url}\n")
 
-            elif line.startswith('<s>'):
-                sentence_text = ""
+            # elif line.startswith('<s>'):
+            #     sentence_text = ""
 
             elif line.startswith('</s>'):
                 if sentence_text:
                     final_text = sentence_text.strip()
-                    doc = nlp(final_text)
+                    docs = nlp.pipe([final_text])
 
-                    outfile.write(f"# sent_id = {sentence_id}\n")
-                    outfile.write(f"# text = {final_text}\n")
-                    outfile.write(doc._.conll_str + "\n")
+                    for doc in docs:
+                        outfile.write(f"# sent_id = {sentence_id}\n")
+                        outfile.write(f"# text = {final_text}\n")
+                        outfile.write(doc._.conll_str + "\n")
 
                     sentence_id += 1
                 sentence_text = ""

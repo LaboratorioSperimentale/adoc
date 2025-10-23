@@ -1,22 +1,24 @@
 import sys
 import os
 import re
-import pandas as pd
-import subprocess  # Per eseguire il comando 'grew' come processo esterno
-import tempfile    # Per creare e gestire file temporanei per le query
+# import pandas as pd
+
+
+import grewpy
+from grewpy import Corpus, Request, CorpusDraft
 
 # --- CONFIGURAZIONE CRITICA ---
 # Questi nomi non sono più i nomi dei corpora remoti, ma i NOMI delle sottocartelle
 # che hai scaricato nella tua cartella 'corpora'.
 grew_corpora = [
-    'UD_Italian-ISDT', 'bUD_Italian-ISDT', 'UD_Italian-MarkIT', 
-    'UD_Italian-Old', 'UD_Italian-PUD', 'UD_Italian-ParTUT', 
-    'UD_Italian-ParlaMint', 'UD_Italian-PoSTWITA', 'UD_Italian-TWITTIRO', 
+    'UD_Italian-ISDT', 'bUD_Italian-ISDT', 'UD_Italian-MarkIT',
+    'UD_Italian-Old', 'UD_Italian-PUD', 'UD_Italian-ParTUT',
+    'UD_Italian-ParlaMint', 'UD_Italian-PoSTWITA', 'UD_Italian-TWITTIRO',
     'UD_Italian-VIT', 'UD_Italian-Valico'
 ]
 
 # *** IL PERCORSO CHE PUNTIAMO: LA TUA CARTELLA 'corpora' ***
-LOCAL_CORPUS_DIR = "corpora" 
+LOCAL_CORPUS_DIR = "corpora"
 # --- FINE CONFIGURAZIONE ---
 
 # --- DICHIARAZIONI INIZIALI E FUNZIONI DI PARSING/QUERY (INVARIATE) ---
@@ -118,9 +120,8 @@ def generate_grew_query_from_parsed(nodes_data, identity_constraints=[], childre
     return "\n".join(query_lines)
 
 # --- Esecuzione Principale ---
-
 if __name__ == "__main__":
-    
+
     if len(sys.argv) < 2:
         print("Errore: Devi fornire il percorso del file .conllc come argomento.")
         sys.exit()
@@ -136,17 +137,17 @@ if __name__ == "__main__":
         sys.exit()
 
     parsed_constructions = parse_custom_conllu_cxn(mio_input_conllu)
-    
+
     if not parsed_constructions:
         print("Nessuna costruzione trovata nel file.")
         sys.exit()
 
     output_dir_queries = "formalizzazioni"
     os.makedirs(output_dir_queries, exist_ok=True)
-    
+
     all_queries_grew_with_id = []
     base_filename, _ = os.path.splitext(os.path.basename(file_da_testare))
-    
+
     match = re.search(r'\d+', base_filename)
     cxn_number = match.group(0) if match else "0"
 
@@ -155,112 +156,141 @@ if __name__ == "__main__":
             nodes_data=nodes,
             identity_constraints=identity_constraints,
         )
-        
+
         alphabet_suffix = chr(ord('a') + i)
         query_id = f"cxn={cxn_number}_{alphabet_suffix}"
-        
+
         all_queries_grew_with_id.append({
             'id': query_id,
             'query': query_grew_generata,
             'header': f"#{query_id}\n{query_grew_generata}"
         })
 
+    print(all_queries_grew_with_id)
+    # input()
+
     # ---
     ## 1. Esecuzione e Conteggio Corpus per Corpus (Bypass API - Comando di Sistema)
     # ---
 
-    print("\n--- 1. Esecuzione e Conteggio (Bypass API con comando di sistema 'grew' e file locali) ---")
-    
-    results_list = []
-    
-    print(f"Userà i seguenti {len(grew_corpora)} cartelle locali: {', '.join(grew_corpora)}")
-    
-    for corpus_name in grew_corpora:
-        corpus_path = f'{LOCAL_CORPUS_DIR}/{corpus_name}'
-        print(f"  -> Processando cartella corpus: {corpus_path}...")
+    grewpy.set_config("ud") # ud or basic
 
-        if not os.path.isdir(corpus_path):
-            print(f"  ❌ Errore: Cartella corpus non trovata a '{corpus_path}'. Salto.")
-            continue
+    treebank_path = "corpora_parsed"
+    corpus = Corpus(treebank_path)
+    draft = CorpusDraft(treebank_path)
 
-        for query_data in all_queries_grew_with_id:
-            query_id = query_data['id']
-            query_string = query_data['query']
-            
-            tmp_file_path = None
-            try:
-                with tempfile.NamedTemporaryFile(mode='w', delete=False, suffix='.gq') as tmp_file:
-                    tmp_file.write(query_string)
-                    tmp_file_path = tmp_file.name
-                
-                command = [
-                    'grew', 'count', 
-                    '-grs', tmp_file_path, 
-                    
-                    '-dir', corpus_path 
-                ]
-                
-                process = subprocess.run(
-                    command, 
-                    capture_output=True, 
-                    text=True, 
-                    check=True, 
-                    encoding='utf-8'
-                )
-                
-                output_line = process.stdout.strip()
-                
-                count_match = re.search(r'(\d+)', output_line)
-                count_result = int(count_match.group(1)) if count_match else 0
-                
-                results_list.append({
-                    'Query_ID': query_id,
-                   
-                    'Corpus': f'{corpus_name}@Local', 
-                    'Count': count_result
-                })
-                
-            except subprocess.CalledProcessError as e:
-               
-                error_message = e.stderr.strip().split('\n')[-1]
-                print(f"  ❌ Errore Grew su {corpus_name} con {query_id}: {error_message}")
-                results_list.append({
-                    'Query_ID': query_id,
-                    'Corpus': f'{corpus_name}@Local',
-                    'Count': 0
-                })
-            except Exception as e:
-                print(f"  ❌ Errore sconosciuto su {corpus_name} con {query_id}: {e}")
-                results_list.append({
-                    'Query_ID': query_id,
-                    'Corpus': f'{corpus_name}@Local',
-                    'Count': 0
-                })
-            finally:
-               
-                if tmp_file_path and os.path.exists(tmp_file_path):
-                    os.remove(tmp_file_path)
+    for query in all_queries_grew_with_id:
+            req1 = Request(query["query"])
+            occurrences = corpus.search(req1)
 
-    if not results_list:
-        print("Nessun risultato valido è stato generato.")
-        sys.exit()
+            for occurrence in occurrences:
+                sent_id = occurrence['sent_id']
+                # print(occurrence["matching"]["nodes"])
+                for node_id, node_num in occurrence["matching"]["nodes"].items():
+                    draft[sent_id][node_num].update({"Cxn": f"149.{node_id}"})
+                    draft[sent_id][node_num].update({"Cxn": f"{draft[sent_id][node_num]['Cxn']},159.{node_id}"})
 
-    print("\n--- 2. Salvataggio dei risultati in CSV ---")
-    
-    output_results_dir = "risultati_query_corpora"
-    os.makedirs(output_results_dir, exist_ok=True)
-    output_csv_filename = f"{output_results_dir}/{base_filename}_conteggi.csv"
+                    # print(draft[sent_id][node_num])
 
-    try:
-    
-        results_df = pd.DataFrame(results_list)
-        results_df_pivot = results_df.pivot(index='Query_ID', columns='Corpus', values='Count').fillna(0)
-        results_df_pivot.to_csv(output_csv_filename, sep='\t')
-        
-        print(f"✅ Risultati di Conteggio salvati con successo in: '{output_csv_filename}'")
-    
-    except Exception as e:
-        print(f"❌ Errore durante la creazione o il salvataggio del CSV: {e}")
+                # print(occurrence)
+                # print(corpus[occurrence["sent_id"]].meta)
+                # input()
 
-    print("\n--- 3. Visualizzazione Grafica (Disabilitata) ---")
-    print("La visualizzazione grafica richiede l'API grewpy, che è incompatibile con il tuo sistema.")
+    corpus2 = Corpus(draft)
+    with open("corpora_parsed/repubblica.edit.conllu", "w") as fout:
+        print(corpus2.to_conll(), file=fout)
+    # print("\n--- 1. Esecuzione e Conteggio (Bypass API con comando di sistema 'grew' e file locali) ---")
+
+    # results_list = []
+
+    # print(f"Userà i seguenti {len(grew_corpora)} cartelle locali: {', '.join(grew_corpora)}")
+
+    # for corpus_name in grew_corpora:
+    #     corpus_path = f'{LOCAL_CORPUS_DIR}/{corpus_name}'
+    #     print(f"  -> Processando cartella corpus: {corpus_path}...")
+
+    #     if not os.path.isdir(corpus_path):
+    #         print(f"  ❌ Errore: Cartella corpus non trovata a '{corpus_path}'. Salto.")
+    #         continue
+
+    #     for query_data in all_queries_grew_with_id:
+    #         query_id = query_data['id']
+    #         query_string = query_data['query']
+
+    #         tmp_file_path = None
+    #         try:
+    #             with tempfile.NamedTemporaryFile(mode='w', delete=False, suffix='.gq') as tmp_file:
+    #                 tmp_file.write(query_string)
+    #                 tmp_file_path = tmp_file.name
+
+    #             command = [
+    #                 'grew', 'count',
+    #                 '-grs', tmp_file_path,
+
+    #                 '-dir', corpus_path
+    #             ]
+
+    #             process = subprocess.run(
+    #                 command,
+    #                 capture_output=True,
+    #                 text=True,
+    #                 check=True,
+    #                 encoding='utf-8'
+    #             )
+
+    #             output_line = process.stdout.strip()
+
+    #             count_match = re.search(r'(\d+)', output_line)
+    #             count_result = int(count_match.group(1)) if count_match else 0
+
+    #             results_list.append({
+    #                 'Query_ID': query_id,
+
+    #                 'Corpus': f'{corpus_name}@Local',
+    #                 'Count': count_result
+    #             })
+
+    #         except subprocess.CalledProcessError as e:
+
+    #             error_message = e.stderr.strip().split('\n')[-1]
+    #             print(f"  ❌ Errore Grew su {corpus_name} con {query_id}: {error_message}")
+    #             results_list.append({
+    #                 'Query_ID': query_id,
+    #                 'Corpus': f'{corpus_name}@Local',
+    #                 'Count': 0
+    #             })
+    #         except Exception as e:
+    #             print(f"  ❌ Errore sconosciuto su {corpus_name} con {query_id}: {e}")
+    #             results_list.append({
+    #                 'Query_ID': query_id,
+    #                 'Corpus': f'{corpus_name}@Local',
+    #                 'Count': 0
+    #             })
+    #         finally:
+
+    #             if tmp_file_path and os.path.exists(tmp_file_path):
+    #                 os.remove(tmp_file_path)
+
+    # if not results_list:
+    #     print("Nessun risultato valido è stato generato.")
+    #     sys.exit()
+
+    # print("\n--- 2. Salvataggio dei risultati in CSV ---")
+
+    # output_results_dir = "risultati_query_corpora"
+    # os.makedirs(output_results_dir, exist_ok=True)
+    # output_csv_filename = f"{output_results_dir}/{base_filename}_conteggi.csv"
+
+    # try:
+
+    #     results_df = pd.DataFrame(results_list)
+    #     results_df_pivot = results_df.pivot(index='Query_ID', columns='Corpus', values='Count').fillna(0)
+    #     results_df_pivot.to_csv(output_csv_filename, sep='\t')
+
+    #     print(f"✅ Risultati di Conteggio salvati con successo in: '{output_csv_filename}'")
+
+    # except Exception as e:
+    #     print(f"❌ Errore durante la creazione o il salvataggio del CSV: {e}")
+
+    # print("\n--- 3. Visualizzazione Grafica (Disabilitata) ---")
+    # print("La visualizzazione grafica richiede l'API grewpy, che è incompatibile con il tuo sistema.")
