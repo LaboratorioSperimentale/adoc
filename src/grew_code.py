@@ -1,296 +1,174 @@
-import sys
-import os
+import spacy
 import re
-# import pandas as pd
+import os
+import spacy_conll
+import ftfy 
 
-
-import grewpy
-from grewpy import Corpus, Request, CorpusDraft
-
-# --- CONFIGURAZIONE CRITICA ---
-# Questi nomi non sono più i nomi dei corpora remoti, ma i NOMI delle sottocartelle
-# che hai scaricato nella tua cartella 'corpora'.
-grew_corpora = [
-    'UD_Italian-ISDT', 'bUD_Italian-ISDT', 'UD_Italian-MarkIT',
-    'UD_Italian-Old', 'UD_Italian-PUD', 'UD_Italian-ParTUT',
-    'UD_Italian-ParlaMint', 'UD_Italian-PoSTWITA', 'UD_Italian-TWITTIRO',
-    'UD_Italian-VIT', 'UD_Italian-Valico'
-]
-
-# *** IL PERCORSO CHE PUNTIAMO: LA TUA CARTELLA 'corpora' ***
-LOCAL_CORPUS_DIR = "corpora"
-# --- FINE CONFIGURAZIONE ---
-
-# --- DICHIARAZIONI INIZIALI E FUNZIONI DI PARSING/QUERY (INVARIATE) ---
-
-HEADER = ["ID", "UD.FORM", "LEMMA", "UPOS", "FEATS", "HEAD", "DEPREL", "REQUIRED",
-          "WITHOUT", "SEM_FEATS", "SEM_ROLES", "ADJACENCY", "IDENTITY"]
-HEADER_MAP = {field: pos for pos, field in enumerate(HEADER)}
-
-def parse_custom_conllu_cxn(conllu_string):
-    constructions = []
-    current_conllu = []
-    lines = conllu_string.strip().split('\n')
-    for line in lines:
-        if line.startswith("# cxn_id ="):
-            if current_conllu:
-                constructions.append("\n".join(current_conllu))
-            current_conllu = [line]
-        else:
-            current_conllu.append(line)
-    if current_conllu:
-        constructions.append("\n".join(current_conllu))
-    parsed_data = []
-    for cxn_string in constructions:
-        lines = cxn_string.strip().split('\n')
-        nodes_data = {}
-        identity_data = set()
-        for line in lines:
-            line = line.strip()
-            if not line: continue
-            if line.startswith('#'): continue
-            parts = line.split('\t')
-            if len(parts) < len(HEADER): continue
-            node_id = parts[HEADER_MAP['ID']]
-            if "." in node_id: continue
-            node_props = {}
-            form = parts[HEADER_MAP['UD.FORM']];
-            if form != '_': node_props['form'] = form
-            lemma = parts[HEADER_MAP['LEMMA']];
-            if lemma != '_': node_props['lemma'] = lemma.split(",")
-            upos = parts[HEADER_MAP['UPOS']];
-            if upos != '_': node_props['upos'] = upos.split(",")
-            feats_str = parts[HEADER_MAP['FEATS']];
-            if feats_str != '_':
-                node_props['features'] = {}
-                for feat_pair in feats_str.split('|'):
-                    if '=' in feat_pair:
-                        k, v = feat_pair.split('=', 1)
-                        node_props['features'][k] = v
-            head = parts[HEADER_MAP['HEAD']];
-            if head != '_': node_props['head'] = head
-            if head == '0': node_props['head'] = "*"
-            deprels = parts[HEADER_MAP['DEPREL']];
-            if deprels != '_':
-                if deprels.startswith('root') and len(deprels.split(":")) > 1:
-                    node_props['deprel'] = [deprels.split(":")[1]]
-                elif not deprels.startswith("root"):
-                    node_props['deprel'] = deprels.split(",")
-            adjacency_field = parts[HEADER_MAP['ADJACENCY']];
-            if adjacency_field != '_': node_props['adjacency'] = adjacency_field
-            nodes_data[node_id] = node_props
-            identity_field = parts[HEADER_MAP['IDENTITY']];
-            if identity_field != '_':
-                identity_constraints = identity_field.split(",")
-                for constraint in identity_constraints:
-                    if '=' in constraint:
-                        attr, other_node_id = constraint.split('=')
-                        attr_lower = attr.lower().replace('ud.', '')
-                        identity_data.add(((min(node_id, other_node_id.strip()), max(node_id, other_node_id.strip())), attr_lower))
-        parsed_data.append((nodes_data, identity_data))
-    return parsed_data
-
-def generate_grew_query_from_parsed(nodes_data, identity_constraints=[], children_deprel_constraints=None, pattern_name=""):
-    query_lines = []
-    query_lines.append(f"pattern {{")
-    for node_name, node in nodes_data.items():
-        query_lines.append(f'{node_name}[];')
-        if "form" in node: query_lines.append(f"{node_name}[form=/{node['form']}/i];")
-        if "lemma" in node:
-            lemma_str = [f'/{el.strip()}/i' for el in node["lemma"]]
-            query_lines.append(f"{node_name}[lemma={ '|'.join(lemma_str) }];")
-        if "upos" in node: query_lines.append(f"{node_name}[upos={'|'.join([x.strip() for x in node['upos']])}];")
-        if "features" in node:
-            for k, v in node["features"].items():
-                query_lines.append(f"{node_name}[{k}={v}]|[!{k}]; ")
-        query_lines.append("")
-    for (nodes, field) in identity_constraints:
-        if field in ['form', 'lemma', 'upos']:
-            node_a, node_b = nodes
-            query_lines.append(f"{node_a}.{field} = {node_b}.{field};")
-        query_lines.append("")
-    for node_name, node in nodes_data.items():
-        if "adjacency" in node: query_lines.append(f"{node['adjacency']} < {node_name};")
-    query_lines.append("")
-    for node_name, node in nodes_data.items():
-        if "head" in node and "deprel" in node: query_lines.append(f"{node['head']} -[{'|'.join([x.strip() for x in node['deprel']])}]-> {node_name};")
-    query_lines.append("")
-    query_lines.append("}")
-    query_lines = [query_lines[0]] + [f"  {el}" for el in query_lines[1:-1]] + [query_lines[-1]]
-    return "\n".join(query_lines)
-
-# --- Esecuzione Principale ---
-if __name__ == "__main__":
-
-    if len(sys.argv) < 2:
-        print("Errore: Devi fornire il percorso del file .conllc come argomento.")
-        sys.exit()
-
-    file_da_testare = sys.argv[1]
-    print(f"\n--- reading '{file_da_testare}' ---")
-
+def _get_nlp_instance():
+    """Inizializza l'istanza di spaCy con il modello italiano e il conll_formatter."""
     try:
-        with open(file_da_testare, "r", encoding="utf-8") as f:
-            mio_input_conllu = f.read()
-    except FileNotFoundError:
-        print(f"Errore: Il file '{file_da_testare}' non è stato trovato. Controlla il percorso.")
-        sys.exit()
+        nlp = spacy.load("it_core_news_sm")
+        nlp.add_pipe("conll_formatter", last=True)
+        nlp.max_length = 3000000
+        return nlp
+    except OSError:
+        print("Il modello 'it_core_news_sm' non è installato.")
+        print("Per installarlo, esegui: python -m spacy download it_core_news_sm")
+        print("Potrebbe essere necessario installare anche la libreria ftfy: pip install ftfy")
+        return None
 
-    parsed_constructions = parse_custom_conllu_cxn(mio_input_conllu)
+def main_parser(file_paths):
 
-    if not parsed_constructions:
-        print("Nessuna costruzione trovata nel file.")
-        sys.exit()
+    nlp = _get_nlp_instance()
+    if not nlp:
+        return
 
-    output_dir_queries = "formalizzazioni"
-    os.makedirs(output_dir_queries, exist_ok=True)
+    output_dir = "corpora_parsati_UD"
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
 
-    all_queries_grew_with_id = []
-    base_filename, _ = os.path.splitext(os.path.basename(file_da_testare))
+    for file_path in file_paths:
+        try:
+            file_name = os.path.basename(file_path)
+            output_file_path = os.path.join(output_dir, f"{os.path.splitext(file_name)[0]}.conllu")
 
-    match = re.search(r'\d+', base_filename)
-    cxn_number = match.group(0) if match else "0"
+            print(f"Inizio il parsing di '{file_name}'...")
 
-    for i, (nodes, identity_constraints) in enumerate(parsed_constructions):
-        query_grew_generata = generate_grew_query_from_parsed(
-            nodes_data=nodes,
-            identity_constraints=identity_constraints,
-        )
+            with open(output_file_path, 'w', encoding='utf-8') as outfile:
+                if 'repubblica' in file_name.lower():
+                    _parse_repubblica(nlp, outfile, file_path)
+                elif 'itwac' in file_name.lower():
+                    _parse_itwac(nlp, outfile, file_path)
+                elif 'paisa' in file_name.lower():
+                    _parse_paisa(nlp, outfile, file_path)
+                else:
+                    print(f"ATTENZIONE: Nessuna funzione di parsing trovata per il file '{file_name}'. Saltato.")
 
-        alphabet_suffix = chr(ord('a') + i)
-        query_id = f"cxn={cxn_number}_{alphabet_suffix}"
+            print(f"Parsing completato. Il risultato è stato salvato in '{output_file_path}'")
 
-        all_queries_grew_with_id.append({
-            'id': query_id,
-            'query': query_grew_generata,
-            'header': f"#{query_id}\n{query_grew_generata}"
-        })
+        except FileNotFoundError:
+            print(f"Errore: Il file '{file_path}' non è stato trovato.")
+        except Exception as e:
+            print(f"Si è verificato un errore inaspettato durante l'analisi di '{file_path}': {e}")
 
-    print(all_queries_grew_with_id)
-    # input()
+def _structured_corpus_generator(file_path):
+    doc_id = None
+    url = None
+    
+    with open(file_path, 'r', encoding='latin-1') as f:
+        sentence_text = ""
+        
+        for line in f:
+            line = line.strip()
 
-    # ---
-    ## 1. Esecuzione e Conteggio Corpus per Corpus (Bypass API - Comando di Sistema)
-    # ---
+            if line.startswith('<text'):
+                match_id = re.search(r'id="([^"]+)"', line)
+                doc_id = match_id.group(1) if match_id else None
+                match_url = re.search(r'url="([^"]+)"', line)
+                url = match_url.group(1) if match_url else None
+            
+            elif line.startswith('<s>'):
+                sentence_text = ""
+            
+            elif line.startswith('</s>'):
+                if sentence_text:
+                    final_text = sentence_text.strip()
+                    final_text = ftfy.fix_text(final_text) 
+                    metadata = {"doc_id": doc_id, "url": url}
+                    yield final_text, metadata
+                sentence_text = ""
+            
+            elif line and not line.startswith('<'):
+                clean_line = re.sub(r'#.*|[\t].*', '', line).strip()
 
-    grewpy.set_config("ud") # ud or basic
+                if clean_line:
+                    sentence_text += clean_line + " "
 
-    treebank_path = "corpora_parsed"
-    corpus = Corpus(treebank_path)
-    draft = CorpusDraft(treebank_path)
+def _parse_repubblica(nlp, outfile, file_path):
+    sentence_data = list(_structured_corpus_generator(file_path))
+    
+    if not sentence_data:
+        print(f"Attenzione: Nessun dato trovato nel file {file_path}")
+        return
 
-    for query in all_queries_grew_with_id:
-            req1 = Request(query["query"])
-            occurrences = corpus.search(req1)
+    texts = [text for text, meta in sentence_data]
+    docs = nlp.pipe(texts)
+    
+    current_doc_id = None
+    sentence_id = 1
+    
+    for doc, (text, metadata) in zip(docs, sentence_data):
 
-            for occurrence in occurrences:
-                sent_id = occurrence['sent_id']
-                # print(occurrence["matching"]["nodes"])
-                for node_id, node_num in occurrence["matching"]["nodes"].items():
-                    draft[sent_id][node_num].update({"Cxn": f"149.{node_id}"})
-                    draft[sent_id][node_num].update({"Cxn": f"{draft[sent_id][node_num]['Cxn']},159.{node_id}"})
+        if metadata['doc_id'] != current_doc_id:
+            sentence_id = 1
+            current_doc_id = metadata['doc_id']
+            
+            if metadata['doc_id']: outfile.write(f"# newdoc id = {metadata['doc_id']}\n")
+            if metadata['url']: outfile.write(f"# newdoc url = {metadata['url']}\n")
 
-                    # print(draft[sent_id][node_num])
+        outfile.write(f"# sent_id = {sentence_id}\n")
+        outfile.write(f"# text = {text}\n")
+        outfile.write(doc._.conll_str + "\n")
+        
+        sentence_id += 1
 
-                # print(occurrence)
-                # print(corpus[occurrence["sent_id"]].meta)
-                # input()
+def _parse_itwac(nlp, outfile, file_path):
+    _parse_repubblica(nlp, outfile, file_path) 
 
-    corpus2 = Corpus(draft)
-    with open("corpora_parsed/repubblica.edit.conllu", "w") as fout:
-        print(corpus2.to_conll(), file=fout)
-    # print("\n--- 1. Esecuzione e Conteggio (Bypass API con comando di sistema 'grew' e file locali) ---")
+def _unstructured_corpus_generator(file_path):
+    doc_id = None
+    url = None
+    text_buffer = ""
+    
+    with open(file_path, 'r', encoding='latin-1') as f:
+        for line in f:
+            line = line.strip()
 
-    # results_list = []
+            if line.startswith('<text'):
+                if text_buffer:
+                    final_text = text_buffer.strip()
+                    final_text = ftfy.fix_text(final_text) 
+                    metadata = {"doc_id": doc_id, "url": url}
+                    yield final_text, metadata
+              
+                text_buffer = ""
+                match_id = re.search(r'id="([^"]+)"', line)
+                doc_id = match_id.group(1) if match_id else None
+                match_url = re.search(r'url="([^"]+)"', line)
+                url = match_url.group(1) if match_url else None
 
-    # print(f"Userà i seguenti {len(grew_corpora)} cartelle locali: {', '.join(grew_corpora)}")
+            elif not line.startswith('<') and not line.startswith('#') and line:
+                clean_line = re.sub(r'#.*|[\t].*', '', line).strip()
+                if clean_line:
+                    text_buffer += clean_line + " "
 
-    # for corpus_name in grew_corpora:
-    #     corpus_path = f'{LOCAL_CORPUS_DIR}/{corpus_name}'
-    #     print(f"  -> Processando cartella corpus: {corpus_path}...")
+        if text_buffer:
+            final_text = text_buffer.strip()
+            final_text = ftfy.fix_text(final_text) 
+            metadata = {"doc_id": doc_id, "url": url}
+            yield final_text, metadata
 
-    #     if not os.path.isdir(corpus_path):
-    #         print(f"  ❌ Errore: Cartella corpus non trovata a '{corpus_path}'. Salto.")
-    #         continue
+def _parse_paisa(nlp, outfile, file_path):
+    document_data = list(_unstructured_corpus_generator(file_path))
+    
+    if not document_data:
+        print(f"Attenzione: Nessun dato trovato nel file {file_path}")
+        return
 
-    #     for query_data in all_queries_grew_with_id:
-    #         query_id = query_data['id']
-    #         query_string = query_data['query']
+    texts = [text for text, meta in document_data]
+    docs = nlp.pipe(texts)
+    
+    for doc, (text, metadata) in zip(docs, document_data):
+        
+        sentence_id = 1
 
-    #         tmp_file_path = None
-    #         try:
-    #             with tempfile.NamedTemporaryFile(mode='w', delete=False, suffix='.gq') as tmp_file:
-    #                 tmp_file.write(query_string)
-    #                 tmp_file_path = tmp_file.name
+        if metadata['doc_id']: outfile.write(f"# newdoc id = {metadata['doc_id']}\n")
+        if metadata['url']: outfile.write(f"# newdoc url = {metadata['url']}\n")
+        for sent in doc.sents:
+            outfile.write(f"# sent_id = {sentence_id}\n")
+            outfile.write(f"# text = {sent.text}\n")
+            outfile.write(sent._.conll_str + "\n")
+            sentence_id += 1
 
-    #             command = [
-    #                 'grew', 'count',
-    #                 '-grs', tmp_file_path,
-
-    #                 '-dir', corpus_path
-    #             ]
-
-    #             process = subprocess.run(
-    #                 command,
-    #                 capture_output=True,
-    #                 text=True,
-    #                 check=True,
-    #                 encoding='utf-8'
-    #             )
-
-    #             output_line = process.stdout.strip()
-
-    #             count_match = re.search(r'(\d+)', output_line)
-    #             count_result = int(count_match.group(1)) if count_match else 0
-
-    #             results_list.append({
-    #                 'Query_ID': query_id,
-
-    #                 'Corpus': f'{corpus_name}@Local',
-    #                 'Count': count_result
-    #             })
-
-    #         except subprocess.CalledProcessError as e:
-
-    #             error_message = e.stderr.strip().split('\n')[-1]
-    #             print(f"  ❌ Errore Grew su {corpus_name} con {query_id}: {error_message}")
-    #             results_list.append({
-    #                 'Query_ID': query_id,
-    #                 'Corpus': f'{corpus_name}@Local',
-    #                 'Count': 0
-    #             })
-    #         except Exception as e:
-    #             print(f"  ❌ Errore sconosciuto su {corpus_name} con {query_id}: {e}")
-    #             results_list.append({
-    #                 'Query_ID': query_id,
-    #                 'Corpus': f'{corpus_name}@Local',
-    #                 'Count': 0
-    #             })
-    #         finally:
-
-    #             if tmp_file_path and os.path.exists(tmp_file_path):
-    #                 os.remove(tmp_file_path)
-
-    # if not results_list:
-    #     print("Nessun risultato valido è stato generato.")
-    #     sys.exit()
-
-    # print("\n--- 2. Salvataggio dei risultati in CSV ---")
-
-    # output_results_dir = "risultati_query_corpora"
-    # os.makedirs(output_results_dir, exist_ok=True)
-    # output_csv_filename = f"{output_results_dir}/{base_filename}_conteggi.csv"
-
-    # try:
-
-    #     results_df = pd.DataFrame(results_list)
-    #     results_df_pivot = results_df.pivot(index='Query_ID', columns='Corpus', values='Count').fillna(0)
-    #     results_df_pivot.to_csv(output_csv_filename, sep='\t')
-
-    #     print(f"✅ Risultati di Conteggio salvati con successo in: '{output_csv_filename}'")
-
-    # except Exception as e:
-    #     print(f"❌ Errore durante la creazione o il salvataggio del CSV: {e}")
-
-    # print("\n--- 3. Visualizzazione Grafica (Disabilitata) ---")
-    # print("La visualizzazione grafica richiede l'API grewpy, che è incompatibile con il tuo sistema.")
+if __name__ == "__main__":
+    main_parser(['repubblica.sample', 'paisa.sample', 'itwac.sample'])
