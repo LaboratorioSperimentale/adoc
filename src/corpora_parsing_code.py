@@ -1,13 +1,32 @@
 import spacy
+from spacy.tokens import Doc
 import re
 import os
 import spacy_conll
+<<<<<<< HEAD
 import ftfy 
 
 def _get_nlp_instance():
     """Inizializza l'istanza di spaCy con il modello italiano e il conll_formatter."""
+=======
+import tqdm
+
+def _get_nlp_instance():
+    def custom_tokenizer(text):
+        tokens = text.split(" ")
+
+        # your existing code to fill the list with tokens
+
+        # replace this line:
+        return Doc(nlp.vocab, tokens)
+
+        # with this:
+        # return Doc(nlp.vocab, tokens)
+
+>>>>>>> 4d3e62325668bb318665d2186fc45a1105e2374c
     try:
-        nlp = spacy.load("it_core_news_sm")
+        nlp = spacy.load("it_core_news_sm", exclude=["ner"])
+        nlp.tokenizer = custom_tokenizer
         nlp.add_pipe("conll_formatter", last=True)
         nlp.max_length = 3000000
         return nlp
@@ -17,6 +36,107 @@ def _get_nlp_instance():
         print("Potrebbe essere necessario installare anche la libreria ftfy: pip install ftfy")
         return None
 
+<<<<<<< HEAD
+=======
+def _parse_structured_corpus(file_path, nlp, outfile):
+
+    doc_id = None
+    url = None
+
+    with open(file_path, 'r', encoding='latin-1') as f:
+        sentence_text = ""
+        sentence_id = 1
+
+        for line in f:
+            line = line.strip()
+
+            if line.startswith('<text'):
+
+                match_id = re.search(r'id="([^"]+)"', line)
+                doc_id = match_id.group(1) if match_id else None
+                match_url = re.search(r'url="([^"]+)"', line)
+                url = match_url.group(1) if match_url else None
+
+                if doc_id:
+                    outfile.write(f"# newdoc id = {doc_id}\n")
+                if url:
+                    outfile.write(f"# newdoc url = {url}\n")
+
+            # elif line.startswith('<s>'):
+            #     sentence_text = ""
+
+            elif line.startswith('</s>'):
+                if sentence_text:
+                    final_text = sentence_text.strip()
+                    docs = nlp.pipe([final_text])
+
+                    for doc in docs:
+                        outfile.write(f"# sent_id = {sentence_id}\n")
+                        outfile.write(f"# text = {final_text}\n")
+                        outfile.write(doc._.conll_str + "\n")
+
+                    sentence_id += 1
+                sentence_text = ""
+
+            elif line and not line.startswith('<'):
+                clean_line = re.sub(r'#.*|[\t].*', '', line).strip()
+                if clean_line:
+                    sentence_text += clean_line + " "
+
+def _parse_unstructured_corpus(file_path, nlp, outfile):
+
+    doc_id = None
+    url = None
+    text_buffer = ""
+    sentence_id = 1
+
+    with open(file_path, 'r', encoding='latin-1') as f:
+        for line in f:
+            line = line.strip()
+
+            if line.startswith('<text'):
+                if text_buffer:
+                    doc = nlp(text_buffer.strip())
+
+                    if doc_id:
+                        outfile.write(f"# newdoc id = {doc_id}\n")
+                    if url:
+                        outfile.write(f"# newdoc url = {url}\n")
+
+                    for sent in doc.sents:
+                        outfile.write(f"# sent_id = {sentence_id}\n")
+                        outfile.write(f"# text = {sent.text}\n")
+                        outfile.write(sent._.conll_str + "\n")
+                        sentence_id += 1
+                    text_buffer = ""
+                    doc_id = None
+                    url = None
+                    sentence_id = 1
+
+                match_id = re.search(r'id="([^"]+)"', line)
+                doc_id = match_id.group(1) if match_id else None
+                match_url = re.search(r'url="([^"]+)"', line)
+                url = match_url.group(1) if match_url else None
+
+            elif not line.startswith('<') and not line.startswith('#') and line:
+                clean_line = re.sub(r'#.*|[\t].*', '', line).strip()
+                if clean_line:
+                    text_buffer += clean_line + " "
+
+        if text_buffer:
+            doc = nlp(text_buffer.strip())
+            if doc_id:
+                outfile.write(f"# newdoc id = {doc_id}\n")
+            if url:
+                outfile.write(f"# newdoc url = {url}\n")
+            for sent in doc.sents:
+                outfile.write(f"# sent_id = {sentence_id}\n")
+                outfile.write(f"# text = {sent.text}\n")
+                outfile.write(sent._.conll_str + "\n")
+                sentence_id += 1
+
+
+>>>>>>> 4d3e62325668bb318665d2186fc45a1105e2374c
 def main_parser(file_paths):
 
     nlp = _get_nlp_instance()

@@ -3,7 +3,7 @@ from grewpy import Corpus, Request
 
 grewpy.set_config("ud") # ud or basic
 
-treebank_path = "../corpora_parsed"
+treebank_path = "corpora_parsed"
 corpus = Corpus(treebank_path)
 print(type(corpus))
 
