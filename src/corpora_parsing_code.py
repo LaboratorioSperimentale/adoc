@@ -55,34 +55,6 @@ def _structured_corpus_generator(file_path):
                 if clean_line:
                     sentence_text += clean_line + " "
 
-def _parse_repubblica(outfile, file_path):
-    nlp = _get_nlp_instance()
-    sentence_data = list(_structured_corpus_generator(file_path))
-
-    texts = [text for text, meta in sentence_data]
-    docs = nlp.pipe(texts)
-
-    current_doc_id = None
-    sentence_id = 1
-
-    for doc, (text, metadata) in zip(docs, sentence_data):
-
-        if metadata['doc_id'] != current_doc_id:
-            # sentence_id = 1
-            current_doc_id = metadata['doc_id']
-
-            if metadata['doc_id']: outfile.write(f"# newdoc id = {metadata['doc_id']}\n")
-            if metadata['url']: outfile.write(f"# newdoc url = {metadata['url']}\n")
-
-        outfile.write(f"# sent_id = {sentence_id}\n")
-        outfile.write(f"# text = {text}\n")
-        outfile.write(doc._.conll_str + "\n")
-
-        sentence_id += 1
-
-def _parse_itwac(outfile, file_path):
-    _parse_paisa(outfile, file_path)
-
 def _unstructured_corpus_generator(file_path):
     doc_id = None
     url = None
@@ -116,24 +88,49 @@ def _unstructured_corpus_generator(file_path):
             metadata = {"doc_id": doc_id, "url": url}
             yield final_text, metadata
 
-def _parse_paisa(outfile, file_path):
-    nlp = _get_nlp_instance(use_custom_tokenizer=False)
-
-    document_data = list(_unstructured_corpus_generator(file_path))
-
-    texts = [text for text, meta in document_data]
-    docs = nlp.pipe(texts)
+def _parse_repubblica(outfile, file_path, prefix):
+    nlp = _get_nlp_instance()
+    sentence_data = _structured_corpus_generator(file_path)
 
     sentence_id = 1
+    current_doc_id = None
+    for text, meta in tqdm.tqdm(sentence_data):
 
-    for doc, (text, metadata) in zip(docs, document_data):
-        if metadata['doc_id']: outfile.write(f"# newdoc id = {metadata['doc_id']}\n")
-        if metadata['url']: outfile.write(f"# newdoc url = {metadata['url']}\n")
-        for sent in doc.sents:
-            outfile.write(f"# sent_id = {sentence_id}\n")
-            outfile.write(f"# text = {sent.text}\n")
-            outfile.write(sent._.conll_str + "\n")
-            sentence_id += 1
+        docs = nlp.pipe([text])
+
+        if meta['doc_id'] != current_doc_id:
+            current_doc_id = metadata['doc_id']
+            if meta['doc_id']: outfile.write(f"# newdoc id = {meta['doc_id']}\n")
+            if meta['url']: outfile.write(f"# newdoc url = {meta['url']}\n")
+
+        for doc in docs:
+            for sent in doc.sents:
+                outfile.write(f"# sent_id = {prefix}_{sentence_id}\n")
+                outfile.write(f"# text = {sent.text}\n")
+                outfile.write(sent._.conll_str + "\n")
+                sentence_id += 1
+
+def _parse_itwac(outfile, file_path, prefix):
+    _parse_paisa(outfile, file_path, prefix)
+
+def _parse_paisa(outfile, file_path, prefix):
+    nlp = _get_nlp_instance(use_custom_tokenizer=False)
+
+    document_data = _unstructured_corpus_generator(file_path)
+
+    # texts = [text for text, meta in document_data]
+    sentence_id = 1
+    for text, meta in document_data:
+        docs = nlp.pipe([text])
+        if meta['doc_id']: outfile.write(f"# newdoc id = {meta['doc_id']}\n")
+        if meta['url']: outfile.write(f"# newdoc url = {meta['url']}\n")
+
+        for doc in docs:
+            for sent in doc.sents:
+                outfile.write(f"# sent_id = {prefix}_{sentence_id}\n")
+                outfile.write(f"# text = {sent.text}\n")
+                outfile.write(sent._.conll_str + "\n")
+                sentence_id += 1
 
 def main_parser(file_paths):
 
@@ -150,11 +147,11 @@ def main_parser(file_paths):
 
         with open(output_file_path, 'w', encoding='utf-8') as outfile:
             if 'repubblica' in file_name.lower():
-                _parse_repubblica(outfile, file_path)
+                _parse_repubblica(outfile, file_path, "repubblica")
             elif 'itwac' in file_name.lower():
-                _parse_itwac(outfile, file_path)
+                _parse_itwac(outfile, file_path, "itwac")
             elif 'paisa' in file_name.lower():
-                _parse_paisa(outfile, file_path)
+                _parse_paisa(outfile, file_path, "paisa")
             else:
                 print(f"ATTENZIONE: Nessuna funzione di parsing trovata per il file '{file_name}'. Saltato.")
 
