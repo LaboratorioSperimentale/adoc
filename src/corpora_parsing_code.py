@@ -3,12 +3,6 @@ from spacy.tokens import Doc
 import re
 import os
 import spacy_conll
-<<<<<<< HEAD
-import ftfy 
-
-def _get_nlp_instance():
-    """Inizializza l'istanza di spaCy con il modello italiano e il conll_formatter."""
-=======
 import tqdm
 
 def _get_nlp_instance():
@@ -23,7 +17,6 @@ def _get_nlp_instance():
         # with this:
         # return Doc(nlp.vocab, tokens)
 
->>>>>>> 4d3e62325668bb318665d2186fc45a1105e2374c
     try:
         nlp = spacy.load("it_core_news_sm", exclude=["ner"])
         nlp.tokenizer = custom_tokenizer
@@ -36,8 +29,6 @@ def _get_nlp_instance():
         print("Potrebbe essere necessario installare anche la libreria ftfy: pip install ftfy")
         return None
 
-<<<<<<< HEAD
-=======
 def _parse_structured_corpus(file_path, nlp, outfile):
 
     doc_id = None
@@ -136,7 +127,6 @@ def _parse_unstructured_corpus(file_path, nlp, outfile):
                 sentence_id += 1
 
 
->>>>>>> 4d3e62325668bb318665d2186fc45a1105e2374c
 def main_parser(file_paths):
 
     nlp = _get_nlp_instance()
@@ -174,10 +164,10 @@ def main_parser(file_paths):
 def _structured_corpus_generator(file_path):
     doc_id = None
     url = None
-    
+
     with open(file_path, 'r', encoding='latin-1') as f:
         sentence_text = ""
-        
+
         for line in f:
             line = line.strip()
 
@@ -186,18 +176,18 @@ def _structured_corpus_generator(file_path):
                 doc_id = match_id.group(1) if match_id else None
                 match_url = re.search(r'url="([^"]+)"', line)
                 url = match_url.group(1) if match_url else None
-            
+
             elif line.startswith('<s>'):
                 sentence_text = ""
-            
+
             elif line.startswith('</s>'):
                 if sentence_text:
                     final_text = sentence_text.strip()
-                    final_text = ftfy.fix_text(final_text) 
+                    final_text = ftfy.fix_text(final_text)
                     metadata = {"doc_id": doc_id, "url": url}
                     yield final_text, metadata
                 sentence_text = ""
-            
+
             elif line and not line.startswith('<'):
                 clean_line = re.sub(r'#.*|[\t].*', '', line).strip()
 
@@ -206,40 +196,40 @@ def _structured_corpus_generator(file_path):
 
 def _parse_repubblica(nlp, outfile, file_path):
     sentence_data = list(_structured_corpus_generator(file_path))
-    
+
     if not sentence_data:
         print(f"Attenzione: Nessun dato trovato nel file {file_path}")
         return
 
     texts = [text for text, meta in sentence_data]
     docs = nlp.pipe(texts)
-    
+
     current_doc_id = None
     sentence_id = 1
-    
+
     for doc, (text, metadata) in zip(docs, sentence_data):
 
         if metadata['doc_id'] != current_doc_id:
             sentence_id = 1
             current_doc_id = metadata['doc_id']
-            
+
             if metadata['doc_id']: outfile.write(f"# newdoc id = {metadata['doc_id']}\n")
             if metadata['url']: outfile.write(f"# newdoc url = {metadata['url']}\n")
 
         outfile.write(f"# sent_id = {sentence_id}\n")
         outfile.write(f"# text = {text}\n")
         outfile.write(doc._.conll_str + "\n")
-        
+
         sentence_id += 1
 
 def _parse_itwac(nlp, outfile, file_path):
-    _parse_repubblica(nlp, outfile, file_path) 
+    _parse_repubblica(nlp, outfile, file_path)
 
 def _unstructured_corpus_generator(file_path):
     doc_id = None
     url = None
     text_buffer = ""
-    
+
     with open(file_path, 'r', encoding='latin-1') as f:
         for line in f:
             line = line.strip()
@@ -247,10 +237,10 @@ def _unstructured_corpus_generator(file_path):
             if line.startswith('<text'):
                 if text_buffer:
                     final_text = text_buffer.strip()
-                    final_text = ftfy.fix_text(final_text) 
+                    final_text = ftfy.fix_text(final_text)
                     metadata = {"doc_id": doc_id, "url": url}
                     yield final_text, metadata
-              
+
                 text_buffer = ""
                 match_id = re.search(r'id="([^"]+)"', line)
                 doc_id = match_id.group(1) if match_id else None
@@ -264,22 +254,22 @@ def _unstructured_corpus_generator(file_path):
 
         if text_buffer:
             final_text = text_buffer.strip()
-            final_text = ftfy.fix_text(final_text) 
+            final_text = ftfy.fix_text(final_text)
             metadata = {"doc_id": doc_id, "url": url}
             yield final_text, metadata
 
 def _parse_paisa(nlp, outfile, file_path):
     document_data = list(_unstructured_corpus_generator(file_path))
-    
+
     if not document_data:
         print(f"Attenzione: Nessun dato trovato nel file {file_path}")
         return
 
     texts = [text for text, meta in document_data]
     docs = nlp.pipe(texts)
-    
+
     for doc, (text, metadata) in zip(docs, document_data):
-        
+
         sentence_id = 1
 
         if metadata['doc_id']: outfile.write(f"# newdoc id = {metadata['doc_id']}\n")
