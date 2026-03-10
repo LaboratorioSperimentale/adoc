@@ -297,7 +297,7 @@ Iniziamo ora con restrizioni aggiuntive che allontanano il nostro formato dal fo
 
   ID | FORM | LEMMA | UPOS | FEATS | HEAD | DEPREL | IDENTITY
   ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------
-  A | _ | _ | NOUN | Number=Sing | 0 | root | FORM=C
+  A | _ | _ | NOUN | Number=Sing | 0 | root:obl | FORM=C
   B | dopo | dopo | ADP | _ | C | case | _
   C | _ | _ | NOUN | Number=Sing | A | nmod | FORM=A
 
