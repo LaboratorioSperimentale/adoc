@@ -1,0 +1,4 @@
+pattern {
+	B[];
+	B[form=/porta/i];
+}

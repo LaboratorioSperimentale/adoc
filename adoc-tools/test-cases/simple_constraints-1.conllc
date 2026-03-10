@@ -1,0 +1,4 @@
+# cxn_id = test-1
+# name = simple_constraints-1
+# fields = ID UD.FORM LEMMA UPOS
+A	_	saltare	VERB

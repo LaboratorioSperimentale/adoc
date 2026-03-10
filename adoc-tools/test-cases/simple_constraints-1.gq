@@ -1,0 +1,5 @@
+pattern {
+	A[];
+	A[lemma="saltare"];
+	A[upos=VERB];
+}

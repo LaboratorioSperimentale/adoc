@@ -1,0 +1,6 @@
+pattern {
+	A[];
+	A[lemma="saltare"|"correre"];
+	A[upos=VERB];
+	A[VerbForm=Fin];
+}
