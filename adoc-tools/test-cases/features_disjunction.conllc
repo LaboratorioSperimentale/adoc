@@ -1,0 +1,4 @@
+# cxn_id = test-1
+# name = simple_costraints-1
+# fields = ID UD.FORM LEMMA UPOS FEATS
+A	_	mettere	VERB	VerbForm=Fin|Pers=3, VerbForm=Inf

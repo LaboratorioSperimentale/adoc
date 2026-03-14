@@ -1,0 +1,3 @@
+pattern {
+  A [lemma="mettere", upos=VERB, VerbForm=Fin|Pers=3, VerbForm=Inf];
+}
