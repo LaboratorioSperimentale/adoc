@@ -1,0 +1,4 @@
+pattern {
+  A [lemma=/mezzo/i, upos=ADJ];
+  B [upos=NOUN|PROPN|ADJ];
+}

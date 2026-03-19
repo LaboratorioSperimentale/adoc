@@ -1,0 +1,5 @@
+# cxn_id = test-1
+# name = simple_constraints-1
+# fields = ID UD.FORM LEMMA UPOS FEATS
+A	_	/mezzo/i	ADJ	_
+B	_	_	NOUN|PROPN|ADJ	_
