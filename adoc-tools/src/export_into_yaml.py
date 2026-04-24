@@ -141,7 +141,7 @@ def process_row(row, map_formal, map_functional, ymlfolderout, conllcfolderout, 
         "note": row["Notes"].replace("\n", " "),
         "references": "",
         "collector": row["Data Collector"].replace("\n", " "),
-        "to-be-kept": row["Francesca"].replace("\n", " "),
+        # "to-be-kept": row["Francesca"].replace("\n", " "),
     }
 
     write_yaml(yaml_template, ymlfolderout)
