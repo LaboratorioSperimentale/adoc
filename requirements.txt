@@ -4,3 +4,4 @@ networkx
 regex
 cerberus
 sty
+rapidfuzz
