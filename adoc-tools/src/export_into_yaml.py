@@ -3,228 +3,164 @@ import csv
 import yaml
 import textwrap
 import rapidfuzz
+import argparse
 
-fin = "export.csv"
-ymlfolderout = "cxn_yml"
 
-os.makedirs(ymlfolderout, exist_ok=True)
+def parse_args():
+    parser = argparse.ArgumentParser(description="Export construction database CSV to YAML and CoNLL-C files.")
+    parser.add_argument("input_csv", help="Input CSV file (e.g. export.csv)")
+    parser.add_argument("--cc-database", default="cc-database.yaml", metavar="FILE",
+                        help="Comparative concepts database YAML file (default: cc-database.yaml)")
+    parser.add_argument("--yml-out", default="cxn_yml", metavar="DIR",
+                        help="Output folder for YAML files (default: cxn_yml)")
+    parser.add_argument("--conllc-out", default="cxn_conllc", metavar="DIR",
+                        help="Output folder for CoNLL-C files (default: cxn_conllc)")
+    parser.add_argument("--examples-out", default="cxn_examples_unparsed", metavar="DIR",
+                        help="Output folder for unparsed example TXT files (default: cxn_examples_unparsed)")
+    return parser.parse_args()
 
-file_ccdatabase = "cc-database.yaml"
 
-CCDB = yaml.safe_load(open(file_ccdatabase, "r", encoding = "utf-8-sig", newline = ""))
+def load_cc_maps(file_ccdatabase):
+    with open(file_ccdatabase, "r", encoding="utf-8-sig", newline="") as f:
+        ccdb = yaml.safe_load(f)
 
-map_functional = {}
-map_formal = {}
+    map_functional = {}
+    map_formal = {}
 
-for element in CCDB:
-    if element["Type"] in ["sem", "inf"]:
-        map_functional[element["Id"]] = [element["Id"][4:]]
-        aliases = element.get("Alias", [])
-        for alias in aliases:
-            map_functional[element["Id"]].append(alias.replace(" ", "-"))
-    
-    elif element["Type"] in ["cxn", "str"]:
-        map_formal[element["Id"]] = [element["Id"][4:]]
-        aliases = element.get("Alias", [])
-        for alias in aliases:
-            map_formal[element["Id"]].append(alias.replace(" ", "-"))
+    for element in ccdb:
+        eid = element["Id"]
+        names = [eid[4:]] + [a.replace(" ", "-") for a in element.get("Alias", [])]
+        if element["Type"] in ["sem", "inf"]:
+            map_functional[eid] = names
+        elif element["Type"] in ["cxn", "str"]:
+            map_formal[eid] = names
 
-with open(fin, "r", encoding = "utf-8-sig", newline = "",) as csvfin:
-    csvreader = csv.DictReader(csvfin, delimiter = ",")
-    for row in csvreader:
-        
-        yaml_template = {
-            "cxn-id": "",
-            "name": "",
-            "cxn-machine-readable-formalization": "",
-            "form": "",
-            "definition": "", 
-            "restrictions": "",
-            "coll-preferences": "",
-            "usage": "",
-            "formal-tags": "",
-            "functional-tags": "",
-            "complexity-level-tags": "",
-            "category-tags": "",
-            "schematicity-level": "",
-            "cefr-level": "",
-            "horizontal-links": "",
-            "vertical-links": "",
-            "examples": "",
-            "note": "",
-            "references": "",
-            "collector": "",
-            "to-be-kept": "",
-        }
+    return map_formal, map_functional
 
-# mapping tra i key-value pairings di yaml_template e i key-value pairings tra ogni riga e l'header del csv
 
-        yaml_template["cxn-id"] = row["Construction ID"].replace("\n", " ")
-
-        if row["Name"] == "":
-            yaml_template["name"] = row["Form"].replace("\n", " ")
+def match_tags(tags_str, cc_map):
+    results = []
+    for tag in tags_str.split(", "):
+        current = tag.replace(" ", "-")
+        min_distance = float("inf")
+        best_match = None
+        for cc_id, aliases in cc_map.items():
+            for alias in aliases:
+                distance = rapidfuzz.distance.Levenshtein.distance(current, alias)
+                if distance < min_distance:
+                    min_distance = distance
+                    best_match = cc_id
+        if min_distance < 3:
+            results.append(f"{current} >> cc:{best_match}")
         else:
-            yaml_template["name"] = row["Name"].replace("\n", " ")
-        
-# creazione del file conllc
+            results.append(current)
+    return results
 
-        conllcfolderout = "cxn_conllc"
-        os.makedirs(conllcfolderout, exist_ok=True)
-        fout = f"{conllcfolderout}/cxn_{row["Construction ID"]}.conllc"
 
-        conllc_template = {
-            "cxn_id": "",
-            "name": "",
-            "function": "",
-            "horizontal_links": "",
-            "vertical_links": "",
-            "fields" : "ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY"
-        }
+def write_conllc(row, conllcfolderout):
+    cxn_id = row["Construction ID"].replace("\n", " ")
+    name = row["Form"].replace("\n", " ") if row["Name"] == "" else row["Name"].replace("\n", " ")
 
-        conllc_template["cxn_id"] = row["Construction ID"].replace("\n", " ")
-        if row["Name"] == "":
-            conllc_template["name"] = row["Form"].replace("\n", " ")
-        else:
-            conllc_template["name"] = row["Name"].replace("\n", " ")
-        conllc_template["function"] = row["Function"].replace("\n", " ")
+    conllc_template = {
+        "cxn_id": cxn_id,
+        "name": name,
+        "function": row["Function"].replace("\n", " "),
+        "horizontal_links": "",
+        "vertical_links": "",
+        "fields": "ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY",
+    }
 
-        with open(fout, "w", encoding = "utf-8") as conllcfout:
-            conllcfout.writelines(f"# {key} = {value} \n" for key, value in conllc_template.items())
+    fout = os.path.join(conllcfolderout, f"cxn_{cxn_id}.conllc")
+    with open(fout, "w", encoding="utf-8") as f:
+        f.writelines(f"# {key} = {value} \n" for key, value in conllc_template.items())
 
-# ripresa del mapping
+    return f"cxn_{cxn_id}.conllc"
 
-        yaml_template["cxn-machine-readable-formalization"] = f"cxn_{row["Construction ID"]}.conllc"
 
-        yaml_template["form"] = row["Form"].replace("\n", " ")
+def write_examples(row, txtfolderout):
+    cxn_id = row["Construction ID"].replace("\n", " ")
+    example_files = []
 
-        yaml_template["definition"] = row["Function"].replace("\n", " ")
+    for n in range(1, 6):
+        text_key = f"Examples {n}"
+        source_key = f"Source {n}"
+        if row.get(text_key, "") != "":
+            filename = f"cxn_{cxn_id}_example_{n}.txt"
+            foutdir = os.path.join(txtfolderout, filename)
+            with open(foutdir, "w", encoding="utf-8") as f:
+                f.write("# source = " + row[source_key].replace("\n", " "))
+                f.write("\n# text = " + row[text_key].replace("\n", " "))
+            example_files.append(filename)
 
-        # yaml_template["restrictions"] # NON ESISTE, VUOTO
-        # yaml_template["coll-preferences"] # NON ESISTE, VUOTO
-        # yaml_template["usage"] # NON ESISTE, VUOTO
+    return example_files
 
-# ricerca di formal-tags e functional tags tra i comparative concepts
 
-        yaml_template["formal-tags"] = row["Formal Tags"].split(", ")
-        for i, el in enumerate(yaml_template["formal-tags"]):
-            current_tag = el.replace(" ", "-")
-            
-            min_distance = float("inf")
-            best_match = None
-            for cc_tag in map_formal:
-                # print("Evaluating:", current_tag, "against", cc_tag)
-                for alias in map_formal[cc_tag]:
-                    # print("Comparing with alias:", alias)
-                    distance = rapidfuzz.distance.Levenshtein.distance(current_tag, alias)
-                    # print("Distance:", distance)
-                    if distance < min_distance:
-                        min_distance = distance
-                        best_match = cc_tag
-            if min_distance < 3:  # Soglia di distanza per considerare una corrispondenza valida
-                yaml_template["formal-tags"][i] = f"{current_tag} >> cc:{best_match}"
+def write_yaml(yaml_template, ymlfolderout):
+    cxn_id = yaml_template["cxn-id"]
+    fout = os.path.join(ymlfolderout, f"cxn_{cxn_id}.yml")
+    width = 60
+
+    with open(fout, "w", encoding="utf-8") as f:
+        for key, value in yaml_template.items():
+            if key in ["examples", "formal-tags", "functional-tags"]:
+                value = "\n\t".join(f"- {item}" for item in value)
+                f.write(f"{key}: \n\t{value}\n")
             else:
-                yaml_template["formal-tags"][i] = f"{current_tag}"
-            
-        yaml_template["functional-tags"] = row["Functional Tags"].split(", ") # cercare nei CC
-        for i, el in enumerate(yaml_template["functional-tags"]):
-            current_tag = el.replace(" ", "-")
-            
-            min_distance = float("inf")
-            best_match = None
-            for cc_tag in map_functional:
-                # print("Evaluating:", current_tag, "against", cc_tag)
-                for alias in map_functional[cc_tag]:
-                    # print("Comparing with alias:", alias)
-                    distance = rapidfuzz.distance.Levenshtein.distance(current_tag, alias)
-                    # print("Distance:", distance)
-                    if distance < min_distance:
-                        min_distance = distance
-                        best_match = cc_tag
-            if min_distance < 3:  # Soglia di distanza per considerare una corrispondenza valida
-                yaml_template["functional-tags"][i] = f"{current_tag} >> cc:{best_match}"
-            else:
-                yaml_template["functional-tags"][i] = f"{current_tag}"
-        # for i, el in enumerate(yaml_template["functional-tags"]):
-        #     yaml_template["functional-tags"][i] = el.replace(" ", "-")
+                wrapped = textwrap.wrap(str(value), width=width)
+                f.write(f"{key}: |\n")
+                for line in wrapped:
+                    f.write(f"  {line}\n")
+            f.write("\n")
 
-# ripresa del mapping
 
-        # yaml_template["complexity-level-tags"] # NON ESISTE, VUOTO
-        # yaml_template["category-tags"] # NON ESISTE, VUOTO
+def process_row(row, map_formal, map_functional, ymlfolderout, conllcfolderout, txtfolderout):
+    cxn_id = row["Construction ID"].replace("\n", " ")
+    name = row["Form"].replace("\n", " ") if row["Name"] == "" else row["Name"].replace("\n", " ")
 
-        yaml_template["schematicity-level"] = row["Schematicity Level"].replace("\n", " ")
+    conllc_filename = write_conllc(row, conllcfolderout)
+    example_files = write_examples(row, txtfolderout)
 
-        # yaml_template["cefr-level"] # NON ESISTE, VUOTO
-        # yaml_template["horizontal-links"] # NON ESISTE, VUOTO
-        # yaml_template["vertical-links"] # NON ESISTE, VUOTO
+    yaml_template = {
+        "cxn-id": cxn_id,
+        "name": name,
+        "cxn-machine-readable-formalization": conllc_filename,
+        "form": row["Form"].replace("\n", " "),
+        "definition": row["Function"].replace("\n", " "),
+        "restrictions": "",
+        "coll-preferences": "",
+        "usage": "",
+        "formal-tags": match_tags(row["Formal Tags"], map_formal),
+        "functional-tags": match_tags(row["Functional Tags"], map_functional),
+        "complexity-level-tags": "",
+        "category-tags": "",
+        "schematicity-level": row["Schematicity Level"].replace("\n", " "),
+        "cefr-level": "",
+        "horizontal-links": "",
+        "vertical-links": "",
+        "examples": example_files,
+        "note": row["Notes"].replace("\n", " "),
+        "references": "",
+        "collector": row["Data Collector"].replace("\n", " "),
+        "to-be-kept": row["Francesca"].replace("\n", " "),
+    }
 
-# creazione dei file txt per gli esempi
+    write_yaml(yaml_template, ymlfolderout)
 
-        txtfolderout = "cxn_examples_unparsed"
-        os.makedirs(txtfolderout, exist_ok=True)
 
-        if row["Examples 1"] != "":
-            fout_1 = f"cxn_{row["Construction ID"]}_example_1.txt"
-            foutdir = f"{txtfolderout}/{fout_1}"
-            with open(foutdir, "w", encoding = "utf-8") as txtfout:
-                txtfout.write("# source = "+row["Source 1"].replace("\n", " "))
-                txtfout.write("\n# text = "+row["Examples 1"].replace("\n", " "))
+def main():
+    args = parse_args()
 
-        if row["Examples 2"] != "":
-            fout_2 = f"cxn_{row["Construction ID"]}_example_2.txt"
-            foutdir = f"{txtfolderout}/{fout_2}"
-            with open(foutdir, "w", encoding = "utf-8") as txtfout:
-                txtfout.write("# source = "+row["Source 2"].replace("\n", " "))
-                txtfout.write("\n# text = "+row["Examples 2"].replace("\n", " "))
+    os.makedirs(args.yml_out, exist_ok=True)
+    os.makedirs(args.conllc_out, exist_ok=True)
+    os.makedirs(args.examples_out, exist_ok=True)
 
-        if row["Examples 3"] != "":
-            fout_3 = f"cxn_{row["Construction ID"]}_example_3.txt"
-            foutdir = f"{txtfolderout}/{fout_3}"
-            with open(foutdir, "w", encoding = "utf-8") as txtfout:
-                txtfout.write("# source = "+row["Source 3"].replace("\n", " "))
-                txtfout.write("\n# text = "+row["Examples 3"].replace("\n", " "))
-        
-        if row["Examples 4"] != "": 
-            fout_4 = f"cxn_{row["Construction ID"]}_example_4.txt"
-            foutdir = f"{txtfolderout}/{fout_4}"
-            with open(foutdir, "w", encoding = "utf-8") as txtfout:
-                txtfout.write("# source = "+row["Source 4"].replace("\n", " "))
-                txtfout.write("\n# text = "+row["Examples 4"].replace("\n", " "))
+    map_formal, map_functional = load_cc_maps(args.cc_database)
 
-        if row["Examples 5"] != "":    
-            fout_5 = f"cxn_{row["Construction ID"]}_example_5.txt"
-            foutdir = f"{txtfolderout}/{fout_5}"
-            with open(foutdir, "w", encoding = "utf-8") as txtfout:
-                txtfout.write("# source = "+row["Source 5"].replace("\n", " "))
-                txtfout.write("\n# text = "+row["Examples 5"].replace("\n", " "))
+    with open(args.input_csv, "r", encoding="utf-8-sig", newline="") as csvfin:
+        csvreader = csv.DictReader(csvfin, delimiter=",")
+        for row in csvreader:
+            process_row(row, map_formal, map_functional, args.yml_out, args.conllc_out, args.examples_out)
 
-# ripresa del mapping
 
-        # yaml_template["examples"] = f"\n\t- {fout_1}\n\t- {fout_2}\n\t- {fout_3}\n\t- {fout_4}\n\t- {fout_5}"
-        yaml_template["examples"] = [fout_1, fout_2, fout_3, fout_4, fout_5]
-
-        yaml_template["note"] = row["Notes"].replace("\n", " ")
-
-        # yaml_template["references"] # NON ESISTE, VUOTO
-        
-        yaml_template["collector"] = row["Data Collector"].replace("\n", " ")
-
-        yaml_template["to-be-kept"] = row["Francesca"].replace("\n", " ")      
-
-# creazione del file yaml
-
-        width = 60
-        fout = f"{ymlfolderout}/cxn_{row["Construction ID"]}.yml"
-        with open(fout, "w", encoding = "utf-8") as ymlfout:
-            
-            for key, value in yaml_template.items():
-                if key in ["examples", "formal-tags", "functional-tags"]:
-                    value = "\n\t".join(f"- {example}" for example in value)
-                    ymlfout.write(f"{key}: \n\t{value}\n")
-                else:
-                    wrapped = textwrap.wrap(str(value), width=width)
-                    
-                    ymlfout.write(f"{key}: |\n")
-                    for line in wrapped:
-                        ymlfout.write(f"  {line}\n")
-                ymlfout.write("\n")
+if __name__ == "__main__":
+    main()
