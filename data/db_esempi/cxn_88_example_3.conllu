@@ -1,0 +1,46 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = 1
+# text = Proprio come a Lisbeth Salander, gli piaceva risolvere rompicapi ed enigmi.
+1	Proprio	proprio	ADV	B	_	4	advmod	_	_
+2	come	come	ADV	B	ExtPos=ADP	4	case	_	_
+3	a	a	ADP	E	_	2	fixed	_	_
+4	Lisbeth	Lisbeth	PROPN	SP	_	8	obl	_	_
+5	Salander	Salander	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	iobj	_	_
+8	piaceva	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	risolvere	risolvere	VERB	V	VerbForm=Inf	8	ccomp	_	_
+10	rompicapi	rompicapo	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+11	ed	e	CCONJ	CC	_	12	cc	_	_
+12	enigmi	enigmo	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	8	punct	_	_
+
+# source = CORIS
+# sent_id = 2
+# text = Pare che si divertisse particolarmente a prendere per il naso altri matematici costruendo problemi ma tralasciando di includere la soluzione.
+1	Pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	divertisse	divertire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	ccomp	_	_
+5	particolarmente	particolarmente	ADV	B	_	4	advmod	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	prendere	prendere	VERB	V	VerbForm=Inf	4	xcomp	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	naso	naso	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	altri	altro	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+12	matematici	matematico	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+13	costruendo	costruire	VERB	V	VerbForm=Ger	7	advcl	_	_
+14	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+15	ma	ma	CCONJ	CC	_	16	cc	_	_
+16	tralasciando	tralasciare	VERB	V	VerbForm=Ger	13	conj	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	includere	includere	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+

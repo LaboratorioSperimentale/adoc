@@ -1,0 +1,75 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Repubblica
+# sent_id = 1
+# text = diceva al regista già noto nel mondo : " Vedi caro , per questo film , soldi non ne ho , ma ti posso dare quel quadro .
+1	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	regista	regista	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	già	già	ADV	B	_	6	advmod	_	_
+6	noto	noto	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	:	:	PUNCT	FC	_	1	punct	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	_
+12	Vedi	vedere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+13	caro	caro	ADJ	A	Gender=Masc|Number=Sing	12	advmod	_	_
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+17	film	film	NOUN	S	Gender=Masc	12	obl	_	_
+18	,	,	PUNCT	FF	_	12	punct	_	_
+19	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	22	nsubj	_	_
+20	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+21	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	22	iobj	_	_
+22	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	conj	_	_
+23	,	,	PUNCT	FF	_	27	punct	_	_
+24	ma	ma	CCONJ	CC	_	27	cc	_	_
+25	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	27	iobj	_	_
+26	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	dare	dare	VERB	V	VerbForm=Inf	22	conj	_	_
+28	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
+29	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# source = Repubblica
+# sent_id = 2
+# text = Trova un po' tu il modo di cavartela " . Con quel quadro " che però è restato nell' ufficio grandioso e delabre del produttore di cinema
+1	Trova	trovare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	po'	poco	ADV	B	_	1	advmod	_	_
+4	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	1	nsubj	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	modo	modo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	cavartela	cavartela	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	"	"	PUNCT	FB	_	1	punct	_	_
+10	.	.	PUNCT	FS	_	1	punct	_	_
+11	Con	con	ADP	E	_	13	case	_	_
+12	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	quadro	quadro	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+14	"	"	PUNCT	FB	_	18	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+16	però	però	ADV	B	_	18	advmod	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	restato	restare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+19-20	nell'	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	grandioso	grandioso	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	delabre	delabre	ADJ	A	Number=Sing	22	conj	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	produttore	produttore	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	cinema	cinema	NOUN	S	Gender=Masc	27	nmod	_	SpaceAfter=No
+
+

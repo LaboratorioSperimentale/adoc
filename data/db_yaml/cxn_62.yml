@@ -1,0 +1,68 @@
+cxn-id: |
+  62
+
+name: |
+  ma+anche+X
+
+cxn-machine-readable-formalization: |
+  cxn_62.conllc
+
+form: |
+	-  ma+anche+X
+	-  La costruzione segue le regole sintattiche della lingua
+  italiana
+
+function: |
+	-  sminuire il contenuto espresso precedentemente da un
+  enunciato prodotto da un interlocutore
+	-
+	-  Il significato della costruzione è parlzialmente idiomatico
+
+restrictions: |
+	-
+	-  La costruzione presenta due posizioni fisse e una variabile
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+
+formal-tags: 
+	- avversativa
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_62_example_1.txt
+	- cxn_62_example_2.txt
+	- cxn_62_example_3.txt
+
+note: |
+	-
+	-  USAGE: La costruzione è usata soprattutto in contesti poco
+  sorvegliati
+
+references: |
+
+collector: |
+  Francesca Cappelli
+

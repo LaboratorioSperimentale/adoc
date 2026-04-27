@@ -1,0 +1,19 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Glosbe dizionario online
+# sent_id = 1
+# text = Si può essere figli di industriali ed essere in bolletta.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	essere	essere	AUX	VA	VerbForm=Inf	4	cop	_	_
+4	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	industriali	industriale	NOUN	S	Number=Plur	4	nmod	_	_
+7	ed	e	CCONJ	CC	_	10	cc	_	SpacesAfter= 
+8	essere	essere	AUX	VA	VerbForm=Inf	10	cop	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	bolletta	bolletta	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+

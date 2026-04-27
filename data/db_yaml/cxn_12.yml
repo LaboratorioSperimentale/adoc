@@ -1,0 +1,66 @@
+cxn-id: |
+  12
+
+name: |
+  V.inf.parlare + Prepart.del + Agg. più + Cong. e +
+  Prep.art.del + Agg. meno
+
+cxn-machine-readable-formalization: |
+  cxn_12.conllc
+
+form: |
+	-  V.inf.parlare + Prepart.del + Agg. più + Cong. e +
+  Prep.art.del + Agg. meno
+	-
+
+function: |
+	-  Parlare di qualcosa in generale, poco importante
+	-
+	-
+
+restrictions: |
+	-
+	-  parlato colloquiale.
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+
+formal-tags: 
+	- reduplication
+
+functional-tags: 
+	- vagueness
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_12_example_1.txt
+
+note: |
+	-  Il verbo può essere coniugato, ma gli aggettivi non possono
+  essere sostituiti da altri. 
+	-  USAGE:
+
+references: |
+
+collector: |
+  Espressione pensata individualmente, alcuna fonte citata.
+

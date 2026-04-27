@@ -1,0 +1,2 @@
+# source = Vocabolario Treccani.
+# text = Francesco fa delle battute divertentissime: mi fanno sempre ridere a più non posso.

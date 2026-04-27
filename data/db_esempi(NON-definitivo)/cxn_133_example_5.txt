@@ -1,0 +1,2 @@
+# source = corpus: itTenTen20
+# text = la Forza scorre potente da queste parti e ha comprato casa sulle colline di Passignano sul Trasimeno. E che casa! Si tratta di un ex convento a due passi dal Lago Trasimeno e lo ha ristrutturato in grande stile.

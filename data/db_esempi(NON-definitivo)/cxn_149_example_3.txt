@@ -1,0 +1,2 @@
+# source = Google
+# text = Per correre una buona 10 km non è necessario usare dei mezzi di allenamento stratosferici.

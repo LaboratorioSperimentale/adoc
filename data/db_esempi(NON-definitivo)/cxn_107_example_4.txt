@@ -1,0 +1,2 @@
+# source = Parlante nativo
+# text = Fai finta che io non ci sia

@@ -1,0 +1,67 @@
+cxn-id: |
+  163
+
+name: |
+  SIMIL- subconstruction resembling
+
+cxn-machine-readable-formalization: |
+  cxn_163.conllc
+
+form: |
+	-  [simil-[x]Xj]Xi
+	-
+
+function: |
+	-  [RESEMBLING SEMj]i
+	-
+	-
+
+restrictions: |
+	-  X = N or A
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Infrequent
+
+formal-tags: 
+	- prefixation
+	- affixoid
+
+functional-tags: 
+	- evaluative-morphology
+	- approximation
+	- similarity
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Francesca Masini
+

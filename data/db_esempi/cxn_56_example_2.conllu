@@ -1,0 +1,120 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=86122601&End=86122601
+# sent_id = 1
+# text = Vina privilegia il crudo sentimentalismo rispetto_alla ragione, sicché ora non possiamo più pensare, ma solo sentire.
+1	Vina	Vina	PROPN	SP	_	2	nsubj	_	_
+2	privilegia	privilegiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	crudo	crudo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	sentimentalismo	sentimentalismo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	rispetto_alla	rispetto_alla	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\s
+9	sicché	sicché	SCONJ	CS	_	14	mark	_	_
+10	ora	ora	ADV	B	_	14	advmod	_	_
+11	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+12	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	pensare	pensare	VERB	V	VerbForm=Inf	2	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	ma	ma	CCONJ	CC	_	18	cc	_	_
+17	solo	solo	ADV	B	_	18	advmod	_	_
+18	sentire	sentire	VERB	V	VerbForm=Inf	14	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=86122601&End=86122601
+# sent_id = 2
+# text = Il primo dice che il fenomeno è populista - democratico.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	nsubj	_	_
+3	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\s\s
+4	che	che	SCONJ	CS	_	8	mark	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	fenomeno	fenomeno	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	populista	populista	ADJ	A	Number=Sing	3	ccomp	_	_
+9	-	-	PUNCT	FF	_	8	punct	_	_
+10	democratico	democratico	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=86122601&End=86122601
+# sent_id = 3
+# text = Il secondo teme che possa essere cripto - fascista, e che possa originare un nuovo tipo d' intolleranza di massa.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	nsubj	_	_
+3	teme	temere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpacesAfter=\s\s
+6	essere	essere	AUX	VA	VerbForm=Inf	7	cop	_	_
+7	cripto	cripto	ADJ	A	Gender=Masc|Number=Sing	3	ccomp	_	_
+8	-	-	PUNCT	FF	_	7	punct	_	_
+9	fascista	fascista	ADJ	A	Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	14	punct	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	che	che	SCONJ	CS	_	14	mark	_	_
+13	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	originare	originare	VERB	V	VerbForm=Inf	7	conj	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+18	d'	di	ADP	E	_	19	case	_	_
+19	intolleranza	intolleranza	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	massa	massa	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=86122601&End=86122601
+# sent_id = 4
+# text = Ecco critici letterari e critici teatrali.
+1	Ecco	ecco	ADV	B	_	2	advmod	_	_
+2	critici	critico	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	letterari	letterario	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	critici	critico	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	_
+6	teatrali	teatrale	ADJ	A	Number=Plur	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=86122601&End=86122601
+# sent_id = 5
+# text = I critici letterari sono divisi;
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	SpacesAfter=\s\s
+2	critici	critico	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	letterari	letterario	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	divisi	diviso	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	5	punct	_	_
+
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=86122601&End=86122601
+# sent_id = 6
+# text = il vecchio e balbuziente Alfred Fiedler Malcolm cita Faustus di Marlowe - Io allora a capofitto nella terra mi getterò: apriti, terra!
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+2	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	balbuziente	balbuziente	ADJ	A	Number=Sing	2	conj	_	_
+5	Alfred	Alfred	PROPN	SP	_	8	nsubj	_	_
+6	Fiedler	Fiedler	PROPN	SP	_	5	flat:name	_	SpacesAfter=\s\s
+7	Malcolm	Malcolm	PROPN	SP	_	5	flat:name	_	_
+8	cita	citare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	Faustus	Faustus	PROPN	SP	_	8	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Marlowe	Marlowe	PROPN	SP	_	9	nmod	_	_
+12	-	-	PUNCT	FF	_	8	punct	_	_
+13	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+14	allora	allora	ADV	B	_	21	advmod	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	capofitto	capofitto	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+17-18	nella	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	terra	terra	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	21	obj	_	SpacesAfter=\s\s
+21	getterò	gettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	8	parataxis	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	21	punct	_	_
+23	apriti	aprire	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	parataxis	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	terra	terra	NOUN	S	Gender=Fem|Number=Sing	23	vocative	_	SpaceAfter=No
+26	!	!	PUNCT	FS	_	23	punct	_	SpacesAfter=\s 
+
+

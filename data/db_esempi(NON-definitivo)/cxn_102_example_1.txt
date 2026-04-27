@@ -1,0 +1,2 @@
+# source = corpus kiparla
+# text = Non me ne frega niente ma proprio niente

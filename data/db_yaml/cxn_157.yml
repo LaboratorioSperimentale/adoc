@@ -1,0 +1,69 @@
+cxn-id: |
+  157
+
+name: |
+  bello Adj
+
+cxn-machine-readable-formalization: |
+  cxn_157.conllc
+
+form: |
+	-  bello Adj
+	-
+
+function: |
+	-  VERY Adj
+	-  The construction intensifies a [quality]Adj. 
+	-
+
+restrictions: |
+	-  Adj = qualifying adjective
+	-
+
+coll-preferences: |
+	-  Adj = grosso, fresco, tranquillo, grande, pronto, chiaro,
+  caldo, largo, pieno, tosto, forte, alto, lungo
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	- intensification
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Adjective
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_157_example_1.txt
+	- cxn_157_example_2.txt
+	- cxn_157_example_3.txt
+	- cxn_157_example_4.txt
+	- cxn_157_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Beatrice Bernasconi
+

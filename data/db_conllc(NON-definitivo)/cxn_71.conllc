@@ -1,0 +1,6 @@
+# cxn_id = 71 
+# name = NP_subj V NP_obj a NP_compl   
+# function = literal or metaphorical tranfer of Theme (NP_obj) from Agent (Np_subj) to Beneficiary (a NP_compl) through the Verb   
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

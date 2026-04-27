@@ -1,0 +1,2 @@
+# source = Glosbe dizionario online
+# text = Tuttavia preoccuparsi di ciò che potrebbe succedere domani non fa altro che aggravare il carico emotivo di oggi.

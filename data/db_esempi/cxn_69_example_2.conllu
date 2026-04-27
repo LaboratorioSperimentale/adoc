@@ -1,0 +1,25 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Paisà
+# sent_id = 1
+# text = E tu pensi che se vengono cancellate alcune norme si torni al far west?
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+3	pensi	pensare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	11	mark	_	_
+5	se	se	SCONJ	CS	_	7	mark	_	_
+6	vengono	venire	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	cancellate	cancellare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	advcl	_	_
+8	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	norme	norma	NOUN	S	Gender=Fem|Number=Plur	7	nsubj:pass	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl:impers	_	_
+11	torni	tornare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	far	fare	VERB	V	VerbForm=Inf	11	obl	_	_
+15	west	west	NOUN	S	Gender=Masc	14	compound	_	SpaceAfter=No
+16	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+

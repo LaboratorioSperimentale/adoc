@@ -1,0 +1,2 @@
+# source = Corpus: Coris Timeslice: CORIS 1980_2000  Subcorpus: STAMPA
+# text = Ma..., come si dice: chi troppo vuole nulla stringe.

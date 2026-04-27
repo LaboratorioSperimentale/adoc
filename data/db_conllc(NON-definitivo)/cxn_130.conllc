@@ -1,0 +1,6 @@
+# cxn_id = 130 
+# name = Differenza di anni  
+# function = Esprimere la differenza anagrafica tra persone. Si tratta di un regionalismo colloquiale  
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

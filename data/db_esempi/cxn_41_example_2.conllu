@@ -1,0 +1,24 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://badip.uni-graz.at/it/corpus-lip/cerca?view=vcerca
+# sent_id = 1
+# text = Se ci danno l'elemosina allora tanto vale che stiano senza darci niente.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	iobj	_	_
+3	danno	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	elemosina	elemosina	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	allora	allora	ADV	B	_	8	advmod	_	_
+7	tanto	tanto	ADV	B	_	8	advmod	_	_
+8	vale	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	che	che	SCONJ	CS	_	10	mark	_	_
+10	stiano	stare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+11	senza	senza	ADP	E	_	12	mark	_	_
+12-13	darci	_	_	_	_	_	_	_	_
+12	dar	dare	VERB	V	VerbForm=Inf	10	advcl	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	12	expl	_	_
+14	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	SpaceAfter=No
+
+

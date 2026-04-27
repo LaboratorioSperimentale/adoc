@@ -1,0 +1,70 @@
+cxn-id: |
+  90
+
+name: |
+  Construction of the pronominal verb "avercela con"
+
+cxn-machine-readable-formalization: |
+  cxn_90.conllc
+
+form: |
+	-  avercela + con + N/P
+	-
+
+function: |
+	-  Semantica
+	-  It's a construction used to say that someone is mad at
+  someone.
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-  N = proper name, common name; P = pronoun.
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- formal-idiom
+	- unformal
+
+functional-tags: 
+	- EMOTIVE
+	- durativity >> cc:sem:durativity
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Noun, Verb, Preposition, Pronoun
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_90_example_1.txt
+	- cxn_90_example_2.txt
+	- cxn_90_example_3.txt
+	- cxn_90_example_4.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Naomi Feraco
+

@@ -1,0 +1,70 @@
+cxn-id: |
+  148
+
+name: |
+  VV compounds
+
+cxn-machine-readable-formalization: |
+  cxn_148.conllc
+
+form: |
+	-  [[x]Vαk [y]Vβi]Nγj
+	-
+
+function: |
+	-  [ACTION] [ACTION PERFORMED BY SEVERAL PEOPLE]
+	-  VV compounds
+	-
+
+restrictions: |
+	-  [x] and [y] are bisyllabic verbs when [x] and [y] are the
+  same verb reduplicated, the compound refer to an action
+  performed by several people
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Infrequent
+
+formal-tags: 
+	- reduplication
+	- compounding >> cc:str:compounding
+	- morphology
+
+functional-tags: 
+	- event-nouns
+
+complexity-level-tags: |
+	-  Word
+	-
+
+category-tags: |
+	-  Noun
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+  146
+
+examples: 
+	- cxn_148_example_1.txt
+	- cxn_148_example_2.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Silvia Micheli
+

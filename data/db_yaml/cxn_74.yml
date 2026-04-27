@@ -1,0 +1,89 @@
+cxn-id: |
+  74
+
+name: |
+  "Stare" with Noun Phrase used as Adverb/Prepositional Phrase
+
+cxn-machine-readable-formalization: |
+  cxn_74.conllc
+
+form: |
+	-  stare ART N Formal variants: stare ADV ART N
+	-
+
+function: |
+	-  PRAGMATIC
+	-  The function of the construction is to express the second
+  argument of the verb stare (the first being the subject) by
+  employing a noun phrase, where we would usually find an
+  adverb or a prepositional phrase (complemento di modo).
+  According to the valency of the verb, the argument should
+  not be, in fact, a direct object, as it could seem to be in
+  this construction.  The construction is used in informal
+  conversations only and it adds an emphatic or dramatic tone.
+	-
+
+restrictions: |
+	-  ART: the article is always indefinite (un/uno/una)
+	-
+
+coll-preferences: |
+	-  N = tendentially abstract nouns that indicate a quality
+  (bellezza, meraviglia, schifo), but also concrete objects
+  metaphorically used to indicate a state of being (bomba,
+  straccio, merda). Sometimes we can find an ADVERB of
+  intensity between the verb and the article.
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- formal-idiom
+	- lexically-open
+	- unformal
+
+functional-tags: 
+	- intensification
+	- context-dependence
+
+complexity-level-tags: |
+	-  Word, Phrase
+	-
+
+category-tags: |
+	-  Noun, Verb
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_74_example_1.txt
+	- cxn_74_example_2.txt
+	- cxn_74_example_3.txt
+	- cxn_74_example_4.txt
+	- cxn_74_example_5.txt
+
+note: |
+	-  It is a construction in evolution, only used in oral and
+  informal conversations. It coexists with the more usual and
+  standard constructions stare + PP (sto di merda; sto da
+  schifo) or stare + AdvP (sto come uno straccio). It seems to
+  be more used by speakers from Central and Southern Italy,
+  where it is considered as almost stardard (especially in the
+  regional Italian from Rome: sto 'na crema), while it is
+  perceived as non-standard by Northern speakers.
+	-  USAGE:
+
+references: |
+
+collector: |
+  Martina Paolucci
+

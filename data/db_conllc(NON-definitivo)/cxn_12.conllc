@@ -1,0 +1,6 @@
+# cxn_id = 12 
+# name = V.inf.parlare + Prepart.del + Agg. più + Cong. e + Prep.art.del + Agg. meno 
+# function = Parlare di qualcosa in generale, poco importante 
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

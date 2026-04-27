@@ -1,0 +1,2 @@
+# source = ItWac
+# text = Nel 1991 è stato nominato direttore

@@ -1,0 +1,2 @@
+# source = http://www.scudit.net/copertine/pdffarfare.pdf
+# text = Ti faccio aspettare qualche minuto 

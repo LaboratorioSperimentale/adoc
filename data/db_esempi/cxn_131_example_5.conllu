@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: itTenTen20
+# sent_id = 1
+# text = Domenica 13 Novembre 2016, 19.48.07
+1	Domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	13	13	NUM	N	NumType=Card	1	nmod	_	_
+3	Novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	2016	2016	NUM	N	NumType=Card	2	flat	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	19.48.07	19.48.07	NUM	N	NumType=Card	1	nummod	_	_
+
+# source = Corpus: itTenTen20
+# sent_id = 2
+# text = Non lo so, è che mi sono stufato di parlare sempre e solo dei solito 15 album in croce che hanno fatto la storia del metal anni 80, siamo nel 2016 cavolo, parliamo di album fondamentali per questa epoca
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	expl	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	stufato	stufare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	parlare	parlare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12	sempre	sempre	ADV	B	_	11	advmod	_	_
+13	e	e	CCONJ	CC	_	19	cc	_	_
+14	solo	solo	ADV	B	_	19	advmod	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	19	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+17	solito	solito	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+18	15	15	NUM	N	NumType=Card	19	nummod	_	_
+19	album	album	NOUN	S	Gender=Masc	11	obl	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	croce	croce	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	_
+22	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+23	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	storia	storia	NOUN	S	Gender=Fem|Number=Sing	24	obj	_	_
+27-28	del	_	_	_	_	_	_	_	_
+27	di	di	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	metal	metal	NOUN	S	Gender=Masc	26	nmod	_	_
+30	anni	anno	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	_
+31	80	80	NUM	N	NumType=Card	30	nummod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	5	punct	_	_
+33	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	36	cop	_	_
+34-35	nel	_	_	_	_	_	_	_	_
+34	in	in	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	2016	2016	NUM	N	NumType=Card	3	obl	_	_
+37	cavolo	cavolo	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	39	punct	_	_
+39	parliamo	parlare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	album	album	NOUN	S	Gender=Masc	39	obl	_	_
+42	fondamentali	fondamentale	ADJ	A	Number=Plur	41	amod	_	_
+43	per	per	ADP	E	_	45	case	_	_
+44	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	45	det	_	_
+45	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No
+
+

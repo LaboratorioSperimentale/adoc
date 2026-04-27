@@ -1,0 +1,23 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Tiktok
+# sent_id = 1
+# text = non io che ho fatto sto video a gennaio e ancora non lo avevo postato
+1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	SpacesAfter= 
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6	sto	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	video	video	NOUN	S	Gender=Masc	5	obj	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10	e	e	CCONJ	CC	_	15	cc	_	_
+11	ancora	ancora	ADV	B	_	15	advmod	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+14	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	15	aux	_	_
+15	postato	postare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	SpaceAfter=No
+
+

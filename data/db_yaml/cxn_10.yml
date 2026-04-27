@@ -1,0 +1,68 @@
+cxn-id: |
+  10
+
+name: |
+  V.inf stare + Prep.semp. con + Agg. due + N1 piedi +
+  Prep.semp. in + Art. una + N2 scarpa 
+
+cxn-machine-readable-formalization: |
+  cxn_10.conllc
+
+form: |
+	-  V.inf stare + Prep.semp. con + Agg. due + N1 piedi +
+  Prep.semp. in + Art. una + N2 scarpa 
+	-
+
+function: |
+	-  Indica una sensazione di scomodità e costrizione, mediante
+  metafora. 
+	-
+	-
+
+restrictions: |
+	-
+	-  parlato colloquiale.
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+
+formal-tags: 
+	- semi-fixity
+
+functional-tags: 
+	- context-dependence
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_10_example_1.txt
+
+note: |
+	-  Il verbo può essere coniugato, mentre gli altri componenti
+  della frase sono stabili e non possono essere modificati.
+	-  USAGE:
+
+references: |
+
+collector: |
+  Alcuna fonte citata, costruzione ed esempi pensati ed
+  inseriti.
+

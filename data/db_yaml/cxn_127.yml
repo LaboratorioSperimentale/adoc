@@ -1,0 +1,83 @@
+cxn-id: |
+  127
+
+name: |
+  Pippo construction
+
+cxn-machine-readable-formalization: |
+  cxn_127.conllc
+
+form: |
+	-  Che + Adj./Name + Che + Verb 
+	-
+
+function: |
+	-  From my point of view the Pippo Construction has a
+  communicative function. One could use it in order to
+  highlight a certain meaning within a sentence. Usually the
+  meaning enanced owns a semantic of "quality" that is shown
+  through an adjective or a particular connotation of a name. 
+	-  You can use this construction to compliment someone, or more
+  in general to express an opinion about somebody or
+  something. Think about what you want to say and build a
+  sentence with words in a non marked order. "hai dei bei
+  capelli", "é buono". Take the nominal part of the sencence
+  and place it after the first "che", than take the verb and
+  place it after the second "che". "Che bei capelli che hai",
+  "Che buono che è". This construction suites the informal
+  spoken speech better than the formal written one. Feel free
+  to be creative. 
+	-
+
+restrictions: |
+	-  Usually the first "che" is followed by a noun or an
+  adjective, and the other "che" by a verb.
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- reduplication
+
+functional-tags: 
+	- intensification
+
+complexity-level-tags: |
+	-  Clause
+	-
+
+category-tags: |
+	-  Noun, Adjective
+	-
+
+schematicity-level: |
+  fully schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_127_example_1.txt
+	- cxn_127_example_2.txt
+	- cxn_127_example_3.txt
+	- cxn_127_example_4.txt
+	- cxn_127_example_5.txt
+
+note: |
+	-  Probably none of the things written makes sense. Thank you
+  for the opportunity though. 
+	-  USAGE:
+
+references: |
+
+collector: |
+  Angelica Vittorino
+

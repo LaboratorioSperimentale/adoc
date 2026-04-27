@@ -1,0 +1,70 @@
+cxn-id: |
+  73
+
+name: |
+  Speigare di essere senza soldi
+
+cxn-machine-readable-formalization: |
+  cxn_73.conllc
+
+form: |
+	-  Aus. essere, Prep, N.
+	-
+
+function: |
+	-  Pragmatica, Descrittiva 
+	-  "Essere in bolletta" significa non avere più soldi, essere
+  in miseria. 
+	-
+
+restrictions: |
+	-  L'ordine è fisso e gli elementi non possono cambiarsi. 
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- lexically-filled-idiom
+
+functional-tags: 
+	- situation >> cc:sem:event
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Noun, Verb, Preposition
+	-
+
+schematicity-level: |
+  lexically filled
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_73_example_1.txt
+	- cxn_73_example_2.txt
+	- cxn_73_example_3.txt
+	- cxn_73_example_4.txt
+	- cxn_73_example_5.txt
+
+note: |
+	-  Nelle zone da cui provengo, Modena, viene usata molto più
+  spesso in dialetto rispetto all'italiano. 
+	-  USAGE:
+
+references: |
+
+collector: |
+  Sofia Guizzardi
+

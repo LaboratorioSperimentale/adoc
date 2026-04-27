@@ -1,0 +1,2 @@
+# source = ItWac
+# text = E se vi dico che sono simpatica?

@@ -1,0 +1,12 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ideata da me stessa
+# sent_id = 1
+# text = che bello che vieni
+1	che	che	DET	DQ	PronType=Int	2	det	_	_
+2	bello	bello	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	CS	_	4	mark	_	_
+4	vieni	venire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	SpaceAfter=No
+
+

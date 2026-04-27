@@ -1,0 +1,2 @@
+# source = MONITOR
+# text =  C ' è malumore tra i ragazzi , prima ritroveremo spazi adeguati , prima tornerà l ' armonia .

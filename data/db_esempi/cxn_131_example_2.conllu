@@ -1,0 +1,64 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: itTenTen20
+# sent_id = 1
+# text = d'estate DI NON FARE L'ESCURSIONE COSTA SUL DELTA DEL DANUBIO....è stato un incubo.
+1	d'	di	ADP	E	_	2	case	_	SpaceAfter=No
+2	estate	estate	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+3	DI	di	ADP	E	_	5	mark	_	_
+4	NON	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	FARE	fare	VERB	V	VerbForm=Inf	2	acl	_	_
+6	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	ESCURSIONE	escursione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	COSTA	costo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9-10	SUL	_	_	_	_	_	_	_	_
+9	SU	su	ADP	E	_	11	case	_	_
+10	IL	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	DELTA	delta	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+12-13	DEL	_	_	_	_	_	_	_	_
+12	DI	di	ADP	E	_	14	case	_	_
+13	IL	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	DANUBIO....è	danubio....è	PROPN	SP	_	11	nmod	_	_
+15	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	cop	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	incubo.	incubo.	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+
+# source = Corpus: itTenTen20
+# sent_id = 2
+# text = ..abbiamo visto tre volatili in croce ...e per tre ore lo stesso panorama.
+1	..abbiamo	..avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	tre	tre	NUM	N	NumType=Card	4	nummod	_	_
+4	volatili	volatile	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	croce	croce	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	...e	...e	PUNCT	FF	_	2	punct	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	tre	tre	NUM	N	NumType=Card	10	nummod	_	_
+10	ore	ora	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+11	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+13	panorama.	panorama.	NOUN	S	Gender=Masc	2	parataxis	_	SpaceAfter=No
+
+# source = Corpus: itTenTen20
+# sent_id = 3
+# text = ...con un caldo pazzesco anche nella parte del battello dove si pranza
+1	...con	...con	PUNCT	FF	_	3	punct	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	caldo	caldo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	pazzesco	pazzesco	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	anche	anche	ADV	B	_	8	advmod	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	parte	parte	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	battello	battello	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	dove	dove	ADV	B	_	14	advmod	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl:impers	_	_
+14	pranza	pranzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	SpaceAfter=No
+
+

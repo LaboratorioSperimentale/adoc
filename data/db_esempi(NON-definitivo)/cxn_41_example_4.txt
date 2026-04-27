@@ -1,0 +1,2 @@
+# source = 
+# text = La presentazione del libro non mi piace, tanto vale andarsene.

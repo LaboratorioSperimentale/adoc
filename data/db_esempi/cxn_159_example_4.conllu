@@ -1,0 +1,24 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = 1
+# text = Si considerano molluschi bivalvi (...) gli esemplari inferiori alle seguenti dimensioni:
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:pass	_	_
+2	considerano	considerare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molluschi	mollusco	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+4	bivalvi	bivalvo	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	SpacesAfter= 
+5	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	...	...	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	6	punct	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	esemplari	esemplare	NOUN	S	Gender=Masc|Number=Plur	2	nsubj:pass	_	_
+10	inferiori	inferiore	ADJ	A	Degree=Cmp|Number=Plur	9	amod	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	14	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	seguenti	seguente	ADJ	A	Number=Plur	14	amod	_	_
+14	dimensioni	dimensione	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	2	punct	_	SpaceAfter=No
+
+

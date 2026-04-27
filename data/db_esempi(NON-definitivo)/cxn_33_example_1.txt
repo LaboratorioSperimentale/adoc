@@ -1,0 +1,2 @@
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=114830445&End=114830445
+# text = Non parlo per sentito dire , ma per esperienza diretta . Da quando dirigo giornali , praticamente trascorro più tempo in tribunale che in redazione ; a occhio e  , credo di aver felicemente superato le trecento querele e conto , entro l ' anno , di sfondare quota quattrocento

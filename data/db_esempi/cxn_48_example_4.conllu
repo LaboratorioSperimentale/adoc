@@ -1,0 +1,50 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CorpusPaisà (corpusitaliano.it)
+# sent_id = 1
+# text = Ciao, sono Marìca, ho un amore spasmodico per i libri, e il rapporto spesso conflittuale con la lettura e la scrittura mi hanno spinto a fare sempre più uso dei dizionari e delle enciclopedie.
+1	Ciao	ciao	INTJ	I	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	Marìca	Marìca	PROPN	SP	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	amore	amore	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	spasmodico	spasmodico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	libri	libro	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	27	punct	_	_
+14	e	e	CCONJ	CC	_	27	cc	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+17	spesso	spesso	ADV	B	_	18	advmod	_	_
+18	conflittuale	conflittuale	ADJ	A	Number=Sing	16	amod	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	lettura	lettura	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	scrittura	scrittura	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	_
+25	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	27	obj	_	_
+26	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	spinto	spingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+28	a	a	ADP	E	_	29	mark	_	_
+29	fare	fare	VERB	V	VerbForm=Inf	27	xcomp	_	_
+30	sempre	sempre	ADV	B	_	31	advmod	_	_
+31	più	più	ADV	B	_	32	advmod	_	_
+32	uso	uso	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+33-34	dei	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	dizionari	dizionario	NOUN	S	Gender=Masc|Number=Plur	32	nmod	_	_
+36	e	e	CCONJ	CC	_	39	cc	_	_
+37-38	delle	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+39	enciclopedie	enciclopedia	NOUN	S	Gender=Fem|Number=Plur	35	conj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+

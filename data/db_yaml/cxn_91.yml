@@ -1,0 +1,71 @@
+cxn-id: |
+  91
+
+name: |
+  Cadere in costruzione
+
+cxn-machine-readable-formalization: |
+  cxn_91.conllc
+
+form: |
+	-  V + Prep(sempl) + Sostantivo
+	-
+
+function: |
+	-  Semantico/Pragmatica
+	-  Uno stato di privazione (cadere) causato da un qualche
+  evento negativo, che generalmente viene indicato da
+  sostantivi con connotazione negativa
+  (disgrazia/rovina/inganno/trappola)
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- semi-fixity
+
+functional-tags: 
+	- situation >> cc:sem:event
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Verb
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_91_example_1.txt
+	- cxn_91_example_2.txt
+	- cxn_91_example_3.txt
+	- cxn_91_example_4.txt
+	- cxn_91_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Vanessa Tizzano
+

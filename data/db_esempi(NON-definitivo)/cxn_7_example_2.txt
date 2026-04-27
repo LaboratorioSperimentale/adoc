@@ -1,0 +1,2 @@
+# source = Corpus: CORIS
+# text = E poi gli orsi non sono animali migratori, non assomigliano per niente alle rondini. Gli orsi vagabondano, sono animali erranti. Prendono e partono, e non è affatto detto che ritornino.

@@ -1,0 +1,6 @@
+# cxn_id = 70 
+# name = Endocentric left-headed compounds 
+# function = [SEMk in R with SEMi]j  
+# horizontal_links =  
+# vertical_links = 145 
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

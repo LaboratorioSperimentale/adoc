@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS 2021
+# sent_id = 1
+# text = Alla fine il decreto salva-Rete4 (to save+Rete4, Italian TV channel) arriva , senza una sola parola sul problema delle concentrazioni televisive.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fine	fine	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	decreto	decreto	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+6	salva-Rete4	Salva-Rete4	PROPN	SP	_	5	nmod	_	_
+7	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	to	to	X	SW	Foreign=Yes	5	appos	_	_
+9	save+Rete4	save+ree	X	SW	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	Italian	italian	ADJ	A	_	8	nmod	_	_
+12	TV	tv	NOUN	S	_	8	flat:foreign	_	_
+13	channel	channel	NOUN	SW	Foreign=Yes	8	flat:foreign	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	8	punct	_	_
+15	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	senza	senza	ADP	E	_	20	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	sola	solo	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+20	parola	parola	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+21-22	sul	_	_	_	_	_	_	_	_
+21	su	su	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	problema	problema	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24-25	delle	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	concentrazioni	concentrazione	NOUN	S	Gender=Fem|Number=Plur	23	nmod	_	_
+27	televisive	televisivo	ADJ	A	Gender=Fem|Number=Plur	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	15	punct	_	_
+
+# source = CORIS 2021
+# sent_id = 2
+# text = 'In the end the decree saving Network4 arrives, without a single word on the issue of television mergers.'
+1	'	'	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+2	In	in	ADP	E	_	4	case	_	_
+3	the	the	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	end	end	NOUN	S	_	9	obl	_	_
+5	the	the	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	decree	decree	NOUN	S	Gender=Fem	9	nsubj	_	_
+7	saving	saving	VERB	S	_	6	compound	_	_
+8	Network4	Network4	PROPN	SP	_	6	nmod	_	_
+9	arrives	arrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	without	without	ADV	A	_	9	advmod	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	single	single	ADJ	A	Number=Sing	14	amod	_	_
+14	word	word	NOUN	S	Gender=Masc	11	obl	_	_
+15	on	on	ADP	E	_	17	case	_	_
+16	the	the	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	issue	issua	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+18	of	of	ADP	E	_	19	case	_	_
+19	television	television	NOUN	S	Gender=Fem	17	nmod	_	_
+20	mergers.'	mergers.o	ADJ	A	_	19	amod	_	SpaceAfter=No
+
+

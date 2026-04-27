@@ -1,0 +1,6 @@
+# cxn_id = 31 
+# name = saltare+ N 
+# function = il verbo saltare non è utilizzato con il suo valore semantico di darsi una spinta verso l'alto bensì indica un'azione che è non è verificata volontariamente o no 
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

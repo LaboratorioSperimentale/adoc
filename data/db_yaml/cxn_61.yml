@@ -1,0 +1,69 @@
+cxn-id: |
+  61
+
+name: |
+  "Immagina" Vinf SN/Sprep Prep/Conj SV
+
+cxn-machine-readable-formalization: |
+  cxn_61.conllc
+
+form: |
+	-  "Immagina" Vinf SN/Sprep Prep/Conj SV
+	-
+
+function: |
+	-  Costruzione che esprime una situazione inusuale/imprevista
+  in relazione ai presupposti espressi dal verbo di pensiero
+  "Immagina"
+	-
+	-  La costruzione è predicibile dalla sua frequenza d'uso
+
+restrictions: |
+	-
+	-  Il verbo immagina, usato in forma impersonale, si trova
+  all'inizio della proposizione
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_61_example_1.txt
+	- cxn_61_example_2.txt
+	- cxn_61_example_3.txt
+	- cxn_61_example_4.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Alessia Sulioti
+

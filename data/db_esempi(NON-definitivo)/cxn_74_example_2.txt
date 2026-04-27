@@ -1,0 +1,2 @@
+# source = Corpus: Italian Web 2020 (itTenTen20)
+# text = Da quando è partito sto uno straccio, sono distrutta, sto malissimo, la mia vita non ha più senso.

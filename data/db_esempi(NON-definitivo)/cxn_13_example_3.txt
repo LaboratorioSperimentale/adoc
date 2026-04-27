@@ -1,0 +1,2 @@
+# source = Corpus: CORIS
+# text = Dopo quell'umiliazione, era più che mai deciso a non invitare nessuno.

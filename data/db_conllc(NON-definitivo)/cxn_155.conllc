@@ -1,0 +1,6 @@
+# cxn_id = 155 
+# name = Verba Dicendi Explicit Construction 
+# function = La costruzione profila eventi di dire, chiedere, narrare, etc. in cui alla principale segue una subordinata esplicita introdotta da che e seguita da un verbo in forma finita 
+# horizontal_links = 154 
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

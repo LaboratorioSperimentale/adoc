@@ -1,0 +1,2 @@
+# source = Corpus: CORIS
+# text = […] ogni tanto qualcuno chiama per un intervento e allora prendo su e vado a fare il mio dovere.

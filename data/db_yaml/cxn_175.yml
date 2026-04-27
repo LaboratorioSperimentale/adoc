@@ -1,0 +1,66 @@
+cxn-id: |
+  175
+
+name: |
+  Nome1
+
+cxn-machine-readable-formalization: |
+  cxn_175.conllc
+
+form: |
+	-  più noun/adj è meglio è.
+	-
+
+function: |
+	-
+	-  La costruzione mette in relazione l'aumento nella quantità
+  di una certa entità, oppure l'incremento nel grado di un
+  aggettivo, con una situazione di vantaggio.  
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_175_example_1.txt
+	- cxn_175_example_2.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Viola
+

@@ -1,0 +1,2 @@
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=30535272&End=30535272
+# text = Quella strada lo avrebbe rapidamente immesso sulla statale e poi, in men che non si dica , lui si sarebbe ritrovato nei pressi della stradina che conduceva al Colle dello Scopatore

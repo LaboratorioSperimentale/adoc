@@ -1,0 +1,2 @@
+# source = CORIS
+# text = Allora quasi quasi darei un'occhiata.

@@ -1,0 +1,107 @@
+cxn-id: |
+  25
+
+name: |
+  [Che/Cosa/Che cosa [(Obj1) (Obj2) [XV [a fare] ]
+
+cxn-machine-readable-formalization: |
+  cxn_25.conllc
+
+form: |
+	-  [Che/Cosa/Che cosa [(Obj1) (Obj2) [XV [a fare] ]
+	-  La costruzione presenta due elementi fissi: l'argomento
+  invariabile a fare, e il pronome interrogativo espresso
+  variabilmente da che/cosa/che cosa.
+
+function: |
+	-  La costruzione si configura come domanda retorica che
+  esprime irritazione o critica relativamente all'azione
+  espressa dal verbo flesso, ritenuta inutile o superflua.
+	-
+	-  Seppur non nell'assoluta totalità dei casi, un costrutto
+  privato della costituente invariabile a fare risulterebbe
+  incompleto o incomprensibile: Ma che ti lamenti? potrebbe
+  sostituire Ma che ti lamenti a fare? senza perdita di
+  efficacia semantico-pragmatica. Al contrario,
+  l'interrogativa Cosa studi? non può sostituire Cosa studi a
+  fare? poiché in questo caso la rimozione della costituente
+  invariabile della costruzione priverebbe totalmente il
+  costrutto della sua portata semantica, originando di fatto
+  una frase con grado zero di retoricità da comprendersi alla
+  lettera. 
+
+restrictions: |
+	-
+	-  La costruzione prevede la presenza obbligatoria di un verbo
+  flesso che precede immediatamente la costituente invariabile
+  a fare.
+
+coll-preferences: |
+	-
+	-  Il verbo flesso della costruzione è preceduto frequentemente
+  da uno o due pronomi personali con funzione di complemento
+  di termine e complemento oggetto (es. 3). Il pronome
+  interrogativo è di frequente preceduto dalla congiunzione
+  avversativa  ma e dall'avverbio allora (rispettivamente,
+  ess. 1,2,5, e es. 3.). Il costutto è spesso seguito da una
+  frase preposizionale collegata al verbo che assume funzione
+  di complemento e/o da una proposizione condizionale che
+  indica le ragioni di irritazione connesse all'azione
+  espressa da XV  (Cosa mi chiedi a fare di uscire se poi nei
+  giorni seguenti non mi vuoi neanche sentire e tanto meno
+  lasciarmi un sempice numero di cellulare?).       
+
+usage: |
+
+formal-tags: 
+	- WXDY---What’s-X-doing-Y-construction
+
+functional-tags: 
+	- USELESSNESS
+	- IRRITATION
+	- INTERROGATIVE
+	- EMOTIVE
+	- CRITICISM
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_25_example_1.txt
+	- cxn_25_example_2.txt
+	- cxn_25_example_3.txt
+	- cxn_25_example_4.txt
+	- cxn_25_example_5.txt
+
+note: |
+	-  La costruzione è menzionata in Imperiale, Riccardo,
+  Schafroth, Elmar. "Fraseologia italiana basata sull’uso:
+  lessicografia digitale per apprendenti tra la frame
+  semantics e la grammatica delle costruzioni." Italiano
+  LinguaDue 11.1, 2019, pp. 1-28 e analizzata più
+  dettagliatamente in Schafroth, Elmar. "How constructions
+  should be dealt with in learners’ lexicography–illustrated
+  for the Italian language." Proceedings of the International
+  Conference “Constructionist Approaches to Language
+  Pedagogy”, Nov. 2013, pp. 1-10.
+	-  USAGE:
+
+references: |
+
+collector: |
+  Matilde Secchi
+

@@ -1,0 +1,68 @@
+cxn-id: |
+  94
+
+name: |
+  Enfatizzazione ironica
+
+cxn-machine-readable-formalization: |
+  cxn_94.conllc
+
+form: |
+	-  Ma Aus Essere Agg Pron
+	-
+
+function: |
+	-  Funzione pragmatica
+	-  Enfatizza un aggettivo come riposta ironica. 
+	-
+
+restrictions: |
+	-  L'ausiliare essere compare coniugato al futuro.
+	-
+
+coll-preferences: |
+	-  Compare come frase a sè. 
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- Substantive-idiom
+
+functional-tags: 
+	- intensification
+	- fakeness
+	- disappointment
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Verb, Adjective, Pronoun
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_94_example_1.txt
+	- cxn_94_example_2.txt
+	- cxn_94_example_3.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Marianna Lorato
+

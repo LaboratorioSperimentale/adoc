@@ -1,0 +1,2 @@
+# source = Glosbe dizionario online
+# text = Credo che ora spetti al Parlamento, per così dire, battere un colpo.

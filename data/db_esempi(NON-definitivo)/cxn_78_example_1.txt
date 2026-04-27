@@ -1,0 +1,2 @@
+# source = CORIS
+# text = "Sì , per me va benissimo . Ma metterti a cucinare , semmai ordiniamo delle pizze ."

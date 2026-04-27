@@ -1,0 +1,2 @@
+# source = Google Search
+# text = Non è tanto il caldo, ma è l'umidità che uccide

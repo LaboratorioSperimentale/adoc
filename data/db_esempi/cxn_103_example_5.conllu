@@ -1,0 +1,47 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = SketchEngine
+# sent_id = 1
+# text = Figuramoci se è possibile installare una cosa come R-link che dà informazioni su tutta l'auto.
+1	Figuramoci	figuramoco	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	se	se	SCONJ	CS	_	4	mark	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	possibile	possibile	ADJ	A	Number=Sing	1	advcl	_	_
+5	installare	installare	VERB	V	VerbForm=Inf	4	csubj	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	come	come	ADP	E	_	9	case	_	_
+9	R-link	R-link	PROPN	SP	_	7	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+12	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+13	su	su	ADP	E	_	16	case	_	_
+14	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	16	det:predet	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	auto	auto	NOUN	S	Gender=Fem	11	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# source = SketchEngine
+# sent_id = 2
+# text = A parte che secondo me un sistema touch-screen porta via l'attenzione alla guida.
+1	A	a	ADP	E	_	2	case	_	_
+2	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+3	che	che	SCONJ	CS	_	10	mark	_	_
+4	secondo	secondo	ADP	E	_	5	case	_	_
+5	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	obl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+8	touch-	touch-	NOUN	S	_	7	compound	_	SpaceAfter=No
+9	screen	screen	NOUN	S	Gender=Masc	7	compound	_	_
+10	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	via	via	ADV	B	_	10	advmod	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	guida	guida	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	10	punct	_	SpaceAfter=No
+
+

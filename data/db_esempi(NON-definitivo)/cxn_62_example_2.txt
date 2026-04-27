@@ -1,0 +1,2 @@
+# source = competenze personali
+# text = "ma anche no"

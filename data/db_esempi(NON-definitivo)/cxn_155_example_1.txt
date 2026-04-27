@@ -1,0 +1,2 @@
+# source = ItWac
+# text = adesso Giorgio gli spiegherà che sono qui per partire insieme a loro

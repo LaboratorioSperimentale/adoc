@@ -1,0 +1,2 @@
+# source = Corpus: Italian parliamentary debates (ParlaMint 2.1, CoNLL format) 
+# text =  Ciò che più conta, però, è che la liquidità arrivi davvero alle imprese.

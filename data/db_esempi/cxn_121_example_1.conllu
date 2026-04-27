@@ -1,0 +1,69 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac Complete
+# sent_id = 1
+# text = ... come ?
+1	...	...	PUNCT	FF	_	2	punct	_	_
+2	come	come	ADV	B	_	0	root	_	_
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# source = ItWac Complete
+# sent_id = 2
+# text = Ma con gli stessi missili del carro armatone !
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	con	con	ADP	E	_	5	case	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+5	missili	missile	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	carro	carro	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	armatone	armatone	NOUN	S	Gender=Masc|Number=Sing	8	compound	_	_
+10	!	!	PUNCT	FS	_	5	punct	_	_
+
+# source = ItWac Complete
+# sent_id = 3
+# text = Anzi il carro armato è dotato di grossi stinger ... ma guarda un po' te che coincideza ... è la stessa arma ( tralasciando le dimensioni ) che gli usa elargirono ai talebani nella guerra
+1	Anzi	anzi	ADV	B	_	6	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	carro	carro	NOUN	S	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+4	armato	armato	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	dotato	dotare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	grossi	grosso	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+9	stinger	stinger	NOUN	S	Gender=Masc	6	obl	_	_
+10	...	...	PUNCT	FF	_	12	punct	_	_
+11	ma	ma	CCONJ	CC	_	12	cc	_	_
+12	guarda	guardare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	conj	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	po'	poco	ADV	B	_	12	advmod	_	_
+15	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	12	obj	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	coincideza	coincidezare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	...	...	PUNCT	FF	_	12	punct	_	_
+19	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+22	arma	arma	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+23	(	(	PUNCT	FB	_	24	punct	_	_
+24	tralasciando	tralasciare	VERB	V	VerbForm=Ger	22	advcl	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	dimensioni	dimensione	NOUN	S	Gender=Fem|Number=Plur	24	obj	_	_
+27	)	)	PUNCT	FB	_	24	punct	_	_
+28	che	che	PRON	PR	PronType=Rel	31	obj	_	_
+29	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	usa	usa	NOUN	S	Gender=Fem|Number=Sing	31	nsubj	_	_
+31	elargirono	elargire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	22	acl:relcl	_	_
+32-33	ai	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	talebani	talebano	NOUN	S	Gender=Masc|Number=Plur	31	obl	_	_
+35-36	nella	_	_	_	_	_	_	_	_
+35	in	in	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	SpaceAfter=No
+
+

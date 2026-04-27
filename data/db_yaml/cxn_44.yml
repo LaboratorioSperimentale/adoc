@@ -1,0 +1,69 @@
+cxn-id: |
+  44
+
+name: |
+  X (v)  + compl.ogg. 
+
+cxn-machine-readable-formalization: |
+  cxn_44.conllc
+
+form: |
+	-  X (v)  + compl.ogg. 
+	-  Si tratta di una costruzione verbale intercambiabile 
+
+function: |
+	-  Hai scoperto l'acqua calda/ l'America è un modo dire che si
+  utilizza il più delle volte per ridicolizzare o schernire
+  l'interlocutore.
+	-
+	-  Il verbo scoprire non è utilizzato solo per indicare
+  un'azione ma per schernirla 
+
+restrictions: |
+	-
+	-  Al verbo scoprire deve essere sempre accompagnato un
+  complemento oggetto
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+
+formal-tags: 
+	- light-verbs >> cc:cxn:support-verb
+
+functional-tags: 
+	- CRITICISM
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_44_example_1.txt
+	- cxn_44_example_2.txt
+
+note: |
+	-
+	-  USAGE: La costruzione ha sviluppato una frequenza d'uso tale
+  da diventare idiomatica nella sua ironia 
+
+references: |
+
+collector: |
+  Flavia Vetere
+

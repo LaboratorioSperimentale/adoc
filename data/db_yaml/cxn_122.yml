@@ -1,0 +1,94 @@
+cxn-id: |
+  122
+
+name: |
+  Sbolognare + X
+
+cxn-machine-readable-formalization: |
+  cxn_122.conllc
+
+form: |
+	-  V + X X tendenzialmente corrisponde a un N 
+	-
+
+function: |
+	-  Indica volontà di liberarsi di qualcuno/qualcosa.
+	-  La costruzione si usa per indicare la volontà di liberarsi
+  di un oggetto o di una persona. Usata principalmente in
+  senso dispregiativo, fa parte del registro informale-
+  dialettale bolognese. 
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Infrequent
+
+formal-tags: 
+	- lexically-open
+	- assertion
+
+functional-tags: 
+	- vaghezza
+	- IRRITATION
+	- disappointment
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Verb
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_122_example_1.txt
+	- cxn_122_example_2.txt
+	- cxn_122_example_3.txt
+	- cxn_122_example_4.txt
+	- cxn_122_example_5.txt
+
+note: |
+	-  Dal Vocabolario online Treccani: "v. tr. [voce di origine
+  furbesca, derivata prob. da Bologna, dove si fabbricavano e
+  si vendevano oggetti d’oro falso o di bassa lega (oro di
+  Bologna)] (io sbológno, ... noi sbologniamo, voi sbolognate,
+  e nel cong. sbologniamo, sbologniate). – 1. a. Dare via,
+  spacciare monete false: mi hanno appioppato dieci euro
+  falsi, e non ho il coraggio di sbolognarli. b. estens. Dare
+  via un oggetto di nessun valore o utilità, o di pessimo
+  gusto, ricavandone o no un compenso: è una stoffa che ho in
+  negozio da più di un anno, e non mi riesce di
+  sbolognarla; quel soprammobile è orribile, al primo
+  matrimonio lo sbologno come regalo. c. fig. Mandare via,
+  togliersi di torno una persona non gradita, spec. un
+  dipendente o un familiare: quell’impiegato non mi va a
+  genio, ho intenzione di sbolognarlo al più presto; con tutti
+  i quattrini che hanno, non riescono a s. le figlie (cioè a
+  farle sposare). 2. Con la particella pron., e il
+  pron. la indefinito, sbolognarsela, battersela,
+  svignarsela". Tra parlanti sembra prevalere l'uso
+  esemplificato in 1. b.  Nell'uso comune il verbo sembra
+  esprimere un'azione dettata da una certa impellenza. 
+	-  USAGE:
+
+references: |
+
+collector: |
+  Lavinia Fanelli
+

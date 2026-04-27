@@ -1,0 +1,2 @@
+# source = Corpus: CORIS
+# text = [...] personaggi simil-Humphrey Bogart in “Casablanca”

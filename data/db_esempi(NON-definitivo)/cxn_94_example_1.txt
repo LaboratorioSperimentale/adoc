@@ -1,0 +1,2 @@
+# source = Parlante nativo
+# text = - Guarda che non si fa così. - Ma sarai bravo tu!

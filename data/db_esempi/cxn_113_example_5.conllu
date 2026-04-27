@@ -1,0 +1,109 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS2021
+# sent_id = 1
+# text = MA ALLORA perché siamo qui?
+1	MA	ma	CCONJ	CC	_	4	cc	_	_
+2	ALLORA	allora	ADV	B	_	4	advmod	_	_
+3	perché	perché	ADV	B	_	4	advmod	_	_
+4	siamo	essere	VERB	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	qui	qui	ADV	B	_	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	4	punct	_	_
+
+# source = CORIS2021
+# sent_id = 2
+# text = S’è chiesta mezza aula di Montecitorio al quarantesimo minuto del discorso di Massimo D’Alema […].
+1	S’	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	chiesta	chiedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	mezza	mezzo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	aula	aula	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Montecitorio	Montecitorio	PROPN	SP	_	5	nmod	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	quarantesimo	quarantesimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	11	amod	_	_
+11	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Massimo	Massimo	PROPN	SP	_	14	nmod	_	_
+17	D’	D’	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	Alema	Alema	PROPN	SP	_	16	flat:name	_	_
+19	[	[	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	…	…	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+21	]	]	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+
+# source = CORIS2021
+# sent_id = 3
+# text = Minuto dopo minuto, numero su numero, il premier ha eretto l’ultimo baluardo, un muro di gomma sul quale far rimbalzare […] le ragioni mai nominate e neppure accennate per cui tutti erano stati convocati d’urgenza al capezzale del governo malato.
+1	Minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+2	dopo	dopo	ADP	E	_	3	case	_	_
+3	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter= 
+5	numero	numero	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+6	su	su	ADP	E	_	7	case	_	_
+7	numero	numero	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	premier	premier	NOUN	S	Gender=Masc	12	nsubj	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	eretto	erigere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+14	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	15	amod	_	_
+15	baluardo	baluardo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	muro	muro	NOUN	S	Gender=Masc|Number=Sing	15	appos	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	gomma	gomma	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21-22	sul	_	_	_	_	_	_	_	_
+21	su	su	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	quale	quale	PRON	PR	Number=Sing|PronType=Rel	24	obl	_	_
+24	far	fare	VERB	V	VerbForm=Inf	18	acl:relcl	_	_
+25	rimbalzare	rimbalzare	VERB	V	VerbForm=Inf	24	ccomp	_	_
+26	[	[	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+27	…	…	PUNCT	FF	_	25	punct	_	SpaceAfter=No
+28	]	]	PUNCT	FB	_	27	punct	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	ragioni	ragione	NOUN	S	Gender=Fem|Number=Plur	25	obj	_	_
+31	mai	mai	ADV	B	_	32	advmod	_	_
+32	nominate	nominare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	30	acl	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	neppure	neppure	ADV	BN	PronType=Neg	35	advmod	_	_
+35	accennate	accennare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	32	conj	_	_
+36	per	per	ADP	E	_	37	case	_	_
+37	cui	cui	PRON	PR	PronType=Rel	41	obl	_	_
+38	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	41	nsubj:pass	_	_
+39	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	41	aux	_	_
+40	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	41	aux:pass	_	_
+41	convocati	convocare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	30	acl:relcl	_	_
+42	d’	di	ADP	E	_	43	case	_	SpaceAfter=No
+43	urgenza	urgenza	NOUN	S	Gender=Fem|Number=Sing	41	obl	_	_
+44-45	al	_	_	_	_	_	_	_	_
+44	a	a	ADP	E	_	46	case	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	capezzale	capezzale	NOUN	S	Gender=Masc|Number=Sing	41	obl	_	_
+47-48	del	_	_	_	_	_	_	_	_
+47	di	di	ADP	E	_	49	case	_	_
+48	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	governo	governo	NOUN	S	Gender=Masc|Number=Sing	46	nmod	_	_
+50	malato	malato	ADJ	A	Gender=Masc|Number=Sing	49	amod	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	12	punct	_	_
+
+# source = CORIS2021
+# sent_id = 4
+# text = Crisi, quale crisi?
+1	Crisi	crisi	NOUN	S	Gender=Fem	4	nmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	quale	quale	DET	DQ	Number=Sing|PronType=Int	4	det	_	_
+4	crisi	crisi	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+

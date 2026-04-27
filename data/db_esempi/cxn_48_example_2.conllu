@@ -1,0 +1,44 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CorpusPaisà (corpusitaliano.it)
+# sent_id = 1
+# text = La presenza di depositi di ferro a livello cerebrospinale ha spinto a ricercare una correlazione tra questi patologici restringimenti venosi ribattezzati sotto il nome di Insufficienza venosa cronica cerebrospinale o CCSVI e la sclerosi multipla.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	depositi	deposito	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	ferro	ferro	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	livello	livello	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+9	cerebrospinale	cerebrospinale	ADJ	A	Number=Sing	8	amod	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	spinto	spingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	ricercare	ricercare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	correlazione	correlazione	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	tra	tra	ADP	E	_	19	case	_	_
+17	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	19	det	_	_
+18	patologici	patologico	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+19	restringimenti	restringimento	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+20	venosi	venoso	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+21	ribattezzati	ribattezzare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	acl	_	_
+22	sotto	sotto	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	nome	nome	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Insufficienza	Insufficienza	NOUN	SP	Gender=Fem|Number=Sing	24	nmod	_	_
+27	venosa	venoso	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+28	cronica	cronico	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+29	cerebrospinale	cerebrospinale	ADJ	A	Number=Sing	26	amod	_	_
+30	o	o	CCONJ	CC	_	31	cc	_	_
+31	CCSVI	CCSVI	PROPN	SP	_	26	conj	_	_
+32	e	e	CCONJ	CC	_	34	cc	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	sclerosi	sclerosi	NOUN	S	Gender=Fem|Number=Sing	26	conj	_	_
+35	multipla	multiplo	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	11	punct	_	SpaceAfter=No
+
+

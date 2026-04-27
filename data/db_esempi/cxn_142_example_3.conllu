@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = corpora.ficlit.unibo.it/CODIS
+# sent_id = 1
+# text = Anton Antonovic, non era mia intenzione ... "Ma che succede", continuò tra sé e sé il nostro eroe, rimasto solo, "ma che aria tira da queste parti e che cosa significa questa nuova piega della faccenda?"
+1	Anton	Anton	PROPN	SP	_	7	nsubj	_	_
+2	Antonovic	Antonovic	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	intenzione	intenzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8	...	...	PUNCT	FF	_	7	punct	_	_
+9	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+10	Ma	ma	CCONJ	CC	_	12	cc	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	succede	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	continuò	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+16	tra	tra	ADP	E	_	17	case	_	_
+17	sé	sé	PRON	PE	Number=Sing|Person=3|PronType=Prs	15	obl	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	sé	sé	PRON	PE	Person=3|PronType=Prs	17	conj	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	eroe	eroe	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+25	solo	solo	ADJ	A	Gender=Masc|Number=Sing	24	xcomp	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	15	punct	_	_
+27	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+28	ma	ma	CCONJ	CC	_	31	cc	_	_
+29	che	che	DET	DQ	PronType=Int	30	det	_	_
+30	aria	aria	NOUN	S	Gender=Fem|Number=Sing	31	nsubj	_	_
+31	tira	tirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+32	da	da	ADP	E	_	34	case	_	_
+33	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	34	det	_	_
+34	parti	parte	NOUN	S	Gender=Fem|Number=Plur	31	obl	_	_
+35	e	e	CCONJ	CC	_	38	cc	_	_
+36	che	che	DET	DQ	PronType=Int	37	det	_	_
+37	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	38	obj	_	_
+38	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	conj	_	_
+39	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	41	det	_	_
+40	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	41	amod	_	_
+41	piega	piega	NOUN	S	Gender=Fem|Number=Sing	38	nsubj	_	_
+42-43	della	_	_	_	_	_	_	_	_
+42	di	di	ADP	E	_	44	case	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	faccenda	faccenda	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	SpaceAfter=No
+45	?	?	PUNCT	FS	_	31	punct	_	SpaceAfter=No
+46	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+
+

@@ -1,0 +1,2 @@
+# source = Internet
+# text = Hai scoperto l'America

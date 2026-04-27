@@ -1,0 +1,2 @@
+# source = Parlante nativo 
+# text = Nella camera di Elena i vesiti sono sparsi alla rinfusa. 

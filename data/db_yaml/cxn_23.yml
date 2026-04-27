@@ -1,0 +1,77 @@
+cxn-id: |
+  23
+
+name: |
+  Mettere + in chiaro + X Alternativa: Mettere + X + in chiaro
+
+cxn-machine-readable-formalization: |
+  cxn_23.conllc
+
+form: |
+	-  Mettere + in chiaro + X Alternativa: Mettere + X + in chiaro
+	-  Il verbo "mettere" generalmente presuppone la presenza di un
+  oggetto e di un luogo ove posizionare l'oggetto. In questo
+  caso, non compare l'inserzione di un complemento di luogo:
+  "in chiaro" è una espressione convenzionalmente costituita.
+
+function: |
+	-  Fornire una spiegazione/delucidazione su qualcosa di già
+  avviato o avvenuto, di cui l'interlocutore è a conoscenza,
+  seppure in modo non del tutto veritiero.Generalmente, al
+  fine di evitare fraintendimenti e/o con valore imperativo,
+  di minaccia.
+	-
+	-  Il significato non è composizionale, dunque non deducibile
+  unicamente a partire dai singoli componenti lessicali.
+
+restrictions: |
+	-
+	-  Il verbo che può comparire è soltanto "mettere", a sua volta
+  associato unicamente all'espressione "in chiaro".V e "in
+  chiaro" possono sia trovarsi accostati l'uno all'altro, sia
+  ospitare l'X, l'oggetto, fra di essi.
+
+coll-preferences: |
+	-
+	-  X predilige concetti generici, non specificati come: "la
+  situazione", "le cose", "le (mie, sue) intenzioni".
+
+usage: |
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_23_example_1.txt
+	- cxn_23_example_2.txt
+	- cxn_23_example_3.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Teresa Franceschi
+

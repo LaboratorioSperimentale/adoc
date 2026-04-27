@@ -1,0 +1,69 @@
+cxn-id: |
+  85
+
+name: |
+  è ora di construction
+
+cxn-machine-readable-formalization: |
+  cxn_85.conllc
+
+form: |
+	-  è ora di V
+	-
+
+function: |
+	-  PRAGMATIC
+	-  sudden decision about starting (or stopping) doing something
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- minimally-filled-idiom
+
+functional-tags: 
+	- action >> cc:inf:active-referent
+	- time >> cc:sem:time
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_85_example_1.txt
+	- cxn_85_example_2.txt
+	- cxn_85_example_3.txt
+	- cxn_85_example_4.txt
+	- cxn_85_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Lorenza Gambetti
+

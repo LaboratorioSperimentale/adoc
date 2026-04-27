@@ -1,0 +1,74 @@
+cxn-id: |
+  77
+
+name: |
+  Modal prepositional phrase
+
+cxn-machine-readable-formalization: |
+  cxn_77.conllc
+
+form: |
+	-  a N
+	-
+
+function: |
+	-  MODALITY
+	-  This PREPOSITIONAL PHRASE represents the modality in which
+  is carried out a certain action, thus involving a VERB, but
+  it can also be attached to NOUNS (see for instance bagaglio
+  a mano).
+	-
+
+restrictions: |
+	-  The NOUN can be determined (al sangue, al taglio).
+	-
+
+coll-preferences: |
+	-  It often appears with nouns referring to body parts,
+  sensations or reckoning.
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- prepositional-phrase
+
+functional-tags: 
+	- modalità-dell'azione
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Adverb
+	-
+
+schematicity-level: |
+  fully schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_77_example_1.txt
+	- cxn_77_example_2.txt
+	- cxn_77_example_3.txt
+	- cxn_77_example_4.txt
+	- cxn_77_example_5.txt
+
+note: |
+	-  Other examples can be: a occhio, a naso, a senso, a
+  regola (variante di come regola)... a logica is probably
+  restricted in (at least) the Tuscany area.
+	-  USAGE:
+
+references: |
+
+collector: |
+  Matteo Pucci
+

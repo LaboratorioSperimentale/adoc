@@ -1,0 +1,2 @@
+# source = Italiano colloquiale
+# text = Immagina guidare e non avere la patente

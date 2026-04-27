@@ -1,0 +1,6 @@
+# cxn_id = 41 
+# name = Frase reggente + tanto vale + fraseEspl (che+ind/cong)/Impl (inf) 
+# function = Il costrutto svolge una funzione contrastiva rispetto alla frase reggente (tema). La costruzione sposta il focus pragmatico dalla frase reggente alla frase successiva (rema). Le accezioni del costrutto possono essere: opzione, ironia (il biglietto costa 40 euro? Beh, tanto vale andare a piedi!). 
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

@@ -1,0 +1,78 @@
+cxn-id: |
+  57
+
+name: |
+  V (morire) dalla voglia di Vx V + Prep1 + N + Prep2 + Vx
+
+cxn-machine-readable-formalization: |
+  cxn_57.conllc
+
+form: |
+	-  V (morire) dalla voglia di Vx V + Prep1 + N + Prep2 + Vx
+	-  Si tratta di uno degli esempi della costruzione: verbo
+  "morire" + preposizione "da" (semplice o articolata) + N,
+  dove il verbo può essere inteso sia in senso letterale che
+  figurato: - morire dal dolore; - morire dal ridere; - morire
+  dalle risate; - morire dal caldo; - ... 
+
+function: |
+	-  Espressione colloquiale e iperbolica per indicare un
+  desiderio ardente.
+	-
+	-  Il significato della costruzione non è strettamente
+  deducibile dalla somma dei significati delle parti che la
+  compongono; non vale cioè il principio di composizionalità.
+  Questo perché il suo significato non è letterale, ma
+  figurato, iperbolico. Potremmo intedere in questo caso il
+  verbo "morire" come un verbo "leggero".
+
+restrictions: |
+	-
+	-  La costruzione  può essere seguita solo da un verbo. 
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+
+formal-tags: 
+	- light-verbs >> cc:cxn:support-verb
+	- lexically-filled-idiom
+
+functional-tags: 
+	- intensification
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  lexically filled
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_57_example_1.txt
+	- cxn_57_example_2.txt
+	- cxn_57_example_3.txt
+	- cxn_57_example_4.txt
+	- cxn_57_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Giulia Goffredi
+

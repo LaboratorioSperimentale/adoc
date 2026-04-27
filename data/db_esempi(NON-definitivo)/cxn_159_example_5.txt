@@ -1,0 +1,2 @@
+# source = ItWac
+# text = La maggioranza dei tifosi ritiene Ujfalusi superiore a Dainelli.

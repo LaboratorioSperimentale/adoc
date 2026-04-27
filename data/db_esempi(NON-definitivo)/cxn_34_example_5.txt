@@ -1,0 +1,2 @@
+# source = Corpus CORIS
+# text = Lella Costa, attrice milanese, si inalbera: " Votare per quella buffonata ? Ma neanche per idea".

@@ -1,0 +1,73 @@
+cxn-id: |
+  131
+
+name: |
+  Costruzioni "in croce"
+
+cxn-machine-readable-formalization: |
+  cxn_131.conllc
+
+form: |
+	-  Num+N+in croce
+	-
+
+function: |
+	-  Sottolineare la quantità ridotta di N.
+	-  Questa costruzione viene utilizzata per rimarcare la scarsa
+  quantità di qualcosa. La forma più utilizzata è due parole
+  in croce che significa "poche parole".
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-  Num è preferibilmente "due", "tre" o "quattro", ma ci sono
+  occorrenze con numeri più grandi, che solitamente
+  specificano la quantità esatta di N. N può essere omesso
+  quando recuperabile dal contesto.
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_131_example_1.txt
+	- cxn_131_example_2.txt
+	- cxn_131_example_3.txt
+	- cxn_131_example_4.txt
+	- cxn_131_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Elisa Puhar
+

@@ -1,0 +1,2 @@
+# source = Reverso context dizionario online
+# text = La même chose pourrait être en train de se passer aujourd'hui.La stessa cosa potrebbe accadere oggi.

@@ -1,0 +1,2 @@
+# source = Corpus ItalianWeb2020 - Sketch Engine
+# text =  “...accolti da un pubblico tanto numeroso quanto festoso.” Gli sviluppatori hanno costruito una serie di variazioni tanto elaborate quanto eleganti. “ A smentire questa notizia tanto falsa quanto assurda ci ha pensato un sito. 

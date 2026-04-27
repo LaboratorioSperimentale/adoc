@@ -1,0 +1,2 @@
+# source = ItWac
+# text = Il testo non accenna all' ipotesi che Giuseppe ritenesse Maria innocente

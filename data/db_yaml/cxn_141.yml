@@ -1,0 +1,79 @@
+cxn-id: |
+  141
+
+name: |
+  Ancora ora Construction
+
+cxn-machine-readable-formalization: |
+  cxn_141.conllc
+
+form: |
+	-  Ancora + ora + V (di sorpresa) 
+	-
+
+function: |
+	-  "Ancora" come equivalente di "soltanto". 
+	-  La costruzione si riscontra nell'italiano regionale parlato
+  in Puglia come sinonimica rispetto a "soltanto ora". Si
+  accompagna a verbi che la maggior parte delle volte
+  esprimono sorpresa. Viene utilizzata esclusivamente nel
+  parlato e quasi esclusivamente in situazioni diafasicamente
+  informali. 
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Infrequent
+
+formal-tags: 
+	- formal-idiom
+
+functional-tags: 
+	- risultato
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Other
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_141_example_1.txt
+	- cxn_141_example_2.txt
+	- cxn_141_example_3.txt
+	- cxn_141_example_4.txt
+	- cxn_141_example_5.txt
+
+note: |
+	-  Tutti gli esempi hanno come fonte l'esperienza. Di evidenze
+  nei copora non ce ne sono, ma il risultato era atteso date
+  le caratteristiche della costruzione. L'idea della
+  costruzione nasce dalla frequentazione di persone
+  provenienti dalla Puglia. La costruzione risultava
+  assolutamente grammaticale alle loro orecchie, mentre alle
+  mie e a chi non proveniva dallo stesso posto no.  
+	-  USAGE:
+
+references: |
+
+collector: |
+  Fabiana Capozzi
+

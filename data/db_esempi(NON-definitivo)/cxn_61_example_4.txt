@@ -1,0 +1,2 @@
+# source = Italiano colloquiale
+# text = Immagina essere all'ultima puntata della serie e non averci capito nulla

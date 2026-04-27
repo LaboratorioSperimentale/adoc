@@ -1,0 +1,2 @@
+# source = MONITOR
+# text = Forza ragazzi , prima finiamo prima ci togliamo da quest ' impiccio .

@@ -1,0 +1,2 @@
+# source = Corpus: CORIS
+# text = Gli Stati Uniti hanno oggi un'occupazione più alta che mai.

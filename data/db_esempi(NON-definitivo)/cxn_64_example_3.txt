@@ -1,0 +1,2 @@
+# source = itTenTen20
+# text = Non è bello ciò che è bello, ma è bello ciò che piace

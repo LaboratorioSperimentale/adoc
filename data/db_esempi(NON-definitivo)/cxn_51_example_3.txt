@@ -1,0 +1,2 @@
+# source = italiano colloquiale
+# text = non sono mica stato io!

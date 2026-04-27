@@ -1,0 +1,2 @@
+# source = italiano colloquiale 
+# text = non vedo perchè dovrei parlare con lui

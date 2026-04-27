@@ -1,0 +1,2 @@
+# source = Dialoghi tra persone
+# text = Vado là di Mario e torno.

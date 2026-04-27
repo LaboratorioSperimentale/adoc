@@ -1,0 +1,86 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: iTenTen20
+# sent_id = 1
+# text = Accettare che "l'unico amore sia nato dal unico odio", esserne consapevoli al punto da affrontare qualunque cosa(dall'esilio all'essere sepolti vivi) pur di "arrivare al giorno in cui si sorriderà dei tormenti dell'oggi";
+1	Accettare	accettare	VERB	V	VerbForm=Inf	0	root	_	_
+2	che	che	SCONJ	CS	_	8	mark	_	_
+3	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+5	unico	unico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	amore	amore	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	nato	nascere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	unico	unico	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	odio	odio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15-16	esserne	_	_	_	_	_	_	_	_
+15	esser	essere	AUX	VA	VerbForm=Inf	17	cop	_	_
+16	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	17	iobj	_	_
+17	consapevoli	consapevole	ADJ	A	Number=Plur	8	conj	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	punto	punto	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	da	da	ADP	E	_	22	mark	_	_
+22	affrontare	affrontare	VERB	V	VerbForm=Inf	20	acl	_	_
+23	qualunque	qualunque	DET	DI	Number=Sing|PronType=Ind	24	det	_	_
+24	cosa(	cosa(	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
+25-26	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+25	da	da	ADP	E	_	27	case	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
+27	esilio	esilio	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+28-29	all'	_	_	_	_	_	_	_	SpaceAfter=No
+28	a	a	ADP	E	_	31	case	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
+30	essere	essere	AUX	VA	VerbForm=Inf	31	aux:pass	_	_
+31	sepolti	seppellire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	22	advcl	_	_
+32	vivi	vivo	ADJ	A	Gender=Masc|Number=Plur	31	amod	_	SpaceAfter=No
+33	)	)	PUNCT	FB	_	8	punct	_	_
+34	pur	pure	ADV	B	ExtPos=ADP	37	mark	_	_
+35	di	di	ADP	E	_	34	fixed	_	_
+36	"	"	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+37	arrivare	arrivare	VERB	V	VerbForm=Inf	22	advcl	_	_
+38-39	al	_	_	_	_	_	_	_	_
+38	a	a	ADP	E	_	40	case	_	_
+39	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+40	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	37	obl	_	_
+41	in	in	ADP	E	_	42	case	_	_
+42	cui	cui	PRON	PR	PronType=Rel	44	obl	_	_
+43	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	44	expl	_	_
+44	sorriderà	sorridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	40	acl:relcl	_	_
+45-46	dei	_	_	_	_	_	_	_	_
+45	di	di	ADP	E	_	47	case	_	_
+46	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	47	det	_	_
+47	tormenti	tormento	NOUN	S	Gender=Masc|Number=Plur	44	obl	_	_
+48-49	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+48	di	di	ADP	E	_	50	case	_	_
+49	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	50	det	_	_
+50	oggi	oggi	NOUN	S	Gender=Masc	47	nmod	_	SpaceAfter=No
+51	"	"	PUNCT	FB	_	37	punct	_	SpaceAfter=No
+52	;	;	PUNCT	FC	_	1	punct	_	_
+
+# source = Corpus: iTenTen20
+# sent_id = 2
+# text = e tu questo me lo chiami "fuggire dai problemi"?
+1	e	e	CCONJ	CC	_	6	cc	_	_
+2	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	dislocated	_	_
+4	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	chiami	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter= 
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	fuggire	fuggire	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9-10	dai	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	6	punct	_	SpacesAfter= 
+
+

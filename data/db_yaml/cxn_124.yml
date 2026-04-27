@@ -1,0 +1,70 @@
+cxn-id: |
+  124
+
+name: |
+  Costruzioni Avere+X+"in tasca"
+
+cxn-machine-readable-formalization: |
+  cxn_124.conllc
+
+form: |
+	-  V+Det+X+SPrep
+	-
+
+function: |
+	-  Possesso di "X" tramite SPrep.
+	-  La costruzione può essere utilizzata per indicare il
+  possesso idiomatico di X variabile.
+	-
+
+restrictions: |
+	-  "X" deve essere seguito da SPrep. X= nome astratto SPrep=in
+  tasca
+	-
+
+coll-preferences: |
+	-  Il sostantivo utilizzato nel SPrep è generalmente un nome
+  comune concreto "tasca", mentre X ha tendenzialmente un
+  valore astratto.
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_124_example_1.txt
+	- cxn_124_example_2.txt
+	- cxn_124_example_3.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Benedetta Massani
+

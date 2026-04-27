@@ -1,0 +1,2 @@
+# source = http://corpora.ficlit.unibo.it/CODIS/Context.php?Start=37112058&End=37112059
+# text = È un posto molto bello , c ' è sempre un sacco di gente carina che va e che viene . 

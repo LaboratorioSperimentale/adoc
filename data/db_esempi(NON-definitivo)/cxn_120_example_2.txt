@@ -1,0 +1,2 @@
+# source = Dialoghi tra persone
+# text = Ti aspetto qua di casa mia.

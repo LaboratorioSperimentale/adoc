@@ -1,0 +1,2 @@
+# source = Corpus: CORIS
+# text =  All'asilo sì che si stava bene.

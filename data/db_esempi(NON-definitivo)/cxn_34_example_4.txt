@@ -1,0 +1,2 @@
+# source = Corpus CORIS 
+# text = «Tutte le sere mi infilava biglietto sotto porta: forse signorina si è pochino ammorbidita ? E io: neanche per sogno!»

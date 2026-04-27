@@ -1,0 +1,51 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = corpus: itTenTen20
+# sent_id = 1
+# text = Comunque sto scrivendo davanti al pc bagnato fradicio d'acqua , che bello !
+1	Comunque	comunque	ADV	B	_	3	advmod	_	_
+2	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	scrivendo	scrivere	VERB	V	VerbForm=Ger	0	root	_	_
+4	davanti	davanti	ADV	B	ExtPos=ADP	7	case	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pc	pc	NOUN	S	Gender=Masc	3	obl	_	_
+8	bagnato	bagnato	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	fradicio	fradicio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	,	,	PUNCT	FF	_	3	punct	_	_
+13	che	che	DET	DE	PronType=Exc	14	det	_	_
+14	bello	bello	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	_
+15	!	!	PUNCT	FS	_	3	punct	_	_
+
+# source = corpus: itTenTen20
+# sent_id = 2
+# text = Voi direte "Come che bello ??!" , e io vi rispondo che non c'è cosa più bella.
+1	Voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	2	nsubj	_	_
+2	direte	dire	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+4	Come	come	ADV	B	_	6	case	_	_
+5	che	che	DET	DQ	PronType=Int	6	det	_	_
+6	bello	bello	ADJ	A	Gender=Masc|Number=Sing	2	obl	_	_
+7	?	?	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	6	punct	_	_
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	15	iobj	_	_
+15	rispondo	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+16	che	che	SCONJ	CS	_	19	mark	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	19	expl	_	SpaceAfter=No
+19	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+20	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+21	più	più	ADV	B	_	22	advmod	_	_
+22	bella	bello	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+

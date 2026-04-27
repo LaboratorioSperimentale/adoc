@@ -1,0 +1,2 @@
+# source = ItWac
+# text = l'attore ha raccontato di essere al momento alle prese con il set della fiction 

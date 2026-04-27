@@ -1,0 +1,28 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Reverso context dizionario online
+# sent_id = 1
+# text = Et le tueur pourrait être en train de chercher sa prochaine victime.E l'assassino starà cercando la prossima vittima.
+1	Et	et	CCONJ	CC	_	7	cc	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	tueur	tueur	NOUN	S	Gender=Masc	7	nsubj	_	_
+4	pourrait	pourrare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	aux	_	SpacesAfter= 
+5	être	être	AUX	VA	VerbForm=Inf	7	cop	_	_
+6	en	en	ADP	E	_	7	case	_	_
+7	train	train	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	de	de	ADP	E	_	9	mark	_	SpacesAfter= 
+9	chercher	cherchere	VERB	V	VerbForm=Inf	7	acl	_	_
+10	sa	sapere	DET	V	_	11	det	_	_
+11	prochaine	prochaine	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	victime.E	victime.e	PROPN	SP	_	11	nmod	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	assassino	assassino	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	SpacesAfter= 
+15	starà	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	16	aux	_	SpacesAfter= 
+16	cercando	cercare	VERB	V	VerbForm=Ger	7	advcl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+19	vittima	vittima	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	7	punct	_	SpaceAfter=No
+
+

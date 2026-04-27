@@ -1,0 +1,2 @@
+# source = Glosbe dizionario online
+# text = La violenza non aiuta nessuno; non fa che promuovere odio, divisioni, frustrazioni e problemi a non finire.

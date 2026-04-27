@@ -1,0 +1,77 @@
+cxn-id: |
+  60
+
+name: |
+  Verbo + Locuz. Avverb"a più non posso" 
+
+cxn-machine-readable-formalization: |
+  cxn_60.conllc
+
+form: |
+	-  Verbo + Locuz. Avverb"a più non posso" 
+	-
+
+function: |
+	-  Espressione avverbiale usata nell'italiano familiare.
+  Letteralmente: "quanto più è possibile", riferendosi
+  all'azione espressa dal verbo che lo precede.
+	-
+	-  La semantica di tale costruzione è deducibile dalle sue
+  parti.
+
+restrictions: |
+	-
+	-  La costruzione può esistere solo se la locuazione è
+  preceduta da un verbo.
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+
+formal-tags: 
+	- complex-adverb
+	- adverb >> cc:cxn:support-verb
+	- extragrammatical
+	- unformal
+
+functional-tags: 
+	- intensification
+	- aspect >> cc:sem:aspect
+	- categorization
+	- modalità-dell'azione
+	- situation >> cc:sem:event
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_60_example_1.txt
+	- cxn_60_example_2.txt
+	- cxn_60_example_3.txt
+
+note: |
+	-
+	-  USAGE: Espressione utilizzata in contesti informali e
+  familiari.
+
+references: |
+
+collector: |
+  Emanuela Pausata
+

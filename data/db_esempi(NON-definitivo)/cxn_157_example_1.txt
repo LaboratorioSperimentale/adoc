@@ -1,0 +1,2 @@
+# source = la Repubblica 
+# text = Per fortuna il campo è bello grande, anche il fondo è buono.

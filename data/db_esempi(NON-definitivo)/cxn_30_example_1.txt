@@ -1,0 +1,2 @@
+# source = (corpus) CORIS http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=47534312&End=47534312
+# text = (A scanso di + N) A scanso di equivoci , va detto che la scalata di Infront al campionato italiano è tutt ' altro che ostile. 

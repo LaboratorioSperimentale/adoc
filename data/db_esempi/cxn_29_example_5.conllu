@@ -1,0 +1,22 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Italian Web 2016 (itTenTen16)
+# sent_id = 1
+# text = è solamente l'ennesima rotazione ciclica dei mercati che nessuno può prevedere
+1	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	solamente	solamente	ADV	B	_	5	advmod	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+4	ennesima	ennesimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	rotazione	rotazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	ciclica	ciclico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	mercati	mercato	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	13	obj	_	_
+11	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	nsubj	_	_
+12	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	prevedere	prevedere	VERB	V	VerbForm=Inf	5	acl:relcl	_	SpacesAfter= 
+
+

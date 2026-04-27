@@ -1,0 +1,2 @@
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=114089084&End=114089084
+# text = Martedì, non appena si è diffusa la notizia che da venerdì 28 marzo i politici non potranno più partecipare a trasmissioni di intrattenimento in Rai e Mediaset, dato il black out elettorale per il voto amministrativo del 27 aprile, apriti cielo! Sono a rischio trasmissioni come Mixer, Pinocchio, Moby Dick.

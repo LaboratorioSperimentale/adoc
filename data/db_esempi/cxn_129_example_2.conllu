@@ -1,0 +1,46 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS Time Slice:	CORIS1980_2000 SubCorpus :	NARRAT
+# sent_id = 1
+# text = Ma c ' era un altro ( forse Chesterton ? ) che aveva detto : da quando gli uomini non credono più in Dio , non è che non credano più a nulla , credono a tutto .
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	c	c	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+3	'	'	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+4	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+7	(	(	PUNCT	FB	_	9	punct	_	_
+8	forse	forse	ADV	B	_	9	advmod	_	_
+9	Chesterton	Chesterton	PROPN	SP	_	6	appos	_	_
+10	?	?	PUNCT	FS	_	9	punct	_	_
+11	)	)	PUNCT	FB	_	9	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+15	:	:	PUNCT	FC	_	14	punct	_	_
+16	da	da	ADP	E	ExtPos=SCONJ	21	mark	_	_
+17	quando	quando	SCONJ	CS	_	16	fixed	_	_
+18	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	21	nsubj	_	_
+20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+21	credono	credere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+22	più	più	ADV	B	_	21	advmod	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	,	,	PUNCT	FF	_	27	punct	_	SpacesAfter= 
+26	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+27	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+28	che	che	SCONJ	CS	_	30	mark	_	_
+29	non	non	ADV	BN	PronType=Neg	30	advmod	_	SpacesAfter= 
+30	credano	credere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	ccomp	_	_
+31	più	più	ADV	B	_	30	advmod	_	_
+32	a	a	ADP	E	_	33	case	_	_
+33	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	30	obl	_	_
+34	,	,	PUNCT	FF	_	35	punct	_	_
+35	credono	credere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	conj	_	_
+36	a	a	ADP	E	_	37	case	_	_
+37	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	35	obl	_	_
+38	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+

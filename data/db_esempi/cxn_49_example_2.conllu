@@ -1,0 +1,18 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: Italian Web 2016 (itTenTen16)
+# sent_id = 1
+# text = Siamo tutti qui che attendiamo impazientemente il tuo arrivo.
+1	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	nsubj	_	_
+3	qui	qui	ADV	B	_	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	attendiamo	attendere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	impazientemente	impazientemente	ADV	B	_	5	advmod	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+

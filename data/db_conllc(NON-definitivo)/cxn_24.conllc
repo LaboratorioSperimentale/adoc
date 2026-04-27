@@ -1,0 +1,6 @@
+# cxn_id = 24 
+# name = Adj1+Adj2 
+# function = Costruzione utilizzata prevalentemente nell'italiano parlato e nel baby talking. La ripetizione dello stesso aggettivo va a rafforzarlo, intensificarlo e chiarirlo.  
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

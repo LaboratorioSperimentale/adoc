@@ -1,0 +1,72 @@
+cxn-id: |
+  105
+
+name: |
+  "stare per" costruzione
+
+cxn-machine-readable-formalization: |
+  cxn_105.conllc
+
+form: |
+	-  V ("stare") + Prep ("per") + V
+	-
+
+function: |
+	-  Semantico-pragmatica (imminenza di un'azione, intenzione)
+	-  Formula per indicare l'intenzione imminente e temporalmente
+  vicina rispetto al momento di pronuncia di un'azione /stato.
+  Estremamente produttiva, la varaibile V specifica il
+  significato lessicale del sintagma, mentre la sezione
+  iniziale (V + Prep) dà informazioni pragmatiche.
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- formal-idiom
+
+functional-tags: 
+	- time >> cc:sem:time
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Verb
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_105_example_1.txt
+	- cxn_105_example_2.txt
+	- cxn_105_example_3.txt
+	- cxn_105_example_4.txt
+	- cxn_105_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Simona Izzi
+

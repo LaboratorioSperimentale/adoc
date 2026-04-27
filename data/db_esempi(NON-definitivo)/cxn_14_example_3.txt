@@ -1,0 +1,2 @@
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=50494567&End=50494568  
+# text = Accidenti ... innamorarsi di un uomo bello come un dio , più ricco di Onassis , e con una Stanza Rossa delle Torture che mi aspetta

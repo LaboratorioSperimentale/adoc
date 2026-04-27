@@ -1,0 +1,79 @@
+cxn-id: |
+  136
+
+name: |
+  Alzare  figurato
+
+cxn-machine-readable-formalization: |
+  cxn_136.conllc
+
+form: |
+	-  Alzare + det + N (parte del corpo)
+	-
+
+function: |
+	-   funzione metaforica del verbo alzare collegata ad una parte
+  del corpo  per indicare un movimento  più o meno figurato
+  riscontrabile con uno stato d'animo 
+	-  indica diversi tipi di stati d'animo o eventi legati ad uno
+  stato emotivo (come alzare le mani contro qualcuno e non
+  semplicemente il movimento di sollevare le mani) :  alzare
+  la voce: urlare; indica uno stato di rabbia; alzare il
+  gomito : indica uno stato di ebrezza; alzare gli occhi al
+  cielo : indica un sentimento di frustrazione 
+	-
+
+restrictions: |
+	-  non presentano lo stesso dominio semantico espressioni come
+  alzare il braccio; alzare le gambe; alzare il piede ecc. che
+  indicano il movimento della parte del corpo in senso fisico
+  e non figurato.
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-  Phrase, Clause
+	-
+
+category-tags: |
+	-  Verb
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_136_example_1.txt
+	- cxn_136_example_2.txt
+	- cxn_136_example_3.txt
+	- cxn_136_example_4.txt
+
+note: |
+	-  esempi come alzare la voce e alzare gli occhi  potrebbero
+  non  rientrare  pienamente nella definizione che si è
+  cercato di proporre
+	-  USAGE:
+
+references: |
+
+collector: |
+  Alessandra Simonetti
+

@@ -1,0 +1,2 @@
+# source = Corpus: Italian Web 2020 (itTenTen20)
+# text = “Come state?” “Io sto una bomba. Sono a Helsinki da qualche giorno.”

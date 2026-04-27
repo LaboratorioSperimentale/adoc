@@ -1,0 +1,2 @@
+# source = Glosbe
+# text = Quanto più brutali erano i giocatori, dal punto di vista della folla, tanto meglio.

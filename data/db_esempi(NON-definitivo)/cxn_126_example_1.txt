@@ -1,0 +1,2 @@
+# source = Corpus: Coris  Timeslice: CORIS 1980_2000  Subcorpus: NARRAT
+# text = L'organo a canna non comunicò altro, ma chi tace acconsente, così il professore, col viso accaldato continuò il movimento .

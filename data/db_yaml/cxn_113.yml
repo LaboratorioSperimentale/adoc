@@ -1,0 +1,70 @@
+cxn-id: |
+  113
+
+name: |
+  Discontinuous reduplication N-dopo-N
+
+cxn-machine-readable-formalization: |
+  cxn_113.conllc
+
+form: |
+	-  Ni dopo Ni
+	-
+
+function: |
+	-  MODIFIER = SUCCESSION / ITERATION / DISTRIBUTIVITY of N
+	-
+	-
+
+restrictions: |
+	-  N = singular, bare, fixed MODIFIER = invariable
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- reduplication
+	- discontinuous-reduplication
+
+functional-tags: 
+	- intensification
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Adverb, Adjective
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+  160, 114
+
+vertical-links: |
+
+examples: 
+	- cxn_113_example_1.txt
+	- cxn_113_example_2.txt
+	- cxn_113_example_3.txt
+	- cxn_113_example_4.txt
+	- cxn_113_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Francesca Masini
+

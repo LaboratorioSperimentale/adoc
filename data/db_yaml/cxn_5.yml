@@ -1,0 +1,79 @@
+cxn-id: |
+  5
+
+name: |
+  Adj + come + N
+
+cxn-machine-readable-formalization: |
+  cxn_5.conllc
+
+form: |
+	-  Adj + come + N
+	-  non ci sono anomalie dal punto di vista morfo-sintattico
+
+function: |
+	-  Il costrutto indica una caratteristica positiva di una
+  persona attraverso il paragone con un termine le cui qualità
+  sono universalmente riconosciute.
+	-
+	-  il significato dell'espressione non è strettamente
+  predicibile dalla somma dei significati delle singole
+  parole. nel caso di 'buono come il pane', ad esempio, non ci
+  si riferisce al buon sapore di una persona ma al suo
+  carattere mite.
+
+restrictions: |
+	-
+	-  il costrutto seleziona soltanto un particolare tipo di
+  aggettivi, i qualificativi.  L'ordine delle parole non può
+  essere modificato.
+
+coll-preferences: |
+	-
+	-  l'espressione ha una tendenza statisticamente significativa
+  a selezionare un tipo particolare di nome. Infatti, è
+  preferibile usare un nome comune di cosa ma è anche
+  possibile un nome proprio di persona.
+
+usage: |
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_5_example_1.txt
+	- cxn_5_example_2.txt
+	- cxn_5_example_3.txt
+
+note: |
+	-
+	-  USAGE: l'espressione è riconosciuta dal parlante come
+  convenzionalizzata, per tanto la tendenza sarà quella di
+  selezionare il costrutto 'bello come il sole' e non 'carino
+  come il sole'
+
+references: |
+
+collector: |
+  Ilenia Passalacqua
+

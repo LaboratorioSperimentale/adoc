@@ -1,0 +1,2 @@
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=82562945&End=82562948
+# text = Per la prima volta dopo tanto tempo, pensò, si trovava a faccia a faccia con una donna che non desiderava niente da lui .

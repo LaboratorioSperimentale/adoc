@@ -1,0 +1,2 @@
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=17840964&End=17840964
+# text = " Where are you from?" da dove venite?, chiede sospettoso uno dei capiclan. Dall'Italia. L'omone prima ci squadra e poi bontà sua ci gratifica di un: "Italiani amici". Il tono non è esattamente amichevole ma funzione come un "apriti sesamo". Ammessi, dunque.

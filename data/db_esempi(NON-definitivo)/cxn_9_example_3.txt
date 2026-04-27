@@ -1,0 +1,2 @@
+# source = Corpus: itWaC
+# text = La scelta è tra una mattonella di simil-pasta e un pollo plasticoso.

@@ -1,0 +1,2 @@
+# source = Corpus: CORIS
+# text = Vi capita di avere problemi sul lavoro, oppure durante lo svolgimento di un' altra attività, perché vi perdete a fare e rifare una stessa cosa più volte del richiesto?

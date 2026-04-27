@@ -1,0 +1,2 @@
+# source = ItWac
+# text = i personaggi vivono vita autonoma e spesso cercano invano l' autore

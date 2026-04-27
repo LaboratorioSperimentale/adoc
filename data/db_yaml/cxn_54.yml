@@ -1,0 +1,68 @@
+cxn-id: |
+  54
+
+name: |
+  se non V(esserefless)+ N/Avv V(esserefless) + N/Avv
+
+cxn-machine-readable-formalization: |
+  cxn_54.conllc
+
+form: |
+	-  se non V(esserefless)+ N/Avv V(esserefless) + N/Avv
+	-
+
+function: |
+	-  Esprime risoluzione del riconoscimento/avvenimento del primo
+  termine dell'equazione per mezzo del secondo.
+	-
+	-
+
+restrictions: |
+	-
+	-  Ordine dei costituenti fisso
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+
+formal-tags: 
+	- lexically-filled-idiom
+
+functional-tags: 
+	- approximation
+	- EMOTIVE
+	- durativity >> cc:sem:durativity
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_54_example_1.txt
+	- cxn_54_example_2.txt
+	- cxn_54_example_3.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Filippo Sergio
+

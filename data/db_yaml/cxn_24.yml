@@ -1,0 +1,71 @@
+cxn-id: |
+  24
+
+name: |
+  Adj1+Adj2
+
+cxn-machine-readable-formalization: |
+  cxn_24.conllc
+
+form: |
+	-  Adj1+Adj2
+	-
+
+function: |
+	-  Costruzione utilizzata prevalentemente nell'italiano parlato
+  e nel baby talking. La ripetizione dello stesso aggettivo va
+  a rafforzarlo, intensificarlo e chiarirlo. 
+	-
+	-  Rafforza il significato dell'aggettivo in questione. 
+
+restrictions: |
+	-
+	-  L'espressione è utilizzata in determinati contesti,
+  solitamente familiari e/o intimi, informali. Solitamente uno
+  dei due partecipanti è un bambino, dato che questa
+  costruzione presuppone un certo tipo di "tenerezza". 
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+
+formal-tags: 
+	- repetition
+
+functional-tags: 
+	- intensification
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_24_example_1.txt
+	- cxn_24_example_2.txt
+	- cxn_24_example_3.txt
+
+note: |
+	-
+	-  USAGE: L'espressione viene usata solo con un alto grado di
+  familiarità tra gli interlocutori. 
+
+references: |
+
+collector: |
+  Luciana Di Matteo
+

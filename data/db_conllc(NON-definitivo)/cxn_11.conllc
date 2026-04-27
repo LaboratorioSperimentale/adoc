@@ -1,0 +1,6 @@
+# cxn_id = 11 
+# name = V+ADJ(numerale 2, 4)+N 
+# function = Quantità indeterminata ma limitata dell'azione/stato espressi da V+N 
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

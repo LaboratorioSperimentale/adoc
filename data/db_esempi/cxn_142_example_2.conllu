@@ -1,0 +1,80 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = corpora.ficlit.unibo.it/CODIS/
+# sent_id = 1
+# text = "Come crede che si sentano ?
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Come	come	ADV	B	_	3	advmod	_	_
+3	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	sentano	sentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	?	?	PUNCT	FS	_	3	punct	_	_
+
+# source = corpora.ficlit.unibo.it/CODIS/
+# sent_id = 2
+# text = In Albania , e tutti sanno che aria tira lì, ci sono ragazzi che appartengono a corpi di cui si chiede lo scioglimento.
+1	In	in	ADP	E	_	2	case	_	_
+2	Albania	Albania	PROPN	SP	_	13	obl	_	_
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	nsubj	_	_
+6	sanno	sapere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+7	che	che	SCONJ	CS	_	9	mark	_	_
+8	aria	aria	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+9	tira	tirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+10	lì	lì	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	_
+13	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	appartengono	appartenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	corpi	corpo	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	cui	cui	PRON	PR	PronType=Rel	22	obl	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl:impers	_	_
+22	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+23	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	scioglimento	scioglimento	NOUN	S	Gender=Masc|Number=Sing	22	nsubj:pass	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	13	punct	_	_
+
+# source = corpora.ficlit.unibo.it/CODIS/
+# sent_id = 3
+# text = Me lo dica:
+1	Me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	dica	dire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# source = corpora.ficlit.unibo.it/CODIS/
+# sent_id = 4
+# text = come crede che si sentano?"
+1	come	come	ADV	B	_	2	advmod	_	_
+2	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	sentano	sentire	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	2	punct	_	_
+
+# source = corpora.ficlit.unibo.it/CODIS/
+# sent_id = 5
+# text = L'ammiraglio Guido Venturoni, capo di stato maggiore della Difesa
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ammiraglio	ammiraglio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	Guido	Guido	PROPN	SP	_	2	nmod	_	_
+4	Venturoni	Venturoni	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	capo	capo	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	stato	stato	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	8	amod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Difesa	Difesa	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+
+

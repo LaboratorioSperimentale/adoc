@@ -1,0 +1,69 @@
+cxn-id: |
+  88
+
+name: |
+  "prendere per" construction
+
+cxn-machine-readable-formalization: |
+  cxn_88.conllc
+
+form: |
+	-  prendere + Prep + Art + N
+	-
+
+function: |
+	-  Pragmatic
+	-  It is a construction used to fool someone or to make fun of
+  someone
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- formal-idiom
+
+functional-tags: 
+	- intensification
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Noun, Verb, Preposition
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_88_example_1.txt
+	- cxn_88_example_2.txt
+	- cxn_88_example_3.txt
+	- cxn_88_example_4.txt
+	- cxn_88_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Michela Buglione
+

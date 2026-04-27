@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS 2021
+# sent_id = 1
+# text = A ridosso della parete ci sono la cucina a gas , lo scaldabagno (to heat+bathroom), la lavastoviglie (to wash+crockery).
+1	A	a	ADP	E	_	2	case	_	_
+2	ridosso	ridosso	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	parete	parete	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+7	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	gas	gas	NOUN	S	Gender=Masc	9	nmod	_	_
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	scaldabagno	scaldabagno	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+15	(	(	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+16	to	to	X	SW	Foreign=Yes	14	appos	_	_
+17	heat+bathroom	heat+bathroom	X	SW	Foreign=Yes	16	flat:foreign	_	SpaceAfter=No
+18	)	)	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	lavastoviglie	lavastoviglia	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+22	(	(	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+23	to	to	X	SW	_	24	nmod	_	_
+24	wash+crockery	wash+crockery	NOUN	S	_	21	nmod	_	SpaceAfter=No
+25	)	)	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	7	punct	_	_
+
+# source = CORIS 2021
+# sent_id = 2
+# text = 'Close to the wall there are the gas cooker, the water heater, the dishwasher'.
+1	'	'	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+2	Close	closa	NOUN	S	ExtPos=ADP	7	obl	_	_
+3	to	to	ADP	E	_	5	case	_	_
+4	the	the	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	wall	wall	NOUN	S	Gender=Masc	2	nmod	_	_
+6	there	there	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	nsubj	_	_
+7	are	are	VERB	V	VerbForm=Inf	0	root	_	_
+8	the	the	DET	RD	Definite=Def|PronType=Art	9	det	_	_
+9	gas	gas	NOUN	S	Gender=Masc	7	nsubj	_	_
+10	cooker	cooker	NOUN	S	Gender=Masc	9	compound	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	the	the	DET	RD	Definite=Def|PronType=Art	13	det	_	_
+13	water	water	NOUN	S	Gender=Masc	10	conj	_	_
+14	heater	heater	NOUN	S	Gender=Masc	13	compound	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	17	det	_	_
+17	dishwasher'	dishwasher'	NOUN	S	Gender=Masc	9	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	SpaceAfter=No
+
+

@@ -1,0 +1,2 @@
+# source = corpus: itTenTen20
+# text = Comunque sto scrivendo davanti al pc bagnato fradicio d'acqua , che bello ! Voi direte "Come che bello ??!" , e io vi rispondo che non c'è cosa più bella.

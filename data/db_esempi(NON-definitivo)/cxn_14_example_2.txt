@@ -1,0 +1,2 @@
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=25633205&End=25633206  
+# text = Vede nelle fotografie e nei disegni la trasformazione di un giovane che era bello come un angelo in un uomo devastato dalla crudeltà ottusa dei suoi simili

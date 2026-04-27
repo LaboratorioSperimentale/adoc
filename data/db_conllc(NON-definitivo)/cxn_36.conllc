@@ -1,0 +1,6 @@
+# cxn_id = 36 
+# name = V + Avv (-mente) anche ordine inverso:Avv(-mente) + V 
+# function = informazione di modo (accessoria) agggiunta al verbo, la cui ricorrenza è determinata dal verbo stesso.   
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

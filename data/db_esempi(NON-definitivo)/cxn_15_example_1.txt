@@ -1,0 +1,2 @@
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=4853113&End=4853114  
+# text = In qualche modo ricorda Quebec City per il " vecchio " del centro ma piove a dirotto per cui mi limito ad un giretto in macchina e , quando smette ad una non lunga passeggiata nel quartiere dei ristoranti , mercato all’aperto e negozi

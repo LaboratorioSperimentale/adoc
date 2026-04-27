@@ -1,0 +1,38 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = PAISA'
+# sent_id = 1
+# text = In breve tempo Rahvin divenne il vero sovrano , riempiendo la corte ed il regno di suoi fedeli servitori , a discapito di quelli fedeli alla regina.
+1	In	in	ADP	E	_	3	case	_	SpacesAfter= 
+2	breve	breve	ADJ	A	Number=Sing	3	amod	_	SpacesAfter= 
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpacesAfter= 
+4	Rahvin	Rahvin	PROPN	SP	_	5	nsubj	_	SpacesAfter= 
+5	divenne	divenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpacesAfter= 
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	SpacesAfter= 
+7	vero	vero	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpacesAfter= 
+8	sovrano	sovrano	NOUN	S	Gender=Masc|Number=Sing	5	xcomp	_	SpacesAfter= 
+9	,	,	PUNCT	FF	_	5	punct	_	SpacesAfter= 
+10	riempiendo	riempire	VERB	V	VerbForm=Ger	5	advcl	_	SpacesAfter= 
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	SpacesAfter= 
+12	corte	corte	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpacesAfter= 
+13	ed	e	CCONJ	CC	_	15	cc	_	SpacesAfter= 
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	SpacesAfter= 
+15	regno	regno	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	SpacesAfter= 
+16	di	di	ADP	E	_	19	case	_	SpacesAfter= 
+17	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	SpacesAfter= 
+18	fedeli	fedele	ADJ	A	Number=Plur	19	amod	_	SpacesAfter= 
+19	servitori	servitore	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	SpacesAfter= 
+20	,	,	PUNCT	FF	_	5	punct	_	SpacesAfter= 
+21	a	a	ADP	E	_	22	case	_	SpacesAfter= 
+22	discapito	discapito	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpacesAfter= 
+23	di	di	ADP	E	_	24	case	_	SpacesAfter= 
+24	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	22	nmod	_	SpacesAfter= 
+25	fedeli	fedele	ADJ	A	Number=Plur	24	amod	_	SpacesAfter= 
+26-27	alla	_	_	_	_	_	_	_	SpacesAfter= 
+26	a	a	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	regina	regina	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+
+

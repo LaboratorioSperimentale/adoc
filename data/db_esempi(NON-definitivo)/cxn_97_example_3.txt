@@ -1,0 +1,2 @@
+# source = CORIS
+# text = Sapeva che persino i migliori chef arrivano a perdere la tramontana.

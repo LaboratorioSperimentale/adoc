@@ -1,0 +1,25 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = matrimonio.alfemminile.com 14.04.2006
+# sent_id = 1
+# text = Ma cosa fai a fare tutte (sic) quella roba lì che siamo solo noi?
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
+3	fai	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	5	obj	_	_
+7	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	sic	sic	ADJ	A	_	6	amod	_	SpaceAfter=No
+9	)	)	PUNCT	FB	_	8	punct	_	_
+10	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	roba	roba	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+12	lì	lì	ADV	B	_	11	advmod	_	_
+13	che	che	PRON	PR	PronType=Rel	16	mark	_	_
+14	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	solo	solo	ADV	B	_	16	advmod	_	_
+16	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	11	acl:relcl	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+

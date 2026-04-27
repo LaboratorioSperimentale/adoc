@@ -1,0 +1,75 @@
+cxn-id: |
+  20
+
+name: |
+  prendersi + N+Prep +N/V/Pron
+
+cxn-machine-readable-formalization: |
+  cxn_20.conllc
+
+form: |
+	-  prendersi + N+Prep +N/V/Pron
+	-  all’interno della costruzione non sono presenti anomalie dal
+  punto di vista sintattico
+
+function: |
+	-  costruzione utilizzata per indicare una persona che si
+  attribuisce in autonomia la responsabilità di qualcuno o di
+  svolgere una specifica azione
+	-
+	-  il significato complessivo della costruzione è deducibile
+  dalla somma dei significati delle parti componenti
+
+restrictions: |
+	-
+	-  il verbo deve necessariamente essere “prender(si)”; la
+  semantica del nome deve veicolare il concetto di
+  responsabilità; la preposizione non può essere omessa
+
+coll-preferences: |
+	-
+	-  la costruzione predilige sempre le seguenti categorie
+  grammaticali: N, Pron, V
+
+usage: |
+
+formal-tags: 
+	- light-verbs >> cc:cxn:support-verb
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_20_example_1.txt
+	- cxn_20_example_2.txt
+	- cxn_20_example_3.txt
+	- cxn_20_example_4.txt
+
+note: |
+	-
+	-  USAGE: l’espressione viene preferita ad altre equivalenti
+  anche per rimarcare l’idea di premura verso qualcosa o
+  qualcuno
+
+references: |
+
+collector: |
+  Gloria Fioroni
+

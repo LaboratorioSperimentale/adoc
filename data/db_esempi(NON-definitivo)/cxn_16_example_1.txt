@@ -1,0 +1,2 @@
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=21030163&End=21030163
+# text = Non c'era nemmeno una panchina in giro per riposarmi un po', così mi sedetti per terra appoggiando la schiena contro un albero del viale e come mi succedeva spesso ultimamente mi ritrovai nel mondo dei sogni in men che non si dica

@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=23527547&End=23527550 
+# sent_id = 1
+# text = È sotto l ' influsso di queste riflessioni che ho letto l ' interessante lavoro della dottoressa Mariotti e mi è venuto da pensare all ' incontro con il suo testo negli eleganti e armonici termini dell ' arte marziale .
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	sotto	sotto	ADP	E	_	5	case	_	_
+3	l	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+4	'	'	PUNCT	RD	_	5	det	_	_
+5	influsso	influsso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	8	det	_	_
+8	riflessioni	riflessione	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9	che	che	SCONJ	CS	_	11	mark	_	_
+10	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
+12	l	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+13	'	'	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+14	interessante	interessante	ADJ	A	Number=Sing	15	amod	_	_
+15	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+16-17	della	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	dottoressa	dottoressa	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	Mariotti	Mariotti	PROPN	SP	_	18	nmod	_	_
+20	e	e	CCONJ	CC	_	23	cc	_	_
+21	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	23	iobj	_	_
+22	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+24	da	da	ADP	E	_	25	mark	_	_
+25	pensare	pensare	VERB	V	VerbForm=Inf	23	xcomp	_	_
+26	all	all	ADP	E	_	28	case	_	_
+27	'	'	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+29	con	con	ADP	E	_	32	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+31	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	testo	testo	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+33-34	negli	_	_	_	_	_	_	_	_
+33	in	in	ADP	E	_	38	case	_	_
+34	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+35	eleganti	elegante	ADJ	A	Number=Plur	38	amod	_	_
+36	e	e	CCONJ	CC	_	37	cc	_	_
+37	armonici	armonico	ADJ	A	Gender=Masc|Number=Plur	35	conj	_	_
+38	termini	termine	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	_
+39	dell	dell	DET	E	_	41	det	_	_
+40	'	'	DET	RD	Definite=Def|Number=Sing|PronType=Art	41	det	_	_
+41	arte	arte	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	_
+42	marziale	marziale	ADJ	A	Number=Sing	41	amod	_	_
+43	.	.	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+
+

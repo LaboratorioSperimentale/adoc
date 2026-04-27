@@ -1,0 +1,66 @@
+cxn-id: |
+  27
+
+name: |
+
+cxn-machine-readable-formalization: |
+  cxn_27.conllc
+
+form: |
+	-
+	-
+
+function: |
+	-  Espressione di parole che obbediscono alle regole
+  sintattiche della lingua ma sono a statuto speciale e non
+  create liberamente. Idiomatica che indica la conseguenza che
+  un determinata azione (nella maggior parte dei casi
+  negativa) ha sugli altri, mette in guardia riguardo qualcosa
+  che può accadere. 
+	-
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  fully schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+

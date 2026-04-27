@@ -1,0 +1,2 @@
+# source = CORIS
+# text = Afferrai al volo il biglietto e vi lessi una scarna comunicazione : "

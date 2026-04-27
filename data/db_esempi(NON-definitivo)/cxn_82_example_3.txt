@@ -1,0 +1,2 @@
+# source = Reverso context dizionario online
+# text = Je suis censée être en train de prier.Adesso io dovrei essere in preghiera.

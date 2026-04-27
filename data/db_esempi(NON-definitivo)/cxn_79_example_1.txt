@@ -1,0 +1,2 @@
+# source = Glosbe dizionario online
+# text = E' qui che abbiamo un problema, un dilemma, e dobbiamo affrontarlo apertamente anzichè menare il can per l'aia.

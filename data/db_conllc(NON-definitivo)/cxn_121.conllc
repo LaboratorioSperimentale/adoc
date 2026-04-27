@@ -1,0 +1,6 @@
+# cxn_id = 121 
+# name = Attenuazione del verbo 
+# function = Attenuare l'azione. 
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

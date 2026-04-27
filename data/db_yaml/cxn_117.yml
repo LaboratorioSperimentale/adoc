@@ -1,0 +1,83 @@
+cxn-id: |
+  117
+
+name: |
+  Reduplicazione discontinua del tipo: N-DET-N
+
+cxn-machine-readable-formalization: |
+  cxn_117.conllc
+
+form: |
+	-  N DET N (di cui DET è un articolo partitivo plurale).
+	-
+
+function: |
+	-  INTENSIFICAZIONE
+	-  Si tratta di un pattern di intensificazione tramite
+  reduplicazione discontinua del tipo N-DET-N, in cui Art
+  indica un articolo partitivo (e non una preposizione
+  articolata).  Questo cluster è formato da: - N1, che è
+  generalmente singolare; - DET, ossia un articolo partitivo
+  plurale (dei, degli, delle); - N2, equivalente a N1 ma in
+  forma plurale.
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Infrequent
+
+formal-tags: 
+	- discontinuous-reduplication
+
+functional-tags: 
+	- intensification
+
+complexity-level-tags: |
+	-  Clause
+	-
+
+category-tags: |
+	-  Noun
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_117_example_1.txt
+	- cxn_117_example_2.txt
+	- cxn_117_example_3.txt
+	- cxn_117_example_4.txt
+	- cxn_117_example_5.txt
+
+note: |
+	-  Questa costruzione è piuttosto aperta: i suoi componenti,
+  eccetto l'articolo partitivo, possono essere scelti
+  arbitrariamente dal parlante, purchè siano sostantivi
+  equivalenti, di cui il primo singolare ed il secondo
+  plurale. (L'idea è nata dalla visione di un episodio del
+  cartone animato Spongebob, in cui il protagonista mostrava
+  di essersi allacciato perfettamente le stringhe delle
+  scarpe, creando così il nodo dei nodi, ossia un nodo
+  perfetto. Siamo di fronte ad una evidente forma di
+  intensificazione).
+	-  USAGE:
+
+references: |
+
+collector: |
+  Vittoria Attolini
+

@@ -1,0 +1,30 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS https://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=38950204&End=38950204
+# sent_id = 1
+# text = Promettimi che non rivelerai a nessuno quello che per dirti , a_meno_che non sia io a darti il permesso .
+1	Promettimi	promettimare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	rivelerai	rivelare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	1	ccomp	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obl	_	_
+7	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	10	obj	_	SpacesAfter=\s 
+9	per	per	ADP	E	_	10	mark	_	_
+10-11	dirti	_	_	_	_	_	_	_	_
+10	dir	dire	VERB	V	VerbForm=Inf	7	acl	_	_
+11	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	10	obj	_	_
+12	,	,	PUNCT	FF	_	4	punct	_	_
+13	a_meno_che	a_meno_che	INTJ	I	_	7	acl:relcl	_	_
+14	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+15	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+16	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	darti	dare	VERB	V	VerbForm=Inf	13	advcl	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	permesso	permesso	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+

@@ -1,0 +1,69 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = MONITOR2011_13
+# sent_id = 1
+# text = Ma ora aveva addosso la polizia , così come l ' Fbi e i cartelli rivali . Fondato negli anni settanta da un personaggio dal nome altisonante , Juan Nepomuceno Guerra , che nel periodo del Proibizionismo contrabbandava alcolici negli Stati Uniti , il cartello sembrava avere le ore contate.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	ora	ora	ADV	B	_	3	advmod	_	_
+3	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	addosso	addosso	ADV	B	_	3	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	così	così	ADV	B	_	12	advmod	_	_
+9	come	come	ADP	E	_	12	case	_	_
+10	l	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	'	'	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	Fbi	Fbi	PROPN	SP	_	6	nmod	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	cartelli	cartello	NOUN	S	Gender=Masc|Number=Plur	12	conj	_	_
+16	rivali	rivale	ADJ	A	Number=Plur	15	amod	_	_
+17	.	.	PUNCT	FS	_	3	punct	_	_
+18	Fondato	fondare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+19-20	negli	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	anni	anno	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+22	settanta	settanta	NUM	N	NumType=Card	21	nummod	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	personaggio	personaggio	NOUN	S	Gender=Masc|Number=Sing	18	obl:agent	_	_
+26-27	dal	_	_	_	_	_	_	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	nome	nome	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+29	altisonante	altisonante	ADJ	A	Number=Sing	28	amod	_	_
+30	,	,	PUNCT	FF	_	25	punct	_	_
+31	Juan	Juan	PROPN	SP	_	25	appos	_	_
+32	Nepomuceno	Nepomuceno	PROPN	SP	_	31	flat:name	_	_
+33	Guerra	Guerra	PROPN	SP	_	31	flat:name	_	_
+34	,	,	PUNCT	FF	_	25	punct	_	_
+35	che	che	PRON	PR	PronType=Rel	42	nsubj	_	_
+36-37	nel	_	_	_	_	_	_	_	_
+36	in	in	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	42	obl	_	_
+39-40	del	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	41	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	Proibizionismo	Proibizionismo	PROPN	SP	_	38	nmod	_	_
+42	contrabbandava	contrabbandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	25	acl:relcl	_	_
+43	alcolici	alcolico	NOUN	S	Gender=Masc|Number=Plur	42	obj	_	_
+44-45	negli	_	_	_	_	_	_	_	_
+44	in	in	ADP	E	_	46	case	_	_
+45	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	46	det	_	_
+46	Stati	Stati	PROPN	SP	_	42	obl	_	_
+47	Uniti	Uniti	PROPN	SP	_	46	flat:name	_	_
+48	,	,	PUNCT	FF	_	18	punct	_	_
+49	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	_
+50	cartello	cartello	NOUN	S	Gender=Masc|Number=Sing	51	nsubj	_	_
+51	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	parataxis	_	_
+52	avere	avere	VERB	V	VerbForm=Inf	51	xcomp	_	_
+53	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	54	det	_	_
+54	ore	ora	NOUN	S	Gender=Fem|Number=Plur	52	obj	_	_
+55	contate	contato	ADJ	A	Gender=Fem|Number=Plur	54	amod	_	SpaceAfter=No
+56	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+

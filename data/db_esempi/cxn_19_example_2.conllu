@@ -1,0 +1,41 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = 1
+# text = Tenevano tutti in mano la macchina fotografica o la videocamera che puntavano in continuazione a destra e sinistra nel tentativo di ottenere immagini esclusive da far vedere agli amici
+1	Tenevano	tenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	nsubj	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	mano	mano	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+7	fotografica	fotografico	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	o	o	CCONJ	CC	_	10	cc	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	videocamera	videocamera	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	puntavano	puntare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	continuazione	continuazione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	destra	destra	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	_
+19-20	nel	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	ottenere	ottenere	VERB	V	VerbForm=Inf	21	acl	_	_
+24	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	_
+25	esclusive	esclusivo	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	_
+26	da	da	ADP	E	_	27	mark	_	_
+27	far	fare	VERB	V	VerbForm=Inf	24	acl	_	_
+28	vedere	vedere	VERB	V	VerbForm=Inf	27	ccomp	_	_
+29-30	agli	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	_
+30	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	amici	amico	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	_
+
+

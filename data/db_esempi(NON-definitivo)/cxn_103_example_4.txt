@@ -1,0 +1,2 @@
+# source = SketchEngine
+# text = Cavoli anche a me piacerebbe mettere l'orologio nel display, a parte che adesso cambio l'autoradio.

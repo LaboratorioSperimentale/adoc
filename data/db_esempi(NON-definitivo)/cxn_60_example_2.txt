@@ -1,0 +1,2 @@
+# source = "Il nuovo De Mauro", Dizionario de l'Internazionale.
+# text = Per il suo matrimonio, Claudia ha organizzato un pranzo a buffet: ho bevuto e mangiato a più non posso.

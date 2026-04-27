@@ -1,0 +1,2 @@
+# source = Italian Web 2016 (itTenTen16)
+# text = è solamente l'ennesima rotazione ciclica dei mercati che nessuno può prevedere 

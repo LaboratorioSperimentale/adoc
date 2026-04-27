@@ -1,0 +1,76 @@
+cxn-id: |
+  29
+
+name: |
+  è l'ennesima/o + N che + V V(esserefless) + Det + N + N +
+  Pron. Rel + V(fless)
+
+cxn-machine-readable-formalization: |
+  cxn_29.conllc
+
+form: |
+	-  è l'ennesima/o + N che + V V(esserefless) + Det + N + N +
+  Pron. Rel + V(fless)
+	-
+
+function: |
+	-  è usata comunemente come espressione per indicare che stai
+  facendo quell'azione per un numero di volte altissimo
+  (iperbole).
+	-
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+
+formal-tags: 
+	- minimally-filled-idiom
+
+functional-tags: 
+	- intensification
+	- IRRITATION
+	- CRITICISM
+	- disappointment
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_29_example_1.txt
+	- cxn_29_example_2.txt
+	- cxn_29_example_3.txt
+	- cxn_29_example_4.txt
+	- cxn_29_example_5.txt
+
+note: |
+	-
+	-  USAGE: Usato per veicolare irritazione e frustrazione da
+  parte del parlante nel ripetere una cosa/azione per quelle
+  che sembrano infinite volte - iperbole.
+
+references: |
+
+collector: |
+  Arianna Vallorani
+

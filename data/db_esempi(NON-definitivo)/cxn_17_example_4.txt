@@ -1,0 +1,2 @@
+# source = Corpus: CORIS
+# text = Magari prima o poi anche lei sarebbe voluta fuggire.

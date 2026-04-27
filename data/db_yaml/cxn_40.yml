@@ -1,0 +1,76 @@
+cxn-id: |
+  40
+
+name: |
+  andare a (V+prep.) + N. (zonzo,genio,rotoli, gonfie vele) 
+
+cxn-machine-readable-formalization: |
+  cxn_40.conllc
+
+form: |
+	-  andare a (V+prep.) + N. (zonzo,genio,rotoli, gonfie vele) 
+	-
+
+function: |
+	-  andare a zonzo:girovagare, andare in giro senza una meta o
+  uno scopo ben preciso.  andare a genio: quando qualcosa va a
+  genio significa che ci è gradito.  andare a rotoli: andare
+  male, non riuscire.  andare a gonfie vele:
+  l'espressione andare a gonfie vele si usa quando tutto va
+  bene come previsto.  
+	-
+	-  il verbo andare esprime maggiormente il significato di tutta
+  l'espressione idiomatica in cui appare. 
+
+restrictions: |
+	-
+	-  andare a accetta diverse parti del discorso e i nomi possono
+  essere sia plurali che singolari
+
+coll-preferences: |
+	-
+	-  andare a può  essere utilizzato non solotanto con il nome ma
+  anche  con altre parti del discorso quali i verbi. (es;
+  andare a dormire)
+
+usage: |
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_40_example_1.txt
+	- cxn_40_example_2.txt
+	- cxn_40_example_3.txt
+	- cxn_40_example_4.txt
+
+note: |
+	-
+	-  USAGE: si tratta di espressioni convenzionalizzate che
+  vengono maggiormente eutilizzate nell'ambito familiare. 
+
+references: |
+
+collector: |
+  Marika Terzo
+

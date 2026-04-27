@@ -1,0 +1,2 @@
+# source = Corpus: itWaC
+# text = [...] ci frequentiamo sempre più abitualmente e ci comportiamo come una simil-coppia  

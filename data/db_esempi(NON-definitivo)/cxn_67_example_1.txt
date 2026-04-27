@@ -1,0 +1,2 @@
+# source = Corpus: iTenTen20
+# text = E tu questo me lo chiami "articolo"?

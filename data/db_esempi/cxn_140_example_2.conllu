@@ -1,0 +1,13 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = None
+# sent_id = 1
+# text = A Marco piace la frutta
+1	A	a	ADP	E	_	2	case	_	_
+2	Marco	Marco	PROPN	SP	_	3	obl	_	_
+3	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	frutta	frutta	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	SpacesAfter= 
+
+

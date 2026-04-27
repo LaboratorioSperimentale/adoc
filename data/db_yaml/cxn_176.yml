@@ -1,0 +1,75 @@
+cxn-id: |
+  176
+
+name: |
+  uscirne + agg (fisico/psicologico)
+
+cxn-machine-readable-formalization: |
+  cxn_176.conllc
+
+form: |
+	-  Sogg+V(uscire+clitico-ne)+agg di 1)stato fisico; 2)stato
+  psicologico.
+	-
+
+function: |
+	-  La semantica del verbo non è quella canonica: in questo caso
+  'uscire' non indica un movimento fisico, indica il risultato
+  o lo stato conseguente al superamento di un evento o
+  processo difficoltoso.
+	-  Questa costruzione esprime l'idea di superare una situazione
+  difficile o complessa (fisica, psicologica o emotiva), sia
+  positivamente che negativamente.
+	-
+
+restrictions: |
+	-  L'aggettivo deve necessariamente indicare uno stato fisico o
+  psicologico. Raramente usata in registri formali.
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Informal
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_176_example_1.txt
+	- cxn_176_example_2.txt
+	- cxn_176_example_3.txt
+	- cxn_176_example_4.txt
+	- cxn_176_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Arianna
+

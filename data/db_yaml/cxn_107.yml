@@ -1,0 +1,72 @@
+cxn-id: |
+  107
+
+name: |
+  Fare finta
+
+cxn-machine-readable-formalization: |
+  cxn_107.conllc
+
+form: |
+	-  Fare finta + preposizione (di) + verbo/ pron. indef Fare
+  finta + congiunzione (che) + frase subordinata 
+	-
+
+function: |
+	-  Pragmatica
+	-  "Fare finta" si usa per introdurre situazioni in cui si
+  finge o in cui si suppone.
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- che-construction
+	- prepositional-phrase
+
+functional-tags: 
+	- fakeness
+	- imitation
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Verb
+	-
+
+schematicity-level: |
+  lexically filled
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_107_example_1.txt
+	- cxn_107_example_2.txt
+	- cxn_107_example_3.txt
+	- cxn_107_example_4.txt
+	- cxn_107_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Lorenzo Tassinari
+

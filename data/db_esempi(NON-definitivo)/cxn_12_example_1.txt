@@ -1,0 +1,2 @@
+# source = italiano colloquiale. 
+# text = Ho incontrato un amico ed abbiamo parlato del più e del meno.

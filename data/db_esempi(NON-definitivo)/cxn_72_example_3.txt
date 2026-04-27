@@ -1,0 +1,2 @@
+# source = Corpus: Italian parliamentary debates (ParlaMint 2.1, CoNLL format) 
+# text = perché quello che conta è la modalità dello scorporo degli investimenti dal deficit pubblico

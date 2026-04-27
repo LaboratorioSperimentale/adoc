@@ -1,0 +1,2 @@
+# source = MONITOR
+# text = E ' nostro interesse partire il prima possibile , le aziende devono girare : prima si parte , prima si lavora.

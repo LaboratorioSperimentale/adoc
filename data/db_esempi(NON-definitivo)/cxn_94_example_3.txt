@@ -1,0 +1,2 @@
+# source = Parlante nativo
+# text = - Mi hanno detto che Luca è stupido. - Ma saranno intelligenti loro!

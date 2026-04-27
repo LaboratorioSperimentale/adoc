@@ -1,0 +1,2 @@
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=16430316&End=16430316
+# text = Per questo il Sistema sanitario nazionale deve prendersi carico della sua disassuefazione

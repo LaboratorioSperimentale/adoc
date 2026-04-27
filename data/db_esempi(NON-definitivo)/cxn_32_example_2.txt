@@ -1,0 +1,2 @@
+# source = Dalle risposte al form: https://docs.google.com/forms/d/1qCaY3q50Aoxaze0p0IAug1DG6d64yfSc5qVdbfXpkYI/edit?usp=sharing 
+# text = "Cosa hai cucinato già per pranzo?" (=mi hai detto cosa avresti cucinato ma in questo momento mi sfugge)

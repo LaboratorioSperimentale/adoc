@@ -1,0 +1,2 @@
+# source = CORIS
+# text = Proprio come a Lisbeth Salander, gli piaceva risolvere rompicapi ed enigmi. Pare che si divertisse particolarmente a prendere per il naso altri matematici costruendo problemi ma tralasciando di includere la soluzione.

@@ -1,0 +1,82 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=164105295&End=164105295
+# sent_id = 1
+# text = Il jazz, o qualsiasi cosa fosse, poteva adesso essere diffuso anche laddove non si sarebbe mai sognato di arrivare ( la radio era agli albori ) e, visto il successo, tutti cominciarono a incidere dischi e, da espressione di un manipolo di nottambuli reietti, spesso appartenenti a minoranze tenute sotto osservazione poliziesca, il jazz si fece oggetto commerciale e,apriti sesamo, fu accettato.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	jazz	jazz	NOUN	S	Gender=Masc	12	nsubj:pass	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	o	o	CCONJ	CC	_	6	cc	_	_
+5	qualsiasi	qualsiasi	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+7	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+10	adesso	adesso	ADV	B	_	12	advmod	_	_
+11	essere	essere	AUX	VA	VerbForm=Inf	12	aux:pass	_	_
+12	diffuso	diffondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	anche	anche	ADV	B	_	19	advmod	_	_
+14	laddove	laddove	SCONJ	CS	_	19	mark	_	_
+15	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+17	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	mai	mai	ADV	B	_	19	advmod	_	_
+19	sognato	sognare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	arrivare	arrivare	VERB	V	VerbForm=Inf	19	xcomp	_	_
+22	(	(	PUNCT	FB	_	25	punct	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	radio	radio	NOUN	S	Gender=Fem	25	nsubj	_	_
+25	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	advcl	_	_
+26-27	agli	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	albori	albore	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	_
+29	)	)	PUNCT	FB	_	25	punct	_	_
+30	e	e	CCONJ	CC	_	37	cc	_	SpaceAfter=No
+31	,	,	PUNCT	FF	_	37	punct	_	_
+32	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	advcl	_	_
+33	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	successo	successo	NOUN	S	Gender=Masc|Number=Sing	32	obj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	32	punct	_	_
+36	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	37	nsubj	_	_
+37	cominciarono	cominciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	_
+38	a	a	ADP	E	_	39	mark	_	_
+39	incidere	incidere	VERB	V	VerbForm=Inf	37	xcomp	_	_
+40	dischi	disco	NOUN	S	Gender=Masc|Number=Plur	39	obj	_	_
+41	e	e	CCONJ	CC	_	64	cc	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	64	punct	_	_
+43	da	da	ADP	E	_	44	case	_	_
+44	espressione	espressione	NOUN	S	Gender=Fem|Number=Sing	64	obl	_	_
+45	di	di	ADP	E	_	47	case	_	_
+46	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	manipolo	manipolo	NOUN	S	Gender=Masc|Number=Sing	44	nmod	_	_
+48	di	di	ADP	E	_	49	case	_	_
+49	nottambuli	nottambule	NOUN	S	Gender=Masc|Number=Plur	47	nmod	_	_
+50	reietti	reietto	ADJ	A	Gender=Masc|Number=Plur	49	amod	_	SpaceAfter=No
+51	,	,	PUNCT	FF	_	49	punct	_	_
+52	spesso	spesso	ADV	B	_	53	advmod	_	_
+53	appartenenti	appartenere	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	49	acl	_	_
+54	a	a	ADP	E	_	55	case	_	_
+55	minoranze	minoranza	NOUN	S	Gender=Fem|Number=Plur	53	obl	_	_
+56	tenute	tenere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	55	acl	_	_
+57	sotto	sotto	ADP	E	_	58	case	_	_
+58	osservazione	osservazione	NOUN	S	Gender=Fem|Number=Sing	56	obl	_	_
+59	poliziesca	poliziesco	ADJ	A	Gender=Fem|Number=Sing	58	amod	_	SpaceAfter=No
+60	,	,	PUNCT	FF	_	44	punct	_	_
+61	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	62	det	_	_
+62	jazz	jazz	NOUN	S	Gender=Masc	64	nsubj	_	_
+63	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	64	expl	_	_
+64	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	conj	_	_
+65	oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	64	obj	_	_
+66	commerciale	commerciale	ADJ	A	Number=Sing	65	amod	_	_
+67	e	e	CCONJ	CC	_	72	cc	_	SpaceAfter=No
+68	,apriti	,aprire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	72	conj	_	_
+69	sesamo	sesamo	NOUN	S	Gender=Masc|Number=Sing	68	obj	_	SpaceAfter=No
+70	,	,	PUNCT	FF	_	68	punct	_	_
+71	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	72	aux:pass	_	_
+72	accettato	accettare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	64	conj	_	SpaceAfter=No
+73	.	.	PUNCT	FS	_	12	punct	_	_
+
+

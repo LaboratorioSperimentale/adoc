@@ -1,0 +1,2 @@
+# source = CORIS
+# text = Poi piano piano ho pensato che l'idea non era poi così malvagia.  

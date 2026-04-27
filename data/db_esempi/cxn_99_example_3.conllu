@@ -1,0 +1,36 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Blog - italiano naturale 
+# sent_id = 1
+# text = E’ stato importantissimo farsi le ossa in una realtà più piccola, perché ti permette di capire il funzionamento e la visione di un’azienda.
+1	E’	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	cop	_	_
+3	importantissimo	importante	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	0	root	_	SpacesAfter= 
+4-5	farsi	_	_	_	_	_	_	_	_
+4	far	fare	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	ossa	osso	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpacesAfter= 
+8	in	in	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	realtà	realtà	NOUN	S	Gender=Fem	4	obl	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	perché	perché	SCONJ	CS	_	16	mark	_	_
+15	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	16	iobj	_	_
+16	permette	permettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	capire	capire	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	funzionamento	funzionamento	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	visione	visione	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+

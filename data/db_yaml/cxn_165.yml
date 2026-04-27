@@ -1,0 +1,67 @@
+cxn-id: |
+  165
+
+name: |
+  stile (indexical manner)
+
+cxn-machine-readable-formalization: |
+  cxn_165.conllc
+
+form: |
+	-  T [stile N]
+	-
+
+function: |
+	-  M = in manner PK|F where PK|F = T/T(K|F)_N
+	-
+	-
+
+restrictions: |
+	-  N = common noun, proper noun, noun phrase N = bare
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Infrequent
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	- manner >> cc:sem:manner
+	- indexical-manner
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Adverb, Adjective
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	
+
+note: |
+	-  Masini, Francesca & Caterina Mauri. 2020.  Questione di
+  stile: l’espressione analitica della maniera indessicale.
+  Testi e Linguaggi 14. 259-271.
+	-  USAGE:
+
+references: |
+
+collector: |
+  Francesca Masini
+

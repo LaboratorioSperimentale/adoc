@@ -1,0 +1,2 @@
+# source = Conversazioni del quotidiano
+# text = Se mi abbracci forte forte ti porto al parco

@@ -1,0 +1,2 @@
+# source = CORIS http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=57851776&End=57851778
+# text = Anzi , rido proprio , e mi viene da coprirmi la bocca con la mano .

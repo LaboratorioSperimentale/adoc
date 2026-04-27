@@ -1,0 +1,2 @@
+# source = "Il nuovo De Mauro", Dizionario de l'Internazionale.
+# text = Oggi ero in ritardo al colloquio di lavoro, quindi ho corso a più non posso.

@@ -1,0 +1,6 @@
+# cxn_id = 165 
+# name = stile (indexical manner) 
+# function = M = in manner PK|F where PK|F = T/T(K|F)_N 
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

@@ -1,0 +1,2 @@
+# source = Treccani
+# text = Non fa che dire pallonate.

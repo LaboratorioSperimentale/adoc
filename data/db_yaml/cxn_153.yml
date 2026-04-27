@@ -1,0 +1,77 @@
+cxn-id: |
+  153
+
+name: |
+  Intransitive Motion Construction
+
+cxn-machine-readable-formalization: |
+  cxn_153.conllc
+
+form: |
+	-  N + Vmotion + PPLoc
+	-
+
+function: |
+	-  La costruzione consiste in un Tema (soggetto) che si muove
+  lungo un percorso verso un punto diverso dello spazio. A
+  differenza della costruzione di moto causato, la causa
+  esterna del movimento non fa parte dell'evento
+  concettualizzato.
+	-
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  fully schematic
+
+cefr-level: |
+
+horizontal-links: |
+  150
+
+vertical-links: |
+
+examples: 
+	- cxn_153_example_1.txt
+	- cxn_153_example_2.txt
+	- cxn_153_example_3.txt
+	- cxn_153_example_4.txt
+	- cxn_153_example_5.txt
+
+note: |
+	-  Busso, L., Lenci, A., & Perek, F. (2020). Valency coercion
+  in Italian: An exploratory study. Constructions and
+  Frames, 12(2), 171-205. Mosca, M. (2012). Italian motion
+  constructions. Space and Time in Languages and Cultures:
+  Linguistic diversity, 373.
+	-  USAGE:
+
+references: |
+
+collector: |
+  Lucia Busso
+

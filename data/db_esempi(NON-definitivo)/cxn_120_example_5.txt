@@ -1,0 +1,2 @@
+# source = Dialoghi tra persone
+# text = Ero là del tabacchino che ti aspettavo, ma non arrivavi mai.

@@ -1,0 +1,6 @@
+# cxn_id = 40 
+# name = andare a (V+prep.) + N. (zonzo,genio,rotoli, gonfie vele)  
+# function = andare a zonzo:girovagare, andare in giro senza una meta o uno scopo ben preciso.  andare a genio: quando qualcosa va a genio significa che ci è gradito.  andare a rotoli: andare male, non riuscire.  andare a gonfie vele: l'espressione andare a gonfie vele si usa quando tutto va bene come previsto.    
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

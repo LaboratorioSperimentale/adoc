@@ -1,0 +1,65 @@
+cxn-id: |
+  128
+
+name: |
+  'non importa' construction
+
+cxn-machine-readable-formalization: |
+  cxn_128.conllc
+
+form: |
+	-  non + PronPers (DAT) + ne + 'fare' (3pers sing) + niente
+	-
+
+function: |
+	-  Semantica
+	-  La costruzione è un equivalente di 'non importa', 'non è un
+  problema'. 
+	-
+
+restrictions: |
+	-  PronPers (DAT): in forma atona 
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- complex-predicates >> cc:cxn:complex-predicate
+
+functional-tags: 
+	- mitigation
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Verb
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_128_example_1.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Chiara Di Deco
+

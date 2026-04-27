@@ -1,0 +1,2 @@
+# source = Dizionario internazionale
+# text = Facciamo finta di aver ottenuto il lavoro

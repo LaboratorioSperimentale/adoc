@@ -1,0 +1,38 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: KIP
+# sent_id = 1
+# text = cosa d' omini // era una faccenda che si doveva sbrogliari faccia a faccia // non si mh non confessa a suo padre quello che e' successo
+1	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	SpacesBefore=\s\s\s
+2	d'	di	ADP	E	_	3	case	_	_
+3	omini	omino	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+4	/	/	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+5	/	/	PUNCT	FF	_	8	punct	_	_
+6	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	cop	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	faccenda	faccenda	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+9	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl:impers	_	_
+11	doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+12	sbrogliari	sbrogliario	VERB	V	VerbForm=Inf	8	acl:relcl	_	SpacesAfter=\s 
+13	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpacesAfter=\s 
+16	/	/	PUNCT	FF	_	12	punct	_	SpaceAfter=No
+17	/	/	PUNCT	FF	_	8	punct	_	_
+18	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+19	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	22	expl	_	_
+20	mh	mh	INTJ	I	_	22	discourse	_	_
+21	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+22	confessa	confessare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+23	a	a	ADP	E	_	25	case	_	_
+24	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	padre	padre	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+26	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	22	obj	_	_
+27	che	che	PRON	PR	PronType=Rel	30	nsubj	_	_
+28	e	e	CCONJ	CC	_	30	cc	_	SpaceAfter=No
+29	'	'	PUNCT	FB	_	30	punct	_	_
+30	successo	successo	VERB	V	Gender=Masc|Number=Sing	26	acl:relcl	_	SpacesAfter=\s\s\s
+
+

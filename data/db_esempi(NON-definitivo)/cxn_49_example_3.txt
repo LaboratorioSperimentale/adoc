@@ -1,0 +1,2 @@
+# source = Corpus: Italian Web 2016 (itTenTen16)
+# text = Lui è giù che si guarda la partita.

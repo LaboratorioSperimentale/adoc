@@ -1,0 +1,2 @@
+# source = Corpus: Italian Web 2016 (itTenTen16)
+# text = Un giorno qualcuno disse: "La vita è fuori che ti aspetta". Risposi: "Non la trovo!"

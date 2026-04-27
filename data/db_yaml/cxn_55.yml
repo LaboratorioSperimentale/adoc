@@ -1,0 +1,69 @@
+cxn-id: |
+  55
+
+name: |
+  Acqua in bocca
+
+cxn-machine-readable-formalization: |
+  cxn_55.conllc
+
+form: |
+	-  Acqua in bocca
+	-  La costruzione non ha particolarità sintattiche.
+
+function: |
+	-  Modo di dire comunemente usato nel parlato informale per
+  invitare l'interlocutore (con cui si sta parlando) a
+  mantenere un segreto. 
+	-
+	-  Questo modo di dire è comprensibile dalla somma dei
+  costituenti. 
+
+restrictions: |
+	-
+	-  L'intera costruzione è costituita da slot fissi che non
+  possono essere sostituiti con altri. 
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+
+formal-tags: 
+	- idiom-of-encoding
+
+functional-tags: 
+	- intensification
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  fully schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_55_example_1.txt
+	- cxn_55_example_2.txt
+	- cxn_55_example_3.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Federica D'Isita
+

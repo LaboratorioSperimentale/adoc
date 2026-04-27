@@ -1,0 +1,2 @@
+# source = conversazioni tra persone  
+# text = ci sta un botto di persone 

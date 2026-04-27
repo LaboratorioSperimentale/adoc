@@ -1,0 +1,65 @@
+cxn-id: |
+  50
+
+name: |
+  non vedere l'ora di X
+
+cxn-machine-readable-formalization: |
+  cxn_50.conllc
+
+form: |
+	-  non vedere l'ora di X
+	-
+
+function: |
+	-  esprimere impazienza (con accezione positiva) nei confronti
+  di un evento futuro
+	-
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-  non vedo l'ora di + V
+
+usage: |
+
+formal-tags: 
+	- grammatical-idiom
+	- lexically-filled-idiom
+	- idiom-without-pragmatic-point
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  lexically filled
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_50_example_1.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+

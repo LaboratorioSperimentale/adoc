@@ -16,15 +16,15 @@
 	Examples 5
 	Source 5
 DROPPARE	Idiomaticity Level Function
-Mappare su Function	Explain
+Mappare su Function	Explain 2
 DROPPARE	Idiomaticity Level Form
-Mappare su Form	Explain
+Mappare su Form	Explain 1
 DROPPARE	Idiomaticity Level Restrictions
-[restrictions]	Explain
+[restrictions]	Explain 3
 DROPPARE	Idiomaticity Level Collocational Preferences
-[coll-preferences]	Explain
+[coll-preferences]	Explain 4
 DROPPARE	Idiomaticity Level Usage Familiarity
-[Notes con prefisso "USAGE"]	Explain
+[Notes con prefisso "USAGE"]	Explain 5
 	Data Collector
 	Notes
 [category-tags]	Category tags
@@ -39,5 +39,3 @@ DROPPARE	Idiomaticity Level Usage Familiarity
 [vertical-links]	Vertical links
 DROPPARE	CEFR level
 DROPPARE	Formulaic expression
-
-ciao

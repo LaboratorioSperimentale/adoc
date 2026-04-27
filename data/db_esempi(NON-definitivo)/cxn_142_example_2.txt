@@ -1,0 +1,2 @@
+# source = corpora.ficlit.unibo.it/CODIS/
+# text = "Come crede che si sentano ? In Albania , e tutti sanno che aria tira lì, ci sono ragazzi che appartengono a corpi di cui si chiede lo scioglimento. Me lo dica: come crede che si sentano?" L'ammiraglio Guido Venturoni, capo di stato maggiore della Difesa

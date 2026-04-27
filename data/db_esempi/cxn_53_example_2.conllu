@@ -1,0 +1,76 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=1022449&End=1022450 
+# sent_id = 1
+# text = Il risultato di tali opere è che radici di alberi , tuttora infestanti , minacciano con la loro penetrazione la stabilità dello stesso muro : e non essendo stato rimosso il terrapieno , peraltro sporchissimo , che ricopre il basamento di fronte alla strada , viene da chiedersi se e quali lavori di solidità siano stati operati dalla XII Ripartizione
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	tali	tale	DET	DD	Number=Plur|PronType=Dem	5	det	_	_
+5	opere	opera	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	15	mark	_	_
+8	radici	radice	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	alberi	albero	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	tuttora	tuttora	ADV	B	_	13	advmod	_	_
+13	infestanti	infestante	ADJ	A	Number=Plur	8	amod	_	_
+14	,	,	PUNCT	FF	_	8	punct	_	_
+15	minacciano	minacciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+16	con	con	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	loro	loro	DET	AP	Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	penetrazione	penetrazione	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	stabilità	stabilità	NOUN	S	Gender=Fem	15	obj	_	_
+22-23	dello	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	25	case	_	_
+23	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+25	muro	muro	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+26	:	:	PUNCT	FC	_	6	punct	_	_
+27	e	e	CCONJ	CC	_	48	cc	_	_
+28	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+29	essendo	essere	AUX	VA	VerbForm=Ger	31	aux	_	_
+30	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	aux:pass	_	_
+31	rimosso	rimuovere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	advcl	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	terrapieno	terrapieno	NOUN	S	Gender=Masc|Number=Sing	31	nsubj:pass	_	_
+34	,	,	PUNCT	FF	_	33	punct	_	_
+35	peraltro	peraltro	ADV	B	_	36	advmod	_	_
+36	sporchissimo	sporche	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	33	amod	_	_
+37	,	,	PUNCT	FF	_	33	punct	_	_
+38	che	che	PRON	PR	PronType=Rel	39	nsubj	_	_
+39	ricopre	ricoprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	basamento	basamento	NOUN	S	Gender=Masc|Number=Sing	39	obj	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	fronte	fronte	NOUN	S	Number=Sing	39	obl	_	_
+44-45	alla	_	_	_	_	_	_	_	_
+44	a	a	ADP	E	_	46	case	_	_
+45	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	strada	strada	NOUN	S	Gender=Fem|Number=Sing	43	nmod	_	_
+47	,	,	PUNCT	FF	_	31	punct	_	_
+48	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+49	da	da	ADP	E	_	50	mark	_	_
+50-51	chiedersi	_	_	_	_	_	_	_	_
+50	chieder	chiedere	VERB	V	VerbForm=Inf	48	ccomp	_	_
+51	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	50	expl	_	_
+52	se	se	SCONJ	CS	_	60	mark	_	_
+53	e	e	CCONJ	CC	_	55	cc	_	_
+54	quali	quale	DET	DQ	Number=Plur|PronType=Int	55	det	_	_
+55	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	60	nsubj:pass	_	_
+56	di	di	ADP	E	_	57	case	_	_
+57	solidità	solidità	NOUN	S	Gender=Fem	55	nmod	_	_
+58	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	60	aux	_	_
+59	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	60	aux:pass	_	_
+60	operati	operare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	50	ccomp	_	_
+61-62	dalla	_	_	_	_	_	_	_	_
+61	da	da	ADP	E	_	64	case	_	_
+62	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	64	det	_	_
+63	XII	XII	ADJ	NO	Number=Sing|NumType=Ord	64	amod	_	_
+64	Ripartizione	ripartizione	NOUN	S	Gender=Fem|Number=Sing	60	obl:agent	_	SpaceAfter=No
+
+

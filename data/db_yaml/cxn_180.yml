@@ -1,0 +1,85 @@
+cxn-id: |
+  180
+
+name: |
+  non PRON che V
+
+cxn-machine-readable-formalization: |
+  cxn_180.conllc
+
+form: |
+	-  non PRON che V 
+	-
+
+function: |
+	-  antipresupposizionale negazione per affermare
+	-  La costruzione è legata al mondo dei meme e dei social,
+  soprattutto Instagram e Tiktok, e viene usata per
+  dichiarare, attraverso una negazione ironica, un'azione
+  compiuta che può essere ragione di vergogna o imbarazzo, ma
+  che soprattutto va a contrapporsi con una presupposizione
+  dettata dall'opinione dei più, dal buonsenso generale, da un
+  comune modo di comportarsi, da una conoscenza condivisa o da
+  quanto precedentemente affermato nella conversazione in cui
+  è inserita; il contesto è, comunque, fondamentale perché
+  risulti il palese il contrasto tra una massa (che siano gli
+  altri interlocutori o la comunità di riferimento) e l'io del
+  parlante.
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-  Tende ad occorrere con il pronome di prima persona singolare
+  (io), per quanto la formulazione con gli altri pronomi
+  personali soggetto o con un nome proprio non sia errata.
+	-
+
+usage: |
+  Informal
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_180_example_1.txt
+	- cxn_180_example_2.txt
+	- cxn_180_example_3.txt
+	- cxn_180_example_4.txt
+	- cxn_180_example_5.txt
+
+note: |
+	-  Le fonti di riferimento sono state esclusivamente Tiktok e
+  Instagram perché nella ricerca (forse non sufficientemente
+  approfondita) condotta su corpora di italiano parlato e del
+  web la costruzione non è emersa, magari perché troppo
+  recente o perché non sufficientemente diffusa.
+	-  USAGE:
+
+references: |
+
+collector: |
+  Sofia Battistoni
+

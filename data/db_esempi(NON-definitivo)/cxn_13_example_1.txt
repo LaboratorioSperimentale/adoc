@@ -1,0 +1,2 @@
+# source = Corpus: CORIS
+# text = Il personal computer sarà più che mai semplice e standard.

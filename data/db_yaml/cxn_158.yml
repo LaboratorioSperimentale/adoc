@@ -1,0 +1,74 @@
+cxn-id: |
+  158
+
+name: |
+  Passive Construction
+
+cxn-machine-readable-formalization: |
+  cxn_158.conllc
+
+form: |
+	-  N + Vpass + (PPagent)
+	-
+
+function: |
+	-  La costruzione passiva indica un'azione compiuta da un
+  agente su un paziente, in cui il paziente è il soggetto e
+  l'agente è opzionalmente espresso fa un sintagma
+  preposizionale. E' altamente schematica, tanto che diversi
+  studiosi sostengono che le forme passive (inglesi) siano una
+  famiglia di costruzioni, piuttosto che un unica costruzione
+  (si veda ad esempio Tomasello 2005).
+	-
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- argument-structure-construction >> cc:cxn:clause
+
+functional-tags: 
+	- passive >> cc:sem:passing
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  fully schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_158_example_1.txt
+	- cxn_158_example_2.txt
+	- cxn_158_example_3.txt
+	- cxn_158_example_4.txt
+	- cxn_158_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Lucia Busso
+

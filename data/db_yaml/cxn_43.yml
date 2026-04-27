@@ -1,0 +1,72 @@
+cxn-id: |
+  43
+
+name: |
+  X(v) + compl. modo (come) + Y(n)
+
+cxn-machine-readable-formalization: |
+  cxn_43.conllc
+
+form: |
+	-  X(v) + compl. modo (come) + Y(n)
+	-  Si tratta di una costruzione verbale intercambiabile 
+
+function: |
+	-  Similitudine (per denotare il modo in cui si canta) -
+  Cantare come una rana (in modo sgraziata) - Cantare come un
+  fringuello (in modo allegro) - Cantare come un usignolo
+  (molto bene)
+	-
+	-  Il verbo cantare non è utilizzato solo per indicare
+  un’azione ma per denotare un paragone. 
+
+restrictions: |
+	-
+	-  X deve essere sempre lo stesso verbo mentre Y può variare a
+  seconda del paragone. 
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+
+formal-tags: 
+	- complex-predicates >> cc:cxn:complex-predicate
+
+functional-tags: 
+	- categorization
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_43_example_1.txt
+	- cxn_43_example_2.txt
+	- cxn_43_example_3.txt
+
+note: |
+	-
+	-  USAGE: La costruzione ha sviluppato una frequenza di
+  utilizzo tale da farla diventare un modo di dire che indica
+  l’intonazione o lo stato d’animo di qualcuno. 
+
+references: |
+
+collector: |
+  Martina Punturiero
+

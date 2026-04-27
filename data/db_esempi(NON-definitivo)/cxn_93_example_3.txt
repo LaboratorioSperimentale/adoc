@@ -1,0 +1,2 @@
+# source = Parlante nativo
+# text = Più viaggi più conosci

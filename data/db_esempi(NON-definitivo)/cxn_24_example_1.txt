@@ -1,0 +1,2 @@
+# source = Conversazioni del quotidiano
+# text = Bevi piano piano che è fredda

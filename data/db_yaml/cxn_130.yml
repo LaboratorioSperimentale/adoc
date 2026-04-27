@@ -1,0 +1,67 @@
+cxn-id: |
+  130
+
+name: |
+  Differenza di anni
+
+cxn-machine-readable-formalization: |
+  cxn_130.conllc
+
+form: |
+	-  portarsi + ADJ + N
+	-
+
+function: |
+	-  Esprimere la differenza anagrafica tra persone. Si tratta di
+  un regionalismo colloquiale 
+	-  regionalismo con il quale si indica la differenza anagrafica
+  tra due o più persone coinvolte in una frase
+	-
+
+restrictions: |
+	-  Il vervo "portarsi", in questa accezione, ha un utilizzo
+  molto limitato e ristretto
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- verbi >> cc:cxn:verb
+
+functional-tags: 
+	- time >> cc:sem:time
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Verb
+	-
+
+schematicity-level: |
+  lexically filled
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_130_example_1.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Simona Contaldi
+

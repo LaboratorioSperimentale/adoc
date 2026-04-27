@@ -1,0 +1,2 @@
+# source = (corpus) Paisà corpus dell'italiano:  https://www.corpusitaliano.it/static/documents/sources/781/7813724
+# text = (A scanso + Adv + di + Det + Adj + N) E Livio, a scanso giustamente di ogni antiquato razzismo, ha sbaragliato un’agguerrita concorrenza[...]

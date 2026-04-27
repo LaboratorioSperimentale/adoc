@@ -1,0 +1,77 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itTenTen20 (Sketch Engine)
+# sent_id = 1
+# text = - No, non ho avuto un vero e proprio modello di riferimento, è una passione nata nel tempo osservando i diversi suonatori di battente nei concerti di piazza.
+1	-	-	PUNCT	FF	_	6	punct	_	_
+2	No	no	INTJ	I	Polarity=Neg	6	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+8	vero	vero	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	proprio	proprio	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	_
+11	modello	modello	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	passione	passione	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+18	nata	nascere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+19-20	nel	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	osservando	osservare	VERB	V	VerbForm=Ger	18	advcl	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+24	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	25	det	_	_
+25	suonatori	suonatore	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	battente	battente	NOUN	S	Number=Sing	25	nmod	_	_
+28-29	nei	_	_	_	_	_	_	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	concerti	concerto	NOUN	S	Gender=Masc|Number=Plur	22	obl	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	6	punct	_	_
+
+# source = itTenTen20 (Sketch Engine)
+# sent_id = 2
+# text = Hai trovato utile qualche testo, libro, pubblicazione, cd ecc.. ?
+1	Hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	utile	utile	ADJ	A	Number=Sing	2	xcomp	_	_
+4	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	testo	testo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	libro	libro	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	pubblicazione	pubblicazione	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	cd	cd	NOUN	S	Gender=Masc	5	conj	_	_
+12	ecc..	ecc..	ADV	S	_	11	compound	_	_
+13	?	?	PUNCT	FS	_	2	punct	_	_
+
+# source = itTenTen20 (Sketch Engine)
+# sent_id = 3
+# text = - Non mi sono mai imbattuta in libri che trattassero questo strumento.
+1	-	-	PUNCT	FF	_	6	punct	_	_
+2	Non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	expl	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	mai	mai	ADV	B	_	6	advmod	_	_
+6	imbattuta	imbattere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	libri	libro	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	trattassero	trattare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+11	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+
+

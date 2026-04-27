@@ -1,0 +1,73 @@
+cxn-id: |
+  166
+
+name: |
+  Neoclassical compounds
+
+cxn-machine-readable-formalization: |
+  cxn_166.conllc
+
+form: |
+	-  [[x]Xαk [y]Yβi]Xβj
+	-
+
+function: |
+	-  [SEMk in R with SEMi]j
+	-  Compounds made up of two combining forms of classical
+  origins, used in scientific terms and - in some cases - in
+  everyday language
+	-
+
+restrictions: |
+	-  [x] and [y] are neoclassical combining forms taken from
+  Latin and Ancient Greek (e.g., cardio- 'id.', -logia
+  '-logy', psico- 'psycho-') The first constituent ends with
+  the vowel -o- (if the combining form is Greek; e.g.
+  neurologia 'neurology'), with the vowel -i- (if the
+  combining form is Latin; e.g., ignifugo 'fireproof')
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- compounding >> cc:str:compounding
+	- combining-form
+	- neoclassical-element
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-  Word
+	-
+
+category-tags: |
+	-  Noun, Adjective
+	-
+
+schematicity-level: |
+  fully schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_166_example_1.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Silvia Micheli
+

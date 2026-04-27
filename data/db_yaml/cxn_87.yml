@@ -1,0 +1,68 @@
+cxn-id: |
+  87
+
+name: |
+  anna ciarlantini
+
+cxn-machine-readable-formalization: |
+  cxn_87.conllc
+
+form: |
+	-  "Visto che..."
+	-
+
+function: |
+	-
+	-  "Visto che" a inizio frase è usato per sostituire "Dato
+  che...". è usato per fare una supposizione
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-  collocazione a inizio frase, in particolar modo nel parlato
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- formal-idiom
+
+functional-tags: 
+	- context-dependence
+	- focus-marker
+	- sequentiality
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Other
+	-
+
+schematicity-level: |
+  lexically filled
+
+cefr-level: |
+
+horizontal-links: |
+  17, 40, 52
+
+vertical-links: |
+
+examples: 
+	- cxn_87_example_1.txt
+	- cxn_87_example_2.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+

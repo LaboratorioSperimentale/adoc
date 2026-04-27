@@ -1,0 +1,2 @@
+# source = Corpus: Coris Timeslice: MONITOR2005_07  Subcorpus: NARRAT
+# text = Doveva rischiarla? Chi non risica non rosica.

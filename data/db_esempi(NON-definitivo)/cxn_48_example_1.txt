@@ -1,0 +1,2 @@
+# source = CorpusPaisà (corpusitaliano.it)
+# text = Tra tutti quelli che erano interessati allo svolgimento del match, Hart era senza dubbio il più calmo di tutti. Molte piccole cose lo avevano spinto a guardare con tranquillità a quanto stava per accadere.

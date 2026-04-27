@@ -1,0 +1,2 @@
+# source = conversazione whatsapp
+# text = Perché ti scaldi tanto? Hai la coda di paglia?

@@ -1,0 +1,2 @@
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=86659066&End=86659067
+# text = pensavano di  casa a Tokyo

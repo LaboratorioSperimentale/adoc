@@ -1,0 +1,6 @@
+# cxn_id = 20 
+# name = prendersi + N+Prep +N/V/Pron 
+# function = costruzione utilizzata per indicare una persona che si attribuisce in autonomia la responsabilità di qualcuno o di svolgere una specifica azione 
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

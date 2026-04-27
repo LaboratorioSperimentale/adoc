@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itTenTen20
+# sent_id = 1
+# text = In vista di quell'appuntamento spero che il Terzo Polo sia giunto a maturazione anche perche' sono strasicuro che tra Berlusconi-Bossi e Bersani-Vendola-Di Pietro, ci sia uno spazio ampio di cittadini che sono pronti ad abbracciare una terza opzione
+1	In	in	ADP	E	_	2	case	_	SpacesBefore=\s
+2	vista	vista	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	quell'	quello	DET	DD	Number=Sing|PronType=Dem	5	det	_	SpaceAfter=No
+5	appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	12	mark	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Terzo	Terzo	PROPN	SP	_	12	nsubj	_	_
+10	Polo	Polo	PROPN	SP	_	9	flat:name	_	_
+11	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	giunto	giungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	maturazione	maturazione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15	anche	anche	ADV	B	_	19	advmod	_	_
+16	perche	perche	SCONJ	CS	_	19	mark	_	SpaceAfter=No
+17	'	'	PUNCT	FB	_	19	punct	_	_
+18	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	cop	_	SpacesAfter=\s\s
+19	strasicuro	strasicuro	ADJ	A	Gender=Masc|Number=Sing	12	advcl	_	SpacesAfter=\s\s
+20	che	che	SCONJ	CS	_	32	mark	_	_
+21	tra	tra	ADP	E	_	22	case	_	_
+22	Berlusconi-Bossi	Berlusconi-bossi	PROPN	SP	_	32	obl	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	Bersani	Bersani	PROPN	SP	_	22	conj	_	SpaceAfter=No
+25	-	-	PUNCT	FB	_	26	punct	_	SpaceAfter=No
+26-27	Vendola	_	_	_	_	_	_	_	SpaceAfter=No
+26	Vendo	Vendo	PROPN	SP	_	24	nmod	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	-Di	-di	PROPN	SP	_	24	nmod	_	_
+29	Pietro	Pietro	PROPN	SP	_	28	flat:name	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	22	punct	_	_
+31	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	32	expl	_	_
+32	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+33	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
+34	spazio	spazio	NOUN	S	Gender=Masc|Number=Sing	32	nsubj	_	_
+35	ampio	ampio	ADJ	A	Gender=Masc|Number=Sing	34	amod	_	_
+36	di	di	ADP	E	_	37	case	_	_
+37	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	34	nmod	_	_
+38	che	che	PRON	PR	PronType=Rel	40	nsubj	_	_
+39	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	cop	_	_
+40	pronti	pronto	ADJ	A	Gender=Masc|Number=Plur	37	acl:relcl	_	_
+41	ad	a	ADP	E	_	42	mark	_	_
+42	abbracciare	abbracciare	VERB	V	VerbForm=Inf	40	advcl	_	_
+43	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	45	det	_	_
+44	terza	terzo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	45	amod	_	_
+45	opzione	opzione	NOUN	S	Gender=Fem|Number=Sing	42	obj	_	SpaceAfter=No
+
+

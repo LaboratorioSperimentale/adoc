@@ -1,0 +1,2 @@
+# source = Corpus: CORIS
+# text = Oppure, prima o poi, la gravità avrà la meglio su galassie e materia e inzierà il collasso.

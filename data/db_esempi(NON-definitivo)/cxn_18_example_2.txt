@@ -1,0 +1,2 @@
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=83014793&End=83014796
+# text = Tanis guardò sopra la testa di lei, puntando gli occhi sulla porta decorata attraverso la quale sarebbero entrati quando fosse giunto il loro turno, contemplando con uno sgomento che non riusciva a nascondere lo spettacolo, a mano a mano che si dispiegava davanti_ai suoi occhi.

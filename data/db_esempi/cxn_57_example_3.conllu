@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus italiano Paisà https://www.corpusitaliano.it/static/documents/sources/740/7406114
+# sent_id = 1
+# text = A poco più di un mese dall'uscita americana, il cazzutissimo The Expendables ci regala oggi un lungo ed inedito spot tv, talmente testosteronico da farci morire dalla voglia di vederlo il prima possibile!
+1	A	a	ADP	E	_	3	case	_	_
+2	poco	poco	ADV	B	_	3	advmod	_	_
+3	più	più	ADV	B	PronType=Ind	17	obl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mese	mese	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+7	da	da	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	uscita	uscita	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	americana	americano	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	cazzutissimo	cazzuto	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	14	amod	_	_
+14	The	The	PROPN	SP	_	17	nsubj	_	_
+15	Expendables	Expendables	PROPN	SP	_	14	flat:name	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	17	iobj	_	_
+17	regala	regalare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	oggi	oggi	ADV	B	_	17	advmod	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+20	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+21	ed	e	CCONJ	CC	_	22	cc	_	_
+22	inedito	inedito	ADJ	A	Gender=Masc|Number=Sing	20	conj	_	_
+23	spot	spot	NOUN	S	Gender=Masc	17	obj	_	_
+24	tv	tv	NOUN	S	Gender=Fem	23	compound	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	23	punct	_	_
+26	talmente	talmente	ADV	B	_	27	advmod	_	_
+27	testosteronico	testosteronico	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+28	da	da	ADP	E	_	29	mark	_	_
+29-30	farci	_	_	_	_	_	_	_	_
+29	far	fare	VERB	V	VerbForm=Inf	27	advcl	_	_
+30	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	29	obj	_	_
+31	morire	morire	VERB	V	VerbForm=Inf	29	ccomp	_	_
+32-33	dalla	_	_	_	_	_	_	_	_
+32	da	da	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	_
+35	di	di	ADP	E	_	36	mark	_	_
+36-37	vederlo	_	_	_	_	_	_	_	_
+36	veder	vedere	VERB	V	VerbForm=Inf	34	acl	_	_
+37	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	obj	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	prima	prima	ADV	B	_	36	advmod	_	_
+40	possibile	possibile	ADJ	A	Number=Sing	36	xcomp	_	SpaceAfter=No
+41	!	!	PUNCT	FS	_	17	punct	_	SpaceAfter=No
+
+

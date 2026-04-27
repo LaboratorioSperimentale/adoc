@@ -1,0 +1,2 @@
+# source = Corpus: Italian Web 2016 (itTenTen16)
+# text = Mentre ero lì che piangevo mi sono resa conto di essere in procinto di staccare un cordone ombelicale forte, fatto di complicità, che mi ha portata tante volte a provare frustrazione, ma anche gioia di fronte a quel neonato che cresceva forte e robusto, con una voce da spaccare i timpani, deciso nella sua volontà di vita.

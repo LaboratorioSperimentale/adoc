@@ -1,0 +1,2 @@
+# source = Glosbe dizionario online
+# text = Circa cinque minuti dopo sentì battere un colpo esitante alla porta.

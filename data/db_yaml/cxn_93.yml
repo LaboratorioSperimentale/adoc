@@ -1,0 +1,69 @@
+cxn-id: |
+  93
+
+name: |
+  Costruzione del più
+
+cxn-machine-readable-formalization: |
+  cxn_93.conllc
+
+form: |
+	-  più X più X
+	-
+
+function: |
+	-  Enfatica/Pragmatica
+	-  Serve a rafforzare l'idea, il concetto cui l'interlocutore
+  pone al centro del discorso, su cui pone enfasi.
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- repetition
+
+functional-tags: 
+	- intensification
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Adverb
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_93_example_1.txt
+	- cxn_93_example_2.txt
+	- cxn_93_example_3.txt
+	- cxn_93_example_4.txt
+	- cxn_93_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Vanessa Tizzano
+

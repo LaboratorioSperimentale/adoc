@@ -1,0 +1,2 @@
+# source = Corpus: Coris Timeslice: CORIS 1980_2000  Subcorpus: PRACC
+# text = chi rompe paga diremmo noi , chi inquina paga dicono i tedeschi .

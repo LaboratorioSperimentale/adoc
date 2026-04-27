@@ -1,0 +1,2 @@
+# source = Parlante nativo
+# text = Cadere in trappola

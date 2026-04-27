@@ -1,0 +1,2 @@
+# source = Corpus: CORIS 
+# text = Se non vado subito a casa a mangiare e dormire, domani starò una schifezza.

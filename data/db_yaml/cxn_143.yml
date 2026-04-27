@@ -1,0 +1,76 @@
+cxn-id: |
+  143
+
+name: |
+  ADJ-per-ADJ reduplicazione discontinua
+
+cxn-machine-readable-formalization: |
+  cxn_143.conllc
+
+form: |
+	-  ADJi per ADJi
+	-
+
+function: |
+	-  Sottolinea il fatto che una situazione non sia più
+  modificabile
+	-  Pattern formato dalla ripetizione dello stesso aggettivo
+  immediatamente prima e immediatamente dopo la preposizione
+  per. Indica una situazione che non è più modificabile o uno
+  stato in cui, qualunque cosa si faccia, il risultato rimane
+  invariato. Spesso la costruzione viene introdotta da
+  espressioni come "(tanto) ormai" oppure "a questo punto".
+  Inoltre, la frase in cui compare la costruzione viene spesso
+  lasciata in sospeso e non viene portata a termine.
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- reduplication
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Adjective
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_143_example_1.txt
+	- cxn_143_example_2.txt
+	- cxn_143_example_3.txt
+	- cxn_143_example_4.txt
+	- cxn_143_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Irene Vivani
+

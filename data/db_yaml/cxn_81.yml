@@ -1,0 +1,69 @@
+cxn-id: |
+  81
+
+name: |
+  battere un colpo
+
+cxn-machine-readable-formalization: |
+  cxn_81.conllc
+
+form: |
+	-  V + N
+	-
+
+function: |
+	-  pragmatica
+	-  Farsi sentire, manifestare la propria presenza
+	-
+
+restrictions: |
+	-  l'ordine e la forma delle parole non possono cambiare
+	-
+
+coll-preferences: |
+	-  V all'imperativo
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- Substantive-idiom
+	- idiom-of-encoding
+	- lexically-filled-idiom
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-  Clause
+	-
+
+category-tags: |
+	-  Noun, Verb
+	-
+
+schematicity-level: |
+  lexically filled
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_81_example_1.txt
+	- cxn_81_example_2.txt
+	- cxn_81_example_3.txt
+	- cxn_81_example_4.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Sofia Bonmassar
+

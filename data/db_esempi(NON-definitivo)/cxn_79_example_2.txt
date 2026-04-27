@@ -1,0 +1,2 @@
+# source = Glosbe dizionario online
+# text = La sua segretaria continuava a menare il can per l'aia, dicendo che non poteva rispondere al telefono.

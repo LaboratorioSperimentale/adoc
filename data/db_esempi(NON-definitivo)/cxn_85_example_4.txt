@@ -1,0 +1,2 @@
+# source = CORIS
+# text = Forse è ora di capire davvero che non c'è nulla da salvare.

@@ -1,0 +1,2 @@
+# source = https://context.reverso.net/translation/italian-english/restare+ad+ascoltare  >  https://www.statmt.org/europarl/v7/it-en.tgz 
+# text = la prego di scusarmi se non potrò restare ad ascoltare la sua risposta

@@ -1,0 +1,2 @@
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=16760742&End=16760742
+# text = Consulterò il mio legale , ma così a  e croce ( anche_se entro il 20 non arriva una decisione del Duce ) credo che NON mi convenga dimettermi , anche perché una motivazione simile mi aiuterebbe a trovar lavoro in America

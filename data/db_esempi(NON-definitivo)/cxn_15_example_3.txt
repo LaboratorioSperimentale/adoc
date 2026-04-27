@@ -1,0 +1,2 @@
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=57218135&End=57218136  
+# text = Può lambire gli immensi ficus su cui il sole piove a cascate in piazza Marina e sentire l'odore del mare impregnare le pietre di tufo

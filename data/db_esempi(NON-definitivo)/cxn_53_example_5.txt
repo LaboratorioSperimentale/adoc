@@ -1,0 +1,2 @@
+# source = CORIS http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=16126688&End=16126690
+# text = Sono segni buoni , mi viene da dire.

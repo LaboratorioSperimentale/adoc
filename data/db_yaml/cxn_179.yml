@@ -1,0 +1,73 @@
+cxn-id: |
+  179
+
+name: |
+  mettere\metterci + Agg poss
+
+cxn-machine-readable-formalization: |
+  cxn_179.conllc
+
+form: |
+	-  V (mettere\metterci)+ Agg poss
+	-
+
+function: |
+	-  Semantica: indica il grado di coinvolgimento o impegno
+  personale. Pragmatica: utilizzata per dare consigli, per
+  enfatizzare il contributo personale e con funzione
+  motivazionale. Discorsiva: rinforza l'idea di
+  responsabilità\dedizione.
+	-  Questa costruzione esprime l'impegno personale, l'attenzione
+  dedicata ad un'azione o ad un'attività. Viene utilizzata per
+  sottolineare il proprio contributo enfatico. 
+	-
+
+restrictions: |
+	-  Non è comune in registri formali.
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Spoken
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-  Verb, Adjective
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_179_example_1.txt
+	- cxn_179_example_2.txt
+	- cxn_179_example_3.txt
+	- cxn_179_example_4.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Aurora
+

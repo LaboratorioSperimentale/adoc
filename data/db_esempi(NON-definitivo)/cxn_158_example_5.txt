@@ -1,0 +1,2 @@
+# source = ItWac
+# text = Gli indici così individuati devono essere forniti dall' ISTAT all' Agenzia delle entrate

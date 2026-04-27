@@ -1,0 +1,53 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = (corpus) Paisà corpus dell'italiano:  https://www.corpusitaliano.it/static/documents/sources/730/7306809
+# sent_id = 1
+# text = ( A scanso di + Det + Adv + Adj + Adj + N) A scanso di un non auspicato “sad ending” per la storia Saab, il modello dovrebbe essere presentato nel corso del prossimo autunno:
+1	(	(	PUNCT	FB	_	3	punct	_	_
+2	A	a	ADP	E	_	3	case	_	_
+3	scanso	scanso	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	+	+	PUNCT	FB	_	6	punct	_	_
+6	Det	Det	PROPN	SP	_	3	nmod	_	_
+7	+	+	SYM	SYM	_	6	punct	_	_
+8	Adv	Adv	PROPN	SP	_	6	conj	_	_
+9	+	+	SYM	SYM	_	10	cc	_	_
+10	Adj	Adj	PROPN	SP	_	6	conj	_	_
+11	+	+	SYM	SYM	_	10	punct	_	_
+12	Adj	Adj	PROPN	SP	_	6	conj	_	_
+13	+	+	SYM	SYM	_	12	punct	_	_
+14	N	N	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	)	)	PUNCT	FB	_	3	punct	_	_
+16	A	a	ADP	E	_	17	case	_	_
+17	scanso	scanso	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+21	auspicato	auspicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl	_	_
+22	“	“	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+23	sad	sad	X	S	_	17	nmod	_	_
+24	ending	ending	X	SW	_	23	compound	_	SpaceAfter=No
+25	”	”	PUNCT	FB	_	23	punct	_	_
+26	per	per	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	storia	storia	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	_
+29	Saab	Saab	PROPN	SP	_	28	nmod	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	3	punct	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	modello	modello	NOUN	S	Gender=Masc|Number=Sing	35	nsubj:pass	_	_
+33	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+34	essere	essere	AUX	VA	VerbForm=Inf	35	aux:pass	_	_
+35	presentato	presentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+36-37	nel	_	_	_	_	_	_	_	_
+36	in	in	ADP	E	_	38	case	_	_
+37	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	corso	corso	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	_
+39-40	del	_	_	_	_	_	_	_	_
+39	di	di	ADP	E	_	42	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+41	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	42	amod	_	_
+42	autunno	autunno	NOUN	S	Gender=Masc|Number=Sing	38	nmod	_	SpaceAfter=No
+43	:	:	PUNCT	FC	_	35	punct	_	SpaceAfter=No
+
+

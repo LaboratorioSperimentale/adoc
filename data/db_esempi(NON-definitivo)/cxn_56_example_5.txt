@@ -1,0 +1,2 @@
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=164105295&End=164105295
+# text = Il jazz, o qualsiasi cosa fosse, poteva adesso essere diffuso anche laddove non si sarebbe mai sognato di arrivare ( la radio era agli albori ) e, visto il successo, tutti cominciarono a incidere dischi e, da espressione di un manipolo di nottambuli reietti, spesso appartenenti a minoranze tenute sotto osservazione poliziesca, il jazz si fece oggetto commerciale e,apriti sesamo, fu accettato. 

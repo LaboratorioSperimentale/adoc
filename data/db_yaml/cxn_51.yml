@@ -1,0 +1,66 @@
+cxn-id: |
+  51
+
+name: |
+  non+aus+mica+pp.
+
+cxn-machine-readable-formalization: |
+  cxn_51.conllc
+
+form: |
+	-  non+aus+mica+pp.
+	-
+
+function: |
+	-  La costruzione ha la funzione di rafforzare la negazione
+  della frase.
+	-
+	-
+
+restrictions: |
+	-
+	-  parlato colloquiale.
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_51_example_1.txt
+	- cxn_51_example_2.txt
+	- cxn_51_example_3.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Francesca Bertocchi
+

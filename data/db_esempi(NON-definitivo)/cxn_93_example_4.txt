@@ -1,0 +1,2 @@
+# source = Parlante nativo
+# text = Più passa il tempo più invecchiamo

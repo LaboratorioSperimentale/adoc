@@ -1,0 +1,91 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS2021
+# sent_id = 1
+# text = Tutta la vita, la vostra e la loro.
+1	Tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	3	det:predet	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vita	vita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	vostra	vostro	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	conj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	3	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter= 
+
+# source = CORIS2021
+# sent_id = 2
+# text = Traversina dopo traversina, galleria dopo galleria, stazione dopo stazione ci si rivela completamente.
+1	Traversina	traversina	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+2	dopo	dopo	ADP	E	_	3	case	_	_
+3	traversina	traversina	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	galleria	galleria	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+6	dopo	dopo	ADP	E	_	7	case	_	_
+7	galleria	galleria	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+10	dopo	dopo	ADP	E	_	11	case	_	_
+11	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	14	expl	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+14	rivela	rivelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	completamente	completamente	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	14	punct	_	_
+
+# source = CORIS2021
+# sent_id = 3
+# text = Quelli che abbiamo davanti non sono semplici viaggiatori, casuali utenti delle Ferrovie, ma uomini e donne mandati dal Fato.
+1	Quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	8	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	3	obj	_	_
+3	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	davanti	davanti	ADV	B	_	3	advmod	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	semplici	semplice	ADJ	A	Number=Plur	8	amod	_	_
+8	viaggiatori	viaggiatore	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	casuali	casuale	ADJ	A	Number=Plur	11	amod	_	_
+11	utenti	utente	NOUN	S	Number=Plur	8	conj	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	Ferrovie	Ferrovie	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	ma	ma	CCONJ	CC	_	17	cc	_	_
+17	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	donne	donna	NOUN	S	Gender=Fem|Number=Plur	17	conj	_	_
+20	mandati	mandare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	acl	_	_
+21-22	dal	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Fato	Fato	PROPN	SP	_	20	obl:agent	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	8	punct	_	_
+
+# source = CORIS2021
+# sent_id = 4
+# text = Diventano i nostri migliori amici ben sapendo che probabilmente, una volta arrivati, non li vedremo più.
+1	Diventano	diventare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+3	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+4	migliori	migliore	ADJ	A	Degree=Cmp|Number=Plur	5	amod	_	_
+5	amici	amico	NOUN	S	Gender=Masc|Number=Plur	1	nsubj	_	_
+6	ben	bene	ADV	B	_	7	advmod	_	_
+7	sapendo	sapere	VERB	V	VerbForm=Ger	1	advcl	_	_
+8	che	che	SCONJ	CS	_	17	mark	_	_
+9	probabilmente	probabilmente	ADV	B	_	17	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	volta	volta	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+13	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	12	acl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	obj	_	_
+17	vedremo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	7	ccomp	_	_
+18	più	più	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+

@@ -1,0 +1,38 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=50494567&End=50494568  
+# sent_id = 1
+# text = Accidenti ... innamorarsi di un uomo bello come un dio , più ricco di Onassis , e con una Stanza Rossa delle Torture che mi aspetta
+1	Accidenti	accidente	NOUN	S	Gender=Masc|Number=Plur	3	vocative	_	_
+2	...	...	PUNCT	FF	_	1	punct	_	_
+3-4	innamorarsi	_	_	_	_	_	_	_	_
+3	innamorar	innamorare	VERB	V	VerbForm=Inf	0	root	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	bello	bello	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	come	come	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	dio	dio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	ricco	ricco	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Onassis	Onassis	PROPN	SP	_	14	obl	_	_
+17	,	,	PUNCT	FF	_	21	punct	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Stanza	Stanza	PROPN	SP	_	7	conj	_	_
+22	Rossa	rosso	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23-24	delle	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	Torture	tortura	PROPN	SP	Gender=Fem|Number=Plur	21	nmod	_	_
+26	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+27	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	28	iobj	_	_
+28	aspetta	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	SpaceAfter=No
+
+

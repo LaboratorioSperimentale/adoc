@@ -1,0 +1,6 @@
+# cxn_id = 158 
+# name = Passive Construction 
+# function = La costruzione passiva indica un'azione compiuta da un agente su un paziente, in cui il paziente è il soggetto e l'agente è opzionalmente espresso fa un sintagma preposizionale. E' altamente schematica, tanto che diversi studiosi sostengono che le forme passive (inglesi) siano una famiglia di costruzioni, piuttosto che un unica costruzione (si veda ad esempio Tomasello 2005). 
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

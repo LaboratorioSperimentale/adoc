@@ -1,0 +1,2 @@
+# source = CORIS2021
+# text = Effettivamente la Ferrari andava sempre migliorando, giro dopo giro, mano a mano che diminuiva la benzina.

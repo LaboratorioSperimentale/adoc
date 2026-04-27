@@ -1,0 +1,2 @@
+# source = Parlante nativo
+# text = Più leggi più impari

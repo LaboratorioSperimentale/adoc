@@ -1,0 +1,2 @@
+# source = Parlante nativo
+# text = Ti faccio un saluto al volo e poi vado a lavorare

@@ -1,0 +1,2 @@
+# source = 
+# text = Ne è uscita più forte di prima.

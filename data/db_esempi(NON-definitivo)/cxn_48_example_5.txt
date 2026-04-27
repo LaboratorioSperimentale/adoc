@@ -1,0 +1,2 @@
+# source = CorpusPaisà (corpusitaliano.it)
+# text = Le caratteristiche del Circuito di Singapore hanno spinto a dare all'ala anteriore un aspetto più arrotondato.

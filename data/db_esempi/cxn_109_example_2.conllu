@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = PAISA'
+# sent_id = 1
+# text = Un altro argomento a discapito della sua teoria è che non è conosciuto nessun corso abbastanza lungo di un ghiacciaio che all' epoca avrebbe potuto trasportare delle pietre dalle colline alla pianura di Salisbury dove Stonehenge è stata costruita .
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	SpacesAfter= 
+2	altro	altro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpacesAfter= 
+3	argomento	argomento	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	SpacesAfter= 
+4	a	a	ADP	E	_	5	case	_	SpacesAfter= 
+5	discapito	discapito	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpacesAfter= 
+6-7	della	_	_	_	_	_	_	_	SpacesAfter= 
+6	di	di	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	SpacesAfter= 
+9	teoria	teoria	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpacesAfter= 
+10	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter= 
+11	che	che	SCONJ	CS	_	14	mark	_	SpacesAfter= 
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	SpacesAfter= 
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	SpacesAfter= 
+14	conosciuto	conoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	ccomp	_	SpacesAfter= 
+15	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	16	det	_	SpacesAfter= 
+16	corso	corso	NOUN	S	Gender=Masc|Number=Sing	14	nsubj:pass	_	SpacesAfter= 
+17	abbastanza	abbastanza	ADV	B	_	18	advmod	_	SpacesAfter= 
+18	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	SpacesAfter= 
+19	di	di	ADP	E	_	21	case	_	SpacesAfter= 
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	SpacesAfter= 
+21	ghiacciaio	ghiacciaio	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpacesAfter= 
+22	che	che	PRON	PR	PronType=Rel	28	nsubj	_	SpacesAfter= 
+23-24	all'	_	_	_	_	_	_	_	SpacesAfter= 
+23	a	a	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	SpacesAfter= 
+26	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	SpacesAfter= 
+27	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	aux	_	SpacesAfter= 
+28	trasportare	trasportare	VERB	V	VerbForm=Inf	21	acl:relcl	_	SpacesAfter= 
+29-30	delle	_	_	_	_	_	_	_	SpacesAfter= 
+29	di	di	ADP	E	_	31	case	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	pietre	pietra	NOUN	S	Gender=Fem|Number=Plur	28	obl	_	SpacesAfter= 
+32-33	dalle	_	_	_	_	_	_	_	SpacesAfter= 
+32	da	da	ADP	E	_	34	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	colline	collina	NOUN	S	Gender=Fem|Number=Plur	28	obl	_	SpacesAfter= 
+35-36	alla	_	_	_	_	_	_	_	SpacesAfter= 
+35	a	a	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	pianura	pianura	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	SpacesAfter= 
+38	di	di	ADP	E	_	39	case	_	SpacesAfter= 
+39	Salisbury	Salisbury	PROPN	SP	_	37	nmod	_	SpacesAfter= 
+40	dove	dove	ADV	B	_	44	advmod	_	SpacesAfter= 
+41	Stonehenge	Stonehenge	PROPN	SP	_	44	nsubj:pass	_	SpacesAfter= 
+42	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	SpacesAfter= 
+43	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	44	aux:pass	_	SpacesAfter= 
+44	costruita	costruire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	37	acl:relcl	_	SpacesAfter= 
+45	.	.	PUNCT	FS	_	10	punct	_	SpaceAfter=No
+
+

@@ -1,0 +1,2 @@
+# source = https://luce-gas.it/guida/contatore/salta-la-corrente
+# text = saltare la corrente   

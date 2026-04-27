@@ -1,0 +1,34 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = "Il nuovo De Mauro", Dizionario de l'Internazionale.
+# sent_id = 1
+# text = Per il suo matrimonio, Claudia ha organizzato un pranzo a buffet:
+1	Per	per	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	Claudia	Claudia	PROPN	SP	_	8	nsubj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	organizzato	organizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	buffet	buffet	NOUN	S	Gender=Masc	10	nmod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	8	punct	_	SpacesAfter= 
+
+# source = "Il nuovo De Mauro", Dizionario de l'Internazionale.
+# sent_id = 2
+# text = ho bevuto e mangiato a più non posso.
+1	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	bevuto	bere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpacesAfter= 
+3	e	e	CCONJ	CC	_	4	cc	_	SpacesAfter= 
+4	mangiato	mangiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	SpacesAfter= 
+5	a	a	ADP	E	_	6	case	_	_
+6	più	più	ADV	B	_	4	advmod	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	posso	potere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+

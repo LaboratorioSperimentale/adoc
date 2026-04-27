@@ -1,0 +1,22 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=22292401&End=22292401 
+# sent_id = 1
+# text = Dal fuoristrada, in men che non si dica scesero quattro ragazzi
+1-2	Dal	_	_	_	_	_	_	_	_
+1	Da	da	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	fuoristrada	fuoristrada	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	men	meno	ADV	B	_	11	advmod	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+10	dica	dire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+11	scesero	scendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	quattro	quattro	NUM	N	NumType=Card	13	nummod	_	_
+13	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	SpaceAfter=No
+
+

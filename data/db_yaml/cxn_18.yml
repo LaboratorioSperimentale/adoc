@@ -1,0 +1,78 @@
+cxn-id: |
+  18
+
+name: |
+  Prepx + Avv/Sostx + Prepy+ Avv/Sosty
+
+cxn-machine-readable-formalization: |
+  cxn_18.conllc
+
+form: |
+	-  Prepx + Avv/Sostx + Prepy+ Avv/Sosty
+	-  Nella costruzione l'ordine dei costituenti non puo' essere
+  modificato salvo casi in cui la
+  preposizione/avverbio/sostantivo è ripetuta/o, es: a mano a
+  mano; a poco a poco ma non di tanto in tanto.
+
+function: |
+	-  Il costrutto indica la modalità o il tempo di svolgimento di
+  un'azione
+	-
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-  La costruzione prevede l'alternanza di una preposizione e di
+  un avverbio/sostantivo, che possono o meno variare nella
+  forma, es. a faccia a faccia (mancanza di variazione durante
+  la ripetizione della preposizione e del sostantivo); di
+  tanto in tanto (variazione della preposizione, ma non
+  dell'avverbio); di male in peggio (variazione della
+  preposizione e dell'avverbio)
+
+usage: |
+
+formal-tags: 
+	- repetition
+
+functional-tags: 
+	- action >> cc:inf:active-referent
+	- time >> cc:sem:time
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_18_example_1.txt
+	- cxn_18_example_2.txt
+	- cxn_18_example_3.txt
+	- cxn_18_example_4.txt
+	- cxn_18_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Nunziatina Petrelli
+

@@ -1,0 +1,76 @@
+cxn-id: |
+  17
+
+name: |
+  Adv1 Conj Adv2 prima o poi
+
+cxn-machine-readable-formalization: |
+  cxn_17.conllc
+
+form: |
+	-  Adv1 Conj Adv2 prima o poi
+	-  La costruzione non può essere modificata, né nell'ordine
+  delle parti né dall'aggiunta di altri elementi all'interno
+  dell'espressione.
+
+function: |
+	-  Funzione temporale. Inserisce l'evento in un arco temporale
+  non definito.
+	-
+	-  Parzialmente deducibile dalle parti della costruzione.
+  Sia prima sia poi sono avverbi di tempo che sono uniti da
+  una congiuzione disgiuntiva.
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+
+formal-tags: 
+	- complex-adverb
+
+functional-tags: 
+	- vagueness
+	- indefinitezza
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  lexically filled
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_17_example_1.txt
+	- cxn_17_example_2.txt
+	- cxn_17_example_3.txt
+	- cxn_17_example_4.txt
+	- cxn_17_example_5.txt
+
+note: |
+	-  Nella consultazione del corpus CORIS ho notato che la
+  costruzione si ripete spesso con verbi del tipo "sarebbe",
+  "avrebbe", "dovrà", "arriverà" che rafforzano il grado di
+  incertezza già intrinseco dell'espressione.
+	-  USAGE:
+
+references: |
+
+collector: |
+  Gina Saviano
+

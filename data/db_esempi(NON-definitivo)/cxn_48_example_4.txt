@@ -1,0 +1,2 @@
+# source = CorpusPaisà (corpusitaliano.it)
+# text = Ciao, sono Marìca, ho un amore spasmodico per i libri, e il rapporto spesso conflittuale con la lettura e la scrittura mi hanno spinto a fare sempre più uso dei dizionari e delle enciclopedie.

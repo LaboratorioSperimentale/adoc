@@ -1,0 +1,2 @@
+# source = Frase venutami in mente.
+# text = Giovanni è un ragazzo molto vivace, ma all'Accademia Militare deve stare con due piedi in una scarpa.

@@ -1,0 +1,2 @@
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=149376816&End=149376819
+# text = Un' amicizia che a poco a poco diventa fratellanza espansa, in una Gerusalemme di contrasti laceranti, di agguati a colpi di sassi e di proiettili.

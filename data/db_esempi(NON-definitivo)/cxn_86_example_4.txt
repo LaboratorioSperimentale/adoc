@@ -1,0 +1,2 @@
+# source = https://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=123144192&End=123144195 
+# text = si è fermato a chiacchierare

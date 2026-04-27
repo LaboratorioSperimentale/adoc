@@ -1,0 +1,104 @@
+cxn-id: |
+  172
+
+name: |
+  trovare N (Avv) Agg
+
+cxn-machine-readable-formalization: |
+  cxn_172.conllc
+
+form: |
+	-  trovare N (Avv) Agg Schema generale: [Soggetto] + [trovare]
+  + [Complemento oggetto] + [Aggettivo] Ad es.: (Io) trovo il
+  libro interessante.
+	-
+
+function: |
+	-  La costruzione serve a esprimere una valutazione soggettiva
+  del parlante nei confronti del complemento oggetto. Il verbo
+  trovare assume una funzione semantica di "percepire come" o
+  "ritenere" (non “rinvenire”), indicando una valutazione
+  personale. Ad es.: Trovo il film interessante → indica il
+  punto di vista del parlante, non un fatto oggettivo.
+  L’aggettivo non descrive l’oggetto in modo intrinseco, ma
+  piuttosto come lo percepisce il parlante. Il significato
+  della frase è modulato dal contesto e dalla prospettiva di
+  chi parla.
+	-  Nelle costruzioni come " trovare N (Avv) Agg” il verbo
+  trovare ha una funzione copulativa o semi-copulativa, simile
+  a quella di essere o considerare. Tali costruzioni,
+  tendenzialmente, esprimono un giudizio soggettivo o
+  un'opinione.
+	-
+
+restrictions: |
+	-  Il verbo trovare in questa costruzione assume un significato
+  specifico di "valutare" o "percepire come", e quindi non può
+  essere usato per descrivere azioni fisiche o concrete legate
+  al suo significato letterale di "scoprire" o "rinvenire".
+  L'aggettivo deve essere valutativo o esprimere una qualità
+  percepita soggettivamente. Cfr. i seguenti esempi: Trovo il
+  vestito elegante (valutazione soggettiva). Trovo il vestito
+  rosso (dato oggettivo). Obbligatorietà del complemento
+  predicativo:  La costruzione richiede l’aggiunta
+  dell’aggettivo (o di un altro elemento predicativo, come un
+  participio passato o un sintagma nominale). Senza il
+  complemento predicativo, la frase risulta incompleta. Cfr.:
+  Trovo questa idea utile. Trovo questa idea. (incompleto
+  senza giudizio).
+	-
+
+coll-preferences: |
+	-  Gli aggettivi usati in questa costruzione esprimono
+  frequentemente giudizi di valore, impressioni o qualità
+  soggettive.
+	-
+
+usage: |
+  Standard
+
+formal-tags: 
+	- Transitive-Clause
+	- Predicate-Adjective-Construction
+
+functional-tags: 
+	- Attribution-of-Property
+	- Opinion-Expression
+	- Judgment-Statement
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Not applicable
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_172_example_1.txt
+	- cxn_172_example_2.txt
+	- cxn_172_example_3.txt
+	- cxn_172_example_4.txt
+	- cxn_172_example_5.txt
+
+note: |
+	-  Si può individuare anche una sottocostruzione come: trovare
+  Agg che Complement Clause. L'aggettivo non qualifica un
+  oggetto diretto, ma introduce una valutazione riguardo al
+  contenuto di una frase subordinata completiva.
+	-  USAGE:
+
+references: |
+
+collector: |
+  Alicja Maria Gniadek
+

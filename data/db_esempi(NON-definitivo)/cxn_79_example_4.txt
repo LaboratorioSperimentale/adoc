@@ -1,0 +1,2 @@
+# source = Glosbe dizionario online
+# text = Dato che sei al corrente del mio segreto, non serve a niente menare il can per l'aia.

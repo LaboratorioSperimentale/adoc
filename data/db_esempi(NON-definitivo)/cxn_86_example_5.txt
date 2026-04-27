@@ -1,0 +1,2 @@
+# source = https://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=80159752&End=80159753 
+# text = E tutti sono andati a preparare la partenza

@@ -1,0 +1,76 @@
+cxn-id: |
+  178
+
+name: |
+  Meglio X che Y
+
+cxn-machine-readable-formalization: |
+  cxn_178.conllc
+
+form: |
+	-  "meglio": avverbio invariabile "Che":  congiunzione
+  comparativa che introduce il termine di paragone  X e Y
+  possono essere verbi, aggettivi, sostantivi o intere
+  proposizioni. 
+	-
+
+function: |
+	-  SEMANTICA indica preferenza relativa tra due opzioni di cui
+  la prima sembra piu' accettabile.  DISCORSIVA per
+  contrapporre idee, situazioni, opinioni. 
+	-  Una costruzione che esprime una preferenza relativa tra due
+  situazioni, oggetti o azioni, dove la prima opzione X e'
+  considerata piu' accettabile della seconda Y. E' usata per
+  confronti, consigli, espressioni di giudizio personale.
+	-
+
+restrictions: |
+	-  X e Y devono essere comparabili (es. *"meglio un maglione
+  che correre") 
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Informal
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	- opposition
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_178_example_1.txt
+	- cxn_178_example_2.txt
+	- cxn_178_example_3.txt
+	- cxn_178_example_4.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Ana Andros
+

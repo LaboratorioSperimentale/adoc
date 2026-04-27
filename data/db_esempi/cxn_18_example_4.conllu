@@ -1,0 +1,34 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=82562945&End=82562948
+# sent_id = 1
+# text = Per la prima volta dopo tanto tempo, pensò, si trovava a faccia a faccia con una donna che non desiderava niente da lui .
+1	Per	per	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	volta	volta	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+5	dopo	dopo	ADP	E	_	7	case	_	_
+6	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+7	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	pensò	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	donna	donna	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+22	desiderava	desiderare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	acl:relcl	_	_
+23	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	22	obj	_	_
+24	da	da	ADP	E	_	25	case	_	_
+25	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obl	_	_
+26	.	.	PUNCT	FS	_	12	punct	_	SpaceAfter=No
+
+

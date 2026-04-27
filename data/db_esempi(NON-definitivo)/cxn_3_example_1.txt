@@ -1,0 +1,2 @@
+# source = Italiano regionale
+# text = Si sono detti peste e corna 

@@ -1,0 +1,6 @@
+# cxn_id = 148 
+# name = VV compounds 
+# function = [ACTION] [ACTION PERFORMED BY SEVERAL PEOPLE] 
+# horizontal_links =  
+# vertical_links = 146 
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

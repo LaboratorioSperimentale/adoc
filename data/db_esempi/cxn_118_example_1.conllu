@@ -1,0 +1,19 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itTenTen20
+# sent_id = 1
+# text = sport ne faccio, bere bevo, sono pure magra.
+1	sport	sport	NOUN	S	Gender=Masc	3	nsubj	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	bere	bere	VERB	V	VerbForm=Inf	3	conj	_	_
+6	bevo	bevo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	pure	pure	ADV	B	_	10	advmod	_	_
+10	magra	magro	ADJ	A	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+

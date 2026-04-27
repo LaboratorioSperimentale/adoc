@@ -9,14 +9,14 @@ import argparse
 def parse_args():
     parser = argparse.ArgumentParser(description="Export construction database CSV to YAML and CoNLL-C files.")
     parser.add_argument("input_csv", help="Input CSV file (e.g. export.csv)")
-    parser.add_argument("--cc-database", default="cc-database.yaml", metavar="FILE",
+    parser.add_argument("--cc-database", default="cc-database/cc-database.yaml", metavar="FILE",
                         help="Comparative concepts database YAML file (default: cc-database.yaml)")
-    parser.add_argument("--yml-out", default="cxn_yml", metavar="DIR",
-                        help="Output folder for YAML files (default: cxn_yml)")
-    parser.add_argument("--conllc-out", default="cxn_conllc", metavar="DIR",
-                        help="Output folder for CoNLL-C files (default: cxn_conllc)")
-    parser.add_argument("--examples-out", default="cxn_examples_unparsed", metavar="DIR",
-                        help="Output folder for unparsed example TXT files (default: cxn_examples_unparsed)")
+    parser.add_argument("--yml-out", default="data/db_yaml", metavar="DIR",
+                        help="Output folder for YAML files (default: db_yaml)")
+    parser.add_argument("--conllc-out", default="data/db_conllc(NON-definitivo)", metavar="DIR",
+                        help="Output folder for CoNLL-C files (default: db_conllc(NON-definitivo))")
+    parser.add_argument("--examples-out", default="data/db_esempi(NON-definitivo)", metavar="DIR",
+                        help="Output folder for unparsed example TXT files (default: db_esempi(NON-definitivo))")
     return parser.parse_args()
 
 
@@ -65,8 +65,8 @@ def write_conllc(row, conllcfolderout):
         "cxn_id": cxn_id,
         "name": name,
         "function": row["Function"].replace("\n", " "),
-        "horizontal_links": "",
-        "vertical_links": "",
+        "horizontal_links": row["Horizontal links"].replace("\n", " "),
+        "vertical_links": row["Vertical links"].replace("\n", " "),
         "fields": "ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY",
     }
 
@@ -105,6 +105,15 @@ def write_yaml(yaml_template, ymlfolderout):
             if key in ["examples", "formal-tags", "functional-tags"]:
                 value = "\n\t".join(f"- {item}" for item in value)
                 f.write(f"{key}: \n\t{value}\n")
+            elif key in ["form", "function", "restrictions", "coll-preferences", "complexity-level-tags", "category-tags", "note"]:
+                f.write(f"{key}: |\n")
+                for element in value:
+                    f.write(f"\t-")
+                    if element == "":
+                        f.write("\n")
+                    wrapped = textwrap.wrap(str(element), width=width)
+                    for line in wrapped:
+                        f.write(f"  {line}\n")
             else:
                 wrapped = textwrap.wrap(str(value), width=width)
                 f.write(f"{key}: |\n")
@@ -124,24 +133,23 @@ def process_row(row, map_formal, map_functional, ymlfolderout, conllcfolderout, 
         "cxn-id": cxn_id,
         "name": name,
         "cxn-machine-readable-formalization": conllc_filename,
-        "form": row["Form"].replace("\n", " "),
-        "definition": row["Function"].replace("\n", " "),
-        "restrictions": "",
-        "coll-preferences": "",
-        "usage": "",
+        "form": [row["Form"].replace("\n", " "), row["Explain 2"].replace("\n", " ")],
+        "function": [row["Function"].replace("\n", " "), row["Definition"].replace("\n", " "), row["Explain 1"].replace("\n", " ")],
+        "restrictions": [row["Restrictions"].replace("\n", " "), row["Explain 3"].replace("\n", " ")],
+        "coll-preferences": [row["Collocational preferences"].replace("\n", " "), row["Explain 4"].replace("\n", " ")],
+        "usage": row["Usage"].replace("\n", " "),
         "formal-tags": match_tags(row["Formal Tags"], map_formal),
         "functional-tags": match_tags(row["Functional Tags"], map_functional),
-        "complexity-level-tags": "",
-        "category-tags": "",
+        "complexity-level-tags": [row["Complexity level tags"].replace("\n", " "), row["Complexity level"].replace("\n", " ")],
+        "category-tags": [row["Category tags"].replace("\n", " "), row["Category"].replace("\n", " ")],
         "schematicity-level": row["Schematicity Level"].replace("\n", " "),
         "cefr-level": "",
-        "horizontal-links": "",
-        "vertical-links": "",
+        "horizontal-links": row["Horizontal links"].replace("\n", " "),
+        "vertical-links": row["Vertical links"].replace("\n", " "),
         "examples": example_files,
-        "note": row["Notes"].replace("\n", " "),
+        "note": [row["Notes"].replace("\n", " "), f"USAGE: {row["Explain 5"].replace("\n", " ")}"],
         "references": "",
         "collector": row["Data Collector"].replace("\n", " "),
-        # "to-be-kept": row["Francesca"].replace("\n", " "),
     }
 
     write_yaml(yaml_template, ymlfolderout)

@@ -1,0 +1,2 @@
+# source = http://corpora.ficlit.unibo.it/CODIS/Context.php?Start=152949111&End=152949112
+# text = « Tu però hai passato un sacco di tempo in ospedale , naturalmente » , disse . 

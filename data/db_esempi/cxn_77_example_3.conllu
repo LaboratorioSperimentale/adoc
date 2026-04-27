@@ -1,0 +1,37 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: KIP
+# sent_id = 1
+# text = sul materiale didattico // un file pi di effe che ho scritto a mano stamani // ci sono sedici pagine // con la dimostrazione
+1-2	sul	_	_	_	_	_	_	_	SpacesBefore=\s\s\s
+1	su	su	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	materiale	materiale	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+4	didattico	didattico	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	/	/	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+6	/	/	PUNCT	FF	_	3	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	file	file	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+9	pi	pi	ADV	B	_	8	amod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	effe	effe	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	_
+12	che	che	PRON	PR	PronType=Rel	14	obj	_	_
+13	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	SpacesAfter=\s 
+15	a	a	ADP	E	_	16	case	_	_
+16	mano	mano	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpacesAfter=\s 
+17	stamani	stamani	ADV	B	_	14	advmod	_	_
+18	/	/	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+19	/	/	PUNCT	FF	_	8	punct	_	_
+20	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	21	expl	_	_
+21	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	sedici	sedici	NUM	N	NumType=Card	23	nummod	_	_
+23	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	21	nsubj	_	_
+24	/	/	PUNCT	FF	_	28	punct	_	SpaceAfter=No
+25	/	/	PUNCT	FF	_	28	punct	_	_
+26	con	con	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	dimostrazione	dimostrazione	NOUN	S	Gender=Fem|Number=Sing	23	conj	_	SpacesAfter=\s\s\s
+
+

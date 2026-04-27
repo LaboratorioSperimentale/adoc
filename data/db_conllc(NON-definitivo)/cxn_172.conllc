@@ -1,0 +1,6 @@
+# cxn_id = 172 
+# name = trovare N (Avv) Agg 
+# function = La costruzione serve a esprimere una valutazione soggettiva del parlante nei confronti del complemento oggetto. Il verbo trovare assume una funzione semantica di "percepire come" o "ritenere" (non “rinvenire”), indicando una valutazione personale. Ad es.: Trovo il film interessante → indica il punto di vista del parlante, non un fatto oggettivo. L’aggettivo non descrive l’oggetto in modo intrinseco, ma piuttosto come lo percepisce il parlante. Il significato della frase è modulato dal contesto e dalla prospettiva di chi parla. 
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

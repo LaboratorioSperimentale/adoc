@@ -1,0 +1,105 @@
+cxn-id: |
+  49
+
+name: |
+  Vessere + AVVluogo + che + V2
+
+cxn-machine-readable-formalization: |
+  cxn_49.conllc
+
+form: |
+	-  Vessere + AVVluogo + che + V2
+	-  Si tratta di una costruzione extragrammaticale per via della
+  presenza del che polivalente.
+
+function: |
+	-  trovarsi in un luogo (più o meno definito, reale o figurato,
+  indicato dall'AVVluogo) e compiere una determinata azione
+  continuativa (espressa da V2), registro informale
+	-
+	-  La semantica della costruzione è facilmente deducibile dalla
+  somma dei significati delle parti che la
+  compongono.Tuttavia, quando nella costruzione appare lì o
+  qui come AVVluogo il livello di idiomaticità è maggiore:
+  l'avverbio non denota un luogo reale, concreto, ma piuttosto
+  serve ad enfatizzare la duratività dell'azione (che può
+  essere ulteriormente enfatizzata tramite avverbi come ancora
+  o sempre).
+
+restrictions: |
+	-
+	-  La costruzione presenta in tutto quattro slots, di cui solo
+  uno è fisso (il terzo, occupato sempre dal che
+  polivalente).Il primo slot è occupato dal verbo essere, che
+  dev'essere necessariamente coniugato al tempo presente o
+  imperfetto dell'indicativo.Il secondo slot è occupato da un
+  avverbio di luogo (qui o lì).Il quarto slot è occupato da un
+  altro verbo, tendenzialmente che denota un'azione o un
+  processo (e non uno stato: *sono qui che abito; *sono qui
+  che ho i capelli lunghi), necessariamente coniugato allo
+  stesso modo, tempo, persona, numero e genere del verbo
+  essere. 
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+
+formal-tags: 
+	- adverb >> cc:cxn:support-verb
+	- che-polivalente
+	- extragrammatical
+	- formal-idiom
+	- lexically-open
+	- idiom-of-encoding
+	- without-pragmatic-point
+
+functional-tags: 
+	- aspect >> cc:sem:aspect
+	- action >> cc:inf:active-referent
+	- place >> cc:sem:place
+	- situation >> cc:sem:event
+	- durativity >> cc:sem:durativity
+	- imperfective-aspect
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_49_example_1.txt
+	- cxn_49_example_2.txt
+	- cxn_49_example_3.txt
+	- cxn_49_example_4.txt
+	- cxn_49_example_5.txt
+
+note: |
+	-  Possibile caratterizzazione a livello diatopico. Possibile
+  ambiguità di forma con la costruzione della frase scissa
+  (es. "è qui che non sa cosa fare" - ambiguità da sciogliere
+  in base al contesto o alla prosodia/intonazione). 
+	-  USAGE: La costruzione viene di solito preferita a forme
+  standard per enfatizzare la duratività dell'azione.Quando il
+  livello di idiomaticità è alto (con lì e qui) la costruzione
+  può essere ricondotta Ad esempio: "Sono ancora lì che
+  contano" > "Stanno ancora contando" 
+
+references: |
+
+collector: |
+  Greta Interlandi
+

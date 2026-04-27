@@ -1,0 +1,2 @@
+# source = Esempio inventato
+# text = Alla fine, non me ne fa niente di pulire il bagno.

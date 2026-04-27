@@ -1,0 +1,77 @@
+cxn-id: |
+  125
+
+name: |
+  Attenuazione dell'affermazione
+
+cxn-machine-readable-formalization: |
+  cxn_125.conllc
+
+form: |
+	-  quasi quasi + V
+	-
+
+function: |
+	-  Attenuazione / Probabilità tendente al positivo /
+  Affermazione attenuata / Reduplicazione
+	-  Esprime una probabilità tendente però già al positivo e
+  attenua, in un qualche modo, la certezza implicita nel
+  verbo: ad esempio se dico "quasi quasi vengo" molto
+  probabilmente alla fine compierò quell'azione e andrò in un
+  certo luogo; se dico "quasi quasi mi faccio una tisana"
+  probabilmente mi preparerò tale bevanda: in un certo senso,
+  quindi, sottende anche una volontà o una constatazione.
+	-
+
+restrictions: |
+	-  Necessaria la presenza, per esprimere tale significato,
+  della reduplicazione di "quasi".
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- reduplication
+	- verbi >> cc:cxn:verb
+
+functional-tags: 
+	- attenuazione
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  lexically filled
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_125_example_1.txt
+	- cxn_125_example_2.txt
+	- cxn_125_example_3.txt
+	- cxn_125_example_4.txt
+	- cxn_125_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Lea Quadrini
+

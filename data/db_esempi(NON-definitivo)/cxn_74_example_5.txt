@@ -1,0 +1,2 @@
+# source = Corpus: Italian Web 2020 (itTenTen20)
+# text = [...] e quindi stai veramente una merda quando sai che non è andata così.

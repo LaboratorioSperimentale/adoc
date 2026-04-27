@@ -1,0 +1,6 @@
+# cxn_id = 178 
+# name = Meglio X che Y 
+# function = SEMANTICA indica preferenza relativa tra due opzioni di cui la prima sembra piu' accettabile.  DISCORSIVA per contrapporre idee, situazioni, opinioni.  
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

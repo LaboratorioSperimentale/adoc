@@ -1,0 +1,2 @@
+# source = ItWac
+# text = Il blindato è stato distrutto dall' esplosione di un ordigno non identificato

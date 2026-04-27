@@ -1,0 +1,27 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = MONITOR
+# sent_id = 1
+# text = C ' è malumore tra i ragazzi , prima ritroveremo spazi adeguati , prima tornerà l ' armonia .
+1	C	c	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpacesBefore=\s
+2	'	'	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	malumore	malumore	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+5	tra	tra	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	prima	prima	ADV	B	_	10	advmod	_	_
+10	ritroveremo	ritrovare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	3	conj	_	_
+11	spazi	spazio	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+12	adeguati	adeguato	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	_
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	prima	prima	ADV	B	_	15	advmod	_	_
+15	tornerà	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	10	conj	_	_
+16	l	lo	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+17	'	'	PUNCT	RD	_	18	det	_	_
+18	armonia	armonia	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+19	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+

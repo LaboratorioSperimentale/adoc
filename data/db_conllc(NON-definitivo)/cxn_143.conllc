@@ -1,0 +1,6 @@
+# cxn_id = 143 
+# name = ADJ-per-ADJ reduplicazione discontinua 
+# function = Sottolinea il fatto che una situazione non sia più modificabile 
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

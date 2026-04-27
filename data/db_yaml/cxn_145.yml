@@ -1,0 +1,74 @@
+cxn-id: |
+  145
+
+name: |
+  NN subordinative compounds capo-X
+
+cxn-machine-readable-formalization: |
+  cxn_145.conllc
+
+form: |
+	-  [[capo] [x]Nβi]Nγj
+	-
+
+function: |
+	-  [HEAD of X]
+	-  Compounds indicating occupational titles or people in a
+  powerful position
+	-
+
+restrictions: |
+	-  [x]N is a place noun (e.g., capoufficio 'head of office') or
+  a noun indicating a human group (e.g., capofamiglia 'head of
+  the family')   The relation (R) between capo and [x]N is
+  subordinative
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- compounding >> cc:str:compounding
+	- morphology
+
+functional-tags: 
+	- agent-nouns
+	- occupational-nouns
+
+complexity-level-tags: |
+	-  Word
+	-
+
+category-tags: |
+	-  Noun
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+  70
+
+examples: 
+	- cxn_145_example_1.txt
+	- cxn_145_example_2.txt
+	- cxn_145_example_3.txt
+
+note: |
+	-  Plural is generally formed with internal inflection (see
+  example 2).
+	-  USAGE:
+
+references: |
+
+collector: |
+  Silvia Micheli
+

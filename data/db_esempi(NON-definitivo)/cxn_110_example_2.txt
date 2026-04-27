@@ -1,0 +1,2 @@
+# source = https://dizionari.corriere.it/dizionario_italiano/T/tanto.shtml
+# text = versa tanta acqua quanta ne assorbe la farina

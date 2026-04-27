@@ -1,0 +1,74 @@
+cxn-id: |
+  156
+
+name: |
+  PP|NPDAT toccare3.SG VINF
+
+cxn-machine-readable-formalization: |
+  cxn_156.conllc
+
+form: |
+	-  PP|NPDAT toccare3.SG VINF
+	-
+
+function: |
+	-  The [State of Affairs] obliges [Experiencer]PP|NP to
+  [Action]V
+	-  The [Speaker]Experiencer has to carry out an [Action]V
+  unwillingly. Such an obligation is the consequence of the
+  [State of Affairs].
+	-
+
+restrictions: |
+	-  NP is a dative clitic pronoun (mi, ti, gli, le, ci, vi)
+  toccare is conjugated in the 3rd person singular V is in the
+  infinitive form
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- impersonal-construction
+
+functional-tags: 
+	- deontic-modality >> cc:sem:deontic-modality
+	- necessity/obligation
+
+complexity-level-tags: |
+	-  Clause
+	-
+
+category-tags: |
+	-  Verb
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_156_example_1.txt
+	- cxn_156_example_2.txt
+	- cxn_156_example_3.txt
+	- cxn_156_example_4.txt
+	- cxn_156_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Beatrice Bernasconi
+

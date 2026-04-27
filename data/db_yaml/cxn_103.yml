@@ -1,0 +1,76 @@
+cxn-id: |
+  103
+
+name: |
+  a parte che as a discourse marker
+
+cxn-machine-readable-formalization: |
+  cxn_103.conllc
+
+form: |
+	-  a parte che X
+	-
+
+function: |
+	-  Discursive
+	-  A parte che introduces a new piece of information, taken-
+  for-granted and unquestionable, that the speaker wants to
+  add to the main information, usually expressing some kind of
+  evaluation (generally a negative one). The new information
+  can be: an argument supporting what expressed in the main
+  clause; a personal comment; an adjustment/correction of what
+  has been previously stated; something similar to a
+  concessive clause.
+	-
+
+restrictions: |
+	-  X: clause
+	-
+
+coll-preferences: |
+	-  X: containing some kind of evaluation
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- formal-idiom
+
+functional-tags: 
+	- insubordination
+	- idiom-with-pragmatic-point
+
+complexity-level-tags: |
+	-  Beyond clause
+	-
+
+category-tags: |
+	-  Discourse marker
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_103_example_1.txt
+	- cxn_103_example_2.txt
+	- cxn_103_example_3.txt
+	- cxn_103_example_4.txt
+	- cxn_103_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Elisabetta Manassero
+

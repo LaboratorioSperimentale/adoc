@@ -1,0 +1,72 @@
+cxn-id: |
+  149
+
+name: |
+  Cognate Object Construction Proper
+
+cxn-machine-readable-formalization: |
+  cxn_149.conllc
+
+form: |
+	-  N + V + Ncognate
+	-
+
+function: |
+	-  è costituita da un Agente (il soggetto), un predicato
+  verbale intransitivo (tipicamente inergativo), che viene
+  usato transitivamente con un oggetto diretto che è "cognato"
+  alla radice del verbo
+	-
+	-
+
+restrictions: |
+	-  l'oggetto deve essere condividere la stessa radice o lo
+  stesso significato del verbo.
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Infrequent
+
+formal-tags: 
+	- argument-structure-construction >> cc:cxn:clause
+
+functional-tags: 
+	- cognate-object
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_149_example_1.txt
+	- cxn_149_example_2.txt
+	- cxn_149_example_3.txt
+	- cxn_149_example_4.txt
+	- cxn_149_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Lucia Busso
+

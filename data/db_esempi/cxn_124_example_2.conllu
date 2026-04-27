@@ -1,0 +1,56 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = MONITOR 2005-07
+# sent_id = 1
+# text = Consisteva nel fingere , di_fronte_all ' avversario , di non avere munizioni , di essere in balìa di lui e della clemenza della corte , di_modo_che l ' altro , avvertendo di , fosse portato a esaurire di botto i propri argomenti
+1	Consisteva	consistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2-3	nel	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	fingere	fingere	VERB	V	VerbForm=Inf	1	obl	_	_
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	di_fronte_all	di_fronte_all	ADJ	A	_	4	advmod	_	_
+7	'	'	PUNCT	FB	_	8	punct	_	_
+8	avversario	avversario	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	di	di	ADP	E	_	12	mark	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	avere	avere	VERB	V	VerbForm=Inf	4	conj	_	_
+13	munizioni	munizione	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	di	di	ADP	E	_	18	mark	_	_
+16	essere	essere	AUX	VA	VerbForm=Inf	18	cop	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	balìa	balìa	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nmod	_	_
+21	e	e	CCONJ	CC	_	24	cc	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	clemenza	clemenza	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	corte	corte	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+28	,	,	PUNCT	FF	_	1	punct	_	_
+29	di_modo_che	di_modo_che	SCONJ	CS	_	38	mark	_	_
+30	l	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+31	'	'	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+32	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	38	nsubj	_	_
+33	,	,	PUNCT	FF	_	32	punct	_	_
+34	avvertendo	avvertire	VERB	V	VerbForm=Ger	38	advcl	_	_
+35	di	di	ADP	E	_	34	mark	_	_
+36	,	,	PUNCT	FF	_	34	punct	_	_
+37	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	aux	_	_
+38	portato	portare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+39	a	a	ADP	E	_	40	mark	_	_
+40	esaurire	esaurire	VERB	V	VerbForm=Inf	38	xcomp	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	botto	botto	NOUN	S	Gender=Masc|Number=Sing	40	obl	_	_
+43	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	45	det	_	_
+44	propri	proprio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	45	det:poss	_	_
+45	argomenti	argomento	NOUN	S	Gender=Masc|Number=Plur	40	obj	_	SpacesAfter= 
+
+

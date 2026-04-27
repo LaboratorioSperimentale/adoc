@@ -1,0 +1,70 @@
+cxn-id: |
+  104
+
+name: |
+  Fare a meno di
+
+cxn-machine-readable-formalization: |
+  cxn_104.conllc
+
+form: |
+	-  fare a meno di DET+ N / Vinfinitive
+	-
+
+function: |
+	-  rinunciare a [fare] qualcosa / a qualcuno o qualcosa (to
+  give up on something/someone) 
+	-  Multiword expression with the meaning of giving up on doing
+  something/ on something/on someone. it constitutes of the
+  light verb plus the multiword expression. 
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- complex-predicates >> cc:cxn:complex-predicate
+	- light-verbs >> cc:cxn:support-verb
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  lexically filled
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_104_example_1.txt
+	- cxn_104_example_2.txt
+	- cxn_104_example_3.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Marica Belmonte
+

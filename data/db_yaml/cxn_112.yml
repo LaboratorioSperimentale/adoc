@@ -1,0 +1,64 @@
+cxn-id: |
+  112
+
+name: |
+  alla rinfusa
+
+cxn-machine-readable-formalization: |
+  cxn_112.conllc
+
+form: |
+	-  prep + n 
+	-
+
+function: |
+	-  modalità
+	-  locuzione avverbiale che donota disordine 
+	-
+
+restrictions: |
+	-  verbi di azione. Es.  spargere, lanciare, mettere ..
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  lexically filled
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_112_example_1.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Chiara Acri
+

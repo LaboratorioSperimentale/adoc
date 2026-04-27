@@ -1,0 +1,2 @@
+# source = (corpus) CORIS :  http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=154151025&End=154151025
+# text = (A scanso di + Adj + N) Lo fece con la massima attenzione , a scanso di brutte figure.  

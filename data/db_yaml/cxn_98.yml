@@ -1,0 +1,64 @@
+cxn-id: |
+  98
+
+name: |
+  Paragone con "per quanto"
+
+cxn-machine-readable-formalization: |
+  cxn_98.conllc
+
+form: |
+	-  per quanto + ESSERE + aggettivo, per quanto + ESSERE +
+  aggettivo.
+	-
+
+function: |
+	-  Esprimere un paragone.
+	-  Esprime un paragone tra due qualità di un referente umano.
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Infrequent
+
+formal-tags: 
+	- repetition
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-  Clause
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  lexically filled
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_98_example_1.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+

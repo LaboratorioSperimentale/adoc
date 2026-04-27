@@ -1,0 +1,6 @@
+# cxn_id = 21 
+# name = V1 + prep + V2 andare a + V 
+# function = Mette in evidenza il V2, creando delle semantiche diverse: - Indica l'imminenza dell'evento espresso dal V2  - Indica lo stato in luogo di qualcosa (es. n°1) Il verbo andare è semanticamente vuoto. 
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

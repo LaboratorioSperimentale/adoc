@@ -1,0 +1,2 @@
+# source = ItWac
+# text = Arrivo a Genova in Piazza della Vittoria.

@@ -1,0 +1,26 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itTenTen20
+# sent_id = 1
+# text = Te lo chiedo, perchè dormire dormo , però, a parte i soliti due risvegli notturni...
+1	Te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	iobj	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	chiedo	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	perchè	perché	SCONJ	CS	_	6	mark	_	SpacesAfter= 
+6	dormire	dormire	VERB	V	VerbForm=Inf	7	advcl	_	_
+7	dormo	dormare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	SpacesAfter= 
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	però	però	ADV	B	_	7	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	parte	parte	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+14	soliti	solito	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+15	due	due	NUM	N	NumType=Card	16	nummod	_	_
+16	risvegli	risveglio	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+17	notturni..	notturni..	ADJ	A	_	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+

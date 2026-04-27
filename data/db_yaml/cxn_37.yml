@@ -1,0 +1,85 @@
+cxn-id: |
+  37
+
+name: |
+  Art. indet.+N1+ Prep. "di" semplice o articolata + N2
+
+cxn-machine-readable-formalization: |
+  cxn_37.conllc
+
+form: |
+	-  Art. indet.+N1+ Prep. "di" semplice o articolata + N2
+	-
+
+function: |
+	-  Modo di dire per esaltare le qualità, positive o negative,
+  di una persona, un luogo,  un oggetto. Possiamo trovare
+  questa costruzione sia nel registro informale che formale, a
+  seconda dell'espressione utilizzata.
+	-
+	-  Il significato dell'insieme non è deducibile da quello delle
+  singole parti. Bisogna anche guardare al contesto
+  comunicativo in cui si realizza questa costruzione, in modo
+  da capirne il significato e riuscire a decodificarlo.
+
+restrictions: |
+	-
+	-  Questa costruzione richiede sempre un articolo
+  indeterminativo che si accorda con N1. Vi sono diverse
+  restrizioni sui nomi che possono comparire nelle posizioni
+  di N1 e N2.  Esempio: Questo lavoro è una rottura di tempo
+  -> non ha alcun senso! Inoltre, non è possibile sostituire
+  la preposizione "di" (che può comparire come semplice o
+  articolata) con altre preposizioni.
+
+coll-preferences: |
+	-
+	-  Non è possibile cambiare l'ordine dei costituenti, in quanto
+  la costruzione non avrebbe più senso. Esempio1: Sei proprio
+  una rapa di testa!-> non ha senso!   
+
+usage: |
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_37_example_1.txt
+	- cxn_37_example_2.txt
+	- cxn_37_example_3.txt
+	- cxn_37_example_4.txt
+	- cxn_37_example_5.txt
+
+note: |
+	-
+	-  USAGE: Questa costruzione può essere utilizzata sia a
+  livello formale che informale e viene preferita nell'uso, in
+  quanto rende immediatamente l'idea di ciò che vogliamo
+  presentare e sottolineare, inerentemente le caratteristiche
+  di una persona, un luogo o un oggetto.
+
+references: |
+
+collector: |
+  Elena Pinzuti
+

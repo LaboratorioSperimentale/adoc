@@ -1,0 +1,71 @@
+cxn-id: |
+  150
+
+name: |
+  Caused Motion Construction
+
+cxn-machine-readable-formalization: |
+  cxn_150.conllc
+
+form: |
+	-  N + V + N + LocP
+	-
+
+function: |
+	-  l'Agente provoca direttamente lo spostamento del Tema da una
+  posizione A a una posizione B lungo un percorso specificato
+  dal sintagma locativo
+	-
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- argument-structure-construction >> cc:cxn:clause
+
+functional-tags: 
+	- Causative-construction---------(the-subject-causes-an-action-to-be-performed)
+	- caused-motion >> cc:sem:caused-motion
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  fully schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_150_example_1.txt
+	- cxn_150_example_2.txt
+	- cxn_150_example_3.txt
+	- cxn_150_example_4.txt
+	- cxn_150_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Lucia Busso
+

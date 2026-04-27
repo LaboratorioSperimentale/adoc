@@ -1,0 +1,2 @@
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=19735931&End=19735931
+# text = Il motivo sta nella diminuzione del numero di bambini , nell'emergere di nuove opzioni per prendersi cura dei bambini in modo nuovo , nel prolungamento del congedo genitoriale ( in Slovacchia ) ma anche nelle inasprite tariffe dei servizi

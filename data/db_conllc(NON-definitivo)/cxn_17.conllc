@@ -1,0 +1,6 @@
+# cxn_id = 17 
+# name = Adv1 Conj Adv2 prima o poi 
+# function = Funzione temporale. Inserisce l'evento in un arco temporale non definito. 
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

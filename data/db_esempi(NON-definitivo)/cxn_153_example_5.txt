@@ -1,0 +1,2 @@
+# source = ItWac
+# text = Poi un giorno andai a Venezia, alla Biennale

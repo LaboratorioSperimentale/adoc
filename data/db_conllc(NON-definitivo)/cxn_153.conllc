@@ -1,0 +1,6 @@
+# cxn_id = 153 
+# name = Intransitive Motion Construction 
+# function = La costruzione consiste in un Tema (soggetto) che si muove lungo un percorso verso un punto diverso dello spazio. A differenza della costruzione di moto causato, la causa esterna del movimento non fa parte dell'evento concettualizzato. 
+# horizontal_links = 150 
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

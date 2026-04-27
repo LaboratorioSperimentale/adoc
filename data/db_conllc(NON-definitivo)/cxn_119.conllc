@@ -1,0 +1,6 @@
+# cxn_id = 119 
+# name = Low version qualification 
+# function = QUALIFICATION of an external item Y through the reference to X 
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

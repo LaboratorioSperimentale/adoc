@@ -1,0 +1,2 @@
+# source = Corpus: Paisà (https://www.corpusitaliano.it/static/documents/sources/116/1166370)
+# text = La Type 91 del 1907 altro non era che una versione spider della Type 81, con la quale condivideva telaio e meccanica. La Type 91 era però una spider solo fino ad un certo punto: infatti, oltre ai due posti classici di una spider, ricopribili tramite una capote in tela, la Type 91 offriva addirittura altri 4 posti di fortuna, situati nella parte posteriore della vettura e sistemati su due file disposte schiena contro schiena.

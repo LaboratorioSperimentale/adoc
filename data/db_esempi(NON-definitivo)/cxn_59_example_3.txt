@@ -1,0 +1,2 @@
+# source = Web
+# text = Il sistema non dovrà cadere nelle mani di individui animati da interessi particolari.

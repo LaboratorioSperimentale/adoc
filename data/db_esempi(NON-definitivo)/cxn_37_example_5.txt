@@ -1,0 +1,2 @@
+# source = https://www.treccani.it/vocabolario/rapa1/
+# text = è una testa di rapa

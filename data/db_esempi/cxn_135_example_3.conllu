@@ -1,0 +1,64 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = corpus: itTenTen20
+# sent_id = 1
+# text = Senti il profumo di rosa e tiglio, il suo bisbiglio ma perché ti voglio io ancora non lo so.
+1	Senti	sentire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	profumo	profumo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	rosa	rosa	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	tiglio	tiglio	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	bisbiglio	bisbiglio	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+12	ma	ma	CCONJ	CC	_	20	cc	_	_
+13	perché	perché	SCONJ	CS	_	15	mark	_	_
+14	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	15	obj	_	_
+15	voglio	volere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+16	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+17	ancora	ancora	ADV	B	_	20	advmod	_	_
+18	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+19	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+20	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	_
+
+# source = corpus: itTenTen20
+# sent_id = 2
+# text = Emily, Emily Emily, ma che curiosità che ho , Emily.
+1	Emily	Emily	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Emily	Emily	PROPN	SP	_	1	appos	_	_
+4	Emily	Emily	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	ma	ma	CCONJ	CC	_	8	cc	_	_
+7	che	che	DET	DE	PronType=Exc	8	det	_	_
+8	curiosità	curiosità	NOUN	S	Gender=Fem	1	conj	_	_
+9	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+10	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	Emily	Emily	PROPN	SP	_	8	appos	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# source = corpus: itTenTen20
+# sent_id = 3
+# text = Una grande carrellata di profili femminili e una prova di grande capacità narrativa.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	grande	grande	ADJ	A	Number=Sing	3	amod	_	_
+3	carrellata	carrellata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	profili	profilo	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	femminili	femminile	ADJ	A	Number=Plur	5	amod	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	prova	prova	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	grande	grande	ADJ	A	Number=Sing	12	amod	_	_
+12	capacità	capacità	NOUN	S	Gender=Fem	9	nmod	_	_
+13	narrativa	narrativo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+

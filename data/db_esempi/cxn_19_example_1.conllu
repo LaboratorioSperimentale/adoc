@@ -1,0 +1,28 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = 1
+# text = Anzi , visto che ci sei , va ' a casa a far ammirare a tua madre la nuova pettinatura
+1	Anzi	anzi	ADV	B	_	8	advmod	_	_
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+6	sei	essere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	va	andare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	'	'	PUNCT	FB	_	8	punct	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	casa	casa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	far	fare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+14	ammirare	ammirare	VERB	V	VerbForm=Inf	13	ccomp	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	madre	madre	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+20	pettinatura	pettinatura	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+
+

@@ -1,0 +1,31 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Dalle risposte al form: https://docs.google.com/forms/d/1qCaY3q50Aoxaze0p0IAug1DG6d64yfSc5qVdbfXpkYI/edit?usp=sharing 
+# sent_id = 1
+# text = "Cosa hai cucinato già per pranzo?" (=mi hai detto cosa avresti cucinato ma in questo momento mi sfugge)
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	obj	_	_
+3	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	cucinato	cucinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	già	già	ADV	B	_	4	advmod	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	4	punct	_	_
+10	(	(	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+11	=mi	=mi	PRON	PE	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	parataxis	_	_
+14	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	16	obj	_	_
+15	avresti	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	cucinato	cucinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	ccomp	_	_
+17	ma	ma	CCONJ	CC	_	22	cc	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	20	det	_	_
+20	momento	momento	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+21	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	22	iobj	_	_
+22	sfugge	sfuggire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+
+

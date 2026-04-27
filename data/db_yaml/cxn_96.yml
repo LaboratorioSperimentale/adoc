@@ -1,0 +1,69 @@
+cxn-id: |
+  96
+
+name: |
+  a fagiolo construction
+
+cxn-machine-readable-formalization: |
+  cxn_96.conllc
+
+form: |
+	-  V a fagiolo 
+	-
+
+function: |
+	-  pragmatica
+	-  an unforeseen situation happens in an ideal moment; a person
+  arrives at the right time; an object  is in our hands just
+  when we need it
+	-
+
+restrictions: |
+	-  andare, cadere capitare, cascare a fagiolo
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- modality
+	- Preposition-a
+
+functional-tags: 
+	- intensification
+
+complexity-level-tags: |
+	-  Clause
+	-
+
+category-tags: |
+	-  Noun, Verb, Preposition
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_96_example_1.txt
+	- cxn_96_example_2.txt
+	- cxn_96_example_3.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Cecilia Scarabel
+

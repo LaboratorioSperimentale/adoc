@@ -1,0 +1,2 @@
+# source = SketchEngine
+# text = Figuramoci se è possibile installare una cosa come R-link che dà informazioni su tutta l'auto. A parte che secondo me un sistema touch-screen porta via l'attenzione alla guida.

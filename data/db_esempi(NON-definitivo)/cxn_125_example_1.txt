@@ -1,0 +1,2 @@
+# source = CORIS
+# text = quasi quasi vengo a pranzo con voi.

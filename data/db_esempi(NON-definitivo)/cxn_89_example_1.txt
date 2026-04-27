@@ -1,0 +1,2 @@
+# source = Reverso context dizionario online
+# text = Per la strada, non fa altro che parlare.

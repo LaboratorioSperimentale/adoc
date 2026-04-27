@@ -1,0 +1,76 @@
+cxn-id: |
+  32
+
+name: |
+  Adv/Pronint/Adjint+ V+ già  Adv/Pronint/Adjint+ V1+ che+V2+
+  già
+
+cxn-machine-readable-formalization: |
+  cxn_32.conllc
+
+form: |
+	-  Adv/Pronint/Adjint+ V+ già  Adv/Pronint/Adjint+ V1+ che+V2+
+  già
+	-
+
+function: |
+	-  costruzione che il parlante utilizza per riferirsi qualcosa
+  che già sa ma che vuole che l'interlocutore gli ricordi
+  perché in quel momento non gli sovviene
+	-
+	-  Anche se la domanda risulta comprensibile, il l'avverbio già
+  appare a chi ascolta fuori contesto e non è possibile
+  collegarlo immediatamente alla domanda.
+
+restrictions: |
+	-
+	-  già deve essere inserito appena dopo V1 o V2
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	- INTERROGATIVE
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_32_example_1.txt
+	- cxn_32_example_2.txt
+	- cxn_32_example_3.txt
+	- cxn_32_example_4.txt
+	- cxn_32_example_5.txt
+
+note: |
+	-
+	-  USAGE: Questa costruzione è utilizzata nella maggior parte
+  dei casi in contesti familiari e informali. Inoltre, sembra
+  essere diffusa solo a Nord (Piemonte ed Emilia Romagna
+  soprattutto) risultando molto insolita agli altri parlanti.
+
+references: |
+
+collector: |
+  Rita Caputo
+

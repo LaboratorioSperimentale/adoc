@@ -1,0 +1,80 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
+# sent_id = 1
+# text = Perdiamo sempre per colpa dell’arbitro?
+1	Perdiamo	perdere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sempre	sempre	ADV	B	_	1	advmod	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5-6	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	arbitro	arbitro	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	1	punct	_	_
+
+# source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
+# sent_id = 2
+# text = La prossima volta non c’è arbitro che tenga.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	volta	volta	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpacesAfter= 
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	arbitro	arbitro	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	tenga	tenere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter= 
+
+# source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
+# sent_id = 3
+# text = Vinceremo noi!
+1	Vinceremo	vincere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	1	nsubj	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	_
+
+# source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
+# sent_id = 4
+# text = Analogamente, anche in questa occorrenza la causa del precedente fallimento viene posta nel mezzo di questa costruzione e diventa ostacolo al raggiungimento dell'obiettivo (l'arbitro).
+1	Analogamente	analogamente	ADV	B	_	14	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	anche	anche	ADV	B	_	6	advmod	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	occorrenza	occorrenza	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	causa	causa	NOUN	S	Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	precedente	precedente	ADJ	A	Number=Sing	12	amod	_	_
+12	fallimento	fallimento	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	posta	porre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15-16	nel	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+20	costruzione	costruzione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
+23	ostacolo	ostacolo	NOUN	S	Gender=Masc|Number=Sing	22	xcomp	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	raggiungimento	raggiungimento	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+27-28	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+27	di	di	ADP	E	_	29	case	_	_
+28	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	_
+29	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+30	(	(	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
+32	arbitro	arbitro	NOUN	S	Gender=Masc|Number=Sing	29	appos	_	SpaceAfter=No
+33	)	)	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\s 
+
+

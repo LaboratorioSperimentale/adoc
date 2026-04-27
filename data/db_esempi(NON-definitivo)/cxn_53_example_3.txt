@@ -1,0 +1,2 @@
+# source = CORIS http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=27364326&End=27364328
+# text = " Su che cosa siete d ' accordo ? " . Su quasi niente , mi viene da rispondere .

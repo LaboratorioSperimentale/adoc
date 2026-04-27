@@ -1,0 +1,2 @@
+# source = Parlante nativo
+# text = Mangiamo un panino al volo e poi ripartiamo

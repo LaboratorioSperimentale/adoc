@@ -1,0 +1,55 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: itTenTen20
+# sent_id = 1
+# text = Molto, molto sangue!
+1	Molto	molto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	molto	molto	ADV	B	Gender=Masc|Number=Sing|PronType=Ind	4	advmod	_	_
+4	sangue	sangue	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	1	punct	_	_
+
+# source = Corpus: itTenTen20
+# sent_id = 2
+# text = Che dire poi dei personaggi...
+1	Che	che	PRON	PQ	PronType=Int	2	obj	_	_
+2	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+3	poi	poi	ADV	B	_	2	advmod	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	personaggi..	personaggi..	NOUN	S	_	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# source = Corpus: itTenTen20
+# sent_id = 3
+# text = Mario che non ha ancora imparato due parole in croce di inglese, che ormai serve per forza sennò non ti assumono da nessuna parte.
+1	Mario	mario	PROPN	SP	_	0	root	_	_
+2	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	ancora	ancora	ADV	B	_	6	advmod	_	_
+6	imparato	imparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+7	due	due	NUM	N	NumType=Card	8	nummod	_	_
+8	parole	parola	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	croce	croce	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	inglese	inglese	NOUN	S	Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	ormai	ormai	ADV	B	_	16	advmod	_	_
+16	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	forza	forza	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+19	sennò	sennò	SCONJ	CS	_	22	mark	_	_
+20	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+21	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	22	obj	_	_
+22	assumono	assumere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+23	da	da	ADP	E	_	25	case	_	_
+24	nessuna	nessuno	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	25	det	_	_
+25	parte	parte	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+

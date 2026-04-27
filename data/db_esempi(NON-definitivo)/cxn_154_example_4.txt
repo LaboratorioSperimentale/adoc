@@ -1,0 +1,2 @@
+# source = ItWac
+# text =  Le istruzioni spiegano di entrare uno alla volta  

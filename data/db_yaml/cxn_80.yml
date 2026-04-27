@@ -1,0 +1,72 @@
+cxn-id: |
+  80
+
+name: |
+  Homolexemic binominal adverbial construction #2
+
+cxn-machine-readable-formalization: |
+  cxn_80.conllc
+
+form: |
+	-  Ni Prep Ni
+	-
+
+function: |
+	-  Expression of a large quantity/set or a high degree of
+  something. Possible negative connotation of annoyance.
+	-  The construction says that there is "plenty" of something,
+  but sometimes the speakers feel this quantity too much.
+	-
+
+restrictions: |
+	-  Ni represents the same lexeme (a NOUN), before and after the
+  PREPOSITION. N is usually countable and concrete. N can be
+  singular or plural, the plural form tends to be prevalent.
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-  Word, Phrase
+	-
+
+category-tags: |
+	-  Noun, Preposition
+	-
+
+schematicity-level: |
+  fully schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_80_example_1.txt
+	- cxn_80_example_2.txt
+	- cxn_80_example_3.txt
+	- cxn_80_example_4.txt
+	- cxn_80_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Lara Cipelletti
+

@@ -1,0 +1,93 @@
+cxn-id: |
+  14
+
+name: |
+  bello/a come Det N
+
+cxn-machine-readable-formalization: |
+  cxn_14.conllc
+
+form: |
+	-  bello/a come Det N
+	-  la costruzione non presenta peculiarità sul piano sintattico
+
+function: |
+	-  generalmente questa costruzione, che si presenta come una
+  similitudine, viene usata al posto del superlativo assoluto
+  “bellissimo/a” (detto di una persona) in modo da accentuare
+  il complimento espresso 
+	-
+	-  il significato complessivo dell’espressione è predicibile
+  dalla somma dei significati delle parti costituenti. La
+  predicibilità va ricollegata al fatto che si tratta di una
+  similitudine, e come tale ritaglia un paragone tra due
+  entità accomunate da una qualche caratteristica. Nella
+  fattispecie, come si può notare dagli esempi raccolti, il
+  paragone avviene con il sole, un angelo e un dio, che per
+  definizione incarnano la bellezza suprema
+
+restrictions: |
+	-
+	-  come si può notare dagli esempi forniti, all’interno della
+  costruzione ci sono due slot strutturali fissi, ovvero
+  quello riempito dall’aggettivo qualificativo “bello”
+  (passibile di flessione) e quello riempito dalla
+  congiunzione “come” (per innestare la similitudine). Le
+  altre posizioni presentano una parziale flessibilità, in
+  quanto il Det può essere sia definito che indefinito e il N
+  può differire da contesto a contesto, anche se bisogna
+  sempre lasciarne invariata la semantica positiva. In altre
+  parole, non si può, per esempio, dire “bello come un morto”,
+  perché in quel caso staremmo di fronte a un altro tipo di
+  costruzione, con uno scopo diverso
+
+coll-preferences: |
+	-
+	-  la costruzione predilige i nomi che presentano una semantica
+  intrinsecamente positiva
+
+usage: |
+
+formal-tags: 
+	- similutide
+
+functional-tags: 
+	- intensification
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_14_example_1.txt
+	- cxn_14_example_2.txt
+	- cxn_14_example_3.txt
+
+note: |
+	-
+	-  USAGE: l'espressione è più frequente rispetto ad altre forme
+  altrettanto disponibili nel lessico mentale dei parlanti, ma
+  viene preferita per la sua maggiore efficacia comunicativa.
+  Inoltre, sebbene una espressione come "bello/a come una
+  stella" è altrettanto ben formata e comprensibile, non è
+  quella che viene effettivamente impiegata dai parlanti
+  italofoni
+
+references: |
+
+collector: |
+  Syria Imparato
+

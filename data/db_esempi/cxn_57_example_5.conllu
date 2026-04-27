@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus italiano Paisà https://www.corpusitaliano.it/static/documents/sources/780/7801691
+# sent_id = 1
+# text = Se proprio morite dalla voglia di provare qualcosa, resistete fino all'orario di chiusura, e concedetevi uno splendido pezzone di torta al bar (non mi ricordo come si chiama) che si trova all' ingresso (guardando l'uscita, sulla sinistra).
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	proprio	proprio	ADV	B	_	3	advmod	_	_
+3	morite	morire	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+4-5	dalla	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	provare	provare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	resistete	resistere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	fino	fino	ADV	B	ExtPos=ADP	15	case	_	_
+13-14	all'	_	_	_	_	_	_	_	SpaceAfter=No
+13	a	a	ADP	E	_	12	fixed	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	orario	orario	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	chiusura	chiusura	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	concedetevi	concedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	conj	_	_
+21	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	splendido	splendido	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+23	pezzone	pezzone	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	torta	torta	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+26-27	al	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	bar	bar	NOUN	S	Gender=Masc	20	obl	_	_
+29	(	(	PUNCT	FB	_	32	punct	_	SpaceAfter=No
+30	non	non	ADV	BN	PronType=Neg	32	advmod	_	_
+31	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	32	obj	_	_
+32	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	parataxis	_	_
+33	come	come	SCONJ	CS	_	35	mark	_	_
+34	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	35	expl	_	_
+35	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	ccomp	_	SpaceAfter=No
+36	)	)	PUNCT	FB	_	32	punct	_	_
+37	che	che	PRON	PR	PronType=Rel	39	nsubj	_	_
+38	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	39	expl	_	_
+39	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+40-41	all'	_	_	_	_	_	_	_	_
+40	a	a	ADP	E	_	42	case	_	_
+41	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	42	det	_	_
+42	ingresso	ingresso	NOUN	S	Gender=Masc|Number=Sing	39	obl	_	_
+43	(	(	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+44	guardando	guardare	VERB	V	VerbForm=Ger	39	advcl	_	_
+45	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	46	det	_	SpaceAfter=No
+46	uscita	uscita	NOUN	S	Gender=Fem|Number=Sing	44	obj	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	44	punct	_	_
+48-49	sulla	_	_	_	_	_	_	_	_
+48	su	su	ADP	E	_	50	case	_	_
+49	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	44	obl	_	SpaceAfter=No
+51	)	)	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	11	punct	_	SpaceAfter=No
+
+

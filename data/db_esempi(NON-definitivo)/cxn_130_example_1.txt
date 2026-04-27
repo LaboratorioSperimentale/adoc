@@ -1,0 +1,2 @@
+# source = Discorso orale informale
+# text = Io e lui ci portiamo tre anni. 

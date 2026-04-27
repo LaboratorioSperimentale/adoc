@@ -1,0 +1,2 @@
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=2960907&End=2960907
+# text = Possa Egli prendersi cura di noi in modo che insieme possiamo godere dei frutti delle sacre scritture

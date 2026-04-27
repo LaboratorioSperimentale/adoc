@@ -1,0 +1,6 @@
+# cxn_id = 35 
+# name = mettere su + N 
+# function = Il verbo mettere non è usato nella sua semantica di collocare qualcosa in un determinato posto, ma con il significato di allestire, formare, organizzare 
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

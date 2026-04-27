@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = corpus: itTenTen20
+# sent_id = 1
+# text = che tajo!
+1	che	che	DET	DQ	PronType=Int	2	det	_	_
+2	tajo	tajo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# source = corpus: itTenTen20
+# sent_id = 2
+# text = che figata, ragazzi!
+1	che	che	DET	DE	PronType=Exc	2	det	_	_
+2	figata	figata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	2	punct	_	_
+
+# source = corpus: itTenTen20
+# sent_id = 3
+# text = se avessi la play 2 me lo comprerei anche a 200 euro!
+1	se	se	SCONJ	CS	_	2	mark	_	_
+2	avessi	avere	VERB	V	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	advcl	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	play	play	NOUN	S	_	2	obj	_	_
+5	2	2	NUM	N	NumType=Card	4	nummod	_	_
+6	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	expl	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	comprerei	comprare	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	anche	anche	ADV	B	_	12	advmod	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	200	200	NUM	N	NumType=Card	12	nummod	_	_
+12	euro	euro	NOUN	S	Gender=Masc	8	obl	_	SpaceAfter=No
+13	!	!	PUNCT	FS	_	8	punct	_	_
+
+# source = corpus: itTenTen20
+# sent_id = 4
+# text = ma che forza!
+1	ma	ma	CCONJ	CC	_	3	cc	_	_
+2	che	che	DET	DQ	PronType=Int	3	det	_	_
+3	forza	forza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# source = corpus: itTenTen20
+# sent_id = 5
+# text = avete visto i neri del ghetto con la macchina con le sospensioni truccate?
+1	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	neri	nero	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ghetto	ghetto	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	sospensioni	sospensione	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+14	truccate	truccato	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+

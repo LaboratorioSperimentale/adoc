@@ -1,0 +1,2 @@
+# source = Corpus: CORIS
+# text = [...] Si va a gestire, in qualche modo, qualcosa che poi tocca [...] e che condiziona la vita.

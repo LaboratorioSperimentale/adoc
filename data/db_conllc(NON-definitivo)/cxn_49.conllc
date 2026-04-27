@@ -1,0 +1,6 @@
+# cxn_id = 49 
+# name = Vessere + AVVluogo + che + V2 
+# function = trovarsi in un luogo (più o meno definito, reale o figurato, indicato dall'AVVluogo) e compiere una determinata azione continuativa (espressa da V2), registro informale 
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

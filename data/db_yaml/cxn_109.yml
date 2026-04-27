@@ -1,0 +1,69 @@
+cxn-id: |
+  109
+
+name: |
+  a discapito construction
+
+cxn-machine-readable-formalization: |
+  cxn_109.conllc
+
+form: |
+	-  a discapito + Prep + N/Pron
+	-
+
+function: |
+	-  Semantic
+	-  Costruzione che indica una condizione di svantaggio o
+  contrasto nei confronti di qualcuno o qualcosa.  
+	-
+
+restrictions: |
+	-  Uso della preposizione semplice "di" oppure delle
+  preposizioni articolate "delle", "degli", "dello", "della",
+  "del", "dell'", "dei". 
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_109_example_1.txt
+	- cxn_109_example_2.txt
+	- cxn_109_example_3.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Alessandra Lombardi
+

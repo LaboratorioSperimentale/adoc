@@ -1,0 +1,83 @@
+cxn-id: |
+  7
+
+name: |
+  Pseudo-coordination
+
+cxn-machine-readable-formalization: |
+  cxn_7.conllc
+
+form: |
+	-  prendere e V
+	-
+
+function: |
+	-  (BEGIN TO) V {UNEXPECTEDLY | SUDDENLY | ABRUPTLY}
+	-  The function of the construction is not predictable from its
+  parts: it's not a true coordination of two events, but a
+  single complex predicate, where prendere (or its formal
+  variants) is a light verb that acquired a grammatical
+  meaning of inchoativity (abruptness) and mirativity that is
+  projected onto V. Possible negative connotation of
+  disappointment or annoyance. Informal register only. Formal
+  variants: prendere su e V, pigliare e V, pigliare su e V
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-  V = tendentially a motion verb, but other semantic verb
+  classes may take part in the construction (host expansion).
+	-
+
+usage: |
+  Infrequent
+
+formal-tags: 
+	- pseudocoordination
+	- complex-predicates >> cc:cxn:complex-predicate
+	- light-verbs >> cc:cxn:support-verb
+
+functional-tags: 
+	- aspect >> cc:sem:aspect
+	- inchoativity
+	- mirativity >> cc:sem:durativity
+
+complexity-level-tags: |
+	-  Phrase
+	-  Phrase
+
+category-tags: |
+	-  Verb
+	-  Verb
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_7_example_1.txt
+	- cxn_7_example_2.txt
+	- cxn_7_example_3.txt
+	- cxn_7_example_4.txt
+	- cxn_7_example_5.txt
+
+note: |
+	-  It's an emerging construction, currently in evolution. Its
+  use is not homogeneous among speakers: acceptance rates by
+  speakers are variable (it seems to be slightly more accepted
+  by speakers of non-Southern varieties).
+	-  USAGE:
+
+references: |
+
+collector: |
+  Francesca Masini
+

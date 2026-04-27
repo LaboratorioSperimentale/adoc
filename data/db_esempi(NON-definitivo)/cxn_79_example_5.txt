@@ -1,0 +1,2 @@
+# source = Glosbe dizionario online
+# text = Non ha senso menare il can per l'aia, o fingere che non stia succedendo quello che sta succedendo.

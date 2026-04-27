@@ -1,0 +1,32 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://it.glosbe.com/it/it/acqua%20in%20bocca
+# sent_id = 1
+# text = «Mi raccomando, Landsman, acqua in bocca» dice Cashdollar piano, facendo il gesto di sigillarsi le labbra.
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+3	raccomando	raccomandare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	Landsman	Landsman	PROPN	SP	_	3	vocative	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	»	»	PUNCT	FB	_	3	punct	_	_
+11	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+12	Cashdollar	Cashdollar	PROPN	SP	_	11	nsubj	_	_
+13	piano	piano	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	11	punct	_	_
+15	facendo	fare	VERB	V	VerbForm=Ger	11	advcl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19-20	sigillarsi	_	_	_	_	_	_	_	_
+19	sigillar	sigillare	VERB	V	VerbForm=Inf	17	acl	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	_
+21	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
+22	labbra	labbro	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+

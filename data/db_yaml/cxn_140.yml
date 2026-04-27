@@ -1,0 +1,70 @@
+cxn-id: |
+  140
+
+name: |
+  Piace/piacciono
+
+cxn-machine-readable-formalization: |
+  cxn_140.conllc
+
+form: |
+	-  Pronome personale complemento + piace/piacciono + qualcosa/
+  qualcuno o verbo all'infinito 
+	-
+
+function: |
+	-  Esprimere il concetto di preferenza di qualcosa/qualcuno o
+  di fare o non fare qualcosa. Può essere usata alla forma
+  affermativa, negativa e interrogativa.
+	-
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- grammatical-idiom
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-  Clause
+	-
+
+category-tags: |
+	-  Verb
+	-
+
+schematicity-level: |
+  fully schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_140_example_1.txt
+	- cxn_140_example_2.txt
+	- cxn_140_example_3.txt
+	- cxn_140_example_4.txt
+	- cxn_140_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+

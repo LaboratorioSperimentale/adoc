@@ -1,0 +1,2 @@
+# source = CORIS https://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=38950204&End=38950204
+# text = Promettimi che non rivelerai a nessuno quello che  per dirti , a_meno_che non sia io a darti il permesso .

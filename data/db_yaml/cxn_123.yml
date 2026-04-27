@@ -1,0 +1,73 @@
+cxn-id: |
+  123
+
+name: |
+  Costruzioni verbo + "ore" + aggettivo
+
+cxn-machine-readable-formalization: |
+  cxn_123.conllc
+
+form: |
+	-  V+ DET + "ore" + ADJ
+	-
+
+function: |
+	-  Qualificazione del sostantivo "ore" attraverso l'uso di un
+  verbo aggiunto all'applicazione di un ADJ esterno.
+	-  ADJ sfuma il significato di "ore", allargando il suo campo
+  semantico, in contesti e costruzioni specifiche. 
+	-
+
+restrictions: |
+	-  V  "fare" + "ore" + ADJ "piccole" V "avere" + "ore" + ADJ
+  "contate" In tutti gli altri casi non è applicabile. Non può
+  essere interrotto
+	-
+
+coll-preferences: |
+	-  ADJ di "ore" richiede necessariamente il tipo quantitativo. 
+  Spesso inserito come ultimo sintagma della frase, o, in casi
+  più rari come primo. 
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_123_example_1.txt
+	- cxn_123_example_2.txt
+	- cxn_123_example_3.txt
+	- cxn_123_example_4.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Chiara Mancuso
+

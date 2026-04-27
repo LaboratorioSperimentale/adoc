@@ -1,0 +1,2 @@
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=11680488&End=11680491
+# text = ...le cose potrebbero andare di male in peggio, meglio dunque provvedere all'istante.

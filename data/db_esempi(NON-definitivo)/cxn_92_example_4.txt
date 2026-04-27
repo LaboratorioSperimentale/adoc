@@ -1,0 +1,2 @@
+# source = Corpus: CORIS
+# text = Hai ragione, lo so. Una dice e ridice le stesse cose, senza accorgersene.

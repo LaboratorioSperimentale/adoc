@@ -1,0 +1,28 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: itTenTen16
+# sent_id = 1
+# text = Il commendatore […] riceveva, ringraziava, stringeva mani di qua, mani di là […]
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	commendatore	commendatore	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	[	[	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+4	…	…	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+5	]	]	PUNCT	FB	_	4	punct	_	_
+6	riceveva	ricevere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	ringraziava	ringraziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	stringeva	stringere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+11	mani	mano	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	qua	qua	ADV	B	_	11	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	mani	mano	NOUN	S	Gender=Fem|Number=Plur	11	conj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	là	là	ADV	B	_	15	advmod	_	_
+18	[	[	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+19	…	…	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+20	]	]	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+
+

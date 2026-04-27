@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=19735931&End=19735931
+# sent_id = 1
+# text = Il motivo sta nella diminuzione del numero di bambini , nell'emergere di nuove opzioni per prendersi cura dei bambini in modo nuovo , nel prolungamento del congedo genitoriale ( in Slovacchia ) ma anche nelle inasprite tariffe dei servizi
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	diminuzione	diminuzione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	numero	numero	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13-14	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	in	in	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	emergere	emergere	VERB	V	VerbForm=Inf	6	conj	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+18	opzioni	opzione	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20-21	prendersi	_	_	_	_	_	_	_	_
+20	prender	prendere	VERB	V	VerbForm=Inf	18	acl	_	_
+21	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	20	expl	_	_
+22	cura	cura	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23-24	dei	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	modo	modo	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+28	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+29	,	,	PUNCT	FF	_	32	punct	_	_
+30-31	nel	_	_	_	_	_	_	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	prolungamento	prolungamento	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+33-34	del	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	congedo	congedo	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+36	genitoriale	genitoriale	ADJ	A	Number=Sing	35	amod	_	_
+37	(	(	PUNCT	FB	_	39	punct	_	_
+38	in	in	ADP	E	_	39	case	_	_
+39	Slovacchia	Slovacchia	PROPN	SP	_	35	nmod	_	_
+40	)	)	PUNCT	FB	_	39	punct	_	_
+41	ma	ma	CCONJ	CC	_	46	cc	_	_
+42	anche	anche	ADV	B	_	46	advmod	_	_
+43-44	nelle	_	_	_	_	_	_	_	_
+43	in	in	ADP	E	_	46	case	_	_
+44	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	46	det	_	_
+45	inasprite	inasprito	ADJ	A	Gender=Fem|Number=Plur	46	amod	_	_
+46	tariffe	tariffa	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	_
+47-48	dei	_	_	_	_	_	_	_	_
+47	di	di	ADP	E	_	49	case	_	_
+48	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
+49	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	46	nmod	_	SpaceAfter=No
+
+

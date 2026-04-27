@@ -1,0 +1,43 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://www.corpusitaliano.it/static/documents/sources/108/1082566
+# sent_id = 1
+# text = dimenticare completamente a volte si seppellisce quella parte di se stessi così profondamente che ci si dimentica che invece è ancora lì, e a volte si vorrebbe semplicemente dimenticare completamente chi si è.
+1	dimenticare	dimenticare	VERB	V	VerbForm=Inf	6	csubj	_	_
+2	completamente	completamente	ADV	B	_	1	advmod	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	volte	volta	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:pass	_	_
+6	seppellisce	seppellire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	parte	parte	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	nmod	_	_
+11	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12	così	così	ADV	B	_	13	advmod	_	_
+13	profondamente	profondamente	ADV	B	_	6	advmod	_	_
+14	che	che	SCONJ	CS	_	17	mark	_	_
+15	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	17	expl	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl:impers	_	_
+17	dimentica	dimenticare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+18	che	che	SCONJ	CS	_	20	mark	_	_
+19	invece	invece	ADV	B	_	20	advmod	_	_
+20	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+21	ancora	ancora	ADV	B	_	22	advmod	_	_
+22	lì	lì	ADV	B	_	20	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	30	punct	_	_
+24	e	e	CCONJ	CC	_	30	cc	_	_
+25	a	a	ADP	E	_	26	case	_	_
+26	volte	volta	NOUN	S	Gender=Fem|Number=Plur	30	obl	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	30	expl:impers	_	_
+28	vorrebbe	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+29	semplicemente	semplicemente	ADV	B	_	30	advmod	_	_
+30	dimenticare	dimenticare	VERB	V	VerbForm=Inf	6	conj	_	_
+31	completamente	completamente	ADV	B	_	30	advmod	_	_
+32	chi	chi	PRON	PR	Number=Sing|PronType=Rel	30	obj	_	_
+33	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	34	expl	_	_
+34	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	SpaceAfter=No
+35	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\s 
+
+

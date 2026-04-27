@@ -1,0 +1,2 @@
+# source = http://193.205.158.203/metamotorelessico/MetamotoreLessico.html
+# text = Dare un colpo di telefono

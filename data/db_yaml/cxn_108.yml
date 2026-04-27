@@ -1,0 +1,80 @@
+cxn-id: |
+  108
+
+name: |
+  Far fare vs Lasciare fare
+
+cxn-machine-readable-formalization: |
+  cxn_108.conllc
+
+form: |
+	-  Fare + un infinito  Lasciare + un infinito 
+	-
+
+function: |
+	-  Semantica, Pragmatica.
+	-  La costruzione causativa ha due protagonisti: uno che
+  "provoca" l'azione e l'altro che "fa" l'azione.Un iniziatore
+  e un esecutore.  Nella frase "Mirco fa riposare la mamma"
+  Mirco è l'iniziatore e la mamma è l'esecutore.
+	-
+
+restrictions: |
+	-  I verbi fare e lasciare possono avere due diverse sfumature
+  di significato. Il soggetto del verbo causativo ordina,
+  impone, comanda oppure permette, concede, dà
+  un’autorizzazione. Il verbo fare, tuttavia, può avere
+  entrambe le sfumature di significato. 
+	-
+
+coll-preferences: |
+	-  far capire = persuadere; lasciare stare qualcuno = non
+  disturbarlo; lascia stare! = smetti di fare quello che stai
+  facendo; lasciamo stare! = non parliamone più; lasciare
+  perdere = non curarsi, non preoccuparsi di qualcosa. 
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- repetition
+	- unformal
+
+functional-tags: 
+	- action >> cc:inf:active-referent
+	- Causative-construction---------(the-subject-causes-an-action-to-be-performed)
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Verb
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_108_example_1.txt
+	- cxn_108_example_2.txt
+	- cxn_108_example_3.txt
+	- cxn_108_example_4.txt
+	- cxn_108_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Mar'yana Galak
+

@@ -1,0 +1,2 @@
+# source = ItWac
+# text = vorrei chiederti di chiarire a quali triangoli ti stai riferendo

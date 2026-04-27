@@ -1,0 +1,2 @@
+# source = ItWac
+# text = Il presidente della Rai ha detto di considerare le dimissioni (...) la soluzione migliore

@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: iTenTen20
+# sent_id = 1
+# text = Siamo all'ombra di una montagna di morti che non riusciamo a vederne la cima, conficcati come dannati in un lago ghiacciato e senza vita, e tu questo me lo chiami un lieto fine?
+1	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2-3	all'	_	_	_	_	_	_	_	SpaceAfter=No
+2	a	a	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	montagna	montagna	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	morti	morto	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	12	obj	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	riusciamo	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14-15	vederne	_	_	_	_	_	_	_	_
+14	veder	vedere	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	14	iobj	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	cima	cima	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	conficcati	conficcare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	conj	_	_
+20	come	come	ADV	CS	_	21	mark	_	_
+21	dannati	dannare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	advcl	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	lago	lago	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	ghiacciato	ghiacciato	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	senza	senza	ADP	E	_	28	case	_	_
+28	vita	vita	NOUN	S	Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	35	punct	_	_
+30	e	e	CCONJ	CC	_	35	cc	_	_
+31	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	35	nsubj	_	_
+32	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	35	nsubj	_	SpacesAfter= 
+33	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	35	expl	_	_
+34	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	obj	_	_
+35	chiami	chiamare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpacesAfter= 
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+37	lieto	lieto	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	_
+38	fine	fine	NOUN	S	Gender=Masc|Number=Sing	35	xcomp	_	SpaceAfter=No
+39	?	?	PUNCT	FS	_	4	punct	_	SpacesAfter= 
+
+# source = Corpus: iTenTen20
+# sent_id = 2
+# text = Mi dovrei accontentare?
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+2	dovrei	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	accontentare	accontentare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+

@@ -1,0 +1,2 @@
+# source = Corpus italiano Paisà https://www.corpusitaliano.it/static/documents/sources/770/7708169
+# text = Entrambi poi, sembrano morire dalla voglia di prendere a pretesto i divieti imposti in un altro stato per introdurre ulteriori proibizioni nel proprio.

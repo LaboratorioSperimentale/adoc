@@ -1,0 +1,84 @@
+cxn-id: |
+  41
+
+name: |
+  Frase reggente + tanto vale + fraseEspl (che+ind/cong)/Impl
+  (inf)
+
+cxn-machine-readable-formalization: |
+  cxn_41.conllc
+
+form: |
+	-  Frase reggente + tanto vale + fraseEspl (che+ind/cong)/Impl
+  (inf)
+	-
+
+function: |
+	-  Il costrutto svolge una funzione contrastiva rispetto alla
+  frase reggente (tema). La costruzione sposta il focus
+  pragmatico dalla frase reggente alla frase successiva
+  (rema). Le accezioni del costrutto possono essere: opzione,
+  ironia (il biglietto costa 40 euro? Beh, tanto vale andare a
+  piedi!).
+	-
+	-  La costruzione è idiomatica in quanto il suo significato è
+  predicibile dalla frequenza d'uso, ma non dalla somma dei
+  suoi costituenti.
+
+restrictions: |
+	-
+	-  La costruzione deve necessariamente dipendere da una
+  proposizione principale che venga contrastata con valore
+  avversativo o con valore ironico.
+
+coll-preferences: |
+	-
+	-  Nella sua forma esplicita, la costruzione presenta la
+  preferenza collocazionale che seguita dal verbo al modo
+  indicativo o congiuntivo. Si tratta di una preferenza
+  collocazionale perché la frase successiva si può presentare
+  anche in forma implicita (con verbo all'infinito).
+
+usage: |
+
+formal-tags: 
+	- pseudocoordination
+
+functional-tags: 
+	- antonymy
+	- limitatezza
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_41_example_1.txt
+	- cxn_41_example_2.txt
+	- cxn_41_example_3.txt
+	- cxn_41_example_4.txt
+
+note: |
+	-
+	-  USAGE: La frequenza d'uso di tale costruzione ha comportato
+  la fossilizzazione del suo significato non composizione (≠
+  tanto + vale).
+
+references: |
+
+collector: |
+  Domiziana Sernesi
+

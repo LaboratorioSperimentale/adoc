@@ -1,0 +1,81 @@
+cxn-id: |
+  36
+
+name: |
+  V + Avv (-mente) anche ordine inverso:Avv(-mente) + V
+
+cxn-machine-readable-formalization: |
+  cxn_36.conllc
+
+form: |
+	-  V + Avv (-mente) anche ordine inverso:Avv(-mente) + V
+	-  Non ci possono essere interpolazioni all'interno della
+  costruzione. Tuttavia, è possibile l'ordine inverso (avv
+  +V). inoltre la ricorrenza non è fissa. Ad esempio un
+  avverbio come 'categoricamente' ricorre anche con verbi come
+  'escludere', 'smentirsi', 'proibire'. https://www.corpusital
+  iano.it/it/access/simple_interface.php 
+
+function: |
+	-  informazione di modo (accessoria) agggiunta al verbo, la cui
+  ricorrenza è determinata dal verbo stesso.  
+	-
+	-  Nell'esempio 'dubitare fortemente', l'avverbio ha
+  significato completamente idiomatico, un dubbio non può
+  essere forte se ci riferiamo alla classica accezione di
+  forte come dotato di forza fisica. Riguarda in questo caso
+  l'intensità del dubbio.  Così anche in 'desiderare
+  ardentemnte' (dove ad ardere è la fiamma metaforica del
+  desiderio visto come un fuoco che tutto devasta) e 'pentirsi
+  amaramemte' (in cui è amaro metaforicamente il pentimento) e
+  'rifiutarsi categoricamente'.
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+
+formal-tags: 
+	- -mente
+
+functional-tags: 
+	- modalità-dell'azione
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_36_example_1.txt
+	- cxn_36_example_2.txt
+	- cxn_36_example_3.txt
+	- cxn_36_example_4.txt
+	- cxn_36_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Martina Saccomando
+

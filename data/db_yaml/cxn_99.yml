@@ -1,0 +1,67 @@
+cxn-id: |
+  99
+
+name: |
+  Farsi le ossa
+
+cxn-machine-readable-formalization: |
+  cxn_99.conllc
+
+form: |
+	-  V + N
+	-
+
+function: |
+	-  Pragmatica 
+	-  Creare le condizioni per ottenere un risultato
+	-
+
+restrictions: |
+	-  Può eesere usato anche "farsi il mazzo", l'espressione ha un
+  significato più forte 
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- Substantive-idiom
+	- idiom-of-encoding
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-  Clause
+	-
+
+category-tags: |
+	-  Noun, Verb
+	-
+
+schematicity-level: |
+  lexically filled
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_99_example_1.txt
+	- cxn_99_example_2.txt
+	- cxn_99_example_3.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+

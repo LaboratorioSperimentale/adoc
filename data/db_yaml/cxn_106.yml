@@ -1,0 +1,71 @@
+cxn-id: |
+  106
+
+name: |
+  "al volo" construction
+
+cxn-machine-readable-formalization: |
+  cxn_106.conllc
+
+form: |
+	-  N/V al volo
+	-
+
+function: |
+	-  Pragmatica
+	-  indica un'azione o un evento che si svolge rapidamente, di
+  passaggio
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- adverb >> cc:cxn:support-verb
+
+functional-tags: 
+	- action >> cc:inf:active-referent
+	- time >> cc:sem:time
+	- durativity >> cc:sem:durativity
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_106_example_1.txt
+	- cxn_106_example_2.txt
+	- cxn_106_example_3.txt
+	- cxn_106_example_4.txt
+	- cxn_106_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Alice Cortesi
+

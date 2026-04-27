@@ -1,0 +1,6 @@
+# cxn_id = 123 
+# name = Costruzioni verbo + "ore" + aggettivo 
+# function = Qualificazione del sostantivo "ore" attraverso l'uso di un verbo aggiunto all'applicazione di un ADJ esterno. 
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

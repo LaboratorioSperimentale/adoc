@@ -1,0 +1,2 @@
+# source = Italiano colloquiale
+# text = è l'ennesima volta che te lo dico

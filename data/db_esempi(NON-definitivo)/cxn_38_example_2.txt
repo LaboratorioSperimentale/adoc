@@ -1,0 +1,2 @@
+# source = http://193.205.158.204:8983/solr/collection1/browse?q=id:stper158.xml
+# text = Detti un colpo di tosse

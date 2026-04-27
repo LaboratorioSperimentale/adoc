@@ -1,0 +1,2 @@
+# source = itWaC
+# text = Quanto sono lieto di essere partito!

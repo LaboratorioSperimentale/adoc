@@ -1,0 +1,25 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: Italian Web 2020 (ItTenTen20)
+# sent_id = 1
+# text = Ma quello che mi interessa in questo caso è piuttosto il discorso sugli ex terroristi
+1	Ma	ma	CCONJ	CC	_	12	cc	_	SpacesBefore= |SpacesAfter= 
+2	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	12	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	nsubj	_	SpacesAfter= 
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	interessa	interessare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	caso	caso	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	piuttosto	piuttosto	ADV	B	_	12	advmod	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+13-14	sugli	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	16	case	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	ex	ex	ADJ	A	_	16	amod	_	_
+16	terroristi	terrorista	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+
+

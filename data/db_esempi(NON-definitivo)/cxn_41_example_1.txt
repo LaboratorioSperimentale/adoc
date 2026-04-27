@@ -1,0 +1,2 @@
+# source = http://corporadidattici.lablita.it/run.cgi/first?iquery=tanto+vale+&corpname=parlato
+# text = Tanto vale che entro tardi.

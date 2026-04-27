@@ -1,0 +1,2 @@
+# source = https://it.glosbe.com/it/it/a%20rotoli 
+# text = Senza di lei, tutto andrà a rotoli.

@@ -1,0 +1,2 @@
+# source = Conversazione mamma-bambino
+# text = Mi vuoi bene? Tanto tanto. 

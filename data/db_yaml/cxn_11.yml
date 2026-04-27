@@ -1,0 +1,69 @@
+cxn-id: |
+  11
+
+name: |
+  V+ADJ(numerale 2, 4)+N
+
+cxn-machine-readable-formalization: |
+  cxn_11.conllc
+
+form: |
+	-  V+ADJ(numerale 2, 4)+N
+	-
+
+function: |
+	-  Quantità indeterminata ma limitata dell'azione/stato
+  espressi da V+N
+	-
+	-  Il numerale non indica davvero la quantità che esprime
+
+restrictions: |
+	-
+	-  Solo numerali 2 e 4
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+
+formal-tags: 
+	- light-verbs >> cc:cxn:support-verb
+
+functional-tags: 
+	- vaghezza
+	- indefinitezza
+	- limitatezza
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_11_example_1.txt
+	- cxn_11_example_2.txt
+	- cxn_11_example_3.txt
+	- cxn_11_example_4.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Elena Coccoz
+

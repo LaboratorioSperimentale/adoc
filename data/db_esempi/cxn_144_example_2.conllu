@@ -1,0 +1,21 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = 
+# sent_id = 1
+# text = Questo argomento non ha niente a che fare/vedere con lo scorso
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	argomento	argomento	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obj	_	_
+6	a	a	ADP	E	ExtPos=SCONJ	8	mark	_	_
+7	che	che	SCONJ	CS	_	6	fixed	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	5	acl	_	SpaceAfter=No
+9	/	/	PUNCT	FF	_	10	punct	_	SpaceAfter=No
+10	vedere	vedere	VERB	V	VerbForm=Inf	8	conj	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	10	obl	_	SpacesAfter= 
+
+

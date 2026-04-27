@@ -1,0 +1,57 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS 2021
+# sent_id = 1
+# text = Dopo lo scontro armato all ' angolo fra viale Piave e via Alghisi , il fuggifuggi (to run away+to run away) generale.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	scontro	scontro	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+4	armato	armato	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	all	all	ADP	E	_	7	case	_	_
+6	'	'	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	angolo	angolo	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8	fra	fra	ADP	E	_	9	case	_	_
+9	viale	viale	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	Piave	Piave	PROPN	SP	_	9	nmod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	via	via	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+13	Alghisi	Alghisi	PROPN	SP	_	12	nmod	_	_
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	fuggifuggi	fuggifuggi	NOUN	S	Gender=Masc	0	root	_	_
+17	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	to	to	X	SW	Foreign=Yes	16	appos	_	_
+19	run	run	X	SW	Foreign=Yes	18	flat:foreign	_	_
+20	away+to	away+to	X	SW	Foreign=Yes	18	flat:foreign	_	_
+21	run	run	X	SW	Foreign=Yes	18	flat:foreign	_	_
+22	away	away	X	SW	Foreign=Yes	18	flat:foreign	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	18	punct	_	_
+24	generale	generale	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	16	punct	_	_
+
+# source = CORIS 2021
+# sent_id = 2
+# text = 'After the armed clash at the corner of Viale Piave and Via Alghisi, the general stampede'.
+1	'	'	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+2	After	after	ADP	E	_	5	case	_	_
+3	the	the	DET	RD	Definite=Def|PronType=Art	5	det	_	_
+4	armed	armed	ADJ	A	_	5	amod	_	_
+5	clash	clash	NOUN	S	Gender=Masc	18	nmod	_	_
+6	at	a	ADP	E	_	8	case	_	_
+7	the	the	DET	RD	Definite=Def|PronType=Art	8	det	_	_
+8	corner	corner	NOUN	S	Gender=Masc	5	nmod	_	_
+9	of	of	ADP	E	_	10	case	_	_
+10	Viale	Viale	PROPN	SP	_	8	nmod	_	_
+11	Piave	Piave	PROPN	SP	_	10	flat:name	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	Via	Via	PROPN	SP	_	10	conj	_	_
+14	Alghisi	Alghisi	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	5	punct	_	_
+16	the	the	DET	RD	Definite=Def|PronType=Art	18	det	_	_
+17	general	generale	ADJ	A	Number=Sing	18	amod	_	_
+18	stampede	stampede	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+19	'	'	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	18	punct	_	SpaceAfter=No
+
+

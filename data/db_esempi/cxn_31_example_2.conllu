@@ -1,0 +1,11 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://luce-gas.it/guida/contatore/salta-la-corrente
+# sent_id = 1
+# text = saltare la corrente
+1	saltare	saltare	VERB	V	VerbForm=Inf	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	corrente	corrente	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpacesAfter= \s 
+
+

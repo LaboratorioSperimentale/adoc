@@ -1,0 +1,2 @@
+# source = CORIS
+# text = Dovrà permetterci di ritrovare un tragitto analogo a quello che ti ho detto or ora.

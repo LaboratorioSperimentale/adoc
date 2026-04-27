@@ -1,0 +1,2 @@
+# source = Corpus: Italian Web 2016 (itTenTen16)
+# text =  Ma andiamo ancora a Moretta, dove le operazioni di scrutinio sono più lunghe. Sono ancora lì che contano.

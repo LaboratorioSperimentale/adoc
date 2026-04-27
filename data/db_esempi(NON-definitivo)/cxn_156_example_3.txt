@@ -1,0 +1,2 @@
+# source = itTenTen20 
+# text = La biblioteca è chiusa, tocca stare ancora a casa e allora veniamo noi da voi! 

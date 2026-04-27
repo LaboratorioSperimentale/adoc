@@ -1,0 +1,59 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=83014793&End=83014796
+# sent_id = 1
+# text = Tanis guardò sopra la testa di lei, puntando gli occhi sulla porta decorata attraverso la quale sarebbero entrati quando fosse giunto il loro turno, contemplando con uno sgomento che non riusciva a nascondere lo spettacolo, a mano a mano che si dispiegava davanti_ai suoi occhi.
+1	Tanis	Tanis	PROPN	SP	_	2	nsubj	_	_
+2	guardò	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	sopra	sopra	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	testa	testa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	puntando	puntare	VERB	V	VerbForm=Ger	2	advcl	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12-13	sulla	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	porta	porta	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+15	decorata	decorato	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	attraverso	attraverso	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	quale	quale	PRON	PR	Number=Sing|PronType=Rel	20	obl	_	_
+19	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	entrati	entrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+21	quando	quando	SCONJ	CS	_	23	mark	_	_
+22	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	giunto	giungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	loro	loro	DET	AP	Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	turno	turno	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	2	punct	_	_
+28	contemplando	contemplare	VERB	V	VerbForm=Ger	2	advcl	_	_
+29	con	con	ADP	E	_	31	case	_	_
+30	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	sgomento	sgomento	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+32	che	che	SCONJ	CS	PronType=Rel	34	mark	_	_
+33	non	non	ADV	BN	PronType=Neg	34	advmod	_	_
+34	riusciva	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	acl:relcl	_	_
+35	a	a	ADP	E	_	36	mark	_	_
+36	nascondere	nascondere	VERB	V	VerbForm=Inf	34	xcomp	_	_
+37	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	36	obj	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	36	punct	_	_
+40	a	a	ADP	E	_	41	case	_	_
+41	mano	mano	NOUN	S	Gender=Fem|Number=Sing	36	obl	_	_
+42	a	a	ADP	E	_	43	case	_	_
+43	mano	mano	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	_
+44	che	che	SCONJ	CS	_	46	mark	_	_
+45	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	46	expl	_	_
+46	dispiegava	dispiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	34	advcl	_	_
+47	davanti_ai	davanti_ai	ADJ	A	Gender=Masc|Number=Plur	49	amod	_	_
+48	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	49	det:poss	_	_
+49	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	46	obj	_	SpaceAfter=No
+50	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+

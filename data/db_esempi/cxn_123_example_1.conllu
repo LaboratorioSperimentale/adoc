@@ -1,0 +1,48 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS1980_2000
+# sent_id = 1
+# text = prima il governo Berlusconi che è durato appena nove mesi , poi un governo tecnico di un anno e adesso una maggioranza traballante che sembra avere le ore contate.
+1	prima	prima	ADV	B	_	3	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	governo	governo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	Berlusconi	Berlusconi	PROPN	SP	_	3	nmod	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	durato	durare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+8	appena	appena	ADV	B	_	10	advmod	_	_
+9	nove	nove	NUM	N	NumType=Card	10	nummod	_	_
+10	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	poi	poi	ADV	B	_	14	advmod	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	governo	governo	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+15	tecnico	tecnico	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	anno	anno	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	adesso	adesso	ADV	B	_	22	advmod	_	_
+21	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	maggioranza	maggioranza	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+23	traballante	traballante	ADJ	A	Number=Sing	22	amod	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+26	avere	avere	VERB	V	VerbForm=Inf	25	xcomp	_	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+28	ore	ora	NOUN	S	Gender=Fem|Number=Plur	26	obj	_	_
+29	contate	contato	ADJ	A	Gender=Fem|Number=Plur	28	amod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	3	punct	_	_
+
+# source = CORIS1980_2000
+# sent_id = 2
+# text = Le sembra un buon risultato ?
+1	Le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	buon	buono	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+6	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter= 
+
+

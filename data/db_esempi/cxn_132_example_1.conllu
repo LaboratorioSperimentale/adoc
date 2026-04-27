@@ -1,0 +1,44 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://www.corpusitaliano.it/ 
+# sent_id = 1
+# text = 1.
+1	1	1	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# source = https://www.corpusitaliano.it/ 
+# sent_id = 2
+# text = In pochi anni percorse in lungo e in largo l'Egitto, risalendo il fiume Nilo fino ad Assuan, scoprendo sotto la sabbia il tempio di Abu Simbel.
+1	In	in	ADP	E	_	3	case	_	_
+2	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	SpacesAfter= 
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpacesAfter= 
+4	percorse	percorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	SpacesAfter= 
+6	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	4	obl	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	in	in	ADP	E	_	9	case	_	SpacesAfter= 
+9	largo	largo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	Egitto	Egitto	PROPN	SP	_	4	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	4	punct	_	SpacesAfter= 
+13	risalendo	risalire	VERB	V	VerbForm=Ger	4	advcl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	SpacesAfter= 
+15	fiume	fiume	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	Nilo	Nilo	PROPN	SP	_	15	nmod	_	SpacesAfter= 
+17	fino	fino	ADV	B	ExtPos=ADP	19	case	_	_
+18	ad	a	ADP	E	_	17	fixed	_	SpacesAfter= 
+19	Assuan	Assuan	PROPN	SP	_	13	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	4	punct	_	SpacesAfter= 
+21	scoprendo	scoprire	VERB	V	VerbForm=Ger	4	advcl	_	SpacesAfter= 
+22	sotto	sotto	ADP	E	_	24	case	_	SpacesAfter= 
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	sabbia	sabbia	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	SpacesAfter= 
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	SpacesAfter= 
+26	tempio	tempio	NOUN	S	Gender=Masc|Number=Sing	21	obj	_	_
+27	di	di	ADP	E	_	28	case	_	SpacesAfter= 
+28	Abu	Abu	PROPN	SP	_	26	nmod	_	_
+29	Simbel	Simbel	PROPN	SP	_	28	flat:name	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter= \s \s 
+
+

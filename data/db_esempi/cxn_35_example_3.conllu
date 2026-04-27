@@ -1,0 +1,13 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=86659066&End=86659067
+# sent_id = 1
+# text = pensavano di casa a Tokyo
+1	pensavano	pensare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpacesAfter= 
+2	di	di	ADP	E	_	3	case	_	SpacesAfter=  
+3	casa	casa	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpacesAfter= 
+4	a	a	ADP	E	_	5	case	_	SpacesAfter= 
+5	Tokyo	Tokyo	PROPN	SP	_	1	obl	_	SpaceAfter=No
+
+

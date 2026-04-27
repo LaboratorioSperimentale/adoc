@@ -1,0 +1,6 @@
+# cxn_id = 30 
+# name = A scanso di X Prep a + N scanso + Prep di + X X --> N;  Det+ N; Det+Adj+N;  Det1 + Det2 + Adj1 + Adj2 + N; ... 
+# function = La costruzione è utilizzata per prevenire, evitare o eliminare l'ipotesi che X si verifichi.  
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

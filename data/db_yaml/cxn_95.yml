@@ -1,0 +1,80 @@
+cxn-id: |
+  95
+
+name: |
+  "avere + N" idiomatic construction
+
+cxn-machine-readable-formalization: |
+  cxn_95.conllc
+
+form: |
+	-  avere + N Formal variant: avere + N + Prep; avere + ART + N
+  + Prep
+	-
+
+function: |
+	-  PRAGMATIC
+	-  Costruzione impiegata per la formazione di frasi idiomatiche
+  con il verbo avere. Il verbo avere non assume nessun valore
+  specifico: il significato lessicale dell’espressione dipende
+  dal sostantivo con cui avere si combina
+	-
+
+restrictions: |
+	-   N sempre singolare ART, se presente, sempre determinativo
+  sing.
+	-
+
+coll-preferences: |
+	-  N astratto che indica una necessità (fame, sete); N concreto
+  con valore metaforico per indicare una qualità del soggetto
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- light-verbs >> cc:cxn:support-verb
+	- formal-idiom
+	- lexically-open
+
+functional-tags: 
+	- categorization
+
+complexity-level-tags: |
+	-  Phrase, Clause
+	-
+
+category-tags: |
+	-  Noun, Verb
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_95_example_1.txt
+	- cxn_95_example_2.txt
+	- cxn_95_example_3.txt
+	- cxn_95_example_4.txt
+	- cxn_95_example_5.txt
+
+note: |
+	-  Costruzione frequente nel parlato, spesso sostituibile con
+  un’unica parola (solitamente un verbo) o una locuzione
+  fraseologica  avere fame / sete di = desiderare avere la
+  stoffa di / per = essere capace avere fegato = avere
+  coraggio
+	-  USAGE:
+
+references: |
+
+collector: |
+  Martina Bianco
+

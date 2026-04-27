@@ -1,0 +1,2 @@
+# source = http://corpora.ficlit.unibo.it/TCORIS/Wrapper.php
+# text = Ho superato i trenta e non ho uno straccio di donna. 

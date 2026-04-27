@@ -1,0 +1,2 @@
+# source = Dialoghi tra persone
+# text = Sono lì di te.

@@ -1,0 +1,2 @@
+# source = Corpus: itTenTen16
+# text = Il commendatore […] riceveva, ringraziava, stringeva mani di qua, mani di là […]

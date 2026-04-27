@@ -1,0 +1,2 @@
+# source = Parlante nativo
+# text = Più si studia e più si impara

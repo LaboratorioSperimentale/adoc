@@ -1,0 +1,2 @@
+# source = Esempio proposto da me in: https://docs.google.com/forms/d/1qCaY3q50Aoxaze0p0IAug1DG6d64yfSc5qVdbfXpkYI/edit?usp=sharing
+# text = "Cos'è già che mi dicevi ieri?" (= mi ricordo che abbiamo parlato, ma non ricordo con precisione cosa mi hai detto)

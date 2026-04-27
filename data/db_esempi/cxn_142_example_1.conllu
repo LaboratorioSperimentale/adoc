@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = www.corpusitaliano.it
+# sent_id = 1
+# text = Ieri, in occasione dei già documentati provini della seconda edizione di X Factor, abbiamo chiacchierato con Francesco Facchinetti per capire che aria tira nei nuovi casting e in questo suo periodo professionale fortunato e ricco di impegni.
+1	Ieri	ieri	ADV	B	_	19	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	9	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+7	già	già	ADV	B	_	8	advmod	_	_
+8	documentati	documentato	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+9	provini	provino	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	13	amod	_	_
+13	edizione	edizione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	X	X	PROPN	SP	_	13	nmod	_	_
+16	Factor	Factor	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	4	punct	_	_
+18	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	chiacchierato	chiacchierare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20	con	con	ADP	E	_	21	case	_	_
+21	Francesco	Francesco	PROPN	SP	_	19	obl	_	_
+22	Facchinetti	Facchinetti	PROPN	SP	_	21	flat:name	_	_
+23	per	per	ADP	E	_	24	mark	_	_
+24	capire	capire	VERB	V	VerbForm=Inf	19	advcl	_	_
+25	che	che	SCONJ	CS	_	27	mark	_	_
+26	aria	aria	NOUN	S	Gender=Fem|Number=Sing	27	nsubj	_	_
+27	tira	tirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	ccomp	_	_
+28-29	nei	_	_	_	_	_	_	_	_
+28	in	in	ADP	E	_	31	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+30	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	31	amod	_	_
+31	casting	casting	NOUN	S	Gender=Masc	27	obl	_	_
+32	e	e	CCONJ	CC	_	36	cc	_	_
+33	in	in	ADP	E	_	36	case	_	_
+34	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	36	det	_	_
+35	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	36	det:poss	_	_
+36	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	31	conj	_	_
+37	professionale	professionale	ADJ	A	Number=Sing	36	amod	_	_
+38	fortunato	fortunato	ADJ	A	Gender=Masc|Number=Sing	36	amod	_	_
+39	e	e	CCONJ	CC	_	40	cc	_	_
+40	ricco	ricco	ADJ	A	Gender=Masc|Number=Sing	38	conj	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	impegni	impegno	NOUN	S	Gender=Masc|Number=Plur	40	obl	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	19	punct	_	SpaceAfter=No
+
+

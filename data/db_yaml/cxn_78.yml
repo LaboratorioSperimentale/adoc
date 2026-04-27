@@ -1,0 +1,68 @@
+cxn-id: |
+  78
+
+name: |
+  Non stare a construction
+
+cxn-machine-readable-formalization: |
+  cxn_78.conllc
+
+form: |
+	-  AVV NEG (non) +STARE + PREP (a) + V
+	-
+
+function: |
+	-  PRAGMATIC 
+	-  especially in informal language it means that is not
+  important doing something, that is not necessary doing
+  something. 
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-  V= usually used with emotional verbs 
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- formal-idiom
+	- Preposition-a
+
+functional-tags: 
+	- approximation
+
+complexity-level-tags: |
+	-  Phrase, Clause
+	-
+
+category-tags: |
+	-  Verb
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_78_example_1.txt
+	- cxn_78_example_2.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  sofia panzavolta
+

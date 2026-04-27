@@ -1,0 +1,2 @@
+# source = Corpus: Italian Web 2016 (itTenTen16)
+# text = Siamo tutti qui che attendiamo impazientemente il tuo arrivo.

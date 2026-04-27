@@ -1,0 +1,58 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CorpusPaisà (corpusitaliano.it)
+# sent_id = 1
+# text = La presenza a breve distanza dei ruderi di altri tre mulini, "Mulino Ramet", "Mulino Sourdon", "Mulino Tissot-Avon", un tempo simboli identificativi della città, ha spinto a sfruttare l'area a scopo turistico.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	40	nsubj	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	breve	breve	ADJ	A	Number=Sing	5	amod	_	_
+5	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	ruderi	rudere	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	altri	altro	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	12	det	_	_
+11	tre	tre	NUM	N	NumType=Card	12	nummod	_	_
+12	mulini	mulino	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	Mulino	Mulino	PROPN	SP	_	12	appos	_	_
+16	Ramet	Ramet	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	Mulino	Mulino	PROPN	SP	_	15	conj	_	_
+21	Sourdon	Sourdon	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+25	Mulino	Mulino	PROPN	SP	_	15	conj	_	_
+26	Tissot	Tissot	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+27	-	-	PUNCT	FF	_	25	punct	_	SpaceAfter=No
+28	Avon	Avon	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+29	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	12	punct	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+33	simboli	simbolo	NOUN	S	Gender=Masc|Number=Plur	12	appos	_	_
+34	identificativi	identificativo	ADJ	A	Gender=Masc|Number=Plur	33	amod	_	_
+35-36	della	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	città	città	NOUN	S	Gender=Fem	33	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	2	punct	_	_
+39	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+40	spinto	spingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+41	a	a	ADP	E	_	42	mark	_	_
+42	sfruttare	sfruttare	VERB	V	VerbForm=Inf	40	xcomp	_	_
+43	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
+44	area	area	NOUN	S	Gender=Fem|Number=Sing	42	obj	_	_
+45	a	a	ADP	E	_	46	case	_	_
+46	scopo	scopo	NOUN	S	Gender=Masc|Number=Sing	42	obl	_	_
+47	turistico	turistico	ADJ	A	Gender=Masc|Number=Sing	46	amod	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	40	punct	_	SpaceAfter=No
+
+

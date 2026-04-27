@@ -1,0 +1,2 @@
+# source = CORIS https://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=28030080&End=28030080
+# text = Oggi poi hanno superato ogni record negativo sono due ore che  cercando di inviare un bonifico e nulla da fare e al call center non rispondono .

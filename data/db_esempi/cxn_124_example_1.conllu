@@ -1,0 +1,45 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS 1980-2000
+# sent_id = 1
+# text = dove l ' eco dei suoi passi , sostenuto dalle pareti della Galleria , cambia d ' improvviso e si fa apparentemente più sicuro , facendogli quasi credere di
+1	dove	dove	ADV	B	_	18	advmod	_	_
+2	l	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	'	'	PUNCT	FB	_	33	punct	_	_
+4	eco	eco	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	passi	passo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	sostenuto	sostenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+11-12	dalle	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	pareti	parete	NOUN	S	Gender=Fem|Number=Plur	10	obl:agent	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Galleria	Galleria	PROPN	SP	_	13	nmod	_	_
+17	,	,	PUNCT	FF	_	4	punct	_	_
+18	cambia	cambiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	d	d	ADP	E	_	21	case	_	_
+20	'	'	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	improvviso	improvviso	ADJ	A	Gender=Masc|Number=Sing	18	obl	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+24	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	_
+25	apparentemente	apparentemente	ADV	B	_	27	advmod	_	_
+26	più	più	ADV	B	_	27	advmod	_	_
+27	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	24	xcomp	_	_
+28	,	,	PUNCT	FF	_	24	punct	_	_
+29-30	facendogli	_	_	_	_	_	_	_	_
+29	facendo	fare	VERB	V	VerbForm=Ger	24	advcl	_	_
+30	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	iobj	_	_
+31	quasi	quasi	ADV	B	_	32	advmod	_	_
+32	credere	credere	VERB	V	VerbForm=Inf	29	xcomp	_	_
+33	di	di	ADP	E	_	32	mark	_	_
+
+

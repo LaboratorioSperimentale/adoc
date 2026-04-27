@@ -1,0 +1,2 @@
+# source = (corpus) Paisà corpus dell'italiano:  https://www.corpusitaliano.it/static/documents/sources/730/7306809
+# text = ( A scanso di + Det + Adv + Adj + Adj + N) A scanso di un non auspicato “sad ending” per la storia Saab, il modello dovrebbe essere presentato nel corso del prossimo autunno:

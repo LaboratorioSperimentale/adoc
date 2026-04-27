@@ -1,0 +1,6 @@
+# cxn_id = 18 
+# name = Prepx + Avv/Sostx + Prepy+ Avv/Sosty 
+# function = Il costrutto indica la modalità o il tempo di svolgimento di un'azione 
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

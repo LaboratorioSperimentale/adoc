@@ -1,0 +1,2 @@
+# source = http://badip.uni-graz.at/it/corpus-lip/cerca?view=vcerca
+# text = Se ci danno l'elemosina allora tanto vale che stiano senza darci niente.

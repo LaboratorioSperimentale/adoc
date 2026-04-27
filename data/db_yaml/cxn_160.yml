@@ -1,0 +1,68 @@
+cxn-id: |
+  160
+
+name: |
+  Discontinous reduplication N(sg)-su-N(sg)
+
+cxn-machine-readable-formalization: |
+  cxn_160.conllc
+
+form: |
+	-  Ni su Ni
+	-
+
+function: |
+	-  MODIFIER = SUCCESSION / ITERATION / DISTRIBUTIVITY of N
+	-
+	-
+
+restrictions: |
+	-  N = singular, bare, fixed MODIFIER = invariable
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- reduplication
+	- discontinuous-reduplication
+
+functional-tags: 
+	- intensification
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Adverb, Adjective
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+  113, 114
+
+vertical-links: |
+
+examples: 
+	- cxn_160_example_1.txt
+	- cxn_160_example_2.txt
+	- cxn_160_example_3.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Francesca Masini
+

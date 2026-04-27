@@ -1,0 +1,72 @@
+cxn-id: |
+  154
+
+name: |
+  Implict Verba Dicendi Construction
+
+cxn-machine-readable-formalization: |
+  cxn_154.conllc
+
+form: |
+	-  N + V +{di}Vinf
+	-
+
+function: |
+	-  La costruzione profila eventi di dire, chiedere, narrare,
+  etc. in cui il soggetto è specificato solo nello slot
+  iniziale, e il verbo che segue la particella di è
+  all'infinto. 
+	-
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- argument-structure-construction >> cc:cxn:clause
+	- implicit-construction
+
+functional-tags: 
+	- verbs-of-saying
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_154_example_1.txt
+	- cxn_154_example_2.txt
+	- cxn_154_example_3.txt
+	- cxn_154_example_4.txt
+	- cxn_154_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Lucia Busso
+

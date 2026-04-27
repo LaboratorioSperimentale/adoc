@@ -1,0 +1,2 @@
+# source = Corpus italiano Paisà https://www.corpusitaliano.it/static/documents/sources/780/7801691
+# text = Se proprio morite dalla voglia di provare qualcosa, resistete fino all'orario di chiusura, e concedetevi uno splendido pezzone di torta al bar (non mi ricordo come si chiama) che si trova all' ingresso (guardando l'uscita, sulla sinistra).

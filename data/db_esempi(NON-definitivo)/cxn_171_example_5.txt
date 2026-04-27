@@ -1,0 +1,2 @@
+# source = Dizionario Zanichelli
+# text =  Scrive tanto quanto parla.    

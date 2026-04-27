@@ -1,0 +1,2 @@
+# source = Corpus: Italian Web 2020 (itTenTen20)
+# text = Non sto proprio una meraviglia, ma non abbastanza male da potermene stare a casa.

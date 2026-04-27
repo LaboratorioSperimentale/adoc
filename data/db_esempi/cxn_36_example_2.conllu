@@ -1,0 +1,67 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://www.corpusitaliano.it/static/documents/sources/020/0207921
+# sent_id = 1
+# text = pentirsi amaramente Così Frodo, indossato l'anello, si dà alla fuga, sottraendosi alla vista dello stupefatto Boromir.
+1-2	pentirsi	_	_	_	_	_	_	_	_
+1	pentir	pentire	VERB	V	VerbForm=Inf	0	root	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	1	expl	_	_
+3	amaramente	amaramente	ADV	B	_	1	advmod	_	_
+4	Così	così	ADV	B	_	1	advmod	_	_
+5	Frodo	Frodo	PROPN	SP	_	1	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	indossato	indossare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	anello	anello	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	5	punct	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+12	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+13-14	alla	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	fuga	fuga	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17-18	sottraendosi	_	_	_	_	_	_	_	_
+17	sottraendo	sottrarre	VERB	V	VerbForm=Ger	12	advcl	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	17	expl	_	_
+19-20	alla	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	vista	vista	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+22-23	dello	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	25	case	_	_
+23	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	stupefatto	stupefatto	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+25	Boromir	Boromir	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	1	punct	_	_
+
+# source = https://www.corpusitaliano.it/static/documents/sources/020/0207921
+# sent_id = 2
+# text = Boromir si pente amaramente del suo gesto, ma ormai è troppo tardi:
+1	Boromir	Boromir	PROPN	SP	_	3	nsubj	_	_
+2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+3	pente	pentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	amaramente	amaramente	ADV	B	_	3	advmod	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	gesto	gesto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	14	punct	_	_
+10	ma	ma	CCONJ	CC	_	14	cc	_	_
+11	ormai	ormai	ADV	B	_	14	advmod	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	troppo	troppo	ADV	B	_	14	advmod	_	_
+14	tardi	tardi	ADV	B	_	3	conj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	3	punct	_	_
+
+# source = https://www.corpusitaliano.it/static/documents/sources/020/0207921
+# sent_id = 3
+# text = Frodo è sparito.
+1	Frodo	Frodo	PROPN	SP	_	3	nsubj	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	sparito	sparire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+

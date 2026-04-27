@@ -1,0 +1,65 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORPUS: CORIS1980_2000
+# sent_id = 1
+# text = Ieri ha perso Oliveira dopo 1 ' per espulsione forse troppo severa, seguita da una crisi di nervi.
+1	Ieri	ieri	ADV	B	_	3	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	Oliveira	Oliveira	PROPN	SP	_	3	obj	_	_
+5	dopo	dopo	ADP	E	_	6	case	_	_
+6	1	1	NUM	N	NumType=Card	3	nummod	_	_
+7	'	'	PUNCT	FB	_	6	punct	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	espulsione	espulsione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+10	forse	forse	ADV	B	_	12	advmod	_	_
+11	troppo	troppo	ADV	B	_	12	advmod	_	_
+12	severa	severo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	seguita	seguire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	crisi	crisi	NOUN	S	Gender=Fem	14	obl:agent	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	nervi	nervo	NOUN	S	Gender=Masc|Number=Plur	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# source = CORPUS: CORIS1980_2000
+# sent_id = 2
+# text = Da seguire Kallon, un Kluivert dei poveri.
+1	Da	da	ADP	E	_	2	mark	_	_
+2	seguire	seguire	VERB	V	VerbForm=Inf	0	root	_	_
+3	Kallon	Kallon	PROPN	SP	_	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Kluivert	Kluivert	PROPN	SP	_	3	appos	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	poveri	povero	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# source = CORPUS: CORIS1980_2000
+# sent_id = 3
+# text = Sbaglia gol, ma ne fa tanti: a Reggio come a Cagliari, come a Genova .
+1	Sbaglia	sbagliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	gol	gol	NOUN	S	Gender=Masc	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	ma	ma	CCONJ	CC	_	6	cc	_	_
+5	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	6	iobj	_	_
+6	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7	tanti	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	obj	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	6	punct	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	Reggio	Reggio	PROPN	SP	_	6	obl	_	_
+11	come	come	ADV	B	ExtPos=ADP	13	case	_	_
+12	a	a	ADP	E	_	11	fixed	_	_
+13	Cagliari	Cagliari	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	come	come	ADV	B	ExtPos=ADP	17	case	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	Genova	Genova	PROPN	SP	_	10	conj	_	_
+18	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+

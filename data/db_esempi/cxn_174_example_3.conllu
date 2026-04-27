@@ -1,0 +1,34 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = 1
+# text = La luce della luna cadeva attraverso le tende giallastre , i rumori notturni del paese si potevano più intuire che sentire.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	luce	luce	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	luna	luna	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	cadeva	cadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	attraverso	attraverso	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	tende	tenda	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+10	giallastre	giallastro	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11	,	,	PUNCT	FF	_	21	punct	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	rumori	rumore	NOUN	S	Gender=Masc|Number=Plur	21	nsubj	_	_
+14	notturni	notturno	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	paese	paese	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+18	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	21	expl:impers	_	_
+19	potevano	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+20	più	più	ADV	B	_	21	advmod	_	_
+21	intuire	intuire	VERB	V	VerbForm=Inf	6	conj	_	_
+22	che	che	SCONJ	CS	_	23	mark	_	_
+23	sentire	sentire	VERB	V	VerbForm=Inf	21	advcl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+
+

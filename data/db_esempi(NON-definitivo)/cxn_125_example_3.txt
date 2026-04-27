@@ -1,0 +1,2 @@
+# source = CORIS
+# text = quasi quasi rimpiango un volo di elicottero.

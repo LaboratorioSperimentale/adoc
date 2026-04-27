@@ -1,0 +1,2 @@
+# source = CorpusPaisà (corpusitaliano.it)
+# text = La presenza di depositi di ferro a livello cerebrospinale ha spinto a ricercare una correlazione tra questi patologici restringimenti venosi ribattezzati sotto il nome di Insufficienza venosa cronica cerebrospinale o CCSVI e la sclerosi multipla.

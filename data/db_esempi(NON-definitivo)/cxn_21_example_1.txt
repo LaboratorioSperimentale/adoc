@@ -1,0 +1,2 @@
+# source = Corpus: CORIS
+# text = Porta a toppa - Una porta le cui coste vanno a coprire i bordi della carcassa quando è chiusa.

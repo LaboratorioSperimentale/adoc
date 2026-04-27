@@ -1,0 +1,73 @@
+cxn-id: |
+  102
+
+name: |
+  Non ... ne frega
+
+cxn-machine-readable-formalization: |
+  cxn_102.conllc
+
+form: |
+	-  AVV NEG (non) + PRO + CLITICO (ne) + V (frega) + SN/SAVV
+	-
+
+function: |
+	-  SEMANTICO/PRAGMATICA
+	-  it's a contruction to say that a person doesn't care about
+  something often used in informal situations and vulgar
+	-
+
+restrictions: |
+	-  AVV NEG = non PRO = dativo senza preoposizione CLITICO = ne
+  V= frega (non declinato) SN= ART indefinito + N
+  (semanticamente ristretto a "cazzo" ed eufemismi) SN può
+  essere espanso con aggettivi e avverbi e SPREP SAVV= AVV di
+  quantità ristretto a "molto" "tanto" "niente" "nulla" SAVV
+  può essere espanso con aggettivi e avverbi e SPREP
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- unformal
+
+functional-tags: 
+	- EMOTIVE
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_102_example_1.txt
+	- cxn_102_example_2.txt
+	- cxn_102_example_3.txt
+	- cxn_102_example_4.txt
+
+note: |
+	-  ^_^
+	-  USAGE:
+
+references: |
+
+collector: |
+  Luca Vezzoli e Giulia Massaggia
+

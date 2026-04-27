@@ -1,0 +1,2 @@
+# source = (corpus) Paisà corpus dell'italiano:  https://www.corpusitaliano.it/static/documents/sources/119/1193940
+# text = (A scanso di + Det + Adj + N) A scanso di ogni possibile equivoco, lo slogan è preceduto dall’inciso "per queste cause" ("a ces causes").

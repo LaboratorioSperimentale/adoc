@@ -1,0 +1,77 @@
+cxn-id: |
+  68
+
+name: |
+  salta fuori che
+
+cxn-machine-readable-formalization: |
+  cxn_68.conllc
+
+form: |
+	-  saltare3.SG fuori che Cl 
+	-
+
+function: |
+	-  [Experiencer] finds out that [State of Affairs] is
+  unexpectedly [X]Cl from [Source]
+	-  A [new piece of information]Cl comes to the
+  [Speaker's]Experiencer knowledge from an [external
+  source]Source. The [new piece of information]Cl often
+  contradicts the [Speaker's]Experiencer expectations on the
+  [State of Affairs].
+	-
+
+restrictions: |
+	-  saltare is always in the 3rd person singular. 
+	-
+
+coll-preferences: |
+	-  It is preceded by adversative or temporal connectives. In
+  most cases, the source of information is not overtly
+  expressed.
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- impersonal-construction
+	- that-clause
+
+functional-tags: 
+	- mirativity >> cc:sem:durativity
+	- evidentiality >> cc:sem:evidentiality
+
+complexity-level-tags: |
+	-  Beyond clause
+	-
+
+category-tags: |
+	-  Verb
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_68_example_1.txt
+	- cxn_68_example_2.txt
+	- cxn_68_example_3.txt
+	- cxn_68_example_4.txt
+	- cxn_68_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Flavio Pisciotta
+

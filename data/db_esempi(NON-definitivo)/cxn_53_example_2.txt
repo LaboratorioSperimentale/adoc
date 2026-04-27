@@ -1,0 +1,2 @@
+# source = CORIS http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=1022449&End=1022450 
+# text = Il risultato di tali opere è che radici di alberi , tuttora infestanti , minacciano con la loro penetrazione la stabilità dello stesso muro : e non essendo stato rimosso il terrapieno , peraltro sporchissimo , che ricopre il basamento di fronte alla strada , viene da chiedersi se e quali lavori di solidità siano stati operati dalla XII Ripartizione

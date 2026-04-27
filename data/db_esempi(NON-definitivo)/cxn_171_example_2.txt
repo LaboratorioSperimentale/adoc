@@ -1,0 +1,2 @@
+# source = Corpus ItalianWeb2020 - Sketch Engine
+# text =  Cosa resta di questa vita tanto triste quanto esaltante? “...gli eventi imprevisti possono essere tanto benevoli quanto disastrosi.” “...hanno avuto esperienza di un contesto tanto familiare quanto insolito.” 

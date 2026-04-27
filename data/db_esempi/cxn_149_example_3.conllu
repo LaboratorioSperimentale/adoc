@@ -1,0 +1,26 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Google
+# sent_id = 1
+# text = Per correre una buona 10 km non è necessario usare dei mezzi di allenamento stratosferici.
+1	Per	per	ADP	E	_	2	mark	_	SpacesAfter= 
+2	correre	correre	VERB	V	VerbForm=Inf	9	advcl	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpacesAfter= 
+4	buona	buono	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+5	10	10	NUM	N	NumType=Card	6	nummod	_	_
+6	km	chilometro	NOUN	S	Gender=Masc	2	obj	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+10	usare	usare	VERB	V	VerbForm=Inf	9	csubj	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	mezzi	mezzo	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	allenamento	allenamento	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16	stratosferici	stratosferico	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	9	punct	_	SpaceAfter=No
+
+

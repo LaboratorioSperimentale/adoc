@@ -1,0 +1,2 @@
+# source = CORIS http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=23527547&End=23527550 
+# text = È sotto l ' influsso di queste riflessioni che ho letto l ' interessante lavoro della dottoressa Mariotti e mi è venuto da pensare all ' incontro con il suo testo negli eleganti e armonici termini dell ' arte marziale .

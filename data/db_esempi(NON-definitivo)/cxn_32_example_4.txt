@@ -1,0 +1,2 @@
+# source = Dalle risposte al form: https://docs.google.com/forms/d/1qCaY3q50Aoxaze0p0IAug1DG6d64yfSc5qVdbfXpkYI/edit?usp=sharing 
+# text = "Com'è che si chiama già quel posto dove hai mangiato bene?"

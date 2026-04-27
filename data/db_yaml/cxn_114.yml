@@ -1,0 +1,68 @@
+cxn-id: |
+  114
+
+name: |
+  Discontinuous reduplication N-per-N
+
+cxn-machine-readable-formalization: |
+  cxn_114.conllc
+
+form: |
+	-  Ni per Ni
+	-
+
+function: |
+	-  MODIFIER = SUCCESSION / ITERATION / DISTRIBUTIVITY of N
+	-
+	-
+
+restrictions: |
+	-  Ni = singular, bare, fixed MODIFIER =invariable
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- reduplication
+	- discontinuous-reduplication
+
+functional-tags: 
+	- intensification
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Adverb, Adjective
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+  160, 113
+
+vertical-links: |
+
+examples: 
+	- cxn_114_example_1.txt
+	- cxn_114_example_2.txt
+	- cxn_114_example_3.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Francesca Masini
+

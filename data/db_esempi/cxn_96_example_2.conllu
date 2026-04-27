@@ -1,0 +1,49 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = PAISA'
+# sent_id = 1
+# text = Indubbiamente non ci saranno difficoltà ad invocare misteriose ragioni di sicurezza, ma ecco tuttavia che queste cadono a fagiolo per evitare a Saviano di fare « cattiva pubblicità all' Italia » , come dice un certo Silvio Berlusconi
+1	Indubbiamente	indubbiamente	ADV	B	_	4	advmod	_	SpacesAfter= 
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	SpacesAfter= 
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpacesAfter= 
+4	saranno	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpacesAfter= 
+5	difficoltà	difficoltà	NOUN	S	Gender=Fem	4	nsubj	_	SpacesAfter= 
+6	ad	a	ADP	E	_	7	mark	_	SpacesAfter= 
+7	invocare	invocare	VERB	V	VerbForm=Inf	5	acl	_	SpacesAfter= 
+8	misteriose	misterioso	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpacesAfter= 
+9	ragioni	ragione	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	SpacesAfter= 
+10	di	di	ADP	E	_	11	case	_	SpacesAfter= 
+11	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	18	punct	_	SpacesAfter= 
+13	ma	ma	CCONJ	CC	_	18	cc	_	SpacesAfter= 
+14	ecco	ecco	ADV	B	_	4	advmod	_	SpacesAfter= 
+15	tuttavia	tuttavia	ADV	B	_	14	advmod	_	SpacesAfter= 
+16	che	che	SCONJ	CS	_	18	mark	_	SpacesAfter= 
+17	queste	questo	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	18	nsubj	_	SpacesAfter= 
+18	cadono	cadere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpacesAfter= 
+19	a	a	ADP	E	_	20	case	_	SpacesAfter= 
+20	fagiolo	fagiolo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpacesAfter= 
+21	per	per	ADP	E	_	22	mark	_	SpacesAfter= 
+22	evitare	evitare	VERB	V	VerbForm=Inf	18	advcl	_	SpacesAfter= 
+23	a	a	ADP	E	_	24	case	_	SpacesAfter= 
+24	Saviano	Saviano	PROPN	SP	_	22	obl	_	SpacesAfter= 
+25	di	di	ADP	E	_	26	mark	_	SpacesAfter= 
+26	fare	fare	VERB	V	VerbForm=Inf	22	xcomp	_	SpacesAfter= 
+27	«	«	PUNCT	FB	_	29	punct	_	SpacesAfter= 
+28	cattiva	cattivo	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	SpacesAfter= 
+29	pubblicità	pubblicità	NOUN	S	Gender=Fem	26	obj	_	SpacesAfter= 
+30-31	all'	_	_	_	_	_	_	_	SpacesAfter= 
+30	a	a	ADP	E	_	32	case	_	_
+31	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+32	Italia	Italia	PROPN	SP	_	29	nmod	_	SpacesAfter= 
+33	»	»	PUNCT	FB	_	29	punct	_	SpacesAfter= 
+34	,	,	PUNCT	FF	_	26	punct	_	SpacesAfter= 
+35	come	come	SCONJ	CS	_	36	mark	_	SpacesAfter= 
+36	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	advcl	_	SpacesAfter= 
+37	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	39	det	_	SpacesAfter= 
+38	certo	certo	ADJ	A	Gender=Masc|Number=Sing	39	amod	_	SpacesAfter= 
+39	Silvio	Silvio	PROPN	SP	_	36	nsubj	_	SpacesAfter= 
+40	Berlusconi	Berlusconi	PROPN	SP	_	39	flat:name	_	SpaceAfter=No
+
+

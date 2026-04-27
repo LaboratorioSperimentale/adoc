@@ -1,0 +1,2 @@
+# source = ItWac
+# text = Il testo delle note qui pubblicato é stato redatto dall' amministrazione competente

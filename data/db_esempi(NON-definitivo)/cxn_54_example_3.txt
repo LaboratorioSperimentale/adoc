@@ -1,0 +1,2 @@
+# source = 
+# text = "Se non è ciccia è cioccia". Esito differente del secondo esempio ma con stesso valore. Qui esemplificato dalla somiglianza grafico-fonetica.

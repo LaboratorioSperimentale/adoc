@@ -1,0 +1,2 @@
+# source = conversazioni tra persone 
+# text = è un botto di tempo che non ci vediamo 

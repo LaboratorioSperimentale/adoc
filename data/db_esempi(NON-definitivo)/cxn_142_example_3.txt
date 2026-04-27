@@ -1,0 +1,2 @@
+# source = corpora.ficlit.unibo.it/CODIS
+# text = Anton Antonovic, non era mia intenzione ... "Ma che succede", continuò tra sé e sé il nostro eroe, rimasto solo, "ma che aria tira da queste parti e che cosa significa questa nuova piega della faccenda?"

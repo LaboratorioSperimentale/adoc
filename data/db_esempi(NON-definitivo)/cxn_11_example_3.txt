@@ -1,0 +1,2 @@
+# source = Italian Web 2016 (itTenTen16)
+# text = (...) Proviamo a fare due conti sulla scorta di alcune analisi condotte

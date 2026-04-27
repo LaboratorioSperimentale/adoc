@@ -1,0 +1,78 @@
+cxn-id: |
+  147
+
+name: |
+  VN compounds
+
+cxn-machine-readable-formalization: |
+  cxn_147.conllc
+
+form: |
+	-  [[x]Vαk [y]Nβi]A|Nγj
+	-
+
+function: |
+	-  [PERSON OR INSTRUMENT THAT PERFORMS A CERTAIN FUNCTION]
+  [EVENT]
+	-  Exocentric compounds indicating instruments or human beings
+  (more rarely events).
+	-
+
+restrictions: |
+	-  [x] is a (usually) bisyllabic verb of the first conjugation.
+  The nature of the verb form is discussed in the literature
+  and can be interpreted as imperative (second person
+  singular) or present indicative (third person singular) [y]
+  is a noun       
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- compounding >> cc:str:compounding
+	- morphology
+	- VN-compounds
+
+functional-tags: 
+	- agent-nouns
+	- exocentric-compounds
+	- instrument-nouns
+	- event-nouns
+
+complexity-level-tags: |
+	-  Word
+	-
+
+category-tags: |
+	-  Noun, Adjective
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+  146
+
+examples: 
+	- cxn_147_example_1.txt
+	- cxn_147_example_2.txt
+
+note: |
+	-  This is the most productive type of compounds in Italian and
+  other Romance languages (excluding Romanian).
+	-  USAGE:
+
+references: |
+
+collector: |
+  Silvia Micheli
+

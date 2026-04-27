@@ -1,0 +1,91 @@
+cxn-id: |
+  121
+
+name: |
+  Attenuazione del verbo
+
+cxn-machine-readable-formalization: |
+  cxn_121.conllc
+
+form: |
+	-  V un po'
+	-
+
+function: |
+	-  Attenuare l'azione.
+	-  È un'espressione informale per attenuare il tono altrimenti
+  rigido di verbi spesso all'imperativo.
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-  V è spesso all'imperativo.
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- lexically-open
+	- verbi >> cc:cxn:verb
+
+functional-tags: 
+	- attenuazione
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Verb
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_121_example_1.txt
+	- cxn_121_example_2.txt
+	- cxn_121_example_3.txt
+	- cxn_121_example_4.txt
+	- cxn_121_example_5.txt
+
+note: |
+	-  La Costruzione V un po' può anche:   - esprimere valori
+  esortativi esempio da ItWac Complete: , ma mentre la
+  giornalista ne parlava hanno fatto vedere alcune immagini
+  satellitari di Roma tratte indovinate un po' da dove ?
+  Google Maps of course !! Ora questo era assolutamente sicuro
+  visto che in alto a sinistra si vedeva chiaramente. es da
+  Repubblica: deve fare i conti con una realtà che ,
+  specialmente sulla costa jonica , non è certo entusiasmante
+  . Facciamolo un po' , idealmente , questo giro in barca
+  della regione . Dopo Maratea qualche possibilità di riparo
+  c' è attorno all' Isola di   - esprimere valori ironici
+  esempio da ItWac Complete: . E l' Animoso sarà Vittorioso e
+  sarà Orgoglioso di piantarti a terra con una lancia nel
+  cuore , s' intende » . « Ma senti un po' ! » ironeggiò
+  Orlando . « Be' , non so proprio se mi fermerò a darti una
+  lezione . Potrei farlo solo se fossi sicuro che   -
+  esprimere idee inaspettate esempio da ItWac
+  Complete: ufficiale della brigata . D' altronde è l' unica
+  che ha avvertito il nostro " fascino zenish " ... io la
+  arruolerei , pensa un pò ! Altra menzione è da farsi per la
+  maglietta sfoggiata da Wild ... ero in estasi ! Wild
+  tranquillo , se ho passato
+	-  USAGE:
+
+references: |
+
+collector: |
+  Davide Baleani
+

@@ -1,0 +1,38 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = 
+# sent_id = 1
+# text = ¿Lo dices de verdad o me estás tomando el pelo?
+1	¿Lo	¿lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	dices	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	de	de	ADP	E	_	4	case	_	_
+4	verdad	verdad	NOUN	S	Gender=Fem	2	obl	_	_
+5	o	o	CCONJ	CC	_	8	cc	_	_
+6	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+7	estás	estáare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	tomando	tomare	VERB	V	VerbForm=Ger	2	conj	_	_
+9	el	ello	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	pelo	pelo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	2	punct	_	_
+
+# source = 
+# sent_id = 2
+# text = Traduzione:
+1	Traduzione	traduzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# source = 
+# sent_id = 3
+# text = Lo dici davvero o mi prendi in giro?
+1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+2	dici	dire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	davvero	davvero	ADV	B	_	2	advmod	_	_
+4	o	o	CCONJ	CC	_	6	cc	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+6	prendi	prendere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	giro	giro	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+

@@ -1,0 +1,2 @@
+# source = itTenTen20
+# text = Non è il diritto che fa la legge, ma è la legge che fa il diritto

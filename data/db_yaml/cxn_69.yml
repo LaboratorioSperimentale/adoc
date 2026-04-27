@@ -1,0 +1,64 @@
+cxn-id: |
+  69
+
+name: |
+  E tu V che X ?
+
+cxn-machine-readable-formalization: |
+  cxn_69.conllc
+
+form: |
+	-  E tu V che X ?
+	-
+
+function: |
+	-  discorsivo-testuale. Sollevare un'obiezione.
+	-
+	-
+
+restrictions: |
+	-
+	-  V = verbo epistemico X=clausola
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+
+formal-tags: 
+	- complex-predicates >> cc:cxn:complex-predicate
+
+functional-tags: 
+	- CRITICISM
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_69_example_1.txt
+	- cxn_69_example_2.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Giulia Giunta
+

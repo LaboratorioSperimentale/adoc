@@ -1,0 +1,2 @@
+# source = italiano colloquiale
+# text = non hai mica capito.

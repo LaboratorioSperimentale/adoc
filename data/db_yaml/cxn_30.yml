@@ -1,0 +1,90 @@
+cxn-id: |
+  30
+
+name: |
+  A scanso di X Prep a + N scanso + Prep di + X X --> N;  Det+
+  N; Det+Adj+N;  Det1 + Det2 + Adj1 + Adj2 + N; ...
+
+cxn-machine-readable-formalization: |
+  cxn_30.conllc
+
+form: |
+	-  A scanso di X Prep a + N scanso + Prep di + X X --> N;  Det+
+  N; Det+Adj+N;  Det1 + Det2 + Adj1 + Adj2 + N; ...
+	-  Il sostantivo maschile "scanso" in forma nominale è una
+  forma anomala poichè utilizzato solo nella locuzione "A
+  scanso di". Non esistono (o non sono utilizzate) frasi come
+  "Lo scanso di Marco nei confronti di Laura o "La volontà di
+  scanso di questa possibilità" (risultano non accettabili e
+  non appropriate)...
+
+function: |
+	-  La costruzione è utilizzata per prevenire, evitare o
+  eliminare l'ipotesi che X si verifichi. 
+	-
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-  - utilizzata prevalentemente nella forma "A scanso di + Npl"
+  dove N= equivoci.  - Generalmente N chiude la costruzione
+  (vedi esempi dai corpora). Si possono tuttavia trovare forme
+  come "A scanso di chiusura dello stabilimento monzese[...]"
+  (Corpus CORIS http://corpora.ficlit.unibo.it/TCORIS/Context.
+  php?Start=1746810&End=1746810 ) --> dove troviamo "A scanso
+  di + N + Prepart + N + Adj"  - Preferibilmente, N è un nome
+  con una semantica che esprime sfumature di significato
+  negative (equivoci; dubbi; malintesi; errori; guai;
+  polemiche ecc.) proprio in virtù della valenza dell'intera
+  costruzione.
+
+usage: |
+
+formal-tags: 
+	- Substantive-idiom
+	- unfamiliar-piece
+	- unfamiliarly-rearranged
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_30_example_1.txt
+	- cxn_30_example_2.txt
+	- cxn_30_example_3.txt
+	- cxn_30_example_4.txt
+	- cxn_30_example_5.txt
+
+note: |
+	-
+	-  USAGE: particolarmente usato - e preferito- in incisi nel
+  linguaggio colloquiale e giornalistico, è ad alto uso quando
+  si vuole scongiurare la teorica eventualità che qualcosa si
+  verifichi. Parzialmente produttivo.
+
+references: |
+
+collector: |
+  Marco Obino
+

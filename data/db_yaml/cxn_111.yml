@@ -1,0 +1,70 @@
+cxn-id: |
+  111
+
+name: |
+  Vedersela/Me la vedo io, veditela tu
+
+cxn-machine-readable-formalization: |
+  cxn_111.conllc
+
+form: |
+	-  Morfologia e sintassi: verbo con uso intransitivo
+  pronominale che si presenta in forme diverse.
+	-
+
+function: |
+	-  Il significato è "occuparsi da soli di una data situazione"
+	-
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- complex-predicates >> cc:cxn:complex-predicate
+	- unformal
+
+functional-tags: 
+	- action >> cc:inf:active-referent
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Verb
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_111_example_1.txt
+	- cxn_111_example_2.txt
+	- cxn_111_example_3.txt
+	- cxn_111_example_4.txt
+	- cxn_111_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Maria Olga Giaccari
+

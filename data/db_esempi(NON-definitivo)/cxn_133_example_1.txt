@@ -1,0 +1,2 @@
+# source = corpus: itTenTen20
+# text = in lontananza vedo un gruppo di persone che va in direzione dei convogli. Le porte si aprono velocemente, che fortuna ! Il presidente del consiglio d'Europa rientra a casa per il fine settimana, si parte in perfetto orario.

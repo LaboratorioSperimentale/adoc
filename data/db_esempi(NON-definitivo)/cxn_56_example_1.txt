@@ -1,0 +1,2 @@
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=20094364&End=20094364
+# text = La cacciata della O ogni giorno provocava nuovi casini. Ad esempio,  sorsero grosse complicazioni internazionali: l ' ONU diventò NU, e  quell ' Assemblea s'offese vedendosi confusa con la sigla della  Nettezza Urbana; l ' OMS (l'Organizzazione Mondiale della Sanità),  appena dopo una campagna contro il fumo, si sentì chiamare MS, come  le note sigarette: apriti cielo!  

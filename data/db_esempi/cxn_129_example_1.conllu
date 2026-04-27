@@ -1,0 +1,46 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS Time Slice:	CORIS1980_2000 SubCorpus :	NARRAT
+# sent_id = 1
+# text = Precisiamo , però ; non è che non provassi sconcerto , ero anzi in_preda_all ' angoscia e del mio diaframma l ' orrore aveva fatto un anello di acciaio che serrava fino_a togliermi il respiro .
+1	Precisiamo	precisere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	però	però	ADV	B	_	1	advmod	_	_
+4	;	;	PUNCT	FC	_	1	punct	_	SpacesAfter= 
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+7	che	che	SCONJ	CS	_	9	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	SpacesAfter= 
+9	provassi	provare	VERB	V	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	ccomp	_	_
+10	sconcerto	sconcerto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	14	cop	_	_
+13	anzi	anzi	ADV	B	_	14	advmod	_	_
+14	in_preda_all	in_preda_all	ADJ	A	Number=Sing	6	conj	_	_
+15	'	'	PUNCT	FB	_	16	punct	_	_
+16	angoscia	angoscia	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+17	e	e	CCONJ	CC	_	21	cc	_	_
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	21	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	diaframma	diaframma	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	_
+22	l	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	'	'	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	orrore	orrore	NOUN	S	Gender=Masc|Number=Sing	26	nsubj	_	_
+25	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	26	aux	_	_
+26	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	anello	anello	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	acciaio	acciaio	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+31	che	che	PRON	PR	PronType=Rel	32	nsubj	_	_
+32	serrava	serrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	acl:relcl	_	_
+33	fino_a	fino_a	ADV	B	_	32	advmod	_	_
+34	togliermi	togliere	VERB	V	VerbForm=Inf	32	xcomp	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	respiro	respiro	NOUN	S	Gender=Masc|Number=Sing	34	obj	_	_
+37	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+

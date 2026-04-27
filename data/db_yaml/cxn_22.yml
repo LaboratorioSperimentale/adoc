@@ -1,0 +1,79 @@
+cxn-id: |
+  22
+
+name: |
+  non avere-TNS uno straccio di Nsg
+
+cxn-machine-readable-formalization: |
+  cxn_22.conllc
+
+form: |
+	-  non avere-TNS uno straccio di Nsg
+	-
+
+function: |
+	-  La costruzione enfatizza il mancato possesso di un'entità
+  concreta o astratta.
+	-
+	-  La costruzione è idiomatica a livello di funzione perchè il
+  suo significato, pur essendo abbastanza trasparente, non è
+  composizionale.
+
+restrictions: |
+	-
+	-  La costruzione presenta alcune restrizioni formali: il nome
+  straccio deve comparire necessariamente al singolare, può
+  essere accompagnato solo dall'articolo indeterminativo uno e
+  non può essere modificato, mentre N deve essere un nome
+  singolare senza alcun determinante, che può però avere dei
+  modificatori. 
+
+coll-preferences: |
+	-
+	-  N può riferirsi sia a oggetti concreti (documento, laurea,
+  cartello...) che a concetti più astratti (immaginazione,
+  risposta, ragione...). Penso ci siano preferenze
+  collocazionali in quanto ci sono alcuni nomi che non possono
+  occupare la posizione di N.
+
+usage: |
+
+formal-tags: 
+	- complex-predicates >> cc:cxn:complex-predicate
+
+functional-tags: 
+	- intensification
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_22_example_1.txt
+	- cxn_22_example_2.txt
+	- cxn_22_example_3.txt
+	- cxn_22_example_4.txt
+	- cxn_22_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Eva Brunetti Busetto
+

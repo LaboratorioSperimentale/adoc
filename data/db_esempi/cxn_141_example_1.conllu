@@ -1,0 +1,19 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = 
+# sent_id = 1
+# text = Ancora ora noto che i tuoi occhi sono color nocciola.
+1	Ancora	ancora	ADV	B	_	2	advmod	_	_
+2	ora	ora	ADV	B	_	3	advmod	_	_
+3	noto	notare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	tuoi	tuo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	color	colui	NOUN	S	Gender=Masc|Number=Sing	3	ccomp	_	_
+10	nocciola	nocciola	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+

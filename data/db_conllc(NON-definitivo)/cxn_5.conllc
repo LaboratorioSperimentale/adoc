@@ -1,0 +1,6 @@
+# cxn_id = 5 
+# name = Adj + come + N 
+# function = Il costrutto indica una caratteristica positiva di una persona attraverso il paragone con un termine le cui qualità sono universalmente riconosciute. 
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

@@ -1,0 +1,27 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=28951230&End=28951232
+# sent_id = 1
+# text = "Ci è sembrato un atto sereno, civile, ma anche ovvio, rispondere" (dubbio)
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	sembrato	sembrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	atto	atto	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	sereno	sereno	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	civile	civile	ADJ	A	Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	ma	ma	CCONJ	CC	_	13	cc	_	_
+12	anche	anche	ADV	B	_	13	advmod	_	_
+13	ovvio	ovvio	ADJ	A	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	rispondere	rispondere	VERB	V	VerbForm=Inf	4	conj	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	4	punct	_	_
+17	(	(	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+18	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	4	parataxis	_	SpaceAfter=No
+19	)	)	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+
+

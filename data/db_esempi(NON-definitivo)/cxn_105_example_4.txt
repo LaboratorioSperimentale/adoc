@@ -1,0 +1,2 @@
+# source = CORIS https://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=36911164&End=36911164
+# text = Di colpo quello che  per fare perse ogni attrattiva .

@@ -1,0 +1,2 @@
+# source = CORIS 2021
+# text = A ridosso della parete ci sono la cucina a gas , lo scaldabagno (to heat+bathroom), la lavastoviglie (to wash+crockery). 'Close to the wall there are the gas cooker, the water heater, the dishwasher'.

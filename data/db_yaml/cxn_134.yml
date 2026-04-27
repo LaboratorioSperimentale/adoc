@@ -1,0 +1,71 @@
+cxn-id: |
+  134
+
+name: |
+  espressioni per esprimere quantità
+
+cxn-machine-readable-formalization: |
+  cxn_134.conllc
+
+form: |
+	-  Det+ N + Prep + Agg/ N  Un botto (di) + Agg/ N
+	-
+
+function: |
+	-  Utilizzato in luogo di un avverbio per indicare quantità o
+  qualità
+	-  è una costruzione con valore avverbiale, utilizzata in luogo
+  di "molto", tipica della lingua parlata. Una finalità simile
+  si ritrova anche in espressioni quali "un sacco (di)", "una
+  cifra", "una marea (di)". Potrebbe essere interessato dal
+  fenomeno della concordanza a senso. 
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- adverb >> cc:cxn:support-verb
+
+functional-tags: 
+	- plurality
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-  Adverb
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_134_example_1.txt
+	- cxn_134_example_2.txt
+	- cxn_134_example_3.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Federica Giovanna Marchiselli
+

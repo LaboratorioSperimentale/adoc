@@ -1,0 +1,68 @@
+cxn-id: |
+  33
+
+name: |
+  a occhio e croce
+
+cxn-machine-readable-formalization: |
+  cxn_33.conllc
+
+form: |
+	-  a occhio e croce
+	-  la costruzione non presenta particolarità sintattiche
+
+function: |
+	-  espressione comunemente usata per indicare misurazioni o
+  valutazioni non perfettamente precise, basate su uno sguardo
+  non approfondito
+	-
+	-  Il significato dell'espressione è comprensibile dalla somma
+  dei costituenti, non dalle singole parti.
+
+restrictions: |
+	-
+	-  L'intera costruzione è costituita da slot fissi.
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+
+formal-tags: 
+	- approximation/-valuation
+
+functional-tags: 
+	- generalizing
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  fully schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_33_example_1.txt
+	- cxn_33_example_2.txt
+	- cxn_33_example_3.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Francesca Ianni'
+

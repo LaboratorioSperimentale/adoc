@@ -1,0 +1,2 @@
+# source = Corpus: CORIS
+# text = [...] Dice Santina Vinciguerra [...] "tra qualche settimana andremo a verificare".

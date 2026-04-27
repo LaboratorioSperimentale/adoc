@@ -1,0 +1,2 @@
+# source = facebook - impariamo l'italiano 
+# text = In quell'azienda mi sono fatto le ossa per dieci anni.

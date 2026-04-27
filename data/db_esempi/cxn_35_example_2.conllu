@@ -1,0 +1,16 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=31153106&End=31153107
+# sent_id = 1
+# text = Così , avete intenzione di presto famiglia ?
+1	Così	così	ADV	B	_	3	advmod	_	SpacesAfter= 
+2	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter= 
+3	avete	avere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter= 
+4	intenzione	intenzione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpacesAfter= 
+5	di	di	ADP	E	_	7	case	_	SpacesAfter=  
+6	presto	presto	ADV	B	_	7	advmod	_	SpacesAfter= 
+7	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpacesAfter= 
+8	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+

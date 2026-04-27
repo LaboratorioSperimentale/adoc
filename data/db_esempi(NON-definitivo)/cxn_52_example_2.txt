@@ -1,0 +1,2 @@
+# source = conversazione telefonica
+# text = Se Luca si imbarazza tanto ha parlarne è perchè ha la coda di paglia.

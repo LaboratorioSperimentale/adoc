@@ -1,0 +1,2 @@
+# source = Corpus: CORIS
+# text = Joss era dimagrito e sembrava più vulnerabile che mai.

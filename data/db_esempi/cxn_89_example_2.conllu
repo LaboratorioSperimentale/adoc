@@ -1,0 +1,16 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Reverso context dizionario online
+# sent_id = 1
+# text = Quel bebè non fa altro che piangere.
+1	Quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	bebè	bebè	NOUN	S	Gender=Masc	4	nsubj	_	SpacesAfter= 
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obj	_	_
+6	che	che	SCONJ	CS	_	7	mark	_	SpacesAfter= 
+7	piangere	piangere	VERB	V	VerbForm=Inf	5	acl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+

@@ -1,0 +1,2 @@
+# source = Esempio inventato da me
+# text = Questa borsa è tanto bella quanto costosa

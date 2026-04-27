@@ -1,0 +1,66 @@
+cxn-id: |
+  142
+
+name: |
+  Verbo+che+"aria tira"
+
+cxn-machine-readable-formalization: |
+  cxn_142.conllc
+
+form: |
+	-  Verbo+che+"aria tira" 
+	-
+
+function: |
+	-  to express understanding of a situation
+	-
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-  con i verbi: capire, sapere, sentire, vedere
+	-
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  lexically filled
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_142_example_1.txt
+	- cxn_142_example_2.txt
+	- cxn_142_example_3.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Julia
+

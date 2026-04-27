@@ -1,0 +1,6 @@
+# cxn_id = 151 
+# name = Caused Motion + via Construction 
+# function = La costruzione profila un tipo di evento di moto causato ed è caratterizzata dalla presenza della particella via, che può collocarsi subito dopo il verbo o dopo l'oggetto diretto. La particella favorisce il senso locativo, sia letterale che metaforico 
+# horizontal_links = 150 
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

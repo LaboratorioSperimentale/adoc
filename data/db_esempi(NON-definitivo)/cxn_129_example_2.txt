@@ -1,0 +1,2 @@
+# source = CORIS Time Slice:	CORIS1980_2000 SubCorpus :	NARRAT
+# text = Ma c ' era un altro ( forse Chesterton ? ) che aveva detto : da quando gli uomini non credono più in Dio , non è che non credano più a nulla , credono a tutto .

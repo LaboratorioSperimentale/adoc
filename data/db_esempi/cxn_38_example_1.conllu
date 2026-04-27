@@ -1,0 +1,13 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://193.205.158.203/metamotorelessico/MetamotoreLessico.html
+# sent_id = 1
+# text = Dare un colpo di telefono
+1	Dare	dare	VERB	V	VerbForm=Inf	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpacesAfter= 
+4	di	di	ADP	E	_	5	case	_	SpacesAfter= 
+5	telefono	telefono	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+
+

@@ -1,0 +1,21 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: Coris Timeslice: CORIS 1980_2000  Subcorpus: PRACC
+# sent_id = 1
+# text = chi rompe paga diremmo noi , chi inquina paga dicono i tedeschi .
+1	chi	chi	PRON	PR	Number=Sing|PronType=Rel	4	nsubj	_	_
+2	rompe	rompere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+3	paga	paga	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+4	diremmo	dire	VERB	V	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	chi	chi	PRON	PR	PronType=Rel	10	nsubj	_	_
+8	inquina	inquinare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+9	paga	paga	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+10	dicono	dire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	tedeschi	tedesco	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+13	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+

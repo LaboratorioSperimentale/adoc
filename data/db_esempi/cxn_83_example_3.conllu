@@ -1,0 +1,10 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = 
+# sent_id = 1
+# text = prendere freddo
+1	prendere	prendere	VERB	V	VerbForm=Inf	0	root	_	_
+2	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+
+

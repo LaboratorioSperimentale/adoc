@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS 2021
+# sent_id = 1
+# text = Voi tutti al massimo potreste fare i capiclasse (heads+class) in una prima elementare con la didattica a distanza.
+1	Voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	7	nsubj	_	_
+2	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	7	nsubj	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	massimo	massimo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+6	potreste	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	capiclasse	capiclassa	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	heads+class	heads+class	NOUN	S	_	9	nmod	_	SpaceAfter=No
+12	)	)	PUNCT	FB	_	11	punct	_	_
+13	in	in	ADP	E	_	16	case	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	16	amod	_	_
+16	elementare	elementare	NOUN	S	Number=Sing	7	obl	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	didattica	didattica	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	7	punct	_	_
+
+# source = CORIS 2021
+# sent_id = 2
+# text = 'All of you could at best be class leader in a first grade class with distance learning'.
+1	'	'	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	All	All	X	SW	Foreign=Yes	9	nsubj	_	_
+3	of	of	ADP	E	Foreign=Yes	2	flat:foreign	_	_
+4	you	you	X	SW	Foreign=Yes	2	flat:foreign	_	_
+5	could	couldre	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+6	at	at	X	SW	Foreign=Yes	7	case	_	_
+7	best	best	X	SW	Foreign=Yes	2	flat:foreign	_	_
+8	be	be	X	SW	Foreign=Yes	9	flat:foreign	_	_
+9	class	class	X	SW	Foreign=Yes	0	root	_	_
+10	leader	leader	NOUN	S	Foreign=Yes	9	flat:foreign	_	_
+11	in	in	ADP	E	_	15	case	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	first	first	ADJ	A	_	15	amod	_	_
+14	grade	grade	NOUN	SW	Foreign=Yes	15	nmod	_	_
+15	class	class	NOUN	S	Gender=Masc	9	nmod	_	_
+16	with	with	X	SW	_	15	case	_	_
+17	distance	distance	NOUN	SW	Foreign=Yes	15	nmod	_	_
+18	learning'	learning'	X	SW	_	17	flat:foreign	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	9	punct	_	SpaceAfter=No
+
+

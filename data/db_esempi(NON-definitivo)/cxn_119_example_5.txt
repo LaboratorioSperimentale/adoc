@@ -1,0 +1,2 @@
+# source = CORPUS: MONITOR2001_04
+# text = «Non a caso, la confessione è stata chiamata "la psicoanalisi dei poveri"».

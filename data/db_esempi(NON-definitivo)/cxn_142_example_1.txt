@@ -1,0 +1,2 @@
+# source = www.corpusitaliano.it
+# text = Ieri, in occasione dei già documentati provini della seconda edizione di X Factor, abbiamo chiacchierato con Francesco Facchinetti per capire che aria tira nei nuovi casting e in questo suo periodo professionale fortunato e ricco di impegni.

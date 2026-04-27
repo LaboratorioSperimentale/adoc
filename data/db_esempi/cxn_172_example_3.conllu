@@ -1,0 +1,66 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = 1
+# text = Quella era la sua filosofia di vita:
+1	Quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	filosofia	filosofia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	vita	vita	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	5	punct	_	_
+
+# source = CORIS
+# sent_id = 2
+# text = caricava sempre perché ci provava con tutte, belle, brutte, grasse e magre.
+1	caricava	caricare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	sempre	sempre	ADV	B	_	1	advmod	_	_
+3	perché	perché	SCONJ	CS	_	5	mark	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	expl	_	_
+5	provava	provare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	advcl	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	belle	bello	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	brutte	brutto	ADJ	A	Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	grasse	grasso	ADJ	A	Gender=Fem|Number=Plur	9	conj	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	magre	magro	ADJ	A	Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# source = CORIS
+# sent_id = 3
+# text = Guido non era a questi livelli, certo, ma trovava interessante la sua teoria e l'avrebbe messa in pratica quel sabato e domenica.
+1	Guido	Guido	PROPN	SP	_	6	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	livelli	livello	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	certo	certo	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	ma	ma	CCONJ	CC	_	11	cc	_	_
+11	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	conj	_	_
+12	interessante	interessante	ADJ	A	Number=Sing	11	xcomp	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	teoria	teoria	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	19	obj	_	SpaceAfter=No
+18	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	messa	mettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	pratica	pratica	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+22	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
+23	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+
+

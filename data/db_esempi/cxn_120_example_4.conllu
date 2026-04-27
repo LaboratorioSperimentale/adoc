@@ -1,0 +1,15 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Dialoghi tra persone
+# sent_id = 1
+# text = Vado là di Mario e torno.
+1	Vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	là	là	ADV	B	_	1	advmod	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Mario	Mario	PROPN	SP	_	1	obl	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	torno	tornare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+

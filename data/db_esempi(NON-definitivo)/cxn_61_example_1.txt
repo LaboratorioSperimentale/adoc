@@ -1,0 +1,2 @@
+# source = Italiano colloquiale
+# text = Immagina andare a scuola e scoprire che è festa

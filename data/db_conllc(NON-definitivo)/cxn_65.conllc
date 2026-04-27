@@ -1,0 +1,6 @@
+# cxn_id = 65 
+# name = X Adv che Y   
+# function = [X]FOCUS 
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

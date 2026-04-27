@@ -1,0 +1,2 @@
+# source = Treccani
+# text = Fare finta di nulla

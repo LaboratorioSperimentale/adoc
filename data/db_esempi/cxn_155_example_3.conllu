@@ -1,0 +1,21 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = 1
+# text = Porfirio racconta che Plotino non confidò a nessuno la sua data di nascita
+1	Porfirio	Porfirio	PROPN	SP	_	2	nsubj	_	_
+2	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	Plotino	Plotino	PROPN	SP	_	6	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	confidò	confidare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	data	data	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	nascita	nascita	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+
+

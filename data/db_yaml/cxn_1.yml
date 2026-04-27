@@ -1,0 +1,117 @@
+cxn-id: |
+  1
+
+name: |
+  non vedo perchè doverefles Vinf  adv (e/o)Prep. X
+
+cxn-machine-readable-formalization: |
+  cxn_1.conllc
+
+form: |
+	-  non vedo perchè doverefles Vinf  adv (e/o)Prep. X
+	-  la costruzione è formata dalla prima parte fissa e la
+  seconda parte con costituenti che presentano maggiore
+  variabilità
+
+function: |
+	-  esprime contrarietà rispetto allo svolgimento di un'azione,
+  di un'attività o rispetto ad uno stato d'animo, ad un
+  pensiero espresso da altri o pensato in prima persona. 
+	-
+	-  la comprensione di questo tipo di costruzione non è
+  possibile se si prescinde dal contesto, prevede infatti una
+  coreferenza con un discorso precedente riferito
+  all'interazione fra conoscenti.
+
+restrictions: |
+	-
+	-  -"Non vedo perchè": si trova in posizione iniziale con
+  ordine fisso e costituenti non variabili. -Nel caso in cui
+  la frase venga espressa senza elementi sottintesi, il verbo
+  modale che lo segue è necessariamente -dovere, il quale
+  subisce flessione. Nel caso non sia presente è appunto
+  sottinteso come "non vedo perchè di questo conflitto" La
+  parte che segue, nel caso in cui la frase sia espressa nella
+  sua interezza e senza sottintesi è un V all'infinito; i
+  costituenti successivi al V presentano una variabilità da un
+  punto di vista dei costituenti e meno fissità. 
+
+coll-preferences: |
+	-
+	-  -V: deve necessariamente essere all'infinito. In alcuni casi
+  può essere accompagnato da pronomi personali clitici posti
+  alla fine del verbo. adv: possono essere avverbi spaziali
+  deittici o temporali. Può essere assente -Prep: deve essere
+  una preposizione semplice. in alcuni costrutti può essere
+  assente L'avverbio e la preposizioni possono cooccorrere,
+  essere entrambi assenti o vi possono essere costrutti con
+  solo uno di essi. X: può essere un N, V, Pronome
+  Successivamente al V i costituenti possono anche essere
+  assenti in alcuni costrutti (ex 3). Ci sono anche costrutti
+  in cui tutto viene sottinteso a parte la parte iniziale "non
+  vedo perchè..." o anche "non vedo perchè dovrei".  la
+  valenza della costruzione può quindi essere ridotta
+  all'essenziale in "non vedo perchè", però la valenza varia
+  anche a seconda del significato che ogni singolo costrutto
+  deve esprimere e quindi a seconda del contesto, essendo un
+  tipo di costruzione la cui interpretazione deriva appunto
+  dal contesto colloquiale e dall'interazione tra soggetti. 
+
+usage: |
+  Frequent
+
+formal-tags: 
+	- semi-fixity
+	- semi-variability
+
+functional-tags: 
+	- opposition
+	- disappointment
+	- context-dependence
+
+complexity-level-tags: |
+	-
+	-  Word
+
+category-tags: |
+	-
+	-  Adjective
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+  61, 29
+
+vertical-links: |
+  29
+
+examples: 
+	- cxn_1_example_1.txt
+	- cxn_1_example_2.txt
+	- cxn_1_example_3.txt
+	- cxn_1_example_4.txt
+	- cxn_1_example_5.txt
+
+note: |
+	-  lo schema della costruzione che riporto è quella in cui
+  nessun elemento viene sottinteso, però preciso che sopo il
+  -perchè possono seguire diversi tipi di elementi, perciò
+  volendo aggiungere una forma sintetica si potrebbe indicare
+  il costrutto con lo schema : non vedo perchè X, considerando
+  costruzioni come " non vedo perchè no", "non vedo perchè in
+  Francia". Però penso che in questi casi vengano comunque
+  sottintesi elementi presenti nello schema riportato
+  all'inizio. Tutti i costrutti rimangono infatti
+  comprensibili grazie all'abituale utilizzo della frase, il
+  quale quindi permette di sottintedere alcune sue parti, in
+  congiunto con il riferimento al contesto colloquiale. 
+	-  USAGE:
+
+references: |
+
+collector: |
+  Marianna Ceravolo
+

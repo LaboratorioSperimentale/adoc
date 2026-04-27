@@ -1,0 +1,2 @@
+# source = Corpus: itWaC
+# text = Ma magari prendo e mi vado a cercare una stanza in città.

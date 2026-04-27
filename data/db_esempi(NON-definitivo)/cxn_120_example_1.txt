@@ -1,0 +1,2 @@
+# source = Dialoghi tra persone
+# text = Ci vediamo là della scuola.

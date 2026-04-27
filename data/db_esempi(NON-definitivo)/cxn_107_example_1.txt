@@ -1,0 +1,2 @@
+# source = Dizionario Internazionale
+# text =  Facciamo finta che questo non sia successo

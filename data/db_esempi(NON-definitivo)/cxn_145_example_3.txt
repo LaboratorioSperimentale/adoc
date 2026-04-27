@@ -1,0 +1,2 @@
+# source = laRepubblica corpus
+# text = Un impiegato potrebbe denunciare domani il capufficio (head+office) perché , non promovendolo , gli ha fatto venire l' ulcera. 'An employee could sue his office manager tomorrow because, by not promoting him, he gave him an ulcer'. 

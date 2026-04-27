@@ -1,0 +1,2 @@
+# source = Italian Web 2016 (itTenTen16)
+# text = è l'ennesima prova che Nortan amplia costantemente la propria gamma di prodotti 

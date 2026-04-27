@@ -6,8 +6,8 @@ from urllib.request import Request, urlopen
 
 # lettura dei file input
 
-folderin = "cxn_examples_unparsed"
-folderout = "cxn_examples_parsed"
+folderin = "data\db_esempi(NON-definitivo)"
+folderout = "data\db_esempi"
 os.makedirs(folderout, exist_ok=True)
 
 # parser

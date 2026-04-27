@@ -1,0 +1,75 @@
+cxn-id: |
+  84
+
+name: |
+  Costruzione enfatica con il doppio "che"
+
+cxn-machine-readable-formalization: |
+  cxn_84.conllc
+
+form: |
+	-  che (x) che (y) che+Adj+che+V
+	-
+
+function: |
+	-  funzione enfatica.
+	-  La costruzione, estremamente colloquiale e usata in una
+  vaerietà non standard dell'italiano, tramite l'aggettivo che
+  segue il primo "che," enfatizza lo stato d’animo/sentimenti
+  suscitati dall’azione espressa dal verbo che segue il
+  secondo "che".
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- che-polivalente
+	- lexically-open
+	- che-construction
+
+functional-tags: 
+	- intensification
+	- focus-marker
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Interjection
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_84_example_1.txt
+	- cxn_84_example_2.txt
+	- cxn_84_example_3.txt
+	- cxn_84_example_4.txt
+	- cxn_84_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Mariasofia La Cava
+

@@ -1,0 +1,2 @@
+# source = http://www.scudit.net/copertine/pdffarfare.pdf
+# text = Il padre lascia usare la macchina al figlio

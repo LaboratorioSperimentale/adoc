@@ -1,0 +1,2 @@
+# source = ItWac
+# text = Cosa non fare:mettere spoiler nei titoli delle discussioni

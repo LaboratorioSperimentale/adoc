@@ -1,0 +1,71 @@
+cxn-id: |
+  26
+
+name: |
+  Avere + le mani legate
+
+cxn-machine-readable-formalization: |
+  cxn_26.conllc
+
+form: |
+	-  Avere + le mani legate
+	-  L'espressione non viola alcuna regola sintattica. 
+
+function: |
+	-  Esprime un'impossibilità d'agire, di modificare qualcosa, di
+  migliorare una situazione. 
+	-
+	-  Il significato del sintagma non è automaticamente
+  interpretabile se non da parlanti nativi che siano in
+  possesso della locuzione e del suo significato.
+  L'espressione non è interpretabile se non in riferimento ad
+  una precisa situazione comunicativa che riesca ad
+  esplicitarne il senso. 
+
+restrictions: |
+	-
+	-  Si tratta di un idioma fully filled: è unicamente possibile
+  la flessione verbale del verbo Avere. 
+
+coll-preferences: |
+	-
+	-  Espressione convenzionalizzata in situazioni comunicative
+  colloquiali. 
+
+usage: |
+
+formal-tags: 
+	- complex-predicates >> cc:cxn:complex-predicate
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  lexically filled
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_26_example_1.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Silvia Lomuscio
+

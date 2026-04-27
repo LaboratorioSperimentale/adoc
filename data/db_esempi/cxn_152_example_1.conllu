@@ -1,0 +1,41 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = 1
+# text = I Paesi Bassi non spediscono pelli di animali (...) provenienti dalle parti del proprio territorio elencate nell' allegato I.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Paesi	Paesi	PROPN	SP	_	5	nsubj	_	_
+3	Bassi	Bassi	PROPN	SP	_	2	flat:name	_	SpacesAfter= 
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	spediscono	spedire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	pelli	pelle	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpacesAfter= 
+7	di	di	ADP	E	_	8	case	_	_
+8	animali	animale	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+9	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	...	...	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	10	punct	_	_
+12	provenienti	provenire	VERB	V	Number=Plur|Tense=Pres|VerbForm=Part	8	acl	_	_
+13-14	dalle	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	parti	parte	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	territorio	territorio	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+20	elencate	elencare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	15	acl	_	_
+21-22	nell'	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	allegato	allegato	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24	I.	I.	PROPN	SP	_	23	nmod	_	_
+
+# source = ItWac
+# sent_id = 2
+# text = 2.
+1	2	2	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter= 
+
+

@@ -1,0 +1,2 @@
+# source = Corpus: Italian Web 2020 (ItTenTen20)
+# text =  Ma quello che mi interessa in questo caso è piuttosto il discorso sugli ex terroristi

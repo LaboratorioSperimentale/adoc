@@ -1,0 +1,2 @@
+# source = ItWac
+# text = Esistono persone che non danno importanza ai nomi delle cime e alle loro altezze

@@ -1,0 +1,2 @@
+# source = Glosbe dizionario online
+# text =    Non dirmi cosa significa essere in bolletta finché non sei stato in bolletta in una grande città 

@@ -1,0 +1,79 @@
+cxn-id: |
+  66
+
+name: |
+  prima X, prima Y Formal variants: prima X prima Y, prima X e
+  prima Y
+
+cxn-machine-readable-formalization: |
+  cxn_66.conllc
+
+form: |
+	-  prima X, prima Y Formal variants: prima X prima Y, prima X e
+  prima Y
+	-  There are fixed parts "prima... prima... " that are
+  separated by slots that can be filled with different
+  linguistic elements.
+
+function: |
+	-  Xi (IN ORDER TO) Yi
+	-
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-
+	-  X = V (single word, phrases or sentences) Y = V (single
+  word, phrases or sentences)
+
+usage: |
+
+formal-tags: 
+	- reduplication
+	- repetition
+	- discontinuous-reduplication
+
+functional-tags: 
+	- consequentiality
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_66_example_1.txt
+	- cxn_66_example_2.txt
+	- cxn_66_example_3.txt
+	- cxn_66_example_4.txt
+	- cxn_66_example_5.txt
+
+note: |
+	-  Interestingly, the similar construction 'prima x e poi y'
+  combines not only with verbs but also with nouns, which is
+  not possible with the construction 'prima V, prima V'. For
+  example: 'Prima i compiti, poi il gioco', but not 'prima i
+  compiti, prima il gioco'. In the second case, the temporal
+  and sometimes causal meaning is lost. 
+	-  USAGE:
+
+references: |
+
+collector: |
+  Eliana Di Palma
+

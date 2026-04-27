@@ -1,0 +1,2 @@
+# source = Corpus: itWaC
+# text = […] ornando di luci simil-natalizie gli alberi.

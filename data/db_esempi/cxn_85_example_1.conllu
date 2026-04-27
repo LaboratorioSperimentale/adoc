@@ -1,0 +1,37 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = 1
+# text = Luisa, che forse è stata anche felice nei suoi anni di matrimonio con Bruno, scopre che è ora di dire addio a tutto questo.
+1	Luisa	Luisa	PROPN	SP	_	18	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+4	forse	forse	ADV	B	_	8	advmod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+7	anche	anche	ADV	B	_	8	advmod	_	_
+8	felice	felice	ADJ	A	Number=Sing	1	acl:relcl	_	_
+9-10	nei	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	con	con	ADP	E	_	16	case	_	_
+16	Bruno	Bruno	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	1	punct	_	_
+18	scopre	scoprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	che	che	SCONJ	CS	_	21	mark	_	_
+20	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	ora	ora	ADV	B	_	18	ccomp	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	dire	dire	VERB	V	VerbForm=Inf	21	advcl	_	_
+24	addio	addio	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	27	det	_	_
+27	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	23	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	18	punct	_	SpaceAfter=No
+
+

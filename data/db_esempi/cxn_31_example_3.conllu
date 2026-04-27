@@ -1,0 +1,11 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://www.wikihow.it/Saltare-una-Lezione#:~:text=%20Consigli%20%201%20Se%20vuoi%20saltare%20una,lontano%20dall%27ingresso%20e%20dalle%20telecamere%20che...%20More%20
+# sent_id = 1
+# text = saltare la lezione
+1	saltare	saltare	VERB	V	VerbForm=Inf	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	lezione	lezione	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpacesAfter= 
+
+

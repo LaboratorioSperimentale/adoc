@@ -1,0 +1,24 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itTenTen20
+# sent_id = 1
+# text = Mio figlio di sei mesi dà di stomaco molto spesso, devo allarmarmi?
+1	Mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	sei	sei	NUM	N	NumType=Card	5	nummod	_	_
+5	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpacesAfter= 
+6	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	stomaco	stomaco	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpacesAfter= 
+9	molto	molto	ADV	B	_	10	advmod	_	_
+10	spesso	spesso	ADV	B	_	6	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13-14	allarmarmi	_	_	_	_	_	_	_	SpaceAfter=No
+13	allarmar	allarmare	VERB	V	VerbForm=Inf	6	conj	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	obj	_	_
+15	?	?	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+
+

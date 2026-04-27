@@ -1,0 +1,30 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CorpusPaisà (corpusitaliano.it)
+# sent_id = 1
+# text = Le caratteristiche del Circuito di Singapore hanno spinto a dare all'ala anteriore un aspetto più arrotondato.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	caratteristiche	caratteristica	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Circuito	Circuito	PROPN	SP	_	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Singapore	Singapore	PROPN	SP	_	5	nmod	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	spinto	spingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	dare	dare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12-13	all'	_	_	_	_	_	_	_	SpaceAfter=No
+12	a	a	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	ala	ala	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15	anteriore	anteriore	ADJ	A	Number=Sing	14	amod	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+18	più	più	ADV	B	_	19	advmod	_	_
+19	arrotondato	arrotondato	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	9	punct	_	SpaceAfter=No
+
+

@@ -1,0 +1,2 @@
+# source = CORIS  https://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=1032310&End=1032310
+# text = non so se quello che  per dire può consolarla , e consolarmi , ma io " me la sentivo " .

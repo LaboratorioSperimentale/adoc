@@ -1,0 +1,2 @@
+# source = Twitter
+# text = Immagina farti la doccia per andare in palestra

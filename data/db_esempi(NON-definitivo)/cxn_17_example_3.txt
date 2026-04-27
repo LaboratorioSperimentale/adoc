@@ -1,0 +1,2 @@
+# source = Corpus: CORIS
+# text = Sapevo che prima o poi sarebbe arrivato: questo gol è importante per l'ambiente oltre che per me.

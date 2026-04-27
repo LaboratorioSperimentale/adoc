@@ -1,0 +1,2 @@
+# source = CORIS https://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=15796865&End=15796865 
+# text =  per dimenticare i miglioramenti che sono stati apportati nella gestione dell ' intelligenza artificiale .

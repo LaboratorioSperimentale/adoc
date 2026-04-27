@@ -1,0 +1,72 @@
+cxn-id: |
+  97
+
+name: |
+  perdere ART N
+
+cxn-machine-readable-formalization: |
+  cxn_97.conllc
+
+form: |
+	-  perdere ART N
+	-
+
+function: |
+	-  Pragmatic
+	-  La costruzione è usata per indicare smarrimento,
+  disorientamento (anche interiore), perdita di se stessi e/o
+  dei propri obiettivi. Uso enfatico.
+	-
+
+restrictions: |
+	-  ART: articololo determinativo N: nomi inerenti alla sfera
+  semantica del viaggio (rotta, via, strada, sentiero,
+  orientamento, bussola, tramontana)
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- formal-idiom
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-  Phrase
+	-
+
+category-tags: |
+	-  Noun, Verb
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_97_example_1.txt
+	- cxn_97_example_2.txt
+	- cxn_97_example_3.txt
+	- cxn_97_example_4.txt
+	- cxn_97_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Elena Zampieri
+

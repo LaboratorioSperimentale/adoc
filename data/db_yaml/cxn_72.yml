@@ -1,0 +1,73 @@
+cxn-id: |
+  72
+
+name: |
+  Focusing cleft sentence
+
+cxn-machine-readable-formalization: |
+  cxn_72.conllc
+
+form: |
+	-  quello che V è X Formal variants: ciò che V è X; quello che
+  V sono x; ciò che V sono X
+	-
+
+function: |
+	-  Focusing structure encoding exhaustiveness and
+  intensification
+	-  In this structure, X is the only element of the AD
+  HOC category created by V that is valid in the context
+	-
+
+restrictions: |
+	-
+	-
+
+coll-preferences: |
+	-  X = tendentially a noun or a clause
+	-
+
+usage: |
+  Average
+
+formal-tags: 
+	- cleft-like-construction
+
+functional-tags: 
+	- intensification
+	- limitatezza
+	- focus-marker
+
+complexity-level-tags: |
+	-  Word, Phrase
+	-
+
+category-tags: |
+	-  Noun, Verb, Other
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_72_example_1.txt
+	- cxn_72_example_2.txt
+	- cxn_72_example_3.txt
+	- cxn_72_example_4.txt
+	- cxn_72_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Lorenzo Albanesi
+

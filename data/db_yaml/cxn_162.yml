@@ -1,0 +1,66 @@
+cxn-id: |
+  162
+
+name: |
+  Discontinous reduplication N-per-N
+
+cxn-machine-readable-formalization: |
+  cxn_162.conllc
+
+form: |
+	-  Xi per Xi
+	-
+
+function: |
+	-  INESCAPABLE PRESUPPOSITION SUB.CLAUSE
+	-
+	-
+
+restrictions: |
+	-  Xi = N, ADJ, VINF Xi = fixed N = bare
+	-
+
+coll-preferences: |
+	-
+	-
+
+usage: |
+  Infrequent
+
+formal-tags: 
+	- reduplication
+	- discontinuous-reduplication
+	- subordination >> cc:cxn:coordinate-clause-construction
+
+functional-tags: 
+	-  >> cc:inf:different-subject
+
+complexity-level-tags: |
+	-  Clause
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  lexically filled
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Francesca Masini
+

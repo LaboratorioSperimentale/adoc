@@ -1,0 +1,6 @@
+# cxn_id = 47 
+# name = V(fare) + Adv(molto) + N(proprio)/Adj/gruppo nominale 
+# function = Espressione di somiglianza tra l'entità del soggetto (spesso sottinteso, spesso referente del contesto situazionale) del verbo 'fare' e gruppo nominale con valore aggettivale o l'aggettivo. 
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

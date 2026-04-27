@@ -1,0 +1,64 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItTenTen20
+# sent_id = 1
+# text = e poi se è sotto terra di un solo metro perchè non provare a trattenere il respiro e mentre la cassa si sta rompendo non provare ad uscire?
+1	e	e	CCONJ	CC	_	13	cc	_	_
+2	poi	poi	ADV	B	_	6	advmod	_	_
+3	se	se	SCONJ	CS	_	6	mark	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	sotto	sotto	ADP	E	_	6	case	_	_
+6	terra	terra	NOUN	S	Gender=Fem|Number=Sing	13	advcl	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	solo	solo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	metro	metro	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11	perchè	perché	SCONJ	CS	_	13	mark	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	provare	provare	VERB	V	VerbForm=Inf	0	root	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	trattenere	trattenere	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	respiro	respiro	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	e	e	CCONJ	CC	_	26	cc	_	_
+19	mentre	mentre	SCONJ	CS	_	24	mark	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	cassa	cassa	NOUN	S	Gender=Fem|Number=Sing	24	nsubj	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	24	expl	_	_
+23	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	rompendo	rompere	VERB	V	VerbForm=Ger	13	conj	_	_
+25	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+26	provare	provare	VERB	V	VerbForm=Inf	13	conj	_	_
+27	ad	a	ADP	E	_	28	mark	_	_
+28	uscire	uscire	VERB	V	VerbForm=Inf	26	xcomp	_	SpaceAfter=No
+29	?	?	PUNCT	FS	_	13	punct	_	_
+
+# source = ItTenTen20
+# sent_id = 2
+# text = tanto morto per morto ... e poi sul finale appare ovvio che non lo stiano trovando.
+1	tanto	tanto	ADV	B	_	2	advmod	_	SpacesAfter= 
+2	morto	morire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	morto	morto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpacesAfter= 
+5	...	...	PUNCT	FF	_	11	punct	_	_
+6	e	e	CCONJ	CC	_	11	cc	_	_
+7	poi	poi	ADV	B	_	11	advmod	_	_
+8-9	sul	_	_	_	_	_	_	_	_
+8	su	su	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	finale	finale	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+11	appare	apparire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+12	ovvio	ovvio	ADJ	A	Gender=Masc|Number=Sing	11	xcomp	_	_
+13	che	che	SCONJ	CS	_	17	mark	_	_
+14	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+15	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+16	stiano	stare	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	trovando.	trovanre	VERB	V	VerbForm=Ger	11	ccomp	_	SpaceAfter=No
+
+# source = ItTenTen20
+# sent_id = 3
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	SpaceAfter=No
+
+

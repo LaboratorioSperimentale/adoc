@@ -1,0 +1,2 @@
+# source = Glosbe dizionario online
+# text = Comunque, puoi dirle di battere un colpo quando ha un minuto?

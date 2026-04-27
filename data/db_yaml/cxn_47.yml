@@ -1,0 +1,84 @@
+cxn-id: |
+  47
+
+name: |
+  V(fare) + Adv(molto) + N(proprio)/Adj/gruppo nominale
+
+cxn-machine-readable-formalization: |
+  cxn_47.conllc
+
+form: |
+	-  V(fare) + Adv(molto) + N(proprio)/Adj/gruppo nominale
+	-
+
+function: |
+	-  Espressione di somiglianza tra l'entità del soggetto (spesso
+  sottinteso, spesso referente del contesto situazionale) del
+  verbo 'fare' e gruppo nominale con valore aggettivale o
+  l'aggettivo.
+	-
+	-  Significato della struttura non predicibile dai costituenti,
+  ma molto convenzionalizzato. 
+
+restrictions: |
+	-
+	-  Per quanto riguarda il gruppo nominale può comprendere nomi
+  propri di referenti culturalmente noti ai partecipanti
+  dell'interazione, espandendone il significato all'accezione
+  della personalità, aspetto e/o delle caratteristiche della
+  loro produzione culturale. (esempio: gli artisti: X fa molto
+  Fellini/Picasso/Arisa...)  Oltre a nomi propri, si possono
+  trovare gruppi nominali complessi (es. questo fa molto anni
+  '60), ma non tutti i gruppi nominali sono applicabili. 
+
+coll-preferences: |
+	-
+	-  Nel descrivere lo stile di una qualche entità, che sia un
+  ambiente, una persona o un semplice taglio di capelli, la
+  costruzione X fa molto Y presenta molto spesso in Y una
+  qualche decade del ventesimo secolo, rimandando alle
+  relative caratteristiche culturali, artistiche, politiche
+  e/o socio-economiche. 
+
+usage: |
+
+formal-tags: 
+	- similutide
+
+functional-tags: 
+	- categorization
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_47_example_1.txt
+	- cxn_47_example_2.txt
+	- cxn_47_example_3.txt
+	- cxn_47_example_4.txt
+
+note: |
+	-
+	-  USAGE: Usato molto spesso nel linguaggio parlato in quanto
+  in modo estremamente economico aiuta la descrizione di una
+  qualche identità
+
+references: |
+
+collector: |
+  Giovanni Antoniol
+

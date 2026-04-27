@@ -1,0 +1,19 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: itWaC
+# sent_id = 1
+# text = […] ornando di luci simil-natalizie gli alberi.
+1	[	[	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	…	…	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+3	]	]	PUNCT	FB	_	2	punct	_	SpacesAfter= 
+4	ornando	ornare	VERB	V	VerbForm=Ger	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	luci	luce	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	SpacesAfter= 
+7	simil-	simile	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+8	natalizie	natalizia	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpacesAfter= 
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	alberi	albero	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+

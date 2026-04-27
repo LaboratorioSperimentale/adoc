@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: CORIS
+# sent_id = 1
+# text = Ha aggiunto che da un po’ di tempo c’erano problemi, e che la situazione fra loro due era un po’ tesa, e che a volte capitava che sua moglie dopo una litigata particolarmente violenta dicesse che adesso si era stufata sul serio, prendesse e andasse via per un paio di giorni.
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	che	che	SCONJ	CS	_	10	mark	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	po’	poco	ADV	B	_	10	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	c’	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	SpaceAfter=No
+10	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+11	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	23	punct	_	_
+13	e	e	CCONJ	CC	_	23	cc	_	_
+14	che	che	SCONJ	CS	_	23	mark	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	_
+17	fra	fra	ADP	E	_	19	case	_	_
+18	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	19	nmod	_	_
+19	due	due	NUM	N	NumType=Card	16	nummod	_	_
+20	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	cop	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	po’	poco	ADV	B	_	23	advmod	_	_
+23	tesa	teso	ADJ	A	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	29	punct	_	_
+25	e	e	CCONJ	CC	_	29	cc	_	_
+26	che	che	SCONJ	CS	_	29	mark	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	volte	volta	NOUN	S	Gender=Fem|Number=Plur	29	obl	_	_
+29	capitava	capitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	conj	_	_
+30	che	che	SCONJ	CS	_	38	mark	_	_
+31	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	38	nsubj	_	_
+33	dopo	dopo	ADP	E	_	35	case	_	_
+34	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	litigata	litigata	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	_
+36	particolarmente	particolarmente	ADV	B	_	37	advmod	_	_
+37	violenta	violento	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	_
+38	dicesse	dire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	ccomp	_	_
+39	che	che	SCONJ	CS	_	43	mark	_	_
+40	adesso	adesso	ADV	B	_	43	advmod	_	_
+41	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	43	expl	_	_
+42	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	43	aux	_	_
+43	stufata	stufare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	38	ccomp	_	_
+44-45	sul	_	_	_	_	_	_	_	_
+44	su	su	ADP	E	_	46	case	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	serio	serio	NOUN	S	Gender=Masc|Number=Sing	43	obl	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	48	punct	_	_
+48	prendesse	prendere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	43	conj	_	_
+49	e	e	CCONJ	CC	_	50	cc	_	_
+50	andasse	andare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	43	conj	_	_
+51	via	via	ADV	B	_	50	advmod	_	_
+52	per	per	ADP	E	_	54	case	_	_
+53	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	paio	paio	NOUN	S	Gender=Masc|Number=Sing	50	obl	_	_
+55	di	di	ADP	E	_	56	case	_	_
+56	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	54	nmod	_	SpaceAfter=No
+57	.	.	PUNCT	FS	_	2	punct	_	_
+
+# source = Corpus: CORIS
+# sent_id = 2
+# text = Ma poi torna sempre, ha aggiunto.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	poi	poi	ADV	B	_	3	advmod	_	_
+3	torna	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sempre	sempre	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# source = Corpus: CORIS
+# sent_id = 3
+# text = Purtroppo.
+1	Purtroppo	purtroppo	ADV	B	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+

@@ -1,0 +1,79 @@
+cxn-id: |
+  67
+
+name: |
+  me l- chiam- X? Formal variants: (e) (tu) quest-/quell- me
+  l- chiam- X? (e) (tu) me l- chiam- X quest-/quell-?
+
+cxn-machine-readable-formalization: |
+  cxn_67.conllc
+
+form: |
+	-  me l- chiam- X? Formal variants: (e) (tu) quest-/quell- me
+  l- chiam- X? (e) (tu) me l- chiam- X quest-/quell-?
+	-
+
+function: |
+	-  it is not true that (supposed)X can be defined as X
+  (supposed)X is not a real/good example of X
+	-
+	-  The function of the construction is not predictable from its
+  parts. This construction is used to indicate that someone's
+  judgement on X is wrong (epistemic value challenging
+  function).
+
+restrictions: |
+	-
+	-  V must be in the 2nd person (singular or plural)
+
+coll-preferences: |
+	-
+	-  X = tendentially N (other categories are possible but
+  marginal) X = tendentially single word (other elements, like
+  phrases or sentences, are possible but more marginal) Noun
+  can occasionally be preceded by an article eventuale
+  elemento deittico dislocato a dx o a sx (quasi sempre a sx)
+  Ripresa clitica obbligatoria
+
+usage: |
+
+formal-tags: 
+	- 
+
+functional-tags: 
+	- CRITICISM
+	- rhetorical-question
+
+complexity-level-tags: |
+	-
+	-
+
+category-tags: |
+	-
+	-
+
+schematicity-level: |
+  partially filled/schematic
+
+cefr-level: |
+
+horizontal-links: |
+
+vertical-links: |
+
+examples: 
+	- cxn_67_example_1.txt
+	- cxn_67_example_2.txt
+	- cxn_67_example_3.txt
+	- cxn_67_example_4.txt
+	- cxn_67_example_5.txt
+
+note: |
+	-
+	-  USAGE:
+
+references: |
+
+collector: |
+  Claudia Coppola
+

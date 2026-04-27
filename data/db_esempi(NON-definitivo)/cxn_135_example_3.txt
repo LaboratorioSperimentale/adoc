@@ -1,0 +1,2 @@
+# source = corpus: itTenTen20
+# text = Senti il profumo di rosa e tiglio, il suo bisbiglio ma perché ti voglio io ancora non lo so. Emily, Emily Emily, ma che curiosità che ho , Emily. Una grande carrellata di profili femminili e una prova di grande capacità narrativa.

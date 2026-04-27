@@ -1,0 +1,2 @@
+# source = Corpus: Coris Timeslice: CORIS 1980_2000  Subcorpus: NARRAT
+# text = Ma... - Chi tardi arriva male alloggia! - sentenziò la maestra .

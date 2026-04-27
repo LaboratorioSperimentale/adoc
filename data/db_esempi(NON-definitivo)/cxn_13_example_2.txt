@@ -1,0 +1,2 @@
+# source = Corpus: CORIS
+# text = La sua attrattiva è più viva che mai.

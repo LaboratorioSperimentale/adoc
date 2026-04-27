@@ -1,0 +1,6 @@
+# cxn_id = 150 
+# name = Caused Motion Construction 
+# function = l'Agente provoca direttamente lo spostamento del Tema da una posizione A a una posizione B lungo un percorso specificato dal sintagma locativo 
+# horizontal_links =  
+# vertical_links =  
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY 

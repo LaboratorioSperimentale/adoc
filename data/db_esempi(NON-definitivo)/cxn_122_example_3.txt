@@ -1,0 +1,2 @@
+# source = itWaC
+# text = Non riusciamo a sbolognare un giocatore che sia uno.

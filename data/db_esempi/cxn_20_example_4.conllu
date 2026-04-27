@@ -1,0 +1,89 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=11363672&End=11363672 
+# sent_id = 1
+# text = Per questo i vescovi, personalmente o per mezzo di delegati, devono prendersi cura di promuovere l'arte sacra, antica e moderna, in tutte le sue forme, e di tenere lontano con il medesimo zelo, dalla Liturgia e dagli edifici del culto, tutto ciò che non è conforme alla verità della fede e all'autentica bellezza dell'arte sacra
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	obl	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	vescovi	vescovo	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	personalmente	personalmente	ADV	B	_	14	advmod	_	_
+7	o	o	CCONJ	CC	_	9	cc	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	delegati	delegato	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14-15	prendersi	_	_	_	_	_	_	_	_
+14	prender	prendere	VERB	V	VerbForm=Inf	0	root	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+16	cura	cura	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	promuovere	promuovere	VERB	V	VerbForm=Inf	16	acl	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	arte	arte	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21	sacra	sacro	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	20	punct	_	_
+23	antica	antico	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	moderna	moderno	ADJ	A	Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	18	punct	_	_
+27	in	in	ADP	E	_	31	case	_	_
+28	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	31	det:predet	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+30	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	forme	forma	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	35	punct	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	di	di	ADP	E	_	35	mark	_	_
+35	tenere	tenere	VERB	V	VerbForm=Inf	18	conj	_	_
+36	lontano	lontano	ADV	B	_	35	advmod	_	_
+37	con	con	ADP	E	_	40	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+39	medesimo	medesimo	ADJ	A	Gender=Masc|Number=Sing	40	amod	_	_
+40	zelo	zelo	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	35	punct	_	_
+42-43	dalla	_	_	_	_	_	_	_	_
+42	da	da	ADP	E	_	44	case	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	Liturgia	liturgia	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	_
+45	e	e	CCONJ	CC	_	48	cc	_	_
+46-47	dagli	_	_	_	_	_	_	_	_
+46	da	da	ADP	E	_	48	case	_	_
+47	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
+48	edifici	edificio	NOUN	S	Gender=Masc|Number=Plur	44	conj	_	_
+49-50	del	_	_	_	_	_	_	_	_
+49	di	di	ADP	E	_	51	case	_	_
+50	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	culto	culto	NOUN	S	Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	35	punct	_	_
+53	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	54	det	_	_
+54	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	35	obj	_	_
+55	che	che	PRON	PR	PronType=Rel	58	nsubj	_	_
+56	non	non	ADV	BN	PronType=Neg	58	advmod	_	_
+57	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	58	cop	_	_
+58	conforme	conforme	ADJ	A	Number=Sing	54	acl:relcl	_	_
+59-60	alla	_	_	_	_	_	_	_	_
+59	a	a	ADP	E	_	61	case	_	_
+60	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
+61	verità	verità	NOUN	S	Gender=Fem	58	obl	_	_
+62-63	della	_	_	_	_	_	_	_	_
+62	di	di	ADP	E	_	64	case	_	_
+63	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	64	det	_	_
+64	fede	fede	NOUN	S	Gender=Fem|Number=Sing	61	nmod	_	_
+65	e	e	CCONJ	CC	_	69	cc	_	_
+66-67	all'	_	_	_	_	_	_	_	SpaceAfter=No
+66	a	a	ADP	E	_	69	case	_	_
+67	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	69	det	_	_
+68	autentica	autentico	ADJ	A	Gender=Fem|Number=Sing	69	amod	_	_
+69	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	61	conj	_	_
+70-71	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+70	di	di	ADP	E	_	72	case	_	_
+71	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	72	det	_	_
+72	arte	arte	NOUN	S	Gender=Fem|Number=Sing	69	nmod	_	_
+73	sacra	sacro	ADJ	A	Gender=Fem|Number=Sing	72	amod	_	SpaceAfter=No
+
+

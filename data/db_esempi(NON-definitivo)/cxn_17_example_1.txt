@@ -1,0 +1,2 @@
+# source = Una conversazione informale con una mia amica.
+# text = Prima o poi una gioia!

@@ -1,0 +1,2 @@
+# source = CORPUS: CORIS1980_2000
+# text = De Paola il cardine, ha 36 anni e mezzo, Neri la Fantasia, un tempo chiamato anche il Lentini dei poveri, 32 .
