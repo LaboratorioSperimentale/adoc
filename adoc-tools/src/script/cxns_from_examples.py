@@ -4,16 +4,20 @@ import re
 import math
 import os
 import itertools
+from conllu import parse
 
 # --- 1. CONFIGURAZIONE PERCORSI E LIMITI ---
 
 PATH_CONLLU = "../validated/examples.conllu"
 PATH_CARTELLA_YAML = "../../../data/db_yaml"
+
+# Due file di output distinti
 PATH_OUTPUT_TXT = "catenae_ranking.txt"
+PATH_OUTPUT_CONLLU = "catenae_ranking_rank1.conllu"
 
 MIN_NODI = 2 # min nodi della catena
 MAX_NODI = 4 # max nodi della catena
-TOP_N = 5                 # quante catenae rankate per cxn
+TOP_N = 5                 # quante catenae rankate per cxn nel file TXT
 LOWERCASE_FORM = True
 DEBUG_ESPANSIONE = False  
 
@@ -46,7 +50,6 @@ else:
     print(f"# ATTENZIONE: La cartella {PATH_CARTELLA_YAML} non esiste localmente.")
 
 # --- 3. LETTURA E FILTRAGGIO DEL CORPUS ---
-from conllu import parse
 
 with open(PATH_CONLLU, "r", encoding="utf-8") as f:
     sentences = parse(f.read())
@@ -89,8 +92,6 @@ def crea_template_sottografo(subG, nodi_ordinati):
 
 
 def serializza_da_template(struttura, etichette):
-    """Serializzazione 'interna' con frecce, usata solo per costruire la chiave
-    di raggruppamento delle catenae (non finisce mai nell'output finale)."""
     parts = [etichette[0]]
     for (_, i, deprel, direz) in struttura:
         if direz == "->":
@@ -151,7 +152,6 @@ def trova_espansione_greedy(struttura_posizioni, istanze_correnti, graphs, total
         for direzione in ("parent", "child"):
             opzioni_per_istanza = []
             fallito = False
-            g_idx_mancante = None
 
             for g_idx in range(total_sentences):
                 node_tuple = istanze_correnti[g_idx]
@@ -170,23 +170,14 @@ def trova_espansione_greedy(struttura_posizioni, istanze_correnti, graphs, total
 
                 if not opzioni:
                     fallito = True
-                    g_idx_mancante = g_idx
                     break
                 opzioni_per_istanza.append(opzioni)
 
-            if fallito:
-                if debug:
-                    print(f"    [debug] pos={pos_i} dir={direzione}: nessun nodo disponibile "
-                          f"nella frase idx={g_idx_mancante} -> posizione scartata")
-                continue
+            if fallito: continue
 
             deprel_sets = [set(d for (_, d) in opz) for opz in opzioni_per_istanza]
             deprel_comuni = set.intersection(*deprel_sets)
-            if not deprel_comuni:
-                if debug:
-                    print(f"    [debug] pos={pos_i} dir={direzione}: nodi presenti in tutte le frasi "
-                          f"ma nessun deprel comune (deprel per frase: {deprel_sets}) -> posizione scartata")
-                continue
+            if not deprel_comuni: continue
 
             for deprel in deprel_comuni:
                 nodi_scelti = []
@@ -198,25 +189,16 @@ def trova_espansione_greedy(struttura_posizioni, istanze_correnti, graphs, total
                 lemmas = [graphs[g_idx].nodes[n_id]['lemma'] for g_idx, n_id in nodi_scelti]
                 upos_list = [graphs[g_idx].nodes[n_id]['upos'] for g_idx, n_id in nodi_scelti]
 
-                if len(set(forms)) == 1:
-                    label, spec = f"FORM:{forms[0]}", 3
-                elif len(set(lemmas)) == 1:
-                    label, spec = f"LEMMA:{lemmas[0]}", 2
-                elif len(set(upos_list)) == 1:
-                    label, spec = f"UPOS:{upos_list[0]}", 1
-                else:
-                    label, spec = "ANY", 0
-
-                if debug:
-                    print(f"    [debug] pos={pos_i} dir={direzione} deprel={deprel}: "
-                          f"candidato valido, label={label} (forms={forms})")
+                if len(set(forms)) == 1: label, spec = f"FORM:{forms[0]}", 3
+                elif len(set(lemmas)) == 1: label, spec = f"LEMMA:{lemmas[0]}", 2
+                elif len(set(upos_list)) == 1: label, spec = f"UPOS:{upos_list[0]}", 1
+                else: label, spec = "ANY", 0
 
                 candidato = (spec, pos_i, direzione, deprel, label, nodi_scelti)
                 if migliore is None or candidato[0] > migliore[0]:
                     migliore = candidato
 
-    if migliore is None:
-        return False, None, None
+    if migliore is None: return False, None, None
 
     spec, pos_i, direzione, deprel, label, nodi_scelti = migliore
     nuova_posizione_idx = n_posizioni
@@ -264,10 +246,6 @@ def ricostruisci_struttura_da_grafi(istanze_correnti, graphs, total_sentences, d
                 prima_istanza = False
             elif padre_trovato != padre_idx_comune or deprel_trovato != deprel_comune:
                 consistente = False
-                if debug:
-                    print(f"    [debug] posizione {i}: relazione non coerente tra le frasi "
-                          f"(frase 0 -> padre_idx={padre_idx_comune}, deprel={deprel_comune}; "
-                          f"frase {g_idx} -> padre_idx={padre_trovato}, deprel={deprel_trovato})")
 
         struttura[i]["padre_idx"] = padre_idx_comune if consistente else None
         struttura[i]["deprel"] = deprel_comune if consistente else None
@@ -277,21 +255,15 @@ def ricostruisci_struttura_da_grafi(istanze_correnti, graphs, total_sentences, d
         lemmas = [graphs[g_idx].nodes[istanze_correnti[g_idx][i]]['lemma'] for g_idx in range(total_sentences)]
         upos_list = [graphs[g_idx].nodes[istanze_correnti[g_idx][i]]['upos'] for g_idx in range(total_sentences)]
 
-        if len(set(forms)) == 1:
-            struttura[i]["label"] = f"FORM:{forms[0]}"
-        elif len(set(lemmas)) == 1:
-            struttura[i]["label"] = f"LEMMA:{lemmas[0]}"
-        elif len(set(upos_list)) == 1:
-            struttura[i]["label"] = f"UPOS:{upos_list[0]}"
-        else:
-            struttura[i]["label"] = "ANY"
+        if len(set(forms)) == 1: struttura[i]["label"] = f"FORM:{forms[0]}"
+        elif len(set(lemmas)) == 1: struttura[i]["label"] = f"LEMMA:{lemmas[0]}"
+        elif len(set(upos_list)) == 1: struttura[i]["label"] = f"UPOS:{upos_list[0]}"
+        else: struttura[i]["label"] = "ANY"
 
     return struttura
 
 
 def calcola_ordine_lineare(istanze_correnti, n_nodi_totali, total_sentences):
-    """Trova, tra le frasi che condividono la catena, l'ordine lineare
-    (in base alla posizione reale nella frase) più frequente."""
     mappatura_posizioni_per_frase = []
     for g_idx in range(total_sentences):
         nodi_con_indice_orig = [(istanze_correnti[g_idx][pos_i], pos_i) for pos_i in range(n_nodi_totali)]
@@ -305,24 +277,6 @@ def calcola_ordine_lineare(istanze_correnti, n_nodi_totali, total_sentences):
 
 
 def serializza_parsabile(struttura_posizioni, ordine_lineare_ottimale):
-    """Serializza la catena in un formato univoco:
-
-        id:LABEL_@deprel_head_id   (nodo con padre dentro la catena)
-        id:LABEL_@root             (nodo che è la radice della catena)
-
-    dove:
-    - id è la posizione progressiva (1, 2, 3, ...) secondo l'ordine lineare
-      reale della frase (non l'ordine dell'albero).
-    - LABEL è FORM:xxx / LEMMA:xxx / UPOS:xxx (gerarchia dal più al meno
-      specifico, a seconda di cosa risulta uniforme tra le frasi), oppure
-      '_' se nessuno dei tre è uniforme.
-    - deprel/head_id sono SEMPRE presenti (tranne per la radice, che ha solo
-      '@root'): non serve nessun segnaposto come '~', perché la relazione
-      strutturale di ogni nodo è sempre esplicita, qualunque sia la sua label.
-
-    I token sono separati da uno spazio; ogni token è internamente parsabile
-    con una regex tipo: r'(\\d+):((?:FORM|LEMMA|UPOS):[^_]+|_)_@(\\w+(?::\\w+)?)(?:_(\\d+))?'
-    """
     vecchio_idx_a_pos = {vecchio_idx: i + 1 for i, vecchio_idx in enumerate(ordine_lineare_ottimale)}
 
     tokens = []
@@ -341,20 +295,78 @@ def serializza_parsabile(struttura_posizioni, ordine_lineare_ottimale):
 
 
 def espandi_greedy_al_massimo(istanze_correnti, graphs, total_sentences, debug=False):
-    """Ricostruisce la struttura di partenza ed esegue l'espansione greedy
-    finché possibile. Ritorna (struttura_finale, istanze_finali)."""
     struttura_posizioni = ricostruisci_struttura_da_grafi(istanze_correnti, graphs, total_sentences, debug=debug)
     while True:
         trovata, nuova_struttura, nuove_istanze = trova_espansione_greedy(
             struttura_posizioni, istanze_correnti, graphs, total_sentences, debug=debug
         )
-        if not trovata:
-            break
+        if not trovata: break
         struttura_posizioni, istanze_correnti = nuova_struttura, nuove_istanze
     return struttura_posizioni, istanze_correnti
 
 
+def esporta_catena_in_conllu(cxn_id, struttura_posizioni, ordine_lineare, istanze_espanse, graphs, total_sentences):
+    vecchio_idx_a_nuovo_id = {vecchio_idx: i + 1 for i, vecchio_idx in enumerate(ordine_lineare)}
+
+    righe_conllu = []
+    tokens_text = []
+    tokens_form = []
+
+    lettere_orig = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+    for i, vecchio_idx in enumerate(ordine_lineare):
+        nuovo_id = i + 1
+        info = struttura_posizioni[vecchio_idx]
+
+        forms = [graphs[g_idx].nodes[istanze_espanse[g_idx][vecchio_idx]]['form'] for g_idx in range(total_sentences)]
+        lemmas = [graphs[g_idx].nodes[istanze_espanse[g_idx][vecchio_idx]]['lemma'] for g_idx in range(total_sentences)]
+        upos_list = [graphs[g_idx].nodes[istanze_espanse[g_idx][vecchio_idx]]['upos'] for g_idx in range(total_sentences)]
+
+        # FORM
+        if len(set(forms)) == 1:
+            form_val = forms[0]
+            tokens_text.append(forms[0])
+            tokens_form.append(forms[0])
+        else:
+            form_val = "_"
+            tokens_text.append("_")
+
+        # LEMMA
+        lemma_val = lemmas[0] if len(set(lemmas)) == 1 else "_"
+
+        # UPOS
+        if len(set(upos_list)) == 1:
+            upos_val = upos_list[0]
+            if len(set(forms)) > 1:
+                tokens_form.append(upos_list[0])
+        else:
+            upos_val = "_"
+            if len(set(forms)) > 1:
+                tokens_form.append("_")
+
+        # HEAD e DEPREL
+        if info["padre_idx"] is None:
+            head_val = 0
+            deprel_val = "root"
+        else:
+            head_val = vecchio_idx_a_nuovo_id[info["padre_idx"]]
+            deprel_val = info["deprel"] if info["deprel"] else "_"
+
+        orig_id = lettere_orig[i] if i < len(lettere_orig) else f"N{i+1}"
+
+        riga = f"{nuovo_id}\t{form_val}\t{lemma_val}\t{upos_val}\t_\t_\t{head_val}\t{deprel_val}\t_\tOrigID={orig_id}"
+        righe_conllu.append(riga)
+
+    header_text = f"# text = {' '.join(tokens_text)}"
+    header_form = f"# form = {' '.join(tokens_form)}"
+    header_sent = f"# sent_id = {cxn_id}"
+
+    res = [header_sent, header_text, header_form] + righe_conllu
+    return "\n".join(res)
+
+
 # --- 5. ESTRAZIONE STATISTICA DEL BACKGROUND ---
+
 cxn_graphs = defaultdict(list)
 global_catenae_counts = defaultdict(int)
 total_global_catenae = 0
@@ -386,8 +398,11 @@ for c_id, sents in cxn_groups.items():
         total_global_catenae += len(frase_mappa)
 
 
-# --- 6. RANKING PER CXN + ESPANSIONE GREEDY (NIENTE CONLL-C) ---
-with open(PATH_OUTPUT_TXT, "w", encoding="utf-8") as out:
+# --- 6. SALVATAGGIO DEI DUE FILE ---
+
+with open(PATH_OUTPUT_TXT, "w", encoding="utf-8") as out_txt, \
+     open(PATH_OUTPUT_CONLLU, "w", encoding="utf-8") as out_conllu:
+
     for cxn_id, graphs in cxn_graphs.items():
         total_sentences = len(graphs)
 
@@ -398,20 +413,16 @@ with open(PATH_OUTPUT_TXT, "w", encoding="utf-8") as out:
             frase_mappa = frase_mappe_cache[(cxn_id, idx)]
             for cat, list_of_node_tuples in frase_mappa.items():
                 catene_nelle_frasi[cat].add(idx)
-                # Salviamo solo la prima istanza trovata per questa frase specifica
                 catena_to_nodes_across_graphs[cat].append((idx, list_of_node_tuples[0]))
 
-        # Una catena è considerata condivisa SOLO se compare in tutte le frasi (esattamente total_sentences)
         condivise = {
             cat: len(frasi_set) 
             for cat, frasi_set in catene_nelle_frasi.items() 
             if len(frasi_set) == total_sentences
         }
         
-        if not condivise:
-            continue
+        if not condivise: continue
 
-        # Pulizia di sicurezza: teniamo solo i nodi delle catene effettivamente condivise
         catena_to_nodes_across_graphs = {
             cat: nodes 
             for cat, nodes in catena_to_nodes_across_graphs.items() 
@@ -439,30 +450,23 @@ with open(PATH_OUTPUT_TXT, "w", encoding="utf-8") as out:
                 "specificity": lexical_specificity
             })
 
-        if not candidate_catenae:
-            continue
+        if not candidate_catenae: continue
 
         candidate_catenae = sorted(candidate_catenae, key=lambda x: (-x["score"], -x["specificity"], -x["size"]))
 
-        out.write(f"# cxn_id = {cxn_id}\n")
-        out.write(f"# cxn_name = {cxn_names.get(cxn_id, '_')}\n")
-        out.write(f"# n_frasi = {total_sentences}\n\n")
+        # --- SEZIONE 1: Scrittura sul file TXT originale ---
+        out_txt.write(f"# cxn_id = {cxn_id}\n")
+        out_txt.write(f"# cxn_name = {cxn_names.get(cxn_id, '_')}\n")
+        out_txt.write(f"# n_frasi = {total_sentences}\n\n")
 
-        if DEBUG_ESPANSIONE:
-            print(f"[debug] {cxn_id}: scansione candidate per trovare {TOP_N} catenae distinte")
-
-        viste = set()   # dedup sulla stringa finale renderizzata (base + espansa)
+        viste = set()
         rank = 0
 
         for cand in candidate_catenae:
-            if rank >= TOP_N:
-                break
+            if rank >= TOP_N: break
 
             cat_string = cand["string"]
-
-            istanze_correnti = {}
-            for g_idx, node_list in catena_to_nodes_across_graphs[cat_string]:
-                istanze_correnti[g_idx] = tuple(node_list)
+            istanze_correnti = {g_idx: tuple(node_list) for g_idx, node_list in catena_to_nodes_across_graphs[cat_string]}
 
             struttura_base = ricostruisci_struttura_da_grafi(istanze_correnti, graphs, total_sentences)
             ordine_base = calcola_ordine_lineare(istanze_correnti, len(struttura_base), total_sentences)
@@ -475,16 +479,22 @@ with open(PATH_OUTPUT_TXT, "w", encoding="utf-8") as out:
             catena_espansa_parsabile = serializza_parsabile(struttura_espansa, ordine_espanso)
 
             chiave_dedup = (catena_base_parsabile, catena_espansa_parsabile)
-            if chiave_dedup in viste:
-                continue
+            if chiave_dedup in viste: continue
             viste.add(chiave_dedup)
             rank += 1
 
-            out.write(f"  [{rank}] score = {cand['score']:.2f}  "
-                      f"(size={cand['size']}, specificity={cand['specificity']})\n")
-            out.write(f"      base:    {catena_base_parsabile}\n")
-            out.write(f"      espansa: {catena_espansa_parsabile}\n\n")
+            out_txt.write(f"  [{rank}] score = {cand['score']:.2f}  "
+                          f"(size={cand['size']}, specificity={cand['specificity']})\n")
+            out_txt.write(f"      base:    {catena_base_parsabile}\n")
+            out_txt.write(f"      espansa: {catena_espansa_parsabile}\n\n")
 
-        out.write("\n")
+            # --- SEZIONE 2: Scrittura del solo Rank 1 espanso sul file CoNLL-U ---
+            if rank == 1:
+                conllu_block = esporta_catena_in_conllu(
+                    cxn_id, struttura_espansa, ordine_espanso, istanze_espanse, graphs, total_sentences
+                )
+                out_conllu.write(conllu_block + "\n\n")
 
-print(f"Fatto. Output scritto in: {PATH_OUTPUT_TXT}")
+        out_txt.write("\n")
+
+print(f"Fatto!\n1. File con tutte le catene (TXT): {PATH_OUTPUT_TXT}\n2. File Rank 1 espanso (CoNLL-U): {PATH_OUTPUT_CONLLU}")
