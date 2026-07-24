@@ -1,7 +1,7 @@
 ---
 title: "Workflow: how to formalize a construction"
 parent: Guide
-nav_order: 6
+nav_order: 10
 ---
 
 # So how do we do it?
@@ -33,3 +33,8 @@ For now, follow these steps:
 For the automated side of steps 2–3 (turning a spreadsheet row into YAML +
 draft CoNLL-C, and searching a corpus via a Grew query built from a CoNLL-C
 file), see the [Tools]({% link tools/index.md %}) section.
+
+For a more hands-on walkthrough of steps 2–6 — filling in the `.conllc`/`.yml` files by hand from
+a spreadsheet, and searching Grew Match with screenshots — see the wiki's
+[Compilazione costruzioni (preliminare)](https://github.com/LaboratorioSperimentale/adoc/wiki/4.-Compilazione-costruzioni-(preliminare))
+page (Italian).

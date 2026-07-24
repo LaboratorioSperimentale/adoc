@@ -1,7 +1,7 @@
 ---
 title: The CoNLL-C format
 parent: Guide
-nav_order: 2
+nav_order: 3
 ---
 
 # `conll-c`, `conllu-c` and interoperability with UD
@@ -53,7 +53,17 @@ Each sentence represents a tree:
 In ItCon each construction is associated with a file in `.conllc` format.
 
 CoNLL-C builds on the CoNLL-U guidelines and extends them to represent the constraints required
-by our representation.
+by our representation. In this format, **a construction is a set of directed, acyclic, labeled
+graphs**, with constructional elements as nodes and relations as edges — formalized this way to
+maximize compatibility with UD notation, so that constructions can be (semi-)automatically matched
+against UD-parsed sentences. Constructions are represented at the sentence, phrase, *and* word
+level: morphological constructions are graphs too, just below the word boundary (see
+[Morphology]({% link guide/morphology.md %})).
+{: .fs-4 }
+
+> For clarity we call each element of a construction a "token," but since constructions can be
+> represented below the word level, a token doesn't always correspond to a word.
+{: .note }
 
 To start with, we can think of a construction as defined by a
 [catena](/adoc/assets/publications/osborne-catenae.pdf)
@@ -68,6 +78,20 @@ on a dependency tree, i.e., a set of nodes bound together by syntactic relations
 We want to represent our construction as an object of this kind:
 
 ![CoNLL-U Example](/adoc/assets/images/cxn.svg "CoNLL-U Example")
+
+### General format rules
+
+A `.conllc` file is plain UTF-8 text, containing (like CoNLL-U) token lines, construction-level
+comment lines starting with `#`, and blank lines marking the end of a construction. A few
+additional conventions apply to every field:
+
+- fields must not be empty — an unconstrained field is written as `_`, not left blank;
+- fields other than **FORM** and **LEMMA** must not contain spaces;
+- `//` marks a field as *not applicable* to that specific token (distinct from `_`, "no
+  constraint");
+- when more than one value can apply to a field (e.g. UPOS could be either `NOUN` or `VERB`),
+  the values are concatenated with a comma — see [disjunction](#disjunction-negation-conjunction)
+  below.
 
 ## The fields in CoNLL-C
 
@@ -98,7 +122,9 @@ The basic idea is to use the fields to express the constraints that the construc
   the structure to allow not fixing the order or
   inserting other material between one element and another of the construction. The ID field is the only
   mandatory field in the format; for all the others it is possible to insert the value `_` to indicate that
-  no constraint is imposed on the field
+  no constraint is imposed on the field. In morphological constructions, sub-word elements get a
+  compound ID: the letter of the word they belong to, plus a progressive number (`A-1`, `A-2`, …)
+  — see [Morphology]({% link guide/morphology.md %}).
 - the **form** field should be filled in when the form is fixed. For example, in the construction
   above (N dopo N), **dopo** is a token fixed at the form level.
   The form field can be expressed using a regular expression (by prefixing the string with `r`).
@@ -121,6 +147,10 @@ So far we have essentially expressed the same format as above, with minimal chan
 | B | dopo | dopo | ADP | _ | C | case |
 | C | _ | _ | NOUN | Number=Sing | A | nmod |
 
+For a deeper, field-by-field reference (LEMMA regex conventions, the full FEATS inventory,
+DEPREL categories, metadata fields like `function`/`horizontal_links`/`vertical_links`), see
+[CoNLL-C field reference]({% link guide/conllc-fields-reference.md %}).
+
 ### Further restrictions
 
 Let's now introduce additional constraints that take our format further away from CoNLL-U.
@@ -137,12 +167,20 @@ Let's now introduce additional constraints that take our format further away fro
 
   | ID | FORM | LEMMA | UPOS | FEATS | HEAD | DEPREL | IDENTITY |
   |----|------|-------|------|-------|------|--------|----------|
-  | A | _ | _ | NOUN | Number=Sing | 0 | root | FORM=C |
+  | A | _ | _ | NOUN | Number=Sing | 0 | root:obl | FORM:C |
   | B | dopo | dopo | ADP | _ | C | case | _ |
-  | C | _ | _ | NOUN | Number=Sing | A | nmod | FORM=A |
+  | C | _ | _ | NOUN | Number=Sing | A | nmod | FORM:A |
 
-  In the same way, agreement constraints can also be expressed (e.g., Subject and Verb must
-  agree in number).
+  In the same way, agreement constraints can also be expressed (e.g. Subject and Verb must
+  agree in number) — here by pointing at a specific key inside another element's **FEATS**
+  field, `FEATS.key:ID`:
+
+  | ID | FORM | LEMMA | UPOS | FEATS | HEAD | DEPREL | IDENTITY |
+  |----|------|-------|------|-------|------|--------|----------|
+  | A | _ | _ | NOUN | _ | 0 | root:obl | FEATS.Number:C |
+  | B | dopo | dopo | ADP | _ | C | case | _ |
+  | C | _ | _ | NOUN | _ | A | nmod | FEATS.Number:A |
+
 - In the case of the **N dopo N** construction, we need to consider other aspects (in this case, partially
   overlapping)
 
@@ -157,9 +195,12 @@ Let's now introduce additional constraints that take our format further away fro
 
   | ID | FORM | LEMMA | UPOS | FEATS | HEAD | DEPREL | IDENTITY | ADJACENCY |
   |----|------|-------|------|-------|------|--------|----------|-----------|
-  | A | _ | _ | NOUN | Number=Sing | 0 | root | FORM=C | _ |
+  | A | _ | _ | NOUN | Number=Sing | 0 | root | FORM:C | _ |
   | B | dopo | dopo | ADP | _ | C | case | _ | A |
-  | C | _ | _ | NOUN | Number=Sing | A | nmod | FORM=A | B |
+  | C | _ | _ | NOUN | Number=Sing | A | nmod | FORM:A | B |
+
+  > In Grew, this is expressed as `A << B`.
+  {: .note }
 
   Likewise, we can impose constraints on the kinds of other dependencies an element has.
   For example, in this case we want to filter cases like *casa sua dopo casa mia* that are not
@@ -172,9 +213,14 @@ Let's now introduce additional constraints that take our format further away fro
 
   | ID | FORM | LEMMA | UPOS | FEATS | HEAD | DEPREL | IDENTITY | ADJACENCY | EXCLUSION |
   |----|------|-------|------|-------|------|--------|----------|-----------|-----------|
-  | A | _ | _ | NOUN | Number=Sing | 0 | root | FORM=C | _ | CHILDREN:DEPREL=amod |
+  | A | _ | _ | NOUN | Number=Sing | 0 | root | FORM:C | _ | CHILDREN:DEPREL=amod |
   | B | dopo | dopo | ADP | _ | C | case | _ | A | _ |
-  | C | _ | _ | NOUN | Number=Sing | A | nmod | FORM=A | B | CHILDREN:DEPREL=amod |
+  | C | _ | _ | NOUN | Number=Sing | A | nmod | FORM:A | B | CHILDREN:DEPREL=amod |
+
+  > Note: some existing `.conllc` files in the repository use the field name `WITHOUT` instead of
+  > `EXCLUSION` for this column — the two names refer to the same field; `EXCLUSION` is the
+  > current name taught here.
+  {: .note }
 
 ### Semantic restrictions
 
@@ -192,14 +238,19 @@ are dedicated to specifying such restrictions.
 
   | ID | FORM | LEMMA | UPOS | FEATS | HEAD | DEPREL | IDENTITY | ADJACENCY | EXCLUSION | SEM_FEATS |
   |----|------|-------|------|-------|------|--------|----------|-----------|-----------|-----------|
-  | A | _ | _ | NOUN | Number=Sing | 0 | root | FORM=C | _ | CHILDREN:DEPREL=amod | time |
+  | A | _ | _ | NOUN | Number=Sing | 0 | root | FORM:C | _ | CHILDREN:DEPREL=amod | time |
   | B | dopo | dopo | ADP | _ | C | case | _ | A | _ | _ |
-  | C | _ | _ | NOUN | Number=Sing | A | nmod | FORM=A | B | CHILDREN:DEPREL=amod | time |
+  | C | _ | _ | NOUN | Number=Sing | A | nmod | FORM:A | B | CHILDREN:DEPREL=amod | time |
+
+  For the full tagset (Wordnet-derived ontological classes, Aktionsart traits and classes), see
+  [Semantic features]({% link guide/semantic-features.md %}).
 
 - Similarly, we can annotate the semantic role realized by the elements of the construction,
   following the taxonomy provided by the [Unified Verb Index](https://uvi.colorado.edu/references_page#ThematicRoleHierarchy).
+  For the full role hierarchy and worked examples, see
+  [Semantic roles]({% link guide/semantic-roles.md %}).
 
-### Notes on field syntax
+### Notes on field syntax {#disjunction-negation-conjunction}
 
 If we think in terms of constraints, to best express the possible restrictions on
 slots, we need to introduce some operations on possible values:
@@ -217,6 +268,7 @@ slots, we need to introduce some operations on possible values:
 
   Disjunction can occur:
   - in the **LEMMA** field (e.g., `che,qual`)
+  - in the **UPOS** field (e.g., `NOUN,PROPN,PRON`)
   - for each morphosyntactic feature (e.g., `VerbForm=Fin,Part`)
   - for the dependency relation *except root* (e.g., `det,amod`)
   - for semantic roles and semantic features
@@ -228,6 +280,7 @@ slots, we need to introduce some operations on possible values:
 
   Negation can occur:
   - in the **LEMMA** field (e.g., `!che`)
+  - in the **UPOS** field
   - for each morphosyntactic feature (e.g., `VerbForm=!Fin`)
   - for the dependency relation *except root* (e.g., `!det`)
   - for semantic roles and semantic features
@@ -237,7 +290,3 @@ slots, we need to introduce some operations on possible values:
   feminine gender and singular number.
   In continuity with the CoNLL-U format, this is expressed by the pipe symbol (`|`, for example
   `Gender=Fem|Number=Sing`).
-
-Another aspect to consider is **optionality**. In the construction above (*che bello!*), we may
-want to include the exclamation mark as optional. For this, the **REQUIRED** field can contain
-values `0` or `1`.
