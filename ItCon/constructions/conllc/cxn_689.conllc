@@ -3,7 +3,7 @@
 # function = ref:D aboutness								
 # horizontal_links =								
 # vertical_links =								
-# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY								
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED EXCLUSION SEM_FEATS SEM_ROLES ADJACENCY IDENTITY								
 A	quanto	quanto	ADV	B	_	C	case	
 B	a	a	ADP	E	_	C	case	
 C	_	_	NOUN	S	_	0	root:obl	

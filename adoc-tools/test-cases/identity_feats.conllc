@@ -1,0 +1,4 @@
+# cxn_id = test-identity-feats
+# fields = ID UD.FORM LEMMA UPOS HEAD DEPREL IDENTITY
+A	_	_	NOUN	0	root:obl	FEATS.Number:C
+C	dopo	dopo	ADP	A	nmod	_

@@ -3,7 +3,7 @@
 # function = not fully or not properly ref:A.2
 # horizontal_links = 170
 # vertical_links =
-# fields = ID	UD.FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	REQUIRED	WITHOUT	SEM_FEATS	SEM_ROLES	ADJACENCY	IDENTITY
+# fields = ID	UD.FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	REQUIRED	EXCLUSION	SEM_FEATS	SEM_ROLES	ADJACENCY	IDENTITY
 A	semi.+	semi.+	ADJ, NOUN	_	_	root	1	_	_	_	_	FEATS=A.2
 A.1	_	semi	BMORPH	_	_	der/m	1	_	_	_	_	_
 A.2	_	_	ADJ	_	_	root	1	_	_	_	A.1	FEATS=A

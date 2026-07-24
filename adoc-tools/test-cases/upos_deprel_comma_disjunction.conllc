@@ -1,0 +1,4 @@
+# cxn_id = test-upos-deprel-comma
+# fields = ID UD.FORM LEMMA UPOS HEAD DEPREL
+A	_	fare	VERB	0	root
+E	_	_	NOUN,PRON,VERB	A	obl, xcomp

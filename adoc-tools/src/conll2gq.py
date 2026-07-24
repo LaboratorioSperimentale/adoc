@@ -128,13 +128,21 @@ def _lemma_clause(value):
     return f"lemma{'<>' if negated else '='}{rhs}"
 
 
+def _upos_clause(value):
+    negated, values = _split_disjunction(value)
+    rhs = "|".join(values)
+    return f"upos{'<>' if negated else '='}{rhs}"
+
+
 def _edge_label(value):
-    """DEPREL is categorical/Grew-native like UPOS -- passed through as-is
-    (disjunction is expected to already use Grew's own '|' in the source),
-    only a leading '!' is translated to Grew's edge-negation '^'."""
-    if value.startswith("!"):
-        return f"^{value[1:]}"
-    return value
+    """DEPREL disjunction/negation follows the same convention as every
+    other field per guida.md: ',' separates alternative values (e.g. the
+    real "case,mark" / "obl, xcomp" seen in ItCon/constructions/conllc/),
+    translated to Grew's own '|'; a leading '!' becomes Grew's edge-negation
+    '^' (which applies to the whole disjunction, per grew.fr/doc/request)."""
+    negated, values = _split_disjunction(value)
+    label = "|".join(values)
+    return f"^{label}" if negated else label
 
 
 def convert(construction):
@@ -154,7 +162,7 @@ def convert(construction):
         if "lemma" in node:
             clauses.append(_lemma_clause(node["lemma"]))
         if "upos" in node:
-            clauses.append(f"upos={node['upos']}")
+            clauses.append(_upos_clause(node["upos"]))
         if "form" in node:
             clauses.append(_form_clause(node["form"]))
         for f in node.get("feats", []):
@@ -175,22 +183,31 @@ def convert(construction):
                 edge_lines.append(f"  {head} -[{label}]-> {name};" if label else f"  {head} -> {name};")
 
         if "identity" in node:
+            # "field_name:ID" per guida.md, e.g. "FORM:C"; a dotted field
+            # ("FEATS.Number:C") coindexes a single morphosyntactic feature --
+            # Grew exposes FEATS keys as direct node attributes, so this is
+            # just the bare feature name on both sides (e.g. A.Number = C.Number).
             for constraint in node["identity"].split("|"):
-                if "=" not in constraint:
+                constraint = constraint.strip()
+                if ":" not in constraint:
                     continue
-                field, other = constraint.split("=", 1)
-                field = FEATURE_KEYS.get(f"UD.{field.strip()}", field.strip().lower())
-                constraint_lines.append(f"  {name}.{field} = {other.strip()}.{field};")
+                field, other = constraint.split(":", 1)
+                field, other = field.strip(), other.strip()
+                if "." in field:
+                    _, grew_field = field.split(".", 1)
+                else:
+                    grew_field = FEATURE_KEYS.get(f"UD.{field}", field.lower())
+                constraint_lines.append(f"  {name}.{grew_field} = {other}.{grew_field};")
 
         if "adjacency" in node:
-            # Y < X for each Y listed on X's row -- see the note in
-            # publications/tutorial/guida.md discussion: the guide's prose
-            # ("X precedes Y") and its own worked N-dopo-N example disagree
-            # on direction; this follows the worked example.
+            # Y << X for each Y listed on X's row -- guida.md: "X's ADJACENCY
+            # containing Y means X immediately precedes Y", confirmed for
+            # direction by its own worked N-dopo-N example, and now explicit
+            # about the operator too: "in grew, A << B".
             for other in re.split(r"[|,]", node["adjacency"]):
                 other = other.strip()
                 if other:
-                    constraint_lines.append(f"  {other} < {name};")
+                    constraint_lines.append(f"  {other} << {name};")
 
         if "exclusion" in node:
             for constraint in node["exclusion"].split("|"):

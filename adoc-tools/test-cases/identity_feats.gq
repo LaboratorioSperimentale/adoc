@@ -1,0 +1,7 @@
+pattern {
+  A [upos=NOUN];
+  C [lemma="dopo", upos=ADP, form=/dopo/i];
+  A -[obl]-> _EXT1;
+  A -[nmod]-> C;
+  A.Number = C.Number;
+}

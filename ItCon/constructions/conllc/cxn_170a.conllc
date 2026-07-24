@@ -4,7 +4,7 @@
 # horizontal_links = 169
 # vertical_links =
 # UPOS = ADJ
-# fields = ID	UD.FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	REQUIRED	WITHOUT	SEM_FEATS	SEM_ROLES	ADJACENCY	IDENTITY
+# fields = ID	UD.FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	REQUIRED	EXCLUSION	SEM_FEATS	SEM_ROLES	ADJACENCY	IDENTITY
 A	_	mezzo	ADV	_	C	advmod	1	_	_	_	_	_
 B	-	-	PUNCT	_	_	punct	0	_	_	_	A	_
 C	_	_	ADJ	_	0	root	1	_	_	_	B	_

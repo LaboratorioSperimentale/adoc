@@ -1,4 +1,4 @@
 # cxn_id = test-identity
 # fields = ID UD.FORM LEMMA UPOS HEAD DEPREL IDENTITY
-A	_	_	NOUN	0	root	FORM=C
-C	_	_	NOUN	A	nmod	FORM=A
+A	_	_	NOUN	0	root	FORM:C
+C	_	_	NOUN	A	nmod	FORM:A

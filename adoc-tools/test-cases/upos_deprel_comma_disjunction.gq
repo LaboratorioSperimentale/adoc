@@ -1,0 +1,5 @@
+pattern {
+  A [lemma="fare", upos=VERB];
+  E [upos=NOUN|PRON|VERB];
+  A -[obl|xcomp]-> E;
+}
