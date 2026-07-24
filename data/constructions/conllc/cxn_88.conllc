@@ -1,0 +1,5 @@
+# cxn_id = cxn_88
+# cxn_name = prendere per" construction cxn-machine-readable-formalization: | cxn_88.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	_	_	B	mark	_
+B	_	_	VERB	_	0	root	_

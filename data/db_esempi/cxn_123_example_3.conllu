@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS1980_2000 MISC
-# sent_id = 1
+# sent_id = cxn_123_example_3_1
 # text = A prima vista la guerra non sembra aver nemmeno sfiorato questo sito , che continua a presentare come sempre gli eventi culturali della capitale e a svolgere il suo ruolo di guida turistica , tra orchestrine jazz e caffè dove fare le ore piccole.
 1	A	a	ADP	E	_	3	case	_	_
 2	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_

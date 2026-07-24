@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = corpora.ficlit.unibo.it/CODIS/
-# sent_id = 1
+# sent_id = cxn_142_example_2_1
 # text = "Come crede che si sentano ?
 1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
 2	Come	come	ADV	B	_	3	advmod	_	_
@@ -13,7 +13,7 @@
 7	?	?	PUNCT	FS	_	3	punct	_	_
 
 # source = corpora.ficlit.unibo.it/CODIS/
-# sent_id = 2
+# sent_id = cxn_142_example_2_2
 # text = In Albania , e tutti sanno che aria tira lì, ci sono ragazzi che appartengono a corpi di cui si chiede lo scioglimento.
 1	In	in	ADP	E	_	2	case	_	_
 2	Albania	Albania	PROPN	SP	_	13	obl	_	_
@@ -42,7 +42,7 @@
 25	.	.	PUNCT	FS	_	13	punct	_	_
 
 # source = corpora.ficlit.unibo.it/CODIS/
-# sent_id = 3
+# sent_id = cxn_142_example_2_3
 # text = Me lo dica:
 1	Me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
 2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
@@ -50,7 +50,7 @@
 4	:	:	PUNCT	FC	_	3	punct	_	_
 
 # source = corpora.ficlit.unibo.it/CODIS/
-# sent_id = 4
+# sent_id = cxn_142_example_2_4
 # text = come crede che si sentano?"
 1	come	come	ADV	B	_	2	advmod	_	_
 2	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -61,7 +61,7 @@
 7	"	"	PUNCT	FB	_	2	punct	_	_
 
 # source = corpora.ficlit.unibo.it/CODIS/
-# sent_id = 5
+# sent_id = cxn_142_example_2_5
 # text = L'ammiraglio Guido Venturoni, capo di stato maggiore della Difesa
 1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	ammiraglio	ammiraglio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_

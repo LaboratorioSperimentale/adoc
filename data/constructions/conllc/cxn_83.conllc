@@ -1,0 +1,5 @@
+# cxn_id = cxn_83
+# cxn_name = prendere + nome cxn-machine-readable-formalization: | cxn_83.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	prendere	prendere	VERB	VerbForm=Inf	0	root	_
+B	_	_	NOUN	Number=Sing	A	obj	_

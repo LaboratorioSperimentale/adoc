@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Google Search
-# sent_id = 1
+# sent_id = cxn_64_example_1_1
 # text = Non è tanto il caldo, ma è l'umidità che uccide
 1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
 2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_

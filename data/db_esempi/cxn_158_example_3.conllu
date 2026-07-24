@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac
-# sent_id = 1
+# sent_id = cxn_158_example_3_1
 # text = Il blindato è stato distrutto dall' esplosione di un ordigno non identificato
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	blindato	blindato	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_

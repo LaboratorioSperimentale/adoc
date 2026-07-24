@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Glosbe dizionario online
-# sent_id = 1
+# sent_id = cxn_79_example_4_1
 # text = Dato che sei al corrente del mio segreto, non serve a niente menare il can per l'aia.
 1	Dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
 2	che	che	SCONJ	CS	_	6	mark	_	_

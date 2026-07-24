@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_78_example_1_1
 # text = "Sì , per me va benissimo .
 1	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
 2	Sì	sì	INTJ	I	Polarity=Pos	6	discourse	_	_
@@ -14,7 +14,7 @@
 8	.	.	PUNCT	FS	_	6	punct	_	_
 
 # source = CORIS
-# sent_id = 2
+# sent_id = cxn_78_example_1_2
 # text = Ma metterti a cucinare , semmai ordiniamo delle pizze ."
 1	Ma	ma	CCONJ	CC	_	2	cc	_	SpacesAfter= 
 2-3	metterti	_	_	_	_	_	_	_	_

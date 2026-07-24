@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ITALIAN WEB 2016 (ITTENTEN16) Sketch Engine 
-# sent_id = 1
+# sent_id = cxn_28_example_2_1
 # text = Potrete mangiare fuori tutte le volte che vorrete senza dover rinunciare agli inviti fuori casa per paura di mandare all' aria la dieta.
 1	Potrete	potere	AUX	VM	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	2	aux	_	_
 2	mangiare	mangiare	VERB	V	VerbForm=Inf	0	root	_	_

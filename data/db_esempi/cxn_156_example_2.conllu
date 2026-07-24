@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_156_example_2_1
 # text = Disse che dopo cena avremmo dovuto uscire a cercare la scarpa, tutti e due, perché anch'io avrei dovuto avere più cura di mio fratello.
 1	Disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	che	che	SCONJ	CS	_	7	mark	_	_
@@ -34,7 +34,7 @@
 28	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = CORIS
-# sent_id = 2
+# sent_id = cxn_156_example_2_2
 # text = Così ci sarebbe toccato uscire col buio.
 1	Così	così	ADV	B	_	4	advmod	_	_
 2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_

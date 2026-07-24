@@ -1,0 +1,9 @@
+pattern {
+  A [lemma="ma", upos=CCONJ, form=/ma/i];
+  B [lemma="essere", upos=AUX, Mood=Ind, Tense=Fut, VerbForm=Fin];
+  C [upos=ADJ];
+  D [upos=PRON, PronType=Prs];
+  C -[cc]-> A;
+  C -[cop]-> B;
+  C -[nsubj]-> D;
+}

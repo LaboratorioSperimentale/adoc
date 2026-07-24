@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Glosbe dizionario online
-# sent_id = 1
+# sent_id = cxn_79_example_5_1
 # text = Non ha senso menare il can per l'aia, o fingere che non stia succedendo quello che sta succedendo.
 1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
 2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_

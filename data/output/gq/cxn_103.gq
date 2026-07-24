@@ -1,0 +1,11 @@
+pattern {
+  A [lemma="a", upos=ADP, form=/a/i];
+  B [lemma="parte", upos=NOUN, form=/parte/i, Gender=Fem, Number=Sing];
+  C [lemma="che", upos=SCONJ, form=/che/i];
+  D [upos=VERB, Mood=Ind, Number=Sing, VerbForm=Fin];
+  E [upos=ADV];
+  D -[discourse]-> A;
+  A -[fixed]-> B;
+  B -[fixed]-> C;
+  D -[advmod]-> E;
+}

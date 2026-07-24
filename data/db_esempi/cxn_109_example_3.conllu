@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = PAISA'
-# sent_id = 1
+# sent_id = cxn_109_example_3_1
 # text = In breve tempo Rahvin divenne il vero sovrano , riempiendo la corte ed il regno di suoi fedeli servitori , a discapito di quelli fedeli alla regina.
 1	In	in	ADP	E	_	3	case	_	SpacesAfter= 
 2	breve	breve	ADJ	A	Number=Sing	3	amod	_	SpacesAfter= 

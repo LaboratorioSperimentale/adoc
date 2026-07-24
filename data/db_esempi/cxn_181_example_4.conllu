@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_181_example_4_1
 # text = Me dijo que era listo pero creo que me toma el pelo.
 1	Me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
 2	dijo	dijare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -19,13 +19,13 @@
 13	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter= \s
 
 # source = 
-# sent_id = 2
+# sent_id = cxn_181_example_4_2
 # text = Traduzione:
 1	Traduzione	traduzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	FC	_	1	punct	_	_
 
 # source = 
-# sent_id = 3
+# sent_id = cxn_181_example_4_3
 # text = Mi ha detto che era intelligente ma penso che mi sta prendendo in giro.
 1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
 2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_

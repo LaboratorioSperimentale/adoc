@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = (corpus) Paisà corpus dell'italiano:  https://www.corpusitaliano.it/static/documents/sources/730/7306809
-# sent_id = 1
+# sent_id = cxn_30_example_5_1
 # text = ( A scanso di + Det + Adv + Adj + Adj + N) A scanso di un non auspicato “sad ending” per la storia Saab, il modello dovrebbe essere presentato nel corso del prossimo autunno:
 1	(	(	PUNCT	FB	_	3	punct	_	_
 2	A	a	ADP	E	_	3	case	_	_

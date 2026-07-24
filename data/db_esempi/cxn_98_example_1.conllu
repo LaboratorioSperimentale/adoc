@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_98_example_1_1
 # text = Per quanto è brutto, per quanto è intelligente.
 1	Per	per	ADP	E	_	2	case	_	_
 2	quanto	quanto	PRON	PQ	Gender=Masc|Number=Sing|PronType=Rel	4	obl	_	_

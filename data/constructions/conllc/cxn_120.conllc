@@ -1,0 +1,7 @@
+# cxn_id = cxn_120
+# cxn_name = Complemento di luogo in Friuli Venezia Giulia cxn-machine-readable-formalization: | cxn_120.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	_	Mood=Ind|Person=1|VerbForm=Fin	0	root	_
+B	_	_	ADV	_	A	advmod	_
+C	di	di	ADP	_	D	case	_
+D	_	_	_	_	B	obl	_

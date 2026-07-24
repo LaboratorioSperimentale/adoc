@@ -1,0 +1,5 @@
+# cxn_id = cxn_157
+# cxn_name = bello Adj cxn-machine-readable-formalization: | cxn_157.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	bello	ADJ	_	B	amod	_
+B	_	_	_	_	0	root	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ITALIAN WEB 2016 (ITTENTEN16) Sketch Engine 
-# sent_id = 1
+# sent_id = cxn_28_example_3_1
 # text = Si preannunciava l'arrivo di 300-400 ultrà serbi con l'obiettivo infiltrarsi tra gli altri tifosi e mandare all' aria la partita.
 1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
 2	preannunciava	preannunciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_

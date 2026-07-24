@@ -1,0 +1,5 @@
+pattern {
+  A [lemma="sbolognare", upos=VERB, form=/sbolognare/i, VerbForm=Inf];
+  B [];
+  A -[obj]-> B;
+}

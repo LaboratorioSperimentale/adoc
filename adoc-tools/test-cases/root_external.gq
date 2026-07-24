@@ -1,0 +1,8 @@
+pattern {
+  A [upos=NOUN, Number=Sing];
+  B [lemma="dopo", upos=ADP, form=/dopo/i];
+  C [upos=NOUN, Number=Sing];
+  A -[obl]-> _EXT1;
+  C -[case]-> B;
+  A -[nmod]-> C;
+}

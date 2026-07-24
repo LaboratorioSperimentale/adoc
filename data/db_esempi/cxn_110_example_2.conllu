@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://dizionari.corriere.it/dizionario_italiano/T/tanto.shtml
-# sent_id = 1
+# sent_id = cxn_110_example_2_1
 # text = versa tanta acqua quanta ne assorbe la farina
 1	versa	versare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	tanta	tanto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	3	det	_	_

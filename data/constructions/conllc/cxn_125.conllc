@@ -1,0 +1,6 @@
+# cxn_id = cxn_125
+# cxn_name = Attenuazione dell'affermazione cxn-machine-readable-formalization: | cxn_125.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	quasi	quasi	ADV	_	C	advmod	_
+B	quasi	quasi	ADV	_	C	advmod	_
+C	_	_	VERB	Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_

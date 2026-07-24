@@ -1,0 +1,5 @@
+pattern {
+  A [lemma="avere", upos=VERB, Mood=Ind, Person=3, VerbForm=Fin];
+  B [upos=NOUN, Number=Sing];
+  A -[obj]-> B;
+}

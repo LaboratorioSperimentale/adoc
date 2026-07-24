@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: CORIS 
-# sent_id = 1
+# sent_id = cxn_74_example_3_1
 # text = Se non vado subito a casa a mangiare e dormire, domani starò una schifezza.
 1	Se	se	SCONJ	CS	_	3	mark	_	_
 2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_

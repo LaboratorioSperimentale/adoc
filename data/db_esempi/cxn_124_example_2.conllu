@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = MONITOR 2005-07
-# sent_id = 1
+# sent_id = cxn_124_example_2_1
 # text = Consisteva nel fingere , di_fronte_all ' avversario , di non avere munizioni , di essere in balìa di lui e della clemenza della corte , di_modo_che l ' altro , avvertendo di , fosse portato a esaurire di botto i propri argomenti
 1	Consisteva	consistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2-3	nel	_	_	_	_	_	_	_	_

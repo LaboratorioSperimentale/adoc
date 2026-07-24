@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Dizionario Internazionale
-# sent_id = 1
+# sent_id = cxn_107_example_1_1
 # text = Facciamo finta che questo non sia successo
 1	Facciamo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpacesBefore= 
 2	finta	finta	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_23_example_1_1
 # text = Mettiamo in chiaro le cose:
 1	Mettiamo	mettere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	in	in	ADP	E	_	3	case	_	_
@@ -12,7 +12,7 @@
 6	:	:	PUNCT	FC	_	1	punct	_	_
 
 # source = 
-# sent_id = 2
+# sent_id = cxn_23_example_1_2
 # text = tu da questa stanza non esci finchè non mi spieghi che cos'hai!
 1	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
 2	da	da	ADP	E	_	4	case	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://corpora.ficlit.unibo.it/TCORIS/Wrapper.php
-# sent_id = 1
+# sent_id = cxn_22_example_3_1
 # text = George non aveva uno straccio di autorità sul personale.
 1	George	George	PROPN	SP	_	3	nsubj	_	_
 2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_

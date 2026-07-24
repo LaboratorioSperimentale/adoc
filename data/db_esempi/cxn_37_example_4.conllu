@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://www.mammastyle.it/2021/11/24/casa-sempre-pulita-e-profumata-dopo-le-pulizie-devi-fare-assolutamente-questo/
-# sent_id = 1
+# sent_id = cxn_37_example_4_1
 # text = Dedicarsi alle faccende domestiche spesso è davvero una rottura di scatole
 1-2	Dedicarsi	_	_	_	_	_	_	_	_
 1	Dedicar	dedicare	VERB	V	VerbForm=Inf	11	csubj	_	_

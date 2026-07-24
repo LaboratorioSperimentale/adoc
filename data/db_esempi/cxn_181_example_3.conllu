@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_181_example_3_1
 # text = Deja de tomarme el pelo y dime la verdad ya.
 1	Deja	dejare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	de	de	ADP	E	_	3	mark	_	_
@@ -17,13 +17,13 @@
 11	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = 
-# sent_id = 2
+# sent_id = cxn_181_example_3_2
 # text = Traduzione:
 1	Traduzione	traduzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	FC	_	1	punct	_	_
 
 # source = 
-# sent_id = 3
+# sent_id = cxn_181_example_3_3
 # text = Smettila di prendermi in giro e dimmi già la verità (aprox).
 1	Smettila	smettilare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	di	di	ADP	E	_	3	mark	_	_

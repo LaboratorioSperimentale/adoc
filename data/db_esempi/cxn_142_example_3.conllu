@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = corpora.ficlit.unibo.it/CODIS
-# sent_id = 1
+# sent_id = cxn_142_example_3_1
 # text = Anton Antonovic, non era mia intenzione ... "Ma che succede", continuò tra sé e sé il nostro eroe, rimasto solo, "ma che aria tira da queste parti e che cosa significa questa nuova piega della faccenda?"
 1	Anton	Anton	PROPN	SP	_	7	nsubj	_	_
 2	Antonovic	Antonovic	PROPN	SP	_	1	flat:name	_	SpaceAfter=No

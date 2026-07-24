@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Reverso context dizionario online
-# sent_id = 1
+# sent_id = cxn_82_example_2_1
 # text = La même chose pourrait être en train de se passer aujourd'hui.La stessa cosa potrebbe accadere oggi.
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	même	même	ADJ	A	Number=Sing	3	amod	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = corpus: itTenTen20
-# sent_id = 1
+# sent_id = cxn_133_example_2_1
 # text = Comunque sto scrivendo davanti al pc bagnato fradicio d'acqua , che bello !
 1	Comunque	comunque	ADV	B	_	3	advmod	_	_
 2	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -22,7 +22,7 @@
 15	!	!	PUNCT	FS	_	3	punct	_	_
 
 # source = corpus: itTenTen20
-# sent_id = 2
+# sent_id = cxn_133_example_2_2
 # text = Voi direte "Come che bello ??!" , e io vi rispondo che non c'è cosa più bella.
 1	Voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	2	nsubj	_	_
 2	direte	dire	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_

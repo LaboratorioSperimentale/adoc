@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ITALIAN WEB 2016 (ITTENTEN16) Sketch Engine 
-# sent_id = 1
+# sent_id = cxn_28_example_4_1
 # text = Ma quello che non capisco è che non riesco neanche a pensare ai rischi che corro comportandomi così, alla possibilità di mandare all' aria una bellissima storia a causa delle mie paure.
 1	Ma	ma	CCONJ	CC	_	6	cc	_	_
 2	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_

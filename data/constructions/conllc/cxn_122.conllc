@@ -1,0 +1,5 @@
+# cxn_id = cxn_122
+# cxn_name = Sbolognare + X cxn-machine-readable-formalization: | cxn_122.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	sbolognare	sbolognare	VERB	VerbForm=Inf	0	root	_
+B	_	_	_	_	A	obj	LinearOrder=Variable

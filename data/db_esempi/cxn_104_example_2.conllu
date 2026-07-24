@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS 
-# sent_id = 1
+# sent_id = cxn_104_example_2_1
 # text = Quando poco prima_di prendere sonno ripensò al suo sogno non potè fare a_meno_di sorridere nel buio .
 1	Quando	quando	SCONJ	CS	_	6	mark	_	_
 2	poco	poco	ADV	B	_	3	advmod	_	_

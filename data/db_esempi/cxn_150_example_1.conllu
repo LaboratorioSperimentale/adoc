@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac
-# sent_id = 1
+# sent_id = cxn_150_example_1_1
 # text = Sua madre portò Gesù nel grembo:
 1	Sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	SpacesAfter= 
 2	madre	madre	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -15,7 +15,7 @@
 8	:	:	PUNCT	FC	_	3	punct	_	_
 
 # source = ItWac
-# sent_id = 2
+# sent_id = cxn_150_example_1_2
 # text = noi portiamolo nel cuore
 1	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2-3	portiamolo	_	_	_	_	_	_	_	_

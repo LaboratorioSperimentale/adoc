@@ -1,0 +1,9 @@
+pattern {
+  A [lemma="saltare", upos=VERB, Number=Sing];
+  B [lemma="fuori", upos=ADV, form=/fuori/i];
+  C [lemma="che", upos=SCONJ, form=/che/i];
+  D [];
+  A -[advmod]-> B;
+  D -[mark]-> C;
+  A -[ccomp]-> D;
+}

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_85_example_4_1
 # text = Forse è ora di capire davvero che non c'è nulla da salvare.
 1	Forse	forse	ADV	B	_	3	advmod	_	_
 2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_

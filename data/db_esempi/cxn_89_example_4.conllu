@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Glosbe dizionario online
-# sent_id = 1
+# sent_id = cxn_89_example_4_1
 # text = Tuttavia preoccuparsi di ciò che potrebbe succedere domani non fa altro che aggravare il carico emotivo di oggi.
 1	Tuttavia	tuttavia	ADV	B	_	11	advmod	_	_
 2-3	preoccuparsi	_	_	_	_	_	_	_	_

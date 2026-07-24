@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = corpus: itTenTen20
-# sent_id = 1
+# sent_id = cxn_135_example_2_1
 # text = passiamo il tempo a chiederci perché si vive lo dice senza voce quel musino che sorride.
 1	passiamo	passare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -25,7 +25,7 @@
 18	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = corpus: itTenTen20
-# sent_id = 2
+# sent_id = cxn_135_example_2_2
 # text = Guarda che sole che splende sopra di noi Nicole meraviglioso non trovi?
 1	Guarda	guardare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	che	che	DET	DQ	PronType=Int	3	det	_	_
@@ -42,7 +42,7 @@
 13	?	?	PUNCT	FS	_	1	punct	_	_
 
 # source = corpus: itTenTen20
-# sent_id = 3
+# sent_id = cxn_135_example_2_3
 # text = tu prendi sonno e intanto io ritorno bimbo
 1	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
 2	prendi	prendere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_

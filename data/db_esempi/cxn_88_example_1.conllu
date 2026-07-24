@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_88_example_1_1
 # text = Io e Francesca eravamo incantati da quel racconto.
 1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 2	e	e	CCONJ	CC	_	3	cc	_	_
@@ -15,7 +15,7 @@
 9	.	.	PUNCT	FS	_	5	punct	_	_
 
 # source = CORIS
-# sent_id = 2
+# sent_id = cxn_88_example_1_2
 # text = Infatti credo che a Federico sia dispiaciuto doverci confessare che non era vero, e che si era inventato tutto per prenderci per il culo.
 1	Infatti	infatti	ADV	B	_	2	advmod	_	_
 2	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -49,7 +49,7 @@
 28	.	.	PUNCT	FS	_	2	punct	_	_
 
 # source = CORIS
-# sent_id = 3
+# sent_id = cxn_88_example_1_3
 # text = È sempre stato un suo talento raccontare palle.
 1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 2	sempre	sempre	ADV	B	_	6	advmod	_	_

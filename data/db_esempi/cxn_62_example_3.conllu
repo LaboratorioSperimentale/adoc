@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = competenze personali
-# sent_id = 1
+# sent_id = cxn_62_example_3_1
 # text = "ma anche meno"
 1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
 2	ma	ma	CCONJ	CC	_	4	cc	_	_

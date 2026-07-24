@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = "Il nuovo De Mauro", Dizionario de l'Internazionale.
-# sent_id = 1
+# sent_id = cxn_60_example_1_1
 # text = Oggi ero in ritardo al colloquio di lavoro, quindi ho corso a più non posso.
 1	Oggi	oggi	ADV	B	_	4	advmod	_	_
 2	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	cop	_	_

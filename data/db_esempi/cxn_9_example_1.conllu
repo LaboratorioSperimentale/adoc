@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: itWaC
-# sent_id = 1
+# sent_id = cxn_9_example_1_1
 # text = [...] ci frequentiamo sempre più abitualmente e ci comportiamo come una simil-coppia
 1	[	[	PUNCT	FB	_	5	punct	_	SpaceAfter=No
 2	...	...	PUNCT	FF	_	5	punct	_	SpaceAfter=No

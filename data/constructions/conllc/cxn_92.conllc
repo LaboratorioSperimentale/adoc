@@ -1,0 +1,6 @@
+# cxn_id = cxn_92
+# cxn_name = X1 conjunction ri-X1 - construction cxn-machine-readable-formalization: | cxn_92.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	VERB	_	0	root	_
+B	e	e	CCONJ	_	C	cc	_
+C	_	_	VERB	_	A	conj	_

@@ -1,0 +1,9 @@
+pattern {
+  A [];
+  B [lemma="e", upos=CCONJ, form=/e/i];
+  C [lemma="compagnia", upos=NOUN, form=/compagnia/i, Gender=Fem, Number=Sing];
+  D [lemma="bello", upos=ADJ, form=/bella/i, Gender=Fem, Number=Sing];
+  C -[cc]-> B;
+  A -[conj]-> C;
+  C -[amod]-> D;
+}

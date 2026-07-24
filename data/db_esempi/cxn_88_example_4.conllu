@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_88_example_4_1
 # text = Sei andato di fuori, piedipiatti.
 1	Sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -13,7 +13,7 @@
 7	.	.	PUNCT	FS	_	2	punct	_	_
 
 # source = CORIS
-# sent_id = 2
+# sent_id = cxn_88_example_4_2
 # text = Alzò la Colt.
 1	Alzò	alzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -21,7 +21,7 @@
 4	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = CORIS
-# sent_id = 3
+# sent_id = cxn_88_example_4_3
 # text = Ti avevo avvertito di non prendermi per il bavero.
 1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
 2	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
@@ -37,7 +37,7 @@
 11	.	.	PUNCT	FS	_	3	punct	_	_
 
 # source = CORIS
-# sent_id = 4
+# sent_id = cxn_88_example_4_4
 # text = E io te l’avevo detto che era troppo furba per nascondersela addosso replicò Malone
 1	E	e	CCONJ	CC	_	6	cc	_	_
 2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_

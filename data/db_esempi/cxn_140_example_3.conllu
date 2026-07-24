@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = None
-# sent_id = 1
+# sent_id = cxn_140_example_3_1
 # text = Le piacciono le albicocche
 1	Le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
 2	piacciono	piacere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_

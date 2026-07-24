@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac
-# sent_id = 1
+# sent_id = cxn_150_example_3_1
 # text = è possibile garantire il proprio appoggio versando offerte sul conto corrente unico
 1	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	possibile	possibile	ADJ	A	Number=Sing	0	root	_	_

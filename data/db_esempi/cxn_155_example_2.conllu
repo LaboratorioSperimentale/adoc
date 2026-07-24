@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac
-# sent_id = 1
+# sent_id = cxn_155_example_2_1
 # text = E se vi dico che sono simpatica?
 1	E	e	CCONJ	CC	_	4	cc	_	_
 2	se	se	SCONJ	CS	_	4	mark	_	_

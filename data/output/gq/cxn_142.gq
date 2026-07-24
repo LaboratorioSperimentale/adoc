@@ -1,0 +1,7 @@
+pattern {
+  A [lemma="che", upos=DET, form=/che/i];
+  B [lemma="aria", upos=NOUN, form=/aria/i, Gender=Fem, Number=Sing];
+  C [lemma="tirare", upos=VERB, form=/tira/i, Mood=Ind, Number=Sing, Person=3, Tense=Pres, VerbForm=Fin];
+  B -[det]-> A;
+  C -[nsubj]-> B;
+}

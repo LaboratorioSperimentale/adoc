@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Una conversazione informale con una mia amica.
-# sent_id = 1
+# sent_id = cxn_17_example_1_1
 # text = Prima o poi una gioia!
 1	Prima	prima	ADV	B	_	5	advmod	_	_
 2	o	o	CCONJ	CC	_	3	cc	_	_

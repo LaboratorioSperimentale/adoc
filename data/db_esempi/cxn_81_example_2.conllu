@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Glosbe dizionario online
-# sent_id = 1
+# sent_id = cxn_81_example_2_1
 # text = Credo che ora spetti al Parlamento, per così dire, battere un colpo.
 1	Credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	che	che	SCONJ	CS	_	4	mark	_	_

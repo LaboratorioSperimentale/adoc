@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS https://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=38950204&End=38950204
-# sent_id = 1
+# sent_id = cxn_105_example_5_1
 # text = Promettimi che non rivelerai a nessuno quello che per dirti , a_meno_che non sia io a darti il permesso .
 1	Promettimi	promettimare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	che	che	SCONJ	CS	_	4	mark	_	_

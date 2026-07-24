@@ -1,0 +1,6 @@
+# cxn_id = cxn_151
+# cxn_name = Caused Motion + via Construction cxn-machine-readable-formalization: | cxn_151.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	VERB	Mood=Ind|VerbForm=Fin	0	root	_
+B	via	via	ADV	_	A	advmod	_
+C	_	_	_	_	A	obj	_

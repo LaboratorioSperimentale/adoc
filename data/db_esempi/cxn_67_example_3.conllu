@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: iTenTen20
-# sent_id = 1
+# sent_id = cxn_67_example_3_1
 # text = Può essere più o meno extra, a seconda della percentuale di frutta presente, ma non è comunque marmellata.
 1	Può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 2	essere	essere	AUX	VA	VerbForm=Inf	6	cop	_	_
@@ -29,7 +29,7 @@
 22	.	.	PUNCT	FS	_	6	punct	_	_
 
 # source = Corpus: iTenTen20
-# sent_id = 2
+# sent_id = cxn_67_example_3_2
 # text = Spiegarlo agli altri è praticamente impossibile, anche perchè avete mai assaggiato la marmellata di limone?
 1-2	Spiegarlo	_	_	_	_	_	_	_	_
 1	Spiegar	spiegare	VERB	V	VerbForm=Inf	8	csubj	_	_
@@ -54,7 +54,7 @@
 19	?	?	PUNCT	FS	_	8	punct	_	SpacesAfter=\s 
 
 # source = Corpus: iTenTen20
-# sent_id = 3
+# sent_id = cxn_67_example_3_3
 # text = Ti senti rispondere "E tu me la chiami marmellata questa?" Come dargli torto!
 1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	iobj	_	_
 2	senti	sentire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_

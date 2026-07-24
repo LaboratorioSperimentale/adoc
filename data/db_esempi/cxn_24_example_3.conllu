@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Conversazione mamma-bambino
-# sent_id = 1
+# sent_id = cxn_24_example_3_1
 # text = Mi vuoi bene?
 1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
 2	vuoi	volere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10,7 +10,7 @@
 4	?	?	PUNCT	FS	_	2	punct	_	_
 
 # source = Conversazione mamma-bambino
-# sent_id = 2
+# sent_id = cxn_24_example_3_2
 # text = Tanto tanto.
 1	Tanto	tanto	ADV	B	_	2	advmod	_	_
 2	tanto	tanto	ADV	B	_	0	root	_	SpaceAfter=No

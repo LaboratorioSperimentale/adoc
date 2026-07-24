@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = commento ad un Post facebook 
-# sent_id = 1
+# sent_id = cxn_3_example_3_1
 # text = Ti consiglio di non rivolgerti al Dottor Rossi per il tuo mal di schiena.
 1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	iobj	_	_
 2	consiglio	consigliare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -23,7 +23,7 @@
 16	.	.	PUNCT	FS	_	2	punct	_	_
 
 # source = commento ad un Post facebook 
-# sent_id = 2
+# sent_id = cxn_3_example_3_2
 # text = Almeno tre persone che si sono rivolte a lui me ne hanno dette peste e corna.
 1	Almeno	almeno	ADV	B	_	2	advmod	_	_
 2	tre	tre	NUM	N	NumType=Card	3	nummod	_	_

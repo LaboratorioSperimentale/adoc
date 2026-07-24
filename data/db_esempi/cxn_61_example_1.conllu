@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Italiano colloquiale
-# sent_id = 1
+# sent_id = cxn_61_example_1_1
 # text = Immagina andare a scuola e scoprire che è festa
 1	Immagina	immaginare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	andare	andare	VERB	V	VerbForm=Inf	1	xcomp	_	_

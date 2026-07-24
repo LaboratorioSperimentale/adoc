@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Conversazioni del quotidiano
-# sent_id = 1
+# sent_id = cxn_24_example_2_1
 # text = Se mi abbracci forte forte ti porto al parco
 1	Se	se	SCONJ	CS	_	3	mark	_	_
 2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_

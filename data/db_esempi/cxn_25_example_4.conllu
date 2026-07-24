@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = forum.metal.it 28.05.2021
-# sent_id = 1
+# sent_id = cxn_25_example_4_1
 # text = Vingenzo (sic) ma che te la prendi a fare così seriamente?
 1	Vingenzo	vingenzo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
 2	(	(	PUNCT	FB	_	3	punct	_	SpaceAfter=No

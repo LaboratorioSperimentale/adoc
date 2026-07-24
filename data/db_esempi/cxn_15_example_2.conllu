@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=153771509&End=153771510
-# sent_id = 1
+# sent_id = cxn_15_example_2_1
 # text = «Devo uscire di qui.» « Ma piove a catinelle » protesta Rafi
 1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
 2	Devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_

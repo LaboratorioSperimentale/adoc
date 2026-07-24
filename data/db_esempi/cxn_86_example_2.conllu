@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://context.reverso.net/translation/italian-english/restare+ad+ascoltare  >  https://www.statmt.org/europarl/v7/it-en.tgz 
-# sent_id = 1
+# sent_id = cxn_86_example_2_1
 # text = la prego di scusarmi se non potrò restare ad ascoltare la sua risposta
 1	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 2	prego	pregare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_

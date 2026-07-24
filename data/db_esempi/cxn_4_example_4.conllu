@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: itTenTen16
-# sent_id = 1
+# sent_id = cxn_4_example_4_1
 # text = Tutti bravi a parlare, Bono di qua, Bono di là…
 1	Tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	nsubj	_	_
 2	bravi	bravo	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_

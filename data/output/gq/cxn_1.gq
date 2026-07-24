@@ -1,0 +1,11 @@
+pattern {
+  A [lemma="non", upos=ADV, form=/non/i, PronType=Neg];
+  B [lemma="vedere", upos=VERB, form=/vedo/i, Mood=Ind, Number=Sing, Person=1, Tense=Pres, VerbForm=Fin];
+  C [lemma="perché", upos=SCONJ, form=/perché/i];
+  D [lemma="dovere", upos=AUX, form=/dovrei/i, Mood=Cnd, Number=Sing, Person=1, Tense=Pres, VerbForm=Fin];
+  E [upos=VERB, VerbForm=Inf];
+  B -[advmod]-> A;
+  E -[mark]-> C;
+  E -[aux]-> D;
+  B -[ccomp]-> E;
+}

@@ -1,0 +1,9 @@
+pattern {
+  A [lemma="uno", upos=DET, Definite=Ind, Number=Sing, PronType=Art];
+  B [upos=NOUN, Number=Sing];
+  C [lemma="di", upos=ADP, form=/di/i];
+  D [upos=NOUN];
+  B -[det]-> A;
+  D -[case]-> C;
+  B -[nmod]-> D;
+}

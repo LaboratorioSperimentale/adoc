@@ -1,0 +1,8 @@
+# cxn_id = cxn_102
+# cxn_name = Non ... ne frega cxn-machine-readable-formalization: | cxn_102.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	non	non	ADV	PronType=Neg	D	advmod	_
+B	_	_	PRON	Number=Sing|PronType=Prs	D	iobj	_
+C	ne	ne	PRON	PronType=Prs	D	obl	_
+D	frega	fregare	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_
+E	_	_	_	Gender=Masc|Number=Sing	D	obj	_

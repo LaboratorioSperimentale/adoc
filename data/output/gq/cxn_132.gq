@@ -1,0 +1,13 @@
+pattern {
+  A [upos=VERB];
+  B [lemma="in", upos=ADP, form=/in/i];
+  C [lemma="lungo", upos=ADJ, form=/lungo/i, Gender=Masc, Number=Sing];
+  D [lemma="e", upos=CCONJ, form=/e/i];
+  E [lemma="in", upos=ADP, form=/in/i];
+  F [lemma="largo", upos=NOUN, form=/largo/i, Gender=Masc, Number=Sing];
+  C -[case]-> B;
+  A -[obl]-> C;
+  F -[cc]-> D;
+  F -[case]-> E;
+  C -[conj]-> F;
+}

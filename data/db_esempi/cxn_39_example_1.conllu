@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://badip.uni-graz.at/it/corpus-lip/cerca?view=vcerca
-# sent_id = 1
+# sent_id = cxn_39_example_1_1
 # text = Pomezia e compagnia bella
 1	Pomezia	pomezia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
 2	e	e	CCONJ	CC	_	3	cc	_	_

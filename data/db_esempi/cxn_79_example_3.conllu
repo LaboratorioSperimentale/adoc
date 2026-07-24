@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Glosbe dizionario online
-# sent_id = 1
+# sent_id = cxn_79_example_3_1
 # text = Non voglio menare il can per l'aia, ho davvero bisogno del mio telefono.
 1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
 2	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_

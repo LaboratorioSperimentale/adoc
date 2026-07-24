@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_83_example_1_1
 # text = prendere sonno
 1	prendere	prendere	VERB	V	VerbForm=Inf	0	root	_	_
 2	sonno	sonno	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus CORIS
-# sent_id = 1
+# sent_id = cxn_34_example_2_1
 # text = Un fantasma ti dice chiaro e tondo che la vita ultraterrena che t'immagini non esiste neanche per idea:
 1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	fantasma	fantasma	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -26,7 +26,7 @@
 20	:	:	PUNCT	FC	_	4	punct	_	_
 
 # source = Corpus CORIS
-# sent_id = 2
+# sent_id = cxn_34_example_2_2
 # text = anche da morto torni sui tuoi passi.
 1	anche	anche	ADV	B	_	3	advmod	_	_
 2	da	da	ADP	E	_	3	case	_	_

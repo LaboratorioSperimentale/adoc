@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: Coris Timeslice: CORIS 1980_2000  Subcorpus: NARRAT
-# sent_id = 1
+# sent_id = cxn_126_example_4_1
 # text = Ma... - Chi tardi arriva male alloggia!
 1	Ma..	Ma..	PROPN	SP	_	8	discourse	_	SpaceAfter=No
 2	.	.	PUNCT	FS	_	1	punct	_	_
@@ -15,7 +15,7 @@
 9	!	!	PUNCT	FS	_	8	punct	_	_
 
 # source = Corpus: Coris Timeslice: CORIS 1980_2000  Subcorpus: NARRAT
-# sent_id = 2
+# sent_id = cxn_126_example_4_2
 # text = - sentenziò la maestra .
 1	-	-	PUNCT	FF	_	2	punct	_	_
 2	sentenziò	sentenziare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_

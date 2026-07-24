@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = itWaC
-# sent_id = 1
+# sent_id = cxn_100_example_1_1
 # text = Quanto sono lieto di essere partito!
 1	Quanto	quanto	PRON	PQ	Number=Sing|PronType=Int	3	obl	_	_
 2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_

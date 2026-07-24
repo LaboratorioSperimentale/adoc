@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: KipTO
-# sent_id = 1
+# sent_id = cxn_65_example_4_1
 # text = però // c'è l' idea della possessione // questo sì che c'è nell'islam
 1	però	però	ADV	B	_	5	advmod	_	SpacesBefore= 
 2	/	/	PUNCT	FF	_	1	punct	_	SpaceAfter=No

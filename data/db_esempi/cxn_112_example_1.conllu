@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Parlante nativo 
-# sent_id = 1
+# sent_id = cxn_112_example_1_1
 # text = Nella camera di Elena i vesiti sono sparsi alla rinfusa.
 1-2	Nella	_	_	_	_	_	_	_	_
 1	In	in	ADP	E	_	3	case	_	_

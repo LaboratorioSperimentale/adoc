@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = internet
-# sent_id = 1
+# sent_id = cxn_42_example_3_1
 # text = essere in alto mare
 1	essere	essere	AUX	VA	VerbForm=Inf	4	cop	_	_
 2	in	in	ADP	E	_	4	case	_	_

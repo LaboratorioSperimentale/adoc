@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: Coris Timeslice: MONITOR2005_07  Subcorpus: NARRAT
-# sent_id = 1
+# sent_id = cxn_126_example_3_1
 # text = Doveva rischiarla?
 1	Doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
 2-3	rischiarla	_	_	_	_	_	_	_	SpaceAfter=No
@@ -11,7 +11,7 @@
 4	?	?	PUNCT	FS	_	2	punct	_	_
 
 # source = Corpus: Coris Timeslice: MONITOR2005_07  Subcorpus: NARRAT
-# sent_id = 2
+# sent_id = cxn_126_example_3_2
 # text = Chi non risica non rosica.
 1	Chi	chi	PRON	PR	PronType=Int	3	nsubj	_	_
 2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_

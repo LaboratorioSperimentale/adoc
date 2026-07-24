@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://corpora.ficlit.unibo.it/CODIS/Context.php?Start=84698130&End=84698131
-# sent_id = 1
+# sent_id = cxn_46_example_1_1
 # text = I robot si occuperanno di tutte le faccende domestiche , lasciandole un sacco di tempo per dedicarsi ai suoi passatempi preferiti .
 1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	robot	robot	NOUN	S	Gender=Masc	4	nsubj	_	_

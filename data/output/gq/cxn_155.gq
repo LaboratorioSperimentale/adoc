@@ -1,0 +1,5 @@
+pattern {
+  A [upos=SCONJ];
+  B [VerbForm=Fin];
+  B -[mark]-> A;
+}

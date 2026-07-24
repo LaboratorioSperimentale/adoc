@@ -1,0 +1,7 @@
+pattern {
+  A [upos=NOUN];
+  C [upos=NOUN];
+  A -[nmod]-> C;
+  A.form = C.form;
+  C.form = A.form;
+}

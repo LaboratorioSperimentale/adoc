@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_54_example_2_1
 # text = "Se non è zuppa è pan bagnato", significato assimilabile al primo esempio ma con sfumatura diversa.
 1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
 2	Se	se	SCONJ	CS	_	5	mark	_	_
@@ -28,7 +28,7 @@
 21	.	.	PUNCT	FS	_	7	punct	_	_
 
 # source = 
-# sent_id = 2
+# sent_id = cxn_54_example_2_2
 # text = Esprime come due cose dal nome differente ma con aspetto simile siano, alla fine, sempre quelle.
 1	Esprime	esprimere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	come	come	SCONJ	CS	_	20	mark	_	_

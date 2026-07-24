@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_181_example_2_1
 # text = ¡No me tomes el pelo así!
 1	¡No	¡no	ADV	BN	PronType=Neg	3	advmod	_	_
 2	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
@@ -13,13 +13,13 @@
 7	!	!	PUNCT	FS	_	3	punct	_	_
 
 # source = 
-# sent_id = 2
+# sent_id = cxn_181_example_2_2
 # text = Traduzione:
 1	Traduzione	traduzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	FC	_	1	punct	_	_
 
 # source = 
-# sent_id = 3
+# sent_id = cxn_181_example_2_3
 # text = Non prendermi in giro così!
 1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
 2-3	prendermi	_	_	_	_	_	_	_	_

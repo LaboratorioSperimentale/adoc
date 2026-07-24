@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_95_example_3_1
 # text = dice che un uomo non ha cervello quando è stupido, che non ha cuore quando è meschino, che non ha fegato quando è un fifone.
 1	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	che	che	SCONJ	CS	_	6	mark	_	_

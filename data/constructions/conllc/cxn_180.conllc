@@ -1,0 +1,7 @@
+# cxn_id = cxn_180
+# cxn_name = non PRON che V cxn-machine-readable-formalization: | cxn_180.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	non	non	ADV	PronType=Neg	B	advmod	_
+B	io	io	PRON	Number=Sing|Person=1|PronType=Prs	0	root	_
+C	che	che	PRON	PronType=Rel	D	nsubj	_
+D	_	_	VERB	_	B	acl:relcl	_

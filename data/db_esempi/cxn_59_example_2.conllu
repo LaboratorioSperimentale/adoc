@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Web
-# sent_id = 1
+# sent_id = cxn_59_example_2_1
 # text = Essere nelle mani di Dio indica protezione.
 1	Essere	essere	AUX	VA	VerbForm=Inf	7	cop	_	_
 2-3	nelle	_	_	_	_	_	_	_	_

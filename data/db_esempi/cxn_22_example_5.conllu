@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://corpora.ficlit.unibo.it/TCORIS/Wrapper.php
-# sent_id = 1
+# sent_id = cxn_22_example_5_1
 # text = da ormai due anni lavoro in questo paese.
 1	da	da	ADP	E	_	4	case	_	_
 2	ormai	ormai	ADV	B	_	4	advmod	_	_

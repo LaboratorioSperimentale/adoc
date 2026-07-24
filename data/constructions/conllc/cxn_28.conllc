@@ -1,0 +1,9 @@
+# cxn_id = cxn_28
+# cxn_name = Mandare all'aria - (Det) - (Agg) - N cxn-machine-readable-formalization: | cxn_28.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	mandare	VERB	_	0	root	_
+B	a	a	ADP	_	D	case	_
+C	l'	il	DET	Definite=Def|Number=Sing|PronType=Art	D	det	_
+D	aria	aria	NOUN	Gender=Fem|Number=Sing	A	obl	_
+E	_	_	DET	Gender=Fem|PronType=Art	F	det	_
+F	_	_	NOUN	Gender=Fem	A	obj	_

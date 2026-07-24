@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://www.piccolomondoitaliano.com/2019/06/03/10-espressioni-italiane-con-la-parola-pane/
-# sent_id = 1
+# sent_id = cxn_37_example_2_1
 # text = Mio fratello è un pezzo di pane
 1	Mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_

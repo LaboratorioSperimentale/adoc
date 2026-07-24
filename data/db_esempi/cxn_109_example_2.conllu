@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = PAISA'
-# sent_id = 1
+# sent_id = cxn_109_example_2_1
 # text = Un altro argomento a discapito della sua teoria è che non è conosciuto nessun corso abbastanza lungo di un ghiacciaio che all' epoca avrebbe potuto trasportare delle pietre dalle colline alla pianura di Salisbury dove Stonehenge è stata costruita .
 1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	SpacesAfter= 
 2	altro	altro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpacesAfter= 

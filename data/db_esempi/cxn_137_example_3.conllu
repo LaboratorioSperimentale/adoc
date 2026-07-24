@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://www.oasport.it/2023/05/motogp-bagnaia-e-vinales-sono-venuti-alle-mani-cosa-e-successo-a-le-mans/
-# sent_id = 1
+# sent_id = cxn_137_example_3_1
 # text = Nella MotoGP del politicamente corretto e del volemose bene, due piloti sono venuti alle mani
 1-2	Nella	_	_	_	_	_	_	_	_
 1	In	in	ADP	E	_	3	case	_	_

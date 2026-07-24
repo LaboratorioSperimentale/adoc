@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: ELEXIS Italian Web 2020
-# sent_id = 1
+# sent_id = cxn_72_example_4_1
 # text = Quello che inizio però a non avere molto chiaro è quale sia la sua vera ambizione
 1	Quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
 2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	SpacesAfter= 

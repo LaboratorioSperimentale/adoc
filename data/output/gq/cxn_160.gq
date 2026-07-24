@@ -1,0 +1,5 @@
+pattern {
+  A [lemma="il", upos=DET, Definite=Def, PronType=Art];
+  B [upos=NOUN];
+  B -[det]-> A;
+}

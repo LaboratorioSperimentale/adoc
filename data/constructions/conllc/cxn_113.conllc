@@ -1,0 +1,7 @@
+# cxn_id = cxn_113
+# cxn_name = Discontinuous reduplication N-dopo-N cxn-machine-readable-formalization: | cxn_113.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	VERB	_	0	root	_
+B	_	_	NOUN	Number=Sing	A	obl	LinearOrder=Variable
+C	dopo	dopo	ADP	_	D	case	_
+D	_	_	NOUN	Number=Sing	B	nmod	_

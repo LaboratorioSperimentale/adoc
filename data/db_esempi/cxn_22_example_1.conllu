@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://corpora.ficlit.unibo.it/TCORIS/Wrapper.php 
-# sent_id = 1
+# sent_id = cxn_22_example_1_1
 # text = Intanto, però, non ha uno straccio di prova contro nessuno.
 1	Intanto	intanto	ADV	B	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	1	punct	_	_

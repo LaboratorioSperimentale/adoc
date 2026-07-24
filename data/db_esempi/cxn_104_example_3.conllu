@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS 
-# sent_id = 1
+# sent_id = cxn_104_example_3_1
 # text = La cultura orizzontale in altre parole non può fare a_meno_della cultura verticale .
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_

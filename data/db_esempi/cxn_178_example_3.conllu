@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_178_example_3_1
 # text = meglio tardi che mai
 1	meglio	meglio	ADV	B	_	0	root	_	_
 2	tardi	tardi	ADV	B	_	1	advmod	_	_

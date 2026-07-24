@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_138_example_1_1
 # text = Spero di non aver fatto la figura del vanitoso presentandomi così
 1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	di	di	ADP	E	_	5	mark	_	_

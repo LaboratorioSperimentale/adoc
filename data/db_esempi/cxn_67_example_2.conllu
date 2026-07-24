@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: iTenTen20
-# sent_id = 1
+# sent_id = cxn_67_example_2_1
 # text = Accettare che "l'unico amore sia nato dal unico odio", esserne consapevoli al punto da affrontare qualunque cosa(dall'esilio all'essere sepolti vivi) pur di "arrivare al giorno in cui si sorriderà dei tormenti dell'oggi";
 1	Accettare	accettare	VERB	V	VerbForm=Inf	0	root	_	_
 2	che	che	SCONJ	CS	_	8	mark	_	_
@@ -66,7 +66,7 @@
 52	;	;	PUNCT	FC	_	1	punct	_	_
 
 # source = Corpus: iTenTen20
-# sent_id = 2
+# sent_id = cxn_67_example_2_2
 # text = e tu questo me lo chiami "fuggire dai problemi"?
 1	e	e	CCONJ	CC	_	6	cc	_	_
 2	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_

@@ -1,0 +1,5 @@
+# cxn_id = cxn_139
+# cxn_name = Construction 'vuoi' X 'vuoi' Y cxn-machine-readable-formalization: | cxn_139.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	VERB	_	0	root	_
+B	vuoi	volere	VERB	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	A	conj	LinearOrder=Variable

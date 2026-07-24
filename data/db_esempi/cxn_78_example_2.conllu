@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_78_example_2_1
 # text = Che te ne frega della coerenza , o di quello che dice Pepe .
 1	Che	che	PRON	PQ	_	4	obj	_	_
 2	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	expl	_	_
@@ -22,7 +22,7 @@
 15	.	.	PUNCT	FS	_	4	punct	_	_
 
 # source = CORIS
-# sent_id = 2
+# sent_id = cxn_78_example_2_2
 # text = Vai ora , perdere tempo , aggiungi donna a donna , e non metterti a contare
 1	Vai	andare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ora	ora	ADV	B	_	1	advmod	_	_

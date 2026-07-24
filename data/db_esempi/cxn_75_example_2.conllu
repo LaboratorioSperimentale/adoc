@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://idiotaignorante.wordpress.com/2011/12/10/
-# sent_id = 1
+# sent_id = cxn_75_example_2_1
 # text = Esiste, nell’umana varietà, una sottospecie particolarmente molesta situata nell’interstizio fra il Mongospastico e il Mongolitico, a non troppa distanza dal Nerd e nel quartiere confinante con quello dei Maniaci: è lo Svantaggiato.
 1	Esiste	esistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	1	punct	_	_

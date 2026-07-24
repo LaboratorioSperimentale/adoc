@@ -1,0 +1,5 @@
+# cxn_id = cxn_158
+# cxn_name = Passive Construction cxn-machine-readable-formalization: | cxn_158.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	essere	AUX	_	B	aux:pass	_
+B	_	_	VERB	Gender=Masc|Tense=Past|VerbForm=Part	0	root	_

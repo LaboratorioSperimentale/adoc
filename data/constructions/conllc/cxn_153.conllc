@@ -1,0 +1,6 @@
+# cxn_id = cxn_153
+# cxn_name = Intransitive Motion Construction cxn-machine-readable-formalization: | cxn_153.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	VERB	VerbForm=Fin	0	root	_
+B	_	_	ADP	_	C	case	_
+C	_	_	_	_	A	obl	_

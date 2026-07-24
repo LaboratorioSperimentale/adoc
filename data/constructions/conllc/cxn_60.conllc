@@ -1,0 +1,8 @@
+# cxn_id = cxn_60
+# cxn_name = Verbo + Locuz. Avverb"a più non posso" cxn-machine-readable-formalization: | cxn_60.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	VERB	_	0	root	_
+B	a	a	ADP	_	E	case	_
+C	più	più	ADV	_	E	advmod	_
+D	non	non	ADV	PronType=Neg	E	advmod	_
+E	posso	potere	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	A	obl	_

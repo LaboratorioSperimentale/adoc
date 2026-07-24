@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = itTenTen20
-# sent_id = 1
+# sent_id = cxn_68_example_5_1
 # text = Una banca emette un decreto ingiuntivo ad una vedova per un importo di 180.000 €... ma... guarda caso..
 1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	banca	banca	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -25,7 +25,7 @@
 19	.	.	PUNCT	FS	_	3	punct	_	_
 
 # source = itTenTen20
-# sent_id = 2
+# sent_id = cxn_68_example_5_2
 # text = salta fuori che la firma sulla fideiussione è FALSA!
 1	salta	saltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	fuori	fuori	ADV	B	_	1	advmod	_	_

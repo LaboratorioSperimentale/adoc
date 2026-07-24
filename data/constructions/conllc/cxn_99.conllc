@@ -1,0 +1,7 @@
+# cxn_id = cxn_99
+# cxn_name = Farsi le ossa cxn-machine-readable-formalization: | cxn_99.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	fare	VERB	_	0	root	_
+B	_	_	PRON	PronType=Prs	A	expl	LinearOrder=Variable
+C	le	il	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	D	det	_
+D	ossa	osso	NOUN	Gender=Fem|Number=Plur	A	obj	_

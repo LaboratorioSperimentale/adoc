@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_176_example_1_1
 # text = Ne sono uscito distrutto.
 1	Ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
 2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_

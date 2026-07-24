@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac
-# sent_id = 1
+# sent_id = cxn_152_example_1_1
 # text = I Paesi Bassi non spediscono pelli di animali (...) provenienti dalle parti del proprio territorio elencate nell' allegato I.
 1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	Paesi	Paesi	PROPN	SP	_	5	nsubj	_	_
@@ -33,7 +33,7 @@
 24	I.	I.	PROPN	SP	_	23	nmod	_	_
 
 # source = ItWac
-# sent_id = 2
+# sent_id = cxn_152_example_1_2
 # text = 2.
 1	2	2	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter= 

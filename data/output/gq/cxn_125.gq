@@ -1,0 +1,7 @@
+pattern {
+  A [lemma="quasi", upos=ADV, form=/quasi/i];
+  B [lemma="quasi", upos=ADV, form=/quasi/i];
+  C [upos=VERB, Number=Sing, Person=1, Tense=Pres, VerbForm=Fin];
+  C -[advmod]-> A;
+  C -[advmod]-> B;
+}

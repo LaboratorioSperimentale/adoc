@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Glosbe
-# sent_id = 1
+# sent_id = cxn_110_example_3_1
 # text = Quanto più brutali erano i giocatori, dal punto di vista della folla, tanto meglio.
 1	Quanto	quanto	ADV	B	_	3	advmod	_	SpacesAfter= 
 2	più	più	ADV	B	_	3	advmod	_	_

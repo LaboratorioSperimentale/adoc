@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS 1980-2000
-# sent_id = 1
+# sent_id = cxn_124_example_1_1
 # text = dove l ' eco dei suoi passi , sostenuto dalle pareti della Galleria , cambia d ' improvviso e si fa apparentemente più sicuro , facendogli quasi credere di
 1	dove	dove	ADV	B	_	18	advmod	_	_
 2	l	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: KIP
-# sent_id = 1
+# sent_id = cxn_77_example_3_1
 # text = sul materiale didattico // un file pi di effe che ho scritto a mano stamani // ci sono sedici pagine // con la dimostrazione
 1-2	sul	_	_	_	_	_	_	_	SpacesBefore=\s\s\s
 1	su	su	ADP	E	_	3	case	_	_

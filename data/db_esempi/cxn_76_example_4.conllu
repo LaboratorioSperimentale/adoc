@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://aforisticamente.com/frasi-citazioni-e-aforismi-sulla-strada-e-il-cammino/
-# sent_id = 1
+# sent_id = cxn_76_example_4_1
 # text = La via si percorre passo dopo passo.
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	via	via	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
@@ -14,7 +14,7 @@
 8	.	.	PUNCT	FS	_	4	punct	_	_
 
 # source = https://aforisticamente.com/frasi-citazioni-e-aforismi-sulla-strada-e-il-cammino/
-# sent_id = 2
+# sent_id = cxn_76_example_4_2
 # text = Se un passo è intenso e perfetto, lo sarà anche quello successivo.
 1	Se	se	SCONJ	CS	_	5	mark	_	_
 2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -32,7 +32,7 @@
 14	.	.	PUNCT	FS	_	9	punct	_	_
 
 # source = https://aforisticamente.com/frasi-citazioni-e-aforismi-sulla-strada-e-il-cammino/
-# sent_id = 3
+# sent_id = cxn_76_example_4_3
 # text = Pensiamo a fare ogni passo in maniera perfetta, non alla via.
 1	Pensiamo	pensare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	a	a	ADP	E	_	3	mark	_	_
@@ -51,7 +51,7 @@
 14	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = https://aforisticamente.com/frasi-citazioni-e-aforismi-sulla-strada-e-il-cammino/
-# sent_id = 4
+# sent_id = cxn_76_example_4_4
 # text = Non chiediamo altro che il nostro pane quotidiano.
 1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
 2	chiediamo	chiedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -64,7 +64,7 @@
 9	.	.	PUNCT	FS	_	2	punct	_	_
 
 # source = https://aforisticamente.com/frasi-citazioni-e-aforismi-sulla-strada-e-il-cammino/
-# sent_id = 5
+# sent_id = cxn_76_example_4_5
 # text = E cioè: qui e ora, il nostro presente.
 1	E	e	CCONJ	CC	_	4	cc	_	_
 2	cioè	cioè	ADV	B	_	4	advmod	_	SpaceAfter=No
@@ -79,7 +79,7 @@
 11	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
 
 # source = https://aforisticamente.com/frasi-citazioni-e-aforismi-sulla-strada-e-il-cammino/
-# sent_id = 6
+# sent_id = cxn_76_example_4_6
 # text = (Alejandro Jodorowsky)
 1	(	(	PUNCT	FB	_	2	punct	_	SpaceAfter=No
 2	Alejandro	Alejandro	PROPN	SP	_	0	root	_	_

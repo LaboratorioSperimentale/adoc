@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=28773534&End=28773534
-# sent_id = 1
+# sent_id = cxn_16_example_3_1
 # text = Ma Petruccioli non sente ragioni e mette subito all'ordine del giorno la votazione, bruciando così il rivale in men che non si dica
 1	Ma	ma	CCONJ	CC	_	4	cc	_	_
 2	Petruccioli	Petruccioli	PROPN	SP	_	4	nsubj	_	_

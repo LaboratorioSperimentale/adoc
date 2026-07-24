@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_138_example_2_1
 # text = Io l’ho trovato meraviglioso, come fare la figura del cretino senza che nessuno ti abbia chiesto nulla
 1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	l’	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	4	obj	_	SpaceAfter=No

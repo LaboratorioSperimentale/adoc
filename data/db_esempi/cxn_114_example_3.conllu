@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS2021
-# sent_id = 1
+# sent_id = cxn_114_example_3_1
 # text = Il paesaggio è bellissimo, dolce, joyful;
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	paesaggio	paesaggio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -15,7 +15,7 @@
 9	;	;	PUNCT	FC	_	4	punct	_	_
 
 # source = CORIS2021
-# sent_id = 2
+# sent_id = cxn_114_example_3_2
 # text = i bambini vanno a scuola, raccolti casa per casa, dal bus che passa ogni mattina.
 1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_

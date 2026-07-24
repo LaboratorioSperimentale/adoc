@@ -1,0 +1,13 @@
+pattern {
+  A [lemma="non", upos=ADV, form=/non/i, PronType=Neg];
+  B [lemma="avere", upos=VERB, Mood=Ind, VerbForm=Fin];
+  C [lemma="uno", upos=DET, form=/uno/i, Definite=Ind, Gender=Masc, Number=Sing, PronType=Art];
+  D [lemma="straccio", upos=NOUN, form=/straccio/i, Gender=Masc, Number=Sing];
+  E [lemma="di", upos=ADP, form=/di/i];
+  F [upos=NOUN, Gender=Fem];
+  B -[advmod]-> A;
+  D -[det]-> C;
+  B -[obj]-> D;
+  F -[case]-> E;
+  D -[nmod]-> F;
+}

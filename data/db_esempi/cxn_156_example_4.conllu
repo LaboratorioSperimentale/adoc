@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_156_example_4_1
 # text = E quando Domenico Bartoli si lamenta per quello che gli tocca scrivere sul « Corriere», autocensurandosi insomma, il suo direttore con un gran sospiro alza gli occhi al cielo e fa:
 1	E	e	CCONJ	CC	_	30	cc	_	_
 2	quando	quando	SCONJ	CS	_	6	mark	_	_
@@ -47,7 +47,7 @@
 38	:	:	PUNCT	FC	_	30	punct	_	_
 
 # source = CORIS
-# sent_id = 2
+# sent_id = cxn_156_example_4_2
 # text = «Oh, se avessi io un giornale!».
 1	«	«	PUNCT	FB	_	8	punct	_	SpaceAfter=No
 2	Oh	oh	INTJ	I	_	8	discourse	_	SpaceAfter=No

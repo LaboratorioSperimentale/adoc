@@ -1,0 +1,8 @@
+# cxn_id = cxn_141
+# cxn_name = Ancora ora Construction cxn-machine-readable-formalization: | cxn_141.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	ancora	ancora	ADV	_	C	advmod	_
+B	ora	ora	ADV	_	C	advmod	_
+C	_	_	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_
+D	che	che	SCONJ	_	E	mark	_
+E	_	_	_	_	C	ccomp	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS [MONITOR2001_04]
-# sent_id = 1
+# sent_id = cxn_90_example_1_1
 # text = insegna che non ha più senso la prima moglie...
 1	insegna	insegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	che	che	SCONJ	CS	_	4	mark	_	_

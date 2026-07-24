@@ -1,0 +1,6 @@
+# cxn_id = cxn_101
+# cxn_name = Adverb reduplication cxn-machine-readable-formalization: | cxn_101.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	VERB	_	0	root	_
+B	_	_	ADV	_	A	advmod	LinearOrder=Variable
+C	_	_	ADV	_	B	fixed	_

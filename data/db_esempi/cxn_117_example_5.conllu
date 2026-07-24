@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac Complete
-# sent_id = 1
+# sent_id = cxn_117_example_5_1
 # text = Mistero dei misteri Il non essere : il mistero dei misteri , l' ignoto degli ignoti
 1	Mistero	mistero	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
 2-3	dei	_	_	_	_	_	_	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
-# sent_id = 1
+# sent_id = cxn_2_example_3_1
 # text = Perdiamo sempre per colpa dell’arbitro?
 1	Perdiamo	perdere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	sempre	sempre	ADV	B	_	1	advmod	_	_
@@ -15,7 +15,7 @@
 8	?	?	PUNCT	FS	_	1	punct	_	_
 
 # source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
-# sent_id = 2
+# sent_id = cxn_2_example_3_2
 # text = La prossima volta non c’è arbitro che tenga.
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
@@ -29,14 +29,14 @@
 10	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter= 
 
 # source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
-# sent_id = 3
+# sent_id = cxn_2_example_3_3
 # text = Vinceremo noi!
 1	Vinceremo	vincere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
 2	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	1	nsubj	_	SpaceAfter=No
 3	!	!	PUNCT	FS	_	1	punct	_	_
 
 # source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
-# sent_id = 4
+# sent_id = cxn_2_example_3_4
 # text = Analogamente, anche in questa occorrenza la causa del precedente fallimento viene posta nel mezzo di questa costruzione e diventa ostacolo al raggiungimento dell'obiettivo (l'arbitro).
 1	Analogamente	analogamente	ADV	B	_	14	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	1	punct	_	_

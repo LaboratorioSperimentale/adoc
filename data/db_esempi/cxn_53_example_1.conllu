@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=57851776&End=57851778
-# sent_id = 1
+# sent_id = cxn_53_example_1_1
 # text = Anzi , rido proprio , e mi viene da coprirmi la bocca con la mano .
 1	Anzi	anzi	ADV	B	_	3	advmod	_	_
 2	,	,	PUNCT	FF	_	1	punct	_	_

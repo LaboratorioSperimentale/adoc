@@ -1,0 +1,7 @@
+# cxn_id = cxn_35
+# cxn_name = mettere su + N cxn-machine-readable-formalization: | cxn_35.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	ADP	_	B	case	_
+B	mettere	mettere	VERB	VerbForm=Inf	0	root	_
+C	su	su	ADP	_	B	advmod	_
+D	_	_	NOUN	_	B	obj	_

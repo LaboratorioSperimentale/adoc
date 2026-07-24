@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: CORIS
-# sent_id = 1
+# sent_id = cxn_92_example_1_1
 # text = Lui con la testa china su un foglio che legge e rilegge muovendo le labbra, gli occhi socchiusi per correggere il suo difetto alla vista.
 1	Lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	con	con	ADP	E	_	4	case	_	_

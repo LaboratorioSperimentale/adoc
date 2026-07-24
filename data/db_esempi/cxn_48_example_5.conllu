@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CorpusPaisà (corpusitaliano.it)
-# sent_id = 1
+# sent_id = cxn_48_example_5_1
 # text = Le caratteristiche del Circuito di Singapore hanno spinto a dare all'ala anteriore un aspetto più arrotondato.
 1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	caratteristiche	caratteristica	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_

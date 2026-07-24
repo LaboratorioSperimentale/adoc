@@ -1,0 +1,8 @@
+# cxn_id = cxn_23
+# cxn_name = Mettere + in chiaro + X Alternativa: Mettere + X + in chiaro cxn-machine-readable-formalization: | cxn_23.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	mettere	VERB	_	0	root	_
+B	in	in	ADP	_	C	case	_
+C	chiaro	chiaro	ADJ	Gender=Masc|Number=Sing	A	obl	_
+D	le	il	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	E	det	_
+E	_	_	NOUN	Gender=Fem|Number=Plur	A	obj	_

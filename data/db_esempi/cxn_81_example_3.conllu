@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Glosbe dizionario online
-# sent_id = 1
+# sent_id = cxn_81_example_3_1
 # text = Ruth ringhiò, e senza battere un colpo, balzò sull'uomo, infilandogli i denti nella gola.
 1	Ruth	Ruth	PROPN	SP	_	2	nsubj	_	_
 2	ringhiò	ringhiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No

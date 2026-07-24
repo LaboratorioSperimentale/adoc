@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: itTenTen16
-# sent_id = 1
+# sent_id = cxn_4_example_3_1
 # text = Ora poi facciamo attenzione che ogni iniziativa ha e avrà un aggettivo imprescindibile: “Europeo.”
 1	Ora	ora	ADV	B	_	3	advmod	_	_
 2	poi	poi	ADV	B	_	3	advmod	_	_
@@ -23,7 +23,7 @@
 17	”	”	PUNCT	FB	_	16	punct	_	_
 
 # source = Corpus: itTenTen16
-# sent_id = 2
+# sent_id = cxn_4_example_3_2
 # text = Giornata Europea contro la sclerosi multipla, Giornata Europea contro la leucemia, giornata europea contro il fumo, sciopero europeo,giornata europea di qua, giornata europea di là.
 1	Giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
 2	Europea	europeo	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	_

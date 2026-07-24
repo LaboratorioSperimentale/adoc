@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = "Il nuovo De Mauro", Dizionario de l'Internazionale.
-# sent_id = 1
+# sent_id = cxn_60_example_2_1
 # text = Per il suo matrimonio, Claudia ha organizzato un pranzo a buffet:
 1	Per	per	ADP	E	_	4	case	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -19,7 +19,7 @@
 13	:	:	PUNCT	FC	_	8	punct	_	SpacesAfter= 
 
 # source = "Il nuovo De Mauro", Dizionario de l'Internazionale.
-# sent_id = 2
+# sent_id = cxn_60_example_2_2
 # text = ho bevuto e mangiato a più non posso.
 1	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	bevuto	bere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpacesAfter= 

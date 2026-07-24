@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: CORIS
-# sent_id = 1
+# sent_id = cxn_13_example_3_1
 # text = Dopo quell'umiliazione, era più che mai deciso a non invitare nessuno.
 1	Dopo	dopo	ADP	E	_	3	case	_	_
 2	quell'	quello	DET	DD	Number=Sing|PronType=Dem	3	det	_	SpaceAfter=No

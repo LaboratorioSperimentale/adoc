@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_88_example_3_1
 # text = Proprio come a Lisbeth Salander, gli piaceva risolvere rompicapi ed enigmi.
 1	Proprio	proprio	ADV	B	_	4	advmod	_	_
 2	come	come	ADV	B	ExtPos=ADP	4	case	_	_
@@ -19,7 +19,7 @@
 13	.	.	PUNCT	FS	_	8	punct	_	_
 
 # source = CORIS
-# sent_id = 2
+# sent_id = cxn_88_example_3_2
 # text = Pare che si divertisse particolarmente a prendere per il naso altri matematici costruendo problemi ma tralasciando di includere la soluzione.
 1	Pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	che	che	SCONJ	CS	_	4	mark	_	_

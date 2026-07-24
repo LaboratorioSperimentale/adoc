@@ -2,13 +2,13 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://www.corpusitaliano.it/
-# sent_id = 1
+# sent_id = cxn_132_example_2_1
 # text = 2.
 1	2	2	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = https://www.corpusitaliano.it/
-# sent_id = 2
+# sent_id = cxn_132_example_2_2
 # text = In vista delle importanti elezioni del 1932, Hitler e il suo entourage girano la Germania in lungo e in largo.
 1	In	in	ADP	E	_	2	case	_	_
 2	vista	vista	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_

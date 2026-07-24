@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_175_example_1_1
 # text = Più gente c'è meglio è.
 1	Più	più	ADV	B	_	2	advmod	_	_
 2	gente	gente	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_

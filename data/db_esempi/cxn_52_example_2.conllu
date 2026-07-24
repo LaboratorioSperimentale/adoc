@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = conversazione telefonica
-# sent_id = 1
+# sent_id = cxn_52_example_2_1
 # text = Se Luca si imbarazza tanto ha parlarne è perchè ha la coda di paglia.
 1	Se	se	SCONJ	CS	_	4	mark	_	_
 2	Luca	Luca	PROPN	SP	_	4	nsubj	_	_

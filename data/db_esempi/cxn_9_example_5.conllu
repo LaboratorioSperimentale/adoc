@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: itWaC
-# sent_id = 1
+# sent_id = cxn_9_example_5_1
 # text = [...] pure io mi ero messo a simil studiare…
 1	[	[	PUNCT	FB	_	8	punct	_	SpaceAfter=No
 2	...	...	PUNCT	FF	_	8	punct	_	SpaceAfter=No

@@ -1,0 +1,1142 @@
+# sent_id = cxn_1
+# text = non vedo perché dovrei _
+# form = non vedo perché dovrei VERB
+1	non	non	ADV	_	_	2	advmod	_	OrigID=A
+2	vedo	vedere	VERB	_	_	0	root	_	OrigID=B
+3	perché	perché	SCONJ	_	_	5	mark	_	OrigID=C
+4	dovrei	dovere	AUX	_	_	5	aux	_	OrigID=D
+5	_	_	VERB	_	_	2	ccomp	_	OrigID=E
+
+# sent_id = cxn_100
+# text = quanto sono _
+# form = quanto sono _
+1	quanto	quanto	_	_	_	3	advmod	_	OrigID=A
+2	sono	essere	AUX	_	_	3	cop	_	OrigID=B
+3	_	_	_	_	_	0	root	_	OrigID=C
+
+# sent_id = cxn_101
+# text = _ _ _
+# form = VERB ADV ADV
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	_	_	ADV	_	_	1	advmod	_	OrigID=B|LinearOrder=Variable
+3	_	_	ADV	_	_	2	fixed	_	OrigID=C
+
+# sent_id = cxn_102
+# text = non _ ne frega _
+# form = non PRON ne frega _
+1	non	non	ADV	_	_	4	advmod	_	OrigID=A
+2	_	_	PRON	_	_	4	iobj	_	OrigID=B
+3	ne	ne	PRON	_	_	4	obl	_	OrigID=C
+4	frega	fregare	VERB	_	_	0	root	_	OrigID=D
+5	_	_	_	_	_	4	obj	_	OrigID=E
+
+# sent_id = cxn_103
+# text = a parte che _ _
+# form = a parte che VERB ADV
+1	a	a	ADP	_	_	4	discourse	_	OrigID=A
+2	parte	parte	NOUN	_	_	1	fixed	_	OrigID=B
+3	che	che	SCONJ	_	_	2	fixed	_	OrigID=C
+4	_	_	VERB	_	_	0	root	_	OrigID=D
+5	_	_	ADV	_	_	4	advmod	_	OrigID=E|LinearOrder=Variable
+
+# sent_id = cxn_104
+# text = non _ fare a meno
+# form = non potere fare a meno
+1	non	non	ADV	_	_	3	advmod	_	OrigID=A
+2	_	potere	AUX	_	_	3	aux	_	OrigID=B
+3	fare	fare	VERB	_	_	0	root	_	OrigID=C
+4	a	a	ADP	_	_	5	case	_	OrigID=D
+5	meno	meno	ADV	_	_	3	advmod	_	OrigID=E
+
+# sent_id = cxn_105
+# text = _ per _
+# form = stare per VERB
+1	_	stare	VERB	_	_	0	root	_	OrigID=A
+2	per	per	ADP	_	_	3	mark	_	OrigID=B
+3	_	_	VERB	_	_	1	ccomp	_	OrigID=C
+
+# sent_id = cxn_106
+# text = _ a il volo
+# form = VERB a il volo
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	a	a	ADP	_	_	4	case	_	OrigID=B
+3	il	il	DET	_	_	4	det	_	OrigID=C
+4	volo	volo	NOUN	_	_	1	obl	_	OrigID=D
+
+# sent_id = cxn_107
+# text = _ finta
+# form = fare finta
+1	_	fare	VERB	_	_	0	root	_	OrigID=A
+2	finta	finta	NOUN	_	_	1	obj	_	OrigID=B
+
+# sent_id = cxn_108
+# text = _ _ _
+# form = _ VERB VERB
+1	_	_	_	_	_	2	iobj	_	OrigID=A|LinearOrder=Variable
+2	_	_	VERB	_	_	0	root	_	OrigID=B
+3	_	_	VERB	_	_	2	xcomp	_	OrigID=C
+
+# sent_id = cxn_109
+# text = a discapito di _
+# form = a discapito di _
+1	a	a	ADP	_	_	2	case	_	OrigID=A
+2	discapito	discapito	NOUN	_	_	0	root	_	OrigID=B
+3	di	di	ADP	_	_	4	case	_	OrigID=C
+4	_	_	_	_	_	2	nmod	_	OrigID=D
+
+# sent_id = cxn_11
+# text = _ _ _
+# form = VERB NUM NOUN
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	_	_	NUM	_	_	3	nummod	_	OrigID=B
+3	_	_	NOUN	_	_	1	obj	_	OrigID=C
+
+# sent_id = cxn_110
+# text = _ _ _
+# form = _ DET NOUN
+1	_	_	_	_	_	0	root	_	OrigID=A
+2	_	_	DET	_	_	3	det	_	OrigID=B
+3	_	_	NOUN	_	_	1	nsubj	_	OrigID=C|LinearOrder=Variable
+
+# sent_id = cxn_111
+# text = _ la _
+# form = PRON la vedere
+1	_	_	PRON	_	_	3	expl	_	OrigID=A|LinearOrder=Variable
+2	la	la	PRON	_	_	3	obj	_	OrigID=B|LinearOrder=Variable
+3	_	vedere	VERB	_	_	0	root	_	OrigID=C
+
+# sent_id = cxn_113
+# text = _ _ dopo _
+# form = VERB NOUN dopo NOUN
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	_	_	NOUN	_	_	1	obl	_	OrigID=B|LinearOrder=Variable
+3	dopo	dopo	ADP	_	_	4	case	_	OrigID=C
+4	_	_	NOUN	_	_	2	nmod	_	OrigID=D
+
+# sent_id = cxn_114
+# text = _ per _
+# form = NOUN per NOUN
+1	_	_	NOUN	_	_	0	root	_	OrigID=A
+2	per	per	ADP	_	_	3	case	_	OrigID=B
+3	_	_	NOUN	_	_	1	nmod	_	OrigID=C
+
+# sent_id = cxn_117
+# text = il _ di i _
+# form = il NOUN di i NOUN
+1	il	il	DET	_	_	2	det	_	OrigID=A
+2	_	_	NOUN	_	_	0	root	_	OrigID=B
+3	di	di	ADP	_	_	5	case	_	OrigID=C
+4	i	il	DET	_	_	5	det	_	OrigID=D
+5	_	_	NOUN	_	_	2	nmod	_	OrigID=E
+
+# sent_id = cxn_118
+# text = _
+# form = _
+1	_	_	_	_	_	0	root	_	OrigID=A
+
+# sent_id = cxn_119
+# text = _ _ di i poveri
+# form = DET _ di i poveri
+1	_	_	DET	_	_	2	det	_	OrigID=A
+2	_	_	_	_	_	0	root	_	OrigID=B
+3	di	di	ADP	_	_	5	case	_	OrigID=C
+4	i	il	DET	_	_	5	det	_	OrigID=D
+5	poveri	povero	NOUN	_	_	2	nmod	_	OrigID=E
+
+# sent_id = cxn_120
+# text = _ _ di _
+# form = _ ADV di _
+1	_	_	_	_	_	0	root	_	OrigID=A
+2	_	_	ADV	_	_	1	advmod	_	OrigID=B
+3	di	di	ADP	_	_	4	case	_	OrigID=C
+4	_	_	_	_	_	2	obl	_	OrigID=D
+
+# sent_id = cxn_121
+# text = _ un po'
+# form = VERB un po'
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	un	uno	DET	_	_	3	det	_	OrigID=B
+3	po'	poco	ADV	_	_	1	advmod	_	OrigID=C
+
+# sent_id = cxn_122
+# text = sbolognare _
+# form = sbolognare _
+1	sbolognare	sbolognare	VERB	_	_	0	root	_	OrigID=A
+2	_	_	_	_	_	1	obj	_	OrigID=B|LinearOrder=Variable
+
+# sent_id = cxn_123
+# text = _ le ore _
+# form = VERB le ore ADJ
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	le	il	DET	_	_	3	det	_	OrigID=B
+3	ore	ora	NOUN	_	_	1	obj	_	OrigID=C
+4	_	_	ADJ	_	_	3	amod	_	OrigID=D
+
+# sent_id = cxn_124
+# text = di avere _ _ in tasca
+# form = di avere DET NOUN in tasca
+1	di	di	ADP	_	_	2	mark	_	OrigID=A
+2	avere	avere	VERB	_	_	0	root	_	OrigID=B
+3	_	_	DET	_	_	4	det	_	OrigID=C
+4	_	_	NOUN	_	_	2	obj	_	OrigID=D
+5	in	in	ADP	_	_	6	case	_	OrigID=E
+6	tasca	tasca	NOUN	_	_	4	nmod	_	OrigID=F
+
+# sent_id = cxn_125
+# text = quasi quasi _
+# form = quasi quasi VERB
+1	quasi	quasi	ADV	_	_	3	advmod	_	OrigID=A
+2	quasi	quasi	ADV	_	_	3	advmod	_	OrigID=B
+3	_	_	VERB	_	_	0	root	_	OrigID=C
+
+# sent_id = cxn_126
+# text = chi _ _
+# form = chi VERB _
+1	chi	chi	PRON	_	_	3	nsubj	_	OrigID=A
+2	_	_	VERB	_	_	1	acl:relcl	_	OrigID=B
+3	_	_	_	_	_	0	root	_	OrigID=C
+
+# sent_id = cxn_127
+# text = _
+# form = _
+1	_	_	_	_	_	0	root	_	OrigID=A
+
+# sent_id = cxn_129
+# text = che non _
+# form = che non VERB
+1	che	che	SCONJ	_	_	3	mark	_	OrigID=A
+2	non	non	ADV	_	_	3	advmod	_	OrigID=B
+3	_	_	VERB	_	_	0	root	_	OrigID=C
+
+# sent_id = cxn_13
+# text = _ che mai
+# form = _ che mai
+1	_	_	_	_	_	0	root	_	OrigID=A
+2	che	che	ADP	_	_	3	case	_	OrigID=B
+3	mai	mai	ADV	_	_	1	advmod	_	OrigID=C
+
+# sent_id = cxn_131
+# text = _ _ in croce
+# form = NUM NOUN in croce
+1	_	_	NUM	_	_	2	nummod	_	OrigID=A
+2	_	_	NOUN	_	_	0	root	_	OrigID=B
+3	in	in	ADP	_	_	4	case	_	OrigID=C
+4	croce	croce	NOUN	_	_	2	nmod	_	OrigID=D
+
+# sent_id = cxn_132
+# text = _ in lungo e in largo
+# form = VERB in lungo e in largo
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	in	in	ADP	_	_	3	case	_	OrigID=B
+3	lungo	lungo	ADJ	_	_	1	obl	_	OrigID=C
+4	e	e	CCONJ	_	_	6	cc	_	OrigID=D
+5	in	in	ADP	_	_	6	case	_	OrigID=E
+6	largo	largo	NOUN	_	_	3	conj	_	OrigID=F
+
+# sent_id = cxn_133
+# text = _
+# form = _
+1	_	_	_	_	_	0	root	_	OrigID=A
+
+# sent_id = cxn_134
+# text = un botto
+# form = un botto
+1	un	uno	DET	_	_	2	det	_	OrigID=A
+2	botto	botto	NOUN	_	_	0	root	_	OrigID=B
+
+# sent_id = cxn_135
+# text = _ _ _
+# form = DET NOUN _
+1	_	_	DET	_	_	2	det	_	OrigID=A
+2	_	_	NOUN	_	_	0	root	_	OrigID=B
+3	_	_	_	_	_	2	acl:relcl	_	OrigID=C
+
+# sent_id = cxn_136
+# text = alzare _ _
+# form = alzare il NOUN
+1	alzare	alzare	VERB	_	_	0	root	_	OrigID=A
+2	_	il	DET	_	_	3	det	_	OrigID=B
+3	_	_	NOUN	_	_	1	obj	_	OrigID=C
+
+# sent_id = cxn_137
+# text = _ _ a le mani
+# form = essere VERB a le mani
+1	_	essere	AUX	_	_	2	aux	_	OrigID=A
+2	_	_	VERB	_	_	0	root	_	OrigID=B
+3	a	a	ADP	_	_	5	case	_	OrigID=C
+4	le	il	DET	_	_	5	det	_	OrigID=D
+5	mani	mano	NOUN	_	_	2	obl	_	OrigID=E
+
+# sent_id = cxn_138
+# text = _ la figura di il _
+# form = fare la figura di il _
+1	_	fare	VERB	_	_	0	root	_	OrigID=A
+2	la	il	DET	_	_	3	det	_	OrigID=B
+3	figura	figura	NOUN	_	_	1	obj	_	OrigID=C
+4	di	di	ADP	_	_	6	case	_	OrigID=D
+5	il	il	DET	_	_	6	det	_	OrigID=E
+6	_	_	_	_	_	3	nmod	_	OrigID=F
+
+# sent_id = cxn_139
+# text = _ vuoi
+# form = VERB vuoi
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	vuoi	volere	VERB	_	_	1	conj	_	OrigID=B|LinearOrder=Variable
+
+# sent_id = cxn_14
+# text = bello come _ _
+# form = bello come DET NOUN
+1	bello	bello	ADJ	_	_	0	root	_	OrigID=A
+2	come	come	ADP	_	_	4	case	_	OrigID=B
+3	_	_	DET	_	_	4	det	_	OrigID=C
+4	_	_	NOUN	_	_	1	obl	_	OrigID=D
+
+# sent_id = cxn_140
+# text = _ _
+# form = _ piacere
+1	_	_	_	_	_	2	iobj	_	OrigID=A
+2	_	piacere	VERB	_	_	0	root	_	OrigID=B
+
+# sent_id = cxn_141
+# text = ancora ora _ che _
+# form = ancora ora VERB che _
+1	ancora	ancora	ADV	_	_	3	advmod	_	OrigID=A
+2	ora	ora	ADV	_	_	3	advmod	_	OrigID=B
+3	_	_	VERB	_	_	0	root	_	OrigID=C
+4	che	che	SCONJ	_	_	5	mark	_	OrigID=D
+5	_	_	_	_	_	3	ccomp	_	OrigID=E
+
+# sent_id = cxn_142
+# text = che aria tira
+# form = che aria tira
+1	che	che	DET	_	_	2	det	_	OrigID=A
+2	aria	aria	NOUN	_	_	3	nsubj	_	OrigID=B
+3	tira	tirare	VERB	_	_	0	root	_	OrigID=C
+
+# sent_id = cxn_143
+# text = _ _ _
+# form = VERB ADP NOUN
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	_	_	ADP	_	_	3	case	_	OrigID=B
+3	_	_	NOUN	_	_	1	obl	_	OrigID=C|LinearOrder=Variable
+
+# sent_id = cxn_144
+# text = non _ niente a che fare con _
+# form = non avere niente a che fare con _
+1	non	non	ADV	_	_	2	advmod	_	OrigID=A
+2	_	avere	VERB	_	_	0	root	_	OrigID=B
+3	niente	niente	PRON	_	_	2	obj	_	OrigID=C
+4	a	a	ADP	_	_	6	mark	_	OrigID=D
+5	che	che	SCONJ	_	_	4	fixed	_	OrigID=E
+6	fare	fare	VERB	_	_	2	advcl	_	OrigID=F
+7	con	con	ADP	_	_	8	case	_	OrigID=G
+8	_	_	_	_	_	6	obl	_	OrigID=H
+
+# sent_id = cxn_149
+# text = _ _ _
+# form = VERB NOUN ADJ
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	_	_	NOUN	_	_	1	obj	_	OrigID=B
+3	_	_	ADJ	_	_	2	amod	_	OrigID=C|LinearOrder=Variable
+
+# sent_id = cxn_15
+# text = piove a _
+# form = piove a NOUN
+1	piove	piovere	VERB	_	_	0	root	_	OrigID=A
+2	a	a	ADP	_	_	3	case	_	OrigID=B
+3	_	_	NOUN	_	_	1	obl	_	OrigID=C
+
+# sent_id = cxn_150
+# text = _ _
+# form = VERB _
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	_	_	_	_	_	1	obj	_	OrigID=B|LinearOrder=Variable
+
+# sent_id = cxn_151
+# text = _ via _
+# form = VERB via _
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	via	via	ADV	_	_	1	advmod	_	OrigID=B
+3	_	_	_	_	_	1	obj	_	OrigID=C
+
+# sent_id = cxn_152
+# text = _ _ _
+# form = ADP il _
+1	_	_	ADP	_	_	3	case	_	OrigID=A
+2	_	il	DET	_	_	3	det	_	OrigID=B
+3	_	_	_	_	_	0	root	_	OrigID=C
+
+# sent_id = cxn_153
+# text = _ _ _
+# form = VERB ADP _
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	_	_	ADP	_	_	3	case	_	OrigID=B
+3	_	_	_	_	_	1	obl	_	OrigID=C
+
+# sent_id = cxn_154
+# text = _ di _
+# form = VERB di _
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	di	di	ADP	_	_	3	mark	_	OrigID=B
+3	_	_	_	_	_	1	xcomp	_	OrigID=C
+
+# sent_id = cxn_155
+# text = _ _
+# form = SCONJ _
+1	_	_	SCONJ	_	_	2	mark	_	OrigID=A
+2	_	_	_	_	_	0	root	_	OrigID=B
+
+# sent_id = cxn_156
+# text = _ _
+# form = toccare VERB
+1	_	toccare	VERB	_	_	0	root	_	OrigID=A
+2	_	_	VERB	_	_	1	xcomp	_	OrigID=B
+
+# sent_id = cxn_157
+# text = _ _
+# form = bello _
+1	_	bello	ADJ	_	_	2	amod	_	OrigID=A
+2	_	_	_	_	_	0	root	_	OrigID=B
+
+# sent_id = cxn_158
+# text = _ _
+# form = essere VERB
+1	_	essere	AUX	_	_	2	aux:pass	_	OrigID=A
+2	_	_	VERB	_	_	0	root	_	OrigID=B
+
+# sent_id = cxn_159
+# text = _ _ _
+# form = _ VERB _
+1	_	_	_	_	_	2	nsubj	_	OrigID=A|LinearOrder=Variable
+2	_	_	VERB	_	_	0	root	_	OrigID=B
+3	_	_	_	_	_	2	xcomp	_	OrigID=C
+
+# sent_id = cxn_16
+# text = _ in men che non si dica
+# form = VERB in men che non si dica
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	in	in	ADP	_	_	3	case	_	OrigID=B
+3	men	meno	ADV	_	_	1	advmod	_	OrigID=C|LinearOrder=Variable
+4	che	che	SCONJ	_	_	7	mark	_	OrigID=D
+5	non	non	ADV	_	_	7	advmod	_	OrigID=E
+6	si	si	PRON	_	_	7	expl:impers	_	OrigID=F
+7	dica	dire	VERB	_	_	3	advcl	_	OrigID=G
+
+# sent_id = cxn_160
+# text = _ _
+# form = il NOUN
+1	_	il	DET	_	_	2	det	_	OrigID=A
+2	_	_	NOUN	_	_	0	root	_	OrigID=B
+
+# sent_id = cxn_161
+# text = _ _ _ _ _ _
+# form = VERB DET NOUN _ VERB NOUN
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	_	_	DET	_	_	3	det	_	OrigID=B
+3	_	_	NOUN	_	_	1	obj	_	OrigID=C
+4	_	_	_	_	_	1	obl	_	OrigID=D
+5	_	_	VERB	_	_	1	advcl	_	OrigID=E
+6	_	_	NOUN	_	_	5	obj	_	OrigID=F
+
+# sent_id = cxn_17
+# text = prima o poi _
+# form = prima o poi _
+1	prima	prima	ADV	_	_	4	advmod	_	OrigID=A|LinearOrder=Variable
+2	o	o	CCONJ	_	_	3	cc	_	OrigID=B
+3	poi	poi	ADV	_	_	1	conj	_	OrigID=C
+4	_	_	_	_	_	0	root	_	OrigID=D
+
+# sent_id = cxn_171
+# text = _ _
+# form = _ _
+1	_	_	_	_	_	0	root	_	OrigID=A
+2	_	_	_	_	_	1	conj	_	OrigID=B
+
+# sent_id = cxn_172
+# text = _ _ _
+# form = _ trovare ADJ
+1	_	_	_	_	_	2	obj	_	OrigID=A|LinearOrder=Variable
+2	_	trovare	VERB	_	_	0	root	_	OrigID=B
+3	_	_	ADJ	_	_	2	xcomp	_	OrigID=C
+
+# sent_id = cxn_173
+# text = _ di _
+# form = dare di NOUN
+1	_	dare	VERB	_	_	0	root	_	OrigID=A
+2	di	di	ADP	_	_	3	case	_	OrigID=B
+3	_	_	NOUN	_	_	1	obl	_	OrigID=C
+
+# sent_id = cxn_174
+# text = più _ che _
+# form = più _ che _
+1	più	più	ADV	_	_	2	advmod	_	OrigID=A
+2	_	_	_	_	_	0	root	_	OrigID=B
+3	che	che	CCONJ	_	_	4	cc	_	OrigID=C
+4	_	_	_	_	_	2	conj	_	OrigID=D
+
+# sent_id = cxn_175
+# text = _ _ _
+# form = NOUN _ _
+1	_	_	NOUN	_	_	2	nsubj	_	OrigID=A
+2	_	_	_	_	_	0	root	_	OrigID=B
+3	_	_	_	_	_	2	conj	_	OrigID=C
+
+# sent_id = cxn_176
+# text = ne _ _
+# form = ne uscire _
+1	ne	ne	PRON	_	_	2	obl	_	OrigID=A
+2	_	uscire	VERB	_	_	0	root	_	OrigID=B
+3	_	_	_	_	_	2	xcomp	_	OrigID=C
+
+# sent_id = cxn_178
+# text = _ che _
+# form = _ che _
+1	_	_	_	_	_	0	root	_	OrigID=A
+2	che	che	CCONJ	_	_	3	cc	_	OrigID=B
+3	_	_	_	_	_	1	conj	_	OrigID=C
+
+# sent_id = cxn_179
+# text = di il _
+# form = di il PRON
+1	di	di	ADP	_	_	3	case	_	OrigID=A
+2	il	il	DET	_	_	3	det	_	OrigID=B
+3	_	_	PRON	_	_	0	root	_	OrigID=C
+
+# sent_id = cxn_18
+# text = _ _ _ _ _
+# form = VERB ADP _ ADP NOUN
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	_	_	ADP	_	_	3	case	_	OrigID=B
+3	_	_	_	_	_	1	obl	_	OrigID=C|LinearOrder=Variable
+4	_	_	ADP	_	_	5	case	_	OrigID=D
+5	_	_	NOUN	_	_	3	nmod	_	OrigID=E
+
+# sent_id = cxn_180
+# text = non io che _
+# form = non io che VERB
+1	non	non	ADV	_	_	2	advmod	_	OrigID=A
+2	io	io	PRON	_	_	0	root	_	OrigID=B
+3	che	che	PRON	_	_	4	nsubj	_	OrigID=C
+4	_	_	VERB	_	_	2	acl:relcl	_	OrigID=D
+
+# sent_id = cxn_19
+# text = _ far _ a _
+# form = ADP far VERB a NOUN
+1	_	_	ADP	_	_	2	mark	_	OrigID=A
+2	far	fare	VERB	_	_	0	root	_	OrigID=B
+3	_	_	VERB	_	_	2	ccomp	_	OrigID=C
+4	a	a	ADP	_	_	5	case	_	OrigID=D
+5	_	_	NOUN	_	_	3	obl	_	OrigID=E
+
+# sent_id = cxn_2
+# text = non c’ è _ che tenga
+# form = non c’ è NOUN che tenga
+1	non	non	ADV	_	_	3	advmod	_	OrigID=A
+2	c’	ci	PRON	_	_	3	expl	_	OrigID=B
+3	è	essere	VERB	_	_	0	root	_	OrigID=C
+4	_	_	NOUN	_	_	3	nsubj	_	OrigID=D
+5	che	che	PRON	_	_	6	nsubj	_	OrigID=E
+6	tenga	tenere	VERB	_	_	4	acl:relcl	_	OrigID=F
+
+# sent_id = cxn_20
+# text = prender si _ _ _
+# form = prender si NOUN ADP _
+1	prender	prendere	VERB	_	_	0	root	_	OrigID=A
+2	si	si	PRON	_	_	1	expl	_	OrigID=B
+3	_	_	NOUN	_	_	1	obj	_	OrigID=C
+4	_	_	ADP	_	_	5	case	_	OrigID=D
+5	_	_	_	_	_	1	obl	_	OrigID=E|LinearOrder=Variable
+
+# sent_id = cxn_21
+# text = _ a _
+# form = andare a VERB
+1	_	andare	VERB	_	_	0	root	_	OrigID=A
+2	a	a	ADP	_	_	3	mark	_	OrigID=B
+3	_	_	VERB	_	_	1	xcomp	_	OrigID=C
+
+# sent_id = cxn_22
+# text = non _ uno straccio di _
+# form = non avere uno straccio di NOUN
+1	non	non	ADV	_	_	2	advmod	_	OrigID=A
+2	_	avere	VERB	_	_	0	root	_	OrigID=B
+3	uno	uno	DET	_	_	4	det	_	OrigID=C
+4	straccio	straccio	NOUN	_	_	2	obj	_	OrigID=D
+5	di	di	ADP	_	_	6	case	_	OrigID=E
+6	_	_	NOUN	_	_	4	nmod	_	OrigID=F
+
+# sent_id = cxn_23
+# text = _ in chiaro le _
+# form = mettere in chiaro le NOUN
+1	_	mettere	VERB	_	_	0	root	_	OrigID=A
+2	in	in	ADP	_	_	3	case	_	OrigID=B
+3	chiaro	chiaro	ADJ	_	_	1	obl	_	OrigID=C
+4	le	il	DET	_	_	5	det	_	OrigID=D
+5	_	_	NOUN	_	_	1	obj	_	OrigID=E
+
+# sent_id = cxn_24
+# text = _
+# form = ADV
+1	_	_	ADV	_	_	0	root	_	OrigID=A
+
+# sent_id = cxn_25
+# text = _ a fare
+# form = VERB a fare
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	a	a	ADP	_	_	3	mark	_	OrigID=B
+3	fare	fare	VERB	_	_	1	xcomp	_	OrigID=C
+
+# sent_id = cxn_28
+# text = _ a l' aria _ _
+# form = mandare a l' aria DET NOUN
+1	_	mandare	VERB	_	_	0	root	_	OrigID=A
+2	a	a	ADP	_	_	4	case	_	OrigID=B
+3	l'	il	DET	_	_	4	det	_	OrigID=C
+4	aria	aria	NOUN	_	_	1	obl	_	OrigID=D
+5	_	_	DET	_	_	6	det	_	OrigID=E
+6	_	_	NOUN	_	_	1	obj	_	OrigID=F
+
+# sent_id = cxn_29
+# text = è l' _ _ _ _
+# form = è l' ennesimo NOUN _ VERB
+1	è	essere	AUX	_	_	4	cop	_	OrigID=A
+2	l'	il	DET	_	_	4	det	_	OrigID=B
+3	_	ennesimo	ADJ	_	_	4	amod	_	OrigID=C
+4	_	_	NOUN	_	_	0	root	_	OrigID=D
+5	_	_	_	_	_	6	obj	_	OrigID=E|LinearOrder=Variable
+6	_	_	VERB	_	_	4	acl:relcl	_	OrigID=F
+
+# sent_id = cxn_3
+# text = _ peste e corna
+# form = dire peste e corna
+1	_	dire	VERB	_	_	0	root	_	OrigID=A
+2	peste	pesta	NOUN	_	_	1	obj	_	OrigID=B
+3	e	e	CCONJ	_	_	4	cc	_	OrigID=C
+4	corna	corna	NOUN	_	_	2	conj	_	OrigID=D
+
+# sent_id = cxn_30
+# text = a scanso di _ _
+# form = a scanso di _ VERB
+1	a	a	ADP	_	_	2	case	_	OrigID=A
+2	scanso	scanso	NOUN	_	_	5	obl	_	OrigID=B|LinearOrder=Variable
+3	di	di	ADP	_	_	4	case	_	OrigID=C
+4	_	_	_	_	_	2	nmod	_	OrigID=D
+5	_	_	VERB	_	_	0	root	_	OrigID=E
+
+# sent_id = cxn_31
+# text = saltare _ _
+# form = saltare il NOUN
+1	saltare	saltare	VERB	_	_	0	root	_	OrigID=A
+2	_	il	DET	_	_	3	det	_	OrigID=B
+3	_	_	NOUN	_	_	1	obj	_	OrigID=C
+
+# sent_id = cxn_32
+# text = _ già
+# form = VERB già
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	già	già	ADV	_	_	1	advmod	_	OrigID=B
+
+# sent_id = cxn_33
+# text = a occhio e croce _
+# form = a occhio e croce VERB
+1	a	a	ADP	_	_	2	case	_	OrigID=A
+2	occhio	occhio	NOUN	_	_	5	obl	_	OrigID=B|LinearOrder=Variable
+3	e	e	CCONJ	_	_	4	cc	_	OrigID=C
+4	croce	croce	NOUN	_	_	2	conj	_	OrigID=D
+5	_	_	VERB	_	_	0	root	_	OrigID=E
+
+# sent_id = cxn_34
+# text = neanche per _
+# form = neanche per NOUN
+1	neanche	neanche	ADV	_	_	3	advmod	_	OrigID=A
+2	per	per	ADP	_	_	3	case	_	OrigID=B
+3	_	_	NOUN	_	_	0	root	_	OrigID=C
+
+# sent_id = cxn_35
+# text = _ mettere su _
+# form = ADP mettere su NOUN
+1	_	_	ADP	_	_	2	case	_	OrigID=A
+2	mettere	mettere	VERB	_	_	0	root	_	OrigID=B
+3	su	su	ADP	_	_	2	advmod	_	OrigID=C
+4	_	_	NOUN	_	_	2	obj	_	OrigID=D
+
+# sent_id = cxn_36
+# text = _ _
+# form = VERB ADV
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	_	_	ADV	_	_	1	advmod	_	OrigID=B|LinearOrder=Variable
+
+# sent_id = cxn_37
+# text = _ _ di _
+# form = uno NOUN di NOUN
+1	_	uno	DET	_	_	2	det	_	OrigID=A
+2	_	_	NOUN	_	_	0	root	_	OrigID=B
+3	di	di	ADP	_	_	4	case	_	OrigID=C
+4	_	_	NOUN	_	_	2	nmod	_	OrigID=D
+
+# sent_id = cxn_38
+# text = _ un colpo di _
+# form = VERB un colpo di NOUN
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	un	uno	DET	_	_	3	det	_	OrigID=B
+3	colpo	colpo	NOUN	_	_	1	obj	_	OrigID=C
+4	di	di	ADP	_	_	5	case	_	OrigID=D
+5	_	_	NOUN	_	_	3	nmod	_	OrigID=E
+
+# sent_id = cxn_39
+# text = _ e compagnia bella
+# form = _ e compagnia bella
+1	_	_	_	_	_	0	root	_	OrigID=A
+2	e	e	CCONJ	_	_	3	cc	_	OrigID=B
+3	compagnia	compagnia	NOUN	_	_	1	conj	_	OrigID=C
+4	bella	bello	ADJ	_	_	3	amod	_	OrigID=D
+
+# sent_id = cxn_4
+# text = _ _ di là
+# form = _ _ di là
+1	_	_	_	_	_	0	root	_	OrigID=A
+2	_	_	_	_	_	1	conj	_	OrigID=B
+3	di	di	ADP	_	_	4	case	_	OrigID=C
+4	là	là	ADV	_	_	2	advmod	_	OrigID=D
+
+# sent_id = cxn_40
+# text = _ a _
+# form = andare a NOUN
+1	_	andare	VERB	_	_	0	root	_	OrigID=A
+2	a	a	ADP	_	_	3	case	_	OrigID=B
+3	_	_	NOUN	_	_	1	obl	_	OrigID=C
+
+# sent_id = cxn_41
+# text = tanto vale _
+# form = tanto vale VERB
+1	tanto	tanto	_	_	_	2	advmod	_	OrigID=A
+2	vale	valere	VERB	_	_	0	root	_	OrigID=B
+3	_	_	VERB	_	_	2	ccomp	_	OrigID=C
+
+# sent_id = cxn_42
+# text = essere _ _
+# form = essere ADP NOUN
+1	essere	essere	AUX	_	_	0	root	_	OrigID=A
+2	_	_	ADP	_	_	3	case	_	OrigID=B
+3	_	_	NOUN	_	_	1	obl	_	OrigID=C
+
+# sent_id = cxn_43
+# text = cantare come _ _
+# form = cantare come uno NOUN
+1	cantare	cantare	VERB	_	_	0	root	_	OrigID=A
+2	come	come	ADP	_	_	4	case	_	OrigID=B
+3	_	uno	DET	_	_	4	det	_	OrigID=C
+4	_	_	NOUN	_	_	1	obl	_	OrigID=D
+
+# sent_id = cxn_44
+# text = hai scoperto l' _
+# form = hai scoperto l' _
+1	hai	avere	AUX	_	_	2	aux	_	OrigID=A
+2	scoperto	scoprire	VERB	_	_	0	root	_	OrigID=B
+3	l'	il	DET	_	_	4	det	_	OrigID=C
+4	_	_	_	_	_	2	obj	_	OrigID=D
+
+# sent_id = cxn_45
+# text = _ _ su _ per l' _ di _ _
+# form = _ contare su _ per l' NOUN di il NOUN
+1	_	_	_	_	_	2	nsubj	_	OrigID=A
+2	_	contare	VERB	_	_	0	root	_	OrigID=B
+3	su	su	ADP	_	_	4	case	_	OrigID=C
+4	_	_	_	_	_	2	obl	_	OrigID=D
+5	per	per	ADP	_	_	7	case	_	OrigID=E
+6	l'	il	DET	_	_	7	det	_	OrigID=F
+7	_	_	NOUN	_	_	2	obl	_	OrigID=G
+8	di	di	ADP	_	_	10	case	_	OrigID=H
+9	_	il	DET	_	_	10	det	_	OrigID=I
+10	_	_	NOUN	_	_	7	nmod	_	OrigID=J
+
+# sent_id = cxn_46
+# text = un sacco di _
+# form = un sacco di NOUN
+1	un	uno	DET	_	_	2	det	_	OrigID=A
+2	sacco	sacco	NOUN	_	_	0	root	_	OrigID=B
+3	di	di	ADP	_	_	4	case	_	OrigID=C
+4	_	_	NOUN	_	_	2	nmod	_	OrigID=D
+
+# sent_id = cxn_47
+# text = fa molto _
+# form = fa molto _
+1	fa	fare	VERB	_	_	0	root	_	OrigID=A
+2	molto	molto	ADV	_	_	1	advmod	_	OrigID=B
+3	_	_	_	_	_	1	obj	_	OrigID=C
+
+# sent_id = cxn_48
+# text = _ _ _ spinto a _
+# form = DET NOUN avere spinto a VERB
+1	_	_	DET	_	_	2	det	_	OrigID=A
+2	_	_	NOUN	_	_	4	nsubj	_	OrigID=B
+3	_	avere	AUX	_	_	4	aux	_	OrigID=C
+4	spinto	spingere	VERB	_	_	0	root	_	OrigID=D
+5	a	a	ADP	_	_	6	mark	_	OrigID=E
+6	_	_	VERB	_	_	4	xcomp	_	OrigID=F
+
+# sent_id = cxn_49
+# text = _ _ che _
+# form = essere ADV che VERB
+1	_	essere	AUX	_	_	0	root	_	OrigID=A
+2	_	_	ADV	_	_	1	advmod	_	OrigID=B
+3	che	che	_	_	_	4	mark	_	OrigID=C
+4	_	_	VERB	_	_	1	advcl	_	OrigID=D
+
+# sent_id = cxn_5
+# text = _ come il _
+# form = ADJ come il NOUN
+1	_	_	ADJ	_	_	0	root	_	OrigID=A
+2	come	come	ADP	_	_	4	case	_	OrigID=B
+3	il	il	DET	_	_	4	det	_	OrigID=C
+4	_	_	NOUN	_	_	1	obl	_	OrigID=D
+
+# sent_id = cxn_51
+# text = non _ mica _
+# form = non AUX mica _
+1	non	non	ADV	_	_	4	advmod	_	OrigID=A
+2	_	_	AUX	_	_	4	aux	_	OrigID=B
+3	mica	mica	ADV	_	_	4	advmod	_	OrigID=C
+4	_	_	_	_	_	0	root	_	OrigID=D
+
+# sent_id = cxn_52
+# text = _ la coda di paglia
+# form = avere la coda di paglia
+1	_	avere	VERB	_	_	0	root	_	OrigID=A
+2	la	il	DET	_	_	3	det	_	OrigID=B
+3	coda	coda	NOUN	_	_	1	obj	_	OrigID=C
+4	di	di	ADP	_	_	5	case	_	OrigID=D
+5	paglia	paglia	NOUN	_	_	3	nmod	_	OrigID=E
+
+# sent_id = cxn_53
+# text = _ da _
+# form = venire da VERB
+1	_	venire	VERB	_	_	0	root	_	OrigID=A
+2	da	da	ADP	_	_	3	mark	_	OrigID=B
+3	_	_	VERB	_	_	1	xcomp	_	OrigID=C
+
+# sent_id = cxn_54
+# text = se non _ _
+# form = se non _ _
+1	se	se	SCONJ	_	_	3	mark	_	OrigID=A
+2	non	non	ADV	_	_	3	advmod	_	OrigID=B
+3	_	_	_	_	_	4	advcl	_	OrigID=C
+4	_	_	_	_	_	0	root	_	OrigID=D
+
+# sent_id = cxn_55
+# text = _ acqua in bocca
+# form = _ acqua in bocca
+1	_	_	_	_	_	0	root	_	OrigID=A
+2	acqua	acqua	NOUN	_	_	1	discourse	_	OrigID=B|LinearOrder=Variable
+3	in	in	ADP	_	_	4	case	_	OrigID=C
+4	bocca	bocca	NOUN	_	_	2	nmod	_	OrigID=D
+
+# sent_id = cxn_56
+# text = apri ti _
+# form = apri ti NOUN
+1	apri	_	VERB	_	_	0	root	_	OrigID=A
+2	ti	ti	PRON	_	_	1	obj	_	OrigID=B
+3	_	_	NOUN	_	_	1	vocative	_	OrigID=C
+
+# sent_id = cxn_57
+# text = _ da la voglia di _
+# form = VERB da la voglia di VERB
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	da	da	ADP	_	_	4	case	_	OrigID=B
+3	la	il	DET	_	_	4	det	_	OrigID=C
+4	voglia	voglia	NOUN	_	_	1	obl	_	OrigID=D
+5	di	di	ADP	_	_	6	mark	_	OrigID=E
+6	_	_	VERB	_	_	4	acl	_	OrigID=F
+
+# sent_id = cxn_59
+# text = _ in le mani
+# form = VERB in le mani
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	in	in	ADP	_	_	4	case	_	OrigID=B
+3	le	il	DET	_	_	4	det	_	OrigID=C
+4	mani	mano	NOUN	_	_	1	obl	_	OrigID=D
+
+# sent_id = cxn_6
+# text = parlare a _ _
+# form = parlare a il NOUN
+1	parlare	parlare	VERB	_	_	0	root	_	OrigID=A
+2	a	a	ADP	_	_	4	case	_	OrigID=B
+3	_	il	DET	_	_	4	det	_	OrigID=C
+4	_	_	NOUN	_	_	1	obl	_	OrigID=D
+
+# sent_id = cxn_60
+# text = _ a più non posso
+# form = VERB a più non posso
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	a	a	ADP	_	_	5	case	_	OrigID=B
+3	più	più	ADV	_	_	5	advmod	_	OrigID=C
+4	non	non	ADV	_	_	5	advmod	_	OrigID=D
+5	posso	potere	VERB	_	_	1	obl	_	OrigID=E
+
+# sent_id = cxn_61
+# text = immagina _
+# form = immagina _
+1	immagina	immaginare	VERB	_	_	0	root	_	OrigID=A
+2	_	_	_	_	_	1	xcomp	_	OrigID=B
+
+# sent_id = cxn_62
+# text = ma anche _
+# form = ma anche _
+1	ma	ma	CCONJ	_	_	3	cc	_	OrigID=A
+2	anche	anche	ADV	_	_	3	advmod	_	OrigID=B
+3	_	_	_	_	_	0	root	_	OrigID=C
+
+# sent_id = cxn_64
+# text = non è _ ma è _
+# form = non è _ ma è _
+1	non	non	ADV	_	_	3	advmod	_	OrigID=A
+2	è	essere	AUX	_	_	3	cop	_	OrigID=B
+3	_	_	_	_	_	0	root	_	OrigID=C
+4	ma	ma	CCONJ	_	_	6	cc	_	OrigID=D
+5	è	essere	AUX	_	_	6	cop	_	OrigID=E
+6	_	_	_	_	_	3	conj	_	OrigID=F
+
+# sent_id = cxn_65
+# text = che _
+# form = che VERB
+1	che	che	_	_	_	2	mark	_	OrigID=A
+2	_	_	VERB	_	_	0	root	_	OrigID=B
+
+# sent_id = cxn_66
+# text = prima _ prima _
+# form = prima VERB prima VERB
+1	prima	prima	ADV	_	_	2	advmod	_	OrigID=A
+2	_	_	VERB	_	_	0	root	_	OrigID=B
+3	prima	prima	ADV	_	_	4	advmod	_	OrigID=C
+4	_	_	VERB	_	_	2	conj	_	OrigID=D
+
+# sent_id = cxn_67
+# text = _ me _ chiami _
+# form = questo me PRON chiami _
+1	_	questo	PRON	_	_	4	dislocated	_	OrigID=A|LinearOrder=Variable
+2	me	me	PRON	_	_	4	obl	_	OrigID=B
+3	_	_	PRON	_	_	4	obj	_	OrigID=C
+4	chiami	chiamare	VERB	_	_	0	root	_	OrigID=D
+5	_	_	_	_	_	4	xcomp	_	OrigID=E
+
+# sent_id = cxn_68
+# text = _ fuori che _
+# form = saltare fuori che _
+1	_	saltare	VERB	_	_	0	root	_	OrigID=A
+2	fuori	fuori	ADV	_	_	1	advmod	_	OrigID=B
+3	che	che	SCONJ	_	_	4	mark	_	OrigID=C
+4	_	_	_	_	_	1	ccomp	_	OrigID=D
+
+# sent_id = cxn_69
+# text = e tu _ che _ si _
+# form = e tu VERB che VERB si VERB
+1	e	e	CCONJ	_	_	3	cc	_	OrigID=A
+2	tu	tu	PRON	_	_	3	nsubj	_	OrigID=B
+3	_	_	VERB	_	_	0	root	_	OrigID=C
+4	che	che	SCONJ	_	_	7	mark	_	OrigID=D
+5	_	_	VERB	_	_	7	advcl	_	OrigID=E
+6	si	si	PRON	_	_	7	expl:impers	_	OrigID=F
+7	_	_	VERB	_	_	3	ccomp	_	OrigID=G
+
+# sent_id = cxn_7
+# text = _ e _
+# form = prendere e VERB
+1	_	prendere	VERB	_	_	0	root	_	OrigID=A
+2	e	e	CCONJ	_	_	3	cc	_	OrigID=B
+3	_	_	VERB	_	_	1	conj	_	OrigID=C
+
+# sent_id = cxn_72
+# text = _ _ è _
+# form = PRON VERB è _
+1	_	_	PRON	_	_	4	nsubj	_	OrigID=A
+2	_	_	VERB	_	_	1	acl:relcl	_	OrigID=B
+3	è	essere	_	_	_	4	cop	_	OrigID=C
+4	_	_	_	_	_	0	root	_	OrigID=D
+
+# sent_id = cxn_73
+# text = essere in bolletta
+# form = essere in bolletta
+1	essere	essere	AUX	_	_	0	root	_	OrigID=A
+2	in	in	ADP	_	_	3	case	_	OrigID=B
+3	bolletta	bolletta	NOUN	_	_	1	obl	_	OrigID=C
+
+# sent_id = cxn_74
+# text = _
+# form = _
+1	_	_	_	_	_	0	root	_	OrigID=A
+
+# sent_id = cxn_76
+# text = _ _ _
+# form = NOUN ADP NOUN
+1	_	_	NOUN	_	_	0	root	_	OrigID=A
+2	_	_	ADP	_	_	3	case	_	OrigID=B
+3	_	_	NOUN	_	_	1	nmod	_	OrigID=C
+
+# sent_id = cxn_77
+# text = a _
+# form = a NOUN
+1	a	a	ADP	_	_	2	case	_	OrigID=A
+2	_	_	NOUN	_	_	0	root	_	OrigID=B
+
+# sent_id = cxn_78
+# text = non stare a _
+# form = non stare a VERB
+1	non	non	ADV	_	_	2	advmod	_	OrigID=A
+2	stare	stare	VERB	_	_	0	root	_	OrigID=B
+3	a	a	ADP	_	_	4	mark	_	OrigID=C
+4	_	_	VERB	_	_	2	advcl	_	OrigID=D
+
+# sent_id = cxn_79
+# text = menare il can per l' aia
+# form = menare il can per l' aia
+1	menare	menare	VERB	_	_	0	root	_	OrigID=A
+2	il	il	DET	_	_	3	det	_	OrigID=B
+3	can	cane	NOUN	_	_	1	obj	_	OrigID=C
+4	per	per	ADP	_	_	6	case	_	OrigID=D
+5	l'	il	DET	_	_	6	det	_	OrigID=E
+6	aia	aia	NOUN	_	_	1	obl	_	OrigID=F
+
+# sent_id = cxn_8
+# text = _ _ tutto _ a _
+# form = ADP _ tutto andare a _
+1	_	_	ADP	_	_	2	case	_	OrigID=A
+2	_	_	_	_	_	4	obl	_	OrigID=B|LinearOrder=Variable
+3	tutto	tutto	PRON	_	_	4	nsubj	_	OrigID=C
+4	_	andare	VERB	_	_	0	root	_	OrigID=D
+5	a	a	ADP	_	_	6	case	_	OrigID=E
+6	_	_	_	_	_	4	obl	_	OrigID=F
+
+# sent_id = cxn_80
+# text = su _
+# form = su NOUN
+1	su	su	ADP	_	_	2	case	_	OrigID=A
+2	_	_	NOUN	_	_	0	root	_	OrigID=B
+
+# sent_id = cxn_81
+# text = battere un colpo
+# form = battere un colpo
+1	battere	battere	VERB	_	_	0	root	_	OrigID=A
+2	un	uno	DET	_	_	3	det	_	OrigID=B
+3	colpo	colpo	NOUN	_	_	1	obj	_	OrigID=C
+
+# sent_id = cxn_83
+# text = prendere _
+# form = prendere NOUN
+1	prendere	prendere	VERB	_	_	0	root	_	OrigID=A
+2	_	_	NOUN	_	_	1	obj	_	OrigID=B
+
+# sent_id = cxn_84
+# text = _
+# form = _
+1	_	_	_	_	_	0	root	_	OrigID=A
+
+# sent_id = cxn_85
+# text = è ora di _
+# form = è ora di VERB
+1	è	essere	AUX	_	_	2	cop	_	OrigID=A
+2	ora	ora	ADV	_	_	0	root	_	OrigID=B
+3	di	di	ADP	_	_	4	mark	_	OrigID=C
+4	_	_	VERB	_	_	2	acl	_	OrigID=D
+
+# sent_id = cxn_86
+# text = _ _ _
+# form = VERB a VERB
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	_	a	ADP	_	_	3	mark	_	OrigID=B
+3	_	_	VERB	_	_	1	advcl	_	OrigID=C
+
+# sent_id = cxn_87
+# text = visto che _ _ _ _ _
+# form = visto che ADV essere VERB ADV _
+1	visto	vedere	VERB	_	_	7	advcl	_	OrigID=A
+2	che	che	SCONJ	_	_	5	mark	_	OrigID=B
+3	_	_	ADV	_	_	5	advmod	_	OrigID=C|LinearOrder=Variable
+4	_	essere	AUX	_	_	5	aux	_	OrigID=D
+5	_	_	VERB	_	_	1	ccomp	_	OrigID=E
+6	_	_	ADV	_	_	7	advmod	_	OrigID=F
+7	_	_	_	_	_	0	root	_	OrigID=G
+
+# sent_id = cxn_88
+# text = _ _
+# form = _ VERB
+1	_	_	_	_	_	2	mark	_	OrigID=A
+2	_	_	VERB	_	_	0	root	_	OrigID=B
+
+# sent_id = cxn_89
+# text = non fa
+# form = non fa
+1	non	non	ADV	_	_	2	advmod	_	OrigID=A
+2	fa	fare	VERB	_	_	0	root	_	OrigID=B
+
+# sent_id = cxn_90
+# text = aver ce la con _
+# form = aver ce la con _
+1	aver	_	VERB	_	_	0	root	_	OrigID=A
+2	ce	ce	PRON	_	_	1	expl	_	OrigID=B
+3	la	la	PRON	_	_	1	obj	_	OrigID=C
+4	con	con	ADP	_	_	5	case	_	OrigID=D
+5	_	_	_	_	_	1	obl	_	OrigID=E
+
+# sent_id = cxn_91
+# text = cadere in _
+# form = cadere in NOUN
+1	cadere	cadere	VERB	_	_	0	root	_	OrigID=A
+2	in	in	ADP	_	_	3	case	_	OrigID=B
+3	_	_	NOUN	_	_	1	obl	_	OrigID=C
+
+# sent_id = cxn_92
+# text = _ e _
+# form = VERB e VERB
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	e	e	CCONJ	_	_	3	cc	_	OrigID=B
+3	_	_	VERB	_	_	1	conj	_	OrigID=C
+
+# sent_id = cxn_93
+# text = più _
+# form = più VERB
+1	più	più	ADV	_	_	2	advmod	_	OrigID=A
+2	_	_	VERB	_	_	0	root	_	OrigID=B
+
+# sent_id = cxn_94
+# text = ma _ _ _
+# form = ma essere ADJ PRON
+1	ma	ma	CCONJ	_	_	3	cc	_	OrigID=A
+2	_	essere	AUX	_	_	3	cop	_	OrigID=B
+3	_	_	ADJ	_	_	0	root	_	OrigID=C
+4	_	_	PRON	_	_	3	nsubj	_	OrigID=D
+
+# sent_id = cxn_95
+# text = _ _
+# form = avere NOUN
+1	_	avere	VERB	_	_	0	root	_	OrigID=A
+2	_	_	NOUN	_	_	1	obj	_	OrigID=B
+
+# sent_id = cxn_96
+# text = _ a fagiolo
+# form = VERB a fagiolo
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	a	a	ADP	_	_	3	case	_	OrigID=B
+3	fagiolo	fagiolo	NOUN	_	_	1	obl	_	OrigID=C
+
+# sent_id = cxn_97
+# text = perdere _ _
+# form = perdere il NOUN
+1	perdere	perdere	VERB	_	_	0	root	_	OrigID=A
+2	_	il	DET	_	_	3	det	_	OrigID=B
+3	_	_	NOUN	_	_	1	obj	_	OrigID=C
+
+# sent_id = cxn_98
+# text = per quanto è _
+# form = per quanto è ADJ
+1	per	per	ADP	_	_	2	case	_	OrigID=A
+2	quanto	quanto	ADV	_	_	4	advmod	_	OrigID=B
+3	è	essere	AUX	_	_	4	cop	_	OrigID=C
+4	_	_	ADJ	_	_	0	root	_	OrigID=D
+
+# sent_id = cxn_99
+# text = _ _ le ossa
+# form = fare PRON le ossa
+1	_	fare	VERB	_	_	0	root	_	OrigID=A
+2	_	_	PRON	_	_	1	expl	_	OrigID=B|LinearOrder=Variable
+3	le	il	DET	_	_	4	det	_	OrigID=C
+4	ossa	osso	NOUN	_	_	1	obj	_	OrigID=D
+

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: itTenTen20
-# sent_id = 1
+# sent_id = cxn_131_example_1_1
 # text = Molto, molto sangue!
 1	Molto	molto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	4	punct	_	_
@@ -11,7 +11,7 @@
 5	!	!	PUNCT	FS	_	1	punct	_	_
 
 # source = Corpus: itTenTen20
-# sent_id = 2
+# sent_id = cxn_131_example_1_2
 # text = Che dire poi dei personaggi...
 1	Che	che	PRON	PQ	PronType=Int	2	obj	_	_
 2	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
@@ -23,7 +23,7 @@
 7	.	.	PUNCT	FS	_	2	punct	_	_
 
 # source = Corpus: itTenTen20
-# sent_id = 3
+# sent_id = cxn_131_example_1_3
 # text = Mario che non ha ancora imparato due parole in croce di inglese, che ormai serve per forza sennò non ti assumono da nessuna parte.
 1	Mario	mario	PROPN	SP	_	0	root	_	_
 2	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_

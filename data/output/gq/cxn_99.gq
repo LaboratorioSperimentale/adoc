@@ -1,0 +1,9 @@
+pattern {
+  A [lemma="fare", upos=VERB];
+  B [upos=PRON, PronType=Prs];
+  C [lemma="il", upos=DET, form=/le/i, Definite=Def, Gender=Fem, Number=Plur, PronType=Art];
+  D [lemma="osso", upos=NOUN, form=/ossa/i, Gender=Fem, Number=Plur];
+  A -[expl]-> B;
+  D -[det]-> C;
+  A -[obj]-> D;
+}

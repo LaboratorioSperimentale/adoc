@@ -1,0 +1,5 @@
+pattern {
+  A [lemma="a", upos=ADP, form=/a/i];
+  B [upos=NOUN, Number=Sing];
+  B -[case]-> A;
+}

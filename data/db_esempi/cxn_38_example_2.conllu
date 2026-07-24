@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://193.205.158.204:8983/solr/collection1/browse?q=id:stper158.xml
-# sent_id = 1
+# sent_id = cxn_38_example_2_1
 # text = Detti un colpo di tosse
 1	Detti	dire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
 2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_

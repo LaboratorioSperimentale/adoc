@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_88_example_2_1
 # text = Vogliamo prenderci in giro?
 1	Vogliamo	volere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2-3	prenderci	_	_	_	_	_	_	_	_
@@ -13,7 +13,7 @@
 6	?	?	PUNCT	FS	_	2	punct	_	_
 
 # source = CORIS
-# sent_id = 2
+# sent_id = cxn_88_example_2_2
 # text = Se è così, facciamolo pure.
 1	Se	se	SCONJ	CS	_	3	mark	_	_
 2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
@@ -26,7 +26,7 @@
 8	.	.	PUNCT	FS	_	5	punct	_	_
 
 # source = CORIS
-# sent_id = 3
+# sent_id = cxn_88_example_2_3
 # text = Ma non andiamo avanti con questo ritornello se no la Roma si lascerà prendere per i fondelli dall'intero mondo calcistico.
 1	Ma	ma	CCONJ	CC	_	3	cc	_	_
 2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_

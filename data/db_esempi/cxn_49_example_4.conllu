@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: Italian Web 2016 (itTenTen16)
-# sent_id = 1
+# sent_id = cxn_49_example_4_1
 # text = Un giorno qualcuno disse:
 1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
@@ -11,7 +11,7 @@
 5	:	:	PUNCT	FC	_	4	punct	_	_
 
 # source = Corpus: Italian Web 2016 (itTenTen16)
-# sent_id = 2
+# sent_id = cxn_49_example_4_2
 # text = "La vita è fuori che ti aspetta".
 1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
 2	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -25,13 +25,13 @@
 10	.	.	PUNCT	FS	_	5	punct	_	_
 
 # source = Corpus: Italian Web 2016 (itTenTen16)
-# sent_id = 3
+# sent_id = cxn_49_example_4_3
 # text = Risposi:
 1	Risposi	risposi	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	FC	_	1	punct	_	_
 
 # source = Corpus: Italian Web 2016 (itTenTen16)
-# sent_id = 4
+# sent_id = cxn_49_example_4_4
 # text = "Non la trovo!"
 1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
 2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_

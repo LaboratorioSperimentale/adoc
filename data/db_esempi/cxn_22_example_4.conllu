@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://corpora.ficlit.unibo.it/TCORIS/Wrapper.php
-# sent_id = 1
+# sent_id = cxn_22_example_4_1
 # text = se vogliamo essere più esatti non abbiamo uno straccio di spiegazione.
 1	se	se	SCONJ	CS	_	5	mark	_	_
 2	vogliamo	volere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_

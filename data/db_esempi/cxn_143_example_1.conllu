@@ -2,14 +2,14 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItTenTen20
-# sent_id = 1
+# sent_id = cxn_143_example_1_1
 # text = Per le crocette.....
 1	Per	per	ADP	E	_	3	case	_	_
 2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 3	crocette.....	crocette.....	X	X	_	0	root	_	_
 
 # source = ItTenTen20
-# sent_id = 2
+# sent_id = cxn_143_example_1_2
 # text = beh, io sono più indulgente:
 1	beh	beh	INTJ	I	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	1	punct	_	_
@@ -20,7 +20,7 @@
 7	:	:	PUNCT	FC	_	6	punct	_	_
 
 # source = ItTenTen20
-# sent_id = 3
+# sent_id = cxn_143_example_1_3
 # text = c'è gente che affila col flex e il lamellare...
 1	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
 2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -36,7 +36,7 @@
 11	lamellare...	lamellare...	X	X	_	8	conj	_	_
 
 # source = ItTenTen20
-# sent_id = 4
+# sent_id = cxn_143_example_1_4
 # text = a sto punto, persa per persa ....
 1	a	a	ADP	E	_	3	case	_	_
 2	sto	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
@@ -49,7 +49,7 @@
 9	.	.	PUNCT	FS	_	5	punct	_	_
 
 # source = ItTenTen20
-# sent_id = 5
+# sent_id = cxn_143_example_1_5
 # text = Un saluto, e ancora Complimenti, buaon affilatura a tutti!!!
 1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	saluto	saluto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No

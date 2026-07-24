@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CorpusPaisà (corpusitaliano.it)
-# sent_id = 1
+# sent_id = cxn_48_example_2_1
 # text = La presenza di depositi di ferro a livello cerebrospinale ha spinto a ricercare una correlazione tra questi patologici restringimenti venosi ribattezzati sotto il nome di Insufficienza venosa cronica cerebrospinale o CCSVI e la sclerosi multipla.
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_

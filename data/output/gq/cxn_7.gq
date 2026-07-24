@@ -1,0 +1,7 @@
+pattern {
+  A [lemma="prendere", upos=VERB];
+  B [lemma="e", upos=CCONJ, form=/e/i];
+  C [upos=VERB, Number=Sing];
+  C -[cc]-> B;
+  A -[conj]-> C;
+}

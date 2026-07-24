@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Glosbe dizionario online
-# sent_id = 1
+# sent_id = cxn_81_example_4_1
 # text = Circa cinque minuti dopo sentì battere un colpo esitante alla porta.
 1	Circa	circa	ADV	B	_	2	advmod	_	_
 2	cinque	cinque	NUM	N	NumType=Card	3	nummod	_	_

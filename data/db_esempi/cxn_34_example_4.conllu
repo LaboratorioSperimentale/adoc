@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus CORIS 
-# sent_id = 1
+# sent_id = cxn_34_example_4_1
 # text = «Tutte le sere mi infilava biglietto sotto porta:
 1	«	«	PUNCT	FB	_	6	punct	_	SpaceAfter=No
 2	Tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	4	det:predet	_	_
@@ -16,7 +16,7 @@
 10	:	:	PUNCT	FC	_	6	punct	_	_
 
 # source = Corpus CORIS 
-# sent_id = 2
+# sent_id = cxn_34_example_4_2
 # text = forse signorina si è pochino ammorbidita ?
 1	forse	forse	ADV	B	_	6	advmod	_	_
 2	signorina	signore	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -27,7 +27,7 @@
 7	?	?	PUNCT	FS	_	6	punct	_	_
 
 # source = Corpus CORIS 
-# sent_id = 3
+# sent_id = cxn_34_example_4_3
 # text = E io: neanche per sogno!»
 1	E	e	CCONJ	CC	_	2	cc	_	_
 2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No

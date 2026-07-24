@@ -1,0 +1,8 @@
+# cxn_id = cxn_137
+# cxn_name = Venire alle mani cxn-machine-readable-formalization: | cxn_137.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	essere	AUX	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	B	aux	_
+B	_	_	VERB	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_
+C	a	a	ADP	_	E	case	_
+D	le	il	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	E	det	_
+E	mani	mano	NOUN	Gender=Fem|Number=Plur	B	obl	_

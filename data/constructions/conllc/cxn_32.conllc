@@ -1,0 +1,5 @@
+# cxn_id = cxn_32
+# cxn_name = Adv/Pronint/Adjint+ V+ già  Adv/Pronint/Adjint+ V1+ che+V2+ già cxn-machine-readable-formalization: | cxn_32.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	VERB	_	0	root	_
+B	già	già	ADV	_	A	advmod	_

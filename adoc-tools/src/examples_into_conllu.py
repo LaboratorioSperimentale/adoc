@@ -6,8 +6,8 @@ from urllib.request import Request, urlopen
 
 # lettura dei file input
 
-folderin = "data\db_esempi(NON-definitivo)"
-folderout = "data\db_esempi"
+folderin = "data/db_esempi(NON-definitivo)"
+folderout = "data/db_esempi"
 os.makedirs(folderout, exist_ok=True)
 
 # parser

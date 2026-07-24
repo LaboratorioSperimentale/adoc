@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source =  Post facebook 
-# sent_id = 1
+# sent_id = cxn_3_example_2_1
 # text = Vi sembra normale che una persona dica peste e corna dell'ex coniuge?
 1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
 2	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_

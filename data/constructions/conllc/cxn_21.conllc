@@ -1,0 +1,6 @@
+# cxn_id = cxn_21
+# cxn_name = V1 + prep + V2 andare a + V cxn-machine-readable-formalization: | cxn_21.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	andare	VERB	Mood=Ind|VerbForm=Fin	0	root	_
+B	a	a	ADP	_	C	mark	_
+C	_	_	VERB	VerbForm=Inf	A	xcomp	_

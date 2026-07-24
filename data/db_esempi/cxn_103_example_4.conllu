@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = SketchEngine
-# sent_id = 1
+# sent_id = cxn_103_example_4_1
 # text = Cavoli anche a me piacerebbe mettere l'orologio nel display, a parte che adesso cambio l'autoradio.
 1	Cavoli	Cavoli	PROPN	SP	_	5	nsubj	_	_
 2	anche	anche	ADV	B	_	4	advmod	_	_

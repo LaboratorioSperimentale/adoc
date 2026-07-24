@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_178_example_2_1
 # text = meglio soli che mal accompagnati
 1	meglio	meglio	ADV	B	_	0	root	_	_
 2	soli	solo	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_

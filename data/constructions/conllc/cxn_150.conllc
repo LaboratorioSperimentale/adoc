@@ -1,0 +1,5 @@
+# cxn_id = cxn_150
+# cxn_name = Caused Motion Construction cxn-machine-readable-formalization: | cxn_150.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	VERB	_	0	root	_
+B	_	_	_	_	A	obj	LinearOrder=Variable

@@ -1,0 +1,7 @@
+# cxn_id = cxn_109
+# cxn_name = a discapito construction cxn-machine-readable-formalization: | cxn_109.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	a	a	ADP	_	B	case	_
+B	discapito	discapito	NOUN	Gender=Masc|Number=Sing	0	root	_
+C	di	di	ADP	_	D	case	_
+D	_	_	_	_	B	nmod	_

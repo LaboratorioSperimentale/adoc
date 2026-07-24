@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = corpus: itTenTen20
-# sent_id = 1
+# sent_id = cxn_135_example_5_1
 # text = Poi c'è Lui, il vicino affascinante ed enigmatico che la maltratta quando la incontra ma la raccatta quando è a pezzi... che peccato che sia gay.
 1	Poi	poi	ADV	B	_	3	advmod	_	_
 2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
@@ -35,7 +35,7 @@
 29	.	.	PUNCT	FS	_	3	punct	_	_
 
 # source = corpus: itTenTen20
-# sent_id = 2
+# sent_id = cxn_135_example_5_2
 # text = E c'è anche Lui, il suo allievo piccolo piccolo che le chiede coraggio e un supereroe in prestito.
 1	E	e	CCONJ	CC	_	3	cc	_	_
 2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = itTenTen20 (Sketch Engine)
-# sent_id = 1
+# sent_id = cxn_172_example_2_1
 # text = - No, non ho avuto un vero e proprio modello di riferimento, è una passione nata nel tempo osservando i diversi suonatori di battente nei concerti di piazza.
 1	-	-	PUNCT	FF	_	6	punct	_	_
 2	No	no	INTJ	I	Polarity=Neg	6	discourse	_	SpaceAfter=No
@@ -41,7 +41,7 @@
 33	.	.	PUNCT	FS	_	6	punct	_	_
 
 # source = itTenTen20 (Sketch Engine)
-# sent_id = 2
+# sent_id = cxn_172_example_2_2
 # text = Hai trovato utile qualche testo, libro, pubblicazione, cd ecc.. ?
 1	Hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -58,7 +58,7 @@
 13	?	?	PUNCT	FS	_	2	punct	_	_
 
 # source = itTenTen20 (Sketch Engine)
-# sent_id = 3
+# sent_id = cxn_172_example_2_3
 # text = - Non mi sono mai imbattuta in libri che trattassero questo strumento.
 1	-	-	PUNCT	FF	_	6	punct	_	_
 2	Non	non	ADV	BN	PronType=Neg	6	advmod	_	_

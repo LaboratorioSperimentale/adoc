@@ -2,13 +2,13 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Myself
-# sent_id = 1
+# sent_id = cxn_132_example_3_1
 # text = 3.
 1	3	3	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = Myself
-# sent_id = 2
+# sent_id = cxn_132_example_3_2
 # text = Ho visitato la Spagna in lungo e in largo
 1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	visitato	visitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_

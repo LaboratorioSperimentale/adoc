@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = MONITOR
-# sent_id = 1
+# sent_id = cxn_66_example_5_1
 # text = Forza ragazzi , prima finiamo prima ci togliamo da quest ' impiccio .
 1	Forza	forza	INTJ	I	_	5	discourse	_	_
 2	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	5	vocative	_	_

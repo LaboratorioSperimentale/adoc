@@ -1,0 +1,3 @@
+# cxn_id = test-exclusion
+# fields = ID UD.FORM LEMMA UPOS HEAD DEPREL EXCLUSION
+A	_	_	NOUN	0	root	CHILDREN:DEPREL=amod

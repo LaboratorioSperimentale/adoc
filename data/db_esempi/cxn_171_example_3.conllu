@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus ItalianWeb2020 - Sketch Engine
-# sent_id = 1
+# sent_id = cxn_171_example_3_1
 # text = Il San Francisco Chronicle ha fatto notare che tanto Romney quanto Obama hanno guadagnato fans su Facebook.
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpacesBefore=\s
 2	San	San	PROPN	SP	_	6	nsubj	_	_
@@ -24,7 +24,7 @@
 18	.	.	PUNCT	FS	_	6	punct	_	_
 
 # source = Corpus ItalianWeb2020 - Sketch Engine
-# sent_id = 2
+# sent_id = cxn_171_example_3_2
 # text = Tanto Israele quanto Roma non riconobbero il Cristo.
 1	Tanto	tanto	ADV	B	_	2	advmod	_	_
 2	Israele	Israele	PROPN	SP	_	6	nsubj	_	_
@@ -37,7 +37,7 @@
 9	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter= \s
 
 # source = Corpus ItalianWeb2020 - Sketch Engine
-# sent_id = 3
+# sent_id = cxn_171_example_3_3
 # text = La particolarità di questo social network è di essere popolato da tanti ragazzi quante ragazze.
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	particolarità	particolarità	NOUN	S	Gender=Fem	7	nsubj	_	_

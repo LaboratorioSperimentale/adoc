@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_85_example_2_1
 # text = Ops, suonano, è ora di andarsene.
 1	Ops	ops	INTJ	I	_	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	1	punct	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItTenTen20
-# sent_id = 1
+# sent_id = cxn_143_example_3_1
 # text = Sta volta pero' resto pessimisita vista la performance degli ultimi 3 mesi .
 1	Sta	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	volta	volta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
@@ -22,7 +22,7 @@
 15	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=  
 
 # source = ItTenTen20
-# sent_id = 2
+# sent_id = cxn_143_example_3_2
 # text = Mi chiedevo se pazzo per pazzo mi convenisse rischiare qualcosa con ETF short cosi almeno se il prezzo continua a scendere recupero in parte qualcosa.
 1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
 2	chiedevo	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_

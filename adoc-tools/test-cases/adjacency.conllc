@@ -1,0 +1,5 @@
+# cxn_id = test-adjacency
+# fields = ID UD.FORM LEMMA UPOS HEAD DEPREL ADJACENCY
+A	_	_	NOUN	0	root	_
+B	dopo	dopo	ADP	C	case	A
+C	_	_	NOUN	A	nmod	B

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORPUS: CORIS1980_2000
-# sent_id = 1
+# sent_id = cxn_119_example_2_1
 # text = Ieri ha perso Oliveira dopo 1 ' per espulsione forse troppo severa, seguita da una crisi di nervi.
 1	Ieri	ieri	ADV	B	_	3	advmod	_	_
 2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -26,7 +26,7 @@
 20	.	.	PUNCT	FS	_	3	punct	_	_
 
 # source = CORPUS: CORIS1980_2000
-# sent_id = 2
+# sent_id = cxn_119_example_2_2
 # text = Da seguire Kallon, un Kluivert dei poveri.
 1	Da	da	ADP	E	_	2	mark	_	_
 2	seguire	seguire	VERB	V	VerbForm=Inf	0	root	_	_
@@ -41,7 +41,7 @@
 10	.	.	PUNCT	FS	_	2	punct	_	_
 
 # source = CORPUS: CORIS1980_2000
-# sent_id = 3
+# sent_id = cxn_119_example_2_3
 # text = Sbaglia gol, ma ne fa tanti: a Reggio come a Cagliari, come a Genova .
 1	Sbaglia	sbagliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	gol	gol	NOUN	S	Gender=Masc	1	obj	_	SpaceAfter=No

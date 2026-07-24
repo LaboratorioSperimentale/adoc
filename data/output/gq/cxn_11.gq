@@ -1,0 +1,7 @@
+pattern {
+  A [upos=VERB, VerbForm=Inf];
+  B [upos=NUM, NumType=Card];
+  C [upos=NOUN, Number=Plur];
+  C -[nummod]-> B;
+  A -[obj]-> C;
+}

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = facebook - impariamo l'italiano 
-# sent_id = 1
+# sent_id = cxn_99_example_2_1
 # text = In quell'azienda mi sono fatto le ossa per dieci anni.
 1	In	in	ADP	E	_	3	case	_	_
 2	quell'	quello	DET	DD	Number=Sing|PronType=Dem	3	det	_	SpaceAfter=No

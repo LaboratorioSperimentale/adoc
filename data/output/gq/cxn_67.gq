@@ -1,0 +1,11 @@
+pattern {
+  A [lemma="questo", upos=PRON, Number=Sing, PronType=Dem];
+  B [lemma="me", upos=PRON, form=/me/i, Number=Sing, Person=1, PronType=Prs];
+  C [upos=PRON, Number=Sing, Person=3, PronType=Prs];
+  D [lemma="chiamare", upos=VERB, form=/chiami/i, Number=Sing, Tense=Pres, VerbForm=Fin];
+  E [];
+  D -[dislocated]-> A;
+  D -[obl]-> B;
+  D -[obj]-> C;
+  D -[xcomp]-> E;
+}

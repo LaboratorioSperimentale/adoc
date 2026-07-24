@@ -1,0 +1,9 @@
+pattern {
+  A [lemma="saltare", upos=VERB];
+}
+
+pattern {
+  A [lemma="dopo", upos=ADP, form=/dopo/i];
+  B [upos=NOUN];
+  B -[case]-> A;
+}

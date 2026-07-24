@@ -1,0 +1,7 @@
+pattern {
+  A [];
+  B [upos=VERB, Person=3, VerbForm=Fin];
+  C [];
+  B -[nsubj]-> A;
+  B -[xcomp]-> C;
+}

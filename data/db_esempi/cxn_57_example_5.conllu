@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus italiano Paisà https://www.corpusitaliano.it/static/documents/sources/780/7801691
-# sent_id = 1
+# sent_id = cxn_57_example_5_1
 # text = Se proprio morite dalla voglia di provare qualcosa, resistete fino all'orario di chiusura, e concedetevi uno splendido pezzone di torta al bar (non mi ricordo come si chiama) che si trova all' ingresso (guardando l'uscita, sulla sinistra).
 1	Se	se	SCONJ	CS	_	3	mark	_	_
 2	proprio	proprio	ADV	B	_	3	advmod	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Dialoghi tra persone
-# sent_id = 1
+# sent_id = cxn_120_example_5_1
 # text = Ero là del tabacchino che ti aspettavo, ma non arrivavi mai.
 1	Ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	cop	_	_
 2	là	là	ADV	B	_	0	root	_	_

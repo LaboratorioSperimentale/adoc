@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Frase venutami in mente.
-# sent_id = 1
+# sent_id = cxn_10_example_1_1
 # text = Giovanni è un ragazzo molto vivace, ma all'Accademia Militare deve stare con due piedi in una scarpa.
 1	Giovanni	Giovanni	PROPN	SP	_	4	nsubj	_	_
 2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_

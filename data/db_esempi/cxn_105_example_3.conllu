@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS https://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=28030080&End=28030080
-# sent_id = 1
+# sent_id = cxn_105_example_3_1
 # text = Oggi poi hanno superato ogni record negativo sono due ore che cercando di inviare un bonifico e nulla da fare e al call center non rispondono .
 1	Oggi	oggi	ADV	B	_	4	advmod	_	_
 2	poi	poi	ADV	B	_	4	advmod	_	_

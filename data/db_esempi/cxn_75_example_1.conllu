@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://it.sport.calcio.roma.narkive.com/O4XuorOP/grazie-totto
-# sent_id = 1
+# sent_id = cxn_75_example_1_1
 # text = ... dopo le parole der capitano devoiartri pronunciate alla finedi juve - aroma dominata dai bianconeri ... a squadragiallorotta s'e' squagliata come neve ar sole ... er burinomongolitico sa' come motivare i compagni ... ruotfl......
 1	..	..	PUNCT	FF	_	5	punct	_	SpaceAfter=No
 2	.	.	PUNCT	FF	_	9	punct	_	_
@@ -49,7 +49,7 @@
 41	.	.	PUNCT	FS	_	25	punct	_	_
 
 # source = https://it.sport.calcio.roma.narkive.com/O4XuorOP/grazie-totto
-# sent_id = 2
+# sent_id = cxn_75_example_1_2
 # text = un pezzettino del 33° scudetto e' anche suo ...
 1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	pezzettino	pezzettino	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_

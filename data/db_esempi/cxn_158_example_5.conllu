@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac
-# sent_id = 1
+# sent_id = cxn_158_example_5_1
 # text = Gli indici così individuati devono essere forniti dall' ISTAT all' Agenzia delle entrate
 1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	indici	indice	NOUN	S	Gender=Masc|Number=Plur	7	nsubj:pass	_	_

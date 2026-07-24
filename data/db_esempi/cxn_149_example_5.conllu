@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac
-# sent_id = 1
+# sent_id = cxn_149_example_5_1
 # text = i personaggi vivono vita autonoma e spesso cercano invano l' autore
 1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	SpacesAfter= 
 2	personaggi	personaggio	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_

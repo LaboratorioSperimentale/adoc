@@ -1,0 +1,3333 @@
+# cxn_id = cxn_1
+# cxn_name = non vedo perchè doverefles Vinf  adv (e/o)Prep. X cxn-machine-readable-formalization: | cxn_1.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 9  (size=5, lexicalized=4)
+      base:    1:FORM:non_@advmod_2 2:FORM:vedo_@root 3:FORM:perché_@mark_5 4:FORM:dovrei_@aux_5 5:UPOS:VERB_@ccomp_2
+      espansa: 1:FORM:non_@advmod_2 2:FORM:vedo_@root 3:FORM:perché_@mark_5 4:FORM:dovrei_@aux_5 5:UPOS:VERB_@ccomp_2
+
+  [2] score_bg = 46.58  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:vedo_@root 2:FORM:perché_@mark_4 3:FORM:dovrei_@aux_4 4:UPOS:VERB_@ccomp_1
+      espansa: 1:FORM:non_@advmod_2 2:FORM:vedo_@root 3:FORM:perché_@mark_5 4:FORM:dovrei_@aux_5 5:UPOS:VERB_@ccomp_2
+
+  [3] score_bg = 46.58  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:non_@advmod_2 2:FORM:vedo_@root 3:FORM:perché_@mark_4 4:UPOS:VERB_@ccomp_2
+      espansa: 1:FORM:non_@advmod_2 2:FORM:vedo_@root 3:FORM:perché_@mark_5 4:FORM:dovrei_@aux_5 5:UPOS:VERB_@ccomp_2
+
+  [4] score_bg = 46.58  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:non_@advmod_2 2:FORM:vedo_@root 3:FORM:dovrei_@aux_4 4:UPOS:VERB_@ccomp_2
+      espansa: 1:FORM:non_@advmod_2 2:FORM:vedo_@root 3:FORM:perché_@mark_5 4:FORM:dovrei_@aux_5 5:UPOS:VERB_@ccomp_2
+
+  [5] score_bg = 46.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:perché_@mark_3 2:FORM:dovrei_@aux_3 3:UPOS:VERB_@root
+      espansa: 1:FORM:non_@advmod_2 2:FORM:vedo_@root 3:FORM:perché_@mark_5 4:FORM:dovrei_@aux_5 5:UPOS:VERB_@ccomp_2
+
+
+# cxn_id = cxn_100
+# cxn_name = Emphatic construction with "quanto" + Adj cxn-machine-readable-formalization: | cxn_100.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:quanto_@advmod_3 2:FORM:sono_@cop_3 3:__@root
+      espansa: 1:FORM:quanto_@advmod_3 2:FORM:sono_@cop_3 3:__@root
+
+  [2] score_bg = 27.04  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:quanto_@advmod_2 2:__@root
+      espansa: 1:FORM:quanto_@advmod_2 2:__@root
+
+  [3] score_bg = 26.14  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:sono_@cop_2 2:__@root
+      espansa: 1:FORM:quanto_@advmod_3 2:FORM:sono_@cop_3 3:__@root
+
+  [4] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_101
+# cxn_name = Adverb reduplication cxn-machine-readable-formalization: | cxn_101.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:ADV_@advmod_1 3:UPOS:ADV_@fixed_2
+      espansa: 1:UPOS:VERB_@root 2:UPOS:ADV_@advmod_1 3:UPOS:ADV_@fixed_2
+
+  [2] score_bg = 41.58  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:ADV_@root 2:UPOS:ADV_@fixed_1
+      espansa: 1:UPOS:VERB_@root 2:UPOS:ADV_@advmod_1 3:UPOS:ADV_@fixed_2
+
+  [3] score_bg = 4.99  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:ADV_@advmod_1
+      espansa: 1:UPOS:VERB_@root 2:UPOS:ADV_@advmod_1
+
+  [4] score_bg = 2.07  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:DET_@det_2 2:__@root
+      espansa: 1:UPOS:DET_@det_2 2:__@root
+
+  [5] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_102
+# cxn_name = Non ... ne frega cxn-machine-readable-formalization: | cxn_102.conllc
+# n_frasi = 4
+
+  [1] score_bg = 37.27  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:FORM:non_@advmod_4 2:UPOS:PRON_@iobj_4 3:FORM:ne_@obl_4 4:FORM:frega_@root 5:__@obj_4
+      espansa: 1:FORM:non_@advmod_4 2:UPOS:PRON_@iobj_4 3:FORM:ne_@obl_4 4:FORM:frega_@root 5:__@obj_4
+
+  [2] score_bg = 37.27  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:non_@advmod_4 2:UPOS:PRON_@iobj_4 3:FORM:ne_@obl_4 4:FORM:frega_@root
+      espansa: 1:FORM:non_@advmod_4 2:UPOS:PRON_@iobj_4 3:FORM:ne_@obl_4 4:FORM:frega_@root 5:__@obj_4
+
+  [3] score_bg = 37.27  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:non_@advmod_3 2:FORM:ne_@obl_3 3:FORM:frega_@root 4:__@obj_3
+      espansa: 1:FORM:non_@advmod_4 2:UPOS:PRON_@iobj_4 3:FORM:ne_@obl_4 4:FORM:frega_@root 5:__@obj_4
+
+  [4] score_bg = 37.27  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:non_@advmod_3 2:UPOS:PRON_@iobj_3 3:FORM:frega_@root 4:__@obj_3
+      espansa: 1:FORM:non_@advmod_4 2:UPOS:PRON_@iobj_4 3:FORM:ne_@obl_4 4:FORM:frega_@root 5:__@obj_4
+
+  [5] score_bg = 37.27  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:UPOS:PRON_@iobj_3 2:FORM:ne_@obl_3 3:FORM:frega_@root 4:__@obj_3
+      espansa: 1:FORM:non_@advmod_4 2:UPOS:PRON_@iobj_4 3:FORM:ne_@obl_4 4:FORM:frega_@root 5:__@obj_4
+
+
+# cxn_id = cxn_103
+# cxn_name = a parte che as a discourse marker cxn-machine-readable-formalization: | cxn_103.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:FORM:a_@discourse_4 2:FORM:parte_@fixed_1 3:FORM:che_@fixed_2 4:UPOS:VERB_@root 5:UPOS:ADV_@advmod_4
+      espansa: 1:FORM:a_@discourse_4 2:FORM:parte_@fixed_1 3:FORM:che_@fixed_2 4:UPOS:VERB_@root 5:UPOS:ADV_@advmod_4
+
+  [2] score_bg = 46.58  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:a_@discourse_4 2:FORM:parte_@fixed_1 3:FORM:che_@fixed_2 4:UPOS:VERB_@root
+      espansa: 1:FORM:a_@discourse_4 2:FORM:parte_@fixed_1 3:FORM:che_@fixed_2 4:UPOS:VERB_@root 5:UPOS:ADV_@advmod_4
+
+  [3] score_bg = 46.58  score_lex = 6  (size=3, lexicalized=3)
+      base:    1:FORM:a_@root 2:FORM:parte_@fixed_1 3:FORM:che_@fixed_2
+      espansa: 1:FORM:a_@discourse_4 2:FORM:parte_@fixed_1 3:FORM:che_@fixed_2 4:UPOS:VERB_@root 5:UPOS:ADV_@advmod_4
+
+  [4] score_bg = 46.58  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:a_@discourse_3 2:FORM:parte_@fixed_1 3:UPOS:VERB_@root 4:UPOS:ADV_@advmod_3
+      espansa: 1:FORM:a_@discourse_4 2:FORM:parte_@fixed_1 3:FORM:che_@fixed_2 4:UPOS:VERB_@root 5:UPOS:ADV_@advmod_4
+
+  [5] score_bg = 46.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:a_@discourse_3 2:FORM:parte_@fixed_1 3:UPOS:VERB_@root
+      espansa: 1:FORM:a_@discourse_4 2:FORM:parte_@fixed_1 3:FORM:che_@fixed_2 4:UPOS:VERB_@root 5:UPOS:ADV_@advmod_4
+
+
+# cxn_id = cxn_104
+# cxn_name = Fare a meno di cxn-machine-readable-formalization: | cxn_104.conllc
+# n_frasi = 3
+
+  [1] score_bg = 27.96  score_lex = 9  (size=5, lexicalized=4)
+      base:    1:FORM:non_@advmod_3 2:LEMMA:potere_@aux_3 3:FORM:fare_@root 4:FORM:a_@case_5 5:FORM:meno_@advmod_3
+      espansa: 1:FORM:non_@advmod_3 2:LEMMA:potere_@aux_3 3:FORM:fare_@root 4:FORM:a_@case_5 5:FORM:meno_@advmod_3
+
+  [2] score_bg = 27.96  score_lex = 8  (size=4, lexicalized=4)
+      base:    1:FORM:non_@advmod_2 2:FORM:fare_@root 3:FORM:a_@case_4 4:FORM:meno_@advmod_2
+      espansa: 1:FORM:non_@advmod_3 2:LEMMA:potere_@aux_3 3:FORM:fare_@root 4:FORM:a_@case_5 5:FORM:meno_@advmod_3
+
+  [3] score_bg = 27.96  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:non_@advmod_3 2:LEMMA:potere_@aux_3 3:FORM:fare_@root 4:FORM:meno_@advmod_3
+      espansa: 1:FORM:non_@advmod_3 2:LEMMA:potere_@aux_3 3:FORM:fare_@root 4:FORM:a_@case_5 5:FORM:meno_@advmod_3
+
+  [4] score_bg = 27.96  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:LEMMA:potere_@aux_2 2:FORM:fare_@root 3:FORM:a_@case_4 4:FORM:meno_@advmod_2
+      espansa: 1:UPOS:ADV_@advmod_3 2:LEMMA:potere_@aux_3 3:FORM:fare_@root 4:FORM:a_@case_5 5:FORM:meno_@advmod_3
+
+  [5] score_bg = 27.96  score_lex = 6  (size=3, lexicalized=3)
+      base:    1:FORM:fare_@root 2:FORM:a_@case_3 3:FORM:meno_@advmod_1
+      espansa: 1:UPOS:ADV_@advmod_3 2:LEMMA:potere_@aux_3 3:FORM:fare_@root 4:FORM:a_@case_5 5:FORM:meno_@advmod_3
+
+
+# cxn_id = cxn_105
+# cxn_name = stare per" costruzione cxn-machine-readable-formalization: | cxn_105.conllc
+# n_frasi = 4
+
+  [1] score_bg = 37.27  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:LEMMA:stare_@root 2:FORM:per_@mark_3 3:UPOS:VERB_@ccomp_1
+      espansa: 1:LEMMA:stare_@root 2:FORM:per_@mark_3 3:UPOS:VERB_@ccomp_1
+
+  [2] score_bg = 37.27  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:stare_@root 2:UPOS:VERB_@ccomp_1
+      espansa: 1:LEMMA:stare_@root 2:FORM:per_@mark_3 3:UPOS:VERB_@ccomp_1
+
+  [3] score_bg = 17.84  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:per_@mark_2 2:UPOS:VERB_@root
+      espansa: 1:LEMMA:stare_@root 2:FORM:per_@mark_3 3:UPOS:VERB_@ccomp_1
+
+  [4] score_bg = 9.89  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:__@root 2:UPOS:VERB_@acl:relcl_1
+      espansa: 1:__@root 2:UPOS:VERB_@acl:relcl_1
+
+  [5] score_bg = 2.99  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:__@obj_1
+      espansa: 1:UPOS:VERB_@root 2:__@obj_1
+
+
+# cxn_id = cxn_106
+# cxn_name = al volo" construction cxn-machine-readable-formalization: | cxn_106.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:UPOS:VERB_@root 2:FORM:a_@case_4 3:FORM:il_@det_4 4:FORM:volo_@obl_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:a_@case_4 3:FORM:il_@det_4 4:FORM:volo_@obl_1
+
+  [2] score_bg = 46.58  score_lex = 6  (size=3, lexicalized=3)
+      base:    1:FORM:a_@case_3 2:FORM:il_@det_3 3:FORM:volo_@root
+      espansa: 1:UPOS:VERB_@root 2:FORM:a_@case_4 3:FORM:il_@det_4 4:FORM:volo_@obl_1
+
+  [3] score_bg = 46.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:UPOS:VERB_@root 2:FORM:a_@case_3 3:FORM:volo_@obl_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:a_@case_4 3:FORM:il_@det_4 4:FORM:volo_@obl_1
+
+  [4] score_bg = 46.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:UPOS:VERB_@root 2:FORM:il_@det_3 3:FORM:volo_@obl_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:a_@case_4 3:FORM:il_@det_4 4:FORM:volo_@obl_1
+
+  [5] score_bg = 46.58  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:il_@det_2 2:FORM:volo_@root
+      espansa: 1:UPOS:VERB_@root 2:FORM:a_@case_4 3:FORM:il_@det_4 4:FORM:volo_@obl_1
+
+
+# cxn_id = cxn_107
+# cxn_name = Fare finta cxn-machine-readable-formalization: | cxn_107.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:LEMMA:fare_@root 2:FORM:finta_@obj_1
+      espansa: 1:LEMMA:fare_@root 2:FORM:finta_@obj_1
+
+  [2] score_bg = 14.28  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:LEMMA:fare_@root
+      espansa: 1:LEMMA:fare_@root 2:FORM:finta_@obj_1
+
+
+# cxn_id = cxn_108
+# cxn_name = Far fare vs Lasciare fare cxn-machine-readable-formalization: | cxn_108.conllc
+# n_frasi = 5
+
+  [1] score_bg = 23.07  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:__@iobj_2 2:UPOS:VERB_@root 3:UPOS:VERB_@xcomp_2
+      espansa: 1:__@iobj_2 2:UPOS:VERB_@root 3:UPOS:VERB_@xcomp_2
+
+  [2] score_bg = 13.07  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:__@iobj_2 2:UPOS:VERB_@root
+      espansa: 1:__@iobj_2 2:UPOS:VERB_@root 3:UPOS:VERB_@xcomp_2
+
+  [3] score_bg = 12.29  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:VERB_@xcomp_1
+      espansa: 1:__@iobj_2 2:UPOS:VERB_@root 3:UPOS:VERB_@xcomp_2
+
+  [4] score_bg = 0.60  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:__@iobj_2 2:UPOS:VERB_@root 3:UPOS:VERB_@xcomp_2
+
+
+# cxn_id = cxn_109
+# cxn_name = a discapito construction cxn-machine-readable-formalization: | cxn_109.conllc
+# n_frasi = 3
+
+  [1] score_bg = 27.96  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:a_@case_2 2:FORM:discapito_@root 3:FORM:di_@case_4 4:__@nmod_2
+      espansa: 1:FORM:a_@case_2 2:FORM:discapito_@root 3:FORM:di_@case_4 4:__@nmod_2
+
+  [2] score_bg = 27.96  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:discapito_@root 2:FORM:di_@case_3 3:__@nmod_1
+      espansa: 1:FORM:a_@case_2 2:FORM:discapito_@root 3:FORM:di_@case_4 4:__@nmod_2
+
+  [3] score_bg = 27.96  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:a_@case_2 2:FORM:discapito_@root 3:__@nmod_2
+      espansa: 1:FORM:a_@case_2 2:FORM:discapito_@root 3:FORM:di_@case_4 4:__@nmod_2
+
+  [4] score_bg = 27.96  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:a_@case_2 2:FORM:discapito_@root
+      espansa: 1:FORM:a_@case_2 2:FORM:discapito_@root 3:FORM:di_@case_4 4:__@nmod_2
+
+  [5] score_bg = 27.96  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:discapito_@root 2:__@nmod_1
+      espansa: 1:FORM:a_@case_2 2:FORM:discapito_@root 3:FORM:di_@case_4 4:__@nmod_2
+
+
+# cxn_id = cxn_11
+# cxn_name = V+ADJ(numerale 2, 4)+N cxn-machine-readable-formalization: | cxn_11.conllc
+# n_frasi = 4
+
+  [1] score_bg = 24.59  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:NUM_@nummod_3 3:UPOS:NOUN_@obj_1
+      espansa: 1:UPOS:VERB_@root 2:UPOS:NUM_@nummod_3 3:UPOS:NOUN_@obj_1
+
+  [2] score_bg = 16.92  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:NUM_@nummod_2 2:UPOS:NOUN_@root
+      espansa: 1:UPOS:VERB_@root 2:UPOS:NUM_@nummod_3 3:UPOS:NOUN_@obj_1
+
+  [3] score_bg = 4.81  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:NOUN_@obj_1
+      espansa: 1:UPOS:VERB_@root 2:UPOS:NUM_@nummod_3 3:UPOS:NOUN_@obj_1
+
+  [4] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_110
+# cxn_name = tanto... quanto..." contrstuction cxn-machine-readable-formalization: | cxn_110.conllc
+# n_frasi = 3
+
+  [1] score_bg = 6.45  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:__@root 2:UPOS:DET_@det_3 3:UPOS:NOUN_@nsubj_1
+      espansa: 1:__@root 2:UPOS:DET_@det_3 3:UPOS:NOUN_@nsubj_1
+
+  [2] score_bg = 5.76  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:__@root 2:UPOS:NOUN_@nsubj_1
+      espansa: 1:__@root 2:UPOS:DET_@det_3 3:UPOS:NOUN_@nsubj_1
+
+  [3] score_bg = 1.42  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:DET_@det_2 2:UPOS:NOUN_@root
+      espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@root
+
+  [4] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_111
+# cxn_name = Vedersela/Me la vedo io, veditela tu cxn-machine-readable-formalization: | cxn_111.conllc
+# n_frasi = 6
+
+  [1] score_bg = 55.88  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:UPOS:PRON_@expl_3 2:FORM:la_@obj_3 3:LEMMA:vedere_@root
+      espansa: 1:UPOS:PRON_@expl_3 2:FORM:la_@obj_3 3:LEMMA:vedere_@root
+
+  [2] score_bg = 55.88  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:la_@obj_2 2:LEMMA:vedere_@root
+      espansa: 1:UPOS:PRON_@expl_3 2:FORM:la_@obj_3 3:LEMMA:vedere_@root
+
+  [3] score_bg = 55.88  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:PRON_@expl_2 2:LEMMA:vedere_@root
+      espansa: 1:UPOS:PRON_@expl_3 2:FORM:la_@obj_3 3:LEMMA:vedere_@root
+
+  [4] score_bg = 13.68  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:PRON_@nsubj_1
+      espansa: 1:UPOS:VERB_@root 2:UPOS:PRON_@nsubj_1
+
+  [5] score_bg = 0.72  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:UPOS:VERB_@root
+
+
+# cxn_id = cxn_113
+# cxn_name = Discontinuous reduplication N-dopo-N cxn-machine-readable-formalization: | cxn_113.conllc
+# n_frasi = 5
+
+  [1] score_bg = 38.65  score_lex = 5  (size=4, lexicalized=1)
+      base:    1:UPOS:VERB_@root 2:UPOS:NOUN_@obl_1 3:FORM:dopo_@case_4 4:UPOS:NOUN_@nmod_2
+      espansa: 1:UPOS:VERB_@root 2:UPOS:NOUN_@obl_1 3:FORM:dopo_@case_4 4:UPOS:NOUN_@nmod_2
+
+  [2] score_bg = 38.65  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:UPOS:NOUN_@root 2:FORM:dopo_@case_3 3:UPOS:NOUN_@nmod_1
+      espansa: 1:UPOS:VERB_@root 2:UPOS:NOUN_@obl_1 3:FORM:dopo_@case_4 4:UPOS:NOUN_@nmod_2
+
+  [3] score_bg = 33.65  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:dopo_@case_2 2:UPOS:NOUN_@root
+      espansa: 1:UPOS:VERB_@root 2:UPOS:NOUN_@obl_1 3:FORM:dopo_@case_4 4:UPOS:NOUN_@nmod_2
+
+  [4] score_bg = 15.53  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:NOUN_@obl_1 3:UPOS:NOUN_@nmod_2
+      espansa: 1:UPOS:VERB_@root 2:UPOS:NOUN_@obl_1 3:UPOS:ADP_@case_4 4:UPOS:NOUN_@nmod_2
+
+  [5] score_bg = 8.28  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:NOUN_@root 2:UPOS:NOUN_@nmod_1
+      espansa: 1:UPOS:VERB_@root 2:UPOS:NOUN_@obl_1 3:FORM:dopo_@case_4 4:UPOS:NOUN_@nmod_2
+
+
+# cxn_id = cxn_114
+# cxn_name = Discontinuous reduplication N-per-N cxn-machine-readable-formalization: | cxn_114.conllc
+# n_frasi = 3
+
+  [1] score_bg = 18.45  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:UPOS:NOUN_@root 2:FORM:per_@case_3 3:UPOS:NOUN_@nmod_1
+      espansa: 1:UPOS:NOUN_@root 2:FORM:per_@case_3 3:UPOS:NOUN_@nmod_1
+
+  [2] score_bg = 10.17  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:per_@case_2 2:UPOS:NOUN_@root
+      espansa: 1:UPOS:NOUN_@root 2:FORM:per_@case_3 3:UPOS:NOUN_@nmod_1
+
+  [3] score_bg = 9.22  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:NOUN_@obl_1 3:UPOS:NOUN_@nmod_2
+      espansa: 1:UPOS:VERB_@root 2:UPOS:NOUN_@obl_1 3:UPOS:NOUN_@nmod_2
+
+  [4] score_bg = 9.10  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:i_@det_2 2:UPOS:NOUN_@root
+      espansa: 1:FORM:i_@det_2 2:UPOS:NOUN_@root
+
+  [5] score_bg = 4.94  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:NOUN_@root 2:UPOS:NOUN_@nmod_1
+      espansa: 1:UPOS:NOUN_@root 2:FORM:per_@case_3 3:UPOS:NOUN_@nmod_1
+
+
+# cxn_id = cxn_117
+# cxn_name = Reduplicazione discontinua del tipo: N-DET-N cxn-machine-readable-formalization: | cxn_117.conllc
+# n_frasi = 5
+
+  [1] score_bg = 32.54  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:FORM:il_@det_2 2:UPOS:NOUN_@root 3:FORM:di_@case_5 4:FORM:i_@det_5 5:UPOS:NOUN_@nmod_2
+      espansa: 1:FORM:il_@det_2 2:UPOS:NOUN_@root 3:FORM:di_@case_5 4:FORM:i_@det_5 5:UPOS:NOUN_@nmod_2
+
+  [2] score_bg = 32.54  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:il_@det_2 2:UPOS:NOUN_@root 3:FORM:i_@det_4 4:UPOS:NOUN_@nmod_2
+      espansa: 1:FORM:il_@det_2 2:UPOS:NOUN_@root 3:FORM:di_@case_5 4:FORM:i_@det_5 5:UPOS:NOUN_@nmod_2
+
+  [3] score_bg = 25.34  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:UPOS:NOUN_@root 2:FORM:di_@case_4 3:FORM:i_@det_4 4:UPOS:NOUN_@nmod_1
+      espansa: 1:FORM:il_@det_2 2:UPOS:NOUN_@root 3:FORM:di_@case_5 4:FORM:i_@det_5 5:UPOS:NOUN_@nmod_2
+
+  [4] score_bg = 24.61  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:UPOS:NOUN_@root 2:FORM:i_@det_3 3:UPOS:NOUN_@nmod_1
+      espansa: 1:FORM:il_@det_2 2:UPOS:NOUN_@root 3:FORM:di_@case_5 4:FORM:i_@det_5 5:UPOS:NOUN_@nmod_2
+
+  [5] score_bg = 23.65  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:di_@case_3 2:FORM:i_@det_3 3:UPOS:NOUN_@root
+      espansa: 1:FORM:il_@det_2 2:UPOS:NOUN_@root 3:FORM:di_@case_5 4:FORM:i_@det_5 5:UPOS:NOUN_@nmod_2
+
+
+# cxn_id = cxn_118
+# cxn_name = double verb assertion cxn-machine-readable-formalization: | cxn_118.conllc
+# n_frasi = 5
+
+  [1] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_119
+# cxn_name = Low version qualification cxn-machine-readable-formalization: | cxn_119.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:UPOS:DET_@det_2 2:__@root 3:FORM:di_@case_5 4:FORM:i_@det_5 5:FORM:poveri_@nmod_2
+      espansa: 1:UPOS:DET_@det_2 2:__@root 3:FORM:di_@case_5 4:FORM:i_@det_5 5:FORM:poveri_@nmod_2
+
+  [2] score_bg = 46.58  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:__@root 2:FORM:di_@case_4 3:FORM:i_@det_4 4:FORM:poveri_@nmod_1
+      espansa: 1:UPOS:DET_@det_2 2:__@root 3:FORM:di_@case_5 4:FORM:i_@det_5 5:FORM:poveri_@nmod_2
+
+  [3] score_bg = 46.58  score_lex = 6  (size=3, lexicalized=3)
+      base:    1:FORM:di_@case_3 2:FORM:i_@det_3 3:FORM:poveri_@root
+      espansa: 1:UPOS:DET_@det_2 2:__@root 3:FORM:di_@case_5 4:FORM:i_@det_5 5:FORM:poveri_@nmod_2
+
+  [4] score_bg = 46.58  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:UPOS:DET_@det_2 2:__@root 3:FORM:di_@case_4 4:FORM:poveri_@nmod_2
+      espansa: 1:UPOS:DET_@det_2 2:__@root 3:FORM:di_@case_5 4:FORM:i_@det_5 5:FORM:poveri_@nmod_2
+
+  [5] score_bg = 46.58  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:UPOS:DET_@det_2 2:__@root 3:FORM:i_@det_4 4:FORM:poveri_@nmod_2
+      espansa: 1:UPOS:DET_@det_2 2:__@root 3:FORM:di_@case_5 4:FORM:i_@det_5 5:FORM:poveri_@nmod_2
+
+
+# cxn_id = cxn_120
+# cxn_name = Complemento di luogo in Friuli Venezia Giulia cxn-machine-readable-formalization: | cxn_120.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 5  (size=4, lexicalized=1)
+      base:    1:__@root 2:UPOS:ADV_@advmod_1 3:FORM:di_@case_4 4:__@obl_2
+      espansa: 1:__@root 2:UPOS:ADV_@advmod_1 3:FORM:di_@case_4 4:__@obl_2
+
+  [2] score_bg = 46.58  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:__@root 2:UPOS:ADV_@advmod_1 3:__@obl_2
+      espansa: 1:__@root 2:UPOS:ADV_@advmod_1 3:FORM:di_@case_4 4:__@obl_2
+
+  [3] score_bg = 41.58  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:UPOS:ADV_@root 2:FORM:di_@case_3 3:__@obl_1
+      espansa: 1:__@root 2:UPOS:ADV_@advmod_1 3:FORM:di_@case_4 4:__@obl_2
+
+  [4] score_bg = 38.65  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:ADV_@root 2:__@obl_1
+      espansa: 1:__@root 2:UPOS:ADV_@advmod_1 3:FORM:di_@case_4 4:__@obl_2
+
+  [5] score_bg = 7.67  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:di_@case_2 2:__@root
+      espansa: 1:__@root 2:UPOS:ADV_@advmod_1 3:FORM:di_@case_4 4:__@obl_2
+
+
+# cxn_id = cxn_121
+# cxn_name = Attenuazione del verbo cxn-machine-readable-formalization: | cxn_121.conllc
+# n_frasi = 5
+
+  [1] score_bg = 41.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:UPOS:VERB_@root 2:FORM:un_@det_3 3:FORM:po'_@advmod_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:un_@det_3 3:FORM:po'_@advmod_1
+
+  [2] score_bg = 41.58  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:UPOS:VERB_@root 2:FORM:po'_@advmod_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:un_@det_3 3:FORM:po'_@advmod_1
+
+  [3] score_bg = 38.65  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:un_@det_2 2:FORM:po'_@root
+      espansa: 1:UPOS:VERB_@root 2:FORM:un_@det_3 3:FORM:po'_@advmod_1
+
+  [4] score_bg = 3.67  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:__@root 2:__@obl_1
+      espansa: 1:__@root 2:__@obl_1
+
+  [5] score_bg = 0.60  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:UPOS:VERB_@root 2:UPOS:ADV_@advmod_1
+
+
+# cxn_id = cxn_122
+# cxn_name = Sbolognare + X cxn-machine-readable-formalization: | cxn_122.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:sbolognare_@root 2:__@obj_1
+      espansa: 1:FORM:sbolognare_@root 2:__@obj_1
+
+  [2] score_bg = 11.80  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:__@root 2:__@acl:relcl_1
+      espansa: 1:__@root 2:__@acl:relcl_1
+
+  [3] score_bg = 2.38  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:DET_@det_2 2:UPOS:NOUN_@root
+      espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@root
+
+  [4] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_123
+# cxn_name = Costruzioni verbo + "ore" + aggettivo cxn-machine-readable-formalization: | cxn_123.conllc
+# n_frasi = 4
+
+  [1] score_bg = 37.27  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:UPOS:VERB_@root 2:FORM:le_@det_3 3:FORM:ore_@obj_1 4:UPOS:ADJ_@amod_3
+      espansa: 1:UPOS:VERB_@root 2:FORM:le_@det_3 3:FORM:ore_@obj_1 4:UPOS:ADJ_@amod_3
+
+  [2] score_bg = 37.27  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:le_@det_2 2:FORM:ore_@root 3:UPOS:ADJ_@amod_2
+      espansa: 1:UPOS:VERB_@root 2:FORM:le_@det_3 3:FORM:ore_@obj_1 4:UPOS:ADJ_@amod_3
+
+  [3] score_bg = 37.27  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:UPOS:VERB_@root 2:FORM:le_@det_3 3:FORM:ore_@obj_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:le_@det_3 3:FORM:ore_@obj_1 4:UPOS:ADJ_@amod_3
+
+  [4] score_bg = 37.27  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:UPOS:VERB_@root 2:FORM:ore_@obj_1 3:UPOS:ADJ_@amod_2
+      espansa: 1:UPOS:VERB_@root 2:FORM:le_@det_3 3:FORM:ore_@obj_1 4:UPOS:ADJ_@amod_3
+
+  [5] score_bg = 37.27  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:UPOS:VERB_@root 2:FORM:ore_@obj_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:le_@det_3 3:FORM:ore_@obj_1 4:UPOS:ADJ_@amod_3
+
+
+# cxn_id = cxn_124
+# cxn_name = Costruzioni Avere+X+"in tasca" cxn-machine-readable-formalization: | cxn_124.conllc
+# n_frasi = 3
+
+  [1] score_bg = 27.96  score_lex = 10  (size=6, lexicalized=4)
+      base:    1:FORM:di_@mark_2 2:FORM:avere_@root 3:UPOS:DET_@det_4 4:UPOS:NOUN_@obj_2 5:FORM:in_@case_6 6:FORM:tasca_@nmod_4
+      espansa: 1:FORM:di_@mark_2 2:FORM:avere_@root 3:UPOS:DET_@det_4 4:UPOS:NOUN_@obj_2 5:FORM:in_@case_6 6:FORM:tasca_@nmod_4
+
+  [2] score_bg = 27.96  score_lex = 9  (size=5, lexicalized=4)
+      base:    1:FORM:di_@mark_2 2:FORM:avere_@root 3:UPOS:NOUN_@obj_2 4:FORM:in_@case_5 5:FORM:tasca_@nmod_3
+      espansa: 1:FORM:di_@mark_2 2:FORM:avere_@root 3:UPOS:DET_@det_4 4:UPOS:NOUN_@obj_2 5:FORM:in_@case_6 6:FORM:tasca_@nmod_4
+
+  [3] score_bg = 27.96  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:FORM:avere_@root 2:UPOS:DET_@det_3 3:UPOS:NOUN_@obj_1 4:FORM:in_@case_5 5:FORM:tasca_@nmod_3
+      espansa: 1:FORM:di_@mark_2 2:FORM:avere_@root 3:UPOS:DET_@det_4 4:UPOS:NOUN_@obj_2 5:FORM:in_@case_6 6:FORM:tasca_@nmod_4
+
+  [4] score_bg = 27.96  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:FORM:di_@mark_2 2:FORM:avere_@root 3:UPOS:DET_@det_4 4:UPOS:NOUN_@obj_2 5:FORM:tasca_@nmod_4
+      espansa: 1:FORM:di_@mark_2 2:FORM:avere_@root 3:UPOS:DET_@det_4 4:UPOS:NOUN_@obj_2 5:FORM:in_@case_6 6:FORM:tasca_@nmod_4
+
+  [5] score_bg = 27.96  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:di_@mark_2 2:FORM:avere_@root 3:UPOS:NOUN_@obj_2 4:FORM:tasca_@nmod_3
+      espansa: 1:FORM:di_@mark_2 2:FORM:avere_@root 3:UPOS:DET_@det_4 4:UPOS:NOUN_@obj_2 5:FORM:in_@case_6 6:FORM:tasca_@nmod_4
+
+
+# cxn_id = cxn_125
+# cxn_name = Attenuazione dell'affermazione cxn-machine-readable-formalization: | cxn_125.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:quasi_@advmod_3 2:FORM:quasi_@advmod_3 3:UPOS:VERB_@root
+      espansa: 1:FORM:quasi_@advmod_3 2:FORM:quasi_@advmod_3 3:UPOS:VERB_@root
+
+  [2] score_bg = 38.65  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:quasi_@advmod_2 2:UPOS:VERB_@root
+      espansa: 1:UPOS:ADV_@advmod_3 2:FORM:quasi_@advmod_3 3:UPOS:VERB_@root
+
+  [3] score_bg = 0.60  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:UPOS:ADV_@advmod_3 2:FORM:quasi_@advmod_3 3:UPOS:VERB_@root
+
+
+# cxn_id = cxn_126
+# cxn_name = Pronome relativo preposto cxn-machine-readable-formalization: | cxn_126.conllc
+# n_frasi = 5
+
+  [1] score_bg = 38.65  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:FORM:chi_@nsubj_3 2:UPOS:VERB_@acl:relcl_1 3:__@root
+      espansa: 1:FORM:chi_@nsubj_3 2:UPOS:VERB_@acl:relcl_1 3:__@root
+
+  [2] score_bg = 36.58  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:chi_@nsubj_2 2:__@root
+      espansa: 1:FORM:chi_@nsubj_3 2:UPOS:VERB_@acl:relcl_1 3:__@root
+
+  [3] score_bg = 31.58  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:chi_@root 2:UPOS:VERB_@acl:relcl_1
+      espansa: 1:FORM:chi_@nsubj_3 2:UPOS:VERB_@acl:relcl_1 3:__@root
+
+  [4] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_127
+# cxn_name = Pippo construction cxn-machine-readable-formalization: | cxn_127.conllc
+# n_frasi = 5
+
+  [1] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_129
+# cxn_name = doppia negazione cxn-machine-readable-formalization: | cxn_129.conllc
+# n_frasi = 5
+
+  [1] score_bg = 21.80  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:che_@mark_3 2:FORM:non_@advmod_3 3:UPOS:VERB_@root
+      espansa: 1:FORM:che_@mark_3 2:FORM:non_@advmod_3 3:UPOS:VERB_@root
+
+  [2] score_bg = 14.04  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:che_@mark_2 2:UPOS:VERB_@root
+      espansa: 1:FORM:che_@mark_3 2:FORM:non_@advmod_3 3:UPOS:VERB_@root
+
+  [3] score_bg = 3.06  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:ADV_@advmod_2 2:__@root
+      espansa: 1:UPOS:ADV_@advmod_2 2:__@root
+
+  [4] score_bg = 0.60  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:UPOS:VERB_@root
+
+
+# cxn_id = cxn_13
+# cxn_name = più che mai + Adj Variante: più + Adj + che mai cxn-machine-readable-formalization: | cxn_13.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:__@root 2:FORM:che_@case_3 3:FORM:mai_@advmod_1
+      espansa: 1:__@root 2:FORM:che_@case_3 3:FORM:mai_@advmod_1
+
+  [2] score_bg = 46.58  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:che_@case_2 2:FORM:mai_@root
+      espansa: 1:__@root 2:FORM:che_@case_3 3:FORM:mai_@advmod_1
+
+  [3] score_bg = 19.79  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:più_@advmod_2 2:__@root
+      espansa: 1:FORM:più_@advmod_2 2:__@root
+
+  [4] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_131
+# cxn_name = Costruzioni "in croce" cxn-machine-readable-formalization: | cxn_131.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:UPOS:NUM_@nummod_2 2:UPOS:NOUN_@root 3:FORM:in_@case_4 4:FORM:croce_@nmod_2
+      espansa: 1:UPOS:NUM_@nummod_2 2:UPOS:NOUN_@root 3:FORM:in_@case_4 4:FORM:croce_@nmod_2
+
+  [2] score_bg = 46.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:UPOS:NOUN_@root 2:FORM:in_@case_3 3:FORM:croce_@nmod_1
+      espansa: 1:UPOS:NUM_@nummod_2 2:UPOS:NOUN_@root 3:FORM:in_@case_4 4:FORM:croce_@nmod_2
+
+  [3] score_bg = 46.58  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:UPOS:NUM_@nummod_2 2:UPOS:NOUN_@root 3:FORM:croce_@nmod_2
+      espansa: 1:UPOS:NUM_@nummod_2 2:UPOS:NOUN_@root 3:FORM:in_@case_4 4:FORM:croce_@nmod_2
+
+  [4] score_bg = 46.58  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:UPOS:NOUN_@root 2:FORM:croce_@nmod_1
+      espansa: 1:UPOS:NUM_@nummod_2 2:UPOS:NOUN_@root 3:FORM:in_@case_4 4:FORM:croce_@nmod_2
+
+  [5] score_bg = 21.35  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:NUM_@nummod_2 2:UPOS:NOUN_@root
+      espansa: 1:UPOS:NUM_@nummod_2 2:UPOS:NOUN_@root 3:FORM:in_@case_4 4:FORM:croce_@nmod_2
+
+
+# cxn_id = cxn_132
+# cxn_name = In lungo e in largo cxn-machine-readable-formalization: | cxn_132.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 11  (size=6, lexicalized=5)
+      base:    1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:lungo_@obl_1 4:FORM:e_@cc_6 5:FORM:in_@case_6 6:FORM:largo_@conj_3
+      espansa: 1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:lungo_@obl_1 4:FORM:e_@cc_6 5:FORM:in_@case_6 6:FORM:largo_@conj_3
+
+  [2] score_bg = 46.58  score_lex = 10  (size=5, lexicalized=5)
+      base:    1:FORM:in_@case_2 2:FORM:lungo_@root 3:FORM:e_@cc_5 4:FORM:in_@case_5 5:FORM:largo_@conj_2
+      espansa: 1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:lungo_@obl_1 4:FORM:e_@cc_6 5:FORM:in_@case_6 6:FORM:largo_@conj_3
+
+  [3] score_bg = 46.58  score_lex = 9  (size=5, lexicalized=4)
+      base:    1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:lungo_@obl_1 4:FORM:e_@cc_5 5:FORM:largo_@conj_3
+      espansa: 1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:lungo_@obl_1 4:FORM:e_@cc_6 5:FORM:in_@case_6 6:FORM:largo_@conj_3
+
+  [4] score_bg = 46.58  score_lex = 9  (size=5, lexicalized=4)
+      base:    1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:lungo_@obl_1 4:FORM:in_@case_5 5:FORM:largo_@conj_3
+      espansa: 1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:lungo_@obl_1 4:FORM:e_@cc_6 5:FORM:in_@case_6 6:FORM:largo_@conj_3
+
+  [5] score_bg = 46.58  score_lex = 9  (size=5, lexicalized=4)
+      base:    1:UPOS:VERB_@root 2:FORM:lungo_@obl_1 3:FORM:e_@cc_5 4:FORM:in_@case_5 5:FORM:largo_@conj_2
+      espansa: 1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:lungo_@obl_1 4:FORM:e_@cc_6 5:FORM:in_@case_6 6:FORM:largo_@conj_3
+
+
+# cxn_id = cxn_133
+# cxn_name = Costruzione "che" cxn-machine-readable-formalization: | cxn_133.conllc
+# n_frasi = 9
+
+  [1] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_134
+# cxn_name = espressioni per esprimere quantità cxn-machine-readable-formalization: | cxn_134.conllc
+# n_frasi = 3
+
+  [1] score_bg = 27.96  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:un_@det_2 2:FORM:botto_@root
+      espansa: 1:FORM:un_@det_2 2:FORM:botto_@root
+
+  [2] score_bg = 24.96  score_lex = 2  (size=1, lexicalized=1)
+      base:    1:FORM:botto_@root
+      espansa: 1:FORM:un_@det_2 2:FORM:botto_@root
+
+  [3] score_bg = 4.80  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:__@root 2:UPOS:NOUN_@nmod_1
+      espansa: 1:__@root 2:UPOS:NOUN_@nmod_1
+
+
+# cxn_id = cxn_135
+# cxn_name = Costruzione "che...che" cxn-machine-readable-formalization: | cxn_135.conllc
+# n_frasi = 5
+
+  [1] score_bg = 16.58  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:UPOS:DET_@det_2 2:UPOS:NOUN_@root 3:__@acl:relcl_2
+      espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@root 3:__@acl:relcl_2
+
+  [2] score_bg = 14.79  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:NOUN_@root 2:__@acl:relcl_1
+      espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@root 3:__@acl:relcl_2
+
+  [3] score_bg = 2.38  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:DET_@det_2 2:UPOS:NOUN_@root
+      espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@root 3:__@acl:relcl_2
+
+  [4] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_136
+# cxn_name = Alzare  figurato cxn-machine-readable-formalization: | cxn_136.conllc
+# n_frasi = 4
+
+  [1] score_bg = 37.27  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:FORM:alzare_@root 2:LEMMA:il_@det_3 3:UPOS:NOUN_@obj_1
+      espansa: 1:FORM:alzare_@root 2:LEMMA:il_@det_3 3:UPOS:NOUN_@obj_1
+
+  [2] score_bg = 37.27  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:alzare_@root 2:UPOS:NOUN_@obj_1
+      espansa: 1:FORM:alzare_@root 2:LEMMA:il_@det_3 3:UPOS:NOUN_@obj_1
+
+  [3] score_bg = 37.27  score_lex = 2  (size=1, lexicalized=1)
+      base:    1:FORM:alzare_@root
+      espansa: 1:FORM:alzare_@root 2:LEMMA:il_@det_3 3:UPOS:NOUN_@obj_1
+
+  [4] score_bg = 3.33  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:il_@det_2 2:UPOS:NOUN_@root
+      espansa: 1:FORM:alzare_@root 2:LEMMA:il_@det_3 3:UPOS:NOUN_@obj_1
+
+
+# cxn_id = cxn_137
+# cxn_name = Venire alle mani cxn-machine-readable-formalization: | cxn_137.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:LEMMA:essere_@aux_2 2:UPOS:VERB_@root 3:FORM:a_@case_5 4:FORM:le_@det_5 5:FORM:mani_@obl_2
+      espansa: 1:LEMMA:essere_@aux_2 2:UPOS:VERB_@root 3:FORM:a_@case_5 4:FORM:le_@det_5 5:FORM:mani_@obl_2
+
+  [2] score_bg = 46.58  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:UPOS:VERB_@root 2:FORM:a_@case_4 3:FORM:le_@det_4 4:FORM:mani_@obl_1
+      espansa: 1:LEMMA:essere_@aux_2 2:UPOS:VERB_@root 3:FORM:a_@case_5 4:FORM:le_@det_5 5:FORM:mani_@obl_2
+
+  [3] score_bg = 46.58  score_lex = 6  (size=3, lexicalized=3)
+      base:    1:FORM:a_@case_3 2:FORM:le_@det_3 3:FORM:mani_@root
+      espansa: 1:LEMMA:essere_@aux_2 2:UPOS:VERB_@root 3:FORM:a_@case_5 4:FORM:le_@det_5 5:FORM:mani_@obl_2
+
+  [4] score_bg = 46.58  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:LEMMA:essere_@aux_2 2:UPOS:VERB_@root 3:FORM:a_@case_4 4:FORM:mani_@obl_2
+      espansa: 1:LEMMA:essere_@aux_2 2:UPOS:VERB_@root 3:FORM:a_@case_5 4:FORM:le_@det_5 5:FORM:mani_@obl_2
+
+  [5] score_bg = 46.58  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:LEMMA:essere_@aux_2 2:UPOS:VERB_@root 3:FORM:le_@det_4 4:FORM:mani_@obl_2
+      espansa: 1:LEMMA:essere_@aux_2 2:UPOS:VERB_@root 3:FORM:a_@case_5 4:FORM:le_@det_5 5:FORM:mani_@obl_2
+
+
+# cxn_id = cxn_138
+# cxn_name = ac cxn-machine-readable-formalization: | cxn_138.conllc
+# n_frasi = 3
+
+  [1] score_bg = 27.96  score_lex = 10  (size=6, lexicalized=4)
+      base:    1:LEMMA:fare_@root 2:FORM:la_@det_3 3:FORM:figura_@obj_1 4:FORM:di_@case_6 5:FORM:il_@det_6 6:__@nmod_3
+      espansa: 1:LEMMA:fare_@root 2:FORM:la_@det_3 3:FORM:figura_@obj_1 4:FORM:di_@case_6 5:FORM:il_@det_6 6:__@nmod_3
+
+  [2] score_bg = 27.96  score_lex = 9  (size=5, lexicalized=4)
+      base:    1:FORM:la_@det_2 2:FORM:figura_@root 3:FORM:di_@case_5 4:FORM:il_@det_5 5:__@nmod_2
+      espansa: 1:LEMMA:fare_@root 2:FORM:la_@det_3 3:FORM:figura_@obj_1 4:FORM:di_@case_6 5:FORM:il_@det_6 6:__@nmod_3
+
+  [3] score_bg = 27.96  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:LEMMA:fare_@root 2:FORM:la_@det_3 3:FORM:figura_@obj_1 4:FORM:di_@case_5 5:__@nmod_3
+      espansa: 1:LEMMA:fare_@root 2:FORM:la_@det_3 3:FORM:figura_@obj_1 4:FORM:di_@case_6 5:FORM:il_@det_6 6:__@nmod_3
+
+  [4] score_bg = 27.96  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:LEMMA:fare_@root 2:FORM:la_@det_3 3:FORM:figura_@obj_1 4:FORM:il_@det_5 5:__@nmod_3
+      espansa: 1:LEMMA:fare_@root 2:FORM:la_@det_3 3:FORM:figura_@obj_1 4:FORM:di_@case_6 5:FORM:il_@det_6 6:__@nmod_3
+
+  [5] score_bg = 27.96  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:LEMMA:fare_@root 2:FORM:figura_@obj_1 3:FORM:di_@case_5 4:FORM:il_@det_5 5:__@nmod_2
+      espansa: 1:LEMMA:fare_@root 2:FORM:la_@det_3 3:FORM:figura_@obj_1 4:FORM:di_@case_6 5:FORM:il_@det_6 6:__@nmod_3
+
+
+# cxn_id = cxn_139
+# cxn_name = Construction 'vuoi' X 'vuoi' Y cxn-machine-readable-formalization: | cxn_139.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:UPOS:VERB_@root 2:FORM:vuoi_@conj_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:vuoi_@conj_1
+
+  [2] score_bg = 6.25  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:UPOS:ADP_@case_3 2:UPOS:DET_@det_3 3:UPOS:NOUN_@root
+      espansa: 1:UPOS:ADP_@case_3 2:UPOS:DET_@det_3 3:UPOS:NOUN_@root
+
+  [3] score_bg = 5.75  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:__@nsubj_2 2:UPOS:VERB_@root
+      espansa: 1:__@nsubj_2 2:UPOS:VERB_@root
+
+  [4] score_bg = 3.59  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:ADP_@case_2 2:UPOS:NOUN_@root
+      espansa: 1:UPOS:ADP_@case_2 2:UPOS:NOUN_@root
+
+  [5] score_bg = 3.06  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:ADV_@advmod_2 2:__@root
+      espansa: 1:UPOS:ADV_@advmod_2 2:__@root
+
+
+# cxn_id = cxn_14
+# cxn_name = bello/a come Det N cxn-machine-readable-formalization: | cxn_14.conllc
+# n_frasi = 3
+
+  [1] score_bg = 24.96  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:bello_@root 2:FORM:come_@case_4 3:UPOS:DET_@det_4 4:UPOS:NOUN_@obl_1
+      espansa: 1:FORM:bello_@root 2:FORM:come_@case_4 3:UPOS:DET_@det_4 4:UPOS:NOUN_@obl_1
+
+  [2] score_bg = 24.96  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:bello_@root 2:FORM:come_@case_3 3:UPOS:NOUN_@obl_1
+      espansa: 1:FORM:bello_@root 2:FORM:come_@case_4 3:UPOS:DET_@det_4 4:UPOS:NOUN_@obl_1
+
+  [3] score_bg = 24.96  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:FORM:bello_@root 2:UPOS:DET_@det_3 3:UPOS:NOUN_@obl_1
+      espansa: 1:FORM:bello_@root 2:FORM:come_@case_4 3:UPOS:DET_@det_4 4:UPOS:NOUN_@obl_1
+
+  [4] score_bg = 24.96  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:bello_@root 2:UPOS:NOUN_@obl_1
+      espansa: 1:FORM:bello_@root 2:FORM:come_@case_4 3:UPOS:DET_@det_4 4:UPOS:NOUN_@obl_1
+
+  [5] score_bg = 18.45  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:FORM:come_@case_3 2:UPOS:DET_@det_3 3:UPOS:NOUN_@root
+      espansa: 1:FORM:bello_@root 2:FORM:come_@case_4 3:UPOS:DET_@det_4 4:UPOS:NOUN_@obl_1
+
+
+# cxn_id = cxn_140
+# cxn_name = Piace/piacciono cxn-machine-readable-formalization: | cxn_140.conllc
+# n_frasi = 5
+
+  [1] score_bg = 36.58  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:__@iobj_2 2:LEMMA:piacere_@root
+      espansa: 1:__@iobj_2 2:LEMMA:piacere_@root
+
+  [2] score_bg = 34.97  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:LEMMA:piacere_@root
+      espansa: 1:__@iobj_2 2:LEMMA:piacere_@root
+
+
+# cxn_id = cxn_141
+# cxn_name = Ancora ora Construction cxn-machine-readable-formalization: | cxn_141.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:FORM:ancora_@advmod_3 2:FORM:ora_@advmod_3 3:UPOS:VERB_@root 4:FORM:che_@mark_5 5:__@ccomp_3
+      espansa: 1:FORM:ancora_@advmod_3 2:FORM:ora_@advmod_3 3:UPOS:VERB_@root 4:FORM:che_@mark_5 5:__@ccomp_3
+
+  [2] score_bg = 46.58  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:ora_@advmod_2 2:UPOS:VERB_@root 3:FORM:che_@mark_4 4:__@ccomp_2
+      espansa: 1:FORM:ancora_@advmod_3 2:FORM:ora_@advmod_3 3:UPOS:VERB_@root 4:FORM:che_@mark_5 5:__@ccomp_3
+
+  [3] score_bg = 46.58  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:ancora_@advmod_3 2:FORM:ora_@advmod_3 3:UPOS:VERB_@root 4:__@ccomp_3
+      espansa: 1:FORM:ancora_@advmod_3 2:FORM:ora_@advmod_3 3:UPOS:VERB_@root 4:FORM:che_@mark_5 5:__@ccomp_3
+
+  [4] score_bg = 46.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:ancora_@advmod_3 2:FORM:ora_@advmod_3 3:UPOS:VERB_@root
+      espansa: 1:FORM:ancora_@advmod_3 2:FORM:ora_@advmod_3 3:UPOS:VERB_@root 4:FORM:che_@mark_5 5:__@ccomp_3
+
+  [5] score_bg = 46.58  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:FORM:ora_@advmod_2 2:UPOS:VERB_@root 3:__@ccomp_2
+      espansa: 1:FORM:ancora_@advmod_3 2:FORM:ora_@advmod_3 3:UPOS:VERB_@root 4:FORM:che_@mark_5 5:__@ccomp_3
+
+
+# cxn_id = cxn_142
+# cxn_name = Verbo+che+"aria tira" cxn-machine-readable-formalization: | cxn_142.conllc
+# n_frasi = 3
+
+  [1] score_bg = 27.96  score_lex = 6  (size=3, lexicalized=3)
+      base:    1:FORM:che_@det_2 2:FORM:aria_@nsubj_3 3:FORM:tira_@root
+      espansa: 1:FORM:che_@det_2 2:FORM:aria_@nsubj_3 3:FORM:tira_@root
+
+  [2] score_bg = 27.96  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:aria_@nsubj_2 2:FORM:tira_@root
+      espansa: 1:FORM:che_@det_2 2:FORM:aria_@nsubj_3 3:FORM:tira_@root
+
+  [3] score_bg = 27.96  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:che_@det_2 2:FORM:aria_@root
+      espansa: 1:FORM:che_@det_2 2:FORM:aria_@nsubj_3 3:FORM:tira_@root
+
+  [4] score_bg = 10.54  score_lex = 4  (size=4, lexicalized=0)
+      base:    1:UPOS:NOUN_@nsubj_2 2:UPOS:VERB_@root 3:UPOS:ADP_@case_4 4:__@obl_2
+      espansa: 1:UPOS:NOUN_@nsubj_2 2:UPOS:VERB_@root 3:UPOS:ADP_@case_4 4:__@obl_2
+
+  [5] score_bg = 9.76  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:UPOS:NOUN_@nsubj_2 2:UPOS:VERB_@root 3:__@obl_2
+      espansa: 1:UPOS:NOUN_@nsubj_2 2:UPOS:VERB_@root 3:UPOS:ADP_@case_4 4:__@obl_2
+
+
+# cxn_id = cxn_143
+# cxn_name = ADJ-per-ADJ reduplicazione discontinua cxn-machine-readable-formalization: | cxn_143.conllc
+# n_frasi = 5
+
+  [1] score_bg = 6.78  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:ADP_@case_3 3:UPOS:NOUN_@obl_1
+      espansa: 1:UPOS:VERB_@root 2:UPOS:ADP_@case_3 3:UPOS:NOUN_@obl_1
+
+  [2] score_bg = 6.25  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:NOUN_@obl_2 2:UPOS:VERB_@root
+      espansa: 1:UPOS:NOUN_@obl_2 2:UPOS:VERB_@root
+
+  [3] score_bg = 3.59  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:ADP_@case_2 2:UPOS:NOUN_@root
+      espansa: 1:UPOS:ADP_@case_2 2:UPOS:NOUN_@root
+
+  [4] score_bg = 2.38  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:DET_@det_2 2:UPOS:NOUN_@root
+      espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@root
+
+  [5] score_bg = 0.60  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:UPOS:VERB_@root
+
+
+# cxn_id = cxn_144
+# cxn_name = Avere a che fare con X cxn-machine-readable-formalization: | cxn_144.conllc
+# n_frasi = 2
+
+  [1] score_bg = 18.64  score_lex = 11  (size=6, lexicalized=5)
+      base:    1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:niente_@obj_2 4:FORM:a_@mark_6 5:FORM:che_@fixed_4 6:FORM:fare_@advcl_2
+      espansa: 1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:niente_@obj_2 4:FORM:a_@mark_6 5:FORM:che_@fixed_4 6:FORM:fare_@advcl_2 7:FORM:con_@case_8 8:__@obl_6
+
+  [2] score_bg = 18.64  score_lex = 10  (size=6, lexicalized=4)
+      base:    1:LEMMA:avere_@root 2:FORM:niente_@obj_1 3:FORM:a_@mark_4 4:FORM:fare_@advcl_1 5:FORM:con_@case_6 6:__@obl_4
+      espansa: 1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:niente_@obj_2 4:FORM:a_@mark_6 5:FORM:che_@fixed_4 6:FORM:fare_@advcl_2 7:FORM:con_@case_8 8:__@obl_6
+
+  [3] score_bg = 18.64  score_lex = 10  (size=6, lexicalized=4)
+      base:    1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:a_@mark_5 4:FORM:che_@fixed_3 5:FORM:fare_@advcl_2 6:__@obl_5
+      espansa: 1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:niente_@obj_2 4:FORM:a_@mark_6 5:FORM:che_@fixed_4 6:FORM:fare_@advcl_2 7:FORM:con_@case_8 8:__@obl_6
+
+  [4] score_bg = 18.64  score_lex = 10  (size=6, lexicalized=4)
+      base:    1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:niente_@obj_2 4:FORM:a_@mark_5 5:FORM:fare_@advcl_2 6:__@obl_5
+      espansa: 1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:niente_@obj_2 4:FORM:a_@mark_6 5:FORM:che_@fixed_4 6:FORM:fare_@advcl_2 7:FORM:con_@case_8 8:__@obl_6
+
+  [5] score_bg = 18.64  score_lex = 10  (size=6, lexicalized=4)
+      base:    1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:a_@mark_4 4:FORM:fare_@advcl_2 5:FORM:con_@case_6 6:__@obl_4
+      espansa: 1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:niente_@obj_2 4:FORM:a_@mark_6 5:FORM:che_@fixed_4 6:FORM:fare_@advcl_2 7:FORM:con_@case_8 8:__@obl_6
+
+
+# cxn_id = cxn_149
+# cxn_name = Cognate Object Construction Proper cxn-machine-readable-formalization: | cxn_149.conllc
+# n_frasi = 5
+
+  [1] score_bg = 16.69  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:NOUN_@obj_1 3:UPOS:ADJ_@amod_2
+      espansa: 1:UPOS:VERB_@root 2:UPOS:NOUN_@obj_1 3:UPOS:ADJ_@amod_2
+
+  [2] score_bg = 8.73  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:NOUN_@root 2:UPOS:ADJ_@amod_1
+      espansa: 1:UPOS:VERB_@root 2:UPOS:NOUN_@obj_1 3:UPOS:ADJ_@amod_2
+
+  [3] score_bg = 6.03  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:NOUN_@obj_1
+      espansa: 1:UPOS:VERB_@root 2:UPOS:NOUN_@obj_1 3:UPOS:ADJ_@amod_2
+
+  [4] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_15
+# cxn_name = piove + Avv di modo cxn-machine-readable-formalization: | cxn_15.conllc
+# n_frasi = 3
+
+  [1] score_bg = 27.96  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:piove_@root 2:FORM:a_@case_3 3:UPOS:NOUN_@obl_1
+      espansa: 1:FORM:piove_@root 2:FORM:a_@case_3 3:UPOS:NOUN_@obl_1
+
+  [2] score_bg = 27.96  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:piove_@root 2:UPOS:NOUN_@obl_1
+      espansa: 1:FORM:piove_@root 2:UPOS:ADP_@case_3 3:UPOS:NOUN_@obl_1
+
+  [3] score_bg = 6.76  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:CCONJ_@cc_2 2:UPOS:VERB_@root
+      espansa: 1:UPOS:CCONJ_@cc_2 2:UPOS:VERB_@root
+
+  [4] score_bg = 5.94  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:a_@case_2 2:UPOS:NOUN_@root
+      espansa: 1:FORM:piove_@root 2:FORM:a_@case_3 3:UPOS:NOUN_@obl_1
+
+  [5] score_bg = 0.36  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:UPOS:VERB_@root
+
+
+# cxn_id = cxn_150
+# cxn_name = Caused Motion Construction cxn-machine-readable-formalization: | cxn_150.conllc
+# n_frasi = 6
+
+  [1] score_bg = 4.50  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:__@obj_1
+      espansa: 1:UPOS:VERB_@root 2:__@obj_1
+
+  [2] score_bg = 4.30  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:il_@det_2 2:__@root
+      espansa: 1:LEMMA:il_@det_2 2:__@root
+
+  [3] score_bg = 3.03  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:ADP_@case_2 2:__@root
+      espansa: 1:UPOS:ADP_@case_2 2:__@root
+
+  [4] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_151
+# cxn_name = Caused Motion + via Construction cxn-machine-readable-formalization: | cxn_151.conllc
+# n_frasi = 4
+
+  [1] score_bg = 33.27  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:UPOS:VERB_@root 2:FORM:via_@advmod_1 3:__@obj_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:via_@advmod_1 3:__@obj_1
+
+  [2] score_bg = 30.93  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:UPOS:VERB_@root 2:FORM:via_@advmod_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:via_@advmod_1 3:__@obj_1
+
+  [3] score_bg = 2.99  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:__@obj_1
+      espansa: 1:UPOS:VERB_@root 2:UPOS:ADV_@advmod_1 3:__@obj_1
+
+  [4] score_bg = 2.87  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:ADP_@case_2 2:UPOS:NOUN_@root
+      espansa: 1:UPOS:ADP_@case_2 2:UPOS:NOUN_@root
+
+  [5] score_bg = 0.48  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:UPOS:VERB_@root 2:UPOS:ADV_@advmod_1 3:__@obj_1
+
+
+# cxn_id = cxn_152
+# cxn_name = Dative Construction cxn-machine-readable-formalization: | cxn_152.conllc
+# n_frasi = 5
+
+  [1] score_bg = 6.72  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:UPOS:ADP_@case_3 2:LEMMA:il_@det_3 3:__@root
+      espansa: 1:UPOS:ADP_@case_3 2:LEMMA:il_@det_3 3:__@root
+
+  [2] score_bg = 6.03  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:NOUN_@obj_1
+      espansa: 1:UPOS:VERB_@root 2:UPOS:NOUN_@obj_1
+
+  [3] score_bg = 3.58  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:il_@det_2 2:__@root
+      espansa: 1:LEMMA:il_@det_2 2:__@root
+
+  [4] score_bg = 2.52  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:ADP_@case_2 2:__@root
+      espansa: 1:UPOS:ADP_@case_2 2:__@root
+
+  [5] score_bg = 0.60  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:UPOS:VERB_@root
+
+
+# cxn_id = cxn_153
+# cxn_name = Intransitive Motion Construction cxn-machine-readable-formalization: | cxn_153.conllc
+# n_frasi = 5
+
+  [1] score_bg = 5.58  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:ADP_@case_3 3:__@obl_1
+      espansa: 1:UPOS:VERB_@root 2:UPOS:ADP_@case_3 3:__@obl_1
+
+  [2] score_bg = 4.40  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:__@obl_1
+      espansa: 1:UPOS:VERB_@root 2:UPOS:ADP_@case_3 3:__@obl_1
+
+  [3] score_bg = 2.52  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:ADP_@case_2 2:__@root
+      espansa: 1:UPOS:VERB_@root 2:UPOS:ADP_@case_3 3:__@obl_1
+
+  [4] score_bg = 2.07  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:DET_@det_2 2:__@root
+      espansa: 1:UPOS:DET_@det_2 2:__@root
+
+  [5] score_bg = 0.60  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:UPOS:VERB_@root
+
+
+# cxn_id = cxn_154
+# cxn_name = Implict Verba Dicendi Construction cxn-machine-readable-formalization: | cxn_154.conllc
+# n_frasi = 5
+
+  [1] score_bg = 22.04  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:UPOS:VERB_@root 2:FORM:di_@mark_3 3:__@xcomp_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:di_@mark_3 3:__@xcomp_1
+
+  [2] score_bg = 16.35  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:di_@mark_2 2:__@root
+      espansa: 1:UPOS:VERB_@root 2:FORM:di_@mark_3 3:__@xcomp_1
+
+  [3] score_bg = 9.97  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:__@xcomp_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:di_@mark_3 3:__@xcomp_1
+
+  [4] score_bg = 2.38  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:DET_@det_2 2:UPOS:NOUN_@root
+      espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@root
+
+  [5] score_bg = 0.60  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:UPOS:VERB_@root 2:FORM:di_@mark_3 3:__@xcomp_1
+
+
+# cxn_id = cxn_155
+# cxn_name = Verba Dicendi Explicit Construction cxn-machine-readable-formalization: | cxn_155.conllc
+# n_frasi = 5
+
+  [1] score_bg = 10.68  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:SCONJ_@mark_2 2:__@root
+      espansa: 1:UPOS:SCONJ_@mark_2 2:__@root
+
+  [2] score_bg = 0.60  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:UPOS:VERB_@root
+
+
+# cxn_id = cxn_156
+# cxn_name = PP|NPDAT toccare3.SG VINF cxn-machine-readable-formalization: | cxn_156.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:toccare_@root 2:UPOS:VERB_@xcomp_1
+      espansa: 1:LEMMA:toccare_@root 2:UPOS:VERB_@xcomp_1
+
+  [2] score_bg = 4.99  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:ADV_@advmod_2 2:UPOS:VERB_@root
+      espansa: 1:UPOS:ADV_@advmod_2 2:UPOS:VERB_@root
+
+  [3] score_bg = 0.60  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:UPOS:VERB_@root
+
+
+# cxn_id = cxn_157
+# cxn_name = bello Adj cxn-machine-readable-formalization: | cxn_157.conllc
+# n_frasi = 5
+
+  [1] score_bg = 28.65  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:bello_@amod_2 2:__@root
+      espansa: 1:LEMMA:bello_@amod_2 2:__@root
+
+  [2] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_158
+# cxn_name = Passive Construction cxn-machine-readable-formalization: | cxn_158.conllc
+# n_frasi = 5
+
+  [1] score_bg = 25.73  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:essere_@aux:pass_2 2:UPOS:VERB_@root
+      espansa: 1:LEMMA:essere_@aux:pass_2 2:UPOS:VERB_@root
+
+  [2] score_bg = 6.72  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:UPOS:ADP_@case_3 2:LEMMA:il_@det_3 3:__@root
+      espansa: 1:UPOS:ADP_@case_3 2:LEMMA:il_@det_3 3:__@root
+
+  [3] score_bg = 3.58  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:il_@det_2 2:__@root
+      espansa: 1:LEMMA:il_@det_2 2:__@root
+
+  [4] score_bg = 2.52  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:ADP_@case_2 2:__@root
+      espansa: 1:UPOS:ADP_@case_3 2:LEMMA:il_@det_3 3:__@root
+
+  [5] score_bg = 0.60  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:LEMMA:essere_@aux:pass_2 2:UPOS:VERB_@root
+
+
+# cxn_id = cxn_159
+# cxn_name = Predicative Construction cxn-machine-readable-formalization: | cxn_159.conllc
+# n_frasi = 4
+
+  [1] score_bg = 13.74  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:__@nsubj_2 2:UPOS:VERB_@root 3:__@xcomp_2
+      espansa: 1:__@nsubj_2 2:UPOS:VERB_@root 3:__@xcomp_2
+
+  [2] score_bg = 9.89  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:UPOS:DET_@det_2 2:UPOS:NOUN_@nsubj_3 3:UPOS:VERB_@root
+      espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@nsubj_3 3:UPOS:VERB_@root
+
+  [3] score_bg = 8.84  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:NOUN_@nsubj_2 2:UPOS:VERB_@root
+      espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@nsubj_3 3:UPOS:VERB_@root
+
+  [4] score_bg = 7.95  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:__@xcomp_1
+      espansa: 1:__@nsubj_2 2:UPOS:VERB_@root 3:__@xcomp_2
+
+  [5] score_bg = 1.90  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:DET_@det_2 2:UPOS:NOUN_@root
+      espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@nsubj_3 3:UPOS:VERB_@root
+
+
+# cxn_id = cxn_16
+# cxn_name = cxn-machine-readable-formalization: | cxn_16.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 12  (size=6, lexicalized=6)
+      base:    1:FORM:in_@case_2 2:FORM:men_@root 3:FORM:che_@mark_6 4:FORM:non_@advmod_6 5:FORM:si_@expl:impers_6 6:FORM:dica_@advcl_2
+      espansa: 1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:men_@advmod_1 4:FORM:che_@mark_7 5:FORM:non_@advmod_7 6:FORM:si_@expl:impers_7 7:FORM:dica_@advcl_3
+
+  [2] score_bg = 46.58  score_lex = 11  (size=6, lexicalized=5)
+      base:    1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:men_@advmod_1 4:FORM:che_@mark_6 5:FORM:non_@advmod_6 6:FORM:dica_@advcl_3
+      espansa: 1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:men_@advmod_1 4:FORM:che_@mark_7 5:FORM:non_@advmod_7 6:FORM:si_@expl:impers_7 7:FORM:dica_@advcl_3
+
+  [3] score_bg = 46.58  score_lex = 11  (size=6, lexicalized=5)
+      base:    1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:men_@advmod_1 4:FORM:non_@advmod_6 5:FORM:si_@expl:impers_6 6:FORM:dica_@advcl_3
+      espansa: 1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:men_@advmod_1 4:FORM:che_@mark_7 5:FORM:non_@advmod_7 6:FORM:si_@expl:impers_7 7:FORM:dica_@advcl_3
+
+  [4] score_bg = 46.58  score_lex = 11  (size=6, lexicalized=5)
+      base:    1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:men_@advmod_1 4:FORM:che_@mark_6 5:FORM:si_@expl:impers_6 6:FORM:dica_@advcl_3
+      espansa: 1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:men_@advmod_1 4:FORM:che_@mark_7 5:FORM:non_@advmod_7 6:FORM:si_@expl:impers_7 7:FORM:dica_@advcl_3
+
+  [5] score_bg = 46.58  score_lex = 11  (size=6, lexicalized=5)
+      base:    1:UPOS:VERB_@root 2:FORM:men_@advmod_1 3:FORM:che_@mark_6 4:FORM:non_@advmod_6 5:FORM:si_@expl:impers_6 6:FORM:dica_@advcl_2
+      espansa: 1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:men_@advmod_1 4:FORM:che_@mark_7 5:FORM:non_@advmod_7 6:FORM:si_@expl:impers_7 7:FORM:dica_@advcl_3
+
+
+# cxn_id = cxn_160
+# cxn_name = Discontinous reduplication N(sg)-su-N(sg) cxn-machine-readable-formalization: | cxn_160.conllc
+# n_frasi = 4
+
+  [1] score_bg = 3.33  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:il_@det_2 2:UPOS:NOUN_@root
+      espansa: 1:LEMMA:il_@det_2 2:UPOS:NOUN_@root
+
+  [2] score_bg = 2.99  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:__@obj_1
+      espansa: 1:UPOS:VERB_@root 2:__@obj_1
+
+  [3] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_161
+# cxn_name = Discontinous reduplication N(pl)-su-N(pl) cxn-machine-readable-formalization: | cxn_161.conllc
+# n_frasi = 3
+
+  [1] score_bg = 23.20  score_lex = 6  (size=6, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:DET_@det_3 3:UPOS:NOUN_@obj_1 4:__@obl_1 5:UPOS:VERB_@advcl_1 6:UPOS:NOUN_@obj_5
+      espansa: 1:UPOS:VERB_@root 2:UPOS:DET_@det_3 3:UPOS:NOUN_@obj_1 4:__@obl_1 5:UPOS:VERB_@advcl_1 6:UPOS:NOUN_@obj_5
+
+  [2] score_bg = 20.99  score_lex = 5  (size=5, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:NOUN_@obj_1 3:__@obl_1 4:UPOS:VERB_@advcl_1 5:UPOS:NOUN_@obj_4
+      espansa: 1:UPOS:VERB_@root 2:UPOS:DET_@det_3 3:UPOS:NOUN_@obj_1 4:__@obl_1 5:UPOS:VERB_@advcl_1 6:UPOS:NOUN_@obj_5
+
+  [3] score_bg = 19.54  score_lex = 5  (size=5, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:DET_@det_3 3:UPOS:NOUN_@obj_1 4:__@obl_1 5:UPOS:VERB_@advcl_1
+      espansa: 1:UPOS:VERB_@root 2:UPOS:DET_@det_3 3:UPOS:NOUN_@obj_1 4:__@obl_1 5:UPOS:VERB_@advcl_1 6:UPOS:NOUN_@obj_5
+
+  [4] score_bg = 19.54  score_lex = 5  (size=5, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:DET_@det_3 3:UPOS:NOUN_@obj_1 4:UPOS:VERB_@advcl_1 5:UPOS:NOUN_@obj_4
+      espansa: 1:UPOS:VERB_@root 2:UPOS:DET_@det_3 3:UPOS:NOUN_@obj_1 4:__@obl_1 5:UPOS:VERB_@advcl_1 6:UPOS:NOUN_@obj_5
+
+  [5] score_bg = 18.45  score_lex = 4  (size=4, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:NOUN_@obj_1 3:UPOS:VERB_@advcl_1 4:UPOS:NOUN_@obj_3
+      espansa: 1:UPOS:VERB_@root 2:UPOS:NOUN_@obj_1 3:UPOS:VERB_@advcl_1 4:UPOS:NOUN_@obj_3
+
+
+# cxn_id = cxn_17
+# cxn_name = Adv1 Conj Adv2 prima o poi cxn-machine-readable-formalization: | cxn_17.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:prima_@advmod_4 2:FORM:o_@cc_3 3:FORM:poi_@conj_1 4:__@root
+      espansa: 1:FORM:prima_@advmod_4 2:FORM:o_@cc_3 3:FORM:poi_@conj_1 4:__@root
+
+  [2] score_bg = 46.58  score_lex = 6  (size=3, lexicalized=3)
+      base:    1:FORM:prima_@root 2:FORM:o_@cc_3 3:FORM:poi_@conj_1
+      espansa: 1:FORM:prima_@advmod_4 2:FORM:o_@cc_3 3:FORM:poi_@conj_1 4:__@root
+
+  [3] score_bg = 46.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:prima_@advmod_3 2:FORM:poi_@conj_1 3:__@root
+      espansa: 1:FORM:prima_@advmod_4 2:FORM:o_@cc_3 3:FORM:poi_@conj_1 4:__@root
+
+  [4] score_bg = 46.58  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:prima_@root 2:FORM:poi_@conj_1
+      espansa: 1:FORM:prima_@advmod_4 2:FORM:o_@cc_3 3:FORM:poi_@conj_1 4:__@root
+
+  [5] score_bg = 46.58  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:o_@cc_2 2:FORM:poi_@root
+      espansa: 1:FORM:prima_@advmod_4 2:FORM:o_@cc_3 3:FORM:poi_@conj_1 4:__@root
+
+
+# cxn_id = cxn_171
+# cxn_name = Tanto (...) quanto (...) cxn-machine-readable-formalization: | cxn_171.conllc
+# n_frasi = 11
+
+  [1] score_bg = 15.67  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:__@root 2:__@conj_1
+      espansa: 1:__@root 2:__@conj_1
+
+  [2] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_172
+# cxn_name = trovare N (Avv) Agg cxn-machine-readable-formalization: | cxn_172.conllc
+# n_frasi = 5
+
+  [1] score_bg = 38.65  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:__@obj_2 2:LEMMA:trovare_@root 3:UPOS:ADJ_@xcomp_2
+      espansa: 1:__@obj_2 2:LEMMA:trovare_@root 3:UPOS:ADJ_@xcomp_2
+
+  [2] score_bg = 36.58  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:trovare_@root 2:UPOS:ADJ_@xcomp_1
+      espansa: 1:__@obj_2 2:LEMMA:trovare_@root 3:UPOS:ADJ_@xcomp_2
+
+  [3] score_bg = 31.58  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:__@obj_2 2:LEMMA:trovare_@root
+      espansa: 1:__@obj_2 2:LEMMA:trovare_@root 3:UPOS:ADJ_@xcomp_2
+
+  [4] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_173
+# cxn_name = dare di N cxn-machine-readable-formalization: | cxn_173.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:LEMMA:dare_@root 2:FORM:di_@case_3 3:UPOS:NOUN_@obl_1
+      espansa: 1:LEMMA:dare_@root 2:FORM:di_@case_3 3:UPOS:NOUN_@obl_1
+
+  [2] score_bg = 46.58  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:dare_@root 2:UPOS:NOUN_@obl_1
+      espansa: 1:LEMMA:dare_@root 2:FORM:di_@case_3 3:UPOS:NOUN_@obl_1
+
+  [3] score_bg = 9.12  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:di_@case_2 2:UPOS:NOUN_@root
+      espansa: 1:FORM:di_@case_2 2:UPOS:NOUN_@root
+
+  [4] score_bg = 8.36  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:UPOS:NOUN_@root 2:UPOS:ADP_@case_3 3:UPOS:NOUN_@nmod_1
+      espansa: 1:UPOS:NOUN_@root 2:UPOS:ADP_@case_3 3:UPOS:NOUN_@nmod_1
+
+  [5] score_bg = 8.28  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:NOUN_@root 2:UPOS:NOUN_@nmod_1
+      espansa: 1:UPOS:NOUN_@root 2:UPOS:ADP_@case_3 3:UPOS:NOUN_@nmod_1
+
+
+# cxn_id = cxn_174
+# cxn_name = Costruzione comparativa asimmetrica cxn-machine-readable-formalization: | cxn_174.conllc
+# n_frasi = 4
+
+  [1] score_bg = 37.27  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:più_@advmod_2 2:__@root 3:FORM:che_@cc_4 4:__@conj_2
+      espansa: 1:FORM:più_@advmod_2 2:__@root 3:FORM:che_@cc_4 4:__@conj_2
+
+  [2] score_bg = 26.04  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:__@root 2:FORM:che_@cc_3 3:__@conj_1
+      espansa: 1:UPOS:ADV_@advmod_2 2:__@root 3:FORM:che_@cc_4 4:__@conj_2
+
+  [3] score_bg = 26.04  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:FORM:più_@advmod_2 2:__@root 3:__@conj_2
+      espansa: 1:FORM:più_@advmod_2 2:__@root 3:__@conj_2
+
+  [4] score_bg = 26.04  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:che_@cc_2 2:__@root
+      espansa: 1:UPOS:ADV_@advmod_2 2:__@root 3:FORM:che_@cc_4 4:__@conj_2
+
+  [5] score_bg = 15.70  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:più_@advmod_2 2:__@root
+      espansa: 1:FORM:più_@advmod_2 2:__@root 3:FORM:che_@cc_4 4:__@conj_2
+
+
+# cxn_id = cxn_175
+# cxn_name = Nome1 cxn-machine-readable-formalization: | cxn_175.conllc
+# n_frasi = 2
+
+  [1] score_bg = 8.30  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:UPOS:NOUN_@nsubj_2 2:__@root 3:__@conj_2
+      espansa: 1:UPOS:NOUN_@nsubj_2 2:__@root 3:__@conj_2
+
+  [2] score_bg = 7.72  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:più_@advmod_2 2:__@root
+      espansa: 1:FORM:più_@advmod_2 2:__@root
+
+  [3] score_bg = 4.78  score_lex = 2  (size=1, lexicalized=1)
+      base:    1:FORM:è_@root
+      espansa: 1:FORM:è_@root
+
+  [4] score_bg = 3.83  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:NOUN_@nsubj_2 2:__@root
+      espansa: 1:UPOS:NOUN_@nsubj_2 2:__@root 3:__@conj_2
+
+  [5] score_bg = 2.78  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:__@root 2:__@conj_1
+      espansa: 1:UPOS:NOUN_@nsubj_2 2:__@root 3:__@conj_2
+
+
+# cxn_id = cxn_176
+# cxn_name = uscirne + agg (fisico/psicologico) cxn-machine-readable-formalization: | cxn_176.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:FORM:ne_@obl_2 2:LEMMA:uscire_@root 3:__@xcomp_2
+      espansa: 1:FORM:ne_@obl_2 2:LEMMA:uscire_@root 3:__@xcomp_2
+
+  [2] score_bg = 46.58  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:ne_@obl_2 2:LEMMA:uscire_@root
+      espansa: 1:FORM:ne_@obl_2 2:LEMMA:uscire_@root 3:__@xcomp_2
+
+  [3] score_bg = 41.58  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:uscire_@root 2:__@xcomp_1
+      espansa: 1:FORM:ne_@obl_2 2:LEMMA:uscire_@root 3:__@xcomp_2
+
+  [4] score_bg = 32.54  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:LEMMA:uscire_@root
+      espansa: 1:FORM:ne_@obl_2 2:LEMMA:uscire_@root 3:__@xcomp_2
+
+
+# cxn_id = cxn_178
+# cxn_name = Meglio X che Y cxn-machine-readable-formalization: | cxn_178.conllc
+# n_frasi = 4
+
+  [1] score_bg = 26.04  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:__@root 2:FORM:che_@cc_3 3:__@conj_1
+      espansa: 1:__@root 2:FORM:che_@cc_3 3:__@conj_1
+
+  [2] score_bg = 26.04  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:che_@cc_2 2:__@root
+      espansa: 1:__@root 2:FORM:che_@cc_3 3:__@conj_1
+
+  [3] score_bg = 25.27  score_lex = 2  (size=1, lexicalized=1)
+      base:    1:FORM:meglio_@root
+      espansa: 1:FORM:meglio_@root
+
+  [4] score_bg = 5.59  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:__@root 2:__@conj_1
+      espansa: 1:__@root 2:FORM:che_@cc_3 3:__@conj_1
+
+
+# cxn_id = cxn_179
+# cxn_name = mettere\metterci + Agg poss cxn-machine-readable-formalization: | cxn_179.conllc
+# n_frasi = 4
+
+  [1] score_bg = 37.27  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:di_@case_3 2:FORM:il_@det_3 3:UPOS:PRON_@root
+      espansa: 1:FORM:di_@case_3 2:FORM:il_@det_3 3:UPOS:PRON_@root
+
+  [2] score_bg = 37.27  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:mettere_@root 2:UPOS:PRON_@obl_1
+      espansa: 1:LEMMA:mettere_@root 2:UPOS:PRON_@obl_1
+
+  [3] score_bg = 29.27  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:il_@det_2 2:UPOS:PRON_@root
+      espansa: 1:FORM:di_@case_3 2:FORM:il_@det_3 3:UPOS:PRON_@root
+
+  [4] score_bg = 22.04  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:di_@case_2 2:UPOS:PRON_@root
+      espansa: 1:FORM:di_@case_3 2:FORM:il_@det_3 3:UPOS:PRON_@root
+
+  [5] score_bg = 0.48  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:UPOS:VERB_@root
+
+
+# cxn_id = cxn_18
+# cxn_name = Prepx + Avv/Sostx + Prepy+ Avv/Sosty cxn-machine-readable-formalization: | cxn_18.conllc
+# n_frasi = 5
+
+  [1] score_bg = 17.29  score_lex = 5  (size=5, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:ADP_@case_3 3:__@obl_1 4:UPOS:ADP_@case_5 5:UPOS:NOUN_@nmod_3
+      espansa: 1:UPOS:VERB_@root 2:UPOS:ADP_@case_3 3:__@obl_1 4:UPOS:ADP_@case_5 5:UPOS:NOUN_@nmod_3
+
+  [2] score_bg = 16.92  score_lex = 4  (size=4, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:ADP_@case_3 3:__@obl_1 4:UPOS:NOUN_@nmod_3
+      espansa: 1:UPOS:VERB_@root 2:UPOS:ADP_@case_3 3:__@obl_1 4:UPOS:ADP_@case_5 5:UPOS:NOUN_@nmod_3
+
+  [3] score_bg = 15.63  score_lex = 4  (size=4, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:__@obl_1 3:UPOS:ADP_@case_4 4:UPOS:NOUN_@nmod_2
+      espansa: 1:UPOS:VERB_@root 2:UPOS:ADP_@case_3 3:__@obl_1 4:UPOS:ADP_@case_5 5:UPOS:NOUN_@nmod_3
+
+  [4] score_bg = 15.34  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:__@obl_1 3:UPOS:NOUN_@nmod_2
+      espansa: 1:UPOS:VERB_@root 2:UPOS:ADP_@case_3 3:__@obl_1 4:UPOS:ADP_@case_5 5:UPOS:NOUN_@nmod_3
+
+  [5] score_bg = 14.20  score_lex = 4  (size=4, lexicalized=0)
+      base:    1:UPOS:ADP_@case_2 2:UPOS:NOUN_@root 3:UPOS:ADP_@case_4 4:UPOS:NOUN_@nmod_2
+      espansa: 1:UPOS:ADP_@case_2 2:UPOS:NOUN_@root 3:UPOS:ADP_@case_4 4:UPOS:NOUN_@nmod_2
+
+
+# cxn_id = cxn_180
+# cxn_name = non PRON che V cxn-machine-readable-formalization: | cxn_180.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:non_@advmod_2 2:FORM:io_@root 3:FORM:che_@nsubj_4 4:UPOS:VERB_@acl:relcl_2
+      espansa: 1:FORM:non_@advmod_2 2:FORM:io_@root 3:FORM:che_@nsubj_4 4:UPOS:VERB_@acl:relcl_2
+
+  [2] score_bg = 46.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:non_@advmod_2 2:FORM:io_@root 3:UPOS:VERB_@acl:relcl_2
+      espansa: 1:FORM:non_@advmod_2 2:FORM:io_@root 3:FORM:che_@nsubj_4 4:UPOS:VERB_@acl:relcl_2
+
+  [3] score_bg = 46.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:io_@root 2:FORM:che_@nsubj_3 3:UPOS:VERB_@acl:relcl_1
+      espansa: 1:FORM:non_@advmod_2 2:FORM:io_@root 3:FORM:che_@nsubj_4 4:UPOS:VERB_@acl:relcl_2
+
+  [4] score_bg = 46.58  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:io_@root 2:UPOS:VERB_@acl:relcl_1
+      espansa: 1:FORM:non_@advmod_2 2:FORM:io_@root 3:FORM:che_@nsubj_4 4:UPOS:VERB_@acl:relcl_2
+
+  [5] score_bg = 41.58  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:non_@advmod_2 2:FORM:io_@root
+      espansa: 1:FORM:non_@advmod_2 2:FORM:io_@root 3:FORM:che_@nsubj_4 4:UPOS:VERB_@acl:relcl_2
+
+
+# cxn_id = cxn_19
+# cxn_name = Fare + Vinf + prep. + qlcn cxn-machine-readable-formalization: | cxn_19.conllc
+# n_frasi = 2
+
+  [1] score_bg = 16.64  score_lex = 7  (size=5, lexicalized=2)
+      base:    1:UPOS:ADP_@mark_2 2:FORM:far_@root 3:UPOS:VERB_@ccomp_2 4:FORM:a_@case_5 5:UPOS:NOUN_@obl_3
+      espansa: 1:UPOS:ADP_@mark_2 2:FORM:far_@root 3:UPOS:VERB_@ccomp_2 4:FORM:a_@case_5 5:UPOS:NOUN_@obl_3
+
+  [2] score_bg = 16.64  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:far_@root 2:UPOS:VERB_@ccomp_1 3:FORM:a_@case_4 4:UPOS:NOUN_@obl_2
+      espansa: 1:UPOS:ADP_@mark_2 2:FORM:far_@root 3:UPOS:VERB_@ccomp_2 4:FORM:a_@case_5 5:UPOS:NOUN_@obl_3
+
+  [3] score_bg = 15.47  score_lex = 7  (size=6, lexicalized=1)
+      base:    1:UPOS:VERB_@root 2:UPOS:ADP_@case_3 3:UPOS:NOUN_@obl_1 4:FORM:la_@det_6 5:UPOS:ADJ_@amod_6 6:UPOS:NOUN_@obj_1
+      espansa: 1:UPOS:VERB_@root 2:UPOS:ADP_@case_3 3:UPOS:NOUN_@obl_1 4:FORM:la_@det_6 5:UPOS:ADJ_@amod_6 6:UPOS:NOUN_@obj_1
+
+  [4] score_bg = 15.47  score_lex = 6  (size=5, lexicalized=1)
+      base:    1:UPOS:VERB_@root 2:UPOS:NOUN_@obl_1 3:FORM:la_@det_5 4:UPOS:ADJ_@amod_5 5:UPOS:NOUN_@obj_1
+      espansa: 1:UPOS:VERB_@root 2:UPOS:ADP_@case_3 3:UPOS:NOUN_@obl_1 4:FORM:la_@det_6 5:UPOS:ADJ_@amod_6 6:UPOS:NOUN_@obj_1
+
+  [5] score_bg = 15.47  score_lex = 5  (size=4, lexicalized=1)
+      base:    1:UPOS:ADP_@mark_2 2:FORM:far_@root 3:UPOS:VERB_@ccomp_2 4:UPOS:NOUN_@obl_3
+      espansa: 1:UPOS:ADP_@mark_2 2:FORM:far_@root 3:UPOS:VERB_@ccomp_2 4:FORM:a_@case_5 5:UPOS:NOUN_@obl_3
+
+
+# cxn_id = cxn_2
+# cxn_name = non V (ci+essere) - N - che V (tenere) cxn-machine-readable-formalization: | cxn_2.conllc
+# n_frasi = 4
+
+  [1] score_bg = 37.27  score_lex = 11  (size=6, lexicalized=5)
+      base:    1:FORM:non_@advmod_3 2:FORM:c’_@expl_3 3:FORM:è_@root 4:UPOS:NOUN_@nsubj_3 5:FORM:che_@nsubj_6 6:FORM:tenga_@acl:relcl_4
+      espansa: 1:FORM:non_@advmod_3 2:FORM:c’_@expl_3 3:FORM:è_@root 4:UPOS:NOUN_@nsubj_3 5:FORM:che_@nsubj_6 6:FORM:tenga_@acl:relcl_4
+
+  [2] score_bg = 37.27  score_lex = 9  (size=5, lexicalized=4)
+      base:    1:FORM:non_@advmod_2 2:FORM:è_@root 3:UPOS:NOUN_@nsubj_2 4:FORM:che_@nsubj_5 5:FORM:tenga_@acl:relcl_3
+      espansa: 1:FORM:non_@advmod_3 2:FORM:c’_@expl_3 3:FORM:è_@root 4:UPOS:NOUN_@nsubj_3 5:FORM:che_@nsubj_6 6:FORM:tenga_@acl:relcl_4
+
+  [3] score_bg = 37.27  score_lex = 9  (size=5, lexicalized=4)
+      base:    1:FORM:non_@advmod_3 2:FORM:c’_@expl_3 3:FORM:è_@root 4:UPOS:NOUN_@nsubj_3 5:FORM:tenga_@acl:relcl_4
+      espansa: 1:FORM:non_@advmod_3 2:FORM:c’_@expl_3 3:FORM:è_@root 4:UPOS:NOUN_@nsubj_3 5:FORM:che_@nsubj_6 6:FORM:tenga_@acl:relcl_4
+
+  [4] score_bg = 37.27  score_lex = 9  (size=5, lexicalized=4)
+      base:    1:FORM:c’_@expl_2 2:FORM:è_@root 3:UPOS:NOUN_@nsubj_2 4:FORM:che_@nsubj_5 5:FORM:tenga_@acl:relcl_3
+      espansa: 1:UPOS:ADV_@advmod_3 2:FORM:c’_@expl_3 3:FORM:è_@root 4:UPOS:NOUN_@nsubj_3 5:FORM:che_@nsubj_6 6:FORM:tenga_@acl:relcl_4
+
+  [5] score_bg = 37.27  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:non_@advmod_3 2:FORM:c’_@expl_3 3:FORM:è_@root 4:UPOS:NOUN_@nsubj_3
+      espansa: 1:FORM:non_@advmod_3 2:FORM:c’_@expl_3 3:FORM:è_@root 4:UPOS:NOUN_@nsubj_3 5:FORM:che_@nsubj_6 6:FORM:tenga_@acl:relcl_4
+
+
+# cxn_id = cxn_20
+# cxn_name = prendersi + N+Prep +N/V/Pron cxn-machine-readable-formalization: | cxn_20.conllc
+# n_frasi = 4
+
+  [1] score_bg = 37.27  score_lex = 7  (size=5, lexicalized=2)
+      base:    1:FORM:prender_@root 2:FORM:si_@expl_1 3:UPOS:NOUN_@obj_1 4:UPOS:ADP_@case_5 5:__@obl_1
+      espansa: 1:FORM:prender_@root 2:FORM:si_@expl_1 3:UPOS:NOUN_@obj_1 4:UPOS:ADP_@case_5 5:__@obl_1
+
+  [2] score_bg = 37.27  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:prender_@root 2:FORM:si_@expl_1 3:UPOS:ADP_@case_4 4:__@obl_1
+      espansa: 1:FORM:prender_@root 2:FORM:si_@expl_1 3:UPOS:NOUN_@obj_1 4:UPOS:ADP_@case_5 5:__@obl_1
+
+  [3] score_bg = 37.27  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:prender_@root 2:FORM:si_@expl_1 3:UPOS:NOUN_@obj_1 4:__@obl_1
+      espansa: 1:FORM:prender_@root 2:FORM:si_@expl_1 3:UPOS:NOUN_@obj_1 4:UPOS:ADP_@case_5 5:__@obl_1
+
+  [4] score_bg = 37.27  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:prender_@root 2:FORM:si_@expl_1 3:__@obl_1
+      espansa: 1:FORM:prender_@root 2:FORM:si_@expl_1 3:UPOS:NOUN_@obj_1 4:UPOS:ADP_@case_5 5:__@obl_1
+
+  [5] score_bg = 37.27  score_lex = 5  (size=4, lexicalized=1)
+      base:    1:FORM:prender_@root 2:UPOS:NOUN_@obj_1 3:UPOS:ADP_@case_4 4:__@obl_1
+      espansa: 1:FORM:prender_@root 2:FORM:si_@expl_1 3:UPOS:NOUN_@obj_1 4:UPOS:ADP_@case_5 5:__@obl_1
+
+
+# cxn_id = cxn_21
+# cxn_name = V1 + prep + V2 andare a + V cxn-machine-readable-formalization: | cxn_21.conllc
+# n_frasi = 4
+
+  [1] score_bg = 26.93  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:LEMMA:andare_@root 2:FORM:a_@mark_3 3:UPOS:VERB_@xcomp_1
+      espansa: 1:LEMMA:andare_@root 2:FORM:a_@mark_3 3:UPOS:VERB_@xcomp_1
+
+  [2] score_bg = 26.93  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:andare_@root 2:UPOS:VERB_@xcomp_1
+      espansa: 1:LEMMA:andare_@root 2:FORM:a_@mark_3 3:UPOS:VERB_@xcomp_1
+
+  [3] score_bg = 13.36  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:a_@mark_2 2:UPOS:VERB_@root
+      espansa: 1:LEMMA:andare_@root 2:FORM:a_@mark_3 3:UPOS:VERB_@xcomp_1
+
+  [4] score_bg = 1.90  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:DET_@det_2 2:UPOS:NOUN_@root
+      espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@root
+
+  [5] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_22
+# cxn_name = non avere-TNS uno straccio di Nsg cxn-machine-readable-formalization: | cxn_22.conllc
+# n_frasi = 4
+
+  [1] score_bg = 37.27  score_lex = 10  (size=6, lexicalized=4)
+      base:    1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:uno_@det_4 4:FORM:straccio_@obj_2 5:FORM:di_@case_6 6:UPOS:NOUN_@nmod_4
+      espansa: 1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:uno_@det_4 4:FORM:straccio_@obj_2 5:FORM:di_@case_6 6:UPOS:NOUN_@nmod_4
+
+  [2] score_bg = 37.27  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:LEMMA:avere_@root 2:FORM:uno_@det_3 3:FORM:straccio_@obj_1 4:FORM:di_@case_5 5:UPOS:NOUN_@nmod_3
+      espansa: 1:UPOS:ADV_@advmod_2 2:LEMMA:avere_@root 3:FORM:uno_@det_4 4:FORM:straccio_@obj_2 5:FORM:di_@case_6 6:UPOS:NOUN_@nmod_4
+
+  [3] score_bg = 37.27  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:straccio_@obj_2 4:FORM:di_@case_5 5:UPOS:NOUN_@nmod_3
+      espansa: 1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:uno_@det_4 4:FORM:straccio_@obj_2 5:FORM:di_@case_6 6:UPOS:NOUN_@nmod_4
+
+  [4] score_bg = 37.27  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:uno_@det_4 4:FORM:straccio_@obj_2 5:UPOS:NOUN_@nmod_4
+      espansa: 1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:uno_@det_4 4:FORM:straccio_@obj_2 5:FORM:di_@case_6 6:UPOS:NOUN_@nmod_4
+
+  [5] score_bg = 37.27  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:uno_@det_2 2:FORM:straccio_@root 3:FORM:di_@case_4 4:UPOS:NOUN_@nmod_2
+      espansa: 1:UPOS:ADV_@advmod_2 2:LEMMA:avere_@root 3:FORM:uno_@det_4 4:FORM:straccio_@obj_2 5:FORM:di_@case_6 6:UPOS:NOUN_@nmod_4
+
+
+# cxn_id = cxn_23
+# cxn_name = Mettere + in chiaro + X Alternativa: Mettere + X + in chiaro cxn-machine-readable-formalization: | cxn_23.conllc
+# n_frasi = 3
+
+  [1] score_bg = 27.96  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:LEMMA:mettere_@root 2:FORM:in_@case_3 3:FORM:chiaro_@obl_1 4:FORM:le_@det_5 5:UPOS:NOUN_@obj_1
+      espansa: 1:LEMMA:mettere_@root 2:FORM:in_@case_3 3:FORM:chiaro_@obl_1 4:FORM:le_@det_5 5:UPOS:NOUN_@obj_1
+
+  [2] score_bg = 27.96  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:LEMMA:mettere_@root 2:FORM:chiaro_@obl_1 3:FORM:le_@det_4 4:UPOS:NOUN_@obj_1
+      espansa: 1:LEMMA:mettere_@root 2:FORM:in_@case_3 3:FORM:chiaro_@obl_1 4:FORM:le_@det_5 5:UPOS:NOUN_@obj_1
+
+  [3] score_bg = 27.96  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:LEMMA:mettere_@root 2:FORM:in_@case_3 3:FORM:chiaro_@obl_1 4:UPOS:NOUN_@obj_1
+      espansa: 1:LEMMA:mettere_@root 2:FORM:in_@case_3 3:FORM:chiaro_@obl_1 4:FORM:le_@det_5 5:UPOS:NOUN_@obj_1
+
+  [4] score_bg = 27.96  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:LEMMA:mettere_@root 2:FORM:in_@case_3 3:FORM:chiaro_@obl_1
+      espansa: 1:LEMMA:mettere_@root 2:FORM:in_@case_3 3:FORM:chiaro_@obl_1 4:FORM:le_@det_5 5:UPOS:NOUN_@obj_1
+
+  [5] score_bg = 27.96  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:in_@case_2 2:FORM:chiaro_@root
+      espansa: 1:LEMMA:mettere_@root 2:FORM:in_@case_3 3:FORM:chiaro_@obl_1 4:FORM:le_@det_5 5:UPOS:NOUN_@obj_1
+
+
+# cxn_id = cxn_24
+# cxn_name = Adj1+Adj2 cxn-machine-readable-formalization: | cxn_24.conllc
+# n_frasi = 3
+
+  [1] score_bg = 1.70  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:ADV_@root
+      espansa: 1:UPOS:ADV_@root
+
+
+# cxn_id = cxn_25
+# cxn_name = [Che/Cosa/Che cosa [(Obj1) (Obj2) [XV [a fare] ] cxn-machine-readable-formalization: | cxn_25.conllc
+# n_frasi = 5
+
+  [1] score_bg = 33.65  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:UPOS:VERB_@root 2:FORM:a_@mark_3 3:FORM:fare_@xcomp_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:a_@mark_3 3:FORM:fare_@xcomp_1
+
+  [2] score_bg = 31.58  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:a_@mark_2 2:FORM:fare_@root
+      espansa: 1:UPOS:VERB_@root 2:FORM:a_@mark_3 3:FORM:fare_@xcomp_1
+
+  [3] score_bg = 30.73  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:UPOS:VERB_@root 2:FORM:fare_@xcomp_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:a_@mark_3 3:FORM:fare_@xcomp_1
+
+  [4] score_bg = 0.60  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:UPOS:VERB_@root 2:FORM:a_@mark_3 3:FORM:fare_@xcomp_1
+
+
+# cxn_id = cxn_28
+# cxn_name = Mandare all'aria - (Det) - (Agg) - N cxn-machine-readable-formalization: | cxn_28.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 9  (size=6, lexicalized=3)
+      base:    1:LEMMA:mandare_@root 2:FORM:a_@case_4 3:FORM:l'_@det_4 4:FORM:aria_@obl_1 5:UPOS:DET_@det_6 6:UPOS:NOUN_@obj_1
+      espansa: 1:LEMMA:mandare_@root 2:FORM:a_@case_4 3:FORM:l'_@det_4 4:FORM:aria_@obl_1 5:UPOS:DET_@det_6 6:UPOS:NOUN_@obj_1
+
+  [2] score_bg = 46.58  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:LEMMA:mandare_@root 2:FORM:a_@case_4 3:FORM:l'_@det_4 4:FORM:aria_@obl_1 5:UPOS:NOUN_@obj_1
+      espansa: 1:LEMMA:mandare_@root 2:FORM:a_@case_4 3:FORM:l'_@det_4 4:FORM:aria_@obl_1 5:UPOS:DET_@det_6 6:UPOS:NOUN_@obj_1
+
+  [3] score_bg = 46.58  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:LEMMA:mandare_@root 2:FORM:a_@case_4 3:FORM:l'_@det_4 4:FORM:aria_@obl_1
+      espansa: 1:LEMMA:mandare_@root 2:FORM:a_@case_4 3:FORM:l'_@det_4 4:FORM:aria_@obl_1 5:UPOS:DET_@det_6 6:UPOS:NOUN_@obj_1
+
+  [4] score_bg = 46.58  score_lex = 7  (size=5, lexicalized=2)
+      base:    1:LEMMA:mandare_@root 2:FORM:a_@case_3 3:FORM:aria_@obl_1 4:UPOS:DET_@det_5 5:UPOS:NOUN_@obj_1
+      espansa: 1:LEMMA:mandare_@root 2:FORM:a_@case_4 3:FORM:l'_@det_4 4:FORM:aria_@obl_1 5:UPOS:DET_@det_6 6:UPOS:NOUN_@obj_1
+
+  [5] score_bg = 46.58  score_lex = 7  (size=5, lexicalized=2)
+      base:    1:LEMMA:mandare_@root 2:FORM:l'_@det_3 3:FORM:aria_@obl_1 4:UPOS:DET_@det_5 5:UPOS:NOUN_@obj_1
+      espansa: 1:LEMMA:mandare_@root 2:FORM:a_@case_4 3:FORM:l'_@det_4 4:FORM:aria_@obl_1 5:UPOS:DET_@det_6 6:UPOS:NOUN_@obj_1
+
+
+# cxn_id = cxn_29
+# cxn_name = è l'ennesima/o + N che + V V(esserefless) + Det + N + N + Pron. Rel + V(fless) cxn-machine-readable-formalization: | cxn_29.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 8  (size=6, lexicalized=2)
+      base:    1:FORM:è_@cop_4 2:FORM:l'_@det_4 3:LEMMA:ennesimo_@amod_4 4:UPOS:NOUN_@root 5:__@obj_6 6:UPOS:VERB_@acl:relcl_4
+      espansa: 1:FORM:è_@cop_4 2:FORM:l'_@det_4 3:LEMMA:ennesimo_@amod_4 4:UPOS:NOUN_@root 5:__@obj_6 6:UPOS:VERB_@acl:relcl_4
+
+  [2] score_bg = 46.58  score_lex = 7  (size=5, lexicalized=2)
+      base:    1:FORM:è_@cop_3 2:FORM:l'_@det_3 3:UPOS:NOUN_@root 4:__@obj_5 5:UPOS:VERB_@acl:relcl_3
+      espansa: 1:FORM:è_@cop_4 2:FORM:l'_@det_4 3:LEMMA:ennesimo_@amod_4 4:UPOS:NOUN_@root 5:__@obj_6 6:UPOS:VERB_@acl:relcl_4
+
+  [3] score_bg = 46.58  score_lex = 7  (size=5, lexicalized=2)
+      base:    1:FORM:è_@cop_4 2:FORM:l'_@det_4 3:LEMMA:ennesimo_@amod_4 4:UPOS:NOUN_@root 5:UPOS:VERB_@acl:relcl_4
+      espansa: 1:FORM:è_@cop_4 2:FORM:l'_@det_4 3:LEMMA:ennesimo_@amod_4 4:UPOS:NOUN_@root 5:__@obj_6 6:UPOS:VERB_@acl:relcl_4
+
+  [4] score_bg = 46.58  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:è_@cop_4 2:FORM:l'_@det_4 3:LEMMA:ennesimo_@amod_4 4:UPOS:NOUN_@root
+      espansa: 1:FORM:è_@cop_4 2:FORM:l'_@det_4 3:LEMMA:ennesimo_@amod_4 4:UPOS:NOUN_@root 5:__@obj_6 6:UPOS:VERB_@acl:relcl_4
+
+  [5] score_bg = 46.58  score_lex = 6  (size=5, lexicalized=1)
+      base:    1:FORM:l'_@det_3 2:LEMMA:ennesimo_@amod_3 3:UPOS:NOUN_@root 4:__@obj_5 5:UPOS:VERB_@acl:relcl_3
+      espansa: 1:FORM:è_@cop_4 2:FORM:l'_@det_4 3:LEMMA:ennesimo_@amod_4 4:UPOS:NOUN_@root 5:__@obj_6 6:UPOS:VERB_@acl:relcl_4
+
+
+# cxn_id = cxn_3
+# cxn_name = V (dire) + N + N cxn-machine-readable-formalization: | cxn_3.conllc
+# n_frasi = 3
+
+  [1] score_bg = 27.96  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:LEMMA:dire_@root 2:FORM:peste_@obj_1 3:FORM:e_@cc_4 4:FORM:corna_@conj_2
+      espansa: 1:LEMMA:dire_@root 2:FORM:peste_@obj_1 3:FORM:e_@cc_4 4:FORM:corna_@conj_2
+
+  [2] score_bg = 27.96  score_lex = 6  (size=3, lexicalized=3)
+      base:    1:FORM:peste_@root 2:FORM:e_@cc_3 3:FORM:corna_@conj_1
+      espansa: 1:LEMMA:dire_@root 2:FORM:peste_@obj_1 3:FORM:e_@cc_4 4:FORM:corna_@conj_2
+
+  [3] score_bg = 27.96  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:LEMMA:dire_@root 2:FORM:peste_@obj_1 3:FORM:corna_@conj_2
+      espansa: 1:LEMMA:dire_@root 2:FORM:peste_@obj_1 3:FORM:e_@cc_4 4:FORM:corna_@conj_2
+
+  [4] score_bg = 27.96  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:peste_@root 2:FORM:corna_@conj_1
+      espansa: 1:LEMMA:dire_@root 2:FORM:peste_@obj_1 3:FORM:e_@cc_4 4:FORM:corna_@conj_2
+
+  [5] score_bg = 27.96  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:e_@cc_2 2:FORM:corna_@root
+      espansa: 1:LEMMA:dire_@root 2:FORM:peste_@obj_1 3:FORM:e_@cc_4 4:FORM:corna_@conj_2
+
+
+# cxn_id = cxn_30
+# cxn_name = A scanso di X Prep a + N scanso + Prep di + X X --> N;  Det+ N; Det+Adj+N;  Det1 + Det2 + Adj1 + Adj2 + N; ... cxn-machine-readable-formalization: | cxn_30.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:FORM:a_@case_2 2:FORM:scanso_@obl_5 3:FORM:di_@case_4 4:__@nmod_2 5:UPOS:VERB_@root
+      espansa: 1:FORM:a_@case_2 2:FORM:scanso_@obl_5 3:FORM:di_@case_4 4:__@nmod_2 5:UPOS:VERB_@root
+
+  [2] score_bg = 46.58  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:a_@case_2 2:FORM:scanso_@root 3:FORM:di_@case_4 4:__@nmod_2
+      espansa: 1:FORM:a_@case_2 2:FORM:scanso_@obl_5 3:FORM:di_@case_4 4:__@nmod_2 5:UPOS:VERB_@root
+
+  [3] score_bg = 46.58  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:a_@case_2 2:FORM:scanso_@obl_4 3:__@nmod_2 4:UPOS:VERB_@root
+      espansa: 1:FORM:a_@case_2 2:FORM:scanso_@obl_5 3:FORM:di_@case_4 4:__@nmod_2 5:UPOS:VERB_@root
+
+  [4] score_bg = 46.58  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:scanso_@obl_4 2:FORM:di_@case_3 3:__@nmod_1 4:UPOS:VERB_@root
+      espansa: 1:FORM:a_@case_2 2:FORM:scanso_@obl_5 3:FORM:di_@case_4 4:__@nmod_2 5:UPOS:VERB_@root
+
+  [5] score_bg = 46.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:scanso_@root 2:FORM:di_@case_3 3:__@nmod_1
+      espansa: 1:FORM:a_@case_2 2:FORM:scanso_@obl_5 3:FORM:di_@case_4 4:__@nmod_2 5:UPOS:VERB_@root
+
+
+# cxn_id = cxn_31
+# cxn_name = saltare+ N cxn-machine-readable-formalization: | cxn_31.conllc
+# n_frasi = 4
+
+  [1] score_bg = 37.27  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:FORM:saltare_@root 2:LEMMA:il_@det_3 3:UPOS:NOUN_@obj_1
+      espansa: 1:FORM:saltare_@root 2:LEMMA:il_@det_3 3:UPOS:NOUN_@obj_1
+
+  [2] score_bg = 37.27  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:saltare_@root 2:UPOS:NOUN_@obj_1
+      espansa: 1:FORM:saltare_@root 2:LEMMA:il_@det_3 3:UPOS:NOUN_@obj_1
+
+  [3] score_bg = 37.27  score_lex = 2  (size=1, lexicalized=1)
+      base:    1:FORM:saltare_@root
+      espansa: 1:FORM:saltare_@root 2:LEMMA:il_@det_3 3:UPOS:NOUN_@obj_1
+
+  [4] score_bg = 3.33  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:il_@det_2 2:UPOS:NOUN_@root
+      espansa: 1:FORM:saltare_@root 2:LEMMA:il_@det_3 3:UPOS:NOUN_@obj_1
+
+
+# cxn_id = cxn_32
+# cxn_name = Adv/Pronint/Adjint+ V+ già  Adv/Pronint/Adjint+ V1+ che+V2+ già cxn-machine-readable-formalization: | cxn_32.conllc
+# n_frasi = 4
+
+  [1] score_bg = 29.27  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:UPOS:VERB_@root 2:FORM:già_@advmod_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:già_@advmod_1
+
+  [2] score_bg = 0.48  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:UPOS:VERB_@root
+
+
+# cxn_id = cxn_33
+# cxn_name = a occhio e croce cxn-machine-readable-formalization: | cxn_33.conllc
+# n_frasi = 3
+
+  [1] score_bg = 27.96  score_lex = 9  (size=5, lexicalized=4)
+      base:    1:FORM:a_@case_2 2:FORM:occhio_@obl_5 3:FORM:e_@cc_4 4:FORM:croce_@conj_2 5:UPOS:VERB_@root
+      espansa: 1:FORM:a_@case_2 2:FORM:occhio_@obl_5 3:FORM:e_@cc_4 4:FORM:croce_@conj_2 5:UPOS:VERB_@root
+
+  [2] score_bg = 27.96  score_lex = 8  (size=4, lexicalized=4)
+      base:    1:FORM:a_@case_2 2:FORM:occhio_@root 3:FORM:e_@cc_4 4:FORM:croce_@conj_2
+      espansa: 1:FORM:a_@case_2 2:FORM:occhio_@obl_5 3:FORM:e_@cc_4 4:FORM:croce_@conj_2 5:UPOS:VERB_@root
+
+  [3] score_bg = 27.96  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:occhio_@obl_4 2:FORM:e_@cc_3 3:FORM:croce_@conj_1 4:UPOS:VERB_@root
+      espansa: 1:FORM:a_@case_2 2:FORM:occhio_@obl_5 3:FORM:e_@cc_4 4:FORM:croce_@conj_2 5:UPOS:VERB_@root
+
+  [4] score_bg = 27.96  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:a_@case_2 2:FORM:occhio_@obl_4 3:FORM:croce_@conj_2 4:UPOS:VERB_@root
+      espansa: 1:FORM:a_@case_2 2:FORM:occhio_@obl_5 3:FORM:e_@cc_4 4:FORM:croce_@conj_2 5:UPOS:VERB_@root
+
+  [5] score_bg = 27.96  score_lex = 6  (size=3, lexicalized=3)
+      base:    1:FORM:occhio_@root 2:FORM:e_@cc_3 3:FORM:croce_@conj_1
+      espansa: 1:FORM:a_@case_2 2:FORM:occhio_@obl_5 3:FORM:e_@cc_4 4:FORM:croce_@conj_2 5:UPOS:VERB_@root
+
+
+# cxn_id = cxn_34
+# cxn_name = neanche per + N(sogno/idea/scherzo) cxn-machine-readable-formalization: | cxn_34.conllc
+# n_frasi = 5
+
+  [1] score_bg = 41.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:neanche_@advmod_3 2:FORM:per_@case_3 3:UPOS:NOUN_@root
+      espansa: 1:FORM:neanche_@advmod_3 2:FORM:per_@case_3 3:UPOS:NOUN_@root
+
+  [2] score_bg = 41.58  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:neanche_@advmod_2 2:UPOS:NOUN_@root
+      espansa: 1:FORM:neanche_@advmod_3 2:FORM:per_@case_3 3:UPOS:NOUN_@root
+
+  [3] score_bg = 17.16  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:per_@case_2 2:UPOS:NOUN_@root
+      espansa: 1:FORM:per_@case_2 2:UPOS:NOUN_@root
+
+  [4] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_35
+# cxn_name = mettere su + N cxn-machine-readable-formalization: | cxn_35.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:UPOS:ADP_@case_2 2:FORM:mettere_@root 3:FORM:su_@advmod_2 4:UPOS:NOUN_@obj_2
+      espansa: 1:UPOS:ADP_@case_2 2:FORM:mettere_@root 3:FORM:su_@advmod_2 4:UPOS:NOUN_@obj_2
+
+  [2] score_bg = 46.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:UPOS:ADP_@case_2 2:FORM:mettere_@root 3:FORM:su_@advmod_2
+      espansa: 1:UPOS:ADP_@case_2 2:FORM:mettere_@root 3:FORM:su_@advmod_2 4:UPOS:NOUN_@obj_2
+
+  [3] score_bg = 46.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:mettere_@root 2:FORM:su_@advmod_1 3:UPOS:NOUN_@obj_1
+      espansa: 1:UPOS:ADP_@case_2 2:FORM:mettere_@root 3:FORM:su_@advmod_2 4:UPOS:NOUN_@obj_2
+
+  [4] score_bg = 46.58  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:mettere_@root 2:FORM:su_@advmod_1
+      espansa: 1:UPOS:ADP_@case_2 2:FORM:mettere_@root 3:FORM:su_@advmod_2 4:UPOS:NOUN_@obj_2
+
+  [5] score_bg = 46.58  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:UPOS:ADP_@case_2 2:FORM:mettere_@root 3:UPOS:NOUN_@obj_2
+      espansa: 1:UPOS:ADP_@case_2 2:FORM:mettere_@root 3:FORM:su_@advmod_2 4:UPOS:NOUN_@obj_2
+
+
+# cxn_id = cxn_36
+# cxn_name = V + Avv (-mente) anche ordine inverso:Avv(-mente) + V cxn-machine-readable-formalization: | cxn_36.conllc
+# n_frasi = 5
+
+  [1] score_bg = 4.99  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:ADV_@advmod_1
+      espansa: 1:UPOS:VERB_@root 2:UPOS:ADV_@advmod_1
+
+  [2] score_bg = 2.38  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:DET_@det_2 2:UPOS:NOUN_@root
+      espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@root
+
+  [3] score_bg = 0.60  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:UPOS:VERB_@root 2:UPOS:ADV_@advmod_1
+
+
+# cxn_id = cxn_37
+# cxn_name = Art. indet.+N1+ Prep. "di" semplice o articolata + N2 cxn-machine-readable-formalization: | cxn_37.conllc
+# n_frasi = 5
+
+  [1] score_bg = 20.73  score_lex = 5  (size=4, lexicalized=1)
+      base:    1:LEMMA:uno_@det_2 2:UPOS:NOUN_@root 3:FORM:di_@case_4 4:UPOS:NOUN_@nmod_2
+      espansa: 1:LEMMA:uno_@det_2 2:UPOS:NOUN_@root 3:FORM:di_@case_4 4:UPOS:NOUN_@nmod_2
+
+  [2] score_bg = 18.36  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:LEMMA:uno_@det_2 2:UPOS:NOUN_@root 3:UPOS:NOUN_@nmod_2
+      espansa: 1:LEMMA:uno_@det_2 2:UPOS:NOUN_@root 3:UPOS:ADP_@case_4 4:UPOS:NOUN_@nmod_2
+
+  [3] score_bg = 10.78  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:uno_@det_2 2:UPOS:NOUN_@root
+      espansa: 1:LEMMA:uno_@det_2 2:UPOS:NOUN_@root 3:FORM:di_@case_4 4:UPOS:NOUN_@nmod_2
+
+  [4] score_bg = 10.38  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:UPOS:NOUN_@root 2:FORM:di_@case_3 3:UPOS:NOUN_@nmod_1
+      espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@root 3:FORM:di_@case_4 4:UPOS:NOUN_@nmod_2
+
+  [5] score_bg = 9.12  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:di_@case_2 2:UPOS:NOUN_@root
+      espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@root 3:FORM:di_@case_4 4:UPOS:NOUN_@nmod_2
+
+
+# cxn_id = cxn_38
+# cxn_name = V + Detind + colpo di + N cxn-machine-readable-formalization: | cxn_38.conllc
+# n_frasi = 4
+
+  [1] score_bg = 37.27  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:UPOS:VERB_@root 2:FORM:un_@det_3 3:FORM:colpo_@obj_1 4:FORM:di_@case_5 5:UPOS:NOUN_@nmod_3
+      espansa: 1:UPOS:VERB_@root 2:FORM:un_@det_3 3:FORM:colpo_@obj_1 4:FORM:di_@case_5 5:UPOS:NOUN_@nmod_3
+
+  [2] score_bg = 37.27  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:un_@det_2 2:FORM:colpo_@root 3:FORM:di_@case_4 4:UPOS:NOUN_@nmod_2
+      espansa: 1:UPOS:VERB_@root 2:FORM:un_@det_3 3:FORM:colpo_@obj_1 4:FORM:di_@case_5 5:UPOS:NOUN_@nmod_3
+
+  [3] score_bg = 37.27  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:UPOS:VERB_@root 2:FORM:un_@det_3 3:FORM:colpo_@obj_1 4:UPOS:NOUN_@nmod_3
+      espansa: 1:UPOS:VERB_@root 2:FORM:un_@det_3 3:FORM:colpo_@obj_1 4:FORM:di_@case_5 5:UPOS:NOUN_@nmod_3
+
+  [4] score_bg = 37.27  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:UPOS:VERB_@root 2:FORM:colpo_@obj_1 3:FORM:di_@case_4 4:UPOS:NOUN_@nmod_2
+      espansa: 1:UPOS:VERB_@root 2:FORM:un_@det_3 3:FORM:colpo_@obj_1 4:FORM:di_@case_5 5:UPOS:NOUN_@nmod_3
+
+  [5] score_bg = 37.27  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:colpo_@root 2:FORM:di_@case_3 3:UPOS:NOUN_@nmod_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:un_@det_3 3:FORM:colpo_@obj_1 4:FORM:di_@case_5 5:UPOS:NOUN_@nmod_3
+
+
+# cxn_id = cxn_39
+# cxn_name = N/PronPers + Congcoord + compagnia bella cxn-machine-readable-formalization: | cxn_39.conllc
+# n_frasi = 4
+
+  [1] score_bg = 37.27  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:__@root 2:FORM:e_@cc_3 3:FORM:compagnia_@conj_1 4:FORM:bella_@amod_3
+      espansa: 1:__@root 2:FORM:e_@cc_3 3:FORM:compagnia_@conj_1 4:FORM:bella_@amod_3
+
+  [2] score_bg = 37.27  score_lex = 6  (size=3, lexicalized=3)
+      base:    1:FORM:e_@cc_2 2:FORM:compagnia_@root 3:FORM:bella_@amod_2
+      espansa: 1:__@root 2:FORM:e_@cc_3 3:FORM:compagnia_@conj_1 4:FORM:bella_@amod_3
+
+  [3] score_bg = 37.27  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:__@root 2:FORM:e_@cc_3 3:FORM:compagnia_@conj_1
+      espansa: 1:__@root 2:FORM:e_@cc_3 3:FORM:compagnia_@conj_1 4:FORM:bella_@amod_3
+
+  [4] score_bg = 37.27  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:__@root 2:FORM:compagnia_@conj_1 3:FORM:bella_@amod_2
+      espansa: 1:__@root 2:FORM:e_@cc_3 3:FORM:compagnia_@conj_1 4:FORM:bella_@amod_3
+
+  [5] score_bg = 37.27  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:compagnia_@root 2:FORM:bella_@amod_1
+      espansa: 1:__@root 2:FORM:e_@cc_3 3:FORM:compagnia_@conj_1 4:FORM:bella_@amod_3
+
+
+# cxn_id = cxn_4
+# cxn_name = Discontinuous reduplication with antonymic pairs cxn-machine-readable-formalization: | cxn_4.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:__@root 2:__@conj_1 3:FORM:di_@case_4 4:FORM:là_@advmod_2
+      espansa: 1:__@root 2:__@conj_1 3:FORM:di_@case_4 4:FORM:là_@advmod_2
+
+  [2] score_bg = 46.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:__@root 2:FORM:di_@case_3 3:FORM:qua_@advmod_1
+      espansa: 1:__@root 2:FORM:di_@case_3 3:FORM:qua_@advmod_1
+
+  [3] score_bg = 46.58  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:di_@case_2 2:FORM:qua_@root
+      espansa: 1:__@root 2:FORM:di_@case_3 3:FORM:qua_@advmod_1
+
+  [4] score_bg = 46.58  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:__@root 2:__@conj_1 3:FORM:là_@advmod_2
+      espansa: 1:__@root 2:__@conj_1 3:FORM:di_@case_4 4:FORM:là_@advmod_2
+
+  [5] score_bg = 41.58  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:__@root 2:FORM:qua_@advmod_1
+      espansa: 1:__@root 2:FORM:di_@case_3 3:FORM:qua_@advmod_1
+
+
+# cxn_id = cxn_40
+# cxn_name = andare a (V+prep.) + N. (zonzo,genio,rotoli, gonfie vele) cxn-machine-readable-formalization: | cxn_40.conllc
+# n_frasi = 4
+
+  [1] score_bg = 23.43  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:LEMMA:andare_@root 2:FORM:a_@case_3 3:UPOS:NOUN_@obl_1
+      espansa: 1:LEMMA:andare_@root 2:FORM:a_@case_3 3:UPOS:NOUN_@obl_1
+
+  [2] score_bg = 19.70  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:andare_@root 2:UPOS:NOUN_@obl_1
+      espansa: 1:LEMMA:andare_@root 2:UPOS:ADP_@case_3 3:UPOS:NOUN_@obl_1
+
+  [3] score_bg = 7.95  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:a_@case_2 2:UPOS:NOUN_@root
+      espansa: 1:UPOS:VERB_@root 2:FORM:a_@case_3 3:UPOS:NOUN_@obl_1
+
+  [4] score_bg = 3.33  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:il_@det_2 2:UPOS:NOUN_@root
+      espansa: 1:LEMMA:il_@det_2 2:UPOS:NOUN_@root
+
+  [5] score_bg = 0.48  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:UPOS:VERB_@root
+
+
+# cxn_id = cxn_41
+# cxn_name = Frase reggente + tanto vale + fraseEspl (che+ind/cong)/Impl (inf) cxn-machine-readable-formalization: | cxn_41.conllc
+# n_frasi = 4
+
+  [1] score_bg = 37.27  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:tanto_@advmod_2 2:FORM:vale_@root 3:UPOS:VERB_@ccomp_2
+      espansa: 1:FORM:tanto_@advmod_2 2:FORM:vale_@root 3:UPOS:VERB_@ccomp_2
+
+  [2] score_bg = 37.27  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:tanto_@advmod_2 2:FORM:vale_@root
+      espansa: 1:FORM:tanto_@advmod_2 2:FORM:vale_@root 3:UPOS:VERB_@ccomp_2
+
+  [3] score_bg = 37.27  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:vale_@root 2:UPOS:VERB_@ccomp_1
+      espansa: 1:__@advmod_2 2:FORM:vale_@root 3:UPOS:VERB_@ccomp_2
+
+  [4] score_bg = 0.48  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:__@advmod_2 2:UPOS:VERB_@root
+
+
+# cxn_id = cxn_42
+# cxn_name = X(v) + prep. + X(n) cxn-machine-readable-formalization: | cxn_42.conllc
+# n_frasi = 5
+
+  [1] score_bg = 28.65  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:FORM:essere_@root 2:UPOS:ADP_@case_3 3:UPOS:NOUN_@obl_1
+      espansa: 1:FORM:essere_@root 2:UPOS:ADP_@case_3 3:UPOS:NOUN_@obl_1
+
+  [2] score_bg = 28.65  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:essere_@root 2:UPOS:NOUN_@obl_1
+      espansa: 1:FORM:essere_@root 2:UPOS:ADP_@case_3 3:UPOS:NOUN_@obl_1
+
+  [3] score_bg = 23.07  score_lex = 2  (size=1, lexicalized=1)
+      base:    1:FORM:essere_@root
+      espansa: 1:FORM:essere_@root 2:UPOS:ADP_@case_3 3:UPOS:NOUN_@obl_1
+
+  [4] score_bg = 3.59  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:ADP_@case_2 2:UPOS:NOUN_@root
+      espansa: 1:FORM:essere_@root 2:UPOS:ADP_@case_3 3:UPOS:NOUN_@obl_1
+
+
+# cxn_id = cxn_43
+# cxn_name = X(v) + compl. modo (come) + Y(n) cxn-machine-readable-formalization: | cxn_43.conllc
+# n_frasi = 3
+
+  [1] score_bg = 27.96  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:cantare_@root 2:FORM:come_@case_4 3:LEMMA:uno_@det_4 4:UPOS:NOUN_@obl_1
+      espansa: 1:FORM:cantare_@root 2:FORM:come_@case_4 3:LEMMA:uno_@det_4 4:UPOS:NOUN_@obl_1
+
+  [2] score_bg = 27.96  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:cantare_@root 2:FORM:come_@case_3 3:UPOS:NOUN_@obl_1
+      espansa: 1:FORM:cantare_@root 2:FORM:come_@case_4 3:LEMMA:uno_@det_4 4:UPOS:NOUN_@obl_1
+
+  [3] score_bg = 27.96  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:FORM:cantare_@root 2:LEMMA:uno_@det_3 3:UPOS:NOUN_@obl_1
+      espansa: 1:FORM:cantare_@root 2:FORM:come_@case_4 3:LEMMA:uno_@det_4 4:UPOS:NOUN_@obl_1
+
+  [4] score_bg = 27.96  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:cantare_@root 2:UPOS:NOUN_@obl_1
+      espansa: 1:FORM:cantare_@root 2:FORM:come_@case_4 3:LEMMA:uno_@det_4 4:UPOS:NOUN_@obl_1
+
+  [5] score_bg = 27.96  score_lex = 2  (size=1, lexicalized=1)
+      base:    1:FORM:cantare_@root
+      espansa: 1:FORM:cantare_@root 2:FORM:come_@case_4 3:LEMMA:uno_@det_4 4:UPOS:NOUN_@obl_1
+
+
+# cxn_id = cxn_44
+# cxn_name = X (v)  + compl.ogg. cxn-machine-readable-formalization: | cxn_44.conllc
+# n_frasi = 2
+
+  [1] score_bg = 18.64  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:hai_@aux_2 2:FORM:scoperto_@root 3:FORM:l'_@det_4 4:__@obj_2
+      espansa: 1:FORM:hai_@aux_2 2:FORM:scoperto_@root 3:FORM:l'_@det_4 4:__@obj_2
+
+  [2] score_bg = 18.64  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:hai_@aux_2 2:FORM:scoperto_@root 3:__@obj_2
+      espansa: 1:FORM:hai_@aux_2 2:FORM:scoperto_@root 3:FORM:l'_@det_4 4:__@obj_2
+
+  [3] score_bg = 18.64  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:scoperto_@root 2:FORM:l'_@det_3 3:__@obj_1
+      espansa: 1:FORM:hai_@aux_2 2:FORM:scoperto_@root 3:FORM:l'_@det_4 4:__@obj_2
+
+  [4] score_bg = 18.64  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:hai_@aux_2 2:FORM:scoperto_@root
+      espansa: 1:FORM:hai_@aux_2 2:FORM:scoperto_@root 3:FORM:l'_@det_4 4:__@obj_2
+
+  [5] score_bg = 18.64  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:scoperto_@root 2:__@obj_1
+      espansa: 1:FORM:hai_@aux_2 2:FORM:scoperto_@root 3:FORM:l'_@det_4 4:__@obj_2
+
+
+# cxn_id = cxn_45
+# cxn_name = V (Contare) + Prep(su/sul/sulla...) + N/Pronpers cxn-machine-readable-formalization: | cxn_45.conllc
+# n_frasi = 2
+
+  [1] score_bg = 18.64  score_lex = 9  (size=6, lexicalized=3)
+      base:    1:LEMMA:contare_@root 2:FORM:per_@case_4 3:FORM:l'_@det_4 4:UPOS:NOUN_@obl_1 5:FORM:di_@case_6 6:UPOS:NOUN_@nmod_4
+      espansa: 1:__@nsubj_2 2:LEMMA:contare_@root 3:FORM:su_@case_4 4:__@obl_2 5:FORM:per_@case_7 6:FORM:l'_@det_7 7:UPOS:NOUN_@obl_2 8:FORM:di_@case_10 9:LEMMA:il_@det_10 10:UPOS:NOUN_@nmod_7
+
+  [2] score_bg = 18.64  score_lex = 9  (size=6, lexicalized=3)
+      base:    1:FORM:per_@case_3 2:FORM:l'_@det_3 3:UPOS:NOUN_@root 4:FORM:di_@case_6 5:LEMMA:il_@det_6 6:UPOS:NOUN_@nmod_3
+      espansa: 1:__@nsubj_2 2:LEMMA:contare_@root 3:FORM:su_@case_4 4:__@obl_2 5:FORM:per_@case_7 6:FORM:l'_@det_7 7:UPOS:NOUN_@obl_2 8:FORM:di_@case_10 9:LEMMA:il_@det_10 10:UPOS:NOUN_@nmod_7
+
+  [3] score_bg = 18.64  score_lex = 9  (size=6, lexicalized=3)
+      base:    1:LEMMA:contare_@root 2:FORM:su_@case_3 3:__@obl_1 4:FORM:per_@case_6 5:FORM:l'_@det_6 6:UPOS:NOUN_@obl_1
+      espansa: 1:__@nsubj_2 2:LEMMA:contare_@root 3:FORM:su_@case_4 4:__@obl_2 5:FORM:per_@case_7 6:FORM:l'_@det_7 7:UPOS:NOUN_@obl_2 8:FORM:di_@case_10 9:LEMMA:il_@det_10 10:UPOS:NOUN_@nmod_7
+
+  [4] score_bg = 18.64  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:FORM:per_@case_3 2:FORM:l'_@det_3 3:UPOS:NOUN_@root 4:FORM:di_@case_5 5:UPOS:NOUN_@nmod_3
+      espansa: 1:__@nsubj_2 2:LEMMA:contare_@root 3:FORM:su_@case_4 4:__@obl_2 5:FORM:per_@case_7 6:FORM:l'_@det_7 7:UPOS:NOUN_@obl_2 8:FORM:di_@case_10 9:LEMMA:il_@det_10 10:UPOS:NOUN_@nmod_7
+
+  [5] score_bg = 18.64  score_lex = 8  (size=6, lexicalized=2)
+      base:    1:__@nsubj_2 2:LEMMA:contare_@root 3:FORM:su_@case_4 4:__@obl_2 5:FORM:l'_@det_6 6:UPOS:NOUN_@obl_2
+      espansa: 1:__@nsubj_2 2:LEMMA:contare_@root 3:FORM:su_@case_4 4:__@obl_2 5:FORM:per_@case_7 6:FORM:l'_@det_7 7:UPOS:NOUN_@obl_2 8:FORM:di_@case_10 9:LEMMA:il_@det_10 10:UPOS:NOUN_@nmod_7
+
+
+# cxn_id = cxn_46
+# cxn_name = Art. Indet. + N(sacco) + Prep. (di) + N cxn-machine-readable-formalization: | cxn_46.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:un_@det_2 2:FORM:sacco_@root 3:FORM:di_@case_4 4:UPOS:NOUN_@nmod_2
+      espansa: 1:FORM:un_@det_2 2:FORM:sacco_@root 3:FORM:di_@case_4 4:UPOS:NOUN_@nmod_2
+
+  [2] score_bg = 46.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:sacco_@root 2:FORM:di_@case_3 3:UPOS:NOUN_@nmod_1
+      espansa: 1:FORM:un_@det_2 2:FORM:sacco_@root 3:FORM:di_@case_4 4:UPOS:NOUN_@nmod_2
+
+  [3] score_bg = 46.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:un_@det_2 2:FORM:sacco_@root 3:UPOS:NOUN_@nmod_2
+      espansa: 1:FORM:un_@det_2 2:FORM:sacco_@root 3:FORM:di_@case_4 4:UPOS:NOUN_@nmod_2
+
+  [4] score_bg = 46.58  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:un_@det_2 2:FORM:sacco_@root
+      espansa: 1:FORM:un_@det_2 2:FORM:sacco_@root 3:FORM:di_@case_4 4:UPOS:NOUN_@nmod_2
+
+  [5] score_bg = 46.58  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:sacco_@root 2:UPOS:NOUN_@nmod_1
+      espansa: 1:FORM:un_@det_2 2:FORM:sacco_@root 3:FORM:di_@case_4 4:UPOS:NOUN_@nmod_2
+
+
+# cxn_id = cxn_47
+# cxn_name = V(fare) + Adv(molto) + N(proprio)/Adj/gruppo nominale cxn-machine-readable-formalization: | cxn_47.conllc
+# n_frasi = 4
+
+  [1] score_bg = 37.27  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:fa_@root 2:FORM:molto_@advmod_1 3:__@obj_1
+      espansa: 1:FORM:fa_@root 2:FORM:molto_@advmod_1 3:__@obj_1
+
+  [2] score_bg = 37.27  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:fa_@root 2:FORM:molto_@advmod_1
+      espansa: 1:FORM:fa_@root 2:FORM:molto_@advmod_1 3:__@obj_1
+
+  [3] score_bg = 27.98  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:fa_@root 2:__@obj_1
+      espansa: 1:FORM:fa_@root 2:FORM:molto_@advmod_1 3:__@obj_1
+
+  [4] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_48
+# cxn_name = S spingere (O) a V cxn-machine-readable-formalization: | cxn_48.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 8  (size=6, lexicalized=2)
+      base:    1:UPOS:DET_@det_2 2:UPOS:NOUN_@nsubj_4 3:LEMMA:avere_@aux_4 4:FORM:spinto_@root 5:FORM:a_@mark_6 6:UPOS:VERB_@xcomp_4
+      espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@nsubj_4 3:LEMMA:avere_@aux_4 4:FORM:spinto_@root 5:FORM:a_@mark_6 6:UPOS:VERB_@xcomp_4
+
+  [2] score_bg = 46.58  score_lex = 7  (size=5, lexicalized=2)
+      base:    1:UPOS:NOUN_@nsubj_3 2:LEMMA:avere_@aux_3 3:FORM:spinto_@root 4:FORM:a_@mark_5 5:UPOS:VERB_@xcomp_3
+      espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@nsubj_4 3:LEMMA:avere_@aux_4 4:FORM:spinto_@root 5:FORM:a_@mark_6 6:UPOS:VERB_@xcomp_4
+
+  [3] score_bg = 46.58  score_lex = 7  (size=5, lexicalized=2)
+      base:    1:UPOS:DET_@det_2 2:UPOS:NOUN_@nsubj_3 3:FORM:spinto_@root 4:FORM:a_@mark_5 5:UPOS:VERB_@xcomp_3
+      espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@nsubj_4 3:LEMMA:avere_@aux_4 4:FORM:spinto_@root 5:FORM:a_@mark_6 6:UPOS:VERB_@xcomp_4
+
+  [4] score_bg = 46.58  score_lex = 6  (size=5, lexicalized=1)
+      base:    1:UPOS:DET_@det_2 2:UPOS:NOUN_@nsubj_4 3:LEMMA:avere_@aux_4 4:FORM:spinto_@root 5:UPOS:VERB_@xcomp_4
+      espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@nsubj_4 3:LEMMA:avere_@aux_4 4:FORM:spinto_@root 5:FORM:a_@mark_6 6:UPOS:VERB_@xcomp_4
+
+  [5] score_bg = 46.58  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:LEMMA:avere_@aux_2 2:FORM:spinto_@root 3:FORM:a_@mark_4 4:UPOS:VERB_@xcomp_2
+      espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@nsubj_4 3:LEMMA:avere_@aux_4 4:FORM:spinto_@root 5:FORM:a_@mark_6 6:UPOS:VERB_@xcomp_4
+
+
+# cxn_id = cxn_49
+# cxn_name = Vessere + AVVluogo + che + V2 cxn-machine-readable-formalization: | cxn_49.conllc
+# n_frasi = 5
+
+  [1] score_bg = 41.58  score_lex = 5  (size=4, lexicalized=1)
+      base:    1:LEMMA:essere_@root 2:UPOS:ADV_@advmod_1 3:FORM:che_@mark_4 4:UPOS:VERB_@advcl_1
+      espansa: 1:LEMMA:essere_@root 2:UPOS:ADV_@advmod_1 3:FORM:che_@mark_4 4:UPOS:VERB_@advcl_1
+
+  [2] score_bg = 41.58  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:LEMMA:essere_@root 2:FORM:che_@mark_3 3:UPOS:VERB_@advcl_1
+      espansa: 1:LEMMA:essere_@root 2:UPOS:ADV_@advmod_1 3:FORM:che_@mark_4 4:UPOS:VERB_@advcl_1
+
+  [3] score_bg = 34.97  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:LEMMA:essere_@root 2:UPOS:ADV_@advmod_1 3:UPOS:VERB_@advcl_1
+      espansa: 1:LEMMA:essere_@root 2:UPOS:ADV_@advmod_1 3:FORM:che_@mark_4 4:UPOS:VERB_@advcl_1
+
+  [4] score_bg = 30.73  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:essere_@root 2:UPOS:VERB_@advcl_1
+      espansa: 1:LEMMA:essere_@root 2:UPOS:ADV_@advmod_1 3:FORM:che_@mark_4 4:UPOS:VERB_@advcl_1
+
+  [5] score_bg = 19.44  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:essere_@root 2:UPOS:ADV_@advmod_1
+      espansa: 1:LEMMA:essere_@root 2:UPOS:ADV_@advmod_1 3:FORM:che_@mark_4 4:UPOS:VERB_@advcl_1
+
+
+# cxn_id = cxn_5
+# cxn_name = Adj + come + N cxn-machine-readable-formalization: | cxn_5.conllc
+# n_frasi = 3
+
+  [1] score_bg = 24.96  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:UPOS:ADJ_@root 2:FORM:come_@case_4 3:FORM:il_@det_4 4:UPOS:NOUN_@obl_1
+      espansa: 1:UPOS:ADJ_@root 2:FORM:come_@case_4 3:FORM:il_@det_4 4:UPOS:NOUN_@obl_1
+
+  [2] score_bg = 23.20  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:UPOS:ADJ_@root 2:FORM:il_@det_3 3:UPOS:NOUN_@obl_1
+      espansa: 1:UPOS:ADJ_@root 2:FORM:come_@case_4 3:FORM:il_@det_4 4:UPOS:NOUN_@obl_1
+
+  [3] score_bg = 21.96  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:come_@case_3 2:FORM:il_@det_3 3:UPOS:NOUN_@root
+      espansa: 1:UPOS:ADJ_@root 2:FORM:come_@case_4 3:FORM:il_@det_4 4:UPOS:NOUN_@obl_1
+
+  [4] score_bg = 20.99  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:UPOS:ADJ_@root 2:FORM:come_@case_3 3:UPOS:NOUN_@obl_1
+      espansa: 1:UPOS:ADJ_@root 2:FORM:come_@case_4 3:FORM:il_@det_4 4:UPOS:NOUN_@obl_1
+
+  [5] score_bg = 16.86  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:come_@case_2 2:UPOS:NOUN_@root
+      espansa: 1:UPOS:ADJ_@root 2:FORM:come_@case_4 3:FORM:il_@det_4 4:UPOS:NOUN_@obl_1
+
+
+# cxn_id = cxn_51
+# cxn_name = non+aus+mica+pp. cxn-machine-readable-formalization: | cxn_51.conllc
+# n_frasi = 3
+
+  [1] score_bg = 27.96  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:non_@advmod_4 2:UPOS:AUX_@aux_4 3:FORM:mica_@advmod_4 4:__@root
+      espansa: 1:FORM:non_@advmod_4 2:UPOS:AUX_@aux_4 3:FORM:mica_@advmod_4 4:__@root
+
+  [2] score_bg = 27.96  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:UPOS:AUX_@aux_3 2:FORM:mica_@advmod_3 3:__@root
+      espansa: 1:FORM:non_@advmod_4 2:UPOS:AUX_@aux_4 3:FORM:mica_@advmod_4 4:__@root
+
+  [3] score_bg = 24.96  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:non_@advmod_3 2:FORM:mica_@advmod_3 3:__@root
+      espansa: 1:FORM:non_@advmod_4 2:UPOS:AUX_@aux_4 3:FORM:mica_@advmod_4 4:__@root
+
+  [4] score_bg = 24.96  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:mica_@advmod_2 2:__@root
+      espansa: 1:FORM:non_@advmod_4 2:UPOS:AUX_@aux_4 3:FORM:mica_@advmod_4 4:__@root
+
+  [5] score_bg = 5.61  score_lex = 2  (size=1, lexicalized=1)
+      base:    1:FORM:non_@root
+      espansa: 1:FORM:non_@advmod_4 2:UPOS:AUX_@aux_4 3:FORM:mica_@advmod_4 4:__@root
+
+
+# cxn_id = cxn_52
+# cxn_name = avere la coda di paglia cxn-machine-readable-formalization: | cxn_52.conllc
+# n_frasi = 2
+
+  [1] score_bg = 18.64  score_lex = 9  (size=5, lexicalized=4)
+      base:    1:LEMMA:avere_@root 2:FORM:la_@det_3 3:FORM:coda_@obj_1 4:FORM:di_@case_5 5:FORM:paglia_@nmod_3
+      espansa: 1:LEMMA:avere_@root 2:FORM:la_@det_3 3:FORM:coda_@obj_1 4:FORM:di_@case_5 5:FORM:paglia_@nmod_3
+
+  [2] score_bg = 18.64  score_lex = 8  (size=4, lexicalized=4)
+      base:    1:FORM:la_@det_2 2:FORM:coda_@root 3:FORM:di_@case_4 4:FORM:paglia_@nmod_2
+      espansa: 1:LEMMA:avere_@root 2:FORM:la_@det_3 3:FORM:coda_@obj_1 4:FORM:di_@case_5 5:FORM:paglia_@nmod_3
+
+  [3] score_bg = 18.64  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:LEMMA:avere_@root 2:FORM:la_@det_3 3:FORM:coda_@obj_1 4:FORM:paglia_@nmod_3
+      espansa: 1:LEMMA:avere_@root 2:FORM:la_@det_3 3:FORM:coda_@obj_1 4:FORM:di_@case_5 5:FORM:paglia_@nmod_3
+
+  [4] score_bg = 18.64  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:LEMMA:avere_@root 2:FORM:coda_@obj_1 3:FORM:di_@case_4 4:FORM:paglia_@nmod_2
+      espansa: 1:LEMMA:avere_@root 2:FORM:la_@det_3 3:FORM:coda_@obj_1 4:FORM:di_@case_5 5:FORM:paglia_@nmod_3
+
+  [5] score_bg = 18.64  score_lex = 6  (size=3, lexicalized=3)
+      base:    1:FORM:coda_@root 2:FORM:di_@case_3 3:FORM:paglia_@nmod_1
+      espansa: 1:LEMMA:avere_@root 2:FORM:la_@det_3 3:FORM:coda_@obj_1 4:FORM:di_@case_5 5:FORM:paglia_@nmod_3
+
+
+# cxn_id = cxn_53
+# cxn_name = (PROdat+)V3Sing"Venire"Temp+Prep"Da"+VInf cxn-machine-readable-formalization: | cxn_53.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:LEMMA:venire_@root 2:FORM:da_@mark_3 3:UPOS:VERB_@xcomp_1
+      espansa: 1:LEMMA:venire_@root 2:FORM:da_@mark_3 3:UPOS:VERB_@xcomp_1
+
+  [2] score_bg = 46.58  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:venire_@root 2:UPOS:VERB_@xcomp_1
+      espansa: 1:LEMMA:venire_@root 2:FORM:da_@mark_3 3:UPOS:VERB_@xcomp_1
+
+  [3] score_bg = 27.04  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:da_@mark_2 2:UPOS:VERB_@root
+      espansa: 1:LEMMA:venire_@root 2:FORM:da_@mark_3 3:UPOS:VERB_@xcomp_1
+
+  [4] score_bg = 14.53  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:PRON_@iobj_2 2:UPOS:VERB_@root
+      espansa: 1:UPOS:PRON_@iobj_2 2:UPOS:VERB_@root
+
+  [5] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_54
+# cxn_name = se non V(esserefless)+ N/Avv V(esserefless) + N/Avv cxn-machine-readable-formalization: | cxn_54.conllc
+# n_frasi = 3
+
+  [1] score_bg = 19.54  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:se_@mark_3 2:FORM:non_@advmod_3 3:__@advcl_4 4:__@root
+      espansa: 1:FORM:se_@mark_3 2:FORM:non_@advmod_3 3:__@advcl_4 4:__@root
+
+  [2] score_bg = 18.96  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:se_@mark_3 2:FORM:non_@advmod_3 3:__@root
+      espansa: 1:FORM:se_@mark_3 2:FORM:non_@advmod_3 3:__@advcl_4 4:__@root
+
+  [3] score_bg = 15.22  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:FORM:non_@advmod_2 2:__@advcl_3 3:__@root
+      espansa: 1:FORM:se_@mark_3 2:FORM:non_@advmod_3 3:__@advcl_4 4:__@root
+
+  [4] score_bg = 14.39  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:FORM:se_@mark_2 2:__@advcl_3 3:__@root
+      espansa: 1:FORM:se_@mark_3 2:FORM:non_@advmod_3 3:__@advcl_4 4:__@root
+
+  [5] score_bg = 13.69  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:se_@mark_2 2:__@root
+      espansa: 1:FORM:se_@mark_3 2:FORM:non_@advmod_3 3:__@advcl_4 4:__@root
+
+
+# cxn_id = cxn_55
+# cxn_name = Acqua in bocca cxn-machine-readable-formalization: | cxn_55.conllc
+# n_frasi = 3
+
+  [1] score_bg = 27.96  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:__@root 2:FORM:acqua_@discourse_1 3:FORM:in_@case_4 4:FORM:bocca_@nmod_2
+      espansa: 1:__@root 2:FORM:acqua_@discourse_1 3:FORM:in_@case_4 4:FORM:bocca_@nmod_2
+
+  [2] score_bg = 27.96  score_lex = 6  (size=3, lexicalized=3)
+      base:    1:FORM:acqua_@root 2:FORM:in_@case_3 3:FORM:bocca_@nmod_1
+      espansa: 1:__@root 2:FORM:acqua_@discourse_1 3:FORM:in_@case_4 4:FORM:bocca_@nmod_2
+
+  [3] score_bg = 27.96  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:__@root 2:FORM:acqua_@discourse_1 3:FORM:bocca_@nmod_2
+      espansa: 1:__@root 2:FORM:acqua_@discourse_1 3:FORM:in_@case_4 4:FORM:bocca_@nmod_2
+
+  [4] score_bg = 27.96  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:acqua_@root 2:FORM:bocca_@nmod_1
+      espansa: 1:__@root 2:FORM:acqua_@discourse_1 3:FORM:in_@case_4 4:FORM:bocca_@nmod_2
+
+  [5] score_bg = 27.96  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:in_@case_2 2:FORM:bocca_@root
+      espansa: 1:__@root 2:FORM:acqua_@discourse_1 3:FORM:in_@case_4 4:FORM:bocca_@nmod_2
+
+
+# cxn_id = cxn_56
+# cxn_name = apriti + N (cielo/terra/sesamo) cxn-machine-readable-formalization: | cxn_56.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:apri_@root 2:FORM:ti_@obj_1 3:UPOS:NOUN_@vocative_1
+      espansa: 1:FORM:apri_@root 2:FORM:ti_@obj_1 3:UPOS:NOUN_@vocative_1
+
+  [2] score_bg = 46.58  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:apri_@root 2:FORM:ti_@obj_1
+      espansa: 1:FORM:apri_@root 2:FORM:ti_@obj_1 3:UPOS:NOUN_@vocative_1
+
+  [3] score_bg = 46.58  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:apri_@root 2:UPOS:NOUN_@vocative_1
+      espansa: 1:FORM:apri_@root 2:FORM:ti_@obj_1 3:UPOS:NOUN_@vocative_1
+
+  [4] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_57
+# cxn_name = V (morire) dalla voglia di Vx V + Prep1 + N + Prep2 + Vx cxn-machine-readable-formalization: | cxn_57.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 10  (size=6, lexicalized=4)
+      base:    1:UPOS:VERB_@root 2:FORM:da_@case_4 3:FORM:la_@det_4 4:FORM:voglia_@obl_1 5:FORM:di_@mark_6 6:UPOS:VERB_@acl_4
+      espansa: 1:UPOS:VERB_@root 2:FORM:da_@case_4 3:FORM:la_@det_4 4:FORM:voglia_@obl_1 5:FORM:di_@mark_6 6:UPOS:VERB_@acl_4
+
+  [2] score_bg = 46.58  score_lex = 9  (size=5, lexicalized=4)
+      base:    1:FORM:da_@case_3 2:FORM:la_@det_3 3:FORM:voglia_@root 4:FORM:di_@mark_5 5:UPOS:VERB_@acl_3
+      espansa: 1:UPOS:VERB_@root 2:FORM:da_@case_4 3:FORM:la_@det_4 4:FORM:voglia_@obl_1 5:FORM:di_@mark_6 6:UPOS:VERB_@acl_4
+
+  [3] score_bg = 46.58  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:UPOS:VERB_@root 2:FORM:la_@det_3 3:FORM:voglia_@obl_1 4:FORM:di_@mark_5 5:UPOS:VERB_@acl_3
+      espansa: 1:UPOS:VERB_@root 2:FORM:da_@case_4 3:FORM:la_@det_4 4:FORM:voglia_@obl_1 5:FORM:di_@mark_6 6:UPOS:VERB_@acl_4
+
+  [4] score_bg = 46.58  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:UPOS:VERB_@root 2:FORM:da_@case_3 3:FORM:voglia_@obl_1 4:FORM:di_@mark_5 5:UPOS:VERB_@acl_3
+      espansa: 1:UPOS:VERB_@root 2:FORM:da_@case_4 3:FORM:la_@det_4 4:FORM:voglia_@obl_1 5:FORM:di_@mark_6 6:UPOS:VERB_@acl_4
+
+  [5] score_bg = 46.58  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:UPOS:VERB_@root 2:FORM:da_@case_4 3:FORM:la_@det_4 4:FORM:voglia_@obl_1 5:UPOS:VERB_@acl_4
+      espansa: 1:UPOS:VERB_@root 2:FORM:da_@case_4 3:FORM:la_@det_4 4:FORM:voglia_@obl_1 5:FORM:di_@mark_6 6:UPOS:VERB_@acl_4
+
+
+# cxn_id = cxn_59
+# cxn_name = V. (mettersi) + Prep. (nelle) + N. (mani) + Prep. (di) + N. (qualcuno) cxn-machine-readable-formalization: | cxn_59.conllc
+# n_frasi = 3
+
+  [1] score_bg = 27.96  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:UPOS:VERB_@root 2:FORM:in_@case_4 3:FORM:le_@det_4 4:FORM:mani_@obl_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:in_@case_4 3:FORM:le_@det_4 4:FORM:mani_@obl_1
+
+  [2] score_bg = 27.96  score_lex = 6  (size=3, lexicalized=3)
+      base:    1:FORM:in_@case_3 2:FORM:le_@det_3 3:FORM:mani_@root
+      espansa: 1:UPOS:VERB_@root 2:FORM:in_@case_4 3:FORM:le_@det_4 4:FORM:mani_@obl_1
+
+  [3] score_bg = 27.96  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:mani_@obl_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:in_@case_4 3:FORM:le_@det_4 4:FORM:mani_@obl_1
+
+  [4] score_bg = 27.96  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:in_@case_2 2:FORM:mani_@root
+      espansa: 1:UPOS:VERB_@root 2:FORM:in_@case_4 3:FORM:le_@det_4 4:FORM:mani_@obl_1
+
+  [5] score_bg = 20.20  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:UPOS:VERB_@root 2:FORM:le_@det_3 3:FORM:mani_@obl_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:in_@case_4 3:FORM:le_@det_4 4:FORM:mani_@obl_1
+
+
+# cxn_id = cxn_6
+# cxn_name = V. parlare + prep. + N cxn-machine-readable-formalization: | cxn_6.conllc
+# n_frasi = 3
+
+  [1] score_bg = 27.96  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:parlare_@root 2:FORM:a_@case_4 3:LEMMA:il_@det_4 4:UPOS:NOUN_@obl_1
+      espansa: 1:FORM:parlare_@root 2:FORM:a_@case_4 3:LEMMA:il_@det_4 4:UPOS:NOUN_@obl_1
+
+  [2] score_bg = 27.96  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:parlare_@root 2:FORM:a_@case_3 3:UPOS:NOUN_@obl_1
+      espansa: 1:FORM:parlare_@root 2:FORM:a_@case_4 3:LEMMA:il_@det_4 4:UPOS:NOUN_@obl_1
+
+  [3] score_bg = 24.96  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:FORM:parlare_@root 2:LEMMA:il_@det_3 3:UPOS:NOUN_@obl_1
+      espansa: 1:FORM:parlare_@root 2:FORM:a_@case_4 3:LEMMA:il_@det_4 4:UPOS:NOUN_@obl_1
+
+  [4] score_bg = 24.96  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:parlare_@root 2:UPOS:NOUN_@obl_1
+      espansa: 1:FORM:parlare_@root 2:FORM:a_@case_4 3:LEMMA:il_@det_4 4:UPOS:NOUN_@obl_1
+
+  [5] score_bg = 20.99  score_lex = 2  (size=1, lexicalized=1)
+      base:    1:FORM:parlare_@root
+      espansa: 1:FORM:parlare_@root 2:FORM:a_@case_4 3:LEMMA:il_@det_4 4:UPOS:NOUN_@obl_1
+
+
+# cxn_id = cxn_60
+# cxn_name = Verbo + Locuz. Avverb"a più non posso" cxn-machine-readable-formalization: | cxn_60.conllc
+# n_frasi = 3
+
+  [1] score_bg = 27.96  score_lex = 9  (size=5, lexicalized=4)
+      base:    1:UPOS:VERB_@root 2:FORM:a_@case_5 3:FORM:più_@advmod_5 4:FORM:non_@advmod_5 5:FORM:posso_@obl_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:a_@case_5 3:FORM:più_@advmod_5 4:FORM:non_@advmod_5 5:FORM:posso_@obl_1
+
+  [2] score_bg = 27.96  score_lex = 8  (size=4, lexicalized=4)
+      base:    1:FORM:a_@case_4 2:FORM:più_@advmod_4 3:FORM:non_@advmod_4 4:FORM:posso_@root
+      espansa: 1:UPOS:VERB_@root 2:FORM:a_@case_5 3:FORM:più_@advmod_5 4:FORM:non_@advmod_5 5:FORM:posso_@obl_1
+
+  [3] score_bg = 27.96  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:UPOS:VERB_@root 2:FORM:più_@advmod_4 3:FORM:non_@advmod_4 4:FORM:posso_@obl_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:a_@case_5 3:FORM:più_@advmod_5 4:FORM:non_@advmod_5 5:FORM:posso_@obl_1
+
+  [4] score_bg = 27.96  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:UPOS:VERB_@root 2:FORM:a_@case_4 3:FORM:non_@advmod_4 4:FORM:posso_@obl_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:a_@case_5 3:FORM:più_@advmod_5 4:FORM:non_@advmod_5 5:FORM:posso_@obl_1
+
+  [5] score_bg = 27.96  score_lex = 6  (size=3, lexicalized=3)
+      base:    1:FORM:a_@case_3 2:FORM:non_@advmod_3 3:FORM:posso_@root
+      espansa: 1:UPOS:VERB_@root 2:FORM:a_@case_5 3:FORM:più_@advmod_5 4:FORM:non_@advmod_5 5:FORM:posso_@obl_1
+
+
+# cxn_id = cxn_61
+# cxn_name = Immagina" Vinf SN/Sprep Prep/Conj SV cxn-machine-readable-formalization: | cxn_61.conllc
+# n_frasi = 4
+
+  [1] score_bg = 37.27  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:immagina_@root 2:__@xcomp_1
+      espansa: 1:FORM:immagina_@root 2:__@xcomp_1
+
+  [2] score_bg = 37.27  score_lex = 2  (size=1, lexicalized=1)
+      base:    1:FORM:immagina_@root
+      espansa: 1:FORM:immagina_@root 2:__@xcomp_1
+
+
+# cxn_id = cxn_62
+# cxn_name = ma+anche+X cxn-machine-readable-formalization: | cxn_62.conllc
+# n_frasi = 3
+
+  [1] score_bg = 21.96  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:ma_@cc_3 2:FORM:anche_@advmod_3 3:__@root
+      espansa: 1:FORM:ma_@cc_3 2:FORM:anche_@advmod_3 3:__@root
+
+  [2] score_bg = 15.22  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:anche_@advmod_2 2:__@root
+      espansa: 1:FORM:ma_@cc_3 2:FORM:anche_@advmod_3 3:__@root
+
+  [3] score_bg = 10.24  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:ma_@cc_2 2:__@root
+      espansa: 1:FORM:ma_@cc_3 2:FORM:anche_@advmod_3 3:__@root
+
+  [4] score_bg = 10.10  score_lex = 2  (size=1, lexicalized=1)
+      base:    1:FORM:ma_@root
+      espansa: 1:FORM:ma_@cc_3 2:FORM:anche_@advmod_3 3:__@root
+
+
+# cxn_id = cxn_64
+# cxn_name = Non è Xi, ma è Yi che Zi cxn-machine-readable-formalization: | cxn_64.conllc
+# n_frasi = 4
+
+  [1] score_bg = 37.27  score_lex = 10  (size=6, lexicalized=4)
+      base:    1:FORM:non_@advmod_3 2:FORM:è_@cop_3 3:__@root 4:FORM:ma_@cc_6 5:FORM:è_@cop_6 6:__@conj_3
+      espansa: 1:FORM:non_@advmod_3 2:FORM:è_@cop_3 3:__@root 4:FORM:ma_@cc_6 5:FORM:è_@cop_6 6:__@conj_3
+
+  [2] score_bg = 37.27  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:FORM:non_@advmod_3 2:FORM:è_@cop_3 3:__@root 4:FORM:è_@cop_5 5:__@conj_3
+      espansa: 1:FORM:non_@advmod_3 2:FORM:è_@cop_3 3:__@root 4:FORM:ma_@cc_6 5:FORM:è_@cop_6 6:__@conj_3
+
+  [3] score_bg = 37.27  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:FORM:non_@advmod_2 2:__@root 3:FORM:ma_@cc_5 4:FORM:è_@cop_5 5:__@conj_2
+      espansa: 1:FORM:non_@advmod_3 2:FORM:è_@cop_3 3:__@root 4:FORM:ma_@cc_6 5:FORM:è_@cop_6 6:__@conj_3
+
+  [4] score_bg = 37.27  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:non_@advmod_2 2:__@root 3:FORM:è_@cop_4 4:__@conj_2
+      espansa: 1:FORM:non_@advmod_3 2:FORM:è_@cop_3 3:__@root 4:FORM:ma_@cc_6 5:FORM:è_@cop_6 6:__@conj_3
+
+  [5] score_bg = 33.27  score_lex = 8  (size=5, lexicalized=3)
+      base:    1:FORM:è_@cop_2 2:__@root 3:FORM:ma_@cc_5 4:FORM:è_@cop_5 5:__@conj_2
+      espansa: 1:FORM:non_@advmod_3 2:FORM:è_@cop_3 3:__@root 4:FORM:ma_@cc_6 5:FORM:è_@cop_6 6:__@conj_3
+
+
+# cxn_id = cxn_65
+# cxn_name = X Adv che Y cxn-machine-readable-formalization: | cxn_65.conllc
+# n_frasi = 4
+
+  [1] score_bg = 11.18  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:che_@mark_2 2:UPOS:VERB_@root
+      espansa: 1:FORM:che_@mark_2 2:UPOS:VERB_@root
+
+  [2] score_bg = 3.33  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:il_@det_2 2:UPOS:NOUN_@root
+      espansa: 1:LEMMA:il_@det_2 2:UPOS:NOUN_@root
+
+  [3] score_bg = 2.87  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:ADP_@case_2 2:UPOS:NOUN_@root
+      espansa: 1:UPOS:ADP_@case_2 2:UPOS:NOUN_@root
+
+  [4] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_66
+# cxn_name = prima X, prima Y Formal variants: prima X prima Y, prima X e prima Y cxn-machine-readable-formalization: | cxn_66.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:prima_@advmod_2 2:UPOS:VERB_@root 3:FORM:prima_@advmod_4 4:UPOS:VERB_@conj_2
+      espansa: 1:FORM:prima_@advmod_2 2:UPOS:VERB_@root 3:FORM:prima_@advmod_4 4:UPOS:VERB_@conj_2
+
+  [2] score_bg = 46.58  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:UPOS:VERB_@root 2:FORM:prima_@advmod_3 3:UPOS:VERB_@conj_1
+      espansa: 1:FORM:prima_@advmod_2 2:UPOS:VERB_@root 3:FORM:prima_@advmod_4 4:UPOS:VERB_@conj_2
+
+  [3] score_bg = 41.58  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:FORM:prima_@advmod_2 2:UPOS:VERB_@root 3:UPOS:VERB_@conj_2
+      espansa: 1:FORM:prima_@advmod_2 2:UPOS:VERB_@root 3:FORM:prima_@advmod_4 4:UPOS:VERB_@conj_2
+
+  [4] score_bg = 31.58  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:prima_@advmod_2 2:UPOS:VERB_@root
+      espansa: 1:FORM:prima_@advmod_2 2:UPOS:VERB_@root 3:FORM:prima_@advmod_4 4:UPOS:VERB_@conj_2
+
+  [5] score_bg = 11.75  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:VERB_@conj_1
+      espansa: 1:UPOS:ADV_@advmod_2 2:UPOS:VERB_@root 3:UPOS:VERB_@conj_2
+
+
+# cxn_id = cxn_67
+# cxn_name = me l- chiam- X? Formal variants: (e) (tu) quest-/quell- me l- chiam- X? (e) (tu) me l- chiam- X quest-/quell-? cxn-machine-readable-formalization: | cxn_67.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 7  (size=5, lexicalized=2)
+      base:    1:LEMMA:questo_@dislocated_4 2:FORM:me_@obl_4 3:UPOS:PRON_@obj_4 4:FORM:chiami_@root 5:__@xcomp_4
+      espansa: 1:LEMMA:questo_@dislocated_4 2:FORM:me_@obl_4 3:UPOS:PRON_@obj_4 4:FORM:chiami_@root 5:__@xcomp_4
+
+  [2] score_bg = 46.58  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:me_@obl_3 2:UPOS:PRON_@obj_3 3:FORM:chiami_@root 4:__@xcomp_3
+      espansa: 1:LEMMA:questo_@dislocated_4 2:FORM:me_@obl_4 3:UPOS:PRON_@obj_4 4:FORM:chiami_@root 5:__@xcomp_4
+
+  [3] score_bg = 46.58  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:LEMMA:questo_@dislocated_4 2:FORM:me_@obl_4 3:UPOS:PRON_@obj_4 4:FORM:chiami_@root
+      espansa: 1:LEMMA:questo_@dislocated_4 2:FORM:me_@obl_4 3:UPOS:PRON_@obj_4 4:FORM:chiami_@root 5:__@xcomp_4
+
+  [4] score_bg = 46.58  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:LEMMA:questo_@dislocated_3 2:FORM:me_@obl_3 3:FORM:chiami_@root 4:__@xcomp_3
+      espansa: 1:LEMMA:questo_@dislocated_4 2:FORM:me_@obl_4 3:UPOS:PRON_@obj_4 4:FORM:chiami_@root 5:__@xcomp_4
+
+  [5] score_bg = 46.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:LEMMA:questo_@dislocated_3 2:FORM:me_@obl_3 3:FORM:chiami_@root
+      espansa: 1:LEMMA:questo_@dislocated_4 2:FORM:me_@obl_4 3:UPOS:PRON_@obj_4 4:FORM:chiami_@root 5:__@xcomp_4
+
+
+# cxn_id = cxn_68
+# cxn_name = salta fuori che cxn-machine-readable-formalization: | cxn_68.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:LEMMA:saltare_@root 2:FORM:fuori_@advmod_1 3:FORM:che_@mark_4 4:__@ccomp_1
+      espansa: 1:LEMMA:saltare_@root 2:FORM:fuori_@advmod_1 3:FORM:che_@mark_4 4:__@ccomp_1
+
+  [2] score_bg = 46.58  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:LEMMA:saltare_@root 2:FORM:fuori_@advmod_1 3:__@ccomp_1
+      espansa: 1:LEMMA:saltare_@root 2:FORM:fuori_@advmod_1 3:FORM:che_@mark_4 4:__@ccomp_1
+
+  [3] score_bg = 46.58  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:LEMMA:saltare_@root 2:FORM:che_@mark_3 3:__@ccomp_1
+      espansa: 1:UPOS:ADV_@advmod_2 2:LEMMA:saltare_@root 3:FORM:che_@mark_4 4:__@ccomp_2
+
+  [4] score_bg = 46.58  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:LEMMA:saltare_@root 2:FORM:fuori_@advmod_1
+      espansa: 1:LEMMA:saltare_@root 2:FORM:fuori_@advmod_1 3:FORM:che_@mark_4 4:__@ccomp_1
+
+  [5] score_bg = 46.58  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:saltare_@root 2:__@ccomp_1
+      espansa: 1:UPOS:ADV_@advmod_2 2:LEMMA:saltare_@root 3:FORM:che_@mark_4 4:__@ccomp_2
+
+
+# cxn_id = cxn_69
+# cxn_name = E tu V che X ? cxn-machine-readable-formalization: | cxn_69.conllc
+# n_frasi = 2
+
+  [1] score_bg = 18.64  score_lex = 10  (size=6, lexicalized=4)
+      base:    1:FORM:e_@cc_3 2:FORM:tu_@nsubj_3 3:UPOS:VERB_@root 4:FORM:che_@mark_6 5:FORM:si_@expl:impers_6 6:UPOS:VERB_@ccomp_3
+      espansa: 1:FORM:e_@cc_3 2:FORM:tu_@nsubj_3 3:UPOS:VERB_@root 4:FORM:che_@mark_7 5:UPOS:VERB_@advcl_7 6:FORM:si_@expl:impers_7 7:UPOS:VERB_@ccomp_3
+
+  [2] score_bg = 18.64  score_lex = 9  (size=6, lexicalized=3)
+      base:    1:FORM:e_@cc_3 2:FORM:tu_@nsubj_3 3:UPOS:VERB_@root 4:FORM:che_@mark_6 5:UPOS:VERB_@advcl_6 6:UPOS:VERB_@ccomp_3
+      espansa: 1:FORM:e_@cc_3 2:FORM:tu_@nsubj_3 3:UPOS:VERB_@root 4:FORM:che_@mark_7 5:UPOS:VERB_@advcl_7 6:FORM:si_@expl:impers_7 7:UPOS:VERB_@ccomp_3
+
+  [3] score_bg = 18.64  score_lex = 9  (size=6, lexicalized=3)
+      base:    1:FORM:e_@cc_3 2:FORM:tu_@nsubj_3 3:UPOS:VERB_@root 4:UPOS:VERB_@advcl_6 5:FORM:si_@expl:impers_6 6:UPOS:VERB_@ccomp_3
+      espansa: 1:FORM:e_@cc_3 2:FORM:tu_@nsubj_3 3:UPOS:VERB_@root 4:FORM:che_@mark_7 5:UPOS:VERB_@advcl_7 6:FORM:si_@expl:impers_7 7:UPOS:VERB_@ccomp_3
+
+  [4] score_bg = 18.64  score_lex = 9  (size=6, lexicalized=3)
+      base:    1:FORM:tu_@nsubj_2 2:UPOS:VERB_@root 3:FORM:che_@mark_6 4:UPOS:VERB_@advcl_6 5:FORM:si_@expl:impers_6 6:UPOS:VERB_@ccomp_2
+      espansa: 1:FORM:e_@cc_3 2:FORM:tu_@nsubj_3 3:UPOS:VERB_@root 4:FORM:che_@mark_7 5:UPOS:VERB_@advcl_7 6:FORM:si_@expl:impers_7 7:UPOS:VERB_@ccomp_3
+
+  [5] score_bg = 18.64  score_lex = 9  (size=6, lexicalized=3)
+      base:    1:FORM:e_@cc_2 2:UPOS:VERB_@root 3:FORM:che_@mark_6 4:UPOS:VERB_@advcl_6 5:FORM:si_@expl:impers_6 6:UPOS:VERB_@ccomp_2
+      espansa: 1:FORM:e_@cc_3 2:FORM:tu_@nsubj_3 3:UPOS:VERB_@root 4:FORM:che_@mark_7 5:UPOS:VERB_@advcl_7 6:FORM:si_@expl:impers_7 7:UPOS:VERB_@ccomp_3
+
+
+# cxn_id = cxn_7
+# cxn_name = Pseudo-coordination cxn-machine-readable-formalization: | cxn_7.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:LEMMA:prendere_@root 2:FORM:e_@cc_3 3:UPOS:VERB_@conj_1
+      espansa: 1:LEMMA:prendere_@root 2:FORM:e_@cc_3 3:UPOS:VERB_@conj_1
+
+  [2] score_bg = 41.58  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:prendere_@root 2:UPOS:VERB_@conj_1
+      espansa: 1:LEMMA:prendere_@root 2:FORM:e_@cc_3 3:UPOS:VERB_@conj_1
+
+  [3] score_bg = 13.80  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:e_@cc_2 2:UPOS:VERB_@root
+      espansa: 1:FORM:e_@cc_2 2:UPOS:VERB_@root
+
+  [4] score_bg = 0.60  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:UPOS:VERB_@root
+
+
+# cxn_id = cxn_72
+# cxn_name = Focusing cleft sentence cxn-machine-readable-formalization: | cxn_72.conllc
+# n_frasi = 5
+
+  [1] score_bg = 41.58  score_lex = 5  (size=4, lexicalized=1)
+      base:    1:UPOS:PRON_@nsubj_4 2:UPOS:VERB_@acl:relcl_1 3:FORM:è_@cop_4 4:__@root
+      espansa: 1:UPOS:PRON_@nsubj_4 2:UPOS:VERB_@acl:relcl_1 3:FORM:è_@cop_4 4:__@root
+
+  [2] score_bg = 38.65  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:UPOS:PRON_@nsubj_3 2:FORM:è_@cop_3 3:__@root
+      espansa: 1:UPOS:PRON_@nsubj_4 2:UPOS:VERB_@acl:relcl_1 3:FORM:è_@cop_4 4:__@root
+
+  [3] score_bg = 28.07  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:UPOS:PRON_@nsubj_3 2:UPOS:VERB_@acl:relcl_1 3:__@root
+      espansa: 1:UPOS:PRON_@nsubj_4 2:UPOS:VERB_@acl:relcl_1 3:FORM:è_@cop_4 4:__@root
+
+  [4] score_bg = 21.80  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:PRON_@root 2:UPOS:VERB_@acl:relcl_1
+      espansa: 1:UPOS:PRON_@nsubj_4 2:UPOS:VERB_@acl:relcl_1 3:FORM:è_@cop_4 4:__@root
+
+  [5] score_bg = 16.80  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:è_@cop_2 2:__@root
+      espansa: 1:UPOS:PRON_@nsubj_4 2:UPOS:VERB_@acl:relcl_1 3:FORM:è_@cop_4 4:__@root
+
+
+# cxn_id = cxn_73
+# cxn_name = Speigare di essere senza soldi cxn-machine-readable-formalization: | cxn_73.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 6  (size=3, lexicalized=3)
+      base:    1:FORM:essere_@root 2:FORM:in_@case_3 3:FORM:bolletta_@obl_1
+      espansa: 1:FORM:essere_@root 2:FORM:in_@case_3 3:FORM:bolletta_@obl_1
+
+  [2] score_bg = 46.58  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:in_@case_2 2:FORM:bolletta_@root
+      espansa: 1:FORM:essere_@root 2:FORM:in_@case_3 3:FORM:bolletta_@obl_1
+
+  [3] score_bg = 46.58  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:essere_@root 2:FORM:bolletta_@obl_1
+      espansa: 1:FORM:essere_@root 2:FORM:in_@case_3 3:FORM:bolletta_@obl_1
+
+  [4] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_74
+# cxn_name = Stare" with Noun Phrase used as Adverb/Prepositional Phrase cxn-machine-readable-formalization: | cxn_74.conllc
+# n_frasi = 6
+
+  [1] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_76
+# cxn_name = Homolexemic binominal adverbial construction cxn-machine-readable-formalization: | cxn_76.conllc
+# n_frasi = 5
+
+  [1] score_bg = 8.36  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:UPOS:NOUN_@root 2:UPOS:ADP_@case_3 3:UPOS:NOUN_@nmod_1
+      espansa: 1:UPOS:NOUN_@root 2:UPOS:ADP_@case_3 3:UPOS:NOUN_@nmod_1
+
+  [2] score_bg = 8.28  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:NOUN_@root 2:UPOS:NOUN_@nmod_1
+      espansa: 1:UPOS:NOUN_@root 2:UPOS:ADP_@case_3 3:UPOS:NOUN_@nmod_1
+
+  [3] score_bg = 3.59  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:ADP_@case_2 2:UPOS:NOUN_@root
+      espansa: 1:UPOS:NOUN_@root 2:UPOS:ADP_@case_3 3:UPOS:NOUN_@nmod_1
+
+  [4] score_bg = 2.38  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:DET_@det_2 2:UPOS:NOUN_@root
+      espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@root
+
+  [5] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_77
+# cxn_name = Modal prepositional phrase cxn-machine-readable-formalization: | cxn_77.conllc
+# n_frasi = 5
+
+  [1] score_bg = 9.97  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:a_@case_2 2:UPOS:NOUN_@root
+      espansa: 1:FORM:a_@case_2 2:UPOS:NOUN_@root
+
+  [2] score_bg = 5.83  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:__@root 2:__@case_3 3:UPOS:NOUN_@obl_1
+      espansa: 1:__@root 2:__@case_3 3:UPOS:NOUN_@obl_1
+
+  [3] score_bg = 5.41  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:__@root 2:UPOS:NOUN_@obl_1
+      espansa: 1:__@root 2:__@case_3 3:UPOS:NOUN_@obl_1
+
+  [4] score_bg = 4.99  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:ADV_@advmod_2 2:UPOS:VERB_@root
+      espansa: 1:UPOS:ADV_@advmod_2 2:UPOS:VERB_@root
+
+  [5] score_bg = 0.60  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:UPOS:VERB_@root
+
+
+# cxn_id = cxn_78
+# cxn_name = Non stare a construction cxn-machine-readable-formalization: | cxn_78.conllc
+# n_frasi = 2
+
+  [1] score_bg = 18.64  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:non_@advmod_2 2:FORM:stare_@root 3:FORM:a_@mark_4 4:UPOS:VERB_@advcl_2
+      espansa: 1:FORM:non_@advmod_2 2:FORM:stare_@root 3:FORM:a_@mark_4 4:UPOS:VERB_@advcl_2
+
+  [2] score_bg = 18.64  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:non_@advmod_2 2:FORM:stare_@root 3:UPOS:VERB_@advcl_2 4:UPOS:NOUN_@obj_3
+      espansa: 1:FORM:non_@advmod_2 2:FORM:stare_@root 3:UPOS:VERB_@advcl_2 4:UPOS:NOUN_@obj_3
+
+  [3] score_bg = 18.64  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:metter_@root 2:FORM:a_@mark_3 3:UPOS:VERB_@xcomp_1
+      espansa: 1:FORM:metter_@root 2:FORM:a_@mark_3 3:UPOS:VERB_@xcomp_1
+
+  [4] score_bg = 18.64  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:non_@advmod_2 2:FORM:stare_@root 3:UPOS:VERB_@advcl_2
+      espansa: 1:FORM:non_@advmod_2 2:FORM:stare_@root 3:UPOS:VERB_@advcl_2 4:UPOS:NOUN_@obj_3
+
+  [5] score_bg = 18.64  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:stare_@root 2:FORM:a_@mark_3 3:UPOS:VERB_@advcl_1
+      espansa: 1:FORM:non_@advmod_2 2:FORM:stare_@root 3:FORM:a_@mark_4 4:UPOS:VERB_@advcl_2
+
+
+# cxn_id = cxn_79
+# cxn_name = Menare il can per l'aia cxn-machine-readable-formalization: | cxn_79.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 12  (size=6, lexicalized=6)
+      base:    1:FORM:menare_@root 2:FORM:il_@det_3 3:FORM:can_@obj_1 4:FORM:per_@case_6 5:FORM:l'_@det_6 6:FORM:aia_@obl_1
+      espansa: 1:FORM:menare_@root 2:FORM:il_@det_3 3:FORM:can_@obj_1 4:FORM:per_@case_6 5:FORM:l'_@det_6 6:FORM:aia_@obl_1
+
+  [2] score_bg = 46.58  score_lex = 10  (size=5, lexicalized=5)
+      base:    1:FORM:menare_@root 2:FORM:il_@det_3 3:FORM:can_@obj_1 4:FORM:per_@case_5 5:FORM:aia_@obl_1
+      espansa: 1:FORM:menare_@root 2:FORM:il_@det_3 3:FORM:can_@obj_1 4:FORM:per_@case_6 5:FORM:l'_@det_6 6:FORM:aia_@obl_1
+
+  [3] score_bg = 46.58  score_lex = 10  (size=5, lexicalized=5)
+      base:    1:FORM:menare_@root 2:FORM:can_@obj_1 3:FORM:per_@case_5 4:FORM:l'_@det_5 5:FORM:aia_@obl_1
+      espansa: 1:FORM:menare_@root 2:FORM:il_@det_3 3:FORM:can_@obj_1 4:FORM:per_@case_6 5:FORM:l'_@det_6 6:FORM:aia_@obl_1
+
+  [4] score_bg = 46.58  score_lex = 10  (size=5, lexicalized=5)
+      base:    1:FORM:menare_@root 2:FORM:il_@det_3 3:FORM:can_@obj_1 4:FORM:l'_@det_5 5:FORM:aia_@obl_1
+      espansa: 1:FORM:menare_@root 2:FORM:il_@det_3 3:FORM:can_@obj_1 4:FORM:per_@case_6 5:FORM:l'_@det_6 6:FORM:aia_@obl_1
+
+  [5] score_bg = 46.58  score_lex = 8  (size=4, lexicalized=4)
+      base:    1:FORM:menare_@root 2:FORM:per_@case_4 3:FORM:l'_@det_4 4:FORM:aia_@obl_1
+      espansa: 1:FORM:menare_@root 2:FORM:il_@det_3 3:FORM:can_@obj_1 4:FORM:per_@case_6 5:FORM:l'_@det_6 6:FORM:aia_@obl_1
+
+
+# cxn_id = cxn_8
+# cxn_name = V. (andare) + prep. (a) + N. ( monte, rotoli, e catafascio) cxn-machine-readable-formalization: | cxn_8.conllc
+# n_frasi = 2
+
+  [1] score_bg = 18.64  score_lex = 8  (size=6, lexicalized=2)
+      base:    1:UPOS:ADP_@case_2 2:__@obl_4 3:FORM:tutto_@nsubj_4 4:LEMMA:andare_@root 5:FORM:a_@case_6 6:__@obl_4
+      espansa: 1:UPOS:ADP_@case_2 2:__@obl_4 3:FORM:tutto_@nsubj_4 4:LEMMA:andare_@root 5:FORM:a_@case_6 6:__@obl_4
+
+  [2] score_bg = 18.64  score_lex = 7  (size=5, lexicalized=2)
+      base:    1:UPOS:PRON_@obl_3 2:FORM:tutto_@nsubj_3 3:LEMMA:andare_@root 4:FORM:a_@case_5 5:UPOS:NOUN_@obl_3
+      espansa: 1:UPOS:ADP_@case_2 2:UPOS:PRON_@obl_4 3:FORM:tutto_@nsubj_4 4:LEMMA:andare_@root 5:FORM:a_@case_6 6:UPOS:NOUN_@obl_4
+
+  [3] score_bg = 18.64  score_lex = 5  (size=4, lexicalized=1)
+      base:    1:__@obl_3 2:FORM:tutto_@nsubj_3 3:LEMMA:andare_@root 4:UPOS:NOUN_@obl_3
+      espansa: 1:UPOS:ADP_@case_2 2:__@obl_4 3:FORM:tutto_@nsubj_4 4:LEMMA:andare_@root 5:UPOS:ADP_@case_6 6:UPOS:NOUN_@obl_4
+
+  [4] score_bg = 18.64  score_lex = 5  (size=4, lexicalized=1)
+      base:    1:UPOS:PRON_@obl_2 2:LEMMA:andare_@root 3:FORM:a_@case_4 4:UPOS:NOUN_@obl_2
+      espansa: 1:UPOS:ADP_@case_2 2:UPOS:PRON_@obl_4 3:FORM:tutto_@nsubj_4 4:LEMMA:andare_@root 5:FORM:a_@case_6 6:UPOS:NOUN_@obl_4
+
+  [5] score_bg = 16.64  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:tutto_@nsubj_2 2:LEMMA:andare_@root 3:FORM:a_@case_4 4:UPOS:NOUN_@obl_2
+      espansa: 1:UPOS:ADP_@case_2 2:__@obl_4 3:FORM:tutto_@nsubj_4 4:LEMMA:andare_@root 5:FORM:a_@case_6 6:UPOS:NOUN_@obl_4
+
+
+# cxn_id = cxn_80
+# cxn_name = Homolexemic binominal adverbial construction #2 cxn-machine-readable-formalization: | cxn_80.conllc
+# n_frasi = 5
+
+  [1] score_bg = 21.14  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:su_@case_2 2:UPOS:NOUN_@root
+      espansa: 1:FORM:su_@case_2 2:UPOS:NOUN_@root
+
+  [2] score_bg = 3.75  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:__@obj_1
+      espansa: 1:UPOS:VERB_@root 2:__@obj_1
+
+  [3] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_81
+# cxn_name = battere un colpo cxn-machine-readable-formalization: | cxn_81.conllc
+# n_frasi = 4
+
+  [1] score_bg = 37.27  score_lex = 6  (size=3, lexicalized=3)
+      base:    1:FORM:battere_@root 2:FORM:un_@det_3 3:FORM:colpo_@obj_1
+      espansa: 1:FORM:battere_@root 2:FORM:un_@det_3 3:FORM:colpo_@obj_1
+
+  [2] score_bg = 37.27  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:battere_@root 2:FORM:colpo_@obj_1
+      espansa: 1:FORM:battere_@root 2:FORM:un_@det_3 3:FORM:colpo_@obj_1
+
+  [3] score_bg = 27.98  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:un_@det_2 2:FORM:colpo_@root
+      espansa: 1:FORM:battere_@root 2:FORM:un_@det_3 3:FORM:colpo_@obj_1
+
+  [4] score_bg = 0.48  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:UPOS:VERB_@root
+
+
+# cxn_id = cxn_83
+# cxn_name = prendere + nome cxn-machine-readable-formalization: | cxn_83.conllc
+# n_frasi = 3
+
+  [1] score_bg = 21.96  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:prendere_@root 2:UPOS:NOUN_@obj_1
+      espansa: 1:FORM:prendere_@root 2:UPOS:NOUN_@obj_1
+
+  [2] score_bg = 20.99  score_lex = 2  (size=1, lexicalized=1)
+      base:    1:FORM:prendere_@root
+      espansa: 1:FORM:prendere_@root 2:UPOS:NOUN_@obj_1
+
+
+# cxn_id = cxn_84
+# cxn_name = Costruzione enfatica con il doppio "che" cxn-machine-readable-formalization: | cxn_84.conllc
+# n_frasi = 5
+
+  [1] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_85
+# cxn_name = è ora di construction cxn-machine-readable-formalization: | cxn_85.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:è_@cop_2 2:FORM:ora_@root 3:FORM:di_@mark_4 4:UPOS:VERB_@acl_2
+      espansa: 1:FORM:è_@cop_2 2:FORM:ora_@root 3:FORM:di_@mark_4 4:UPOS:VERB_@acl_2
+
+  [2] score_bg = 46.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:è_@cop_2 2:FORM:ora_@root 3:UPOS:VERB_@acl_2
+      espansa: 1:FORM:è_@cop_2 2:FORM:ora_@root 3:FORM:di_@mark_4 4:UPOS:VERB_@acl_2
+
+  [3] score_bg = 46.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:ora_@root 2:FORM:di_@mark_3 3:UPOS:VERB_@acl_1
+      espansa: 1:FORM:è_@cop_2 2:FORM:ora_@root 3:FORM:di_@mark_4 4:UPOS:VERB_@acl_2
+
+  [4] score_bg = 46.58  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:è_@cop_2 2:FORM:ora_@root
+      espansa: 1:FORM:è_@cop_2 2:FORM:ora_@root 3:FORM:di_@mark_4 4:UPOS:VERB_@acl_2
+
+  [5] score_bg = 46.58  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:ora_@root 2:UPOS:VERB_@acl_1
+      espansa: 1:FORM:è_@cop_2 2:FORM:ora_@root 3:FORM:di_@mark_4 4:UPOS:VERB_@acl_2
+
+
+# cxn_id = cxn_86
+# cxn_name = motion verb + "a" + infinitive construction cxn-machine-readable-formalization: | cxn_86.conllc
+# n_frasi = 5
+
+  [1] score_bg = 29.97  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:LEMMA:a_@mark_3 3:UPOS:VERB_@advcl_1
+      espansa: 1:UPOS:VERB_@root 2:LEMMA:a_@mark_3 3:UPOS:VERB_@advcl_1
+
+  [2] score_bg = 16.35  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:a_@mark_2 2:UPOS:VERB_@root
+      espansa: 1:UPOS:VERB_@root 2:LEMMA:a_@mark_3 3:UPOS:VERB_@advcl_1
+
+  [3] score_bg = 13.14  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:VERB_@advcl_1
+      espansa: 1:UPOS:VERB_@root 2:__@mark_3 3:UPOS:VERB_@advcl_1
+
+  [4] score_bg = 0.60  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:UPOS:VERB_@root
+      espansa: 1:UPOS:VERB_@root 2:__@mark_3 3:UPOS:VERB_@advcl_1
+
+
+# cxn_id = cxn_87
+# cxn_name = anna ciarlantini cxn-machine-readable-formalization: | cxn_87.conllc
+# n_frasi = 2
+
+  [1] score_bg = 18.64  score_lex = 8  (size=6, lexicalized=2)
+      base:    1:FORM:visto_@advcl_6 2:FORM:che_@mark_5 3:UPOS:ADV_@advmod_5 4:LEMMA:essere_@aux_5 5:UPOS:VERB_@ccomp_1 6:__@root
+      espansa: 1:FORM:visto_@advcl_7 2:FORM:che_@mark_5 3:UPOS:ADV_@advmod_5 4:LEMMA:essere_@aux_5 5:UPOS:VERB_@ccomp_1 6:UPOS:ADV_@advmod_7 7:__@root
+
+  [2] score_bg = 18.64  score_lex = 8  (size=6, lexicalized=2)
+      base:    1:FORM:visto_@advcl_6 2:FORM:che_@mark_4 3:UPOS:ADV_@advmod_4 4:UPOS:VERB_@ccomp_1 5:UPOS:ADV_@advmod_6 6:__@root
+      espansa: 1:FORM:visto_@advcl_7 2:FORM:che_@mark_5 3:UPOS:ADV_@advmod_5 4:LEMMA:essere_@aux_5 5:UPOS:VERB_@ccomp_1 6:UPOS:ADV_@advmod_7 7:__@root
+
+  [3] score_bg = 18.64  score_lex = 8  (size=6, lexicalized=2)
+      base:    1:FORM:visto_@advcl_6 2:FORM:che_@mark_4 3:LEMMA:essere_@aux_4 4:UPOS:VERB_@ccomp_1 5:UPOS:ADV_@advmod_6 6:__@root
+      espansa: 1:FORM:visto_@advcl_7 2:FORM:che_@mark_5 3:UPOS:ADV_@advmod_5 4:LEMMA:essere_@aux_5 5:UPOS:VERB_@ccomp_1 6:UPOS:ADV_@advmod_7 7:__@root
+
+  [4] score_bg = 18.64  score_lex = 7  (size=5, lexicalized=2)
+      base:    1:FORM:visto_@root 2:FORM:che_@mark_5 3:UPOS:ADV_@advmod_5 4:LEMMA:essere_@aux_5 5:UPOS:VERB_@ccomp_1
+      espansa: 1:FORM:visto_@advcl_7 2:FORM:che_@mark_5 3:UPOS:ADV_@advmod_5 4:LEMMA:essere_@aux_5 5:UPOS:VERB_@ccomp_1 6:UPOS:ADV_@advmod_7 7:__@root
+
+  [5] score_bg = 18.64  score_lex = 7  (size=5, lexicalized=2)
+      base:    1:FORM:visto_@advcl_5 2:FORM:che_@mark_4 3:LEMMA:essere_@aux_4 4:UPOS:VERB_@ccomp_1 5:__@root
+      espansa: 1:FORM:visto_@advcl_7 2:FORM:che_@mark_5 3:UPOS:ADV_@advmod_5 4:LEMMA:essere_@aux_5 5:UPOS:VERB_@ccomp_1 6:UPOS:ADV_@advmod_7 7:__@root
+
+
+# cxn_id = cxn_88
+# cxn_name = prendere per" construction cxn-machine-readable-formalization: | cxn_88.conllc
+# n_frasi = 6
+
+  [1] score_bg = 7.74  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:__@mark_2 2:UPOS:VERB_@root
+      espansa: 1:__@mark_2 2:UPOS:VERB_@root
+
+  [2] score_bg = 3.67  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:ADV_@advmod_2 2:__@root
+      espansa: 1:UPOS:ADV_@advmod_2 2:__@root
+
+  [3] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_89
+# cxn_name = non fa che costruction cxn-machine-readable-formalization: | cxn_89.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:non_@advmod_2 2:FORM:fa_@root
+      espansa: 1:FORM:non_@advmod_2 2:FORM:fa_@root
+
+  [2] score_bg = 29.97  score_lex = 2  (size=1, lexicalized=1)
+      base:    1:FORM:fa_@root
+      espansa: 1:UPOS:ADV_@advmod_2 2:FORM:fa_@root
+
+  [3] score_bg = 14.04  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:che_@mark_2 2:UPOS:VERB_@root
+      espansa: 1:FORM:che_@mark_2 2:UPOS:VERB_@root
+
+  [4] score_bg = 3.75  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:__@obj_1
+      espansa: 1:UPOS:VERB_@root 2:__@obj_1
+
+
+# cxn_id = cxn_90
+# cxn_name = Construction of the pronominal verb "avercela con" cxn-machine-readable-formalization: | cxn_90.conllc
+# n_frasi = 3
+
+  [1] score_bg = 27.96  score_lex = 9  (size=5, lexicalized=4)
+      base:    1:FORM:aver_@root 2:FORM:ce_@expl_1 3:FORM:la_@obj_1 4:FORM:con_@case_5 5:__@obl_1
+      espansa: 1:FORM:aver_@root 2:FORM:ce_@expl_1 3:FORM:la_@obj_1 4:FORM:con_@case_5 5:__@obl_1
+
+  [2] score_bg = 27.96  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:aver_@root 2:FORM:ce_@expl_1 3:FORM:con_@case_4 4:__@obl_1
+      espansa: 1:FORM:aver_@root 2:FORM:ce_@expl_1 3:FORM:la_@obj_1 4:FORM:con_@case_5 5:__@obl_1
+
+  [3] score_bg = 27.96  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:aver_@root 2:FORM:ce_@expl_1 3:FORM:la_@obj_1 4:__@obl_1
+      espansa: 1:FORM:aver_@root 2:FORM:ce_@expl_1 3:FORM:la_@obj_1 4:FORM:con_@case_5 5:__@obl_1
+
+  [4] score_bg = 27.96  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:aver_@root 2:FORM:la_@obj_1 3:FORM:con_@case_4 4:__@obl_1
+      espansa: 1:FORM:aver_@root 2:FORM:ce_@expl_1 3:FORM:la_@obj_1 4:FORM:con_@case_5 5:__@obl_1
+
+  [5] score_bg = 27.96  score_lex = 6  (size=3, lexicalized=3)
+      base:    1:FORM:aver_@root 2:FORM:ce_@expl_1 3:FORM:la_@obj_1
+      espansa: 1:FORM:aver_@root 2:FORM:ce_@expl_1 3:FORM:la_@obj_1 4:FORM:con_@case_5 5:__@obl_1
+
+
+# cxn_id = cxn_91
+# cxn_name = Cadere in costruzione cxn-machine-readable-formalization: | cxn_91.conllc
+# n_frasi = 5
+
+  [1] score_bg = 41.58  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:cadere_@root 2:FORM:in_@case_3 3:UPOS:NOUN_@obl_1
+      espansa: 1:FORM:cadere_@root 2:FORM:in_@case_3 3:UPOS:NOUN_@obl_1
+
+  [2] score_bg = 41.58  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:cadere_@root 2:UPOS:NOUN_@obl_1
+      espansa: 1:FORM:cadere_@root 2:FORM:in_@case_3 3:UPOS:NOUN_@obl_1
+
+  [3] score_bg = 41.58  score_lex = 2  (size=1, lexicalized=1)
+      base:    1:FORM:cadere_@root
+      espansa: 1:FORM:cadere_@root 2:FORM:in_@case_3 3:UPOS:NOUN_@obl_1
+
+  [4] score_bg = 12.80  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:in_@case_2 2:UPOS:NOUN_@root
+      espansa: 1:FORM:cadere_@root 2:FORM:in_@case_3 3:UPOS:NOUN_@obl_1
+
+
+# cxn_id = cxn_92
+# cxn_name = X1 conjunction ri-X1 - construction cxn-machine-readable-formalization: | cxn_92.conllc
+# n_frasi = 4
+
+  [1] score_bg = 12.75  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:UPOS:VERB_@root 2:FORM:e_@cc_3 3:UPOS:VERB_@conj_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:e_@cc_3 3:UPOS:VERB_@conj_1
+
+  [2] score_bg = 10.99  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:e_@cc_2 2:UPOS:VERB_@root
+      espansa: 1:UPOS:VERB_@root 2:FORM:e_@cc_3 3:UPOS:VERB_@conj_1
+
+  [3] score_bg = 9.36  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:VERB_@root 2:UPOS:VERB_@conj_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:e_@cc_3 3:UPOS:VERB_@conj_1
+
+  [4] score_bg = 8.24  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:UPOS:DET_@det_2 2:UPOS:NOUN_@root 3:UPOS:ADJ_@amod_2
+      espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@root 3:UPOS:ADJ_@amod_2
+
+  [5] score_bg = 6.96  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:NOUN_@root 2:UPOS:ADJ_@amod_1
+      espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@root 3:UPOS:ADJ_@amod_2
+
+
+# cxn_id = cxn_93
+# cxn_name = Costruzione del più cxn-machine-readable-formalization: | cxn_93.conllc
+# n_frasi = 5
+
+  [1] score_bg = 27.54  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:più_@advmod_2 2:UPOS:VERB_@root
+      espansa: 1:FORM:più_@advmod_2 2:UPOS:VERB_@root
+
+  [2] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_94
+# cxn_name = Enfatizzazione ironica cxn-machine-readable-formalization: | cxn_94.conllc
+# n_frasi = 3
+
+  [1] score_bg = 24.96  score_lex = 5  (size=4, lexicalized=1)
+      base:    1:FORM:ma_@cc_3 2:LEMMA:essere_@cop_3 3:UPOS:ADJ_@root 4:UPOS:PRON_@nsubj_3
+      espansa: 1:FORM:ma_@cc_3 2:LEMMA:essere_@cop_3 3:UPOS:ADJ_@root 4:UPOS:PRON_@nsubj_3
+
+  [2] score_bg = 24.96  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:FORM:ma_@cc_2 2:UPOS:ADJ_@root 3:UPOS:PRON_@nsubj_2
+      espansa: 1:FORM:ma_@cc_3 2:LEMMA:essere_@cop_3 3:UPOS:ADJ_@root 4:UPOS:PRON_@nsubj_3
+
+  [3] score_bg = 21.96  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:FORM:ma_@cc_3 2:LEMMA:essere_@cop_3 3:UPOS:ADJ_@root
+      espansa: 1:FORM:ma_@cc_3 2:LEMMA:essere_@cop_3 3:UPOS:ADJ_@root 4:UPOS:PRON_@nsubj_3
+
+  [4] score_bg = 20.20  score_lex = 3  (size=3, lexicalized=0)
+      base:    1:LEMMA:essere_@cop_2 2:UPOS:ADJ_@root 3:UPOS:PRON_@nsubj_2
+      espansa: 1:FORM:ma_@cc_3 2:LEMMA:essere_@cop_3 3:UPOS:ADJ_@root 4:UPOS:PRON_@nsubj_3
+
+  [5] score_bg = 19.54  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:ma_@cc_2 2:UPOS:ADJ_@root
+      espansa: 1:FORM:ma_@cc_3 2:LEMMA:essere_@cop_3 3:UPOS:ADJ_@root 4:UPOS:PRON_@nsubj_3
+
+
+# cxn_id = cxn_95
+# cxn_name = avere + N" idiomatic construction cxn-machine-readable-formalization: | cxn_95.conllc
+# n_frasi = 5
+
+  [1] score_bg = 21.14  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:LEMMA:avere_@root 2:UPOS:NOUN_@obj_1
+      espansa: 1:LEMMA:avere_@root 2:UPOS:NOUN_@obj_1
+
+  [2] score_bg = 5.75  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:__@nsubj_2 2:UPOS:VERB_@root
+      espansa: 1:__@nsubj_2 2:UPOS:VERB_@root
+
+  [3] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_96
+# cxn_name = a fagiolo construction cxn-machine-readable-formalization: | cxn_96.conllc
+# n_frasi = 3
+
+  [1] score_bg = 27.96  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:UPOS:VERB_@root 2:FORM:a_@case_3 3:FORM:fagiolo_@obl_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:a_@case_3 3:FORM:fagiolo_@obl_1
+
+  [2] score_bg = 27.96  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:a_@case_2 2:FORM:fagiolo_@root
+      espansa: 1:UPOS:VERB_@root 2:FORM:a_@case_3 3:FORM:fagiolo_@obl_1
+
+  [3] score_bg = 27.96  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:UPOS:VERB_@root 2:FORM:fagiolo_@obl_1
+      espansa: 1:UPOS:VERB_@root 2:FORM:a_@case_3 3:FORM:fagiolo_@obl_1
+
+  [4] score_bg = 1.83  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:ADV_@advmod_2 2:__@root
+      espansa: 1:UPOS:ADV_@advmod_2 2:__@root
+
+  [5] score_bg = 1.24  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:DET_@det_2 2:__@root
+      espansa: 1:UPOS:DET_@det_2 2:__@root
+
+
+# cxn_id = cxn_97
+# cxn_name = perdere ART N cxn-machine-readable-formalization: | cxn_97.conllc
+# n_frasi = 5
+
+  [1] score_bg = 46.58  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:FORM:perdere_@root 2:LEMMA:il_@det_3 3:UPOS:NOUN_@obj_1
+      espansa: 1:FORM:perdere_@root 2:LEMMA:il_@det_3 3:UPOS:NOUN_@obj_1
+
+  [2] score_bg = 41.58  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:perdere_@root 2:UPOS:NOUN_@obj_1
+      espansa: 1:FORM:perdere_@root 2:LEMMA:il_@det_3 3:UPOS:NOUN_@obj_1
+
+  [3] score_bg = 2.07  score_lex = 2  (size=2, lexicalized=0)
+      base:    1:UPOS:DET_@det_2 2:__@root
+      espansa: 1:UPOS:DET_@det_2 2:__@root
+
+  [4] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
+      base:    1:__@root
+      espansa: 1:__@root
+
+
+# cxn_id = cxn_98
+# cxn_name = Paragone con "per quanto" cxn-machine-readable-formalization: | cxn_98.conllc
+# n_frasi = 2
+
+  [1] score_bg = 18.64  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:FORM:per_@case_2 2:FORM:quanto_@advmod_4 3:FORM:è_@cop_4 4:UPOS:ADJ_@root
+      espansa: 1:FORM:per_@case_2 2:FORM:quanto_@advmod_4 3:FORM:è_@cop_4 4:UPOS:ADJ_@root
+
+  [2] score_bg = 18.64  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:per_@case_2 2:FORM:quanto_@advmod_3 3:UPOS:ADJ_@root
+      espansa: 1:FORM:per_@case_2 2:FORM:quanto_@advmod_4 3:FORM:è_@cop_4 4:UPOS:ADJ_@root
+
+  [3] score_bg = 18.64  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:quanto_@advmod_3 2:FORM:è_@cop_3 3:UPOS:ADJ_@root
+      espansa: 1:FORM:per_@case_2 2:FORM:quanto_@advmod_4 3:FORM:è_@cop_4 4:UPOS:ADJ_@root
+
+  [4] score_bg = 16.64  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:per_@case_2 2:FORM:quanto_@root
+      espansa: 1:FORM:per_@case_2 2:FORM:quanto_@advmod_4 3:FORM:è_@cop_4 4:UPOS:ADJ_@root
+
+  [5] score_bg = 11.47  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:FORM:quanto_@advmod_2 2:UPOS:ADJ_@root
+      espansa: 1:FORM:per_@case_2 2:FORM:quanto_@advmod_4 3:FORM:è_@cop_4 4:UPOS:ADJ_@root
+
+
+# cxn_id = cxn_99
+# cxn_name = Farsi le ossa cxn-machine-readable-formalization: | cxn_99.conllc
+# n_frasi = 3
+
+  [1] score_bg = 27.96  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:LEMMA:fare_@root 2:UPOS:PRON_@expl_1 3:FORM:le_@det_4 4:FORM:ossa_@obj_1
+      espansa: 1:LEMMA:fare_@root 2:UPOS:PRON_@expl_1 3:FORM:le_@det_4 4:FORM:ossa_@obj_1
+
+  [2] score_bg = 27.96  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:LEMMA:fare_@root 2:FORM:le_@det_3 3:FORM:ossa_@obj_1
+      espansa: 1:LEMMA:fare_@root 2:UPOS:PRON_@expl_1 3:FORM:le_@det_4 4:FORM:ossa_@obj_1
+
+  [3] score_bg = 27.96  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:le_@det_2 2:FORM:ossa_@root
+      espansa: 1:LEMMA:fare_@root 2:UPOS:PRON_@expl_1 3:FORM:le_@det_4 4:FORM:ossa_@obj_1
+
+  [4] score_bg = 27.96  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:LEMMA:fare_@root 2:UPOS:PRON_@expl_1 3:FORM:ossa_@obj_1
+      espansa: 1:LEMMA:fare_@root 2:UPOS:PRON_@expl_1 3:FORM:le_@det_4 4:FORM:ossa_@obj_1
+
+  [5] score_bg = 27.96  score_lex = 3  (size=2, lexicalized=1)
+      base:    1:LEMMA:fare_@root 2:FORM:ossa_@obj_1
+      espansa: 1:LEMMA:fare_@root 2:UPOS:PRON_@expl_1 3:FORM:le_@det_4 4:FORM:ossa_@obj_1
+
+

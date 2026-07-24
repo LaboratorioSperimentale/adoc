@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_87_example_1_1
 # text = visto che ieri siamo andati al parco, oggi non ci andremo
 1	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	advcl	_	_
 2	che	che	SCONJ	CS	_	5	mark	_	_

@@ -1,0 +1,9 @@
+pattern {
+  A [upos=VERB];
+  B [upos=NOUN, Number=Sing];
+  C [lemma="dopo", upos=ADP, form=/dopo/i];
+  D [upos=NOUN, Number=Sing];
+  A -[obl]-> B;
+  D -[case]-> C;
+  B -[nmod]-> D;
+}

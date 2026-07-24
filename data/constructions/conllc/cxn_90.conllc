@@ -1,0 +1,8 @@
+# cxn_id = cxn_90
+# cxn_name = Construction of the pronominal verb "avercela con" cxn-machine-readable-formalization: | cxn_90.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	aver	_	VERB	VerbForm=Inf	0	root	_
+B	ce	ce	PRON	PronType=Prs	A	expl	_
+C	la	la	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	A	obj	_
+D	con	con	ADP	_	E	case	_
+E	_	_	_	_	A	obl	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItTenTen20
-# sent_id = 1
+# sent_id = cxn_143_example_5_1
 # text = Fissata la data dell'intervento( dopo circa 2 mesi) ho continuato a giocare, tanto rotto per rotto ....quando mi hanno operato la lesione era completa.
 1	Fissata	fissare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	_
 2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_

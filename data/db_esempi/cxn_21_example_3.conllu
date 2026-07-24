@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: CORIS
-# sent_id = 1
+# sent_id = cxn_21_example_3_1
 # text = [...] Si va a gestire, in qualche modo, qualcosa che poi tocca [...] e che condiziona la vita.
 1	[	[	PUNCT	FB	_	5	punct	_	SpaceAfter=No
 2	...	...	PUNCT	FF	_	5	punct	_	SpaceAfter=No

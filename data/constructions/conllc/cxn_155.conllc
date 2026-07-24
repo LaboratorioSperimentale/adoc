@@ -1,0 +1,5 @@
+# cxn_id = cxn_155
+# cxn_name = Verba Dicendi Explicit Construction cxn-machine-readable-formalization: | cxn_155.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	SCONJ	_	B	mark	_
+B	_	_	_	VerbForm=Fin	0	root	_

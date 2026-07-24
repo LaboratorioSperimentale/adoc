@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus CORIS
-# sent_id = 1
+# sent_id = cxn_34_example_3_1
 # text = Si chiama Ettore, ma ha un tallone d'Achille:
 1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
 2	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -17,7 +17,7 @@
 11	:	:	PUNCT	FC	_	2	punct	_	_
 
 # source = Corpus CORIS
-# sent_id = 2
+# sent_id = cxn_34_example_3_2
 # text = non gli toccate neanche per scherzo la sua piccola grande cooperativa.
 1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
 2	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_

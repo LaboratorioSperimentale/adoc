@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac
-# sent_id = 1
+# sent_id = cxn_149_example_1_1
 # text = Fredrik viveva vita normale e si era recato come sempre al turno
 1	Fredrik	Fredrik	PROPN	SP	_	2	nsubj	_	_
 2	viveva	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_

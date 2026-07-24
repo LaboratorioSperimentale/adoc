@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_157_example_5_1
 # text = Bevemmo una bella bottiglia di Gutturnio dei colli piacentini e, al momento di assaggiare la torta di mele che avevo preparato al pomeriggio, ne aprimmo un'altra, bella frizzantina, sempre dello stesso Gutturnio.
 1	Bevemmo	bevere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_

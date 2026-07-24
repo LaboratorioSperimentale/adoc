@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: KIP
-# sent_id = 1
+# sent_id = cxn_77_example_2_1
 # text = questo // boh // ma io in genere prendo quello dolce cosi' a sentimento quindi mi sembra di notare una una differenza // quindi non
 1	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	11	obj	_	_
 2	/	/	PUNCT	FF	_	1	punct	_	SpaceAfter=No

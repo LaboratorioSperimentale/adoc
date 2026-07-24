@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Forum di riflessioni.it 30.09.2007
-# sent_id = 1
+# sent_id = cxn_25_example_3_1
 # text = Allora che me lo dici a fare?
 1	Allora	allora	ADV	B	_	5	advmod	_	_
 2	che	che	SCONJ	CS	_	5	obj	_	_
@@ -14,7 +14,7 @@
 8	?	?	PUNCT	FS	_	5	punct	_	_
 
 # source = Forum di riflessioni.it 30.09.2007
-# sent_id = 2
+# sent_id = cxn_25_example_3_2
 # text = Vacci e non rompere.
 1	Vacci	vaccire	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	e	e	CCONJ	CC	_	4	cc	_	_

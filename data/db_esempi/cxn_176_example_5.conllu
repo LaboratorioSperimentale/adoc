@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_176_example_5_1
 # text = Ne uscirete vincitori.
 1	Ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	2	iobj	_	_
 2	uscirete	uscire	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_

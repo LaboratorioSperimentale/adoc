@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_141_example_5_1
 # text = Ancora ora scopro che il secondo nome di Giacomo è Matteo.
 1	Ancora	ancora	ADV	B	_	3	advmod	_	_
 2	ora	ora	ADV	B	_	3	advmod	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=149376816&End=149376819
-# sent_id = 1
+# sent_id = cxn_18_example_1_1
 # text = Un' amicizia che a poco a poco diventa fratellanza espansa, in una Gerusalemme di contrasti laceranti, di agguati a colpi di sassi e di proiettili.
 1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	amicizia	amicizia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_

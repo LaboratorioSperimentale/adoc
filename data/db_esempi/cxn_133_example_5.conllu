@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = corpus: itTenTen20
-# sent_id = 1
+# sent_id = cxn_133_example_5_1
 # text = la Forza scorre potente da queste parti e ha comprato casa sulle colline di Passignano sul Trasimeno.
 1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Forza	Forza	PROPN	SP	_	3	nsubj	_	_
@@ -28,7 +28,7 @@
 20	.	.	PUNCT	FS	_	3	punct	_	_
 
 # source = corpus: itTenTen20
-# sent_id = 2
+# sent_id = cxn_133_example_5_2
 # text = E che casa!
 1	E	e	CCONJ	CC	_	3	cc	_	_
 2	che	che	DET	DQ	PronType=Int	3	det	_	_
@@ -36,7 +36,7 @@
 4	!	!	PUNCT	FS	_	3	punct	_	_
 
 # source = corpus: itTenTen20
-# sent_id = 3
+# sent_id = cxn_133_example_5_3
 # text = Si tratta di un ex convento a due passi dal Lago Trasimeno e lo ha ristrutturato in grande stile.
 1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
 2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_

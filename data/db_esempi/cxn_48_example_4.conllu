@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CorpusPaisà (corpusitaliano.it)
-# sent_id = 1
+# sent_id = cxn_48_example_4_1
 # text = Ciao, sono Marìca, ho un amore spasmodico per i libri, e il rapporto spesso conflittuale con la lettura e la scrittura mi hanno spinto a fare sempre più uso dei dizionari e delle enciclopedie.
 1	Ciao	ciao	INTJ	I	_	4	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	1	punct	_	_

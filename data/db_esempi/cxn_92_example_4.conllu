@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: CORIS
-# sent_id = 1
+# sent_id = cxn_92_example_4_1
 # text = Hai ragione, lo so.
 1	Hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
@@ -12,7 +12,7 @@
 6	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = Corpus: CORIS
-# sent_id = 2
+# sent_id = cxn_92_example_4_2
 # text = Una dice e ridice le stesse cose, senza accorgersene.
 1	Una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	2	nsubj	_	SpacesAfter= 
 2	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_

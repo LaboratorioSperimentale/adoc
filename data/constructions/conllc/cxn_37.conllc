@@ -1,0 +1,7 @@
+# cxn_id = cxn_37
+# cxn_name = Art. indet.+N1+ Prep. "di" semplice o articolata + N2 cxn-machine-readable-formalization: | cxn_37.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	uno	DET	Definite=Ind|Number=Sing|PronType=Art	B	det	_
+B	_	_	NOUN	Number=Sing	0	root	_
+C	di	di	ADP	_	D	case	_
+D	_	_	NOUN	_	B	nmod	_

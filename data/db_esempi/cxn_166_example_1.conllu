@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = laRepubblica corpus
-# sent_id = 1
+# sent_id = cxn_166_example_1_1
 # text = Otto chili di troppo equivalgono al 25 per cento di probabilità in più di sviluppare una cardiopatia (cardio- + -pathy).
 1	Otto	otto	NUM	N	NumType=Card	2	nummod	_	_
 2	chili	chilo	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
@@ -32,7 +32,7 @@
 25	.	.	PUNCT	FS	_	5	punct	_	_
 
 # source = laRepubblica corpus
-# sent_id = 2
+# sent_id = cxn_166_example_1_2
 # text = 'Eight kilos too many equals a 25 per cent greater chance of developing heart disease'.
 1	'	'	PUNCT	FB	_	6	punct	_	SpaceAfter=No
 2	Eight	Eight	X	SW	Foreign=Yes	6	nsubj	_	_

@@ -1,0 +1,15 @@
+pattern {
+  A [lemma="vedere", upos=VERB, form=/visto/i, Gender=Masc, Number=Sing, Tense=Past, VerbForm=Part];
+  B [lemma="che", upos=SCONJ, form=/che/i];
+  C [upos=ADV];
+  D [lemma="essere", upos=AUX, Mood=Ind, Tense=Pres, VerbForm=Fin];
+  E [upos=VERB, Gender=Masc, Tense=Past, VerbForm=Part];
+  F [upos=ADV];
+  G [];
+  G -[advcl]-> A;
+  E -[mark]-> B;
+  E -[advmod]-> C;
+  E -[aux]-> D;
+  A -[ccomp]-> E;
+  G -[advmod]-> F;
+}

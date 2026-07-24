@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS2021
-# sent_id = 1
+# sent_id = cxn_113_example_5_1
 # text = MA ALLORA perché siamo qui?
 1	MA	ma	CCONJ	CC	_	4	cc	_	_
 2	ALLORA	allora	ADV	B	_	4	advmod	_	_
@@ -12,7 +12,7 @@
 6	?	?	PUNCT	FS	_	4	punct	_	_
 
 # source = CORIS2021
-# sent_id = 2
+# sent_id = cxn_113_example_5_2
 # text = S’è chiesta mezza aula di Montecitorio al quarantesimo minuto del discorso di Massimo D’Alema […].
 1	S’	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	SpaceAfter=No
 2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -40,7 +40,7 @@
 22	.	.	PUNCT	FS	_	3	punct	_	_
 
 # source = CORIS2021
-# sent_id = 3
+# sent_id = cxn_113_example_5_3
 # text = Minuto dopo minuto, numero su numero, il premier ha eretto l’ultimo baluardo, un muro di gomma sul quale far rimbalzare […] le ragioni mai nominate e neppure accennate per cui tutti erano stati convocati d’urgenza al capezzale del governo malato.
 1	Minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
 2	dopo	dopo	ADP	E	_	3	case	_	_
@@ -98,7 +98,7 @@
 51	.	.	PUNCT	FS	_	12	punct	_	_
 
 # source = CORIS2021
-# sent_id = 4
+# sent_id = cxn_113_example_5_4
 # text = Crisi, quale crisi?
 1	Crisi	crisi	NOUN	S	Gender=Fem	4	nmod	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	1	punct	_	_

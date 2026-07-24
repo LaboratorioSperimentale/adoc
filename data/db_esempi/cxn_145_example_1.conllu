@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS 2021
-# sent_id = 1
+# sent_id = cxn_145_example_1_1
 # text = Alessia era la capoclasse (head+class) e , come tale , aveva cercato di esercitare la sua autorità.
 1	Alessia	Alessia	PROPN	SP	_	4	nsubj	_	_
 2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
@@ -26,7 +26,7 @@
 20	.	.	PUNCT	FS	_	4	punct	_	_
 
 # source = CORIS 2021
-# sent_id = 2
+# sent_id = cxn_145_example_1_2
 # text = 'Alessia was the class leader and, as such, had tried to use her authority'.
 1	'	'	PUNCT	FB	_	6	punct	_	SpaceAfter=No
 2	Alessia	Alessia	PROPN	SP	_	6	nsubj	_	_

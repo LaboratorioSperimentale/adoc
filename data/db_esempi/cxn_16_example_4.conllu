@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=22292401&End=22292401 
-# sent_id = 1
+# sent_id = cxn_16_example_4_1
 # text = Dal fuoristrada, in men che non si dica scesero quattro ragazzi
 1-2	Dal	_	_	_	_	_	_	_	_
 1	Da	da	ADP	E	_	3	case	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://www.facebook.com/groups/altrogiornale.org/permalink/3035815399800810/
-# sent_id = 1
+# sent_id = cxn_75_example_4_1
 # text = Tra mille anni la nostra ERA sarà ricordata nei libri di storia come il "MONGOLITICO", e ci saranno i nuovi Alberto Angela a raccontarla....
 1	Tra	tra	ADP	E	_	3	case	_	_
 2	mille	mille	NUM	N	NumType=Card	3	nummod	_	_

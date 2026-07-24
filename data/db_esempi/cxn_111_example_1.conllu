@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_111_example_1_1
 # text = Non ti preoccupare, me la vedo io.
 1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
 2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	obj	_	_

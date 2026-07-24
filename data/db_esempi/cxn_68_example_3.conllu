@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = itTenTen20
-# sent_id = 1
+# sent_id = cxn_68_example_3_1
 # text = Personaggio ambiguo, inizialmente sembrava coinvolto nella morte della moglie, poi saltò fuori che stava cercando di proteggere la famiglia dal misterioso Comitato.
 1	Personaggio	personaggio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
 2	ambiguo	ambiguo	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	SpaceAfter=No

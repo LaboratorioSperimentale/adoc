@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_139_example_5_1
 # text = nel senso che la poesia narra fatti possibili , vuoi verosimili , vuoi necessari , ma sempre generali
 1-2	nel	_	_	_	_	_	_	_	_
 1	in	in	ADP	E	_	3	case	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS 2021
-# sent_id = 1
+# sent_id = cxn_70_example_2_1
 # text = Seppellimmo zia Letty in un camposanto (field+holy) fangoso e pieno di erbacce.
 1	Seppellimmo	seppellire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	zia	zia	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
@@ -21,7 +21,7 @@
 15	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = CORIS 2021
-# sent_id = 2
+# sent_id = cxn_70_example_2_2
 # text = 'We buried Aunt Letty in a muddy, weedy cemetery'
 1	'	'	PUNCT	FB	_	3	punct	_	SpaceAfter=No
 2	We	we	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_

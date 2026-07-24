@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = laRepubblica corpus
-# sent_id = 1
+# sent_id = cxn_145_example_3_1
 # text = Un impiegato potrebbe denunciare domani il capufficio (head+office) perché , non promovendolo , gli ha fatto venire l' ulcera.
 1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	impiegato	impiegato	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -28,7 +28,7 @@
 22	.	.	PUNCT	FS	_	4	punct	_	_
 
 # source = laRepubblica corpus
-# sent_id = 2
+# sent_id = cxn_145_example_3_2
 # text = 'An employee could sue his office manager tomorrow because, by not promoting him, he gave him an ulcer'.
 1	'	'	PUNCT	FB	_	5	punct	_	SpaceAfter=No
 2	An	ano	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_

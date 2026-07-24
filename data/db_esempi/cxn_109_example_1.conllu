@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = PAISA'
-# sent_id = 1
+# sent_id = cxn_109_example_1_1
 # text = A partire dal 1999 cominciò il declino del club del principato a discapito di società più forti come il FC Santa Coloma ed il Sant Julià.
 1	A	a	ADP	E	_	2	mark	_	SpacesAfter= 
 2	partire	partire	VERB	V	VerbForm=Inf	6	advcl	_	SpacesAfter= 

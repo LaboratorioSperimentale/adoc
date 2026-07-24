@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Dalle risposte al form: https://docs.google.com/forms/d/1qCaY3q50Aoxaze0p0IAug1DG6d64yfSc5qVdbfXpkYI/edit?usp=sharing 
-# sent_id = 1
+# sent_id = cxn_32_example_4_1
 # text = "Com'è che si chiama già quel posto dove hai mangiato bene?"
 1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
 2	Com'	come	ADV	B	_	3	advmod	_	SpaceAfter=No

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Web
-# sent_id = 1
+# sent_id = cxn_59_example_3_1
 # text = Il sistema non dovrà cadere nelle mani di individui animati da interessi particolari.
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_

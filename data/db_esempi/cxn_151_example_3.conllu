@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac
-# sent_id = 1
+# sent_id = cxn_151_example_3_1
 # text = Da decenni mettevo via materiale per un libro sulla città
 1	Da	da	ADP	E	_	2	case	_	_
 2	decenni	decennio	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_

@@ -1,0 +1,11 @@
+pattern {
+  A [upos=VERB];
+  B [upos=ADP];
+  C [];
+  D [upos=ADP];
+  E [upos=NOUN];
+  C -[case]-> B;
+  A -[obl]-> C;
+  E -[case]-> D;
+  C -[nmod]-> E;
+}

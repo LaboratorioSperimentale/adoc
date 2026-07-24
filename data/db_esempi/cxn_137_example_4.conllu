@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://www.orizzontescuola.it/insegnante-tenta-di-sedare-rissa-tra-studenti-ma-prende-un-pugno-in-faccia-rischia-di-perdere-un-occhio/ 
-# sent_id = 1
+# sent_id = cxn_137_example_4_1
 # text = Due studenti, di cui uno minorenne, sono venuti alle mani a seguito di una serie di insulti
 1	Due	due	NUM	N	NumType=Card	2	nummod	_	_
 2	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	SpaceAfter=No

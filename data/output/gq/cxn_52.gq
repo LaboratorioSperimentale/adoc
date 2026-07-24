@@ -1,0 +1,11 @@
+pattern {
+  A [lemma="avere", upos=VERB, Mood=Ind, Number=Sing, Tense=Pres, VerbForm=Fin];
+  B [lemma="il", upos=DET, form=/la/i, Definite=Def, Gender=Fem, Number=Sing, PronType=Art];
+  C [lemma="coda", upos=NOUN, form=/coda/i, Gender=Fem, Number=Sing];
+  D [lemma="di", upos=ADP, form=/di/i];
+  E [lemma="paglia", upos=NOUN, form=/paglia/i, Gender=Fem, Number=Sing];
+  C -[det]-> B;
+  A -[obj]-> C;
+  E -[case]-> D;
+  C -[nmod]-> E;
+}

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: itTenTen16
-# sent_id = 1
+# sent_id = cxn_4_example_2_1
 # text = I segni erano spariti e, cerca di qua, cerca di là, nessuno ha avuto il coraggio di continuare senza.
 1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	segni	segno	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_

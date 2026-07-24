@@ -1,0 +1,7 @@
+# cxn_id = cxn_54
+# cxn_name = se non V(esserefless)+ N/Avv V(esserefless) + N/Avv cxn-machine-readable-formalization: | cxn_54.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	se	se	SCONJ	_	C	mark	_
+B	non	non	ADV	PronType=Neg	C	advmod	_
+C	_	_	_	Number=Sing	D	advcl	_
+D	_	_	_	_	0	root	_

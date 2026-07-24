@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = la Repubblica 
-# sent_id = 1
+# sent_id = cxn_157_example_1_1
 # text = Per fortuna il campo è bello grande, anche il fondo è buono.
 1	Per	per	ADP	E	_	2	case	_	_
 2	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_

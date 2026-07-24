@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://www.corpusitaliano.it/static/documents/sources/780/7808466
-# sent_id = 1
+# sent_id = cxn_47_example_4_1
 # text = un'automobile di altri tempi che fa molto retrò
 1	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	automobile	automobile	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_23_example_2_1
 # text = Devo mettere le cose in chiaro:
 1	Devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	mettere	mettere	VERB	V	VerbForm=Inf	0	root	_	_
@@ -13,7 +13,7 @@
 7	:	:	PUNCT	FC	_	2	punct	_	_
 
 # source = 
-# sent_id = 2
+# sent_id = cxn_23_example_2_2
 # text = non posso più rischiare che Marco lo scopra.
 1	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
 2	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_

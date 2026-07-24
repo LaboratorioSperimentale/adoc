@@ -1,0 +1,9 @@
+pattern {
+  A [upos=NOUN];
+  B [lemma="dopo", upos=ADP, form=/dopo/i];
+  C [upos=NOUN];
+  C -[case]-> B;
+  A -[nmod]-> C;
+  A < B;
+  B < C;
+}

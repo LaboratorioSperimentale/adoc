@@ -1,0 +1,5 @@
+pattern {
+  A [];
+  B [lemma="piacere", upos=VERB, Mood=Ind, Person=3, Tense=Pres, VerbForm=Fin];
+  B -[iobj]-> A;
+}

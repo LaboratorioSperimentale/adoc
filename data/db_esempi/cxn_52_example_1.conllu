@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = conversazione whatsapp
-# sent_id = 1
+# sent_id = cxn_52_example_1_1
 # text = Perché ti scaldi tanto?
 1	Perché	perché	ADV	B	_	3	advmod	_	_
 2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
@@ -11,7 +11,7 @@
 5	?	?	PUNCT	FS	_	3	punct	_	_
 
 # source = conversazione whatsapp
-# sent_id = 2
+# sent_id = cxn_52_example_1_2
 # text = Hai la coda di paglia?
 1	Hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_

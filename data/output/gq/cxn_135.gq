@@ -1,0 +1,7 @@
+pattern {
+  A [upos=DET];
+  B [upos=NOUN];
+  C [Mood=Ind, Number=Sing, VerbForm=Fin];
+  B -[det]-> A;
+  B -[acl:relcl]-> C;
+}

@@ -1,0 +1,9 @@
+# cxn_id = cxn_8
+# cxn_name = V. (andare) + prep. (a) + N. ( monte, rotoli, e catafascio) cxn-machine-readable-formalization: | cxn_8.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	ADP	_	B	case	_
+B	_	_	_	Number=Sing	D	obl	LinearOrder=Variable
+C	tutto	tutto	PRON	Gender=Masc|Number=Sing|PronType=Ind	D	nsubj	_
+D	_	andare	VERB	_	0	root	_
+E	a	a	ADP	_	F	case	_
+F	_	_	_	Gender=Masc	D	obl	_

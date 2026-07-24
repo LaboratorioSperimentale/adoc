@@ -1,0 +1,5 @@
+# cxn_id = test-edges
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL
+A	_	andare	VERB	_	0	root
+B	a	a	ADP	_	C	mark
+C	_	_	VERB	VerbForm=Inf	A	xcomp

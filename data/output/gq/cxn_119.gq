@@ -1,0 +1,11 @@
+pattern {
+  A [upos=DET, Number=Sing, PronType=Art];
+  B [];
+  C [lemma="di", upos=ADP, form=/di/i];
+  D [lemma="il", upos=DET, form=/i/i, Definite=Def, Gender=Masc, Number=Plur, PronType=Art];
+  E [lemma="povero", upos=NOUN, form=/poveri/i, Gender=Masc, Number=Plur];
+  B -[det]-> A;
+  E -[case]-> C;
+  E -[det]-> D;
+  B -[nmod]-> E;
+}

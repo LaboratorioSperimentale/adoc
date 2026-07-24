@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_176_example_4_1
 # text = Ne uscirono illesi.
 1	Ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	2	iobj	_	_
 2	uscirono	uscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Glosbe dizionario online
-# sent_id = 1
+# sent_id = cxn_79_example_2_1
 # text = La sua segretaria continuava a menare il can per l'aia, dicendo che non poteva rispondere al telefono.
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_

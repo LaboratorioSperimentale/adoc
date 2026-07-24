@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_97_example_1_1
 # text = Sul finire del liceo mi aveva detto di avere passato un periodo critico, legato alle scelte della sua vita futura, probabilmente aveva conosciuto molto da vicino la sofferenza psichica e il rischio di perdere la strada.
 1-2	Sul	_	_	_	_	_	_	_	_
 1	Su	su	ADP	E	_	3	case	_	_

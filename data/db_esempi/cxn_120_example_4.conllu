@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Dialoghi tra persone
-# sent_id = 1
+# sent_id = cxn_120_example_4_1
 # text = Vado là di Mario e torno.
 1	Vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	là	là	ADV	B	_	1	advmod	_	_

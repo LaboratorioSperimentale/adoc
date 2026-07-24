@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: itWaC
-# sent_id = 1
+# sent_id = cxn_7_example_5_1
 # text = Ma magari prendo e mi vado a cercare una stanza in città.
 1	Ma	ma	CCONJ	CC	_	3	cc	_	_
 2	magari	magari	ADV	B	_	3	advmod	_	_

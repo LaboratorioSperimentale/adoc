@@ -1,0 +1,7 @@
+pattern {
+  A [upos=VERB, Mood=Ind, Number=Sing, Person=2, Tense=Pres, VerbForm=Fin];
+  B [lemma="a", upos=ADP, form=/a/i];
+  C [lemma="fare", upos=VERB, form=/fare/i, VerbForm=Inf];
+  C -[mark]-> B;
+  A -[xcomp]-> C;
+}

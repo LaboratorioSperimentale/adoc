@@ -1,0 +1,5 @@
+pattern {
+  A [upos=VERB];
+  B [lemma="già", upos=ADV, form=/già/i];
+  A -[advmod]-> B;
+}

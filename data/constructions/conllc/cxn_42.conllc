@@ -1,0 +1,6 @@
+# cxn_id = cxn_42
+# cxn_name = X(v) + prep. + X(n) cxn-machine-readable-formalization: | cxn_42.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	essere	essere	AUX	VerbForm=Inf	0	root	_
+B	_	_	ADP	_	C	case	_
+C	_	_	NOUN	_	A	obl	_

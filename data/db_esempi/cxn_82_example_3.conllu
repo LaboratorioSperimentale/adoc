@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Reverso context dizionario online
-# sent_id = 1
+# sent_id = cxn_82_example_3_1
 # text = Je suis censée être en train de prier.Adesso io dovrei essere in preghiera.
 1	Je	je	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	suis	suis	AUX	VA	_	3	aux	_	_

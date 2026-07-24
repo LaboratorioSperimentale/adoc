@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Repubblica
-# sent_id = 1
+# sent_id = cxn_121_example_2_1
 # text = ) fatta da tutti i terrestri che hanno voglia e capacita' di scrivere le cose che sanno e diffonderle a tutti . Sentite un po' , per esempio : " 1 . Biografia .
 1	)	)	PUNCT	FB	_	2	punct	_	_
 2	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -43,7 +43,7 @@
 36	.	.	PUNCT	FS	_	2	punct	_	_
 
 # source = Repubblica
-# sent_id = 2
+# sent_id = cxn_121_example_2_2
 # text = Nasce a Palermo in un quartiere povero :
 1	Nasce	nascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	a	a	ADP	E	_	3	case	_	_
@@ -55,7 +55,7 @@
 8	:	:	PUNCT	FC	_	1	punct	_	_
 
 # source = Repubblica
-# sent_id = 3
+# sent_id = cxn_121_example_2_3
 # text = La Kalsa , dove vivono tra gli altri Giovanni
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Kalsa	Kalsa	PROPN	SP	_	0	root	_	_

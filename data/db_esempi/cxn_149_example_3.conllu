@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Google
-# sent_id = 1
+# sent_id = cxn_149_example_3_1
 # text = Per correre una buona 10 km non è necessario usare dei mezzi di allenamento stratosferici.
 1	Per	per	ADP	E	_	2	mark	_	SpacesAfter= 
 2	correre	correre	VERB	V	VerbForm=Inf	9	advcl	_	_

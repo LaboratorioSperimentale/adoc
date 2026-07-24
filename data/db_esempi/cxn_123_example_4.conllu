@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS1980_2000
-# sent_id = 1
+# sent_id = cxn_123_example_4_1
 # text = Per fare le ore piccole, c 'è Jonnhos on the beach , a Sandy ground , la discoteca più scatenata , dove si ballano salsa e merengue in compagnia di rasta
 1	Per	per	ADP	E	_	2	mark	_	_
 2	fare	fare	VERB	V	VerbForm=Inf	9	advcl	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=82562945&End=82562948
-# sent_id = 1
+# sent_id = cxn_18_example_4_1
 # text = Per la prima volta dopo tanto tempo, pensò, si trovava a faccia a faccia con una donna che non desiderava niente da lui .
 1	Per	per	ADP	E	_	4	case	_	_
 2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_

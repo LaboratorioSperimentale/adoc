@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=1022449&End=1022450 
-# sent_id = 1
+# sent_id = cxn_53_example_2_1
 # text = Il risultato di tali opere è che radici di alberi , tuttora infestanti , minacciano con la loro penetrazione la stabilità dello stesso muro : e non essendo stato rimosso il terrapieno , peraltro sporchissimo , che ricopre il basamento di fronte alla strada , viene da chiedersi se e quali lavori di solidità siano stati operati dalla XII Ripartizione
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_

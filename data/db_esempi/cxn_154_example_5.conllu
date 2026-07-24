@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac
-# sent_id = 1
+# sent_id = cxn_154_example_5_1
 # text = Io non parlo di aumentare, parlo di ridistribuire gli orari
 1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_

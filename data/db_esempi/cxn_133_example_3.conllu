@@ -2,14 +2,14 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = corpus: itTenTen20
-# sent_id = 1
+# sent_id = cxn_133_example_3_1
 # text = che tajo!
 1	che	che	DET	DQ	PronType=Int	2	det	_	_
 2	tajo	tajo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	!	!	PUNCT	FS	_	2	punct	_	_
 
 # source = corpus: itTenTen20
-# sent_id = 2
+# sent_id = cxn_133_example_3_2
 # text = che figata, ragazzi!
 1	che	che	DET	DE	PronType=Exc	2	det	_	_
 2	figata	figata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
@@ -18,7 +18,7 @@
 5	!	!	PUNCT	FS	_	2	punct	_	_
 
 # source = corpus: itTenTen20
-# sent_id = 3
+# sent_id = cxn_133_example_3_3
 # text = se avessi la play 2 me lo comprerei anche a 200 euro!
 1	se	se	SCONJ	CS	_	2	mark	_	_
 2	avessi	avere	VERB	V	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	advcl	_	_
@@ -35,7 +35,7 @@
 13	!	!	PUNCT	FS	_	8	punct	_	_
 
 # source = corpus: itTenTen20
-# sent_id = 4
+# sent_id = cxn_133_example_3_4
 # text = ma che forza!
 1	ma	ma	CCONJ	CC	_	3	cc	_	_
 2	che	che	DET	DQ	PronType=Int	3	det	_	_
@@ -43,7 +43,7 @@
 4	!	!	PUNCT	FS	_	3	punct	_	_
 
 # source = corpus: itTenTen20
-# sent_id = 5
+# sent_id = cxn_133_example_3_5
 # text = avete visto i neri del ghetto con la macchina con le sospensioni truccate?
 1	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_

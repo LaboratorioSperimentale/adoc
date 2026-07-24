@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_144_example_2_1
 # text = Questo argomento non ha niente a che fare/vedere con lo scorso
 1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	argomento	argomento	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_

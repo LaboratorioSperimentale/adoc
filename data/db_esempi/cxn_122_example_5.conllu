@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = itWaC
-# sent_id = 1
+# sent_id = cxn_122_example_5_1
 # text = adesso ho terminato francese ... e x sabato termino anche latino ... così poi mi manca solo il libro di inglese e i 3 temi di italiano che x forza me li devo sbolognare in due settimane ...
 1	adesso	adesso	ADV	B	_	3	advmod	_	SpacesAfter= 
 2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	SpacesAfter= 

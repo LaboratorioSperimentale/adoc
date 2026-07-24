@@ -1,0 +1,6 @@
+# cxn_id = cxn_97
+# cxn_name = perdere ART N cxn-machine-readable-formalization: | cxn_97.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	perdere	perdere	VERB	VerbForm=Inf	0	root	_
+B	_	il	DET	Definite=Def|Number=Sing|PronType=Art	C	det	_
+C	_	_	NOUN	Number=Sing	A	obj	_

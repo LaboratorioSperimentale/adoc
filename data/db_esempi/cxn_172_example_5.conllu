@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_172_example_5_1
 # text = Nascere e morire erano cose standard, ora esistono più modi di far nascere e eventualmente scegliere di morire .
 1	Nascere	nascere	VERB	V	VerbForm=Inf	5	csubj	_	_
 2	e	e	CCONJ	CC	_	3	cc	_	_
@@ -26,7 +26,7 @@
 20	.	.	PUNCT	FS	_	5	punct	_	_
 
 # source = CORIS
-# sent_id = 2
+# sent_id = cxn_172_example_5_2
 # text = Non do alla posizione sull'embrione il valore di verità assoluta, ma la trovo coerente con le tesi sull'autonomia degli individui.
 1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
 2	do	dare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_

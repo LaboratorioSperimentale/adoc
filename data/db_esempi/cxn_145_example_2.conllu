@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS 2021
-# sent_id = 1
+# sent_id = cxn_145_example_2_1
 # text = Voi tutti al massimo potreste fare i capiclasse (heads+class) in una prima elementare con la didattica a distanza.
 1	Voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	7	nsubj	_	_
 2	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	7	nsubj	_	_
@@ -29,7 +29,7 @@
 22	.	.	PUNCT	FS	_	7	punct	_	_
 
 # source = CORIS 2021
-# sent_id = 2
+# sent_id = cxn_145_example_2_2
 # text = 'All of you could at best be class leader in a first grade class with distance learning'.
 1	'	'	PUNCT	FB	_	2	punct	_	SpaceAfter=No
 2	All	All	X	SW	Foreign=Yes	9	nsubj	_	_

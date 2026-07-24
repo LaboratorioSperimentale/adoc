@@ -1,0 +1,9 @@
+# cxn_id = cxn_132
+# cxn_name = In lungo e in largo cxn-machine-readable-formalization: | cxn_132.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	VERB	_	0	root	_
+B	in	in	ADP	_	C	case	_
+C	lungo	lungo	ADJ	Gender=Masc|Number=Sing	A	obl	_
+D	e	e	CCONJ	_	F	cc	_
+E	in	in	ADP	_	F	case	_
+F	largo	largo	NOUN	Gender=Masc|Number=Sing	C	conj	_

@@ -1,0 +1,8 @@
+# cxn_id = cxn_30
+# cxn_name = A scanso di X Prep a + N scanso + Prep di + X X --> N;  Det+ N; Det+Adj+N;  Det1 + Det2 + Adj1 + Adj2 + N; ... cxn-machine-readable-formalization: | cxn_30.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	a	a	ADP	_	B	case	_
+B	scanso	scanso	NOUN	Gender=Masc|Number=Sing	E	obl	LinearOrder=Variable
+C	di	di	ADP	_	D	case	_
+D	_	_	_	_	B	nmod	_
+E	_	_	VERB	Number=Sing|Tense=Past	0	root	_

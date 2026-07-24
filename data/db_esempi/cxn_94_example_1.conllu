@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Parlante nativo
-# sent_id = 1
+# sent_id = cxn_94_example_1_1
 # text = - Guarda che non si fa così.
 1	-	-	PUNCT	FF	_	2	punct	_	_
 2	Guarda	guardare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14,7 +14,7 @@
 8	.	.	PUNCT	FS	_	2	punct	_	_
 
 # source = Parlante nativo
-# sent_id = 2
+# sent_id = cxn_94_example_1_2
 # text = - Ma sarai bravo tu!
 1	-	-	PUNCT	FF	_	4	punct	_	_
 2	Ma	ma	CCONJ	CC	_	4	cc	_	_

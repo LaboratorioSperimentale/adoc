@@ -1,0 +1,7 @@
+# cxn_id = cxn_85
+# cxn_name = è ora di construction cxn-machine-readable-formalization: | cxn_85.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	è	essere	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	B	cop	_
+B	ora	ora	ADV	_	0	root	_
+C	di	di	ADP	_	D	mark	_
+D	_	_	VERB	VerbForm=Inf	B	acl	_

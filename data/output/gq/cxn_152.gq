@@ -1,0 +1,7 @@
+pattern {
+  A [upos=ADP];
+  B [lemma="il", upos=DET, Definite=Def, PronType=Art];
+  C [];
+  C -[case]-> A;
+  C -[det]-> B;
+}

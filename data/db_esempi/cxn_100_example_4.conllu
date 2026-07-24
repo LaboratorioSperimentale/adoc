@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = itWaC
-# sent_id = 1
+# sent_id = cxn_100_example_4_1
 # text = Ah, quanto sono stufo di tutte le cose inadeguate...
 1	Ah	ah	INTJ	I	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	1	punct	_	_

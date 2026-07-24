@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: KIP
-# sent_id = 1
+# sent_id = cxn_76_example_2_1
 # text = rotto // e i piatti i bicchieri rimasti sani che posera' mano a mano sulla tavola // raddrizzandosi di tratto in tratto si
 1	rotto	rompere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpacesBefore=\s\s\s
 2	/	/	PUNCT	FF	_	1	punct	_	SpaceAfter=No

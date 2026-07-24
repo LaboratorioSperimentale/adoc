@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_179_example_3_1
 # text = Mettici del tuo.
 1	Mettici	mettico	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
 2-3	del	_	_	_	_	_	_	_	_

@@ -1,0 +1,8 @@
+# cxn_id = cxn_67
+# cxn_name = me l- chiam- X? Formal variants: (e) (tu) quest-/quell- me l- chiam- X? (e) (tu) me l- chiam- X quest-/quell-? cxn-machine-readable-formalization: | cxn_67.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	questo	PRON	Number=Sing|PronType=Dem	D	dislocated	LinearOrder=Variable
+B	me	me	PRON	Number=Sing|Person=1|PronType=Prs	D	obl	_
+C	_	_	PRON	Number=Sing|Person=3|PronType=Prs	D	obj	_
+D	chiami	chiamare	VERB	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_
+E	_	_	_	_	D	xcomp	_

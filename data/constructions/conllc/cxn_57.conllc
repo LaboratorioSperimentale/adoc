@@ -1,0 +1,9 @@
+# cxn_id = cxn_57
+# cxn_name = V (morire) dalla voglia di Vx V + Prep1 + N + Prep2 + Vx cxn-machine-readable-formalization: | cxn_57.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	VERB	_	0	root	_
+B	da	da	ADP	_	D	case	_
+C	la	il	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	D	det	_
+D	voglia	voglia	NOUN	Gender=Fem|Number=Sing	A	obl	_
+E	di	di	ADP	_	F	mark	_
+F	_	_	VERB	VerbForm=Inf	D	acl	_

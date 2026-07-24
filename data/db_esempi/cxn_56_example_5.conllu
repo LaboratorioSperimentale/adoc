@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=164105295&End=164105295
-# sent_id = 1
+# sent_id = cxn_56_example_5_1
 # text = Il jazz, o qualsiasi cosa fosse, poteva adesso essere diffuso anche laddove non si sarebbe mai sognato di arrivare ( la radio era agli albori ) e, visto il successo, tutti cominciarono a incidere dischi e, da espressione di un manipolo di nottambuli reietti, spesso appartenenti a minoranze tenute sotto osservazione poliziesca, il jazz si fece oggetto commerciale e,apriti sesamo, fu accettato.
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	jazz	jazz	NOUN	S	Gender=Masc	12	nsubj:pass	_	SpaceAfter=No

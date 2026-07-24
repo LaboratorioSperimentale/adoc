@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac
-# sent_id = 1
+# sent_id = cxn_152_example_4_1
 # text = Bin Laden lancia minacce precise all' Occidente
 1	Bin	Bin	PROPN	SP	_	3	nsubj	_	_
 2	Laden	Laden	PROPN	SP	_	1	flat:name	_	_

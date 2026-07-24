@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus italiano Paisà https://www.corpusitaliano.it/static/documents/sources/781/7815988
-# sent_id = 1
+# sent_id = cxn_57_example_4_1
 # text = Ma come fare se non si ha tempo a disposizione per frequentare un master o un corso di formazione, oppure non si muore dalla voglia di tornare tra i banchi di scuola?
 1	Ma	ma	CCONJ	CC	_	3	cc	_	_
 2	come	come	ADV	B	_	3	advmod	_	_

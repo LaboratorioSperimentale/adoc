@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS [CORIS1980_2000]
-# sent_id = 1
+# sent_id = cxn_90_example_3_1
 # text = pur precisando di non il governo...
 1	pur	pure	ADV	B	_	2	advmod	_	_
 2	precisando	precisare	VERB	V	VerbForm=Ger	0	root	_	_

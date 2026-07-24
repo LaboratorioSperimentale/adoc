@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_95_example_2_1
 # text = il passare degli anni dimostrò a tutti che aveva stoffa in quel mestiere.
 1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	passare	passare	VERB	V	VerbForm=Inf	6	nsubj	_	_

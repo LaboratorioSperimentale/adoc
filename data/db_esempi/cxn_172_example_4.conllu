@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_172_example_4_1
 # text = L'ho ringraziato ancora una volta e, osservandolo meglio, non ho potuto fare a meno di restare colpita dalla sua bellezza.
 1	L'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
 2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -34,7 +34,7 @@
 26	.	.	PUNCT	FS	_	3	punct	_	_
 
 # source = CORIS
-# sent_id = 2
+# sent_id = cxn_172_example_4_2
 # text = L'avresti trovato affascinante anche tu:
 1	L'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
 2	avresti	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -45,7 +45,7 @@
 7	:	:	PUNCT	FC	_	3	punct	_	_
 
 # source = CORIS
-# sent_id = 3
+# sent_id = cxn_172_example_4_3
 # text = hai presente il tipo d' uomo con penetranti occhi verdi, naso importante e riccioli neri?
 1	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	presente	presente	ADJ	A	Number=Sing	1	xcomp	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS Time Slice:	CORIS1980_2000 SubCorpus :	STAMPA
-# sent_id = 1
+# sent_id = cxn_129_example_3_1
 # text = Mi spiego : non è che non vorrei farlo sapere per i giudizi politici , perché ho alle spalle una lunga interlocuzione con il mondo cattolico .
 1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
 2	spiego	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_

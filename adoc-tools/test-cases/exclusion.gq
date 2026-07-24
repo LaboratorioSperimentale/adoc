@@ -1,0 +1,6 @@
+pattern {
+  A [upos=NOUN];
+}
+without {
+  A -[amod]-> _EXCL1;
+}

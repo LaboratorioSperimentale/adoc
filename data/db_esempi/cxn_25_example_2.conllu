@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = sampdoria.forum.free.it 27.10.2020
-# sent_id = 1
+# sent_id = cxn_25_example_2_1
 # text = Ma cosa piangi a fare?
 1	Ma	ma	CCONJ	CC	_	3	cc	_	_
 2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
@@ -12,7 +12,7 @@
 6	?	?	PUNCT	FS	_	3	punct	_	_
 
 # source = sampdoria.forum.free.it 27.10.2020
-# sent_id = 2
+# sent_id = cxn_25_example_2_2
 # text = Mica pensavi di vincere eh?
 1	Mica	mica	ADV	B	_	2	advmod	_	_
 2	pensavi	pensare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	0	root	_	_

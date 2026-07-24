@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Parlante nativo
-# sent_id = 1
+# sent_id = cxn_93_example_1_1
 # text = Più si studia e più si impara
 1	Più	più	ADV	B	_	3	advmod	_	_
 2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_

@@ -1,0 +1,6 @@
+# cxn_id = cxn_172
+# cxn_name = trovare N (Avv) Agg cxn-machine-readable-formalization: | cxn_172.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	_	Number=Sing	B	obj	LinearOrder=Variable
+B	_	trovare	VERB	Number=Sing	0	root	_
+C	_	_	ADJ	Number=Sing	B	xcomp	_

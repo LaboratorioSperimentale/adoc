@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORPUS: CORIS1980_2000
-# sent_id = 1
+# sent_id = cxn_119_example_1_1
 # text = De Paola il cardine, ha 36 anni e mezzo, Neri la Fantasia, un tempo chiamato anche il Lentini dei poveri, 32 .
 1	De	De	PROPN	SP	_	6	nsubj	_	_
 2	Paola	Paola	PROPN	SP	_	1	flat:name	_	_

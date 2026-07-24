@@ -1,0 +1,5 @@
+pattern {
+  A [lemma="che", form=/che/i];
+  B [upos=VERB];
+  B -[mark]-> A;
+}

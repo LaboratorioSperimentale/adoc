@@ -1,0 +1,6 @@
+# cxn_id = cxn_143
+# cxn_name = ADJ-per-ADJ reduplicazione discontinua cxn-machine-readable-formalization: | cxn_143.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	VERB	_	0	root	_
+B	_	_	ADP	_	C	case	_
+C	_	_	NOUN	_	A	obl	LinearOrder=Variable

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: KIP
-# sent_id = 1
+# sent_id = cxn_77_example_1_1
 # text = io ero emozionatissimo ho letto // invece di di di di andare a braccio // di andare a braccio // praticamente ho parlato
 1	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpacesBefore=\s\s\s
 2	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	cop	_	_

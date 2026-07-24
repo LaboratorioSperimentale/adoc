@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus ItalianWeb2020 - Sketch Engine
-# sent_id = 1
+# sent_id = cxn_171_example_4_1
 # text = Questa situazione è difficile da gestire tanto fisicamente quanto psicologicamente.
 1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	SpacesBefore=\s
 2	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_

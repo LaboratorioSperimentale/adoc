@@ -1,0 +1,9 @@
+pattern {
+  A [lemma="non", upos=ADV, form=/non/i, PronType=Neg];
+  B [upos=AUX, Mood=Ind, Number=Sing, Tense=Pres, VerbForm=Fin];
+  C [lemma="mica", upos=ADV, form=/mica/i];
+  D [Number=Sing];
+  D -[advmod]-> A;
+  D -[aux]-> B;
+  D -[advmod]-> C;
+}

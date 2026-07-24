@@ -1,0 +1,7 @@
+# cxn_id = cxn_49
+# cxn_name = Vessere + AVVluogo + che + V2 cxn-machine-readable-formalization: | cxn_49.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	essere	AUX	Mood=Ind|VerbForm=Fin	0	root	_
+B	_	_	ADV	_	A	advmod	_
+C	che	che	_	_	D	mark	_
+D	_	_	VERB	Mood=Ind|VerbForm=Fin	A	advcl	_

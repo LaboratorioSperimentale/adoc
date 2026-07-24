@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_106_example_4_1
 # text = Afferrai al volo il biglietto e vi lessi una scarna comunicazione : "
 1	Afferrai	afferrare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
 2-3	al	_	_	_	_	_	_	_	_

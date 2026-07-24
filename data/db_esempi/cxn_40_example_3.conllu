@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_40_example_3_1
 # text = a volte ho come l'impressione che tutto vada a rotoli.
 1	a	a	ADP	E	_	2	case	_	_
 2	volte	volta	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_

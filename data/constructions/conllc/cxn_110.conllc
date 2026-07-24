@@ -1,0 +1,6 @@
+# cxn_id = cxn_110
+# cxn_name = tanto... quanto..." contrstuction cxn-machine-readable-formalization: | cxn_110.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	_	_	0	root	_
+B	_	_	DET	_	C	det	_
+C	_	_	NOUN	_	A	nsubj	LinearOrder=Variable

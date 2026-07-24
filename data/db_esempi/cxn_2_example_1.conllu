@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
-# sent_id = 1
+# sent_id = cxn_2_example_1_1
 # text = Sono già quattro volte che non riesco a superare l’ultimo esame dell’università.
 1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
 2	già	già	ADV	B	_	4	advmod	_	_
@@ -23,7 +23,7 @@
 16	.	.	PUNCT	FS	_	4	punct	_	_
 
 # source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
-# sent_id = 2
+# sent_id = cxn_2_example_1_2
 # text = Ma stavolta non c’è santo che tenga.
 1	Ma	ma	CCONJ	CC	_	5	cc	_	_
 2	stavolta	stavolta	ADV	B	_	5	advmod	_	SpacesAfter= 
@@ -36,7 +36,7 @@
 9	.	.	PUNCT	FS	_	5	punct	_	_
 
 # source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
-# sent_id = 3
+# sent_id = cxn_2_example_1_3
 # text = Giuro che ci riuscirò!
 1	Giuro	giurare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	che	che	SCONJ	CS	_	4	mark	_	_
@@ -45,7 +45,7 @@
 5	!	!	PUNCT	FS	_	1	punct	_	_
 
 # source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
-# sent_id = 4
+# sent_id = cxn_2_example_1_4
 # text = In questa occorrenza l'ostacolo (il santo) non è ovviamente responsabile del buon esito dell'esame del candidato:
 1	In	in	ADP	E	_	3	case	_	_
 2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -76,7 +76,7 @@
 24	:	:	PUNCT	FC	_	13	punct	_	_
 
 # source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
-# sent_id = 5
+# sent_id = cxn_2_example_1_5
 # text = viene inteso come ostacolo in quanto entità che nel folklore dal cielo favorirebbe o impedirebbe i successi degli uomini in terra.
 1	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
 2	inteso	intendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -108,7 +108,7 @@
 25	.	.	PUNCT	FS	_	2	punct	_	_
 
 # source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
-# sent_id = 6
+# sent_id = cxn_2_example_1_6
 # text = Nulla viene detto a proposito delle motivazioni del fallimento, ma pare chiara la volontà di riuscire al prossimo tentativo, eenfatizzando questa idea proprio con l'utilizzo di questa costruzione.
 1	Nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj:pass	_	_
 2	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_

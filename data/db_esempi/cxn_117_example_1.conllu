@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac Small
-# sent_id = 1
+# sent_id = cxn_117_example_1_1
 # text = Signore dei signori In Deuteronomio 10,17 Jahve è chiamato " il Signore dei signori " ( cf . 1 Timoteo 6,15 ) .
 1	Signore	signore	NOUN	S	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
 2-3	dei	_	_	_	_	_	_	_	_

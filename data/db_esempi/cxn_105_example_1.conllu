@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS  https://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=1032310&End=1032310
-# sent_id = 1
+# sent_id = cxn_105_example_1_1
 # text = non so se quello che per dire può consolarla , e consolarmi , ma io " me la sentivo " .
 1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
 2	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_

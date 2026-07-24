@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=29254770&End=29254770  
-# sent_id = 1
+# sent_id = cxn_14_example_1_1
 # text = Aveva saputo per lettera che lontano, a casa, la giovane moglie gli aveva appena partorito un figlio bello come il sole
 1	Aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
 2	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_

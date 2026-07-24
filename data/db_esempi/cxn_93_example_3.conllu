@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Parlante nativo
-# sent_id = 1
+# sent_id = cxn_93_example_3_1
 # text = Più viaggi più conosci
 1	Più	più	DET	DI	PronType=Ind	2	det	_	_
 2	viaggi	viaggio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_

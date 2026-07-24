@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://193.205.158.203/metamotorelessico/MetamotoreLessico.html
-# sent_id = 1
+# sent_id = cxn_38_example_1_1
 # text = Dare un colpo di telefono
 1	Dare	dare	VERB	V	VerbForm=Inf	0	root	_	_
 2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_

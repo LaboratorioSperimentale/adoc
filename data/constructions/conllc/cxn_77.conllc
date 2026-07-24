@@ -1,0 +1,5 @@
+# cxn_id = cxn_77
+# cxn_name = Modal prepositional phrase cxn-machine-readable-formalization: | cxn_77.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	a	a	ADP	_	B	case	_
+B	_	_	NOUN	Number=Sing	0	root	_

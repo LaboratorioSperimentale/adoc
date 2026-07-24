@@ -1,0 +1,6 @@
+# cxn_id = cxn_11
+# cxn_name = V+ADJ(numerale 2, 4)+N cxn-machine-readable-formalization: | cxn_11.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	VERB	VerbForm=Inf	0	root	_
+B	_	_	NUM	NumType=Card	C	nummod	_
+C	_	_	NOUN	Number=Plur	A	obj	_

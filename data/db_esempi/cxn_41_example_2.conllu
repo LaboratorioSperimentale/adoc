@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://badip.uni-graz.at/it/corpus-lip/cerca?view=vcerca
-# sent_id = 1
+# sent_id = cxn_41_example_2_1
 # text = Se ci danno l'elemosina allora tanto vale che stiano senza darci niente.
 1	Se	se	SCONJ	CS	_	3	mark	_	_
 2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	iobj	_	_

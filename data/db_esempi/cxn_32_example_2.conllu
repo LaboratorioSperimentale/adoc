@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Dalle risposte al form: https://docs.google.com/forms/d/1qCaY3q50Aoxaze0p0IAug1DG6d64yfSc5qVdbfXpkYI/edit?usp=sharing 
-# sent_id = 1
+# sent_id = cxn_32_example_2_1
 # text = "Cosa hai cucinato già per pranzo?" (=mi hai detto cosa avresti cucinato ma in questo momento mi sfugge)
 1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
 2	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	obj	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_175_example_2_1
 # text = Il gelato più freddo è meglio è.
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	gelato	gelato	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_

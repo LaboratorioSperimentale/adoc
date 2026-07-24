@@ -1,0 +1,5 @@
+# cxn_id = cxn_36
+# cxn_name = V + Avv (-mente) anche ordine inverso:Avv(-mente) + V cxn-machine-readable-formalization: | cxn_36.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	VERB	Mood=Ind|Number=Sing|Person=3|VerbForm=Fin	0	root	_
+B	_	_	ADV	_	A	advmod	LinearOrder=Variable

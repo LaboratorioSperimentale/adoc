@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: Italian parliamentary debates (ParlaMint 2.1, CoNLL format) 
-# sent_id = 1
+# sent_id = cxn_72_example_5_1
 # text = Ciò che più conta, però, è che la liquidità arrivi davvero alle imprese.
 1	Ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	nsubj	_	SpacesBefore= 
 2	che	che	PRON	PR	PronType=Rel	4	nsubj	_	SpacesAfter= 

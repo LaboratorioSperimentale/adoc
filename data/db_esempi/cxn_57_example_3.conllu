@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus italiano Paisà https://www.corpusitaliano.it/static/documents/sources/740/7406114
-# sent_id = 1
+# sent_id = cxn_57_example_3_1
 # text = A poco più di un mese dall'uscita americana, il cazzutissimo The Expendables ci regala oggi un lungo ed inedito spot tv, talmente testosteronico da farci morire dalla voglia di vederlo il prima possibile!
 1	A	a	ADP	E	_	3	case	_	_
 2	poco	poco	ADV	B	_	3	advmod	_	_

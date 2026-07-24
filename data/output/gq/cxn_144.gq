@@ -1,0 +1,17 @@
+pattern {
+  A [lemma="non", upos=ADV, form=/non/i, PronType=Neg];
+  B [lemma="avere", upos=VERB];
+  C [lemma="niente", upos=PRON, form=/niente/i, Gender=Masc, Number=Sing, PronType=Ind];
+  D [lemma="a", upos=ADP, form=/a/i, ExtPos=SCONJ];
+  E [lemma="che", upos=SCONJ, form=/che/i];
+  F [lemma="fare", upos=VERB, form=/fare/i, VerbForm=Inf];
+  G [lemma="con", upos=ADP, form=/con/i];
+  H [Gender=Masc, Number=Sing];
+  B -[advmod]-> A;
+  B -[obj]-> C;
+  F -[mark]-> D;
+  D -[fixed]-> E;
+  B -[advcl]-> F;
+  H -[case]-> G;
+  F -[obl]-> H;
+}

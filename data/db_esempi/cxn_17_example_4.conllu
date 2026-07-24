@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: CORIS
-# sent_id = 1
+# sent_id = cxn_17_example_4_1
 # text = Magari prima o poi anche lei sarebbe voluta fuggire.
 1	Magari	magari	ADV	B	_	9	advmod	_	SpacesAfter= 
 2	prima	prima	ADV	B	_	9	advmod	_	_

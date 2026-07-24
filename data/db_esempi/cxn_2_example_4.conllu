@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
-# sent_id = 1
+# sent_id = cxn_2_example_4_1
 # text = Perché consegnate sempre i compiti in ritardo?
 1	Perché	perché	ADV	B	_	2	advmod	_	_
 2	consegnate	consegnare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14,7 +14,7 @@
 8	?	?	PUNCT	FS	_	2	punct	_	_
 
 # source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
-# sent_id = 2
+# sent_id = cxn_2_example_4_2
 # text = Avete sempre una scusa da dire e questo non va bene.
 1	Avete	avere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	sempre	sempre	ADV	B	_	1	advmod	_	_
@@ -30,7 +30,7 @@
 12	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
-# sent_id = 3
+# sent_id = cxn_2_example_4_3
 # text = La prossima volta non c’è scusa che tenga!
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
@@ -44,7 +44,7 @@
 10	!	!	PUNCT	FS	_	6	punct	_	SpacesAfter= 
 
 # source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
-# sent_id = 4
+# sent_id = cxn_2_example_4_4
 # text = Chi non consegna i compiti in tempo sarà bocciato.
 1	Chi	chi	PRON	PR	Number=Sing|PronType=Rel	9	nsubj:pass	_	_
 2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
@@ -58,7 +58,7 @@
 10	.	.	PUNCT	FS	_	9	punct	_	_
 
 # source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
-# sent_id = 5
+# sent_id = cxn_2_example_4_5
 # text = Le scuse (verosimilmente addotte dagli alunni) non li esenteranno più dai loro obblighi.
 1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	scuse	scusa	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
@@ -82,7 +82,7 @@
 18	.	.	PUNCT	FS	_	12	punct	_	_
 
 # source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
-# sent_id = 6
+# sent_id = cxn_2_example_4_6
 # text = In questa circostanza il verbo tenere assume una sfumatura ancor più chiara di "reggere" (la scusa non regge, non è valida, non convince (più)).
 1	In	in	ADP	E	_	3	case	_	_
 2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_

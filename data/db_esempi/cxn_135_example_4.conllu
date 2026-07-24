@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = corpus: itTenTen20
-# sent_id = 1
+# sent_id = cxn_135_example_4_1
 # text = s'irradiano gentilmente nel silenzio della stanza colorando d'improvviso mura stinte e desolate;
 1	s'	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	SpaceAfter=No
 2	irradiano	irradiare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -25,7 +25,7 @@
 17	;	;	PUNCT	FC	_	2	punct	_	_
 
 # source = corpus: itTenTen20
-# sent_id = 2
+# sent_id = cxn_135_example_4_2
 # text = ah che pace che provo nel meditare la rinomata nonché saggia brevitas d'una giovane donna che carezza i silenzi
 1	ah	ah	INTJ	I	_	3	discourse	_	_
 2	che	che	DET	DE	PronType=Exc	3	det	_	_

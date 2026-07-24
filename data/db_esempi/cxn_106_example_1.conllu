@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Parlante nativo
-# sent_id = 1
+# sent_id = cxn_106_example_1_1
 # text = Ti va un caffè al volo?
 1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	iobj	_	_
 2	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_

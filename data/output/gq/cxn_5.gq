@@ -1,0 +1,9 @@
+pattern {
+  A [upos=ADJ, Number=Sing];
+  B [lemma="come", upos=ADP, form=/come/i];
+  C [lemma="il", upos=DET, form=/il/i, Definite=Def, Gender=Masc, Number=Sing, PronType=Art];
+  D [upos=NOUN, Gender=Masc, Number=Sing];
+  D -[case]-> B;
+  D -[det]-> C;
+  A -[obl]-> D;
+}

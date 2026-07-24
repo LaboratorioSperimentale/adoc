@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac
-# sent_id = 1
+# sent_id = cxn_159_example_4_1
 # text = Si considerano molluschi bivalvi (...) gli esemplari inferiori alle seguenti dimensioni:
 1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl:pass	_	_
 2	considerano	considerare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Glosbe dizionario online
-# sent_id = 1
+# sent_id = cxn_81_example_1_1
 # text = Comunque, puoi dirle di battere un colpo quando ha un minuto?
 1	Comunque	comunque	ADV	B	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	1	punct	_	_

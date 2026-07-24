@@ -1,0 +1,9 @@
+pattern {
+  A [upos=NUM, NumType=Card];
+  B [upos=NOUN];
+  C [lemma="in", upos=ADP, form=/in/i];
+  D [lemma="croce", upos=NOUN, form=/croce/i, Gender=Fem, Number=Sing];
+  B -[nummod]-> A;
+  D -[case]-> C;
+  B -[nmod]-> D;
+}

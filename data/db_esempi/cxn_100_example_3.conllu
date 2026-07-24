@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_100_example_3_1
 # text = Volevo dirti quanto sono fiera di te.
 1	Volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
 2-3	dirti	_	_	_	_	_	_	_	_

@@ -1,0 +1,7 @@
+# cxn_id = cxn_17
+# cxn_name = Adv1 Conj Adv2 prima o poi cxn-machine-readable-formalization: | cxn_17.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	prima	prima	ADV	_	D	advmod	LinearOrder=Variable
+B	o	o	CCONJ	_	C	cc	_
+C	poi	poi	ADV	_	A	conj	_
+D	_	_	_	_	0	root	_

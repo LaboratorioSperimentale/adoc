@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = italiano colloquiale
-# sent_id = 1
+# sent_id = cxn_51_example_1_1
 # text = non hai mica capito.
 1	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
 2	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_

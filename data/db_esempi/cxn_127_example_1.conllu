@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_127_example_1_1
 # text = "Che bei capelli che hai"
 1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
 2	Che	che	DET	DQ	PronType=Int	4	det	_	_

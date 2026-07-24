@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=17840964&End=17840964
-# sent_id = 1
+# sent_id = cxn_56_example_3_1
 # text = " Where are you from?" da dove venite?, chiede sospettoso uno dei capiclan.
 1	"	"	PUNCT	FB	_	2	punct	_	_
 2	Where	Where	X	SW	Foreign=Yes	0	root	_	_
@@ -26,7 +26,7 @@
 19	.	.	PUNCT	FS	_	2	punct	_	_
 
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=17840964&End=17840964
-# sent_id = 2
+# sent_id = cxn_56_example_3_2
 # text = Dall'Italia.
 1-2	Dall'	_	_	_	_	_	_	_	SpaceAfter=No
 1	Da	da	ADP	E	_	3	case	_	_
@@ -35,7 +35,7 @@
 4	.	.	PUNCT	FS	_	3	punct	_	_
 
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=17840964&End=17840964
-# sent_id = 3
+# sent_id = cxn_56_example_3_3
 # text = L'omone prima ci squadra e poi bontà sua ci gratifica di un:
 1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	omone	omone	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -53,7 +53,7 @@
 14	:	:	PUNCT	FC	_	5	punct	_	_
 
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=17840964&End=17840964
-# sent_id = 4
+# sent_id = cxn_56_example_3_4
 # text = "Italiani amici".
 1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
 2	Italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
@@ -62,7 +62,7 @@
 5	.	.	PUNCT	FS	_	2	punct	_	_
 
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=17840964&End=17840964
-# sent_id = 5
+# sent_id = cxn_56_example_3_5
 # text = Il tono non è esattamente amichevole ma funzione come un "apriti sesamo".
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	tono	tono	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
@@ -81,7 +81,7 @@
 15	.	.	PUNCT	FS	_	6	punct	_	_
 
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=17840964&End=17840964
-# sent_id = 6
+# sent_id = cxn_56_example_3_6
 # text = Ammessi, dunque.
 1	Ammessi	ammettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	1	punct	_	_

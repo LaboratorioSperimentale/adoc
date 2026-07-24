@@ -1,0 +1,7 @@
+pattern {
+  A [lemma="dare", upos=VERB];
+  B [lemma="di", upos=ADP, form=/di/i];
+  C [upos=NOUN, Number=Sing];
+  C -[case]-> B;
+  A -[obl]-> C;
+}

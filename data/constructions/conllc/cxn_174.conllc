@@ -1,0 +1,7 @@
+# cxn_id = cxn_174
+# cxn_name = Costruzione comparativa asimmetrica cxn-machine-readable-formalization: | cxn_174.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	più	più	ADV	_	B	advmod	_
+B	_	_	_	_	0	root	_
+C	che	che	CCONJ	_	D	cc	_
+D	_	_	_	_	B	conj	_

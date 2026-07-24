@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://www.europarl.europa.eu/doceo/document/CRE-6-2007-02-14_IT.html?redirect
-# sent_id = 1
+# sent_id = cxn_37_example_1_1
 # text = La strategia attuata nell’ambito del programma MINERVA [...] costituisce [...] anche una fonte di idee e ispirazione per gli altri Stati membri dell’Unione.
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpacesBefore= 
 2	strategia	strategia	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_

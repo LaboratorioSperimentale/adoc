@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Glosbe dizionario online
-# sent_id = 1
+# sent_id = cxn_73_example_5_1
 # text = Be’, c’è sicuramente una via di mezzo tra l’essere in bolletta e l’essere ricco sfondato, George.
 1	Be	Be	PROPN	SP	_	0	root	_	SpacesBefore=\s|SpaceAfter=No
 2	’	’	PUNCT	FB	_	1	punct	_	SpaceAfter=No

@@ -1,0 +1,9 @@
+# cxn_id = cxn_79
+# cxn_name = Menare il can per l'aia cxn-machine-readable-formalization: | cxn_79.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	menare	menare	VERB	VerbForm=Inf	0	root	_
+B	il	il	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	C	det	_
+C	can	cane	NOUN	Gender=Masc	A	obj	_
+D	per	per	ADP	_	F	case	_
+E	l'	il	DET	Definite=Def|Number=Sing|PronType=Art	F	det	_
+F	aia	aia	NOUN	Gender=Fem|Number=Sing	A	obl	_

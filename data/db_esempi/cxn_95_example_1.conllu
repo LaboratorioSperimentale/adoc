@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CODIS
-# sent_id = 1
+# sent_id = cxn_95_example_1_1
 # text = Le sue parole sono solo per i contadini, che hanno sete di vita
 1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_111_example_2_1
 # text = Che se la vedino loro!
 1	Che	che	PRON	PQ	PronType=Int	4	obj	_	_
 2	se	se	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
@@ -12,7 +12,7 @@
 6	!	!	PUNCT	FS	_	4	punct	_	_
 
 # source = 
-# sent_id = 2
+# sent_id = cxn_111_example_2_2
 # text = Non ne voglio sapere nulla.­
 1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
 2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	4	iobj	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: itTenTen20
-# sent_id = 1
+# sent_id = cxn_65_example_5_1
 # text = Ma Tonino un'idea ce l'ha:
 1	Ma	ma	CCONJ	CC	_	7	cc	_	_
 2	Tonino	Tonino	PROPN	SP	_	7	nsubj	_	_
@@ -14,7 +14,7 @@
 8	:	:	PUNCT	FC	_	7	punct	_	_
 
 # source = Corpus: itTenTen20
-# sent_id = 2
+# sent_id = cxn_65_example_5_2
 # text = dopo quell'8 per cento alle europee dovrete riconoscere, come minimo "questo certo che c'azzecca"
 1	dopo	dopo	ADP	E	_	3	case	_	_
 2	quell'	quello	DET	DD	Number=Sing|PronType=Dem	3	det	_	SpaceAfter=No

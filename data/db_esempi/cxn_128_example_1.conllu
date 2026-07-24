@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Esempio inventato
-# sent_id = 1
+# sent_id = cxn_128_example_1_1
 # text = Alla fine, non me ne fa niente di pulire il bagno.
 1-2	Alla	_	_	_	_	_	_	_	_
 1	A	a	ADP	E	_	3	case	_	_

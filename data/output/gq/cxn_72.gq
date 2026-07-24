@@ -1,0 +1,9 @@
+pattern {
+  A [upos=PRON, Gender=Masc, Number=Sing, PronType=Dem];
+  B [upos=VERB, Mood=Ind, Number=Sing, Tense=Pres, VerbForm=Fin];
+  C [lemma="essere", form=/è/i, Mood=Ind, Number=Sing, Person=3, Tense=Pres, VerbForm=Fin];
+  D [];
+  D -[nsubj]-> A;
+  A -[acl:relcl]-> B;
+  D -[cop]-> C;
+}

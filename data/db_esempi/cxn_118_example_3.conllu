@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = itTenTen20
-# sent_id = 1
+# sent_id = cxn_118_example_3_1
 # text = Se c'è da correre corro, se c'è da andare piano vado piano...
 1	Se	se	SCONJ	CS	_	3	mark	_	_
 2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
@@ -22,7 +22,7 @@
 16	.	.	PUNCT	FS	_	14	punct	_	_
 
 # source = itTenTen20
-# sent_id = 2
+# sent_id = cxn_118_example_3_2
 # text = non mi preoccupo mai di dover consumare poco, guido e basta.
 1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
 2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://aulalingue.scuola.zanichelli.it/benvenuti/2017/11/09/i-verbi-causativi/  
-# sent_id = 1
+# sent_id = cxn_108_example_1_1
 # text = Mia madre mi fa sempre mettere in ordine la mia stanza
 1	Mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	madre	madre	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_

@@ -1,0 +1,9 @@
+pattern {
+  A [lemma="per", upos=ADP, form=/per/i];
+  B [lemma="quanto", upos=ADV, form=/quanto/i, Gender=Masc, Number=Sing, PronType=Rel];
+  C [lemma="essere", upos=AUX, form=/è/i, Mood=Ind, Number=Sing, Person=3, Tense=Pres, VerbForm=Fin];
+  D [upos=ADJ, Number=Sing];
+  B -[case]-> A;
+  D -[advmod]-> B;
+  D -[cop]-> C;
+}

@@ -1,0 +1,7 @@
+pattern {
+  A [Number=Sing];
+  B [lemma="trovare", upos=VERB, Number=Sing];
+  C [upos=ADJ, Number=Sing];
+  B -[obj]-> A;
+  B -[xcomp]-> C;
+}

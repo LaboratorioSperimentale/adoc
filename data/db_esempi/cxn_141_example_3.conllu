@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_141_example_3_1
 # text = Ancora ora mi accorgo che Filippo non è venuto all'aperitivo.
 1	Ancora	ancora	ADV	B	_	4	advmod	_	_
 2	ora	ora	ADV	B	_	4	advmod	_	_

@@ -1,0 +1,9 @@
+# cxn_id = cxn_2
+# cxn_name = non V (ci+essere) - N - che V (tenere) cxn-machine-readable-formalization: | cxn_2.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	non	non	ADV	PronType=Neg	C	advmod	_
+B	c’	ci	PRON	PronType=Prs	C	expl	_
+C	è	essere	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_
+D	_	_	NOUN	Number=Sing	C	nsubj	_
+E	che	che	PRON	_	F	nsubj	_
+F	tenga	tenere	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	D	acl:relcl	_

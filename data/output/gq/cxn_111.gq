@@ -1,0 +1,7 @@
+pattern {
+  A [upos=PRON, PronType=Prs];
+  B [lemma="la", upos=PRON, form=/la/i, Gender=Fem, Number=Sing, Person=3, PronType=Prs];
+  C [lemma="vedere", upos=VERB];
+  C -[expl]-> A;
+  C -[obj]-> B;
+}

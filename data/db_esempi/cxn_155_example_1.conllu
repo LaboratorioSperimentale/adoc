@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac
-# sent_id = 1
+# sent_id = cxn_155_example_1_1
 # text = adesso Giorgio gli spiegherà che sono qui per partire insieme a loro
 1	adesso	adesso	ADV	B	_	4	advmod	_	_
 2	Giorgio	Giorgio	PROPN	SP	_	4	nsubj	_	_

@@ -1,0 +1,6 @@
+# cxn_id = cxn_178
+# cxn_name = Meglio X che Y cxn-machine-readable-formalization: | cxn_178.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	_	_	0	root	_
+B	che	che	CCONJ	_	C	cc	_
+C	_	_	_	_	A	conj	_

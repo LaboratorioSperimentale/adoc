@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: Paisà (https://www.corpusitaliano.it/static/documents/sources/116/1166370)
-# sent_id = 1
+# sent_id = cxn_76_example_3_1
 # text = La Type 91 del 1907 altro non era che una versione spider della Type 81, con la quale condivideva telaio e meccanica.
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Type	Type	PROPN	SP	_	12	nsubj	_	_
@@ -34,7 +34,7 @@
 26	.	.	PUNCT	FS	_	12	punct	_	_
 
 # source = Corpus: Paisà (https://www.corpusitaliano.it/static/documents/sources/116/1166370)
-# sent_id = 2
+# sent_id = cxn_76_example_3_2
 # text = La Type 91 era però una spider solo fino ad un certo punto:
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Type	Type	PROPN	SP	_	7	nsubj	_	_
@@ -52,7 +52,7 @@
 14	:	:	PUNCT	FC	_	7	punct	_	_
 
 # source = Corpus: Paisà (https://www.corpusitaliano.it/static/documents/sources/116/1166370)
-# sent_id = 3
+# sent_id = cxn_76_example_3_3
 # text = infatti, oltre ai due posti classici di una spider, ricopribili tramite una capote in tela, la Type 91 offriva addirittura altri 4 posti di fortuna, situati nella parte posteriore della vettura e sistemati su due file disposte schiena contro schiena.
 1	infatti	infatti	ADV	B	_	23	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	1	punct	_	_

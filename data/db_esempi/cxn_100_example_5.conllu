@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = itWaC
-# sent_id = 1
+# sent_id = cxn_100_example_5_1
 # text = Mamma mia quanto sono migliorata e quanto sono pentita di non averlo fatto prima!
 1	Mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	5	vocative	_	_
 2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	1	det:poss	_	_

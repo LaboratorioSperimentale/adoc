@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Esempio inventato da me
-# sent_id = 1
+# sent_id = cxn_110_example_1_1
 # text = Questa borsa è tanto bella quanto costosa
 1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	borsa	borsa	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_

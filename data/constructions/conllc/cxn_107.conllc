@@ -1,0 +1,5 @@
+# cxn_id = cxn_107
+# cxn_name = Fare finta cxn-machine-readable-formalization: | cxn_107.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	fare	VERB	_	0	root	_
+B	finta	finta	NOUN	Gender=Fem|Number=Sing	A	obj	_

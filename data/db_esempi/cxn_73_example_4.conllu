@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Glosbe dizionario online
-# sent_id = 1
+# sent_id = cxn_73_example_4_1
 # text = Non dirmi cosa significa essere in bolletta finché non sei stato in bolletta in una grande città
 1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	SpacesBefore= \s\s
 2-3	dirmi	_	_	_	_	_	_	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: CORIS
-# sent_id = 1
+# sent_id = cxn_7_example_4_1
 # text = […] ogni tanto qualcuno chiama per un intervento e allora prendo su e vado a fare il mio dovere.
 1	[	[	PUNCT	FB	_	2	punct	_	SpaceAfter=No
 2	…	…	PUNCT	FF	_	7	punct	_	SpaceAfter=No

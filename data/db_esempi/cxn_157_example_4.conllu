@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_157_example_4_1
 # text = E adesso beva il caffè bello caldo.
 1	E	e	CCONJ	CC	_	3	cc	_	SpacesBefore= 
 2	adesso	adesso	ADV	B	_	3	advmod	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = itWaC
-# sent_id = 1
+# sent_id = cxn_122_example_2_1
 # text = per chi è interessato[...] potrebbe essere un buon motivo per sbolognare il vecchio botolone in vista dell' acquisto del 360.
 1	per	per	ADP	E	_	2	case	_	SpacesAfter= 
 2	chi	chi	PRON	PR	PronType=Rel	12	obl	_	SpacesAfter= 

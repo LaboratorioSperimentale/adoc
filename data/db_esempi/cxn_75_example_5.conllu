@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://it.arti.musica.strumenti.chitarra.narkive.com/KsyTdOEU/i-mongospastici-di-iamsc
-# sent_id = 1
+# sent_id = cxn_75_example_5_1
 # text = ciao sono un mongospastico e mi sento infastidito dal tuo messaggio.
 1	ciao	ciao	INTJ	I	_	4	discourse	_	_
 2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_

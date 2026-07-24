@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_125_example_4_1
 # text = Allora quasi quasi darei un'occhiata.
 1	Allora	allora	ADV	B	_	4	advmod	_	_
 2	quasi	quasi	ADV	B	_	4	advmod	_	_

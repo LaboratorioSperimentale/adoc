@@ -1,0 +1,8 @@
+# cxn_id = cxn_18
+# cxn_name = Prepx + Avv/Sostx + Prepy+ Avv/Sosty cxn-machine-readable-formalization: | cxn_18.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	VERB	_	0	root	_
+B	_	_	ADP	_	C	case	_
+C	_	_	_	_	A	obl	LinearOrder=Variable
+D	_	_	ADP	_	E	case	_
+E	_	_	NOUN	_	C	nmod	_

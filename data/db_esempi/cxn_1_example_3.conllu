@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = italiano colloquiale
-# sent_id = 1
+# sent_id = cxn_1_example_3_1
 # text = non vedo perchè dovrei andare
 1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
 2	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_

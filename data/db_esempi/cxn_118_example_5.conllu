@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = itTenTen20
-# sent_id = 1
+# sent_id = cxn_118_example_5_1
 # text = Te lo chiedo, perchè dormire dormo , però, a parte i soliti due risvegli notturni...
 1	Te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	iobj	_	_
 2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_

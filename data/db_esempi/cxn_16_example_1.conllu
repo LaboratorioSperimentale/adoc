@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=21030163&End=21030163
-# sent_id = 1
+# sent_id = cxn_16_example_1_1
 # text = Non c'era nemmeno una panchina in giro per riposarmi un po', così mi sedetti per terra appoggiando la schiena contro un albero del viale e come mi succedeva spesso ultimamente mi ritrovai nel mondo dei sogni in men che non si dica
 1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
 2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No

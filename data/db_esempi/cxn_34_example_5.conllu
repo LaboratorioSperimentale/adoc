@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus CORIS
-# sent_id = 1
+# sent_id = cxn_34_example_5_1
 # text = Lella Costa, attrice milanese, si inalbera:
 1	Lella	Lella	PROPN	SP	_	8	nsubj	_	_
 2	Costa	Costa	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
@@ -15,7 +15,7 @@
 9	:	:	PUNCT	FC	_	8	punct	_	_
 
 # source = Corpus CORIS
-# sent_id = 2
+# sent_id = cxn_34_example_5_2
 # text = " Votare per quella buffonata ?
 1	"	"	PUNCT	FB	_	2	punct	_	_
 2	Votare	votare	VERB	V	VerbForm=Inf	0	root	_	_
@@ -25,7 +25,7 @@
 6	?	?	PUNCT	FS	_	2	punct	_	_
 
 # source = Corpus CORIS
-# sent_id = 3
+# sent_id = cxn_34_example_5_3
 # text = Ma neanche per idea".
 1	Ma	ma	CCONJ	CC	_	4	cc	_	_
 2	neanche	neanche	ADV	BN	PronType=Neg	4	advmod	_	_

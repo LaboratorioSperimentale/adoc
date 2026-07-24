@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS 2021
-# sent_id = 1
+# sent_id = cxn_70_example_1_1
 # text = L ' Italia si notava bene sul mappamondo (map+world) che era uno stivale 'It was clear on the globe that Italy was a boot'.
 1	L	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	'	'	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_

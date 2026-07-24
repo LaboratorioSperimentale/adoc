@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS2021
-# sent_id = 1
+# sent_id = cxn_161_example_2_1
 # text = E, al contrario, il mister argentino continua ad accumulare errori su errori, cambiando ogni settimana le carte in tavola, senza trovare, naturalmente, il rimedio.
 1	E	e	CCONJ	CC	_	10	cc	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	10	punct	_	_

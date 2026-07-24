@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac
-# sent_id = 1
+# sent_id = cxn_155_example_3_1
 # text = Porfirio racconta che Plotino non confidò a nessuno la sua data di nascita
 1	Porfirio	Porfirio	PROPN	SP	_	2	nsubj	_	_
 2	racconta	raccontare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_

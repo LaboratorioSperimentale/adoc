@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_6_example_3_1
 # text = Parlare ai sordi
 1	Parlare	parlare	VERB	V	VerbForm=Inf	0	root	_	_
 2-3	ai	_	_	_	_	_	_	_	_

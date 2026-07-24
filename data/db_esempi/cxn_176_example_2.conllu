@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_176_example_2_1
 # text = Ne è uscita più forte di prima.
 1	Ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
 2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_

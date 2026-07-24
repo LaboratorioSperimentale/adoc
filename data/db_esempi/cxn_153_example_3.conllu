@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac
-# sent_id = 1
+# sent_id = cxn_153_example_3_1
 # text = io e Patrizia abbiamo sperato che tali notizie non giungessero a casa
 1	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 2	e	e	CCONJ	CC	_	3	cc	_	_

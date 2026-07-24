@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_97_example_3_1
 # text = Sapeva che persino i migliori chef arrivano a perdere la tramontana.
 1	Sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	che	che	SCONJ	CS	_	7	mark	_	_

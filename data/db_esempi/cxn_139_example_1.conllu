@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_139_example_1_1
 # text = l ' aspirazione - vuoi per tradizione , vuoi per leggibilità , vuoi per l ' affetto verso il profumo di carta , inchiostro e legatura - sembra proprio essere sempre quella , andare in libreria .
 1	l	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 2	'	'	PUNCT	FB	_	3	punct	_	_

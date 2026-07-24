@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: iTenTen20
-# sent_id = 1
+# sent_id = cxn_67_example_4_1
 # text = A quanto pare è finita.
 1	A	a	ADP	E	_	2	case	_	_
 2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	5	obl	_	_
@@ -12,7 +12,7 @@
 6	.	.	PUNCT	FS	_	5	punct	_	_
 
 # source = Corpus: iTenTen20
-# sent_id = 2
+# sent_id = cxn_67_example_4_2
 # text = Hm, dai, è andata meglio del previsto.
 1	Hm	Hm	PROPN	SP	_	7	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	1	punct	_	_
@@ -30,7 +30,7 @@
 12	.	.	PUNCT	FS	_	7	punct	_	_
 
 # source = Corpus: iTenTen20
-# sent_id = 3
+# sent_id = cxn_67_example_4_3
 # text = Il "previsto" consisteva nel dover far paura ad un vecchietto, mentre ti sei ritrovato a combattere, procurandoti un taglio non trascurabile sul mento.
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
@@ -68,7 +68,7 @@
 31	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter= 
 
 # source = Corpus: iTenTen20
-# sent_id = 4
+# sent_id = cxn_67_example_4_4
 # text = Questo me lo chiami "meglio del previsto"?
 1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	SpacesAfter= 
 2	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	_

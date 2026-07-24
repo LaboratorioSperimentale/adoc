@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: CORIS
-# sent_id = 1
+# sent_id = cxn_9_example_4_1
 # text = [...] personaggi simil-Humphrey Bogart in “Casablanca”
 1	[	[	PUNCT	FB	_	4	punct	_	SpaceAfter=No
 2	...	...	PUNCT	FF	_	4	punct	_	SpaceAfter=No

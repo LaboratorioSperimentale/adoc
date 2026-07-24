@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = itWaC
-# sent_id = 1
+# sent_id = cxn_122_example_1_1
 # text = Cambiamenti sostanziali di questa realtà non se ne prevedono neanche per il futuro alla faccia delle promesse roboanti del direttore generale forse condizionato dal programma elettorale dell'Assessore alla Sanità che prevede di sbolognare la patata difficile della psichiatria dalle Aziende Ospedaliere alle ASL .
 1	Cambiamenti	cambiamento	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	SpacesAfter= 
 2	sostanziali	sostanziale	ADJ	A	Number=Plur	1	amod	_	SpacesAfter= 

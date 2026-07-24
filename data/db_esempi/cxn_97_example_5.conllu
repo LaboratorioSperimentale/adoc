@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_97_example_5_1
 # text = Bersani richiama all'ordine:
 1	Bersani	Bersani	PROPN	SP	_	2	nsubj	_	_
 2	richiama	richiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -13,7 +13,7 @@
 6	:	:	PUNCT	FC	_	2	punct	_	_
 
 # source = CORIS
-# sent_id = 2
+# sent_id = cxn_97_example_5_2
 # text = il turbine di alleanze e di polemiche che sta investendo le nostre tlc non farà perdere la rotta al Governo.
 1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	turbine	turbine	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_

@@ -1,0 +1,9 @@
+pattern {
+  A [lemma="cantare", upos=VERB, form=/cantare/i, VerbForm=Inf];
+  B [lemma="come", upos=ADP, form=/come/i];
+  C [lemma="uno", upos=DET, Definite=Ind, Number=Sing, PronType=Art];
+  D [upos=NOUN, Number=Sing];
+  D -[case]-> B;
+  D -[det]-> C;
+  A -[obl]-> D;
+}

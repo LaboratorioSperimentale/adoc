@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS 2021
-# sent_id = 1
+# sent_id = cxn_146_example_2_1
 # text = A ridosso della parete ci sono la cucina a gas , lo scaldabagno (to heat+bathroom), la lavastoviglie (to wash+crockery).
 1	A	a	ADP	E	_	2	case	_	_
 2	ridosso	ridosso	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
@@ -33,7 +33,7 @@
 26	.	.	PUNCT	FS	_	7	punct	_	_
 
 # source = CORIS 2021
-# sent_id = 2
+# sent_id = cxn_146_example_2_2
 # text = 'Close to the wall there are the gas cooker, the water heater, the dishwasher'.
 1	'	'	PUNCT	FB	_	7	punct	_	SpaceAfter=No
 2	Close	closa	NOUN	S	ExtPos=ADP	7	obl	_	_

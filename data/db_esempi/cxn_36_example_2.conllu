@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://www.corpusitaliano.it/static/documents/sources/020/0207921
-# sent_id = 1
+# sent_id = cxn_36_example_2_1
 # text = pentirsi amaramente Così Frodo, indossato l'anello, si dà alla fuga, sottraendosi alla vista dello stupefatto Boromir.
 1-2	pentirsi	_	_	_	_	_	_	_	_
 1	pentir	pentire	VERB	V	VerbForm=Inf	0	root	_	_
@@ -37,7 +37,7 @@
 26	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = https://www.corpusitaliano.it/static/documents/sources/020/0207921
-# sent_id = 2
+# sent_id = cxn_36_example_2_2
 # text = Boromir si pente amaramente del suo gesto, ma ormai è troppo tardi:
 1	Boromir	Boromir	PROPN	SP	_	3	nsubj	_	_
 2	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
@@ -57,7 +57,7 @@
 15	:	:	PUNCT	FC	_	3	punct	_	_
 
 # source = https://www.corpusitaliano.it/static/documents/sources/020/0207921
-# sent_id = 3
+# sent_id = cxn_36_example_2_3
 # text = Frodo è sparito.
 1	Frodo	Frodo	PROPN	SP	_	3	nsubj	_	_
 2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_

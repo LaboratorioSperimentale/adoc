@@ -11,8 +11,8 @@ def parse_args():
     parser.add_argument("input_csv", help="Input CSV file (e.g. export.csv)")
     parser.add_argument("--cc-database", default="cc-database/cc-database.yaml", metavar="FILE",
                         help="Comparative concepts database YAML file (default: cc-database.yaml)")
-    parser.add_argument("--yml-out", default="data/db_yaml", metavar="DIR",
-                        help="Output folder for YAML files (default: db_yaml)")
+    parser.add_argument("--yml-out", default="data/constructions/yaml", metavar="DIR",
+                        help="Output folder for YAML files (default: data/constructions/yaml)")
     parser.add_argument("--conllc-out", default="data/db_conllc(NON-definitivo)", metavar="DIR",
                         help="Output folder for CoNLL-C files (default: db_conllc(NON-definitivo))")
     parser.add_argument("--examples-out", default="data/db_esempi(NON-definitivo)", metavar="DIR",

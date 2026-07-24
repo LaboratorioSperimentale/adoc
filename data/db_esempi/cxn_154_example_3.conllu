@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac
-# sent_id = 1
+# sent_id = cxn_154_example_3_1
 # text = l'attore ha raccontato di essere al momento alle prese con il set della fiction
 1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	attore	attore	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_

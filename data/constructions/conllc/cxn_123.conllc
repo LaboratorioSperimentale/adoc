@@ -1,0 +1,7 @@
+# cxn_id = cxn_123
+# cxn_name = Costruzioni verbo + "ore" + aggettivo cxn-machine-readable-formalization: | cxn_123.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	VERB	VerbForm=Inf	0	root	_
+B	le	il	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	C	det	_
+C	ore	ora	NOUN	Gender=Fem|Number=Plur	A	obj	_
+D	_	_	ADJ	Gender=Fem|Number=Plur	C	amod	_

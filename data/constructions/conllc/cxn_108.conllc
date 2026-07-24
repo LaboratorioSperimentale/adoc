@@ -1,0 +1,6 @@
+# cxn_id = cxn_108
+# cxn_name = Far fare vs Lasciare fare cxn-machine-readable-formalization: | cxn_108.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	_	Number=Sing	B	iobj	LinearOrder=Variable
+B	_	_	VERB	Number=Sing	0	root	_
+C	_	_	VERB	VerbForm=Inf	B	xcomp	_

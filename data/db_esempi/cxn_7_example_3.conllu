@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: CORIS
-# sent_id = 1
+# sent_id = cxn_7_example_3_1
 # text = Io e mio marito si litiga, chiaro, come tutte le coppie sposate di questo mondo.
 1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 2	e	e	CCONJ	CC	_	4	cc	_	_
@@ -24,7 +24,7 @@
 18	.	.	PUNCT	FS	_	6	punct	_	_
 
 # source = Corpus: CORIS
-# sent_id = 2
+# sent_id = cxn_7_example_3_2
 # text = E ogni tanto salta la pazienza, anche perché l’ultima delle pensate che ha avuto, vero, lasciamo perdere.
 1	E	e	CCONJ	CC	_	4	cc	_	_
 2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
@@ -52,7 +52,7 @@
 23	.	.	PUNCT	FS	_	4	punct	_	_
 
 # source = Corpus: CORIS
-# sent_id = 3
+# sent_id = cxn_7_example_3_3
 # text = Ci siamo fatti ridere dietro da tutto il paese.
 1	Ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	expl	_	_
 2	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -66,7 +66,7 @@
 10	.	.	PUNCT	FS	_	3	punct	_	_
 
 # source = Corpus: CORIS
-# sent_id = 4
+# sent_id = cxn_7_example_3_4
 # text = E io ho preso e sono andata per i fatti miei.
 1	E	e	CCONJ	CC	_	4	cc	_	_
 2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_

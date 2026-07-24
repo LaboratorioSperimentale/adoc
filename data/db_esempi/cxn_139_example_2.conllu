@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_139_example_2_1
 # text = Di fronte a una stima di questo genere non mancheranno voci dissonanti , pronte a gridare all ' inattendibilità di una proporzione esagerata vuoi per difetto vuoi per eccesso .
 1	Di	di	ADP	E	_	2	case	_	_
 2	fronte	fronte	NOUN	S	Number=Sing	10	obl	_	_

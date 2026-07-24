@@ -1,0 +1,6 @@
+# cxn_id = cxn_13
+# cxn_name = più che mai + Adj Variante: più + Adj + che mai cxn-machine-readable-formalization: | cxn_13.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	_	_	0	root	_
+B	che	che	ADP	_	C	case	_
+C	mai	mai	ADV	_	A	advmod	_

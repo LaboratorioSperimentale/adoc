@@ -1,0 +1,8 @@
+# cxn_id = cxn_104
+# cxn_name = Fare a meno di cxn-machine-readable-formalization: | cxn_104.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	non	non	ADV	PronType=Neg	C	advmod	_
+B	_	potere	AUX	Mood=Ind|Number=Sing|Person=3|VerbForm=Fin	C	aux	_
+C	fare	fare	VERB	VerbForm=Inf	0	root	_
+D	a	a	ADP	_	E	case	_
+E	meno	meno	ADV	_	C	advmod	_

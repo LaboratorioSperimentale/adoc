@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = SketchEngine
-# sent_id = 1
+# sent_id = cxn_103_example_5_1
 # text = Figuramoci se è possibile installare una cosa come R-link che dà informazioni su tutta l'auto.
 1	Figuramoci	figuramoco	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	se	se	SCONJ	CS	_	4	mark	_	_
@@ -23,7 +23,7 @@
 17	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = SketchEngine
-# sent_id = 2
+# sent_id = cxn_103_example_5_2
 # text = A parte che secondo me un sistema touch-screen porta via l'attenzione alla guida.
 1	A	a	ADP	E	_	2	case	_	_
 2	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_

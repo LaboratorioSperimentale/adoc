@@ -1,0 +1,5 @@
+# cxn_id = cxn_134
+# cxn_name = espressioni per esprimere quantità cxn-machine-readable-formalization: | cxn_134.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	un	uno	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	B	det	_
+B	botto	botto	NOUN	Gender=Masc|Number=Sing	0	root	_

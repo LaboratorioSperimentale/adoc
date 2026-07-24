@@ -1,0 +1,5 @@
+pattern {
+  A [lemma="più", upos=ADV, form=/più/i];
+  B [upos=VERB, Mood=Ind, Number=Sing, Tense=Pres, VerbForm=Fin];
+  B -[advmod]-> A;
+}

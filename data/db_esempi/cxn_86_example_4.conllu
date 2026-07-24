@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=123144192&End=123144195 
-# sent_id = 1
+# sent_id = cxn_86_example_4_1
 # text = si è fermato a chiacchierare
 1	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
 2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_

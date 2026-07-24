@@ -1,0 +1,7 @@
+pattern {
+  A [upos=VERB];
+  B [upos=NOUN];
+  C [upos=ADJ];
+  A -[obj]-> B;
+  B -[amod]-> C;
+}

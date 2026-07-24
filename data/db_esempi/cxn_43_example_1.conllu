@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Internet 
-# sent_id = 1
+# sent_id = cxn_43_example_1_1
 # text = Cantare come una rana
 1	Cantare	cantare	VERB	V	VerbForm=Inf	0	root	_	_
 2	come	come	ADP	E	_	4	case	_	_

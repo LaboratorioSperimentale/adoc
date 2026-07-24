@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Dizionario Zanichelli
-# sent_id = 1
+# sent_id = cxn_171_example_5_1
 # text = Scrive tanto quanto parla.
 1	Scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesBefore=\s
 2	tanto	tanto	ADV	B	_	1	advmod	_	_

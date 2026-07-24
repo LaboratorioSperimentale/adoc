@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS 2021
-# sent_id = 1
+# sent_id = cxn_146_example_1_1
 # text = Quel pettirosso (breast+red) era come un segno del destino.
 1	Quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	pettirosso	pettirosso	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
@@ -20,7 +20,7 @@
 13	.	.	PUNCT	FS	_	9	punct	_	_
 
 # source = CORIS 2021
-# sent_id = 2
+# sent_id = cxn_146_example_1_2
 # text = 'That robin was like a sign of destiny'.
 1	'That	'that	X	SW	_	3	nsubj	_	_
 2	robin	Robin	PROPN	SP	_	1	flat:name	_	_

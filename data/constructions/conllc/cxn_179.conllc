@@ -1,0 +1,6 @@
+# cxn_id = cxn_179
+# cxn_name = mettere\metterci + Agg poss cxn-machine-readable-formalization: | cxn_179.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	di	di	ADP	_	C	case	_
+B	il	il	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	C	det	_
+C	_	_	PRON	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	0	root	_

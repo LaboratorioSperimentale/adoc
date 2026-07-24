@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: CORIS
-# sent_id = 1
+# sent_id = cxn_7_example_1_1
 # text = Ha aggiunto che da un po’ di tempo c’erano problemi, e che la situazione fra loro due era un po’ tesa, e che a volte capitava che sua moglie dopo una litigata particolarmente violenta dicesse che adesso si era stufata sul serio, prendesse e andasse via per un paio di giorni.
 1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -64,7 +64,7 @@
 57	.	.	PUNCT	FS	_	2	punct	_	_
 
 # source = Corpus: CORIS
-# sent_id = 2
+# sent_id = cxn_7_example_1_2
 # text = Ma poi torna sempre, ha aggiunto.
 1	Ma	ma	CCONJ	CC	_	3	cc	_	_
 2	poi	poi	ADV	B	_	3	advmod	_	_
@@ -76,7 +76,7 @@
 8	.	.	PUNCT	FS	_	3	punct	_	_
 
 # source = Corpus: CORIS
-# sent_id = 3
+# sent_id = cxn_7_example_1_3
 # text = Purtroppo.
 1	Purtroppo	purtroppo	ADV	B	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No

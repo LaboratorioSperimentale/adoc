@@ -1,0 +1,5 @@
+# cxn_id = cxn_93
+# cxn_name = Costruzione del più cxn-machine-readable-formalization: | cxn_93.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	più	più	ADV	_	B	advmod	_
+B	_	_	VERB	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_

@@ -1,4 +1,3 @@
 pattern {
-	B[];
-	B[form=/porta/i];
+  B [form=/porta/i];
 }

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=86122601&End=86122601
-# sent_id = 1
+# sent_id = cxn_56_example_2_1
 # text = Vina privilegia il crudo sentimentalismo rispetto_alla ragione, sicché ora non possiamo più pensare, ma solo sentire.
 1	Vina	Vina	PROPN	SP	_	2	nsubj	_	_
 2	privilegia	privilegiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -25,7 +25,7 @@
 19	.	.	PUNCT	FS	_	2	punct	_	_
 
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=86122601&End=86122601
-# sent_id = 2
+# sent_id = cxn_56_example_2_2
 # text = Il primo dice che il fenomeno è populista - democratico.
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	nsubj	_	_
@@ -40,7 +40,7 @@
 11	.	.	PUNCT	FS	_	3	punct	_	_
 
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=86122601&End=86122601
-# sent_id = 3
+# sent_id = cxn_56_example_2_3
 # text = Il secondo teme che possa essere cripto - fascista, e che possa originare un nuovo tipo d' intolleranza di massa.
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	nsubj	_	_
@@ -66,7 +66,7 @@
 22	.	.	PUNCT	FS	_	3	punct	_	_
 
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=86122601&End=86122601
-# sent_id = 4
+# sent_id = cxn_56_example_2_4
 # text = Ecco critici letterari e critici teatrali.
 1	Ecco	ecco	ADV	B	_	2	advmod	_	_
 2	critici	critico	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
@@ -77,7 +77,7 @@
 7	.	.	PUNCT	FS	_	2	punct	_	_
 
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=86122601&End=86122601
-# sent_id = 5
+# sent_id = cxn_56_example_2_5
 # text = I critici letterari sono divisi;
 1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	SpacesAfter=\s\s
 2	critici	critico	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
@@ -87,7 +87,7 @@
 6	;	;	PUNCT	FC	_	5	punct	_	_
 
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=86122601&End=86122601
-# sent_id = 6
+# sent_id = cxn_56_example_2_6
 # text = il vecchio e balbuziente Alfred Fiedler Malcolm cita Faustus di Marlowe - Io allora a capofitto nella terra mi getterò: apriti, terra!
 1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 2	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_

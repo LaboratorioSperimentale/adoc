@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: CORIS
-# sent_id = 1
+# sent_id = cxn_17_example_2_1
 # text = Oppure, prima o poi, la gravità avrà la meglio su galassie e materia e inzierà il collasso.
 1	Oppure	oppure	CCONJ	CC	_	9	cc	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	3	punct	_	SpacesAfter= 

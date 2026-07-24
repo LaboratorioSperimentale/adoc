@@ -2,13 +2,13 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Myself
-# sent_id = 1
+# sent_id = cxn_132_example_4_1
 # text = 4.
 1	4	4	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = Myself
-# sent_id = 2
+# sent_id = cxn_132_example_4_2
 # text = L'ho cercato in lungo e in largo per tutto il giorno
 1	L'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
 2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_

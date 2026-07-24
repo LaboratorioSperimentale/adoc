@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = itTenTen20
-# sent_id = 1
+# sent_id = cxn_68_example_2_1
 # text = L'operatrice verifica e salta fuori che hanno spedito tutto all'indirizzo sbagliato.
 1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	operatrice	operatore	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_

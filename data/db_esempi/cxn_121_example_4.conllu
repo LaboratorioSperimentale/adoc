@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac Complete
-# sent_id = 1
+# sent_id = cxn_121_example_4_1
 # text = semplicità , della leggerezza , della capacità di tirarsi indietro , quando occorre , di fronte alla realtà , e lasciare un po' che faccia lei .
 1	semplicità	semplicità	NOUN	S	Gender=Fem	0	root	_	_
 2	,	,	PUNCT	FF	_	5	punct	_	_
@@ -41,7 +41,7 @@
 31	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = ItWac Complete
-# sent_id = 2
+# sent_id = cxn_121_example_4_2
 # text = La prima inquadratura del film è bellissima e sembra già contenerne tutto lo spirito .
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
@@ -64,7 +64,7 @@
 17	.	.	PUNCT	FS	_	8	punct	_	_
 
 # source = ItWac Complete
-# sent_id = 3
+# sent_id = cxn_121_example_4_3
 # text = È un dialogo fuori
 1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_

@@ -2,12 +2,12 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=27364326&End=27364328
-# sent_id = 1
+# sent_id = cxn_53_example_3_1
 # text = "
 1	"	"	PUNCT	FB	_	0	root	_	_
 
 # source = CORIS http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=27364326&End=27364328
-# sent_id = 2
+# sent_id = cxn_53_example_3_2
 # text = Su che cosa siete d ' accordo ?
 1	Su	su	ADP	E	_	3	case	_	_
 2	che	che	DET	DQ	PronType=Int	3	det	_	_
@@ -19,13 +19,13 @@
 8	?	?	PUNCT	FS	_	4	punct	_	_
 
 # source = CORIS http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=27364326&End=27364328
-# sent_id = 3
+# sent_id = cxn_53_example_3_3
 # text = " .
 1	"	"	PUNCT	FB	_	0	root	_	_
 2	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = CORIS http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=27364326&End=27364328
-# sent_id = 4
+# sent_id = cxn_53_example_3_4
 # text = Su quasi niente , mi viene da rispondere .
 1	Su	su	ADP	E	_	3	case	_	_
 2	quasi	quasi	ADV	B	_	3	advmod	_	_

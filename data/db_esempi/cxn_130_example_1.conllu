@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Discorso orale informale
-# sent_id = 1
+# sent_id = cxn_130_example_1_1
 # text = Io e lui ci portiamo tre anni.
 1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 2	e	e	CCONJ	CC	_	3	cc	_	_

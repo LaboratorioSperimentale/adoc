@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_40_example_4_1
 # text = l'esame è andato a gonfie vele.
 1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	esame	esame	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_

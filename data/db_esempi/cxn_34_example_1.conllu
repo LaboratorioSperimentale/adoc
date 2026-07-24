@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus CORIS
-# sent_id = 1
+# sent_id = cxn_34_example_1_1
 # text = - Non è mica un posto normale e comune, neanche per sogno.
 1	-	-	PUNCT	FF	_	6	punct	_	_
 2	Non	non	ADV	BN	PronType=Neg	6	advmod	_	_
@@ -20,7 +20,7 @@
 14	.	.	PUNCT	FS	_	6	punct	_	_
 
 # source = Corpus CORIS
-# sent_id = 2
+# sent_id = cxn_34_example_1_2
 # text = Lì vive il mostro che devo inventare ...
 1	Lì	lì	ADV	B	_	2	advmod	_	_
 2	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_

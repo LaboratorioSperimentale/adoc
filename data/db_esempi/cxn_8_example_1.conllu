@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://aulalingue.scuola.zanichelli.it/benvenuti/2015/10/08/espressioni-idiomatiche-con-il-verbo-andare/ 
-# sent_id = 1
+# sent_id = cxn_8_example_1_1
 # text = Il nostro affare è andato a monte.
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_

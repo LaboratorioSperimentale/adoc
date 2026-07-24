@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = MONITOR2011_13
-# sent_id = 1
+# sent_id = cxn_123_example_2_1
 # text = Ma ora aveva addosso la polizia , così come l ' Fbi e i cartelli rivali . Fondato negli anni settanta da un personaggio dal nome altisonante , Juan Nepomuceno Guerra , che nel periodo del Proibizionismo contrabbandava alcolici negli Stati Uniti , il cartello sembrava avere le ore contate.
 1	Ma	ma	CCONJ	CC	_	3	cc	_	_
 2	ora	ora	ADV	B	_	3	advmod	_	_

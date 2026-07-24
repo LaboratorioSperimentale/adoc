@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://parmafans.forumcommunity.net/?t=55325773
-# sent_id = 1
+# sent_id = cxn_75_example_3_1
 # text = vorrei un aiuto da voi ggiOvani.qualcuno è in grado di darmi definizioni esaustive e comprensibili dei termini "bimbominkia" e "mongoflettico/mongoplettico"?
 1	vorrei	volere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -35,7 +35,7 @@
 27	?	?	PUNCT	FS	_	1	punct	_	_
 
 # source = https://parmafans.forumcommunity.net/?t=55325773
-# sent_id = 2
+# sent_id = cxn_75_example_3_2
 # text = [...] L'altra (mongoplettico) è un'offesa...è tipo un "mongolo/mongoloide" in versione 2.0
 1	[	[	PUNCT	FB	_	7	punct	_	SpaceAfter=No
 2	...	...	PUNCT	FF	_	7	punct	_	SpaceAfter=No

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_26_example_1_1
 # text = Ho le mani legate.
 1	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
@@ -11,7 +11,7 @@
 5	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = 
-# sent_id = 2
+# sent_id = cxn_26_example_1_2
 # text = Non posso fare niente per aiutare Claudia.
 1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
 2	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_

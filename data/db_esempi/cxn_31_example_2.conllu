@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://luce-gas.it/guida/contatore/salta-la-corrente
-# sent_id = 1
+# sent_id = cxn_31_example_2_1
 # text = saltare la corrente
 1	saltare	saltare	VERB	V	VerbForm=Inf	0	root	_	_
 2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_

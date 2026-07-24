@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac
-# sent_id = 1
+# sent_id = cxn_150_example_2_1
 # text = Cosa non fare:mettere spoiler nei titoli delle discussioni
 1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
 2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_

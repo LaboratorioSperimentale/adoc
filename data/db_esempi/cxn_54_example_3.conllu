@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_54_example_3_1
 # text = "Se non è ciccia è cioccia".
 1	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
 2	Se	se	SCONJ	CS	_	5	mark	_	_
@@ -15,7 +15,7 @@
 9	.	.	PUNCT	FS	_	7	punct	_	_
 
 # source = 
-# sent_id = 2
+# sent_id = cxn_54_example_3_2
 # text = Esito differente del secondo esempio ma con stesso valore.
 1	Esito	esito	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
 2	differente	differente	ADJ	A	Number=Sing	1	amod	_	_
@@ -31,7 +31,7 @@
 11	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = 
-# sent_id = 3
+# sent_id = cxn_54_example_3_3
 # text = Qui esemplificato dalla somiglianza grafico-fonetica.
 1	Qui	qui	ADV	B	_	2	advmod	_	_
 2	esemplificato	esemplificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_

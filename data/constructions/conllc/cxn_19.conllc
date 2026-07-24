@@ -1,0 +1,8 @@
+# cxn_id = cxn_19
+# cxn_name = Fare + Vinf + prep. + qlcn cxn-machine-readable-formalization: | cxn_19.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	ADP	_	B	mark	_
+B	far	fare	VERB	VerbForm=Inf	0	root	_
+C	_	_	VERB	VerbForm=Inf	B	ccomp	_
+D	a	a	ADP	_	E	case	_
+E	_	_	NOUN	_	C	obl	_

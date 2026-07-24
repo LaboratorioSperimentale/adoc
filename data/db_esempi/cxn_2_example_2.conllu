@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
-# sent_id = 1
+# sent_id = cxn_2_example_2_1
 # text = Le ultime partite sono stato molto sfortunato e ho sempre perso.
 1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	3	amod	_	_
@@ -18,7 +18,7 @@
 12	.	.	PUNCT	FS	_	7	punct	_	_
 
 # source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
-# sent_id = 2
+# sent_id = cxn_2_example_2_2
 # text = Ma la prossima partita non c’è sfortuna che tenga.
 1	Ma	ma	CCONJ	CC	_	7	cc	_	_
 2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -33,7 +33,7 @@
 11	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter= 
 
 # source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
-# sent_id = 3
+# sent_id = cxn_2_example_2_3
 # text = Stavolta vincerò io!
 1	Stavolta	stavolta	ADV	B	_	2	advmod	_	_
 2	vincerò	vincere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -41,7 +41,7 @@
 4	!	!	PUNCT	FS	_	2	punct	_	_
 
 # source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
-# sent_id = 4
+# sent_id = cxn_2_example_2_4
 # text = Questa volta l'ostacolo da superare è stato anche la causa del precedente fallimento (la sfortuna).
 1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	volta	volta	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_

@@ -1,0 +1,7 @@
+# cxn_id = cxn_43
+# cxn_name = X(v) + compl. modo (come) + Y(n) cxn-machine-readable-formalization: | cxn_43.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	cantare	cantare	VERB	VerbForm=Inf	0	root	_
+B	come	come	ADP	_	D	case	_
+C	_	uno	DET	Definite=Ind|Number=Sing|PronType=Art	D	det	_
+D	_	_	NOUN	Number=Sing	A	obl	_

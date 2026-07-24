@@ -1,0 +1,5 @@
+# cxn_id = cxn_156
+# cxn_name = PP|NPDAT toccare3.SG VINF cxn-machine-readable-formalization: | cxn_156.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	toccare	VERB	Number=Sing	0	root	_
+B	_	_	VERB	VerbForm=Inf	A	xcomp	_

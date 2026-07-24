@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Parlante nativo
-# sent_id = 1
+# sent_id = cxn_93_example_5_1
 # text = Più leggi più impari
 1	Più	più	DET	DI	PronType=Ind	2	det	_	_
 2	leggi	legge	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_

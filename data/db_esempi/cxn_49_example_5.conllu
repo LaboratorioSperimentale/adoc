@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: Italian Web 2016 (itTenTen16)
-# sent_id = 1
+# sent_id = cxn_49_example_5_1
 # text = Mentre ero lì che piangevo mi sono resa conto di essere in procinto di staccare un cordone ombelicale forte, fatto di complicità, che mi ha portata tante volte a provare frustrazione, ma anche gioia di fronte a quel neonato che cresceva forte e robusto, con una voce da spaccare i timpani, deciso nella sua volontà di vita.
 1	Mentre	mentre	SCONJ	CS	_	3	mark	_	_
 2	ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	cop	_	_

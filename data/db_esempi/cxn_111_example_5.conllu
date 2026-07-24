@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_111_example_5_1
 # text = Hai scelto tu di fare l'università, te la devi vedere sa solo.
 1	Hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -21,7 +21,7 @@
 15	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s \s
 
 # source = 
-# sent_id = 2
+# sent_id = cxn_111_example_5_2
 # text = Adesso non ho tempo di fare i piatti, te la vuoi vedere tu?
 1	Adesso	adesso	ADV	B	_	3	advmod	_	_
 2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_

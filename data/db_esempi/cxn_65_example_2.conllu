@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: itTenTen20
-# sent_id = 1
+# sent_id = cxn_65_example_2_1
 # text = La fame no che non la puoi fermare, non è fiamma di fuoco che gli butti di sopra un "cato" d'acqua;
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	fame	fame	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpacesAfter= 
@@ -32,7 +32,7 @@
 26	;	;	PUNCT	FC	_	2	punct	_	_
 
 # source = Corpus: itTenTen20
-# sent_id = 2
+# sent_id = cxn_65_example_2_2
 # text = il sonno ferma i debiti e le cambiali, ma la fame morde le budella a strazzi:
 1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	sonno	sonno	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
@@ -54,7 +54,7 @@
 18	:	:	PUNCT	FC	_	3	punct	_	_
 
 # source = Corpus: itTenTen20
-# sent_id = 3
+# sent_id = cxn_65_example_2_3
 # text = vuole un pezzo di pane, pure che è duro.
 1	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_

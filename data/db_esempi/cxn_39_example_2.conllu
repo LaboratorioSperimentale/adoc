@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://193.205.158.203/metamotorelessico/MetamotoreLessico.html
-# sent_id = 1
+# sent_id = cxn_39_example_2_1
 # text = Polizze e compagnia bella
 1	Polizze	polizza	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
 2	e	e	CCONJ	CC	_	3	cc	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Esempio proposto da me in: https://docs.google.com/forms/d/1qCaY3q50Aoxaze0p0IAug1DG6d64yfSc5qVdbfXpkYI/edit?usp=sharing
-# sent_id = 1
+# sent_id = cxn_32_example_1_1
 # text = mi ricordo che abbiamo parlato, ma non ricordo con precisione cosa mi hai detto)
 1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
 2	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_

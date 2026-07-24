@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ideata da me stessa
-# sent_id = 1
+# sent_id = cxn_84_example_3_1
 # text = che bene che ti voglio
 1	che	che	DET	DE	PronType=Exc	2	det	_	_
 2	bene	bene	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_

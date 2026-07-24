@@ -1,0 +1,5 @@
+# cxn_id = cxn_65
+# cxn_name = X Adv che Y cxn-machine-readable-formalization: | cxn_65.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	che	che	_	_	B	mark	_
+B	_	_	VERB	_	0	root	_

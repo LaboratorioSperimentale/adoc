@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Dialoghi tra persone
-# sent_id = 1
+# sent_id = cxn_120_example_3_1
 # text = Sono lì di te.
 1	Sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	lì	lì	ADV	B	_	0	root	_	_

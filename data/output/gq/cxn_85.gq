@@ -1,0 +1,9 @@
+pattern {
+  A [lemma="essere", upos=AUX, form=/è/i, Mood=Ind, Number=Sing, Person=3, Tense=Pres, VerbForm=Fin];
+  B [lemma="ora", upos=ADV, form=/ora/i];
+  C [lemma="di", upos=ADP, form=/di/i];
+  D [upos=VERB, VerbForm=Inf];
+  B -[cop]-> A;
+  D -[mark]-> C;
+  B -[acl]-> D;
+}

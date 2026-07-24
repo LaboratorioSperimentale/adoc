@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Reverso context dizionario online
-# sent_id = 1
+# sent_id = cxn_89_example_1_1
 # text = Per la strada, non fa altro che parlare.
 1	Per	per	ADP	E	_	3	case	_	_
 2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_

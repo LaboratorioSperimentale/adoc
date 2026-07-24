@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItTenTen20
-# sent_id = 1
+# sent_id = cxn_143_example_2_1
 # text = e poi se è sotto terra di un solo metro perchè non provare a trattenere il respiro e mentre la cassa si sta rompendo non provare ad uscire?
 1	e	e	CCONJ	CC	_	13	cc	_	_
 2	poi	poi	ADV	B	_	6	advmod	_	_
@@ -35,7 +35,7 @@
 29	?	?	PUNCT	FS	_	13	punct	_	_
 
 # source = ItTenTen20
-# sent_id = 2
+# sent_id = cxn_143_example_2_2
 # text = tanto morto per morto ... e poi sul finale appare ovvio che non lo stiano trovando.
 1	tanto	tanto	ADV	B	_	2	advmod	_	SpacesAfter= 
 2	morto	morire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -57,7 +57,7 @@
 17	trovando.	trovanre	VERB	V	VerbForm=Ger	11	ccomp	_	SpaceAfter=No
 
 # source = ItTenTen20
-# sent_id = 3
+# sent_id = cxn_143_example_2_3
 # text = .
 1	.	.	PUNCT	FS	_	0	root	_	SpaceAfter=No
 

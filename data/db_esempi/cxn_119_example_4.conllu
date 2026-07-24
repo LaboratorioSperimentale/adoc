@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORPUS: MONITOR2008_10
-# sent_id = 1
+# sent_id = cxn_119_example_4_1
 # text = La Sardella, anche detta "il caviale dei poveri" è composta di neonate di sarde e acciughe essiccate al sole su tavole di legno e conservate in un impasto di olio e peperoncino.
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	Sardella	Sardella	PROPN	SP	_	14	nsubj:pass	_	SpaceAfter=No

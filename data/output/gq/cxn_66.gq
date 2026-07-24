@@ -1,0 +1,9 @@
+pattern {
+  A [lemma="prima", upos=ADV, form=/prima/i];
+  B [upos=VERB];
+  C [lemma="prima", upos=ADV, form=/prima/i];
+  D [upos=VERB];
+  B -[advmod]-> A;
+  D -[advmod]-> C;
+  B -[conj]-> D;
+}

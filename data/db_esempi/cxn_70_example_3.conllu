@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS 2021
-# sent_id = 1
+# sent_id = cxn_70_example_3_1
 # text = Le pinne dorsali sono l ' ingrediente principale della famosa zuppa di pinne di pescecane (fish+dog) 'Dorsal fins are the main ingredient of the famous shark fin soup'.
 1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
 2	pinne	pinna	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_

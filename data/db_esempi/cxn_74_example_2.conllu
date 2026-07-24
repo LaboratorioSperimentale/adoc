@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: Italian Web 2020 (itTenTen20)
-# sent_id = 1
+# sent_id = cxn_74_example_2_1
 # text = Da quando è partito sto uno straccio, sono distrutta, sto malissimo, la mia vita non ha più senso.
 1	Da	da	ADP	E	ExtPos=SCONJ	4	mark	_	_
 2	quando	quando	SCONJ	CS	_	1	fixed	_	_

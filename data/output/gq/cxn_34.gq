@@ -1,0 +1,7 @@
+pattern {
+  A [lemma="neanche", upos=ADV, form=/neanche/i, PronType=Neg];
+  B [lemma="per", upos=ADP, form=/per/i];
+  C [upos=NOUN, Number=Sing];
+  C -[advmod]-> A;
+  C -[case]-> B;
+}

@@ -1,0 +1,6 @@
+# cxn_id = cxn_62
+# cxn_name = ma+anche+X cxn-machine-readable-formalization: | cxn_62.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	ma	ma	CCONJ	_	C	cc	_
+B	anche	anche	ADV	_	C	advmod	_
+C	_	_	_	_	0	root	_

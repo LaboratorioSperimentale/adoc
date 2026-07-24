@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: Coris  Timeslice: CORIS 1980_2000  Subcorpus: NARRAT
-# sent_id = 1
+# sent_id = cxn_126_example_1_1
 # text = L'organo a canna non comunicò altro, ma chi tace acconsente, così il professore, col viso accaldato continuò il movimento .
 1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	organo	organo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_

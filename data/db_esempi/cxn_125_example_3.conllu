@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_125_example_3_1
 # text = quasi quasi rimpiango un volo di elicottero.
 1	quasi	quasi	ADV	B	_	3	advmod	_	_
 2	quasi	quasi	ADV	B	_	3	advmod	_	_

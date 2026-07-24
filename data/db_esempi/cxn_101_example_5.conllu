@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_101_example_5_1
 # text = E siccome gli altri lo sapevano, erano certi di dover udire cose sconvolgenti:
 1	E	e	CCONJ	CC	_	9	cc	_	_
 2	siccome	siccome	SCONJ	CS	_	6	mark	_	_
@@ -21,7 +21,7 @@
 15	:	:	PUNCT	FC	_	9	punct	_	_
 
 # source = CORIS
-# sent_id = 2
+# sent_id = cxn_101_example_5_2
 # text = o bene bene o male male.
 1	o	o	CCONJ	CC	_	2	cc	_	_
 2	bene	bene	ADV	B	_	0	root	_	_

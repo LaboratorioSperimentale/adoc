@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = itTenTen20 (Sketch Engine)
-# sent_id = 1
+# sent_id = cxn_172_example_1_1
 # text = Guardate come reagiscono al suo attacco...
 1	Guardate	guardare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	come	come	SCONJ	CS	_	3	mark	_	_
@@ -14,7 +14,7 @@
 7	attacco...	attacco...	X	X	_	3	obl	_	_
 
 # source = itTenTen20 (Sketch Engine)
-# sent_id = 2
+# sent_id = cxn_172_example_1_2
 # text = se non sai ricevere l'ingratitudine.
 1	se	se	SCONJ	CS	_	3	mark	_	_
 2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
@@ -25,7 +25,7 @@
 7	.	.	PUNCT	FS	_	3	punct	_	_
 
 # source = itTenTen20 (Sketch Engine)
-# sent_id = 3
+# sent_id = cxn_172_example_1_3
 # text = Questa frase me l'hanno detta oggi, la trovo bellissima e molto profonda non credete?
 1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	frase	frase	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://www.ilgazzettino.it/cultura/rissa_uomini_e_donne_armando_incarnato_riccardo_guarnieri-7362989.html
-# sent_id = 1
+# sent_id = cxn_137_example_5_1
 # text = Si è messo in mezzo Riccardo e lui e Armando sono arrivati alle mani
 1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
 2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_

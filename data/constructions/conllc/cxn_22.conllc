@@ -1,0 +1,9 @@
+# cxn_id = cxn_22
+# cxn_name = non avere-TNS uno straccio di Nsg cxn-machine-readable-formalization: | cxn_22.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	non	non	ADV	PronType=Neg	B	advmod	_
+B	_	avere	VERB	Mood=Ind|VerbForm=Fin	0	root	_
+C	uno	uno	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	D	det	_
+D	straccio	straccio	NOUN	Gender=Masc|Number=Sing	B	obj	_
+E	di	di	ADP	_	F	case	_
+F	_	_	NOUN	Gender=Fem	D	nmod	_

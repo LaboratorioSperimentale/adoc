@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_172_example_3_1
 # text = Quella era la sua filosofia di vita:
 1	Quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	5	nsubj	_	_
 2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
@@ -14,7 +14,7 @@
 8	:	:	PUNCT	FC	_	5	punct	_	_
 
 # source = CORIS
-# sent_id = 2
+# sent_id = cxn_172_example_3_2
 # text = caricava sempre perché ci provava con tutte, belle, brutte, grasse e magre.
 1	caricava	caricare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	sempre	sempre	ADV	B	_	1	advmod	_	_
@@ -34,7 +34,7 @@
 16	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = CORIS
-# sent_id = 3
+# sent_id = cxn_172_example_3_3
 # text = Guido non era a questi livelli, certo, ma trovava interessante la sua teoria e l'avrebbe messa in pratica quel sabato e domenica.
 1	Guido	Guido	PROPN	SP	_	6	nsubj	_	_
 2	non	non	ADV	BN	PronType=Neg	6	advmod	_	_

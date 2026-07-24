@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS 2021
-# sent_id = 1
+# sent_id = cxn_146_example_3_1
 # text = Dopo lo scontro armato all ' angolo fra viale Piave e via Alghisi , il fuggifuggi (to run away+to run away) generale.
 1	Dopo	dopo	ADP	E	_	3	case	_	_
 2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -31,7 +31,7 @@
 25	.	.	PUNCT	FS	_	16	punct	_	_
 
 # source = CORIS 2021
-# sent_id = 2
+# sent_id = cxn_146_example_3_2
 # text = 'After the armed clash at the corner of Viale Piave and Via Alghisi, the general stampede'.
 1	'	'	PUNCT	FB	_	18	punct	_	SpaceAfter=No
 2	After	after	ADP	E	_	5	case	_	_

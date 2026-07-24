@@ -1,0 +1,7 @@
+pattern {
+  A [Number=Sing];
+  B [upos=VERB, Number=Sing];
+  C [upos=VERB, VerbForm=Inf];
+  B -[iobj]-> A;
+  B -[xcomp]-> C;
+}

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS2021
-# sent_id = 1
+# sent_id = cxn_161_example_1_1
 # text = È stata forse Miuccia Prada a portare definitivamente la tendenza sotto gli occhi di tutti con la sua recente sfilata donna per il prossimo autunno/inverno:
 1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 2	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
@@ -34,7 +34,7 @@
 28	:	:	PUNCT	FC	_	4	punct	_	_
 
 # source = CORIS2021
-# sent_id = 2
+# sent_id = cxn_161_example_1_2
 # text = ha ricoperto i revers di giacche e spolverini di struzzo con enormi spille di bachelite e strass color sorbetto, dando così la stura a centinaia di post a tema sui social media e a pagine su pagine sulle riviste di tutto il mondo che improvvisamente si sono accorte del trend.
 1	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	ricoperto	ricoprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_

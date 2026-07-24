@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: itTenTen20
-# sent_id = 1
+# sent_id = cxn_131_example_2_1
 # text = d'estate DI NON FARE L'ESCURSIONE COSTA SUL DELTA DEL DANUBIO....è stato un incubo.
 1	d'	di	ADP	E	_	2	case	_	SpaceAfter=No
 2	estate	estate	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
@@ -25,7 +25,7 @@
 17	incubo.	incubo.	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 
 # source = Corpus: itTenTen20
-# sent_id = 2
+# sent_id = cxn_131_example_2_2
 # text = ..abbiamo visto tre volatili in croce ...e per tre ore lo stesso panorama.
 1	..abbiamo	..avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
@@ -42,7 +42,7 @@
 13	panorama.	panorama.	NOUN	S	Gender=Masc	2	parataxis	_	SpaceAfter=No
 
 # source = Corpus: itTenTen20
-# sent_id = 3
+# sent_id = cxn_131_example_2_3
 # text = ...con un caldo pazzesco anche nella parte del battello dove si pranza
 1	...con	...con	PUNCT	FF	_	3	punct	_	_
 2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_

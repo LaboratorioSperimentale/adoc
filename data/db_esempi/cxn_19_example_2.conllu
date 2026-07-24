@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_19_example_2_1
 # text = Tenevano tutti in mano la macchina fotografica o la videocamera che puntavano in continuazione a destra e sinistra nel tentativo di ottenere immagini esclusive da far vedere agli amici
 1	Tenevano	tenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	nsubj	_	_

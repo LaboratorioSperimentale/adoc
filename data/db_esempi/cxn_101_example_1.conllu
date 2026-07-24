@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_101_example_1_1
 # text = Poi piano piano ho pensato che l'idea non era poi così malvagia.
 1	Poi	poi	ADV	B	_	5	advmod	_	SpacesAfter= 
 2	piano	piano	ADV	B	_	5	advmod	_	_

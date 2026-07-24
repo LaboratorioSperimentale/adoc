@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_101_example_2_1
 # text = Essi non si offesero e tornarono adagio adagio ai loro posti .
 1	Essi	esso	PRON	PE	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_

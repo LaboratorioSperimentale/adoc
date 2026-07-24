@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: CORIS
-# sent_id = 1
+# sent_id = cxn_65_example_1_1
 # text = All'asilo sì che si stava bene.
 1-2	All'	_	_	_	_	_	_	_	SpacesBefore= |SpaceAfter=No
 1	A	a	ADP	E	_	3	case	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Made-up example
-# sent_id = 1
+# sent_id = cxn_77_example_5_1
 # text = - Ma non avevi riparato la tivù?!?
 1	-	-	PUNCT	FF	_	5	punct	_	_
 2	Ma	ma	CCONJ	CC	_	5	cc	_	_
@@ -16,7 +16,7 @@
 10	?	?	PUNCT	FS	_	5	punct	_	_
 
 # source = Made-up example
-# sent_id = 2
+# sent_id = cxn_77_example_5_2
 # text = - Mah, a logica ora dovrebbe funzionare
 1	-	-	PUNCT	FF	_	8	punct	_	_
 2	Mah	Mah	PROPN	SP	_	8	discourse	_	SpaceAfter=No

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS2021
-# sent_id = 1
+# sent_id = cxn_160_example_2_1
 # text = Non aveva avuto mai paura degli uomini qualunque lingua parlassero, le sue braccia erano forti, non aveva mai saputo cosa fosse malattia, né stanchezza:
 1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
 2	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
@@ -36,7 +36,7 @@
 29	:	:	PUNCT	FC	_	3	punct	_	_
 
 # source = CORIS2021
-# sent_id = 2
+# sent_id = cxn_160_example_2_2
 # text = al mondo vi erano le strade: attraversavano le pianure, passavano i fiumi, andavano oltre le montagne e colle sue gambe, chilometro su chilometro, un tanto al giorno, passava da una regione all'altra, fino alle terre straniere che nell'avvicinarsi lo animavano di attesa.
 1-2	al	_	_	_	_	_	_	_	_
 1	a	a	ADP	E	_	3	case	_	_

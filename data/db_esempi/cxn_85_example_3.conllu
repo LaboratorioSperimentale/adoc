@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_85_example_3_1
 # text = Per quanto riguarda gli argomenti dei suoi assertori, è ora di smetterla con la storia della nostra tradizione, delle nostre peculiarità.
 1	Per	per	ADP	E	_	2	case	_	_
 2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	12	obl	_	_

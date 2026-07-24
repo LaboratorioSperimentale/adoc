@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = itTenTen20
-# sent_id = 1
+# sent_id = cxn_63_example_3_1
 # text = In vista di quell'appuntamento spero che il Terzo Polo sia giunto a maturazione anche perche' sono strasicuro che tra Berlusconi-Bossi e Bersani-Vendola-Di Pietro, ci sia uno spazio ampio di cittadini che sono pronti ad abbracciare una terza opzione
 1	In	in	ADP	E	_	2	case	_	SpacesBefore=\s
 2	vista	vista	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_

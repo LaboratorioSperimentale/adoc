@@ -1,0 +1,7 @@
+# cxn_id = cxn_4
+# cxn_name = Discontinuous reduplication with antonymic pairs cxn-machine-readable-formalization: | cxn_4.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	_	_	0	root	_
+B	_	_	_	_	A	conj	_
+C	di	di	ADP	_	D	case	_
+D	là	là	ADV	_	B	advmod	_

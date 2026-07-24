@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=11363672&End=11363672 
-# sent_id = 1
+# sent_id = cxn_20_example_4_1
 # text = Per questo i vescovi, personalmente o per mezzo di delegati, devono prendersi cura di promuovere l'arte sacra, antica e moderna, in tutte le sue forme, e di tenere lontano con il medesimo zelo, dalla Liturgia e dagli edifici del culto, tutto ciò che non è conforme alla verità della fede e all'autentica bellezza dell'arte sacra
 1	Per	per	ADP	E	_	2	case	_	_
 2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	obl	_	_

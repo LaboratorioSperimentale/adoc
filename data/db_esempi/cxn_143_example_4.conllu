@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItTenTen20
-# sent_id = 1
+# sent_id = cxn_143_example_4_1
 # text = Alle volte era veramente troppo triste.
 1-2	Alle	_	_	_	_	_	_	_	_
 1	A	a	ADP	E	_	3	case	_	_
@@ -15,7 +15,7 @@
 8	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=  
 
 # source = ItTenTen20
-# sent_id = 2
+# sent_id = cxn_143_example_4_2
 # text = Un giorno decise che triste per triste , conveniva rinunciare alla sua foglia sicura e alla pappa preparata dalla mamma.
 1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_

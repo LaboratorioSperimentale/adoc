@@ -1,0 +1,8 @@
+# cxn_id = cxn_1
+# fields = ID UD.FORM LEMMA UPOS HEAD DEPREL
+A	_	saltare	VERB	0	root
+
+# cxn_id = cxn_2
+# fields = ID UD.FORM LEMMA UPOS HEAD DEPREL
+A	dopo	dopo	ADP	B	case
+B	_	_	NOUN	0	root

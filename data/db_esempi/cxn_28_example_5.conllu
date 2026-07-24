@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ITALIAN WEB 2016 (ITTENTEN16) Sketch Engine 
-# sent_id = 1
+# sent_id = cxn_28_example_5_1
 # text = Quando mandò all' aria la tournée combinatagli da George Wein disse soltanto che non se la sentiva.
 1	Quando	quando	SCONJ	CS	_	2	mark	_	_
 2	mandò	mandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	advcl	_	_

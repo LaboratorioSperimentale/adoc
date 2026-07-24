@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_139_example_4_1
 # text = potevamo anche finire come nel primo anno nel Sud - Ovest , decisamente più agevole ma evidentemente vuoi per sfortuna , vuoi per chissà che altro da due anni ci dovevamo guadagnare la finale con squadre che magari venivano dalla zona ai limiti della Brianza
 1	potevamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
 2	anche	anche	ADV	B	_	3	advmod	_	_

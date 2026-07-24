@@ -1,0 +1,5 @@
+# cxn_id = test-root-external
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL
+A	_	_	NOUN	Number=Sing	0	root:obl
+B	dopo	dopo	ADP	_	C	case
+C	_	_	NOUN	Number=Sing	A	nmod

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac Complete
-# sent_id = 1
+# sent_id = cxn_121_example_3_1
 # text = Città del Capo . SCOTTO :
 1	Città	città	NOUN	S	Gender=Fem	0	root	_	_
 2-3	del	_	_	_	_	_	_	_	_
@@ -14,7 +14,7 @@
 7	:	:	PUNCT	FC	_	1	punct	_	_
 
 # source = ItWac Complete
-# sent_id = 2
+# sent_id = cxn_121_example_3_2
 # text = Cosa devo sentire !! Santa Maria di Leuca .
 1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
 2	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
@@ -27,13 +27,13 @@
 9	.	.	PUNCT	FS	_	3	punct	_	_
 
 # source = ItWac Complete
-# sent_id = 3
+# sent_id = cxn_121_example_3_3
 # text = BERTELLI :
 1	BERTELLI	BERTELLI	PROPN	SP	_	0	root	_	_
 2	:	:	PUNCT	FC	_	1	punct	_	_
 
 # source = ItWac Complete
-# sent_id = 4
+# sent_id = cxn_121_example_3_4
 # text = Ah ... Santa Maria di ... Vedi un po' che ho confuso un capo con un altro ?
 1	Ah	ah	INTJ	I	_	7	discourse	_	_
 2	...	...	PUNCT	FF	_	1	punct	_	_
@@ -55,25 +55,25 @@
 18	?	?	PUNCT	FS	_	7	punct	_	_
 
 # source = ItWac Complete
-# sent_id = 5
+# sent_id = cxn_121_example_3_5
 # text = SCOTTO :
 1	SCOTTO	scotto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
 2	:	:	PUNCT	FC	_	1	punct	_	_
 
 # source = ItWac Complete
-# sent_id = 6
+# sent_id = cxn_121_example_3_6
 # text = Succede .
 1	Succede	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = ItWac Complete
-# sent_id = 7
+# sent_id = cxn_121_example_3_7
 # text = BERTELLI :
 1	BERTELLI	BERTELLI	PROPN	SP	_	0	root	_	_
 2	:	:	PUNCT	FC	_	1	punct	_	_
 
 # source = ItWac Complete
-# sent_id = 8
+# sent_id = cxn_121_example_3_8
 # text = E di chi è , Santa Maria di Leuca ?
 1	E	e	CCONJ	CC	_	4	cc	_	_
 2	di	di	ADP	E	_	3	case	_	_
@@ -87,7 +87,7 @@
 10	?	?	PUNCT	FS	_	4	punct	_	_
 
 # source = ItWac Complete
-# sent_id = 9
+# sent_id = cxn_121_example_3_9
 # text = SCOTTO : Rossa .
 1	SCOTTO	scotto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
 2	:	:	PUNCT	FC	_	1	punct	_	_
@@ -95,7 +95,7 @@
 4	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = ItWac Complete
-# sent_id = 10
+# sent_id = cxn_121_example_3_10
 # text = BERTELLI
 1	BERTELLI	BERTELLI	PROPN	SP	_	0	root	_	SpaceAfter=No
 

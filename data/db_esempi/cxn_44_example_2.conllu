@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Internet
-# sent_id = 1
+# sent_id = cxn_44_example_2_1
 # text = Hai scoperto l'America
 1	Hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	scoperto	scoprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_

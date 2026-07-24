@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_101_example_3_1
 # text = Dovrà permetterci di ritrovare un tragitto analogo a quello che ti ho detto or ora.
 1	Dovrà	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	aux	_	_
 2-3	permetterci	_	_	_	_	_	_	_	_

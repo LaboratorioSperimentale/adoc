@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS2021
-# sent_id = 1
+# sent_id = cxn_160_example_3_1
 # text = Mia madre, nota facciacomeilculo, chiedeva:
 1	Mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
 2	madre	madre	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
@@ -14,7 +14,7 @@
 8	:	:	PUNCT	FC	_	7	punct	_	_
 
 # source = CORIS2021
-# sent_id = 2
+# sent_id = cxn_160_example_3_2
 # text = "Com'è l'arrosto?" . "Buono." rispondeva lui.
 1	"	"	PUNCT	FB	_	5	punct	_	SpaceAfter=No
 2	Com'	come	ADV	B	_	3	advmod	_	SpaceAfter=No
@@ -33,7 +33,7 @@
 15	.	.	PUNCT	FS	_	3	punct	_	_
 
 # source = CORIS2021
-# sent_id = 3
+# sent_id = cxn_160_example_3_3
 # text = E giù forchettata su forchettata mentre mio padre scattava una foto, mio fratello gli aggiungeva un po' di "forte", io gli passavo il vino.
 1	E	e	CCONJ	CC	_	16	cc	_	_
 2	giù	giù	ADV	B	_	3	advmod	_	_

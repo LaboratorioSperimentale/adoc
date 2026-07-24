@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = itTenTen20
-# sent_id = 1
+# sent_id = cxn_63_example_5_1
 # text = Leggete e ripetete tutto fino a quando non sarete strasicuri di aver compreso bene ogni cosa.
 1	Leggete	leggere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	e	e	CCONJ	CC	_	3	cc	_	_

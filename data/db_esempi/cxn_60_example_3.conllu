@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Vocabolario Treccani.
-# sent_id = 1
+# sent_id = cxn_60_example_3_1
 # text = Francesco fa delle battute divertentissime:
 1	Francesco	Francesco	PROPN	SP	_	2	nsubj	_	_
 2	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14,7 +14,7 @@
 7	:	:	PUNCT	FC	_	2	punct	_	_
 
 # source = Vocabolario Treccani.
-# sent_id = 2
+# sent_id = cxn_60_example_3_2
 # text = mi fanno sempre ridere a più non posso.
 1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
 2	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_

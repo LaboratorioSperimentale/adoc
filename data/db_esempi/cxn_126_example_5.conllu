@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: Coris Timeslice: CORIS 1980_2000  Subcorpus: STAMPA
-# sent_id = 1
+# sent_id = cxn_126_example_5_1
 # text = Ma..., come si dice:
 1	Ma...	Ma...	X	X	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	1	punct	_	_
@@ -12,7 +12,7 @@
 6	:	:	PUNCT	FC	_	5	punct	_	_
 
 # source = Corpus: Coris Timeslice: CORIS 1980_2000  Subcorpus: STAMPA
-# sent_id = 2
+# sent_id = cxn_126_example_5_2
 # text = chi troppo vuole nulla stringe.
 1	chi	chi	PRON	PR	PronType=Int	5	nsubj	_	_
 2	troppo	troppo	ADV	B	_	3	advmod	_	_

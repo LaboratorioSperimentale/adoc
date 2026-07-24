@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Dizionario Internazionale https://dizionario.internazionale.it/parola/morire-dalla-voglia
-# sent_id = 1
+# sent_id = cxn_57_example_1_1
 # text = Muoio dalla voglia di uscire.
 1	Muoio	muoiare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2-3	dalla	_	_	_	_	_	_	_	_

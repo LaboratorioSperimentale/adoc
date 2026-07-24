@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_41_example_3_1
 # text = Il suo compleanno è a Natale?
 1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
@@ -13,7 +13,7 @@
 7	?	?	PUNCT	FS	_	4	punct	_	_
 
 # source = 
-# sent_id = 2
+# sent_id = cxn_41_example_3_2
 # text = Tanto vale farle un solo regalo.
 1	Tanto	tanto	PRON	B	_	2	advmod	_	_
 2	vale	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_

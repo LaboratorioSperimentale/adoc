@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = italiano colloquiale. 
-# sent_id = 1
+# sent_id = cxn_12_example_1_1
 # text = Ho incontrato un amico ed abbiamo parlato del più e del meno.
 1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2	incontrato	incontrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_

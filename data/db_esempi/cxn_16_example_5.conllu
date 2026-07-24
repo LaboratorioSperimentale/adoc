@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=30535272&End=30535272
-# sent_id = 1
+# sent_id = cxn_16_example_5_1
 # text = Quella strada lo avrebbe rapidamente immesso sulla statale e poi, in men che non si dica , lui si sarebbe ritrovato nei pressi della stradina che conduceva al Colle dello Scopatore
 1	Quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	strada	strada	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_

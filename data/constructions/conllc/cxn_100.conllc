@@ -1,0 +1,6 @@
+# cxn_id = cxn_100
+# cxn_name = Emphatic construction with "quanto" + Adj cxn-machine-readable-formalization: | cxn_100.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	quanto	quanto	_	_	C	advmod	_
+B	sono	essere	AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	C	cop	_
+C	_	_	_	_	0	root	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://www.corpusitaliano.it/static/documents/sources/171/1718652
-# sent_id = 1
+# sent_id = cxn_36_example_1_1
 # text = Desiderare ardentemente A causa del suo indiscreto comportamento il fratello Giorgio III non le permise di tornare in Inghilterra, cosa che lei desiderava ardentemente.
 1	Desiderare	desiderare	VERB	V	VerbForm=Inf	16	csubj	_	_
 2	ardentemente	ardentemente	ADV	B	_	1	advmod	_	_

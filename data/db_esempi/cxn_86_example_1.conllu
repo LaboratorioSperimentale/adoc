@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://ricerca.repubblica.it/repubblica/archivio/repubblica/2011/04/22/quando-orfeo-lascia-euridice.html 
-# sent_id = 1
+# sent_id = cxn_86_example_1_1
 # text = quando Orfeo si gira a guardare Euridice
 1	quando	quando	SCONJ	CS	_	4	mark	_	_
 2	Orfeo	Orfeo	PROPN	SP	_	4	nsubj	_	_

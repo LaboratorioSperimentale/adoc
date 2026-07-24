@@ -1,0 +1,13 @@
+pattern {
+  A [upos=VERB];
+  B [upos=DET, PronType=Art];
+  C [upos=NOUN];
+  D [];
+  E [upos=VERB];
+  F [upos=NOUN];
+  C -[det]-> B;
+  A -[obj]-> C;
+  A -[obl]-> D;
+  A -[advcl]-> E;
+  E -[obj]-> F;
+}

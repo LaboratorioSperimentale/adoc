@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CorpusPaisà (corpusitaliano.it)
-# sent_id = 1
+# sent_id = cxn_48_example_1_1
 # text = Tra tutti quelli che erano interessati allo svolgimento del match, Hart era senza dubbio il più calmo di tutti.
 1	Tra	tra	ADP	E	_	3	case	_	_
 2	tutti	tutto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
@@ -31,7 +31,7 @@
 23	.	.	PUNCT	FS	_	20	punct	_	_
 
 # source = CorpusPaisà (corpusitaliano.it)
-# sent_id = 2
+# sent_id = cxn_48_example_1_2
 # text = Molte piccole cose lo avevano spinto a guardare con tranquillità a quanto stava per accadere.
 1	Molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
 2	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_

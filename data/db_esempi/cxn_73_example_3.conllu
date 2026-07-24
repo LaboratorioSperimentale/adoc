@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Glosbe dizionario online
-# sent_id = 1
+# sent_id = cxn_73_example_3_1
 # text = Si può essere figli di industriali ed essere in bolletta.
 1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl:impers	_	_
 2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_

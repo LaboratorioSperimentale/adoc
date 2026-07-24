@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = SketchEngine
-# sent_id = 1
+# sent_id = cxn_103_example_3_1
 # text = A parte che secondo me a 56 kg stai bene, comunque cinque giorni non sono indicativi.
 1	A	a	ADP	E	_	2	case	_	_
 2	parte	parte	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_

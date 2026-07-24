@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = MONITOR
-# sent_id = 1
+# sent_id = cxn_66_example_3_1
 # text = E ' nostro interesse partire il prima possibile , le aziende devono girare : prima si parte , prima si lavora.
 1	E	e	CCONJ	CC	_	13	cc	_	_
 2	'	'	PUNCT	FB	_	4	punct	_	_

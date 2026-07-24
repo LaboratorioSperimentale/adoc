@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = la Repubblica 
-# sent_id = 1
+# sent_id = cxn_157_example_3_1
 # text = Quelle della Honda sono adatte a me:
 1	Quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	6	nsubj	_	_
 2-3	della	_	_	_	_	_	_	_	_
@@ -16,7 +16,7 @@
 9	:	:	PUNCT	FC	_	6	punct	_	_
 
 # source = la Repubblica 
-# sent_id = 2
+# sent_id = cxn_157_example_3_2
 # text = è una moto bella compatta.
 1	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_

@@ -1,0 +1,6 @@
+# cxn_id = cxn_129
+# cxn_name = doppia negazione cxn-machine-readable-formalization: | cxn_129.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	che	che	SCONJ	_	C	mark	_
+B	non	non	ADV	PronType=Neg	C	advmod	_
+C	_	_	VERB	_	0	root	_

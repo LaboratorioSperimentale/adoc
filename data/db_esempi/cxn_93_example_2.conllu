@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Parlante nativo
-# sent_id = 1
+# sent_id = cxn_93_example_2_1
 # text = Chi più spende più guadagna
 1	Chi	chi	PRON	PR	Number=Sing|PronType=Rel	0	root	_	_
 2	più	più	ADV	B	_	3	advmod	_	_

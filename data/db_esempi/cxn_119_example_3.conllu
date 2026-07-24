@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORPUS: itTenTen20
-# sent_id = 1
+# sent_id = cxn_119_example_3_1
 # text = I fichi una volta costituivano il pane dei poveri e in questa stagione si continuano a far seccare al sole e a farcire con le mandorle.
 1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
 2	fichi	fico	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Reverso context dizionario online
-# sent_id = 1
+# sent_id = cxn_82_example_1_1
 # text = Et le tueur pourrait être en train de chercher sa prochaine victime.E l'assassino starà cercando la prossima vittima.
 1	Et	et	CCONJ	CC	_	7	cc	_	_
 2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_

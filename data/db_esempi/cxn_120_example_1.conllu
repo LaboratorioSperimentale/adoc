@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Dialoghi tra persone
-# sent_id = 1
+# sent_id = cxn_120_example_1_1
 # text = Ci vediamo là della scuola.
 1	Ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	_
 2	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_

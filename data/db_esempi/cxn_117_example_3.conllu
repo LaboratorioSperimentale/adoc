@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac Small
-# sent_id = 1
+# sent_id = cxn_117_example_3_1
 # text = Re dei re Ritornato ad essere il mitico Re dei Re , ARDHASHIR vi costruisce il suo immenso palazzo reale .
 1	Re	re	NOUN	S	Gender=Masc	17	nsubj	_	_
 2-3	dei	_	_	_	_	_	_	_	_

@@ -1,0 +1,9 @@
+pattern {
+  A [Mood=Ind, Person=1, VerbForm=Fin];
+  B [upos=ADV];
+  C [lemma="di", upos=ADP, form=/di/i];
+  D [];
+  A -[advmod]-> B;
+  D -[case]-> C;
+  B -[obl]-> D;
+}

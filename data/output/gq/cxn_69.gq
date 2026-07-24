@@ -1,0 +1,15 @@
+pattern {
+  A [lemma="e", upos=CCONJ, form=/e/i];
+  B [lemma="tu", upos=PRON, form=/tu/i, Number=Sing, Person=2, PronType=Prs];
+  C [upos=VERB, Mood=Ind, Number=Sing, Person=2, Tense=Pres, VerbForm=Fin];
+  D [lemma="che", upos=SCONJ, form=/che/i];
+  E [upos=VERB, Tense=Past, VerbForm=Part];
+  F [lemma="si", upos=PRON, form=/si/i, Person=3, PronType=Prs];
+  G [upos=VERB];
+  C -[cc]-> A;
+  C -[nsubj]-> B;
+  G -[mark]-> D;
+  G -[advcl]-> E;
+  G -[expl:impers]-> F;
+  C -[ccomp]-> G;
+}

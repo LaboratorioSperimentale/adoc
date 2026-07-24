@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS1980_2000
-# sent_id = 1
+# sent_id = cxn_123_example_1_1
 # text = prima il governo Berlusconi che è durato appena nove mesi , poi un governo tecnico di un anno e adesso una maggioranza traballante che sembra avere le ore contate.
 1	prima	prima	ADV	B	_	3	advmod	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -36,7 +36,7 @@
 30	.	.	PUNCT	FS	_	3	punct	_	_
 
 # source = CORIS1980_2000
-# sent_id = 2
+# sent_id = cxn_123_example_1_2
 # text = Le sembra un buon risultato ?
 1	Le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
 2	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: itTenTen20
-# sent_id = 1
+# sent_id = cxn_65_example_3_1
 # text = Non del successo perché sono ansioso come se vivessi costantemente in procinto di fare bungee jumping, ma sicuramente dell'interesse che genera, questo certo che mi rende invidioso.
 1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
 2-3	del	_	_	_	_	_	_	_	_

@@ -1,0 +1,11 @@
+# cxn_id = cxn_144
+# cxn_name = Avere a che fare con X cxn-machine-readable-formalization: | cxn_144.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	non	non	ADV	PronType=Neg	B	advmod	_
+B	_	avere	VERB	_	0	root	_
+C	niente	niente	PRON	Gender=Masc|Number=Sing|PronType=Ind	B	obj	_
+D	a	a	ADP	ExtPos=SCONJ	F	mark	_
+E	che	che	SCONJ	_	D	fixed	_
+F	fare	fare	VERB	VerbForm=Inf	B	advcl	_
+G	con	con	ADP	_	H	case	_
+H	_	_	_	Gender=Masc|Number=Sing	F	obl	_

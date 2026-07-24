@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=25633205&End=25633206  
-# sent_id = 1
+# sent_id = cxn_14_example_2_1
 # text = Vede nelle fotografie e nei disegni la trasformazione di un giovane che era bello come un angelo in un uomo devastato dalla crudeltà ottusa dei suoi simili
 1	Vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2-3	nelle	_	_	_	_	_	_	_	_

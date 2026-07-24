@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_139_example_3_1
 # text = E vuoi il caldo , vuoi il fatto che la guerra è andata come è andata , io proprio non me la sono sentita di farmi mettere sotto da una foto
 1	E	e	CCONJ	CC	_	2	cc	_	SpacesBefore=\s
 2	vuoi	volere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_

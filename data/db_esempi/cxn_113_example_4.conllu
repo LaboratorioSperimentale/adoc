@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS2021
-# sent_id = 1
+# sent_id = cxn_113_example_4_1
 # text = Tutta la vita, la vostra e la loro.
 1	Tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	3	det:predet	_	_
 2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -16,7 +16,7 @@
 10	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter= 
 
 # source = CORIS2021
-# sent_id = 2
+# sent_id = cxn_113_example_4_2
 # text = Traversina dopo traversina, galleria dopo galleria, stazione dopo stazione ci si rivela completamente.
 1	Traversina	traversina	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
 2	dopo	dopo	ADP	E	_	3	case	_	_
@@ -36,7 +36,7 @@
 16	.	.	PUNCT	FS	_	14	punct	_	_
 
 # source = CORIS2021
-# sent_id = 3
+# sent_id = cxn_113_example_4_3
 # text = Quelli che abbiamo davanti non sono semplici viaggiatori, casuali utenti delle Ferrovie, ma uomini e donne mandati dal Fato.
 1	Quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	8	nsubj	_	_
 2	che	che	PRON	PR	PronType=Rel	3	obj	_	_
@@ -66,7 +66,7 @@
 24	.	.	PUNCT	FS	_	8	punct	_	_
 
 # source = CORIS2021
-# sent_id = 4
+# sent_id = cxn_113_example_4_4
 # text = Diventano i nostri migliori amici ben sapendo che probabilmente, una volta arrivati, non li vedremo più.
 1	Diventano	diventare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_

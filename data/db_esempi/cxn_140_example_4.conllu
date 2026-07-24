@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = None
-# sent_id = 1
+# sent_id = cxn_140_example_4_1
 # text = Non le piace discutere
 1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
 2	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_

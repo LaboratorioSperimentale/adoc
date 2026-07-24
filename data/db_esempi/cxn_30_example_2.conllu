@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = (corpus) CORIS :  http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=154151025&End=154151025
-# sent_id = 1
+# sent_id = cxn_30_example_2_1
 # text = (A scanso di + Adj + N) Lo fece con la massima attenzione , a scanso di brutte figure.
 1	(	(	PUNCT	FB	_	3	punct	_	SpaceAfter=No
 2	A	a	ADP	E	_	3	case	_	_

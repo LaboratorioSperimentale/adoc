@@ -2,13 +2,13 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://www.corpusitaliano.it/static/documents/sources/770/7705365
-# sent_id = 1
+# sent_id = cxn_47_example_2_1
 # text = ..
 1	.	.	PUNCT	FF	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = https://www.corpusitaliano.it/static/documents/sources/770/7705365
-# sent_id = 2
+# sent_id = cxn_47_example_2_2
 # text = la frangetta, soprattutto sul caschetto corto, che fa molto Arisa, ...
 1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	frangetta	frangetta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No

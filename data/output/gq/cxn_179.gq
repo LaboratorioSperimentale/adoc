@@ -1,0 +1,7 @@
+pattern {
+  A [lemma="di", upos=ADP, form=/di/i];
+  B [lemma="il", upos=DET, form=/il/i, Definite=Def, Gender=Masc, Number=Sing, PronType=Art];
+  C [upos=PRON, Gender=Masc, Number=Sing, Poss=Yes, PronType=Prs];
+  C -[case]-> A;
+  C -[det]-> B;
+}

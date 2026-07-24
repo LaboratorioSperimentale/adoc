@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Parlante nativo
-# sent_id = 1
+# sent_id = cxn_91_example_1_1
 # text = Cadere in trappola
 1	Cadere	cadere	VERB	V	VerbForm=Inf	0	root	_	_
 2	in	in	ADP	E	_	3	case	_	_

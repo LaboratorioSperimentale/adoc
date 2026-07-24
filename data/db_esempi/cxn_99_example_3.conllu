@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Blog - italiano naturale 
-# sent_id = 1
+# sent_id = cxn_99_example_3_1
 # text = E’ stato importantissimo farsi le ossa in una realtà più piccola, perché ti permette di capire il funzionamento e la visione di un’azienda.
 1	E’	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 2	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	cop	_	_

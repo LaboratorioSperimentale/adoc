@@ -1,0 +1,7 @@
+# cxn_id = cxn_94
+# cxn_name = Enfatizzazione ironica cxn-machine-readable-formalization: | cxn_94.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	ma	ma	CCONJ	_	C	cc	_
+B	_	essere	AUX	Mood=Ind|Tense=Fut|VerbForm=Fin	C	cop	_
+C	_	_	ADJ	_	0	root	_
+D	_	_	PRON	PronType=Prs	C	nsubj	_

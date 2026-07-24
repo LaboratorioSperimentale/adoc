@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: iTenTen20
-# sent_id = 1
+# sent_id = cxn_67_example_5_1
 # text = Siamo all'ombra di una montagna di morti che non riusciamo a vederne la cima, conficcati come dannati in un lago ghiacciato e senza vita, e tu questo me lo chiami un lieto fine?
 1	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
 2-3	all'	_	_	_	_	_	_	_	SpaceAfter=No
@@ -47,7 +47,7 @@
 39	?	?	PUNCT	FS	_	4	punct	_	SpacesAfter= 
 
 # source = Corpus: iTenTen20
-# sent_id = 2
+# sent_id = cxn_67_example_5_2
 # text = Mi dovrei accontentare?
 1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
 2	dovrei	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Invented 
-# sent_id = 1
+# sent_id = cxn_88_example_5_1
 # text = Marco è una persona paziente e accomodante, ma diventa molto severo con chi tenta di prenderlo per il fondo dei calzoni.
 1	Marco	Marco	PROPN	SP	_	4	nsubj	_	_
 2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_

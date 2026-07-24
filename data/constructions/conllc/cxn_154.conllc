@@ -1,0 +1,6 @@
+# cxn_id = cxn_154
+# cxn_name = Implict Verba Dicendi Construction cxn-machine-readable-formalization: | cxn_154.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	VERB	_	0	root	_
+B	di	di	ADP	_	C	mark	_
+C	_	_	_	VerbForm=Inf	A	xcomp	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = corpus: itTenTen20
-# sent_id = 1
+# sent_id = cxn_133_example_4_1
 # text = non è piu la mamma che avevo prima...l'ha venduta xke aveva bisogno di soldi...
 1	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
 2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
@@ -21,7 +21,7 @@
 15	soldi...	soldi...	X	X	_	13	nmod	_	_
 
 # source = corpus: itTenTen20
-# sent_id = 2
+# sent_id = cxn_133_example_4_2
 # text = ma quella casa io l'amavo tantissimo.
 1	ma	ma	CCONJ	CC	_	6	cc	_	_
 2	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
@@ -32,12 +32,12 @@
 7	tantissimo.	tantissimo.	ADV	B	_	6	advmod	_	SpaceAfter=No
 
 # source = corpus: itTenTen20
-# sent_id = 3
+# sent_id = cxn_133_example_4_3
 # text = .
 1	.	.	PUNCT	FS	_	0	root	_	_
 
 # source = corpus: itTenTen20
-# sent_id = 4
+# sent_id = cxn_133_example_4_4
 # text = che tristezza ...non voglio vedere chi ci abita li,mi sembrerebbe che fossero ancora a CASA MIA.
 1	che	che	DET	DE	PronType=Exc	2	det	_	_
 2	tristezza	tristezza	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
@@ -57,7 +57,7 @@
 16	MIA.	Mia.	PROPN	SP	_	15	nmod	_	SpaceAfter=No
 
 # source = corpus: itTenTen20
-# sent_id = 5
+# sent_id = cxn_133_example_4_5
 # text = ...purtroppo mia non la è piu..
 1	...purtroppo	...purtroppo	ADV	B	_	6	advmod	_	_
 2	mia	mio	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	nsubj	_	_
@@ -68,7 +68,7 @@
 7	.	.	PUNCT	FS	_	6	punct	_	_
 
 # source = corpus: itTenTen20
-# sent_id = 6
+# sent_id = cxn_133_example_4_6
 # text = eh no.
 1	eh	eh	INTJ	I	_	2	discourse	_	_
 2	no	no	INTJ	I	Polarity=Neg	0	root	_	SpaceAfter=No

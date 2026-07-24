@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_97_example_4_1
 # text = In effetti le digressioni sono "tante e tali" da far perdere l'orientamento anche a Salviati, nonché al lettore.
 1	In	in	ADP	E	_	2	case	_	_
 2	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_

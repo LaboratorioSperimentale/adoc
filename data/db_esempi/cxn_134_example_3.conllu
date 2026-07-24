@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = conversazioni tra persone 
-# sent_id = 1
+# sent_id = cxn_134_example_3_1
 # text = questo film è un botto bello
 1	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	film	film	NOUN	S	Gender=Masc	5	nsubj	_	_

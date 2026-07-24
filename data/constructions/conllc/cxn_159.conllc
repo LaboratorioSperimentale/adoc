@@ -1,0 +1,6 @@
+# cxn_id = cxn_159
+# cxn_name = Predicative Construction cxn-machine-readable-formalization: | cxn_159.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	_	_	B	nsubj	LinearOrder=Variable
+B	_	_	VERB	Person=3|VerbForm=Fin	0	root	_
+C	_	_	_	_	B	xcomp	_

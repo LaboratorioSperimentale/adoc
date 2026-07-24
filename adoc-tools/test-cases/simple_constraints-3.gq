@@ -1,6 +1,3 @@
 pattern {
-	A[];
-	A[lemma="saltare"];
-	A[upos=VERB];
-	A[VerbForm=Fin];
+  A [lemma="saltare", upos=VERB, VerbForm=Fin];
 }

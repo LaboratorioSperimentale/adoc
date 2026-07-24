@@ -1,0 +1,7 @@
+pattern {
+  A [];
+  B [lemma="che", upos=CCONJ, form=/che/i];
+  C [];
+  C -[cc]-> B;
+  A -[conj]-> C;
+}

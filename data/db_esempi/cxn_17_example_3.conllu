@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: CORIS
-# sent_id = 1
+# sent_id = cxn_17_example_3_1
 # text = Sapevo che prima o poi sarebbe arrivato:
 1	Sapevo	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 2	che	che	SCONJ	CS	_	7	mark	_	SpacesAfter= 
@@ -14,7 +14,7 @@
 8	:	:	PUNCT	FC	_	1	punct	_	_
 
 # source = Corpus: CORIS
-# sent_id = 2
+# sent_id = cxn_17_example_3_2
 # text = questo gol è importante per l'ambiente oltre che per me.
 1	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
 2	gol	gol	NOUN	S	Gender=Masc	4	nsubj	_	_

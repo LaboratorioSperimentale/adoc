@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: Coris Timeslice: CORIS 1980_2000  Subcorpus: PRACC
-# sent_id = 1
+# sent_id = cxn_126_example_2_1
 # text = chi rompe paga diremmo noi , chi inquina paga dicono i tedeschi .
 1	chi	chi	PRON	PR	Number=Sing|PronType=Rel	4	nsubj	_	_
 2	rompe	rompere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_

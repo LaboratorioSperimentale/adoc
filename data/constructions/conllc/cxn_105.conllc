@@ -1,0 +1,6 @@
+# cxn_id = cxn_105
+# cxn_name = stare per" costruzione cxn-machine-readable-formalization: | cxn_105.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	stare	VERB	Mood=Ind|Number=Sing|VerbForm=Fin	0	root	_
+B	per	per	ADP	_	C	mark	_
+C	_	_	VERB	VerbForm=Inf	A	ccomp	_

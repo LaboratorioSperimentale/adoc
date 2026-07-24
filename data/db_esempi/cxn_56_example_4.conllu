@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=114089084&End=114089084
-# sent_id = 1
+# sent_id = cxn_56_example_4_1
 # text = Martedì, non appena si è diffusa la notizia che da venerdì 28 marzo i politici non potranno più partecipare a trasmissioni di intrattenimento in Rai e Mediaset, dato il black out elettorale per il voto amministrativo del 27 aprile, apriti cielo!
 1	Martedì	martedì	NOUN	S	Gender=Masc	44	obl	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	1	punct	_	_
@@ -53,7 +53,7 @@
 46	!	!	PUNCT	FS	_	44	punct	_	_
 
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=114089084&End=114089084
-# sent_id = 2
+# sent_id = cxn_56_example_4_2
 # text = Sono a rischio trasmissioni come Mixer, Pinocchio, Moby Dick.
 1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
 2	a	a	ADP	E	_	3	case	_	_

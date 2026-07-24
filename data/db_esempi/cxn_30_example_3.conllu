@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = (corpus) Paisà corpus dell'italiano:  https://www.corpusitaliano.it/static/documents/sources/781/7813724
-# sent_id = 1
+# sent_id = cxn_30_example_3_1
 # text = (A scanso + Adv + di + Det + Adj + N) E Livio, a scanso giustamente di ogni antiquato razzismo, ha sbaragliato un’agguerrita concorrenza[...]
 1	(	(	PUNCT	FB	_	3	punct	_	SpaceAfter=No
 2	A	a	ADP	E	_	3	case	_	_

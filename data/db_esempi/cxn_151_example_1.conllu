@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac
-# sent_id = 1
+# sent_id = cxn_151_example_1_1
 # text = le due donne portarono via Bennegret su una portantina
 1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	due	due	NUM	N	NumType=Card	3	nummod	_	_

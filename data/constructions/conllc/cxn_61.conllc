@@ -1,0 +1,5 @@
+# cxn_id = cxn_61
+# cxn_name = Immagina" Vinf SN/Sprep Prep/Conj SV cxn-machine-readable-formalization: | cxn_61.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	immagina	immaginare	VERB	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_
+B	_	_	_	_	A	xcomp	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus ItalianWeb2020 - Sketch Engine
-# sent_id = 1
+# sent_id = cxn_171_example_2_1
 # text = Cosa resta di questa vita tanto triste quanto esaltante?
 1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	2	nsubj	_	SpacesBefore=\s
 2	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -16,7 +16,7 @@
 10	?	?	PUNCT	FS	_	2	punct	_	_
 
 # source = Corpus ItalianWeb2020 - Sketch Engine
-# sent_id = 2
+# sent_id = cxn_171_example_2_2
 # text = “...gli eventi imprevisti possono essere tanto benevoli quanto disastrosi.” “...hanno avuto esperienza di un contesto tanto familiare quanto insolito.
 1	“	“	PUNCT	FB	_	8	punct	_	SpaceAfter=No
 2	...gli	...gli	PUNCT	FF	_	3	punct	_	_
@@ -43,7 +43,7 @@
 23	.	.	PUNCT	FS	_	8	punct	_	SpaceAfter=No
 
 # source = Corpus ItalianWeb2020 - Sketch Engine
-# sent_id = 3
+# sent_id = cxn_171_example_2_3
 # text = ”
 1	”	”	PUNCT	FB	_	0	root	_	_
 

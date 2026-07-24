@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac
-# sent_id = 1
+# sent_id = cxn_154_example_1_1
 # text = vorrei chiederti di chiarire a quali triangoli ti stai riferendo
 1	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
 2-3	chiederti	_	_	_	_	_	_	_	_

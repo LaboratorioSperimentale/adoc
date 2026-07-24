@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_97_example_2_1
 # text = Ogni momento che passava con quei due schizoidi le faceva perdere la bussola.
 1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
 2	momento	momento	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_

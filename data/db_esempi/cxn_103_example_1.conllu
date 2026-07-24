@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = SketchEngine
-# sent_id = 1
+# sent_id = cxn_103_example_1_1
 # text = Biancaneve non mi piace.
 1	Biancaneve	Biancaneve	PROPN	SP	_	4	nsubj	_	_
 2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
@@ -11,7 +11,7 @@
 5	.	.	PUNCT	FS	_	4	punct	_	_
 
 # source = SketchEngine
-# sent_id = 2
+# sent_id = cxn_103_example_1_2
 # text = A parte che secondo me sa più di plastica che di mandorla, ma poi non idrata, unge e basta.
 1	A	a	ADP	E	_	2	case	_	_
 2	parte	parte	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_

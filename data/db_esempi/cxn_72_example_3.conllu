@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: Italian parliamentary debates (ParlaMint 2.1, CoNLL format) 
-# sent_id = 1
+# sent_id = cxn_72_example_3_1
 # text = perché quello che conta è la modalità dello scorporo degli investimenti dal deficit pubblico
 1	perché	perché	SCONJ	CS	_	7	mark	_	SpacesAfter= 
 2	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nsubj	_	_

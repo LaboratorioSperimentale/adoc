@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = itTenTen20
-# sent_id = 1
+# sent_id = cxn_68_example_4_1
 # text = Una volta qui però si scopre che sono poche le possibilita'' che offre un paese come questo, poi però salta fuori che potrebbero non essere così poche [...].
 1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	volta	volta	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_

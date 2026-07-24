@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = None
-# sent_id = 1
+# sent_id = cxn_140_example_2_1
 # text = A Marco piace la frutta
 1	A	a	ADP	E	_	2	case	_	_
 2	Marco	Marco	PROPN	SP	_	3	obl	_	_

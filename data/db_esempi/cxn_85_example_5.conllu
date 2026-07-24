@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_85_example_5_1
 # text = è ora di esaminare il contributo della teoria sociale a questo riguardo.
 1	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	ora	ora	ADV	B	_	0	root	_	_

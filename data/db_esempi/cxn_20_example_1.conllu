@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=2960907&End=2960907
-# sent_id = 1
+# sent_id = cxn_20_example_1_1
 # text = Possa Egli prendersi cura di noi in modo che insieme possiamo godere dei frutti delle sacre scritture
 1	Possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
 2	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_

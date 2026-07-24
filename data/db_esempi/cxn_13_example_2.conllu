@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: CORIS
-# sent_id = 1
+# sent_id = cxn_13_example_2_1
 # text = La sua attrattiva è più viva che mai.
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_

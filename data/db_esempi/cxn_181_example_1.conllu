@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = 
-# sent_id = 1
+# sent_id = cxn_181_example_1_1
 # text = ¿Lo dices de verdad o me estás tomando el pelo?
 1	¿Lo	¿lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 2	dices	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -17,13 +17,13 @@
 11	?	?	PUNCT	FS	_	2	punct	_	_
 
 # source = 
-# sent_id = 2
+# sent_id = cxn_181_example_1_2
 # text = Traduzione:
 1	Traduzione	traduzione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	FC	_	1	punct	_	_
 
 # source = 
-# sent_id = 3
+# sent_id = cxn_181_example_1_3
 # text = Lo dici davvero o mi prendi in giro?
 1	Lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
 2	dici	dire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_

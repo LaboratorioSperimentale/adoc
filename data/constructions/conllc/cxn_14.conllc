@@ -1,0 +1,7 @@
+# cxn_id = cxn_14
+# cxn_name = bello/a come Det N cxn-machine-readable-formalization: | cxn_14.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	bello	bello	ADJ	Gender=Masc|Number=Sing	0	root	_
+B	come	come	ADP	_	D	case	_
+C	_	_	DET	Gender=Masc|Number=Sing|PronType=Art	D	det	_
+D	_	_	NOUN	Gender=Masc|Number=Sing	A	obl	_

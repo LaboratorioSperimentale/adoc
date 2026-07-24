@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Conversazioni del quotidiano
-# sent_id = 1
+# sent_id = cxn_24_example_1_1
 # text = Bevi piano piano che è fredda
 1	Bevi	bere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	piano	piano	ADV	B	_	1	advmod	_	_

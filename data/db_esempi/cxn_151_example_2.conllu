@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac
-# sent_id = 1
+# sent_id = cxn_151_example_2_1
 # text = non buttiamo via mesi di lotta
 1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
 2	buttiamo	buttare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_

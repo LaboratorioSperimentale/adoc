@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = PAISA'
-# sent_id = 1
+# sent_id = cxn_96_example_3_1
 # text = E l' invito è cascato a fagiolo, visto che un' altra serata sanremese non l' avrei retta senza essere supportato da una sufficiente quantità d' alcol
 1	E	e	CCONJ	CC	_	5	cc	_	SpacesAfter= 
 2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpacesAfter= 

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORPUS: MONITOR2001_04
-# sent_id = 1
+# sent_id = cxn_119_example_5_1
 # text = «Non a caso, la confessione è stata chiamata "la psicoanalisi dei poveri"».
 1	«	«	PUNCT	FB	_	10	punct	_	SpaceAfter=No
 2	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_

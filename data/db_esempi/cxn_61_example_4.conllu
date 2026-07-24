@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Italiano colloquiale
-# sent_id = 1
+# sent_id = cxn_61_example_4_1
 # text = Immagina essere all'ultima puntata della serie e non averci capito nulla
 1	Immagina	immaginare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	essere	essere	AUX	VA	VerbForm=Inf	6	cop	_	_

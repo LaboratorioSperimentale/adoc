@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = SketchEngine
-# sent_id = 1
+# sent_id = cxn_103_example_2_1
 # text = Diversamente quando mi mandano la mora da pagare (a parte che non ne sapevo niente) mi rivolgo ad un avvocato.
 1	Diversamente	diversamente	ADV	B	_	19	advmod	_	_
 2	quando	quando	SCONJ	CS	_	4	mark	_	_

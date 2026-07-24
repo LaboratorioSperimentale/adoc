@@ -1,0 +1,8 @@
+# cxn_id = cxn_103
+# cxn_name = a parte che as a discourse marker cxn-machine-readable-formalization: | cxn_103.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	a	a	ADP	_	D	discourse	_
+B	parte	parte	NOUN	Gender=Fem|Number=Sing	A	fixed	_
+C	che	che	SCONJ	_	B	fixed	_
+D	_	_	VERB	Mood=Ind|Number=Sing|VerbForm=Fin	0	root	_
+E	_	_	ADV	_	D	advmod	LinearOrder=Variable

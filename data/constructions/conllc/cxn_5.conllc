@@ -1,0 +1,7 @@
+# cxn_id = cxn_5
+# cxn_name = Adj + come + N cxn-machine-readable-formalization: | cxn_5.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	ADJ	Number=Sing	0	root	_
+B	come	come	ADP	_	D	case	_
+C	il	il	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	D	det	_
+D	_	_	NOUN	Gender=Masc|Number=Sing	A	obl	_

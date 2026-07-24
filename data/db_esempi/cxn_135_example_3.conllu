@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = corpus: itTenTen20
-# sent_id = 1
+# sent_id = cxn_135_example_3_1
 # text = Senti il profumo di rosa e tiglio, il suo bisbiglio ma perché ti voglio io ancora non lo so.
 1	Senti	sentire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -27,7 +27,7 @@
 21	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = corpus: itTenTen20
-# sent_id = 2
+# sent_id = cxn_135_example_3_2
 # text = Emily, Emily Emily, ma che curiosità che ho , Emily.
 1	Emily	Emily	PROPN	SP	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	1	punct	_	_
@@ -44,7 +44,7 @@
 13	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = corpus: itTenTen20
-# sent_id = 3
+# sent_id = cxn_135_example_3_3
 # text = Una grande carrellata di profili femminili e una prova di grande capacità narrativa.
 1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	grande	grande	ADJ	A	Number=Sing	3	amod	_	_

@@ -1,0 +1,7 @@
+# cxn_id = cxn_55
+# cxn_name = Acqua in bocca cxn-machine-readable-formalization: | cxn_55.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	_	_	0	root	_
+B	acqua	acqua	NOUN	Gender=Fem|Number=Sing	A	discourse	LinearOrder=Variable
+C	in	in	ADP	_	D	case	_
+D	bocca	bocca	NOUN	Gender=Fem|Number=Sing	B	nmod	_

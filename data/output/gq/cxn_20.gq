@@ -1,0 +1,11 @@
+pattern {
+  A [lemma="prendere", upos=VERB, form=/prender/i, VerbForm=Inf];
+  B [lemma="si", upos=PRON, form=/si/i, Person=3, PronType=Prs];
+  C [upos=NOUN, Number=Sing];
+  D [upos=ADP];
+  E [Gender=Masc, Number=Sing];
+  A -[expl]-> B;
+  A -[obj]-> C;
+  E -[case]-> D;
+  A -[obl]-> E;
+}

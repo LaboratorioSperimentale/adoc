@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac Small
-# sent_id = 1
+# sent_id = cxn_117_example_2_1
 # text = Dio degli dei perché il Signore vostro Dio è il Dio degli dei , il Signore dei signori , il Dio grande , forte e terribile , che non usa parzialità e non accetta regali , [ 18 ] rende giustizia all' orfano e alla vedova , ama il forestiero e gli dà pane e vestito .
 1	Dio	dio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
 2-3	degli	_	_	_	_	_	_	_	_

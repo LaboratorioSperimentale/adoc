@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Corpus: KIP
-# sent_id = 1
+# sent_id = cxn_76_example_1_1
 # text = cosa d' omini // era una faccenda che si doveva sbrogliari faccia a faccia // non si mh non confessa a suo padre quello che e' successo
 1	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	SpacesBefore=\s\s\s
 2	d'	di	ADP	E	_	3	case	_	_

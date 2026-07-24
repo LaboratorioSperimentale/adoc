@@ -1,0 +1,7 @@
+pattern {
+  A [upos=NOUN, Number=Sing];
+  B [Number=Sing];
+  C [];
+  B -[nsubj]-> A;
+  B -[conj]-> C;
+}

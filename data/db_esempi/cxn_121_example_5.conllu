@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Repubblica
-# sent_id = 1
+# sent_id = cxn_121_example_5_1
 # text = diceva al regista già noto nel mondo : " Vedi caro , per questo film , soldi non ne ho , ma ti posso dare quel quadro .
 1	diceva	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 2-3	al	_	_	_	_	_	_	_	_
@@ -38,7 +38,7 @@
 30	.	.	PUNCT	FS	_	1	punct	_	_
 
 # source = Repubblica
-# sent_id = 2
+# sent_id = cxn_121_example_5_2
 # text = Trova un po' tu il modo di cavartela " . Con quel quadro " che però è restato nell' ufficio grandioso e delabre del produttore di cinema
 1	Trova	trovare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_

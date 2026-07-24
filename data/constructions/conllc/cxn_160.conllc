@@ -1,0 +1,5 @@
+# cxn_id = cxn_160
+# cxn_name = Discontinous reduplication N(sg)-su-N(sg) cxn-machine-readable-formalization: | cxn_160.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	il	DET	Definite=Def|PronType=Art	B	det	_
+B	_	_	NOUN	_	0	root	_

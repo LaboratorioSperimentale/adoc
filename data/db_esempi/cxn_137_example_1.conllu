@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = https://www.tio.ch/svizzera/cronaca/1701915/una-ticinese-e-un-controllore-ffs-sono-venuti-alle-mani
-# sent_id = 1
+# sent_id = cxn_137_example_1_1
 # text = Una ticinese e un controllore Ffs sono venuti alle mani
 1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	ticinese	ticinese	NOUN	S	Number=Sing	8	nsubj	_	_

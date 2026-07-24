@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_80_example_5_1
 # text = La logica pretende di farla da padrona e queste sono le inevitabili conseguenze:
 1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	logica	logica	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
@@ -22,7 +22,7 @@
 15	:	:	PUNCT	FC	_	3	punct	_	_
 
 # source = CORIS
-# sent_id = 2
+# sent_id = cxn_80_example_5_2
 # text = odio su odio.
 1	odio	odiare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	su	su	ADP	E	_	3	case	_	_

@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Twitter
-# sent_id = 1
+# sent_id = cxn_61_example_2_1
 # text = Immagina farti la doccia per andare in palestra
 1	Immagina	immaginare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	farti	farte	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	ccomp	_	_

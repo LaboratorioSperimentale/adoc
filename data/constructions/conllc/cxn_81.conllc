@@ -1,0 +1,6 @@
+# cxn_id = cxn_81
+# cxn_name = battere un colpo cxn-machine-readable-formalization: | cxn_81.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	battere	battere	VERB	VerbForm=Inf	0	root	_
+B	un	uno	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	C	det	_
+C	colpo	colpo	NOUN	Gender=Masc|Number=Sing	A	obj	_

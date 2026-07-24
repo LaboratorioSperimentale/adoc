@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = CORIS
-# sent_id = 1
+# sent_id = cxn_85_example_1_1
 # text = Luisa, che forse è stata anche felice nei suoi anni di matrimonio con Bruno, scopre che è ora di dire addio a tutto questo.
 1	Luisa	Luisa	PROPN	SP	_	18	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	1	punct	_	_

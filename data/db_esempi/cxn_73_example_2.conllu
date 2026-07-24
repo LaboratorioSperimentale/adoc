@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = Glosbe dizionario online
-# sent_id = 1
+# sent_id = cxn_73_example_2_1
 # text = Doveva essere in bolletta sparata – non comprava mai, per esempio, abiti nuovi, solo scarpe e vestiti di seconda mano.
 1	Doveva	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	SpacesAfter= 
 2	essere	essere	AUX	VA	VerbForm=Inf	4	cop	_	_

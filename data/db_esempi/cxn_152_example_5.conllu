@@ -2,7 +2,7 @@
 # udpipe_model = italian-isdt-ud-2.17-251125
 # udpipe_model_licence = CC BY-NC-SA
 # source = ItWac
-# sent_id = 1
+# sent_id = cxn_152_example_5_1
 # text = Esistono persone che non danno importanza ai nomi delle cime e alle loro altezze
 1	Esistono	esistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	persone	persona	NOUN	S	Gender=Fem|Number=Plur	1	nsubj	_	_

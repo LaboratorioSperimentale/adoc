@@ -1,0 +1,5 @@
+pattern {
+  A [];
+  B [];
+  A -[conj]-> B;
+}
