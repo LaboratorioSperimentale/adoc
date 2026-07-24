@@ -3,3 +3,10 @@
 .DS_Store
 .vscode/
 .claude/
+
+# Jekyll (docs/) -- Gemfile.lock is intentionally NOT ignored, it's committed for reproducible builds
+docs/_site/
+docs/.jekyll-cache/
+docs/.jekyll-metadata
+docs/.bundle/
+docs/vendor/

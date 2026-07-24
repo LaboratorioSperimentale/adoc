@@ -1,0 +1,32 @@
+title: ItCon
+description: >-
+  A Machine-Readable Constructicon for Italian: guidelines for formalizing
+  constructions, the CoNLL-C/CoNLL-Uc formats, and the adoc-tools pipeline.
+baseurl: "/adoc"
+url: "https://laboratoriosperimentale.github.io"
+
+theme: just-the-docs
+
+# just-the-docs settings
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+nav_sort: case_insensitive
+back_to_top: true
+back_to_top_text: "Back to top"
+
+aux_links:
+  "adoc on GitHub":
+    - "https://github.com/LaboratorioSperimentale/adoc"
+
+footer_content: >-
+  ItCon is developed by the LaboratorioSperimentale group. Site source in
+  <code>docs/</code> of the <a href="https://github.com/LaboratorioSperimentale/adoc">adoc</a> repository.
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

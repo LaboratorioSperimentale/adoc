@@ -1,0 +1,179 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with dep2pict -->
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1545.99316" height="285.05078">
+<rect x="0" y="0" width="1545.99316" height="285.05078" style="fill:white;fill-opacity:0;" />
+<g  transform="translate(0,139.36719) scale(2,2)">
+<text id="word__N_0" x="26.8428" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="26.8428" dy="12.8633">__0__</tspan>
+</text>
+<rect x="73.7603" y="-12.4062" width="23.6348" height="12.8633" style="fill:#8bf56e;fill-opacity:100;" />
+<text id="word__N_1" x="85.5776" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="85.5776" dy="12.8633">[X1]</tspan>
+<tspan   x="85.5776" dy="12.8633">giorno</tspan>
+</text>
+<rect x="64.1516" y="13.3203" width="42.8521" height="8.33691" style="fill:#8bf56e;fill-opacity:100;" />
+<text id="subword__N_1" x="85.5776" y="11.3203" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="85.5776" dy="8.33691">upos=NOUN</tspan>
+<tspan   x="85.5776" dy="8.33691">lemma=giorno</tspan>
+<tspan   x="85.5776" dy="8.33691">Gender=Masc</tspan>
+<tspan   x="85.5776" dy="8.33691">Number=Sing</tspan>
+</text>
+<rect x="135.601" y="-12.4062" width="23.6348" height="12.8633" style="fill:#8bf56e;fill-opacity:100;" />
+<text id="word__N_2" x="147.419" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="147.419" dy="12.8633">[X2]</tspan>
+<tspan   x="147.419" dy="12.8633">dopo</tspan>
+</text>
+<rect x="125.47" y="21.6572" width="43.8979" height="8.33691" style="fill:#8bf56e;fill-opacity:100;" />
+<text id="subword__N_2" x="147.419" y="11.3203" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="147.419" dy="8.33691">upos=ADP</tspan>
+<tspan   x="147.419" dy="8.33691">lemma=dopo</tspan>
+</text>
+<rect x="197.442" y="-12.4062" width="23.6348" height="12.8633" style="fill:#8bf56e;fill-opacity:100;" />
+<text id="word__N_3" x="209.26" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="209.26" dy="12.8633">[X3]</tspan>
+<tspan   x="209.26" dy="12.8633">giorno</tspan>
+</text>
+<rect x="187.834" y="13.3203" width="42.8521" height="8.33691" style="fill:#8bf56e;fill-opacity:100;" />
+<text id="subword__N_3" x="209.26" y="11.3203" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="209.26" dy="8.33691">upos=NOUN</tspan>
+<tspan   x="209.26" dy="8.33691">lemma=giorno</tspan>
+<tspan   x="209.26" dy="8.33691">Gender=Masc</tspan>
+<tspan   x="209.26" dy="8.33691">Number=Sing</tspan>
+</text>
+<text id="word__N_4" x="273.206" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="273.206" dy="12.8633">mi</tspan>
+</text>
+<text id="subword__N_4" x="273.206" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="273.206" dy="8.33691">upos=PRON</tspan>
+<tspan   x="273.206" dy="8.33691">lemma=mi</tspan>
+<tspan   x="273.206" dy="8.33691">Clitic=Yes</tspan>
+<tspan   x="273.206" dy="8.33691">Number=Sing</tspan>
+<tspan   x="273.206" dy="8.33691">Person=1</tspan>
+<tspan   x="273.206" dy="8.33691">PronType=Prs</tspan>
+</text>
+<text id="word__N_5" x="342.979" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="342.979" dy="12.8633">accorgo</tspan>
+</text>
+<text id="subword__N_5" x="342.979" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="342.979" dy="8.33691">upos=VERB</tspan>
+<tspan   x="342.979" dy="8.33691">lemma=accorgere</tspan>
+<tspan   x="342.979" dy="8.33691">Mood=Ind</tspan>
+<tspan   x="342.979" dy="8.33691">Number=Sing</tspan>
+<tspan   x="342.979" dy="8.33691">Person=1</tspan>
+<tspan   x="342.979" dy="8.33691">Tense=Pres</tspan>
+<tspan   x="342.979" dy="8.33691">VerbForm=Fin</tspan>
+</text>
+<text id="word__N_6" x="413.565" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="413.565" dy="12.8633">quanto</tspan>
+</text>
+<text id="subword__N_6" x="413.565" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="413.565" dy="8.33691">upos=PRON</tspan>
+<tspan   x="413.565" dy="8.33691">lemma=quanto</tspan>
+<tspan   x="413.565" dy="8.33691">PronType=Ind</tspan>
+</text>
+<text id="word__N_7" x="478" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="478" dy="12.8633">Louis</tspan>
+</text>
+<text id="subword__N_7" x="478" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="478" dy="8.33691">upos=PROPN</tspan>
+<tspan   x="478" dy="8.33691">lemma=Louis</tspan>
+</text>
+<text id="word__N_8" x="542.227" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="542.227" dy="12.8633">sia</tspan>
+</text>
+<text id="subword__N_8" x="542.227" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="542.227" dy="8.33691">upos=AUX</tspan>
+<tspan   x="542.227" dy="8.33691">lemma=essere</tspan>
+<tspan   x="542.227" dy="8.33691">Mood=Sub</tspan>
+<tspan   x="542.227" dy="8.33691">Number=Sing</tspan>
+<tspan   x="542.227" dy="8.33691">Person=3</tspan>
+<tspan   x="542.227" dy="8.33691">Tense=Pres</tspan>
+<tspan   x="542.227" dy="8.33691">VerbForm=Fin</tspan>
+</text>
+<text id="word__N_9" x="613.577" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="613.577" dy="12.8633">importante</tspan>
+</text>
+<text id="subword__N_9" x="613.577" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="613.577" dy="8.33691">upos=ADJ</tspan>
+<tspan   x="613.577" dy="8.33691">lemma=importante</tspan>
+<tspan   x="613.577" dy="8.33691">Number=Sing</tspan>
+</text>
+<text id="word__N_10" x="679.577" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="679.577" dy="12.8633">per</tspan>
+</text>
+<text id="subword__N_10" x="679.577" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="679.577" dy="8.33691">upos=ADP</tspan>
+<tspan   x="679.577" dy="8.33691">lemma=per</tspan>
+</text>
+<text id="word__N_11" x="738.942" y="-14.4062" font-style="normal" font-weight="normal" fill="black" font-size="12" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="738.942" dy="12.8633">me</tspan>
+</text>
+<text id="subword__N_11" x="738.942" y="-1.54297" fill="black" font-size="7" font-family="Arial" text-anchor="middle" text-align="center">
+<tspan   x="738.942" dy="8.33691">upos=PRON</tspan>
+<tspan   x="738.942" dy="8.33691">lemma=me</tspan>
+<tspan   x="738.942" dy="8.33691">Number=Sing</tspan>
+<tspan   x="738.942" dy="8.33691">Person=1</tspan>
+<tspan   x="738.942" dy="8.33691">PronType=Prs</tspan>
+</text>
+
+<marker id="markerendword_2" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
+<path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
+</marker>
+<text id="label__N_3__N_2__case" x="176.91870" y="-26.40625" style="fill:black;font-size:7px;font-family:Arial;text-anchor:middle;text-align:center" >case</text>
+<path style="marker-end:url(#markerendword_2);" stroke="black" fill="none" d="M 206.75977,-15.40625 206.75977,-20.40625 A 3 3 0 0 0 203.75977,-23.40625 L 150.41870,-23.40625 A 3 3 0 0 0 147.41870,-20.40625 L 147.41870,-15.40625" ></path>
+<marker id="markerendword_4" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
+<path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
+</marker>
+<text id="label__N_5__N_4__expl" x="304.20630" y="-24.40625" style="fill:black;font-size:7px;font-family:Arial;text-anchor:middle;text-align:center" >expl</text>
+<path style="marker-end:url(#markerendword_4);" stroke="black" fill="none" d="M 335.47876,-13.40625 335.47876,-18.40625 A 3 3 0 0 0 332.47876,-21.40625 L 276.20630,-21.40625 A 3 3 0 0 0 273.20630,-18.40625 L 273.20630,-13.40625" ></path>
+<marker id="markerendword_5" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
+<path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
+</marker>
+<text id="label__N_5__N_6__obj" x="380.47876" y="-24.40625" style="fill:black;font-size:7px;font-family:Arial;text-anchor:middle;text-align:center" >obj</text>
+<path style="marker-end:url(#markerendword_5);" stroke="black" fill="none" d="M 350.47876,-13.40625 350.47876,-18.40625 A 3 3 0 0 1 353.47876,-21.40625 L 408.06470,-21.40625 A 3 3 0 0 1 411.06470,-18.40625 L 411.06470,-13.40625" ></path>
+<marker id="markerendword_8" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
+<path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
+</marker>
+<text id="label__N_9__N_8__cop" x="573.72681" y="-24.40625" style="fill:black;font-size:7px;font-family:Arial;text-anchor:middle;text-align:center" >cop</text>
+<path style="marker-end:url(#markerendword_8);" stroke="black" fill="none" d="M 606.07666,-13.40625 606.07666,-18.40625 A 3 3 0 0 0 603.07666,-21.40625 L 545.22681,-21.40625 A 3 3 0 0 0 542.22681,-18.40625 L 542.22681,-13.40625" ></path>
+<marker id="markerendword_10" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
+<path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
+</marker>
+<text id="label__N_11__N_10__case" x="707.57739" y="-24.40625" style="fill:black;font-size:7px;font-family:Arial;text-anchor:middle;text-align:center" >case</text>
+<path style="marker-end:url(#markerendword_10);" stroke="black" fill="none" d="M 736.44214,-13.40625 736.44214,-18.40625 A 3 3 0 0 0 733.44214,-21.40625 L 682.57739,-21.40625 A 3 3 0 0 0 679.57739,-18.40625 L 679.57739,-13.40625" ></path>
+<marker id="markerendword_1" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
+<path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
+</marker>
+<text id="label__N_1__N_3__nmod" x="149.57764" y="-36.40625" style="fill:black;font-size:7px;font-family:Arial;text-anchor:middle;text-align:center" >nmod</text>
+<path style="marker-end:url(#markerendword_1);" stroke="black" fill="none" d="M 88.07764,-15.40625 88.07764,-30.40625 A 3 3 0 0 1 91.07764,-33.40625 L 208.75977,-33.40625 A 3 3 0 0 1 211.75977,-30.40625 L 211.75977,-15.40625" ></path>
+<marker id="markerendword_7" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
+<path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
+</marker>
+<text id="label__N_9__N_7__nsubj" x="544.50000" y="-34.40625" style="fill:black;font-size:7px;font-family:Arial;text-anchor:middle;text-align:center" >nsubj</text>
+<path style="marker-end:url(#markerendword_7);" stroke="black" fill="none" d="M 611.07666,-13.40625 611.07666,-28.40625 A 3 3 0 0 0 608.07666,-31.40625 L 481,-31.40625 A 3 3 0 0 0 478,-28.40625 L 478,-13.40625" ></path>
+<marker id="markerendword_9" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
+<path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
+</marker>
+<text id="label__N_9__N_11__obl" x="681.07666" y="-34.40625" style="fill:black;font-size:7px;font-family:Arial;text-anchor:middle;text-align:center" >obl</text>
+<path style="marker-end:url(#markerendword_9);" stroke="black" fill="none" d="M 621.07666,-13.40625 621.07666,-28.40625 A 3 3 0 0 1 624.07666,-31.40625 L 738.44214,-31.40625 A 3 3 0 0 1 741.44214,-28.40625 L 741.44214,-13.40625" ></path>
+<marker id="markerendword_6" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
+<path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
+</marker>
+<text id="label__N_6__N_9__acl:relcl" x="516.06470" y="-44.40625" style="fill:black;font-size:7px;font-family:Arial;text-anchor:middle;text-align:center" >acl:relcl</text>
+<path style="marker-end:url(#markerendword_6);" stroke="black" fill="none" d="M 416.06470,-13.40625 416.06470,-38.40625 A 3 3 0 0 1 419.06470,-41.40625 L 613.07666,-41.40625 A 3 3 0 0 1 616.07666,-38.40625 L 616.07666,-13.40625" ></path>
+<marker id="markerendword_3" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
+<path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
+</marker>
+<text id="label__N_5__N_1__obl" x="211.57764" y="-44.40625" style="fill:black;font-size:7px;font-family:Arial;text-anchor:middle;text-align:center" >obl</text>
+<path style="marker-end:url(#markerendword_3);" stroke="black" fill="none" d="M 340.47876,-13.40625 340.47876,-38.40625 A 3 3 0 0 0 337.47876,-41.40625 L 86.07764,-41.40625 A 3 3 0 0 0 83.07764,-38.40625 L 83.07764,-15.40625" ></path>
+<marker id="markerendword_0" markerWidth="5" markerHeight="5" markerUnits="userSpaceOnUse" orient="auto" refX="2" refY="2">
+<path d="M0,0 l4,2 l-4,2 z" style="fill:black;"/>
+</marker>
+<text id="label__N_0__N_5__root" x="185.84277" y="-54.40625" style="fill:black;font-size:7px;font-family:Arial;text-anchor:middle;text-align:center" >root</text>
+<path style="marker-end:url(#markerendword_0);" stroke="black" fill="none" d="M 26.84277,-13.40625 26.84277,-48.40625 A 3 3 0 0 1 29.84277,-51.40625 L 342.47876,-51.40625 A 3 3 0 0 1 345.47876,-48.40625 L 345.47876,-13.40625" ></path>
+
+
+</g>
+</svg>
