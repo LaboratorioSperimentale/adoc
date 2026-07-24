@@ -26,6 +26,16 @@ footer_content: >-
 plugins:
   - jekyll-seo-tag
 
+# Every content page needs the theme's "default" layout (nav sidebar, CSS,
+# search) to render at all -- without this, any page whose front matter
+# doesn't set its own `layout:` gets no layout whatsoever. index.md sets
+# `layout: home` explicitly, so it overrides this default as intended.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
 exclude:
   - Gemfile
   - Gemfile.lock
