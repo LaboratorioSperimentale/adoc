@@ -1,0 +1,192 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
+# sent_id = cxn_2_example_1_1
+# text = Sono già quattro volte che non riesco a superare l’ultimo esame dell’università.
+# tags = CONTEXT
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	già	già	ADV	B	_	4	advmod	_	_
+3	quattro	quattro	NUM	N	NumType=Card	4	nummod	_	_
+4	volte	volta	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	riesco	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9	superare	superare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+11	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	12	amod	_	_
+12	esame	esame	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+13-14	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	università	università	NOUN	S	Gender=Fem	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
+# sent_id = cxn_2_example_1_2
+# text = Ma stavolta non c’è santo che tenga.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	stavolta	stavolta	ADV	B	_	5	advmod	_	SpacesAfter=
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	c’	ci	PRON	PC	PronType=Prs	5	expl	_	Clitic=Yes|SpaceAfter=No
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	santo	santo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+7	che	che	PRON	CS	_	8	nsubj	_	_
+8	tenga	tenere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
+# sent_id = cxn_2_example_1_3
+# text = Giuro che ci riuscirò!
+# tags = CONTEXT
+1	Giuro	giurare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	ci	ci	PRON	PC	Number=Plur|Person=1|PronType=Prs	4	expl	_	Clitic=Yes
+4	riuscirò	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	1	xcomp	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	1	punct	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
+# sent_id = cxn_2_example_2_1
+# text = Le ultime partite sono stato molto sfortunato e ho sempre perso.
+# tags = CONTEXT
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	ultime	ultimo	ADJ	NO	Gender=Fem|Number=Plur|NumType=Ord	3	amod	_	_
+3	partite	partita	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	cop	_	_
+6	molto	molto	ADV	B	_	7	advmod	_	_
+7	sfortunato	sfortunato	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	sempre	sempre	ADV	B	_	11	advmod	_	_
+11	perso	perdere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
+# sent_id = cxn_2_example_2_2
+# text = Ma la prossima partita non c’è sfortuna che tenga.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	partita	partita	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpacesAfter=
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	c’	ci	PRON	PC	PronType=Prs	7	expl	_	Clitic=Yes|SpaceAfter=No
+7	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	sfortuna	sfortuna	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+9	che	che	PRON	CS	_	10	nsubj	_	_
+10	tenga	tenere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=
+
+# source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
+# sent_id = cxn_2_example_2_3
+# text = Stavolta vincerò io!
+# tags = CONTEXT
+1	Stavolta	stavolta	ADV	B	_	2	advmod	_	_
+2	vincerò	vincere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
+# sent_id = cxn_2_example_3_1
+# text = Perdiamo sempre per colpa dell’arbitro?
+# tags = CONTEXT
+1	Perdiamo	perdere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sempre	sempre	ADV	B	_	1	advmod	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	colpa	colpa	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5-6	dell’	_	_	_	_	_	_	_	SpaceAfter=No
+5	di	di	ADP	E	_	7	case	_	_
+6	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	arbitro	arbitro	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	1	punct	_	_
+
+# source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
+# sent_id = cxn_2_example_3_2
+# text = La prossima volta non c’è arbitro che tenga.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	volta	volta	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpacesAfter=
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	c’	ci	PRON	PC	PronType=Prs	6	expl	_	Clitic=Yes|SpaceAfter=No
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	arbitro	arbitro	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	tenga	tenere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=
+
+# source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
+# sent_id = cxn_2_example_3_3
+# text = Vinceremo noi!
+# tags = CONTEXT
+1	Vinceremo	vincere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	1	nsubj	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
+# sent_id = cxn_2_example_4_1
+# text = Perché consegnate sempre i compiti in ritardo?
+# tags = CONTEXT
+1	Perché	perché	ADV	B	_	2	advmod	_	_
+2	consegnate	consegnare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sempre	sempre	ADV	B	_	2	advmod	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	ritardo	ritardo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	2	punct	_	_
+
+# source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
+# sent_id = cxn_2_example_4_2
+# text = Avete sempre una scusa da dire e questo non va bene.
+# tags = CONTEXT
+1	Avete	avere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sempre	sempre	ADV	B	_	1	advmod	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	scusa	scusa	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+5	da	da	ADP	E	_	6	mark	_	_
+6	dire	dire	VERB	V	VerbForm=Inf	4	acl	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	10	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+11	bene	bene	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
+# sent_id = cxn_2_example_4_3
+# text = La prossima volta non c’è scusa che tenga!
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	volta	volta	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpacesAfter=
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	c’	ci	PRON	PC	PronType=Prs	6	expl	_	Clitic=Yes|SpaceAfter=No
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	scusa	scusa	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+8	che	che	PRON	CS	_	9	nsubj	_	_
+9	tenga	tenere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	6	punct	_	SpacesAfter=
+
+# source = https://italianosemplicemente.com/2021/06/25/552-non-ce-che-tenga/
+# sent_id = cxn_2_example_4_4
+# text = Chi non consegna i compiti in tempo sarà bocciato.
+# tags = CONTEXT
+1	Chi	chi	PRON	PR	Number=Sing|PronType=Rel	9	nsubj:pass	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	consegna	consegnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	compiti	compito	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	aux:pass	_	_
+9	bocciato	bocciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_

@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = corpus kiparla
+# sent_id = cxn_102_example_1_1
+# text = Non me ne frega niente ma proprio niente
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	me	me	PRON	PC	Number=Sing|Person=1|PronType=Prs	4	iobj	_	Clitic=Yes
+3	ne	ne	PRON	PC	PronType=Prs	4	obl	_	Clitic=Yes
+4	frega	fregare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obj	_	_
+6	ma	ma	CCONJ	CC	_	8	cc	_	_
+7	proprio	proprio	ADV	B	_	8	advmod	_	_
+8	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	conj	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = corpus kiparla
+# sent_id = cxn_102_example_2_1
+# text = Non glie ne frega un cazzo
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2-3	gliene	_	_	_	_	_	_	_	_
+2	glie	gli	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	Clitic=Yes
+3	ne	ne	PRON	PC	PronType=Prs	4	obl	_	Clitic=Yes
+4	frega	fregare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	cazzo	cazzo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = intuition
+# sent_id = cxn_102_example_3_1
+# text = non te ne frega davvero nulla
+1	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	te	te	PRON	PC	Number=Sing|Person=2|PronType=Prs	4	iobj	_	Clitic=Yes
+3	ne	ne	PRON	PC	PronType=Prs	4	obl	_	Clitic=Yes
+4	frega	fregare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	davvero	davvero	ADV	B	_	4	advmod	_	_
+6	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obj	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = inutition
+# sent_id = cxn_102_example_4_1
+# text = non me ne frega un tubo
+1	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	me	me	PRON	PC	Number=Sing|Person=1|PronType=Prs	4	iobj	_	Clitic=Yes
+3	ne	ne	PRON	PC	PronType=Prs	4	obl	_	Clitic=Yes
+4	frega	fregare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	tubo	tubo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No

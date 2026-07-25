@@ -1,0 +1,192 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=57851776&End=57851778
+# sent_id = cxn_53_example_1_1
+# text = Anzi, rido proprio, e mi viene da coprirmi la bocca con la mano.
+1	Anzi	anzi	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	rido	ridere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	proprio	proprio	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	8	iobj	_	Clitic=Yes
+8	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	da	da	ADP	E	_	10	mark	_	_
+10-11	coprirmi	_	_	_	_	_	_	_	_
+10	coprir	coprire	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	10	expl	_	Clitic=Yes
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	mano	mano	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=1022449&End=1022450
+# sent_id = cxn_53_example_2_1
+# text = Il risultato di tali opere è che radici di alberi, tuttora infestanti, minacciano con la loro penetrazione la stabilità dello stesso muro: e non essendo stato rimosso il terrapieno, peraltro sporchissimo, che ricopre il basamento di fronte alla strada, viene da chiedersi se e quali lavori di solidità siano stati operati dalla XII Ripartizione
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	tali	tale	DET	DD	Number=Plur|PronType=Dem	5	det	_	_
+5	opere	opera	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	15	mark	_	_
+8	radici	radice	NOUN	S	Gender=Fem|Number=Plur	15	nsubj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	alberi	albero	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	tuttora	tuttora	ADV	B	_	13	advmod	_	_
+13	infestanti	infestante	ADJ	A	Number=Plur	10	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	minacciano	minacciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	xcomp	_	_
+16	con	con	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	loro	loro	DET	AP	Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	penetrazione	penetrazione	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	stabilità	stabilità	NOUN	S	Gender=Fem	15	obj	_	_
+22-23	dello	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	25	case	_	_
+23	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+25	muro	muro	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	48	punct	_	_
+27	e	e	CCONJ	CC	_	48	cc	_	_
+28	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+29	essendo	essere	AUX	VA	VerbForm=Ger	31	aux	_	_
+30	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	aux:pass	_	_
+31	rimosso	rimuovere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	advcl	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	terrapieno	terrapieno	NOUN	S	Gender=Masc|Number=Sing	31	nsubj:pass	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	36	punct	_	_
+35	peraltro	peraltro	ADV	B	_	36	advmod	_	_
+36	sporchissimo	sporco	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	33	amod	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	36	punct	_	_
+38	che	che	PRON	PR	PronType=Rel	39	nsubj	_	_
+39	ricopre	ricoprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	acl:relcl	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	basamento	basamento	NOUN	S	Gender=Masc|Number=Sing	39	obj	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	fronte	fronte	NOUN	S	Number=Sing	39	obl	_	_
+44-45	alla	_	_	_	_	_	_	_	_
+44	a	a	ADP	E	_	46	case	_	_
+45	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	strada	strada	NOUN	S	Gender=Fem|Number=Sing	43	nmod	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	39	punct	_	_
+48	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+49	da	da	ADP	E	_	50	mark	_	_
+50-51	chiedersi	_	_	_	_	_	_	_	_
+50	chieder	chiedere	VERB	V	VerbForm=Inf	48	xcomp	_	_
+51	si	si	PRON	PC	Person=3|PronType=Prs	50	iobj	_	Clitic=Yes
+52	se	se	SCONJ	CS	_	60	mark	_	_
+53	e	e	CCONJ	CC	_	55	cc	_	_
+54	quali	quale	DET	DQ	Number=Plur|PronType=Int	55	det	_	_
+55	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	60	nsubj:pass	_	_
+56	di	di	ADP	E	_	57	case	_	_
+57	solidità	solidità	NOUN	S	Gender=Fem	55	nmod	_	_
+58	siano	essere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	60	aux	_	_
+59	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	60	aux:pass	_	_
+60	operati	operare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	50	ccomp	_	_
+61-62	dalla	_	_	_	_	_	_	_	_
+61	da	da	ADP	E	_	64	case	_	_
+62	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	64	det	_	_
+63	XII	XII	ADJ	NO	Number=Sing|NumType=Ord	64	nummod	_	_
+64	Ripartizione	ripartizione	NOUN	S	Gender=Fem|Number=Sing	60	obl:agent	_	_
+
+# source = CORIS http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=27364326&End=27364328
+# sent_id = cxn_53_example_3_2
+# text = Su che cosa siete d' accordo ?
+# tags = CONTEXT
+1	Su	su	ADP	E	_	3	case	_	_
+2	che	che	DET	DQ	PronType=Int	3	det	_	_
+3	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	obl	_	_
+4	siete	essere	AUX	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	d'	di	ADP	E	_	6	case	_	_
+6	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	?	?	PUNCT	FS	_	4	punct	_	_
+
+# source = CORIS http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=27364326&End=27364328
+# sent_id = cxn_53_example_3_4
+# text = Su quasi niente, mi viene da rispondere.
+1	Su	su	ADP	E	_	3	case	_	_
+2	quasi	quasi	ADV	B	_	3	advmod	_	_
+3	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	6	iobj	_	Clitic=Yes
+6	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	da	da	ADP	E	_	8	mark	_	_
+8	rispondere	rispondere	VERB	V	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=23527547&End=23527550
+# sent_id = cxn_53_example_4_1
+# text = È sotto l'influsso di queste riflessioni che ho letto l'interessante lavoro della dottoressa Mariotti e mi è venuto da pensare all'incontro con il suo testo negli eleganti e armonici termini dell'arte marziale.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	sotto	sotto	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	influsso	influsso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	7	det	_	_
+7	riflessioni	riflessione	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+8	che	che	SCONJ	CS	_	10	mark	_	_
+9	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	xcomp	_	_
+11	l'	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+12	interessante	interessante	ADJ	A	Number=Sing	13	amod	_	_
+13	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	dottoressa	dottoressa	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	Mariotti	Mariotti	PROPN	SP	_	16	appos	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	21	iobj	_	Clitic=Yes
+20	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+22	da	da	ADP	E	_	23	mark	_	_
+23	pensare	pensare	VERB	V	VerbForm=Inf	21	xcomp	_	_
+24-25	all'	_	_	_	_	_	_	_	SpaceAfter=No
+24	a	a	ADP	E	_	26	case	_	_
+25	l'	il	DET	E	_	26	case	_	_
+26	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+27	con	con	ADP	E	_	30	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	testo	testo	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	_
+31-32	negli	_	_	_	_	_	_	_	_
+31	in	in	ADP	E	_	36	case	_	_
+32	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	36	det	_	_
+33	eleganti	elegante	ADJ	A	Number=Plur	36	amod	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	armonici	armonico	ADJ	A	Gender=Masc|Number=Plur	33	conj	_	_
+36	termini	termine	NOUN	S	Gender=Masc|Number=Plur	30	nmod	_	_
+37-38	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+37	di	di	ADP	E	_	39	det	_	_
+38	l'	il	DET	RD	_	39	det	_	_
+39	arte	arte	NOUN	S	Gender=Fem|Number=Sing	36	nmod	_	_
+40	marziale	marziale	ADJ	A	Number=Sing	39	amod	_	SpaceAfter=No
+41	.	.	PUNCT	FS	_	4	punct	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=16126688&End=16126690
+# sent_id = cxn_53_example_5_1
+# text = Sono segni buoni, mi viene da dire.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	segni	segno	NOUN	S	Gender=Masc|Number=Plur	8	ccomp	_	_
+3	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	6	iobj	_	Clitic=Yes
+6	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	da	da	ADP	E	_	8	mark	_	_
+8	dire	dire	VERB	V	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_

@@ -1,0 +1,79 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS 2021
+# sent_id = cxn_145_example_1_1
+# text = Alessia era la capoclasse e, come tale, aveva cercato di esercitare la sua autorità.
+# tags = MORPHOLOGICAL
+1	Alessia	Alessia	PROPN	SP	_	4	nsubj	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	capoclasse	capoclasse	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	e	e	CCONJ	CC	_	11	cc	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	11	punct	_	_
+7	come	come	ADP	E	_	8	case	_	_
+8	tale	tale	PRON	PD	Number=Sing|PronType=Dem	11	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	cercato	cercare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	esercitare	esercitare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	autorità	autorità	NOUN	S	Gender=Fem	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS 2021
+# sent_id = cxn_145_example_2_1
+# text = Voi tutti al massimo potreste fare i capiclasse in una prima elementare con la didattica a distanza.
+# tags = MORPHOLOGICAL
+1	Voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	7	nsubj	_	_
+2	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	det	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	massimo	massimo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+6	potreste	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	capiclasse	capoclasse	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10	in	in	ADP	E	_	13	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	13	amod	_	_
+13	elementare	elementare	NOUN	S	Number=Sing	7	obl	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	didattica	didattica	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	7	punct	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = laRepubblica corpus
+# sent_id = cxn_145_example_3_1
+# text = Un impiegato potrebbe denunciare domani il capufficio perché, non promovendolo, gli ha fatto venire l'ulcera.
+# tags = MORPHOLOGICAL
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	impiegato	impiegato	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	denunciare	denunciare	VERB	V	VerbForm=Inf	0	root	_	_
+5	domani	domani	ADV	B	_	4	advmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	SpacesAfter=
+7	capufficio	capoufficio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8	perché	perché	SCONJ	CS	_	15	mark	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	promovendolo	promovere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	gli	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	iobj	_	Clitic=Yes
+14	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	advcl	_	_
+16	venire	venire	VERB	V	VerbForm=Inf	15	ccomp	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	ulcera	ulcera	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	_

@@ -1,0 +1,319 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = corpus: itTenTen20
+# sent_id = cxn_133_example_1_1
+# text = In lontananza vedo un gruppo di persone che va in direzione dei convogli.
+# tags = CONTEXT
+1	In	in	ADP	E	_	2	case	_	_
+2	lontananza	lontananza	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+3	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	persone	persona	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	direzione	direzione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	convogli	convoglio	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# source = corpus: itTenTen20
+# sent_id = cxn_133_example_1_2
+# text = Le porte si aprono velocemente, che fortuna!
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	porte	porta	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	si	si	PRON	PC	Person=3|PronType=Prs	4	expl	_	Clitic=Yes
+4	aprono	aprire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	velocemente	velocemente	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	che	che	DET	DE	PronType=Exc	8	det	_	_
+8	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	4	discourse	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	4	punct	_	_
+
+# source = corpus: itTenTen20
+# sent_id = cxn_133_example_1_3
+# text = Il presidente del consiglio d'Europa rientra a casa per il fine settimana, si parte in perfetto orario.
+# tags = DROP
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	presidente	presidente	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	d'	di	ADP	E	_	7	case	_	SpaceAfter=No
+7	Europa	Europa	PROPN	SP	_	5	nmod	_	_
+8	rientra	rientrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	casa	casa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	fine	fine	NOUN	S	Number=Sing	8	obl	_	_
+14	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	13	compound	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	si	si	PRON	PC	Person=3|PronType=Prs	17	expl	_	Clitic=Yes
+17	parte	partire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	perfetto	perfetto	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	_
+20	orario	orario	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	8	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = corpus: itTenTen20
+# sent_id = cxn_133_example_2_1
+# text = Comunque sto scrivendo davanti al pc bagnato fradicio d'acqua, che bello!
+1	Comunque	comunque	ADV	B	_	3	advmod	_	_
+2	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	scrivendo	scrivere	VERB	V	VerbForm=Ger	0	root	_	_
+4	davanti	davanti	ADV	B	ExtPos=ADP	7	case	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pc	pc	NOUN	S	Gender=Masc	3	obl	_	_
+8	bagnato	bagnato	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	fradicio	fradicio	NOUN	S	Gender=Masc|Number=Sing	8	amod	_	_
+10	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	che	che	DET	DE	PronType=Exc	14	det	_	_
+14	bello	bello	ADJ	A	Gender=Masc|Number=Sing	3	discourse	_	SpaceAfter=No
+15	!	!	PUNCT	FS	_	3	punct	_	_
+
+# source = corpus: itTenTen20
+# sent_id = cxn_133_example_2_2
+# text = Voi direte "Come che bello??!", e io vi rispondo che non c'è cosa più bella.
+1	Voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	2	nsubj	_	_
+2	direte	dire	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+4	Come	come	ADV	B	_	6	amod	_	_
+5	che	che	DET	DQ	PronType=Int	6	det	_	_
+6	bello	bello	ADJ	A	Gender=Masc|Number=Sing	2	ccomp	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	15	punct	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	vi	vi	PRON	PC	Number=Plur|Person=2|PronType=Prs	15	iobj	_	Clitic=Yes
+15	rispondo	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+16	che	che	SCONJ	CS	_	19	mark	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	c'	ci	PRON	PC	PronType=Prs	19	expl	_	Clitic=Yes|SpaceAfter=No
+19	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+20	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+21	più	più	ADV	B	_	22	advmod	_	_
+22	bella	bello	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = corpus: itTenTen20
+# sent_id = cxn_133_example_3_1
+# text = che tajo!
+1	che	che	DET	DQ	PronType=Int	2	det	_	_
+2	tajo	tajo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# source = corpus: itTenTen20
+# sent_id = cxn_133_example_3_2
+# text = che figata, ragazzi!
+1	che	che	DET	DE	PronType=Exc	2	det	_	_
+2	figata	figata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	2	vocative	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	2	punct	_	_
+
+# source = corpus: itTenTen20
+# sent_id = cxn_133_example_3_3
+# text = se avessi la play 2 me lo comprerei anche a 200 euro!
+# tags = CONTEXT
+1	se	se	SCONJ	CS	_	2	mark	_	_
+2	avessi	avere	VERB	V	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	advcl	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	play	play	NOUN	S	_	2	obj	_	_
+5	2	2	NUM	N	NumType=Card	4	nummod	_	_
+6	me	me	PRON	PC	Number=Sing|Person=1|PronType=Prs	8	expl	_	Clitic=Yes
+7	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	Clitic=Yes
+8	comprerei	comprare	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	anche	anche	ADV	B	_	12	advmod	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	200	200	NUM	N	NumType=Card	12	nummod	_	_
+12	euro	euro	NOUN	S	Gender=Masc	8	obl	_	SpaceAfter=No
+13	!	!	PUNCT	FS	_	8	punct	_	_
+
+# source = corpus: itTenTen20
+# sent_id = cxn_133_example_3_4
+# text = ma che forza!
+1	ma	ma	CCONJ	CC	_	3	cc	_	_
+2	che	che	DET	DQ	PronType=Int	3	det	_	_
+3	forza	forza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# source = corpus: itTenTen20
+# sent_id = cxn_133_example_3_5
+# text = avete visto i neri del ghetto con la macchina con le sospensioni truccate?
+# tags = CONTEXT
+1	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	neri	nero	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ghetto	ghetto	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	sospensioni	sospensione	NOUN	S	Gender=Fem|Number=Plur	10	nmod	_	_
+14	truccate	truccato	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = corpus: itTenTen20
+# sent_id = cxn_133_example_4_1
+# text = non è piu la mamma che avevo prima... l'ha venduta xke aveva bisogno di soldi...
+# tags = CONTEXT
+1	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	piu	più	ADV	B	_	5	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+7	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+8	prima	prima	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	...	...	PUNCT	FS	_	7	punct	_	_
+10	l'	la	PRON	CP	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	Clitic=Yes|SpaceAfter=No
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	venduta	vendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+13	xke	perché	SCONJ	CS	_	14	mark	_	_
+14	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	advcl	_	_
+15	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+18	...	...	PUNCT	FS	_	15	punct	_	_
+
+# source = corpus: itTenTen20
+# sent_id = cxn_133_example_4_2
+# text = ma quella casa io l'amavo tantissimo.
+# tags = CONTEXT
+1	ma	ma	CCONJ	CC	_	6	cc	_	_
+2	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	casa	casa	NOUN	S	Gender=Fem|Number=Sing	6	dislocated	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	l'	lo	PRON	PC	Number=Sing|Person=3|PronType=Prs	6	obj	_	Clitic=Yes|SpaceAfter=No
+6	amavo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	tantissimo	tantissimo	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+
+# source = corpus: itTenTen20
+# sent_id = cxn_133_example_4_4
+# text = che tristezza... non voglio vedere chi ci abita lì, mi sembrerebbe che fossero ancora a CASA MIA.
+1	che	che	DET	DE	PronType=Exc	2	det	_	_
+2	tristezza	tristezza	NOUN	S	Gender=Fem|Number=Sing	6	discourse	_	SpaceAfter=No
+3	...	...	PUNCT	FF	_	2	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	vedere	vedere	VERB	V	VerbForm=Inf	0	root	_	_
+7	chi	chi	PRON	PR	Number=Sing|PronType=Rel	6	obj	_	_
+8	ci	ci	PRON	PC	Number=Plur|Person=1|PronType=Prs	9	obl	_	Clitic=Yes
+9	abita	abitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	lì	lì	ADV	S	_	9	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FS	_	13	punct	_	_
+12	mi	mi	PRON	S	_	13	iobj	_	_
+13	sembrerebbe	sembrare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+14	che	che	SCONJ	CS	_	15	mark	_	_
+15	fossero	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	csubj	_	_
+16	ancora	ancora	ADV	B	_	15	advmod	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	CASA	casa	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+19	MIA	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes	18	det:poss	_	SpaceAfter=No
+20	.	.	PUNCT	SP	_	6	punct	_	_
+
+# source = corpus: itTenTen20
+# sent_id = cxn_133_example_4_5
+# text = ... purtroppo mia non la è più...
+1	...	...	PUNCT	FS	_	5	advmod	_	_
+2	purtroppo	purtroppo	ADV	B	_	5	advmod	_	_
+3	mia	mio	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	dislocated	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	la	la	PRON	PC	Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	root	_	Clitic=Yes
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+7	più	più	ADV	B	_	5	advmod	_	SpaceAfter=No
+8	...	...	PUNCT	FS	_	5	punct	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = corpus: itTenTen20
+# sent_id = cxn_133_example_5_1
+# text = la Forza scorre potente da queste parti e ha comprato casa sulle colline di Passignano sul Trasimeno.
+# tags = CONTEXT
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Forza	Forza	PROPN	SP	_	3	nsubj	_	_
+3	scorre	scorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	potente	potente	ADJ	A	Number=Sing	3	xcomp	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	7	det	_	_
+7	parti	parte	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	comprato	comprare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+11	casa	casa	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+12-13	sulle	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	colline	collina	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Passignano	Passignano	PROPN	SP	_	14	nmod	_	_
+17-18	sul	_	_	_	_	_	_	_	_
+17	su	su	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Trasimeno	Trasimeno	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	_
+
+# source = corpus: itTenTen20
+# sent_id = cxn_133_example_5_2
+# text = E che casa!
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	che	che	DET	DQ	PronType=Int	3	det	_	_
+3	casa	casa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# source = corpus: itTenTen20
+# sent_id = cxn_133_example_5_3
+# text = Si tratta di un ex convento a due passi dal Lago Trasimeno e lo ha ristrutturato in grande stile.
+# tags = CONTEXT
+1	Si	si	PRON	PC	Person=3|PronType=Prs	2	expl	_	Clitic=Yes
+2	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	ex	ex	ADJ	A	_	6	amod	_	_
+6	convento	convento	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	due	due	NUM	N	NumType=Card	9	nummod	_	_
+9	passi	passo	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10-11	dal	_	_	_	_	_	_	_	_
+10	da	da	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Lago	Lago	PROPN	SP	_	9	nmod	_	_
+13	Trasimeno	Trasimeno	PROPN	SP	_	12	flat:name	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	Clitic=Yes
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	ristrutturato	ristrutturare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	grande	grande	ADJ	A	Number=Sing	20	amod	_	_
+20	stile	stile	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No

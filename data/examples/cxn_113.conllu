@@ -1,0 +1,435 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS2021
+# sent_id = cxn_113_example_1_1
+# text = Sono arrivata a capire, giorno dopo giorno, che siamo tutti ingannati da qualcosa o da qualcuno.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	capire	capire	VERB	V	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	dopo	dopo	ADP	E	_	8	case	_	_
+8	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	che	che	SCONJ	CS	_	13	mark	_	_
+11	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+12	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	13	nsubj:pass	_	_
+13	ingannati	ingannare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	ccomp	_	_
+14	da	da	ADP	E	_	15	case	_	_
+15	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	13	obl:agent	_	_
+16	o	o	CCONJ	CC	_	18	cc	_	_
+17	da	da	ADP	E	_	18	case	_	_
+18	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	15	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS2021
+# sent_id = cxn_113_example_2_1
+# text = A Cagliari i giganti di Is Concias sono umiliati.
+# tags = CONTEXT
+1	A	a	ADP	E	_	2	case	_	_
+2	Cagliari	Cagliari	PROPN	SP	_	9	obl	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	giganti	gigante	NOUN	S	Gender=Masc|Number=Plur	9	nsubj:pass	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Is	Is	PROPN	SP	_	4	nmod	_	_
+7	Concias	Concias	PROPN	SP	_	6	flat:name	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	umiliati	umiliare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_
+
+# source = CORIS2021
+# sent_id = cxn_113_example_2_2
+# text = Prima i vandali passavano indisturbati nel nuraghe, adesso sono addirittura i turisti a smontarlo pietra dopo pietra.
+1	Prima	prima	ADV	B	_	4	advmod	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	vandali	vandalo	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+4	passavano	passare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	indisturbati	indisturbare	ADJ	A	Gender=Masc|Number=Plur	4	xcomp	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	nuraghe	nuraghe	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	14	punct	_	_
+10	adesso	adesso	ADV	B	_	14	advmod	_	_
+11	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	addirittura	addirittura	ADV	B	_	14	advmod	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	turisti	turista	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16-17	smontarlo	_	_	_	_	_	_	_	_
+16	smontar	smontare	VERB	V	VerbForm=Inf	14	acl	_	_
+17	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	Clitic=Yes
+18	pietra	pietra	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+19	dopo	dopo	ADP	E	_	20	case	_	_
+20	pietra	pietra	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS2021
+# sent_id = cxn_113_example_3_1
+# text = Effettivamente la Ferrari andava sempre migliorando, giro dopo giro, mano a mano che diminuiva la benzina.
+1	Effettivamente	effettivamente	ADV	B	_	6	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Ferrari	Ferrari	PROPN	SP	_	6	nsubj	_	_
+4	andava	andare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+5	sempre	sempre	ADV	B	_	6	advmod	_	_
+6	migliorando	migliorare	VERB	V	VerbForm=Ger	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	SpacesAfter=
+8	giro	giro	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+9	dopo	dopo	ADP	E	_	10	case	_	_
+10	giro	giro	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	mano	mano	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	mano	mano	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	che	che	SCONJ	CS	_	16	mark	_	_
+16	diminuiva	diminuire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	benzina	benzina	NOUN	S	Gender=Fem|Number=Sing	16	nsubj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS2021
+# sent_id = cxn_113_example_4_1
+# text = Tutta la vita, la vostra e la loro.
+# tags = CONTEXT
+1	Tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	3	det:predet	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vita	vita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	vostra	vostro	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	conj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=
+
+# source = CORIS2021
+# sent_id = cxn_113_example_4_2
+# text = Traversina dopo traversina, galleria dopo galleria, stazione dopo stazione ci si rivela completamente.
+1	Traversina	traversina	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+2	dopo	dopo	ADP	E	_	3	case	_	_
+3	traversina	traversina	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	galleria	galleria	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+6	dopo	dopo	ADP	E	_	7	case	_	_
+7	galleria	galleria	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+10	dopo	dopo	ADP	E	_	11	case	_	_
+11	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	ci	ci	PRON	PC	Number=Plur|Person=1|PronType=Prs	14	expl	_	Clitic=Yes
+13	si	si	PRON	PC	Person=3|PronType=Prs	14	expl	_	Clitic=Yes
+14	rivela	rivelare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	completamente	completamente	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	14	punct	_	_
+
+# source = CORIS2021
+# sent_id = cxn_113_example_4_3
+# text = Quelli che abbiamo davanti non sono semplici viaggiatori, casuali utenti delle Ferrovie, ma uomini e donne mandati dal Fato.
+# tags = CONTEXT
+1	Quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	8	nsubj	_	_
+2	che	che	PRON	PR	PronType=Rel	3	obj	_	_
+3	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	davanti	davanti	ADV	B	_	3	advmod	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	semplici	semplice	ADJ	A	Number=Plur	8	amod	_	_
+8	viaggiatori	viaggiatore	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	casuali	casuale	ADJ	A	Number=Plur	11	amod	_	_
+11	utenti	utente	NOUN	S	Number=Plur	8	conj	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	Ferrovie	Ferrovie	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	ma	ma	CCONJ	CC	_	17	cc	_	_
+17	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	8	conj	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	donne	donna	NOUN	S	Gender=Fem|Number=Plur	17	conj	_	_
+20	mandati	mandare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	acl	_	_
+21-22	dal	_	_	_	_	_	_	_	_
+21	da	da	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Fato	Fato	PROPN	SP	_	20	obl:agent	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	8	punct	_	_
+
+# source = CORIS2021
+# sent_id = cxn_113_example_4_4
+# text = Diventano i nostri migliori amici ben sapendo che probabilmente, una volta arrivati, non li vedremo più.
+# tags = CONTEXT
+1	Diventano	diventare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+3	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+4	migliori	migliore	ADJ	A	Degree=Cmp|Number=Plur	5	amod	_	_
+5	amici	amico	NOUN	S	Gender=Masc|Number=Plur	1	xcomp	_	_
+6	ben	bene	ADV	B	_	7	advmod	_	_
+7	sapendo	sapere	VERB	V	VerbForm=Ger	1	advcl	_	_
+8	che	che	SCONJ	CS	_	17	mark	_	_
+9	probabilmente	probabilmente	ADV	B	_	17	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	volta	volta	NOUN	S	Gender=Fem|Number=Sing	13	advmod	_	_
+13	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	li	li	PRON	PC	Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	obj	_	Clitic=Yes
+17	vedremo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	7	ccomp	_	_
+18	più	più	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS2021
+# sent_id = cxn_113_example_5_1
+# text = Ma allora perché siamo qui?
+# tags = CONTEXT
+1	Ma	ma	CCONJ	CC	_	4	discourse	_	_
+2	allora	allora	ADV	B	_	4	advmod	_	_
+3	perché	perché	ADV	B	_	4	advmod	_	_
+4	siamo	essere	VERB	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	qui	qui	ADV	B	_	4	obl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	4	punct	_	_
+
+# source = CORIS2021
+# sent_id = cxn_113_example_5_2
+# text = S’è chiesta mezza aula di Montecitorio al quarantesimo minuto del discorso di Massimo D’Alema .
+# tags = CONTEXT
+1	S’	si	PRON	PC	Person=3|PronType=Prs	3	expl	_	Clitic=Yes|SpaceAfter=No
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	chiesta	chiedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	mezza	mezzo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	aula	aula	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Montecitorio	Montecitorio	PROPN	SP	_	5	nmod	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	quarantesimo	quarantesimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	11	amod	_	_
+11	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	discorso	discorso	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Massimo	Massimo	PROPN	SP	_	14	nmod	_	_
+17	D’	D’	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	Alema	Alema	PROPN	SP	_	16	flat:name	_	_
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# source = CORIS2021
+# sent_id = cxn_113_example_5_3
+# text = Minuto dopo minuto, numero su numero, il premier ha eretto l’ultimo baluardo, un muro di gomma sul quale far rimbalzare […] le ragioni mai nominate e neppure accennate per cui tutti erano stati convocati d’urgenza al capezzale del governo malato.
+1	Minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+2	dopo	dopo	ADP	E	_	3	case	_	_
+3	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	SpacesAfter=
+5	numero	numero	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+6	su	su	ADP	E	_	7	case	_	_
+7	numero	numero	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	12	punct	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	premier	premier	NOUN	S	Gender=Masc	12	nsubj	_	_
+11	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	eretto	erigere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+14	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	15	amod	_	_
+15	baluardo	baluardo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	muro	muro	NOUN	S	Gender=Masc|Number=Sing	15	appos	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	gomma	gomma	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+21-22	sul	_	_	_	_	_	_	_	_
+21	su	su	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	quale	quale	PRON	PR	Number=Sing|PronType=Rel	24	obl	_	_
+24	far	fare	VERB	V	VerbForm=Inf	18	acl:relcl	_	_
+25	rimbalzare	rimbalzare	VERB	V	VerbForm=Inf	24	ccomp	_	_
+26	[	[	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+27	…	…	PUNCT	FF	_	25	punct	_	SpaceAfter=No
+28	]	]	PUNCT	FB	_	27	punct	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	_	_
+30	ragioni	ragione	NOUN	S	Gender=Fem|Number=Plur	25	obj	_	_
+31	mai	mai	ADV	B	_	32	advmod	_	_
+32	nominate	nominare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	30	acl	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	neppure	neppure	ADV	BN	PronType=Neg	35	advmod	_	_
+35	accennate	accennare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	32	conj	_	_
+36	per	per	ADP	E	_	37	case	_	_
+37	cui	cui	PRON	PR	PronType=Rel	41	obl	_	_
+38	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	41	nsubj:pass	_	_
+39	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	41	aux	_	_
+40	stati	essere	AUX	VA	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	41	aux:pass	_	_
+41	convocati	convocare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	30	acl:relcl	_	_
+42	d’	di	ADP	E	_	43	case	_	SpaceAfter=No
+43	urgenza	urgenza	NOUN	S	Gender=Fem|Number=Sing	41	obl	_	_
+44-45	al	_	_	_	_	_	_	_	_
+44	a	a	ADP	E	_	46	case	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	capezzale	capezzale	NOUN	S	Gender=Masc|Number=Sing	41	obl	_	_
+47-48	del	_	_	_	_	_	_	_	_
+47	di	di	ADP	E	_	49	case	_	_
+48	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	49	det	_	_
+49	governo	governo	NOUN	S	Gender=Masc|Number=Sing	46	nmod	_	_
+50	malato	malato	ADJ	A	Gender=Masc|Number=Sing	49	amod	_	SpaceAfter=No
+51	.	.	PUNCT	FS	_	12	punct	_	_
+
+# source = CORIS2021
+# sent_id = cxn_113_example_5_4
+# text = Crisi, quale crisi?
+# tags = CONTEXT
+1	Crisi	crisi	NOUN	S	Gender=Fem	4	nmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	quale	quale	DET	DQ	Number=Sing|PronType=Int	4	det	_	_
+4	crisi	crisi	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+# sent_id = 2_Europarl-232
+# source = . EUROPARL_v7/ep-02-11-07 .
+# text = L'incremento dei margini, delle garanzie di sicurezza nei trasporti è un processo che deve continuare a migliorare giorno dopo giorno.
+# status = TO_CHECK
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	incremento	incremento	NOUN	S	Gender=Masc|Number=Sing	17	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	margini	margine	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7-8	delle	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	garanzie	garanzia	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	sicurezza	sicurezza	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12-13	nei	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	trasporti	trasporto	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	processo	processo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+18	che	che	PRON	PR	PronType=Rel	20	nsubj	_	_
+19	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	continuare	continuare	VERB	V	VerbForm=Inf	17	acl:relcl	_	_
+21	a	a	ADP	E	_	22	mark	_	_
+22	migliorare	migliorare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+23	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+24	dopo	dopo	ADP	E	_	25	case	_	_
+25	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 2_Europarl-294
+# source = . EUROPARL_v7/ep-00-01-17 .
+# text = Settore dopo settore, si assiste all'approvazione progressiva di norme minime che gli stati membri debbono rispettare.
+# status = TO_CHECK
+1	Settore	settore	NOUN	S	Gender=Masc|Number=Sing	6	obl	6:obl	_
+2	dopo	dopo	ADP	E	_	3	case	3:case	_
+3	settore	settore	NOUN	S	Gender=Masc|Number=Sing	1	nmod	1:nmod:dopo	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	1:punct	_
+5	si	si	PRON	PC	Person=3|PronType=Prs	6	expl:impers	6:expl:impers	Clitic=Yes
+6	assiste	assistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	9:case	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	9:det	_
+9	approvazione	approvazione	NOUN	S	Gender=Fem|Number=Sing	6	obl	6:obl:a	_
+10	progressiva	progressivo	ADJ	A	Gender=Fem|Number=Sing	9	amod	9:amod	_
+11	di	di	ADP	E	_	12	case	12:case	_
+12	norme	norma	NOUN	S	Gender=Fem|Number=Plur	9	nmod	9:nmod:di|19:obj	_
+13	minime	minimo	ADJ	A	Gender=Fem|Number=Plur	12	amod	12:amod	_
+14	che	che	PRON	PR	PronType=Rel	19	obj	12:ref	_
+15	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	16:det	_
+16	stati	stato	NOUN	S	Gender=Masc|Number=Plur	19	nsubj	19:nsubj	_
+17	membri	membro	NOUN	S	Gender=Masc|Number=Plur	16	compound	16:compound	_
+18	debbono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	19:aux	_
+19	rispettare	rispettare	VERB	V	VerbForm=Inf	12	acl:relcl	12:acl:relcl	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	6:punct	_
+
+# sent_id = sent_4287
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-PoSTWITA/it_postwita-ud-test 4287
+# text = giorno dopo giorno mi accorgo quanto Louis sia importante per me
+# status = TO_CHECK
+1	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+2	dopo	dopo	ADP	E	_	3	case	_	_
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	5	expl	_	Clitic=Yes
+5	accorgo	accorgere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	quanto	quanto	PRON	PI	PronType=Ind	5	obj	_	_
+7	Louis	Louis	PROPN	SP	_	9	nsubj	_	_
+8	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	importante	importante	ADJ	A	Number=Sing	6	acl:relcl	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	obl	_	_
+
+# sent_id = test-162
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-ISDT/it_isdt-ud-train tut-3121
+# text = Lavoriamo ora dopo ora e non possiamo speculare su lesioni permanenti.
+# status = TO_CHECK
+1	Lavoriamo	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+2	ora	ora	NOUN	S	Gender=Fem|Number=Sing	1	obl	1:obl	_
+3	dopo	dopo	ADP	E	_	4	case	4:case	_
+4	ora	ora	NOUN	S	Gender=Fem|Number=Sing	2	nmod	2:nmod:dopo	_
+5	e	e	CCONJ	CC	_	8	cc	8:cc	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	8:advmod	_
+7	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	8:aux	_
+8	speculare	speculare	VERB	V	VerbForm=Inf	1	conj	1:conj:e	_
+9	su	su	ADP	E	_	10	case	10:case	_
+10	lesioni	lesione	NOUN	S	Gender=Fem|Number=Plur	8	obl	8:obl:su	_
+11	permanenti	permanenti	ADJ	A	Number=Plur	10	amod	10:amod	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	1:punct	_
+
+# sent_id = tut-3019
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-ISDT/it_isdt-ud-train tut-3019
+# text = Vi piacerebbe incontrare e intervistare l'idolo delle vostre serate casalinghe, quello che da anni ammirate e spiate trasmissione dopo trasmissione e che vorreste vedere dal vivo, toccarlo con mano?
+# status = TO_CHECK
+1	Vi	vi	PRON	PC	Number=Plur|Person=2|PronType=Prs	2	iobj	2:iobj	Clitic=Yes
+2	piacerebbe	piacere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+3	incontrare	incontrare	VERB	V	VerbForm=Inf	2	csubj	2:csubj	_
+4	e	e	CCONJ	CC	_	5	cc	5:cc	_
+5	intervistare	intervistare	VERB	V	VerbForm=Inf	3	conj	2:csubj|3:conj:e	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	7:det	SpaceAfter=No
+7	idolo	idolo	NOUN	S	Gender=Masc|Number=Sing	5	obj	5:obj	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	11	case	11:case	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	11:det	_
+10	vostre	vostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	11:det:poss	_
+11	serate	serata	NOUN	S	Gender=Fem|Number=Plur	7	nmod	7:nmod:di	_
+12	casalinghe	casalingo	ADJ	A	Gender=Fem|Number=Plur	11	amod	11:amod	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	7:punct	_
+14	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	nmod	7:nmod|18:obj	_
+15	che	che	PRON	PR	PronType=Rel	18	obj	14:ref	_
+16	da	da	ADP	E	_	17	case	17:case	_
+17	anni	anno	NOUN	S	Gender=Masc|Number=Plur	18	obl	18:obl:da	_
+18	ammirate	ammirare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	14	acl:relcl	14:acl:relcl	_
+19	e	e	CCONJ	CC	_	20	cc	20:cc	_
+20	spiate	spiare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	18	conj	14:acl:relcl|18:conj:e	_
+21	trasmissione	trasmissione	NOUN	S	Gender=Fem|Number=Sing	18	obl	18:obl	_
+22	dopo	dopo	ADP	E	_	23	case	23:case	_
+23	trasmissione	trasmissione	NOUN	S	Gender=Fem|Number=Sing	21	nmod	21:nmod:dopo	_
+24	e	e	CCONJ	CC	_	27	cc	27:cc	_
+25	che	che	PRON	PR	PronType=Rel	27	obj	27:obj	_
+26	vorreste	volere	AUX	VM	Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	27	aux	27:aux	_
+27	vedere	vedere	VERB	V	VerbForm=Inf	18	conj	14:acl:relcl|18:conj:e	_
+28-29	dal	_	_	_	_	_	_	_	_
+28	da	da	ADP	E	_	30	case	30:case	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	30:det	_
+30	vivo	vivo	NOUN	S	Gender=Masc|Number=Sing	27	obl	27:obl:da	SpaceAfter=No
+31	,	,	PUNCT	FF	_	32	punct	32:punct	_
+32-33	toccarlo	_	_	_	_	_	_	_	_
+32	toccar	toccare	VERB	V	VerbForm=Inf	3	conj	2:csubj|3:conj:e	_
+33	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	obj	32:obj	Clitic=Yes
+34	con	con	ADP	E	_	35	case	35:case	_
+35	mano	mano	NOUN	S	Gender=Fem|Number=Sing	32	obl	32:obl:con	SpaceAfter=No
+36	?	?	PUNCT	FS	_	2	punct	2:punct	_
+

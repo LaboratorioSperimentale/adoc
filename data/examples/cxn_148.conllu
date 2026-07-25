@@ -1,0 +1,49 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS 2021
+# sent_id = cxn_148_example_1_1
+# text = Il fitto saliscendi (to rise+to fall) di stradine lastricate dalle quali si aprono improvvisi scorci sul mare.
+# tags = MORPHOLOGICAL
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	fitto	fitto	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	saliscendi	saliscendo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	stradine	stradina	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+6	lastricate	lastricare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	acl	_	_
+7-8	dalle	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	quali	quale	PRON	PR	Number=Plur|PronType=Rel	11	obl	_	_
+10	si	si	PRON	PC	Person=3|PronType=Prs	11	expl:pass	_	Clitic=Yes
+11	aprono	aprire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+12	improvvisi	improvviso	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+13	scorci	scorco	NOUN	S	Gender=Masc|Number=Plur	11	nsubj:pass	_	_
+14-15	sul	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mare	mare	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = laRepubblica corpus
+# sent_id = cxn_148_example_2_1
+# text = in Curva sono entrati i poliziotti , a decine , provocando risse e fuggi-fuggi.
+# tags = MORPHOLOGICAL
+1	in	in	ADP	E	_	2	case	_	_
+2	Curva	Curva	PROPN	SP	_	4	obl	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	entrati	entrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	poliziotti	poliziotto	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	decine	decina	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	provocando	provocare	VERB	V	VerbForm=Ger	4	advcl	_	_
+12	risse	rissa	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	SpacesAfter=
+14	fuggi-fuggi	fuggi-fuggi	NOUN	S	_	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_

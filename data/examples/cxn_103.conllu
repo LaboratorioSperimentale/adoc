@@ -1,0 +1,170 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = SketchEngine
+# sent_id = cxn_103_example_1_1
+# text = Biancaneve non mi piace.
+# tags = CONTEXT
+1	Biancaneve	Biancaneve	PROPN	SP	_	4	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	4	iobj	_	Clitic=Yes
+4	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# source = SketchEngine
+# sent_id = cxn_103_example_1_2
+# text = A parte che secondo me sa più di plastica che di mandorla, ma poi non idrata, unge e basta.
+1	A	a	ADP	E	_	6	discourse	_	_
+2	parte	parte	NOUN	S	Gender=Fem|Number=Sing	1	fixed	_	_
+3	che	che	SCONJ	CS	_	2	fixed	_	_
+4	secondo	secondo	ADP	E	_	5	case	_	_
+5	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	obl	_	_
+6	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	più	più	ADV	B	_	6	advmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	plastica	plastica	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	che	che	ADP	E	_	12	cc	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	mandorla	mandorla	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	17	punct	_	_
+14	ma	ma	CCONJ	CC	_	17	cc	_	_
+15	poi	poi	ADV	B	_	17	advmod	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17	idrata	idrato	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	unge	ungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+20	e	e	CCONJ	CC	_	19	discourse	_	_
+21	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	fixed	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = SketchEngine
+# sent_id = cxn_103_example_2_1
+# text = Diversamente quando mi mandano la mora da pagare (a parte che non ne sapevo niente) mi rivolgo ad un avvocato.
+1	Diversamente	diversamente	ADV	B	_	19	advmod	_	_
+2	quando	quando	SCONJ	CS	_	4	mark	_	_
+3	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	4	iobj	_	Clitic=Yes
+4	mandano	mandare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	mora	mora	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	da	da	ADP	E	_	8	mark	_	_
+8	pagare	pagare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+10	a	a	ADP	E	_	15	discourse	_	_
+11	parte	parte	NOUN	S	Gender=Fem|Number=Sing	10	fixed	_	_
+12	che	che	SCONJ	CS	_	11	fixed	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	ne	ne	PRON	PC	PronType=Prs	15	obl	_	Clitic=Yes
+15	sapevo	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	19	parataxis	_	_
+16	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	15	obj	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	15	punct	_	_
+18	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	19	expl	_	Clitic=Yes
+19	rivolgo	rivolgere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	ad	a	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	avvocato	avvocato	NOUN	S	Gender=Masc|Number=Sing	19	iobj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	19	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = SketchEngine
+# sent_id = cxn_103_example_3_1
+# text = A parte che secondo me a 56 kg stai bene, comunque cinque giorni non sono indicativi.
+1	A	a	ADP	E	_	9	discourse	_	_
+2	parte	parte	NOUN	S	Gender=Fem|Number=Sing	1	fixed	_	_
+3	che	che	SCONJ	CS	_	2	fixed	_	_
+4	secondo	secondo	ADP	E	_	5	case	_	_
+5	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	obl	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	56	56	NUM	N	NumType=Card	8	nummod	_	_
+8	kg	chilogrammo	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+9	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	bene	bene	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	comunque	comunque	ADV	B	_	17	advmod	_	_
+13	cinque	cinque	NUM	N	NumType=Card	14	nummod	_	_
+14	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+16	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	indicativi	indicativo	ADJ	A	Gender=Masc|Number=Plur	9	parataxis	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	17	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = SketchEngine
+# sent_id = cxn_103_example_4_1
+# text = Cavoli anche a me piacerebbe mettere l'orologio nel display, a parte che adesso cambio l'autoradio.
+1	Cavoli	Cavoli	PROPN	SP	_	5	discourse	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	piacerebbe	piacere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	mettere	mettere	VERB	V	VerbForm=Inf	5	csubj	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	orologio	orologio	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	display	display	NOUN	S	Gender=Masc	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	17	punct	_	_
+13	a	a	ADP	E	_	17	discourse	_	_
+14	parte	parte	NOUN	S	Gender=Fem|Number=Sing	13	fixed	_	_
+15	che	che	SCONJ	CS	_	14	fixed	_	_
+16	adesso	adesso	ADV	B	_	17	advmod	_	_
+17	cambio	cambiare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	autoradio	autoradio	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = SketchEngine
+# sent_id = cxn_103_example_5_1
+# text = Figuriamoci se è possibile installare una cosa come R-link che dà informazioni su tutta l'auto.
+# tags = CONTEXT
+1-2	Figuriamoci	_	_	_	_	_	_	_	_
+1	Figuriamo	figurare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ci	ci	PRON	PC	Number=Plur|Person=1|PronType=Prs	1	expl	_	Clitic=Yes
+3	se	se	SCONJ	CS	_	5	mark	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	possibile	possibile	ADJ	A	Number=Sing	1	advcl	_	_
+6	installare	installare	VERB	V	VerbForm=Inf	5	csubj	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	come	come	ADP	E	_	10	case	_	_
+10	R-link	R-link	PROPN	SP	_	8	nmod	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+13	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+14	su	su	ADP	E	_	17	case	_	_
+15	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	17	det:predet	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	auto	auto	NOUN	S	Gender=Fem	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# source = SketchEngine
+# sent_id = cxn_103_example_5_2
+# text = A parte che secondo me un sistema touch-screen porta via l'attenzione alla guida.
+1	A	a	ADP	E	_	10	discourse	_	_
+2	parte	parte	NOUN	S	Gender=Fem|Number=Sing	1	fixed	_	_
+3	che	che	SCONJ	CS	_	2	fixed	_	_
+4	secondo	secondo	ADP	E	_	5	case	_	_
+5	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	obl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+8	touch-	touch-	NOUN	S	_	7	compound	_	SpaceAfter=No
+9	screen	screen	NOUN	S	Gender=Masc	7	compound	_	_
+10	porta	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	via	via	ADV	B	_	10	advmod	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	guida	guida	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	10	punct	_	SpaceAfter=No

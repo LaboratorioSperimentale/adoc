@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = intuizione
+# sent_id = cxn_40_example_1_1
+# text = A Giulia piace andare a zonzo per la città.
+1	A	a	ADP	E	_	2	case	_	_
+2	Giulia	Giulia	PROPN	SP	_	3	iobj	_	_
+3	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	andare	andare	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	zonzo	zonzo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	città	città	NOUN	S	Gender=Fem	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_40_example_2_1
+# text = il tuo amico mi va a genio.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	amico	amico	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	5	iobj	_	Clitic=Yes
+5	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	genio	genio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_40_example_3_1
+# text = a volte ho come l'impressione che tutto vada a rotoli.
+1	a	a	ADP	E	_	2	case	_	_
+2	volte	volta	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+3	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	come	come	ADV	E	_	6	advmod	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	impressione	impressione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7	che	che	SCONJ	CS	_	9	mark	_	_
+8	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	nsubj	_	_
+9	vada	andare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	rotoli	rotolo	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_40_example_4_1
+# text = l'esame è andato a gonfie vele.
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	esame	esame	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	gonfie	gonfio	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+7	vele	vela	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=

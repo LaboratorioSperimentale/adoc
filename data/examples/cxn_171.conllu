@@ -1,0 +1,180 @@
+# source = Corpus ItalianWeb2020 - Sketch Engine
+# sent_id = cxn_171_example_1_2
+# text = accolti da un pubblico tanto numeroso quanto festoso.
+1	accolti	accogliere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	1	obl:agent	_	_
+5	tanto	tanto	ADV	B	_	6	advmod	_	_
+6	numeroso	numeroso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+7	quanto	quanto	ADV	B	_	8	advmod	_	_
+8	festoso	festoso	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+# source = Corpus ItalianWeb2020 - Sketch Engine
+# sent_id = cxn_171_example_1_4
+# text = Gli sviluppatori hanno costruito una serie di variazioni tanto elaborate quanto eleganti.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	sviluppatori	sviluppatore	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	costruito	costruire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	serie	serie	NOUN	S	Gender=Fem	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	variazioni	variazione	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+9	tanto	tanto	ADV	B	_	10	advmod	_	_
+10	elaborate	elaborato	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+11	quanto	quanto	ADV	B	_	12	advmod	_	_
+12	eleganti	elegante	ADJ	A	Number=Plur	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# source = Corpus ItalianWeb2020 - Sketch Engine
+# sent_id = cxn_171_example_1_5
+# text = A smentire questa notizia tanto falsa quanto assurda ci ha pensato un sito.
+1	A	a	ADP	E	_	2	mark	_	_
+2	smentire	smentire	VERB	V	VerbForm=Inf	11	advcl	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	tanto	tanto	ADV	B	_	6	advmod	_	_
+6	falsa	falso	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+7	quanto	quanto	ADV	B	_	8	advmod	_	_
+8	assurda	assurdo	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	_
+9	ci	ci	PRON	PC	PronType=Prs	11	obl	_	Clitic=Yes
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sito	sito	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	11	punct	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus ItalianWeb2020 - Sketch Engine
+# sent_id = cxn_171_example_2_1
+# text = Cosa resta di questa vita tanto triste quanto esaltante?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	2	nsubj	_	SpacesBefore=\s
+2	resta	restare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	vita	vita	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	tanto	tanto	ADV	B	_	7	advmod	_	_
+7	triste	triste	ADJ	A	Number=Sing	5	amod	_	_
+8	quanto	quanto	ADV	B	_	9	advmod	_	_
+9	esaltante	esaltante	ADJ	A	Number=Sing	7	conj	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	2	punct	_	_
+
+# source = Corpus ItalianWeb2020 - Sketch Engine
+# sent_id = cxn_171_example_2_2_split1
+# text = gli eventi imprevisti possono essere tanto benevoli quanto disastrosi
+1	gli	il	DET	RD	Gender=Masc|Number=Plur	2	punct	_	_
+2	eventi	evento	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+3	imprevisti	imprevisto	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+4	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	essere	essere	AUX	VA	VerbForm=Inf	7	cop	_	_
+6	tanto	tanto	ADV	B	_	7	advmod	_	_
+7	benevoli	benevole	ADJ	A	Number=Plur	0	root	_	_
+8	quanto	quanto	ADV	B	_	9	advmod	_	_
+9	disastrosi	disastroso	ADJ	A	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+
+# source = Corpus ItalianWeb2020 - Sketch Engine
+# sent_id = cxn_171_example_2_2_split2
+# text = hanno avuto esperienza di un contesto tanto familiare quanto insolito.
+1	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	contesto	contesto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	tanto	tanto	ADV	B	_	8	advmod	_	_
+8	familiare	familiare	ADJ	A	Number=Sing	6	amod	_	_
+9	quanto	quanto	ADV	B	_	10	advmod	_	_
+10	insolito	insolito	ADJ	A	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus ItalianWeb2020 - Sketch Engine
+# sent_id = cxn_171_example_3_1
+# text = Il San Francisco Chronicle ha fatto notare che tanto Romney quanto Obama hanno guadagnato fans su Facebook.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpacesBefore=\s
+2	San	San	PROPN	SP	_	6	nsubj	_	_
+3	Francisco	Francisco	PROPN	SP	_	2	flat:name	_	_
+4	Chronicle	Chronicle	PROPN	SP	_	2	flat:name	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	notare	notare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+8	che	che	SCONJ	CS	_	14	mark	_	_
+9	tanto	tanto	ADV	B	_	10	advmod	_	_
+10	Romney	Romney	PROPN	SP	_	14	nsubj	_	_
+11	quanto	quanto	ADV	B	_	12	advmod	_	_
+12	Obama	Obama	PROPN	SP	_	10	conj	_	_
+13	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	guadagnato	guadagnare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	_
+15	fans	fan	NOUN	S	Gender=Masc	14	obj	_	_
+16	su	su	ADP	E	_	17	case	_	_
+17	Facebook	Facebook	PROPN	SP	_	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# source = Corpus ItalianWeb2020 - Sketch Engine
+# sent_id = cxn_171_example_3_2
+# text = Tanto Israele quanto Roma non riconobbero il Cristo.
+1	Tanto	tanto	ADV	B	_	2	advmod	_	_
+2	Israele	Israele	PROPN	SP	_	6	nsubj	_	_
+3	quanto	quanto	CCONJ	CC	_	4	advmod	_	_
+4	Roma	Roma	PROPN	SP	_	2	conj	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	riconobbero	riconorre	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Cristo	Cristo	PROPN	SP	_	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter= \s
+
+# source = Corpus ItalianWeb2020 - Sketch Engine
+# sent_id = cxn_171_example_3_3
+# text = La particolarità di questo social network è di essere popolato da tanti ragazzi quante ragazze.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	particolarità	particolarità	NOUN	S	Gender=Fem	7	nsubj	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+5	social	sociale	ADJ	A	Number=Sing	6	amod	_	_
+6	network	network	NOUN	S	Gender=Masc	2	nmod	_	_
+7	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	di	di	ADP	E	_	10	mark	_	_
+9	essere	essere	AUX	VA	VerbForm=Inf	10	aux:pass	_	_
+10	popolato	popolare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+13	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	10	obl:agent	_	_
+14	quante	quanto	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	15	det	_	_
+15	ragazze	ragazza	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus ItalianWeb2020 - Sketch Engine
+# sent_id = cxn_171_example_4_1
+# text = Questa situazione è difficile da gestire tanto fisicamente quanto psicologicamente.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	SpacesBefore=\s
+2	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	difficile	difficile	ADJ	A	Number=Sing	0	root	_	_
+5	da	da	ADP	E	_	6	mark	_	_
+6	gestire	gestire	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	tanto	tanto	ADV	B	_	8	advmod	_	_
+8	fisicamente	fisicamente	ADV	B	_	6	advmod	_	_
+9	quanto	quanto	ADV	B	_	10	advmod	_	_
+10	psicologicamente	psicologicamente	ADV	B	_	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Dizionario Zanichelli
+# sent_id = cxn_171_example_5_1
+# text = Scrive tanto quanto parla.
+1	Scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesBefore=\s
+2	tanto	tanto	ADV	B	_	1	advmod	_	_
+3	quanto	quanto	PRON	B	Gender=Masc|Number=Sing|PronType=Rel	4	advmod	_	_
+4	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=   \s

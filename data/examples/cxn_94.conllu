@@ -1,0 +1,70 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Parlante nativo
+# sent_id = cxn_94_example_1_1
+# text = Guarda che non si fa così.
+# tags = CONTEXT
+1	Guarda	guardare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	si	si	PRON	PC	Person=3|PronType=Prs	5	expl:impers	_	Clitic=Yes
+5	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+6	così	così	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# source = Parlante nativo
+# sent_id = cxn_94_example_1_2
+# text = Ma sarai bravo tu!
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	sarai	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	3	cop	_	_
+3	bravo	bravo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Parlante nativo
+# sent_id = cxn_94_example_2_1
+# text = Che brutta quella ragazza.
+# tags = CONTEXT
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	brutta	brutto	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+3	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	ragazza	ragazzo	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# source = Parlante nativo
+# sent_id = cxn_94_example_2_2
+# text = Ma sarai bella tu!
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	sarai	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	3	cop	_	_
+3	bella	bello	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+4	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Parlante nativo
+# sent_id = cxn_94_example_3_1
+# text = Mi hanno detto che Luca è stupido.
+# tags = CONTEXT
+1	Mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	3	iobj	_	Clitic=Yes
+2	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	Luca	Luca	PROPN	SP	_	7	nsubj	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	stupido	stupido	ADJ	A	Gender=Masc|Number=Sing	3	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# source = Parlante nativo
+# sent_id = cxn_94_example_3_2
+# text = Ma saranno intelligenti loro!
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	cop	_	_
+3	intelligenti	intelligente	ADJ	A	Number=Plur	0	root	_	_
+4	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	3	punct	_	SpaceAfter=No

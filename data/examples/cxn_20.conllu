@@ -1,0 +1,205 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=2960907&End=2960907
+# sent_id = cxn_20_example_1_1
+# text = Possa Egli prendersi cura di noi in modo che insieme possiamo godere dei frutti delle sacre scritture
+1	Possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	Egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3-4	prendersi	_	_	_	_	_	_	_	_
+3	prender	prendere	VERB	V	VerbForm=Inf	0	root	_	_
+4	si	si	PRON	PC	Person=3|PronType=Prs	3	expl	_	Clitic=Yes
+5	cura	cura	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	5	nmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	modo	modo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+10	che	che	SCONJ	CS	_	13	mark	_	_
+11	insieme	insieme	ADV	B	_	13	advmod	_	_
+12	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	godere	godere	VERB	V	VerbForm=Inf	9	acl	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	frutti	frutto	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+17-18	delle	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	20	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+19	sacre	sacro	ADJ	A	Gender=Fem|Number=Plur	20	amod	_	_
+20	scritture	scrittura	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=16430316&End=16430316
+# sent_id = cxn_20_example_2_1
+# text = Per questo il Sistema sanitario nazionale deve prendersi carico della sua disassuefazione
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	8	obl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Sistema	sistema	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+5	sanitario	sanitario	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	nazionale	nazionale	ADJ	A	Number=Sing	4	amod	_	_
+7	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8-9	prendersi	_	_	_	_	_	_	_	_
+8	prender	prendere	VERB	V	VerbForm=Inf	0	root	_	_
+9	si	si	PRON	PC	Person=3|PronType=Prs	8	expl	_	Clitic=Yes
+10	carico	carico	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	disassuefazione	disassuefazione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=19735931&End=19735931
+# sent_id = cxn_20_example_3_1
+# text = Il motivo sta nella diminuzione del numero di bambini , nell'emergere di nuove opzioni per prendersi cura dei bambini in modo nuovo , nel prolungamento del congedo genitoriale ( in Slovacchia ) ma anche nelle inasprite tariffe dei servizi
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	diminuzione	diminuzione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	numero	numero	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13-14	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	in	in	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	emergere	emergere	VERB	V	VerbForm=Inf	6	conj	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	_
+18	opzioni	opzione	NOUN	S	Gender=Fem|Number=Plur	15	obl	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20-21	prendersi	_	_	_	_	_	_	_	_
+20	prender	prendere	VERB	V	VerbForm=Inf	18	acl	_	_
+21	si	si	PRON	PC	Person=3|PronType=Prs	20	expl	_	Clitic=Yes
+22	cura	cura	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23-24	dei	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	modo	modo	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+28	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+29	,	,	PUNCT	FF	_	32	punct	_	_
+30-31	nel	_	_	_	_	_	_	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	prolungamento	prolungamento	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+33-34	del	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	congedo	congedo	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+36	genitoriale	genitoriale	ADJ	A	Number=Sing	35	amod	_	_
+37	(	(	PUNCT	FB	_	39	punct	_	_
+38	in	in	ADP	E	_	39	case	_	_
+39	Slovacchia	Slovacchia	PROPN	SP	_	35	nmod	_	_
+40	)	)	PUNCT	FB	_	39	punct	_	_
+41	ma	ma	CCONJ	CC	_	46	cc	_	_
+42	anche	anche	ADV	B	_	46	advmod	_	_
+43-44	nelle	_	_	_	_	_	_	_	_
+43	in	in	ADP	E	_	46	case	_	_
+44	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	46	det	_	_
+45	inasprite	inasprito	ADJ	A	Gender=Fem|Number=Plur	46	amod	_	_
+46	tariffe	tariffa	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	_
+47-48	dei	_	_	_	_	_	_	_	_
+47	di	di	ADP	E	_	49	case	_	_
+48	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	49	det	_	_
+49	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	46	nmod	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=11363672&End=11363672
+# sent_id = cxn_20_example_4_1
+# text = Per questo i vescovi, personalmente o per mezzo di delegati, devono prendersi cura di promuovere l'arte sacra, antica e moderna, in tutte le sue forme, e di tenere lontano con il medesimo zelo, dalla Liturgia e dagli edifici del culto, tutto ciò che non è conforme alla verità della fede e all'autentica bellezza dell'arte sacra
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	14	obl	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	vescovi	vescovo	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	personalmente	personalmente	ADV	B	_	14	advmod	_	_
+7	o	o	CCONJ	CC	_	9	cc	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	6	conj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	delegati	delegato	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14-15	prendersi	_	_	_	_	_	_	_	_
+14	prender	prendere	VERB	V	VerbForm=Inf	0	root	_	_
+15	si	si	PRON	PC	Person=3|PronType=Prs	14	expl	_	Clitic=Yes
+16	cura	cura	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	promuovere	promuovere	VERB	V	VerbForm=Inf	16	acl	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	SpaceAfter=No
+20	arte	arte	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21	sacra	sacro	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	antica	antico	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	moderna	moderno	ADJ	A	Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	23	punct	_	_
+27	in	in	ADP	E	_	31	case	_	_
+28	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	31	det:predet	_	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+30	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	forme	forma	NOUN	S	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	35	punct	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	di	di	ADP	E	_	35	mark	_	_
+35	tenere	tenere	VERB	V	VerbForm=Inf	18	conj	_	_
+36	lontano	lontano	ADV	B	_	35	advmod	_	_
+37	con	con	ADP	E	_	40	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
+39	medesimo	medesimo	ADJ	A	Gender=Masc|Number=Sing	40	amod	_	_
+40	zelo	zelo	NOUN	S	Gender=Masc|Number=Sing	35	obl	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	44	punct	_	_
+42-43	dalla	_	_	_	_	_	_	_	_
+42	da	da	ADP	E	_	44	case	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	Liturgia	liturgia	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	_
+45	e	e	CCONJ	CC	_	48	cc	_	_
+46-47	dagli	_	_	_	_	_	_	_	_
+46	da	da	ADP	E	_	48	case	_	_
+47	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
+48	edifici	edificio	NOUN	S	Gender=Masc|Number=Plur	44	conj	_	_
+49-50	del	_	_	_	_	_	_	_	_
+49	di	di	ADP	E	_	51	case	_	_
+50	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	51	det	_	_
+51	culto	culto	NOUN	S	Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
+52	,	,	PUNCT	FF	_	44	punct	_	_
+53	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	54	det	_	_
+54	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	35	obj	_	_
+55	che	che	PRON	PR	PronType=Rel	58	nsubj	_	_
+56	non	non	ADV	BN	PronType=Neg	58	advmod	_	_
+57	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	58	cop	_	_
+58	conforme	conforme	ADJ	A	Number=Sing	54	acl:relcl	_	_
+59-60	alla	_	_	_	_	_	_	_	_
+59	a	a	ADP	E	_	61	case	_	_
+60	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	61	det	_	_
+61	verità	verità	NOUN	S	Gender=Fem	58	obl	_	_
+62-63	della	_	_	_	_	_	_	_	_
+62	di	di	ADP	E	_	64	case	_	_
+63	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	64	det	_	_
+64	fede	fede	NOUN	S	Gender=Fem|Number=Sing	61	nmod	_	_
+65	e	e	CCONJ	CC	_	69	cc	_	_
+66-67	all'	_	_	_	_	_	_	_	SpaceAfter=No
+66	a	a	ADP	E	_	69	case	_	_
+67	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	69	det	_	_
+68	autentica	autentico	ADJ	A	Gender=Fem|Number=Sing	69	amod	_	_
+69	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	61	conj	_	_
+70-71	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+70	di	di	ADP	E	_	72	case	_	_
+71	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	72	det	_	_
+72	arte	arte	NOUN	S	Gender=Fem|Number=Sing	69	nmod	_	_
+73	sacra	sacro	ADJ	A	Gender=Fem|Number=Sing	72	amod	_	SpaceAfter=No

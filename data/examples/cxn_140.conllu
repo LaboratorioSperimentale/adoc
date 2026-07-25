@@ -1,0 +1,54 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = None
+# sent_id = cxn_140_example_1_1
+# text = Mi piace ballare
+1	Mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	2	iobj	_	Clitic=Yes
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ballare	ballare	VERB	V	VerbForm=Inf	2	csubj	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = None
+# sent_id = cxn_140_example_2_1
+# text = A Marco piace la frutta
+1	A	a	ADP	E	_	2	case	_	_
+2	Marco	Marco	PROPN	SP	_	3	iobj	_	_
+3	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	frutta	frutta	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	SpacesAfter=
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = None
+# sent_id = cxn_140_example_3_1
+# text = Le piacciono le albicocche
+1	Le	le	PRON	PC	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	iobj	_	Clitic=Yes
+2	piacciono	piacere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	albicocche	albicocca	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	SpacesAfter=
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = None
+# sent_id = cxn_140_example_4_1
+# text = Non le piace discutere
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	le	le	PRON	PC	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	iobj	_	Clitic=Yes
+3	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	discutere	discutere	VERB	V	VerbForm=Inf	3	csubj	_	SpacesAfter=
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = None
+# sent_id = cxn_140_example_5_1
+# text = Ti piace Bologna?
+1	Ti	ti	PRON	PC	Number=Sing|Person=2|PronType=Prs	2	iobj	_	Clitic=Yes
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Bologna	Bologna	PROPN	SP	_	2	nsubj	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	2	punct	_	SpaceAfter=No

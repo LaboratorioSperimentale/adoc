@@ -1,0 +1,196 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_150_example_1_1
+# text = Sua madre portò Gesù nel grembo:
+1	Sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	SpacesAfter=
+2	madre	madre	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	portò	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	Gesù	Gesù	PROPN	SP	_	3	obj	_	_
+5-6	nel	_	_	_	_	_	_	_	SpacesAfter=
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	grembo	grembo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	3	punct	_	_
+
+# source = ItWac
+# sent_id = cxn_150_example_1_2
+# text = noi portiamolo nel cuore
+1	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2-3	portiamolo	_	_	_	_	_	_	_	_
+2	portiamo	portare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	Clitic=Yes
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_150_example_2_1
+# text = Cosa non fare : mettere spoiler nei titoli delle discussioni
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+4	:	:	PUNCT	FS	_	3	punct	_	_
+5	mettere	mettere	VERB	V	VerbForm=Inf	3	ccomp	_	_
+6	spoiler	spoiler	NOUN	S	Gender=Masc	5	obj	_	_
+7-8	nei	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	titoli	titolo	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	discussioni	discussione	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_150_example_3_1
+# text = è possibile garantire il proprio appoggio versando offerte sul conto corrente unico
+1	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	possibile	possibile	ADJ	A	Number=Sing	0	root	_	_
+3	garantire	garantire	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	appoggio	appoggio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	versando	versare	VERB	V	VerbForm=Ger	3	advcl	_	_
+8	offerte	offerta	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	SpacesAfter=
+9-10	sul	_	_	_	_	_	_	_	_
+9	su	su	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	conto	conto	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	corrente	corrente	ADJ	A	Number=Sing	11	compound	_	_
+13	unico	unico	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_150_example_4_1
+# text = Kublai richiamò Hulagu in Oriente, e l' Egitto fu salvo
+1	Kublai	Kublai	PROPN	SP	_	2	nsubj	_	_
+2	richiamò	richiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Hulagu	Hulagu	PROPN	SP	_	2	obj	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	Oriente	Oriente	PROPN	SP	_	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	11	punct	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	Egitto	Egitto	PROPN	SP	_	11	nsubj	_	_
+10	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+11	salvo	salvo	ADJ	A	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_150_example_5_1
+# text = i manifesti raccomandano di non buttare rifiuti nei wc
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	SpacesBefore=\s
+2	manifesti	manifesto	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	raccomandano	raccomandare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	6	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	buttare	buttare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+7	rifiuti	rifiuto	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	_
+8-9	nei	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	wc	wc	NOUN	S	_	6	obl	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = ItTENTEN20_1506607
+# text = Ci guardavano e sorridevano con un sorriso di amorevole comprensione, un po' velato di tristezza, così sembrava.
+# status = TO_CHECK
+1	Ci	ci	PRON	PC	Number=Plur|Person=1|PronType=Prs	2	expl	_	Clitic=Yes
+2	guardavano	guardare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	sorridevano	sorridere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	amorevole	amorevole	ADJ	A	Number=Sing	10	amod	_	_
+10	comprensione	comprensione	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	po'	poco	ADV	B	_	14	advmod	_	_
+14	velato	velare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	tristezza	tristezza	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	2	punct	_	_
+18	così	così	ADV	B	_	19	advmod	_	_
+19	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = itTENTEN20_924906
+# source = . itTenTen20 .
+# text = un bambino è sveglio quando è calmo, ha gli occhi ben aperti, segue con lo sguardo e vuole comunicare (veglia calma) oppure quando geme, fa smorfie, muove braccia e gambe si ripiega su se stesso, talora piange con pianto forte e difficilmente consolabile (veglia attiva).
+# status = TO_CHECK
+1	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	bambino	bambino	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	sveglio	sveglio	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	quando	quando	SCONJ	CS	_	7	mark	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	calmo	calmo	ADJ	A	Gender=Masc|Number=Sing	4	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12	ben	bene	ADV	B	_	13	advmod	_	_
+13	aperti	aperto	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15	segue	seguire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	sguardo	sguardo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	comunicare	comunicare	VERB	V	VerbForm=Inf	7	conj	_	_
+22	(	(	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+23	veglia	veglia	NOUN	S	Gender=Fem|Number=Sing	21	parataxis	_	_
+24	calma	calmo	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	)	)	PUNCT	FB	_	23	punct	_	_
+26	oppure	oppure	CCONJ	CC	_	38	cc	_	_
+27	quando	quando	SCONJ	CS	_	28	mark	_	_
+28	geme	gemere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	advcl	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	30	punct	_	_
+30	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	_
+31	smorfie	smorfia	NOUN	S	Gender=Fem|Number=Plur	30	obj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	33	punct	_	_
+33	muove	muovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	_
+34	braccia	braccio	NOUN	S	Gender=Fem|Number=Plur	33	obj	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36	gambe	gamba	NOUN	S	Gender=Fem|Number=Plur	34	conj	_	_
+37	si	si	PRON	PC	Person=3|PronType=Prs	38	expl	_	Clitic=Yes
+38	ripiega	ripiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+39	su	su	ADP	E	_	40	case	_	_
+40	se	se	PRON	PC	Person=3|PronType=Prs	38	obl	_	Clitic=Yes
+41	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	40	amod	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	38	punct	_	_
+43	talora	talora	ADV	B	_	44	advmod	_	_
+44	piange	piangere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	conj	_	_
+45	con	con	ADP	E	_	46	case	_	_
+46	pianto	pianto	NOUN	S	Gender=Masc|Number=Sing	44	obl	_	_
+47	forte	forte	ADJ	A	Number=Sing	46	amod	_	_
+48	e	e	CCONJ	CC	_	50	cc	_	_
+49	difficilmente	difficilmente	ADV	B	_	50	advmod	_	_
+50	consolabile	consolabile	ADJ	A	Number=Sing	47	conj	_	_
+51	(	(	PUNCT	FB	_	52	punct	_	SpaceAfter=No
+52	veglia	veglia	NOUN	S	Gender=Fem|Number=Sing	44	parataxis	_	_
+53	attiva	attivo	ADJ	A	Gender=Fem|Number=Sing	52	amod	_	SpaceAfter=No
+54	)	)	PUNCT	FB	_	52	punct	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+

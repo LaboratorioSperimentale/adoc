@@ -1,0 +1,326 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: iTenTen20
+# sent_id = cxn_67_example_1_1
+# text = E tu questo me lo chiami "articolo"?
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	dislocated	_	_
+4	me	me	PRON	PC	Number=Sing|Person=1|PronType=Prs	6	obl	_	Clitic=Yes
+5	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	Clitic=Yes
+6	chiami	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	articolo	articolo	NOUN	S	Gender=Masc|Number=Sing	6	xcomp	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: iTenTen20
+# sent_id = cxn_67_example_2_1
+# text = Accettare che "l'unico amore sia nato dal unico odio", esserne consapevoli al punto da affrontare qualunque cosa(dall'esilio all'essere sepolti vivi) pur di "arrivare al giorno in cui si sorriderà dei tormenti dell'oggi";
+# tags = CONTEXT
+1	Accettare	accettare	VERB	V	VerbForm=Inf	0	root	_	_
+2	che	che	SCONJ	CS	_	8	mark	_	_
+3	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+5	unico	unico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	amore	amore	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	nato	nascere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	unico	unico	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	odio	odio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15-16	esserne	_	_	_	_	_	_	_	_
+15	esser	essere	AUX	VA	VerbForm=Inf	17	cop	_	_
+16	ne	ne	PRON	PC	PronType=Prs	17	obl	_	Clitic=Yes
+17	consapevoli	consapevole	ADJ	A	Number=Plur	1	conj	_	_
+18-19	al	_	_	_	_	_	_	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	punto	punto	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	da	da	ADP	E	_	22	mark	_	_
+22	affrontare	affrontare	VERB	V	VerbForm=Inf	20	acl	_	_
+23	qualunque	qualunque	DET	DI	Number=Sing|PronType=Ind	24	det	_	_
+24	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
+25	(	(	PUNCT	S	Gender=Fem|Number=Sing	28	punct	_	SpaceAfter=No
+26-27	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+26	da	da	ADP	E	_	28	case	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
+28	esilio	esilio	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+29-30	all'	_	_	_	_	_	_	_	SpaceAfter=No
+29	a	a	ADP	E	_	32	case	_	_
+30	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
+31	essere	essere	AUX	VA	VerbForm=Inf	32	aux:pass	_	_
+32	sepolti	seppellire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	24	acl	_	_
+33	vivi	vivo	ADJ	A	Gender=Masc|Number=Plur	32	amod	_	SpaceAfter=No
+34	)	)	PUNCT	FB	_	32	punct	_	_
+35	pur	pure	ADV	B	ExtPos=ADP	38	mark	_	_
+36	di	di	ADP	E	_	35	fixed	_	_
+37	"	"	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+38	arrivare	arrivare	VERB	V	VerbForm=Inf	22	advcl	_	_
+39-40	al	_	_	_	_	_	_	_	_
+39	a	a	ADP	E	_	41	case	_	_
+40	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+41	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	38	obl	_	_
+42	in	in	ADP	E	_	43	case	_	_
+43	cui	cui	PRON	PR	PronType=Rel	45	obl	_	_
+44	si	si	PRON	PC	Person=3|PronType=Prs	45	expl	_	Clitic=Yes
+45	sorriderà	sorridere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	41	acl:relcl	_	_
+46-47	dei	_	_	_	_	_	_	_	_
+46	di	di	ADP	E	_	48	case	_	_
+47	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
+48	tormenti	tormento	NOUN	S	Gender=Masc|Number=Plur	45	obl	_	_
+49-50	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+49	di	di	ADP	E	_	51	case	_	_
+50	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	51	det	_	_
+51	oggi	oggi	NOUN	S	Gender=Masc	48	nmod	_	SpaceAfter=No
+52	"	"	PUNCT	FB	_	38	punct	_	SpaceAfter=No
+53	;	;	PUNCT	FC	_	1	punct	_	_
+
+# source = Corpus: iTenTen20
+# sent_id = cxn_67_example_2_2
+# text = e tu questo me lo chiami "fuggire dai problemi"?
+1	e	e	CCONJ	CC	_	6	cc	_	_
+2	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	dislocated	_	_
+4	me	me	PRON	PC	Number=Sing|Person=1|PronType=Prs	6	obl	_	Clitic=Yes
+5	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	Clitic=Yes
+6	chiami	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	fuggire	fuggire	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9-10	dai	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+12	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	6	punct	_	SpacesAfter=
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: iTenTen20
+# sent_id = cxn_67_example_3_1
+# text = Può essere più o meno extra, a seconda della percentuale di frutta presente, ma non è comunque marmellata.
+# tags = CONTEXT
+1	Può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+2	essere	essere	AUX	VA	VerbForm=Inf	6	cop	_	_
+3	più	più	ADV	B	_	6	advmod	_	_
+4	o	o	CCONJ	CC	_	5	cc	_	_
+5	meno	meno	ADV	B	_	3	conj	_	_
+6	extra	extra	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	a	a	ADP	E	_	12	case	_	_
+9	seconda	seconda	ADV	B	_	8	fixed	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	9	fixed	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	percentuale	percentuale	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	frutta	frutta	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	presente	presente	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	21	punct	_	_
+17	ma	ma	CCONJ	CC	_	21	cc	_	_
+18	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+19	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	comunque	comunque	ADV	B	_	21	advmod	_	_
+21	marmellata	marmellare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	6	punct	_	_
+
+# source = Corpus: iTenTen20
+# sent_id = cxn_67_example_3_2
+# text = Spiegarlo agli altri è praticamente impossibile, anche perchè avete mai assaggiato la marmellata di limone?
+# tags = CONTEXT
+1-2	Spiegarlo	_	_	_	_	_	_	_	_
+1	Spiegar	spiegare	VERB	V	VerbForm=Inf	8	csubj	_	_
+2	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	Clitic=Yes
+3-4	agli	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	iobj	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	praticamente	praticamente	ADV	B	_	8	advmod	_	_
+8	impossibile	impossibile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	anche	anche	ADV	B	_	14	advmod	_	_
+11	perchè	perché	SCONJ	CS	_	14	mark	_	_
+12	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	mai	mai	ADV	B	_	14	advmod	_	_
+14	assaggiato	assaggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	marmellata	marmellata	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	limone	limone	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	?	?	PUNCT	FS	_	8	punct	_	_
+
+# source = Corpus: iTenTen20
+# sent_id = cxn_67_example_3_3
+# text = Ti senti rispondere "E tu me la chiami marmellata questa?" Come dargli torto!
+1	Ti	ti	PRON	PC	Number=Sing|Person=2|PronType=Prs	2	iobj	_	Clitic=Yes
+2	senti	sentire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	rispondere	rispondere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+4	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+5	E	e	CCONJ	CC	_	9	cc	_	_
+6	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	SpacesAfter=
+7	me	me	PRON	PC	Number=Sing|Person=1|PronType=Prs	9	obl	_	Clitic=Yes
+8	la	la	PRON	PC	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	Clitic=Yes
+9	chiami	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpacesAfter=
+10	marmellata	marmellare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	xcomp	_	_
+11	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	9	dislocated	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	9	punct	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	9	punct	_	_
+14	Come	come	ADV	B	_	15	advmod	_	_
+15-16	dargli	_	_	_	_	_	_	_	_
+15	dar	dare	VERB	V	VerbForm=Inf	2	parataxis	_	_
+16	gli	gli	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	iobj	_	Clitic=Yes
+17	torto	torto	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	!	!	PUNCT	FS	_	15	punct	_	SpacesAfter=
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: iTenTen20
+# sent_id = cxn_67_example_4_1
+# text = A quanto pare è finita.
+# tags = CONTEXT
+1	A	a	ADP	E	_	2	case	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	5	obl	_	_
+3	pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	finita	finire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# source = Corpus: iTenTen20
+# sent_id = cxn_67_example_4_2
+# text = Hm, dai, è andata meglio del previsto.
+# tags = CONTEXT
+1	Hm	Hm	INTJ	_	_	6	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	dai	dai	INTJ	_	_	6	discourse	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	meglio	meglio	ADV	B	_	6	advmod	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	previsto	previsto	ADJ	A	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	_
+
+# source = Corpus: iTenTen20
+# sent_id = cxn_67_example_4_3
+# text = Il "previsto" consisteva nel dover far paura ad un vecchietto, mentre ti sei ritrovato a combattere, procurandoti un taglio non trascurabile sul mento.
+# tags = CONTEXT
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+3	previsto	previsto	ADJ	A	Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	3	punct	_	_
+5	consisteva	consistere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	dover	dovere	AUX	VM	VerbForm=Inf	9	aux	_	_
+9	far	fare	VERB	V	VerbForm=Inf	5	obl	_	_
+10	paura	paura	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+11	ad	a	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	vecchietto	vecchio	NOUN	S	Gender=Masc|Number=Sing	9	iobj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	mentre	mentre	SCONJ	CS	_	18	mark	_	_
+16	ti	ti	PRON	PC	Number=Sing|Person=2|PronType=Prs	18	expl	_	Clitic=Yes
+17	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	ritrovato	ritrovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+19	a	a	ADP	E	_	20	mark	_	_
+20	combattere	combattere	VERB	V	VerbForm=Inf	18	xcomp	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	22	punct	_	_
+22-23	procurandoti	_	_	_	_	_	_	_	_
+22	procurando	procurare	VERB	V	VerbForm=Ger	18	advcl	_	_
+23	ti	ti	PRON	PC	Number=Sing|Person=2|PronType=Prs	22	expl	_	Clitic=Yes
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	taglio	taglio	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	_
+26	non	non	ADV	BN	PronType=Neg	27	advmod	_	_
+27	trascurabile	trascurabile	ADJ	A	Number=Sing	25	amod	_	_
+28-29	sul	_	_	_	_	_	_	_	_
+28	su	su	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	mento	mento	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=
+
+# source = Corpus: iTenTen20
+# sent_id = cxn_67_example_4_4
+# text = Questo me lo chiami "meglio del previsto"?
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	dislocated	_	SpacesAfter=
+2	me	me	PRON	PC	Number=Sing|Person=1|PronType=Prs	4	obl	_	Clitic=Yes
+3	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	Clitic=Yes
+4	chiami	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	meglio	meglio	ADV	B	_	4	xcomp	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	previsto	previsto	ADJ	A	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	4	punct	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: iTenTen20
+# sent_id = cxn_67_example_5_1
+# text = Siamo all'ombra di una montagna di morti che non riusciamo a vederne la cima, conficcati come dannati in un lago ghiacciato e senza vita, e tu questo me lo chiami un lieto fine?
+1	Siamo	essere	VERB	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	all'	_	_	_	_	_	_	_	SpaceAfter=No
+2	a	a	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	ombra	ombra	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	montagna	montagna	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	morti	morto	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	12	obl	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	riusciamo	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14-15	vederne	_	_	_	_	_	_	_	_
+14	veder	vedere	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	ne	ne	PRON	PC	PronType=Prs	14	obl	_	Clitic=Yes
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	cima	cima	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	conficcati	conficcare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	conj	_	_
+20	come	come	ADV	CS	_	21	mark	_	_
+21	dannati	dannare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	advcl	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	lago	lago	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	ghiacciato	ghiacciato	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+26	e	e	CCONJ	CC	_	28	cc	_	_
+27	senza	senza	ADP	E	_	28	case	_	_
+28	vita	vita	NOUN	S	Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	19	punct	_	_
+30	e	e	CCONJ	CC	_	35	cc	_	_
+31	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	35	nsubj	_	_
+32	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	35	dislocated	_	SpacesAfter=
+33	me	me	PRON	PC	Number=Sing|Person=1|PronType=Prs	35	obl	_	Clitic=Yes
+34	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	obj	_	Clitic=Yes
+35	chiami	chiamare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	SpacesAfter=
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+37	lieto	lieto	ADJ	A	Gender=Masc|Number=Sing	38	amod	_	_
+38	fine	fine	NOUN	S	Gender=Masc|Number=Sing	35	xcomp	_	SpaceAfter=No
+39	?	?	PUNCT	FS	_	35	punct	_	SpacesAfter=
+
+# source = Corpus: iTenTen20
+# sent_id = cxn_67_example_5_2
+# text = Mi dovrei accontentare?
+# tags = CONTEXT
+1	Mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	3	expl	_	Clitic=Yes
+2	dovrei	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	accontentare	accontentare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No

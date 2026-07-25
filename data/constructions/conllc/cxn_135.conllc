@@ -1,6 +1,0 @@
-# cxn_id = cxn_135
-# cxn_name = Costruzione "che...che" cxn-machine-readable-formalization: | cxn_135.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	_	DET	_	B	det	_
-B	_	_	NOUN	_	0	root	_
-C	_	_	_	Mood=Ind|Number=Sing|VerbForm=Fin	B	acl:relcl	_

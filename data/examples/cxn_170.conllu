@@ -1,0 +1,263 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = Paisà_24072024_FP
+# source = http://hdl.handle.net/20.500.12124/3 paisa.raw.utf8/2704629 .
+# text = Essa si distingue soprattutto in quanto le armate tedesche avevano precedentemente conquistato , in poche settimane , città e interi Paesi ; mentre in questo caso non furono capaci di conquistare una casa mezza diroccata , difesa per la maggior parte del tempo da poco più di una dozzina di soldati , nonostante vi avessero tentato per due mesi .
+# status = TO_CHECK
+1	Essa	esso	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	si	si	PRON	PC	Person=3|PronType=Prs	3	expl	_	Clitic=Yes
+3	distingue	distinguere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	soprattutto	soprattutto	ADV	B	_	12	advmod	_	_
+5	in	in	ADP	E	_	12	mark	_	_
+6	quanto	quanto	ADV	B	_	5	fixed	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	armate	armata	NOUN	S	Gender=Fem|Number=Plur	12	nsubj	_	_
+9	tedesche	tedesco	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	_
+11	precedentemente	precedentemente	ADV	B	_	12	advmod	_	_
+12	conquistato	conquistare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	poche	poco	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	16	det	_	_
+16	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+17	,	,	PUNCT	FF	_	12	punct	_	_
+18	città	città	NOUN	S	Gender=Fem	12	obj	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	interi	intero	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+21	Paesi	paese	NOUN	S	Gender=Masc|Number=Plur	18	conj	_	_
+22	;	;	PUNCT	FC	_	12	punct	_	_
+23	mentre	mentre	SCONJ	CS	_	29	mark	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	_
+26	caso	caso	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	_
+27	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+28	furono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	29	cop	_	_
+29	capaci	capace	ADJ	A	Number=Plur	3	advcl	_	_
+30	di	di	ADP	E	_	31	mark	_	_
+31	conquistare	conquistare	VERB	V	VerbForm=Inf	29	advcl	_	_
+32	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	casa	casa	NOUN	S	Gender=Fem|Number=Sing	31	obj	_	_
+34	mezza	mezzo	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	_
+35	diroccata	diroccato	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	_
+36	,	,	PUNCT	FF	_	33	punct	_	_
+37	difesa	difendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	33	acl	_	_
+38	per	per	ADP	E	_	41	case	_	_
+39	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+40	maggior	maggiore	ADJ	A	Degree=Cmp|Number=Sing	41	amod	_	_
+41	parte	parte	NOUN	S	Gender=Fem|Number=Sing	37	obl	_	_
+42-43	del	_	_	_	_	_	_	_	_
+42	di	di	ADP	E	_	44	case	_	_
+43	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	_
+45	da	da	ADP	E	_	47	case	_	_
+46	poco	poco	ADV	B	_	47	advmod	_	_
+47	più	più	PRON	PI	PronType=Ind	37	obl:agent	_	_
+48	di	di	ADP	E	_	50	case	_	_
+49	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	50	det	_	_
+50	dozzina	dozzina	NOUN	S	Gender=Fem|Number=Sing	47	nmod	_	_
+51	di	di	ADP	E	_	52	case	_	_
+52	soldati	soldato	NOUN	S	Gender=Masc|Number=Plur	50	nmod	_	_
+53	,	,	PUNCT	FF	_	37	punct	_	_
+54	nonostante	nonostante	SCONJ	E	_	57	mark	_	_
+55	vi	vi	ADV	B	_	57	advmod	_	_
+56	avessero	avere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	57	aux	_	_
+57	tentato	tentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	37	advcl	_	_
+58	per	per	ADP	E	_	60	case	_	_
+59	due	due	NUM	N	NumType=Card	60	nummod	_	_
+60	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	57	obl	_	_
+61	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = Paisà_24072024_FP_2
+# source = http://hdl.handle.net/20.500.12124/3 paisa.raw.utf8/7005694 .
+# text = Il pensiero va ad una persona , stremata , impaurita , disidrata e infreddolita che con la barca mezza sommersa e fuori controllo deve ESTRARRE da chissà dove il suo ultimo rifugio ... forza e coraggio !
+# status = TO_CHECK
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ad	a	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	persona	persona	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	stremata	stremato	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	impaurita	impaurito	ADJ	A	Gender=Fem|Number=Sing	8	conj	_	_
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	disidrata	disidrato	ADJ	A	Gender=Fem|Number=Sing	8	conj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	infreddolita	infreddolito	ADJ	A	Gender=Fem|Number=Sing	8	conj	_	_
+15	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	barca	barca	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+19	mezza	mezzo	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+20	sommersa	sommerso	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	fuori	fuori	ADP	E	_	23	case	_	_
+23	controllo	controllo	NOUN	S	Gender=Masc|Number=Sing	20	conj	_	_
+24	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	ESTRARRE	estrarre	VERB	V	VerbForm=Inf	6	acl:relcl	_	_
+26	da	da	ADP	E	_	28	case	_	_
+27	chissà	chissà	ADV	B	_	25	advmod	_	_
+28	dove	dove	ADV	B	_	25	advmod	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+30	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+31	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing|NumType=Ord	32	amod	_	_
+32	rifugio	rifugio	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+33	...	...	PUNCT	FF	_	25	punct	_	_
+34	forza	forza	NOUN	S	Gender=Fem|Number=Sing	32	appos	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	34	conj	_	_
+37	!	!	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# sent_id = VIT-7735
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-VIT/it_vit-ud-train VIT-7735
+# text = Per la prima volta in cinque anni lo sentono sgridare i compagni addormentati, che l'hanno lasciato in un vespaio mezzo nudo.
+# status = TO_CHECK
+1	Per	per	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	volta	volta	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	cinque	cinque	NUM	N	NumType=Card	7	nummod	_	_
+7	anni	anno	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	_
+8	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	Clitic=Yes
+9	sentono	sentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	sgridare	sgridare	VERB	V	VerbForm=Inf	9	ccomp	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	compagni	compagno	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+13	addormentati	addormentato	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FC	_	12	punct	_	_
+15	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+16	l'	lo	PRON	PC	Number=Sing|Person=3|PronType=Prs	18	obj	_	Clitic=Yes|SpaceAfter=No
+17	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	vespaio	vespaio	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	mezzo	mezzo	ADV	B	Gender=Masc|Number=Sing	23	advmod	_	_
+23	nudo	nudo	ADJ	A	Gender=Masc|Number=Sing	18	xcomp	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = isst_tanl-1137
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-ISDT/it_isdt-ud-train isst_tanl-1137
+# text = gli acrobati con i costumi lisi, il pubblico a bocca aperta, qualche sospiro degli uomini davanti al seno mezzo nudo della trapezista e le donne con lo chador sul capo pronte a coprire gli occhi dei bambini.
+# status = TO_CHECK
+1	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	2:det	_
+2	acrobati	acrobata	NOUN	S	Gender=Masc|Number=Plur	0	root	0:root	_
+3	con	con	ADP	E	_	5	case	5:case	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	5:det	_
+5	costumi	costume	NOUN	S	Gender=Masc|Number=Plur	2	nmod	2:nmod:con	_
+6	lisi	liso	ADJ	A	Gender=Masc|Number=Plur	5	amod	5:amod	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	9:punct	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	_
+9	pubblico	pubblico	NOUN	S	Gender=Masc|Number=Sing	2	conj	2:conj:e	_
+10	a	a	ADP	E	_	11	case	11:case	_
+11	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	9	nmod	9:nmod:a	_
+12	aperta	aperto	ADJ	A	Gender=Fem|Number=Sing	11	amod	11:amod	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	15:punct	_
+14	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	15	det	15:det	_
+15	sospiro	sospiro	NOUN	S	Gender=Masc|Number=Sing	2	conj	2:conj:e	_
+16-17	degli	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	18:case	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	18:det	_
+18	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	15	nmod	15:nmod:di	_
+19	davanti	davanti	ADV	B	_	22	case	22:case	_
+20-21	al	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	19	fixed	19:fixed	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	22:det	_
+22	seno	seno	NOUN	S	Gender=Masc|Number=Sing	15	nmod	15:nmod:davanti_a	_
+23	mezzo	mezzo	ADJ	A	Gender=Masc|Number=Sing	22	amod	22:amod	_
+24	nudo	nudo	ADJ	A	Gender=Masc|Number=Sing	22	amod	22:amod	CXN:170a:C=
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	27:case	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	27:det	_
+27	trapezista	trapezista	NOUN	S	Number=Sing	22	nmod	22:nmod:di	_
+28	e	e	CCONJ	CC	_	30	cc	30:cc	_
+29	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	30	det	30:det	_
+30	donne	donna	NOUN	S	Gender=Fem|Number=Plur	2	conj	2:conj:e	_
+31	con	con	ADP	E	_	33	case	33:case	_
+32	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	33:det	_
+33	chador	chador	NOUN	S	_	30	nmod	30:nmod:con	_
+34-35	sul	_	_	_	_	_	_	_	_
+34	su	su	ADP	E	_	36	case	36:case	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	36:det	_
+36	capo	capo	NOUN	S	Gender=Masc|Number=Sing	33	nmod	33:nmod:su	_
+37	pronte	pronto	ADJ	A	Gender=Fem|Number=Plur	30	amod	30:amod	_
+38	a	a	ADP	E	_	39	mark	39:mark	_
+39	coprire	coprire	VERB	V	VerbForm=Inf	37	advcl	37:advcl:a	_
+40	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	41:det	_
+41	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	39	obj	39:obj	_
+42-43	dei	_	_	_	_	_	_	_	_
+42	di	di	ADP	E	_	44	case	44:case	_
+43	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	44	det	44:det	_
+44	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	41	nmod	41:nmod:di	SpaceAfter=No
+45	.	.	PUNCT	FS	_	2	punct	2:punct	_
+
+# sent_id = isst_tanl-2834
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-ISDT/it_isdt-ud-train isst_tanl-2834
+# text = La famiglia Didoni, mezzo brianzola e mezzo bergamasca di origine, da sempre abita a Quarto Oggiaro, i ragazzi sono tutti cresciuti bene nelle strade del quartiere dalla fama di ghetto e adesso qui la gente è raggiante per l'inatteso riscatto d'immagine arrivato dalla lontana Svezia.
+# status = TO_CHECK
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	2:det	_
+2	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	15:nsubj	_
+3	Didoni	Didoni	PROPN	SP	_	2	nmod	2:nmod	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	2:punct	_
+5	mezzo	mezzo	ADV	B	_	6	advmod	6:advmod	_
+6	brianzola	brianzolo	ADJ	A	Gender=Fem|Number=Sing	2	amod	2:amod	_
+7	e	e	CCONJ	CC	_	9	cc	9:cc	_
+8	mezzo	mezzo	ADV	B	_	9	advmod	9:advmod	_
+9	bergamasca	bergamasco	ADJ	A	Gender=Fem|Number=Sing	6	conj	2:amod|6:conj:e	_
+10	di	di	ADP	E	_	11	case	11:case	_
+11	origine	origine	NOUN	S	Gender=Fem|Number=Sing	9	obl	9:obl:di	SpaceAfter=No
+12	,	,	PUNCT	FF	_	2	punct	2:punct	_
+13	da	da	ADP	E	_	14	case	14:case	_
+14	sempre	sempre	ADV	B	_	15	advmod	15:advmod	_
+15	abita	abitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+16	a	a	ADP	E	_	17	case	17:case	_
+17	Quarto	Quarto	PROPN	SP	_	15	obl	15:obl:a	_
+18	Oggiaro	Oggiaro	PROPN	SP	_	17	flat:name	17:flat:name	SpaceAfter=No
+19	,	,	PUNCT	FF	_	24	punct	24:punct	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	21:det	_
+21	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	24	nsubj	24:nsubj	_
+22	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	24:aux	_
+23	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	24	obl	24:obl	_
+24	cresciuti	crescere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	15	conj	15:conj:e	_
+25	bene	bene	ADV	B	_	24	advmod	24:advmod	_
+26-27	nelle	_	_	_	_	_	_	_	_
+26	in	in	ADP	E	_	28	case	28:case	_
+27	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	28:det	_
+28	strade	strada	NOUN	S	Gender=Fem|Number=Plur	24	obl	24:obl:in	_
+29-30	del	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	31:case	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	31:det	_
+31	quartiere	quartiere	NOUN	S	Gender=Masc|Number=Sing	28	nmod	28:nmod:di	_
+32-33	dalla	_	_	_	_	_	_	_	_
+32	da	da	ADP	E	_	34	case	34:case	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	34:det	_
+34	fama	fama	NOUN	S	Gender=Fem|Number=Sing	31	nmod	31:nmod:da	_
+35	di	di	ADP	E	_	36	case	36:case	_
+36	ghetto	ghetto	NOUN	S	Gender=Masc|Number=Sing	34	nmod	34:nmod:di	_
+37	e	e	CCONJ	CC	_	43	cc	43:cc	_
+38	adesso	adesso	ADV	B	_	43	advmod	43:advmod	_
+39	qui	qui	ADV	B	_	43	advmod	43:advmod	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	41:det	_
+41	gente	gente	NOUN	S	Gender=Fem|Number=Sing	43	nsubj	43:nsubj	_
+42	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	cop	43:cop	_
+43	raggiante	raggiante	ADJ	A	Number=Sing	15	conj	15:conj:e	_
+44	per	per	ADP	E	_	47	case	47:case	_
+45	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	47	det	47:det	SpaceAfter=No
+46	inatteso	inatteso	ADJ	A	Gender=Masc|Number=Sing	47	amod	47:amod	_
+47	riscatto	riscatto	NOUN	S	Gender=Masc|Number=Sing	43	obl	43:obl:per	_
+48	d'	di	ADP	E	_	49	case	49:case	SpaceAfter=No
+49	immagine	immagine	NOUN	S	Gender=Fem|Number=Sing	47	nmod	47:nmod:di	_
+50	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	47	acl	47:acl	_
+51-52	dalla	_	_	_	_	_	_	_	_
+51	da	da	ADP	E	_	54	case	54:case	_
+52	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	54	det	54:det	_
+53	lontana	lontano	ADJ	A	Gender=Fem|Number=Sing	54	amod	54:amod	_
+54	Svezia	Svezia	PROPN	SP	_	50	obl	50:obl:da	SpaceAfter=No
+55	.	.	PUNCT	FS	_	15	punct	15:punct	_
+

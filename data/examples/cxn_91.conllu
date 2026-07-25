@@ -1,0 +1,49 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Parlante nativo
+# sent_id = cxn_91_example_1_1
+# text = Cadere in trappola
+1	Cadere	cadere	VERB	V	VerbForm=Inf	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	trappola	trappola	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Parlante nativo
+# sent_id = cxn_91_example_2_1
+# text = Cadere in inganno
+1	Cadere	cadere	VERB	V	VerbForm=Inf	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	inganno	inganno	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Parlante nativo
+# sent_id = cxn_91_example_3_1
+# text = Cadere in rovina
+1	Cadere	cadere	VERB	V	VerbForm=Inf	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	rovina	rovina	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Parlante nativo
+# sent_id = cxn_91_example_4_1
+# text = Cadere in disgrazia
+1	Cadere	cadere	VERB	V	VerbForm=Inf	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	disgrazia	disgrazia	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Parlante nativo
+# sent_id = cxn_91_example_5_1
+# text = Cadere in fallo
+1	Cadere	cadere	VERB	V	VerbForm=Inf	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	fallo	fallo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No

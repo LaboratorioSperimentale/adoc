@@ -1,0 +1,230 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CorpusPaisà (corpusitaliano.it)
+# sent_id = cxn_48_example_1_1
+# text = Tra tutti quelli che erano interessati allo svolgimento del match, Hart era senza dubbio il più calmo di tutti.
+# tags = CONTEXT
+1	Tra	tra	ADP	E	_	3	case	_	_
+2	tutti	tutto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	20	obl	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+6	interessati	interessato	ADJ	A	Gender=Masc|Number=Plur	3	acl:relcl	_	_
+7-8	allo	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	svolgimento	svolgimento	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	match	match	NOUN	S	Gender=Masc	9	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	3	punct	_	_
+14	Hart	Hart	PROPN	SP	_	20	nsubj	_	_
+15	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
+16	senza	senza	ADP	E	_	17	case	_	_
+17	dubbio	dubbio	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	più	più	ADV	B	_	20	advmod	_	_
+20	calmo	calmo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	20	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	20	punct	_	_
+
+# source = CorpusPaisà (corpusitaliano.it)
+# sent_id = cxn_48_example_1_2
+# text = Molte piccole cose lo avevano spinto a guardare con tranquillità a quanto stava per accadere.
+1	Molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+2	piccole	piccolo	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+3	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+4	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	Clitic=Yes
+5	avevano	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	spinto	spingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	guardare	guardare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	tranquillità	tranquillità	NOUN	S	Gender=Fem	8	obl	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	8	obl	_	_
+13	stava	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	acl:relcl	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	accadere	accadere	VERB	V	VerbForm=Inf	13	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CorpusPaisà (corpusitaliano.it)
+# sent_id = cxn_48_example_2_1
+# text = La presenza di depositi di ferro a livello cerebrospinale ha spinto a ricercare una correlazione tra questi patologici restringimenti venosi ribattezzati sotto il nome di Insufficienza venosa cronica cerebrospinale o CCSVI e la sclerosi multipla.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	depositi	deposito	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	ferro	ferro	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	livello	livello	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+9	cerebrospinale	cerebrospinale	ADJ	A	Number=Sing	8	amod	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	spinto	spingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	ricercare	ricercare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	correlazione	correlazione	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	tra	tra	ADP	E	_	19	case	_	_
+17	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	19	det	_	_
+18	patologici	patologico	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+19	restringimenti	restringimento	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	_
+20	venosi	venoso	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+21	ribattezzati	ribattezzare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	acl	_	_
+22	sotto	sotto	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	nome	nome	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	Insufficienza	insufficienza	NOUN	SP	Gender=Fem|Number=Sing	24	nmod	_	_
+27	venosa	venoso	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+28	cronica	cronico	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+29	cerebrospinale	cerebrospinale	ADJ	A	Number=Sing	26	amod	_	_
+30	o	o	CCONJ	CC	_	31	cc	_	_
+31	CCSVI	CCSVI	PROPN	SP	_	26	conj	_	_
+32	e	e	CCONJ	CC	_	34	cc	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	sclerosi	sclerosi	NOUN	S	Gender=Fem|Number=Sing	26	conj	_	_
+35	multipla	multiplo	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	SpaceAfter=No
+36	.	.	PUNCT	FS	_	11	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CorpusPaisà (corpusitaliano.it)
+# sent_id = cxn_48_example_3_1
+# text = La presenza a breve distanza dei ruderi di altri tre mulini, "Mulino Ramet", "Mulino Sourdon", "Mulino Tissot-Avon", un tempo simboli identificativi della città, ha spinto a sfruttare l'area a scopo turistico.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	presenza	presenza	NOUN	S	Gender=Fem|Number=Sing	40	nsubj	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	breve	breve	ADJ	A	Number=Sing	5	amod	_	_
+5	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	ruderi	rudere	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+9	di	di	ADP	E	_	12	case	_	_
+10	altri	altro	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	12	det	_	_
+11	tre	tre	NUM	N	NumType=Card	12	nummod	_	_
+12	mulini	mulino	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	Mulino	Mulino	PROPN	SP	_	12	appos	_	_
+16	Ramet	Ramet	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	Mulino	Mulino	PROPN	SP	_	15	conj	_	_
+21	Sourdon	Sourdon	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+22	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	25	punct	_	_
+24	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+25	Mulino	Mulino	PROPN	SP	_	15	conj	_	_
+26	Tissot	Tissot	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+27	-	-	PUNCT	FF	_	25	punct	_	SpaceAfter=No
+28	Avon	Avon	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+29	"	"	PUNCT	FB	_	25	punct	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	33	punct	_	_
+31	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	33	nmod	_	_
+33	simboli	simbolo	NOUN	S	Gender=Masc|Number=Plur	12	appos	_	_
+34	identificativi	identificativo	ADJ	A	Gender=Masc|Number=Plur	33	amod	_	_
+35-36	della	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	città	città	NOUN	S	Gender=Fem	33	nmod	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	33	punct	_	_
+39	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+40	spinto	spingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+41	a	a	ADP	E	_	42	mark	_	_
+42	sfruttare	sfruttare	VERB	V	VerbForm=Inf	40	xcomp	_	_
+43	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	44	det	_	SpaceAfter=No
+44	area	area	NOUN	S	Gender=Fem|Number=Sing	42	obj	_	_
+45	a	a	ADP	E	_	46	case	_	_
+46	scopo	scopo	NOUN	S	Gender=Masc|Number=Sing	42	obl	_	_
+47	turistico	turistico	ADJ	A	Gender=Masc|Number=Sing	46	amod	_	SpaceAfter=No
+48	.	.	PUNCT	FS	_	40	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CorpusPaisà (corpusitaliano.it)
+# sent_id = cxn_48_example_4_1
+# text = Ciao, sono Marìca, ho un amore spasmodico per i libri, e il rapporto spesso conflittuale con la lettura e la scrittura mi hanno spinto a fare sempre più uso dei dizionari e delle enciclopedie.
+1	Ciao	ciao	INTJ	I	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	Marìca	Marìca	PROPN	SP	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	amore	amore	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	spasmodico	spasmodico	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	libri	libro	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	27	punct	_	_
+14	e	e	CCONJ	CC	_	27	cc	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+17	spesso	spesso	ADV	B	_	18	advmod	_	_
+18	conflittuale	conflittuale	ADJ	A	Number=Sing	16	amod	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	lettura	lettura	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	scrittura	scrittura	NOUN	S	Gender=Fem|Number=Sing	21	conj	_	_
+25	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	27	obj	_	Clitic=Yes
+26	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	spinto	spingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+28	a	a	ADP	E	_	29	mark	_	_
+29	fare	fare	VERB	V	VerbForm=Inf	27	xcomp	_	_
+30	sempre	sempre	ADV	B	_	31	advmod	_	_
+31	più	più	ADV	B	_	32	advmod	_	_
+32	uso	uso	NOUN	S	Gender=Masc|Number=Sing	29	obj	_	_
+33-34	dei	_	_	_	_	_	_	_	_
+33	di	di	ADP	E	_	35	case	_	_
+34	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
+35	dizionari	dizionario	NOUN	S	Gender=Masc|Number=Plur	32	nmod	_	_
+36	e	e	CCONJ	CC	_	39	cc	_	_
+37-38	delle	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+39	enciclopedie	enciclopedia	NOUN	S	Gender=Fem|Number=Plur	35	conj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CorpusPaisà (corpusitaliano.it)
+# sent_id = cxn_48_example_5_1
+# text = Le caratteristiche del Circuito di Singapore hanno spinto a dare all'ala anteriore un aspetto più arrotondato.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	caratteristiche	caratteristica	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Circuito	Circuito	PROPN	SP	_	2	nmod	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Singapore	Singapore	PROPN	SP	_	5	nmod	_	_
+8	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	spinto	spingere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	dare	dare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+12-13	all'	_	_	_	_	_	_	_	SpaceAfter=No
+12	a	a	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	ala	ala	NOUN	S	Gender=Fem|Number=Sing	11	iobj	_	_
+15	anteriore	anteriore	ADJ	A	Number=Sing	14	amod	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+18	più	più	ADV	B	_	19	advmod	_	_
+19	arrotondato	arrotondato	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	9	punct	_	SpaceAfter=No

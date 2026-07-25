@@ -1,0 +1,189 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac Small
+# sent_id = cxn_117_example_1_1
+# text = In Deuteronomio 10,17 Jahve è chiamato "il Signore dei signori".
+1	In	in	ADP	E	_	2	case	_	_
+2	Deuteronomio	Deuteronomio	PROPN	SP	_	6	obl	_	_
+3	10,17	10,17	NUM	N	NumType=Card	2	nummod	_	_
+4	Jahve	Jahve	PROPN	SP	_	6	nsubj:pass	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Signore	signore	NOUN	S	Gender=Masc|Number=Sing	6	xcomp	_	_
+10-11	dei	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	signori	signore	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac Small
+# sent_id = cxn_117_example_2_1
+# text = perché il Signore vostro Dio è il Dio degli dei, il Signore dei signori, il Dio grande, forte e terribile, che non usa parzialità e non accetta regali, rende giustizia all'orfano e alla vedova, ama il forestiero e gli dà pane e vestito.
+1	perché	perché	SCONJ	CS	_	8	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Signore	signore	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+4	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+5	Dio	Dio	PROPN	SP	_	3	nmod	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	SpacesAfter=
+8	Dio	dio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+9-10	degli	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	dei	dio	NOUN	E	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Signore	signore	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	signori	signore	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Dio	dio	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+21	grande	grande	ADJ	A	Number=Sing	20	amod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	forte	forte	ADJ	A	Number=Sing	21	conj	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	terribile	terribile	ADJ	A	Number=Sing	21	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	20	punct	_	_
+27	che	che	PRON	PR	PronType=Rel	29	nsubj	_	_
+28	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+29	usa	usare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	acl:relcl	_	_
+30	parzialità	parzialità	NOUN	S	Gender=Fem	29	obj	_	_
+31	e	e	CCONJ	CC	_	33	cc	_	_
+32	non	non	ADV	BN	PronType=Neg	33	advmod	_	_
+33	accetta	accettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	_
+34	regali	regalo	NOUN	S	Gender=Masc|Number=Plur	33	obj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	36	punct	_	_
+36	rende	rendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	_
+37	giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	_
+38-39	all'	_	_	_	_	_	_	_	SpaceAfter=No
+38	a	a	ADP	E	_	40	case	_	_
+39	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	40	det	_	_
+40	orfano	orfano	NOUN	S	Gender=Masc|Number=Sing	36	iobj	_	_
+41	e	e	CCONJ	CC	_	44	cc	_	_
+42-43	alla	_	_	_	_	_	_	_	_
+42	a	a	ADP	E	_	44	case	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	vedova	vedova	NOUN	S	Gender=Fem|Number=Sing	40	conj	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	46	punct	_	_
+46	ama	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	_
+47	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	48	det	_	_
+48	forestiero	forestiero	NOUN	S	Gender=Masc|Number=Sing	46	obj	_	_
+49	e	e	CCONJ	CC	_	51	cc	_	_
+50	gli	gli	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	51	iobj	_	Clitic=Yes
+51	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	_
+52	pane	pane	NOUN	S	Gender=Masc|Number=Sing	51	obj	_	_
+53	e	e	CCONJ	CC	_	54	cc	_	_
+54	vestito	vestito	NOUN	S	Gender=Masc|Number=Sing	52	conj	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	8	punct	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac Small
+# sent_id = cxn_117_example_3_1
+# text = Ritornato ad essere il mitico Re dei Re, Ardashir vi costruisce il suo immenso palazzo reale.
+1	Ritornato	ritornare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	_
+2	ad	a	ADP	E	_	6	mark	_	_
+3	essere	essere	AUX	VA	VerbForm=Inf	6	cop	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	mitico	mitico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	Re	re	NOUN	S	Gender=Masc	1	xcomp	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	Re	re	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	Ardashir	Ardashir	PROPN	SP	_	13	nsubj	_	_
+12	vi	vi	PRON	PC	Number=Plur|Person=2|PronType=Prs	13	obl	_	Clitic=Yes
+13	costruisce	costruire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+15	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+16	immenso	immenso	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+17	palazzo	palazzo	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+18	reale	reale	ADJ	A	Number=Sing	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	13	punct	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac Complete
+# sent_id = cxn_117_example_4_1
+# text = Urge una nuova creatività anzitutto nella nostra cultura politica e quindi nelle sue forme e nelle sue strategie.
+# tags = CONTEXT
+1	Urge	urgere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	creatività	creatività	NOUN	S	Gender=Fem	1	obj	_	_
+5	anzitutto	anzitutto	ADV	B	_	9	advmod	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+10	politica	politico	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	e	e	CCONJ	CC	_	16	cc	_	_
+12	quindi	quindi	ADV	B	_	16	advmod	_	_
+13-14	nelle	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	16	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	forme	forma	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+17	e	e	CCONJ	CC	_	21	cc	_	_
+18-19	nelle	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	21	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+20	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	strategie	strategia	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# source = ItWac Complete
+# sent_id = cxn_117_example_4_2
+# text = È questo il nodo dei nodi che la sinistra deve sciogliere.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	SpacesAfter=
+4	nodo	nodo	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	nodi	nodo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpacesAfter=
+8	che	che	PRON	PR	PronType=Rel	12	obj	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+11	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	sciogliere	sciogliere	VERB	V	VerbForm=Inf	4	acl:relcl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac Complete
+# sent_id = cxn_117_example_5_1
+# text = Il non essere: il mistero dei misteri, l'ignoto degli ignoti
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	essere	essere	AUX	VA	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	6	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mistero	mistero	NOUN	S	Gender=Masc|Number=Sing	3	parataxis	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	misteri	mistero	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	ignoto	ignoto	NOUN	S	Gender=Masc|Number=Sing	3	parataxis	_	_
+13-14	degli	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	ignoti	ignoto	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_

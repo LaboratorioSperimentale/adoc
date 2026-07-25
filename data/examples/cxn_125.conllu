@@ -1,0 +1,73 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_125_example_1_1
+# text = quasi quasi vengo a pranzo con voi.
+1	quasi	quasi	ADV	B	_	3	advmod	_	_
+2	quasi	quasi	ADV	B	_	3	advmod	_	_
+3	vengo	venire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_125_example_2_1
+# text = quasi quasi faccio il tifo per lui.
+1	quasi	quasi	ADV	B	_	3	advmod	_	_
+2	quasi	quasi	ADV	B	_	3	advmod	_	_
+3	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	tifo	tifo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_125_example_3_1
+# text = quasi quasi rimpiango un volo di elicottero.
+1	quasi	quasi	ADV	B	_	3	advmod	_	_
+2	quasi	quasi	ADV	B	_	3	advmod	_	_
+3	rimpiango	rimpiangere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	volo	volo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	elicottero	elicottero	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_125_example_4_1
+# text = Allora quasi quasi darei un'occhiata.
+1	Allora	allora	ADV	B	_	4	advmod	_	_
+2	quasi	quasi	ADV	B	_	4	advmod	_	_
+3	quasi	quasi	ADV	B	_	4	advmod	_	_
+4	darei	dare	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	occhiata	occhiata	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itTenTen20
+# sent_id = cxn_125_example_5_1
+# text = Se procede bene io quasi quasi accetterei.
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	procede	procedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+3	bene	bene	ADV	B	_	2	advmod	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	quasi	quasi	ADV	B	_	7	advmod	_	_
+6	quasi	quasi	ADV	B	_	7	advmod	_	_
+7	accetterei	accettare	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	SpaceAfter=No

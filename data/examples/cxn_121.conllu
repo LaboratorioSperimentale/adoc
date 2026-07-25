@@ -1,0 +1,247 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac Complete
+# sent_id = cxn_121_example_1_1
+# text = ... come ?
+# tags = DROP
+1	...	...	PUNCT	FF	_	2	punct	_	_
+2	come	come	ADV	B	_	0	root	_	_
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# source = ItWac Complete
+# sent_id = cxn_121_example_1_2
+# text = Ma con gli stessi missili del carro armatone !
+# tags = DROP
+1	Ma	ma	CCONJ	CC	_	5	discourse	_	_
+2	con	con	ADP	E	_	5	case	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	stessi	stesso	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+5	missili	missile	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	carro	carro	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	armatone	armatone	NOUN	S	Gender=Masc|Number=Sing	8	compound	_	_
+10	!	!	PUNCT	FS	_	5	punct	_	_
+
+# source = ItWac Complete
+# sent_id = cxn_121_example_1_3
+# text = Anzi il carro armato è dotato di grossi stinger... ma guarda un po' te che coincideza... è la stessa arma (tralasciando le dimensioni) che gli usa elargirono ai talebani nella guerra
+1	Anzi	anzi	ADV	B	_	6	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	carro	carro	NOUN	S	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+4	armato	armato	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	dotato	dotare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	grossi	grosso	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+9	stinger	stinger	NOUN	S	Gender=Masc	6	obl	_	SpaceAfter=No
+10	...	...	PUNCT	FF	_	12	punct	_	_
+11	ma	ma	CCONJ	CC	_	12	cc	_	_
+12	guarda	guardare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	po'	poco	ADV	B	_	12	advmod	_	_
+15	te	te	PRON	PC	Number=Sing|Person=2|PronType=Prs	12	nsubj	_	Clitic=Yes
+16	che	che	PRON	PR	PronType=Rel	17	det	_	_
+17	coincideza	coincidenza	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+18	...	...	PUNCT	FF	_	12	punct	_	_
+19	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+22	arma	arma	NOUN	S	Gender=Fem|Number=Sing	6	parataxis	_	_
+23	(	(	PUNCT	FB	_	24	punct	_	SpaceAfter=No
+24	tralasciando	tralasciare	VERB	V	VerbForm=Ger	22	advcl	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	_
+26	dimensioni	dimensione	NOUN	S	Gender=Fem|Number=Plur	24	obj	_	SpaceAfter=No
+27	)	)	PUNCT	FB	_	24	punct	_	_
+28	che	che	PRON	PR	PronType=Rel	31	obj	_	_
+29	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	30	det	_	_
+30	usa	usa	NOUN	S	Gender=Fem|Number=Sing	31	nsubj	_	_
+31	elargirono	elargire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	22	acl:relcl	_	_
+32-33	ai	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	talebani	talebano	NOUN	S	Gender=Masc|Number=Plur	31	iobj	_	_
+35-36	nella	_	_	_	_	_	_	_	_
+35	in	in	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	guerra	guerra	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Repubblica
+# sent_id = cxn_121_example_2_1_split1
+# text = Fatta da tutti i terrestri che hanno voglia e capacitàdi scrivere le cose che sanno e diffonderle a tutti .
+# tags = DROP
+1	Fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	da	da	ADP	E	_	5	case	_	_
+3	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	5	det:predet	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	terrestri	terrestre	NOUN	S	Gender=Masc|Number=Plur	1	obl:agent	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	capacità	capacità	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+11	di	di	ADP	E	_	12	mark	_	_
+12	scrivere	scrivere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+15	che	che	PRON	PR	PronType=Rel	16	obj	_	_
+16	sanno	sapere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18-19	diffonderle	_	_	_	_	_	_	_	_
+18	diffonder	diffondere	VERB	V	VerbForm=Inf	12	conj	_	_
+19	le	le	PRON	PC	Gender=Fem|Number=Plur|Person=3|PronType=Prs	18	obj	_	Clitic=Yes
+20	a	a	ADP	E	_	21	case	_	_
+21	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	18	obl	_	_
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Repubblica
+# sent_id = cxn_121_example_2_1_split2_cxn_121_example_2_2_3
+# text = Sentite un po': per esempio nasce a Palermo in un quartiere povero, La Kalsa, dove vivono tra gli altri Giovanni
+1	Sentite	sentire	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	po'	poco	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	:	:	PUNCT	FF	_	_	_	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+7	nasce	nascere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Palermo	Palermo	PROPN	SP	_	7	obl	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	quartiere	quartiere	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+13	povero	povero	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FC	_	16	punct	_	_
+15	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Kalsa	Kalsa	PROPN	SP	_	12	appos	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	dove	dove	ADV	B	_	19	advmod	_	_
+19	vivono	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+20	tra	tra	ADP	E	_	22	case	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	19	obl	_	_
+23	Giovanni	Giovanni	PROPN	SP	_	19	nsubj	_	SpaceAfter=No
+
+# source = ItWac Complete
+# sent_id = cxn_121_example_3_2
+# text = Cosa devo sentire !! Santa Maria di Leuca .
+# tags = DROP
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
+2	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	sentire	sentire	VERB	V	VerbForm=Inf	0	root	_	_
+4	!!	!	PUNCT	FS	_	3	punct	_	_
+5	Santa	Santa	PROPN	SP	_	3	parataxis	_	_
+6	Maria	Maria	PROPN	SP	_	5	flat:name	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Leuca	Leuca	PROPN	SP	_	5	nmod	_	_
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# source = ItWac Complete
+# sent_id = cxn_121_example_3_4
+# text = Ah... Santa Maria di... Vedi un po' che ho confuso un capo con un altro?
+1	Ah	ah	INTJ	I	_	7	discourse	_	SpaceAfter=No
+2	...	...	PUNCT	FF	_	1	punct	_	_
+3	Santa	Santa	PROPN	SP	_	7	parataxis	_	_
+4	Maria	Maria	PROPN	SP	_	3	flat:name	_	_
+5	di	di	ADP	E	_	3	flat:name	_	SpaceAfter=No
+6	...	...	PUNCT	FF	_	3	punct	_	_
+7	Vedi	vedere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	po'	poco	ADV	B	_	7	advmod	_	_
+10	che	che	SCONJ	CS	_	12	mark	_	_
+11	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	confuso	confondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	ccomp	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	capo	capo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	con	con	ADP	E	_	17	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	obl	_	SpaceAfter=No
+18	?	?	PUNCT	FS	_	7	punct	_	_
+
+# source = ItWac Complete
+# sent_id = cxn_121_example_3_8
+# text = E di chi è , Santa Maria di Leuca ?
+# tags = DROP
+1	E	e	CCONJ	CC	_	4	discourse	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	chi	chi	PRON	PQ	PronType=Int	4	obl	_	_
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	Santa	Santa	PROPN	SP	_	4	nsubj	_	_
+7	Maria	Maria	PROPN	SP	_	6	flat:name	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Leuca	Leuca	PROPN	SP	_	6	nmod	_	_
+10	?	?	PUNCT	FS	_	4	punct	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac Complete
+# sent_id = cxn_121_example_4_1
+# text = Quando occorre, di fronte alla realtà, e lasciare un po' che faccia lei.
+1	Quando	quando	SCONJ	CS	_	2	mark	_	_
+2	occorre	occorrere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	fronte	fronte	NOUN	S	Number=Sing	2	obl	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	realtà	realtà	NOUN	S	Gender=Fem	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	lasciare	lasciare	VERB	V	VerbForm=Inf	0	root	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	po'	poco	ADV	B	_	11	advmod	_	_
+14	che	che	SCONJ	CS	_	15	mark	_	_
+15	faccia	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+16	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	15	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	11	punct	_	_
+
+# source = ItWac Complete
+# sent_id = cxn_121_example_4_2
+# text = La prima inquadratura del film è bellissima e sembra già contenerne tutto lo spirito .
+# tags = DROP
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	inquadratura	inquadratura	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	film	film	NOUN	S	Gender=Masc	3	nmod	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	bellissima	bello	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	0	root	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+11	già	già	ADV	B	_	10	advmod	_	_
+12-13	contenerne	_	_	_	_	_	_	_	_
+12	contener	contenere	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	ne	ne	PRON	PC	PronType=Prs	12	obl	_	Clitic=Yes
+14	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	16	det:predet	_	_
+15	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	spirito	spirito	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+17	.	.	PUNCT	FS	_	8	punct	_	_
+
+# source = Repubblica
+# sent_id = cxn_121_example_5_2
+# text = Trova un po' tu il modo di cavartelala .
+# tags = 2CLITICS
+1	Trova	trovare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	po'	poco	ADV	B	_	1	advmod	_	_
+4	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	1	nsubj	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	modo	modo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8-9	cavartela	_	_	_	_	_	_	_	SpaceAfter=No
+8	cavar	cavartela	VERB	V	VerbForm=Inf	6	acl	_	_
+9	te	te	PRON	PC	Gender=Fem|Number=Sing	6	expl	_	Clitic=Yes
+10	la	la	PRON	PC	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obl	_	Clitic=Yes
+11	.	.	PUNCT	FS	_	1	punct	_	_

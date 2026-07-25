@@ -1,0 +1,142 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = www.corpusitaliano.it
+# sent_id = cxn_142_example_1_1
+# text = Ieri, in occasione dei già documentati provini della seconda edizione di X Factor, abbiamo chiacchierato con Francesco Facchinetti per capire che aria tira nei nuovi casting e in questo suo periodo professionale fortunato e ricco di impegni.
+1	Ieri	ieri	ADV	B	_	19	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	9	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+7	già	già	ADV	B	_	8	advmod	_	_
+8	documentati	documentato	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+9	provini	provino	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	13	amod	_	_
+13	edizione	edizione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	X	X	PROPN	SP	_	13	nmod	_	_
+16	Factor	Factor	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	4	punct	_	_
+18	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	chiacchierato	chiacchierare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+20	con	con	ADP	E	_	21	case	_	_
+21	Francesco	Francesco	PROPN	SP	_	19	obl	_	_
+22	Facchinetti	Facchinetti	PROPN	SP	_	21	flat:name	_	_
+23	per	per	ADP	E	_	24	mark	_	_
+24	capire	capire	VERB	V	VerbForm=Inf	19	advcl	_	_
+25	che	che	DET	CS	_	26	det	_	_
+26	aria	aria	NOUN	S	Gender=Fem|Number=Sing	27	nsubj	_	_
+27	tira	tirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	ccomp	_	_
+28-29	nei	_	_	_	_	_	_	_	_
+28	in	in	ADP	E	_	31	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+30	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	31	amod	_	_
+31	casting	casting	NOUN	S	Gender=Masc	27	obl	_	_
+32	e	e	CCONJ	CC	_	36	cc	_	_
+33	in	in	ADP	E	_	36	case	_	_
+34	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	36	det	_	_
+35	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	36	det:poss	_	_
+36	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	31	conj	_	_
+37	professionale	professionale	ADJ	A	Number=Sing	36	amod	_	_
+38	fortunato	fortunato	ADJ	A	Gender=Masc|Number=Sing	36	amod	_	_
+39	e	e	CCONJ	CC	_	40	cc	_	_
+40	ricco	ricco	ADJ	A	Gender=Masc|Number=Sing	38	conj	_	_
+41	di	di	ADP	E	_	42	case	_	_
+42	impegni	impegno	NOUN	S	Gender=Masc|Number=Plur	40	obl	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	19	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = corpora.ficlit.unibo.it/CODIS/
+# sent_id = cxn_142_example_2_1
+# text = "Come crede che si sentano?
+# tags = DROP
+1	"	"	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Come	come	ADV	B	_	3	advmod	_	_
+3	crede	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	si	si	PRON	PC	Person=3|PronType=Prs	6	expl	_	Clitic=Yes
+6	sentano	sentire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	_
+
+# source = corpora.ficlit.unibo.it/CODIS/
+# sent_id = cxn_142_example_2_2
+# text = In Albania , e tutti sanno che aria tira lì, ci sono ragazzi che appartengono a corpi di cui si chiede lo scioglimento.
+1	In	in	ADP	E	_	2	case	_	_
+2	Albania	Albania	PROPN	SP	_	13	obl	_	_
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	nsubj	_	_
+6	sanno	sapere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis	_	_
+7	che	che	DET	CS	_	8	det	_	_
+8	aria	aria	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+9	tira	tirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+10	lì	lì	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	ci	ci	PRON	PC	PronType=Prs	13	expl	_	Clitic=Yes
+13	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	appartengono	appartenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	corpi	corpo	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	cui	cui	PRON	PR	PronType=Rel	22	obl	_	_
+21	si	si	PRON	PC	Person=3|PronType=Prs	22	expl:impers	_	Clitic=Yes
+22	chiede	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+23	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	scioglimento	scioglimento	NOUN	S	Gender=Masc|Number=Sing	22	nsubj:pass	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	13	punct	_	_
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = corpora.ficlit.unibo.it/CODIS
+# sent_id = cxn_142_example_3_1
+# text = "Ma che succede", continuò tra sé e sé il nostro eroe, rimasto solo, "ma che aria tira da queste parti e che cosa significa questa nuova piega della faccenda?"
+1	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+2	Ma	ma	CCONJ	CC	_	4	cc	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	succede	succedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	"	"	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	continuò	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+8	tra	tra	ADP	E	_	9	case	_	_
+9	sé	sé	PRON	PE	Number=Sing|Person=3|PronType=Prs	7	obl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	sé	sé	PRON	PE	Person=3|PronType=Prs	9	conj	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	eroe	eroe	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	rimasto	rimanere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl	_	_
+17	solo	solo	ADJ	A	Gender=Masc|Number=Sing	16	xcomp	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	7	punct	_	_
+19	"	"	PUNCT	FB	_	23	punct	_	SpaceAfter=No
+20	ma	ma	CCONJ	CC	_	23	cc	_	_
+21	che	che	DET	DQ	PronType=Int	22	det	_	_
+22	aria	aria	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	_
+23	tira	tirare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	26	det	_	_
+26	parti	parte	NOUN	S	Gender=Fem|Number=Plur	23	obl	_	_
+27	e	e	CCONJ	CC	_	30	cc	_	_
+28	che	che	DET	DQ	PronType=Int	29	det	_	_
+29	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	_
+30	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	conj	_	_
+31	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	33	det	_	_
+32	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	33	amod	_	_
+33	piega	piega	NOUN	S	Gender=Fem|Number=Sing	30	nsubj	_	_
+34-35	della	_	_	_	_	_	_	_	_
+34	di	di	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	faccenda	faccenda	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+37	?	?	PUNCT	FS	_	23	punct	_	SpaceAfter=No
+38	"	"	PUNCT	FB	_	23	punct	_	SpaceAfter=No

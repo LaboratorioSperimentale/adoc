@@ -1,0 +1,211 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Dizionario Internazionale https://dizionario.internazionale.it/parola/morire-dalla-voglia
+# sent_id = cxn_57_example_1_1
+# text = Muoio dalla voglia di uscire.
+1	Muoio	muoiare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	dalla	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	uscire	uscire	VERB	V	VerbForm=Inf	4	acl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus italiano Paisà https://www.corpusitaliano.it/static/documents/sources/770/7708169
+# sent_id = cxn_57_example_2_1
+# text = Entrambi poi, sembrano morire dalla voglia di prendere a pretesto i divieti imposti in un altro stato per introdurre ulteriori proibizioni nel proprio.
+1	Entrambi	entrambi	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	nsubj	_	_
+2	poi	poi	ADV	B	_	4	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	sembrano	sembrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	morire	morire	VERB	V	VerbForm=Inf	4	xcomp	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	prendere	prendere	VERB	V	VerbForm=Inf	8	acl	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	pretesto	pretesto	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	divieti	divieto	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+15	imposti	imporre	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	acl	_	_
+16	in	in	ADP	E	_	19	case	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	altro	altro	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	_
+19	stato	stato	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	introdurre	introdurre	VERB	V	VerbForm=Inf	15	advcl	_	_
+22	ulteriori	ulteriore	ADJ	A	Number=Plur	23	amod	_	_
+23	proibizioni	proibizione	NOUN	S	Gender=Fem|Number=Plur	21	obj	_	_
+24-25	nel	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	proprio	proprio	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus italiano Paisà https://www.corpusitaliano.it/static/documents/sources/740/7406114
+# sent_id = cxn_57_example_3_1
+# text = A poco più di un mese dall'uscita americana, il cazzutissimo The Expendables ci regala oggi un lungo ed inedito spot tv, talmente testosteronico da farci morire dalla voglia di vederlo il prima possibile!
+1	A	a	ADP	E	_	6	case	_	_
+2	poco	poco	ADV	B	_	6	advmod	_	_
+3	più	più	ADV	B	PronType=Ind	2	fixed	_	_
+4	di	di	ADP	E	_	3	fixed	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mese	mese	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+7-8	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+7	da	da	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	uscita	uscita	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	americana	americano	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	cazzutissimo	cazzuto	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	14	amod	_	_
+14	The	The	PROPN	SP	_	17	nsubj	_	_
+15	Expendables	Expendables	PROPN	SP	_	14	flat:name	_	_
+16	ci	ci	PRON	PC	Number=Plur|Person=1|PronType=Prs	17	iobj	_	Clitic=Yes
+17	regala	regalare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	oggi	oggi	ADV	B	_	17	advmod	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+20	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+21	ed	e	CCONJ	CC	_	22	cc	_	_
+22	inedito	inedito	ADJ	A	Gender=Masc|Number=Sing	20	conj	_	_
+23	spot	spot	NOUN	S	Gender=Masc	17	obj	_	_
+24	tv	tv	NOUN	S	Gender=Fem	23	compound	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	27	punct	_	_
+26	talmente	talmente	ADV	B	_	27	advmod	_	_
+27	testosteronico	testosteronico	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+28	da	da	ADP	E	_	29	mark	_	_
+29-30	farci	_	_	_	_	_	_	_	_
+29	far	fare	VERB	V	VerbForm=Inf	27	acl	_	_
+30	ci	ci	PRON	PC	Number=Plur|Person=1|PronType=Prs	29	obj	_	Clitic=Yes
+31	morire	morire	VERB	V	VerbForm=Inf	29	ccomp	_	_
+32-33	dalla	_	_	_	_	_	_	_	_
+32	da	da	ADP	E	_	34	case	_	_
+33	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	31	obl	_	_
+35	di	di	ADP	E	_	36	mark	_	_
+36-37	vederlo	_	_	_	_	_	_	_	_
+36	veder	vedere	VERB	V	VerbForm=Inf	34	acl	_	_
+37	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	obj	_	Clitic=Yes
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	prima	prima	ADV	B	_	36	advmod	_	_
+40	possibile	possibile	ADJ	A	Number=Sing	39	amod	_	SpaceAfter=No
+41	!	!	PUNCT	FS	_	17	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus italiano Paisà https://www.corpusitaliano.it/static/documents/sources/781/7815988
+# sent_id = cxn_57_example_4_1
+# text = Ma come fare se non si ha tempo a disposizione per frequentare un master o un corso di formazione, oppure non si muore dalla voglia di tornare tra i banchi di scuola?
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	come	come	ADV	B	_	3	advmod	_	_
+3	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+4	se	se	SCONJ	CS	_	7	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	si	si	PRON	PC	Person=3|PronType=Prs	7	expl:impers	_	Clitic=Yes
+7	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+8	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	disposizione	disposizione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	frequentare	frequentare	VERB	V	VerbForm=Inf	8	acl	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	master	master	NOUN	S	Gender=Masc	12	obj	_	_
+15	o	o	CCONJ	CC	_	17	cc	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	corso	corso	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	formazione	formazione	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	24	punct	_	_
+21	oppure	oppure	CCONJ	CC	_	24	cc	_	_
+22	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+23	si	si	PRON	PC	Person=3|PronType=Prs	24	expl:impers	_	Clitic=Yes
+24	muore	morire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+25-26	dalla	_	_	_	_	_	_	_	_
+25	da	da	ADP	E	_	27	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+28	di	di	ADP	E	_	29	mark	_	_
+29	tornare	tornare	VERB	V	VerbForm=Inf	27	acl	_	_
+30	tra	tra	ADP	E	_	32	case	_	_
+31	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+32	banchi	banco	NOUN	S	Gender=Masc|Number=Plur	29	obl	_	_
+33	di	di	ADP	E	_	34	case	_	_
+34	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+35	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus italiano Paisà https://www.corpusitaliano.it/static/documents/sources/780/7801691
+# sent_id = cxn_57_example_5_1
+# text = Se proprio morite dalla voglia di provare qualcosa, resistete fino all'orario di chiusura, e concedetevi uno splendido pezzone di torta al bar (non mi ricordo come si chiama) che si trova all' ingresso (guardando l'uscita, sulla sinistra).
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	proprio	proprio	ADV	B	_	3	advmod	_	_
+3	morite	morire	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+4-5	dalla	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	provare	provare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	8	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	resistete	resistere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	fino	fino	ADV	B	ExtPos=ADP	15	case	_	_
+13-14	all'	_	_	_	_	_	_	_	SpaceAfter=No
+13	a	a	ADP	E	_	12	fixed	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	orario	orario	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	chiusura	chiusura	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20-21	concedetevi	_	_	_	_	_	_	_	_
+20	concedete	concedere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	conj	_	_
+21	vi	vi	PRON	PC	Number=Plur|Person=2|PronType=Prs	20	iobj	_	Clitic=Yes
+22	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	splendido	splendido	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	pezzone	pezzone	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	torta	torta	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+27-28	al	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	bar	bar	NOUN	S	Gender=Masc	20	obl	_	_
+30	(	(	PUNCT	FB	_	33	punct	_	SpaceAfter=No
+31	non	non	ADV	BN	PronType=Neg	33	advmod	_	_
+32	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	33	obj	_	Clitic=Yes
+33	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	parataxis	_	_
+34	come	come	SCONJ	CS	_	36	mark	_	_
+35	si	si	PRON	PC	Person=3|PronType=Prs	36	expl	_	Clitic=Yes
+36	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	ccomp	_	SpaceAfter=No
+37	)	)	PUNCT	FB	_	33	punct	_	_
+38	che	che	PRON	PR	PronType=Rel	40	nsubj	_	_
+39	si	si	PRON	PC	Person=3|PronType=Prs	40	expl	_	Clitic=Yes
+40	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+41-42	all'	_	_	_	_	_	_	_	_
+41	a	a	ADP	E	_	43	case	_	_
+42	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	43	det	_	_
+43	ingresso	ingresso	NOUN	S	Gender=Masc|Number=Sing	40	obl	_	_
+44	(	(	PUNCT	FB	_	45	punct	_	SpaceAfter=No
+45	guardando	guardare	VERB	V	VerbForm=Ger	40	advcl	_	_
+46	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	47	det	_	SpaceAfter=No
+47	uscita	uscita	NOUN	S	Gender=Fem|Number=Sing	45	obj	_	SpaceAfter=No
+48	,	,	PUNCT	FF	_	51	punct	_	_
+49-50	sulla	_	_	_	_	_	_	_	_
+49	su	su	ADP	E	_	51	case	_	_
+50	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
+51	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	45	obl	_	SpaceAfter=No
+52	)	)	PUNCT	FB	_	45	punct	_	SpaceAfter=No
+53	.	.	PUNCT	FS	_	11	punct	_	SpaceAfter=No

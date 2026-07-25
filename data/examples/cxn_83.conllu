@@ -1,0 +1,23 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_83_example_1_1
+# text = prendere sonno
+1	prendere	prendere	VERB	V	VerbForm=Inf	0	root	_	_
+2	sonno	sonno	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_83_example_2_1
+# text = prendere paura
+1	prendere	prendere	VERB	V	VerbForm=Inf	0	root	_	_
+2	paura	paura	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_83_example_3_1
+# text = prendere freddo
+1	prendere	prendere	VERB	V	VerbForm=Inf	0	root	_	_
+2	freddo	freddo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No

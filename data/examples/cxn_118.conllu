@@ -1,0 +1,129 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itTenTen20
+# sent_id = cxn_118_example_1_1
+# text = sport ne faccio, bere bevo, sono pure magra.
+1	sport	sport	NOUN	S	Gender=Masc	3	dislocated	_	_
+2	ne	ne	PRON	PC	PronType=Prs	3	obj	_	Clitic=Yes
+3	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	bere	bere	VERB	V	VerbForm=Inf	6	dislocated	_	_
+6	bevo	bevo	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	pure	pure	ADV	B	_	10	advmod	_	_
+10	magra	magro	ADJ	A	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itTenTen20
+# sent_id = cxn_118_example_2_1
+# text = Se serve correre corro, ma di solito preferisco la sfida consumi ed un andatura tranquilla per godermi il panorama
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	serve	servire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+3	correre	correre	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	corro	corro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	9	punct	_	_
+6	ma	ma	CCONJ	CC	_	9	cc	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	solito	solito	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+9	preferisco	preferire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	sfida	sfida	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	consumi	consumo	NOUN	S	Gender=Masc|Number=Plur	11	compound	_	_
+13	ed	e	CCONJ	CC	_	15	cc	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	andatura	andatura	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+16	tranquilla	tranquillo	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18-19	godermi	_	_	_	_	_	_	_	_
+18	goder	godere	VERB	V	VerbForm=Inf	15	acl	_	_
+19	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	18	expl	_	Clitic=Yes
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	panorama	panorama	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itTenTen20
+# sent_id = cxn_118_example_3_1
+# text = Se c'è da correre corro, se c'è da andare piano vado piano.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	c'	ci	PRON	PC	PronType=Prs	3	expl	_	Clitic=Yes|SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+4	da	da	ADP	E	_	5	mark	_	_
+5	correre	correre	VERB	V	VerbForm=Inf	3	csubj	_	_
+6	corro	corro	VERB	V	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	14	punct	_	_
+8	se	se	SCONJ	CS	_	10	mark	_	_
+9	c'	ci	PRON	PC	PronType=Prs	10	expl	_	Clitic=Yes|SpaceAfter=No
+10	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+11	da	da	ADP	E	_	12	mark	_	_
+12	andare	andare	VERB	V	VerbForm=Inf	10	csubj	_	_
+13	piano	piano	ADV	B	_	12	advmod	_	_
+14	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
+15	piano	piano	X	X	_	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# source = itTenTen20
+# sent_id = cxn_118_example_3_2
+# text = non mi preoccupo mai di dover consumare poco, guido e basta.
+# tags = CONTEXT
+1	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	3	expl	_	Clitic=Yes
+3	preoccupo	preoccupare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	mai	mai	ADV	B	_	3	advmod	_	_
+5	di	di	ADP	E	_	7	mark	_	_
+6	dover	dovere	AUX	VM	VerbForm=Inf	7	aux	_	_
+7	consumare	consumare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+8	poco	poco	ADV	B	_	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	guido	guidare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itWAC
+# sent_id = cxn_118_example_4_1
+# text = per scrivere scrivo, ma nn riesco a viverci
+1	per	per	ADP	E	_	2	mark	_	_
+2	scrivere	scrivere	VERB	V	VerbForm=Inf	3	dislocated	_	_
+3	scrivo	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	ma	ma	CCONJ	CC	_	7	cc	_	_
+6	nn	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	riesco	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	a	a	ADP	E	_	9	mark	_	_
+9-10	viverci	_	_	_	_	_	_	_	SpaceAfter=No
+9	viver	vivere	VERB	V	VerbForm=Inf	7	xcomp	_	_
+10	ci	ci	PRON	PC	Number=Plur|Person=1|PronType=Prs	9	obl	_	Clitic=Yes
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itTenTen20
+# sent_id = cxn_118_example_5_1
+# text = Te lo chiedo, perchè dormire dormo , peròa parte i soliti due risvegli notturni...
+1	Te	te	PRON	PC	Number=Sing|Person=2|PronType=Prs	3	iobj	_	Clitic=Yes
+2	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	Clitic=Yes
+3	chiedo	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	perchè	perché	SCONJ	CS	_	7	mark	_	SpacesAfter=
+6	dormire	dormire	VERB	V	VerbForm=Inf	7	dislocated	_	_
+7	dormo	dormare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	SpacesAfter=
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	però	però	ADV	B	_	7	advmod	_	SpaceAfter=No
+10	a	a	ADP	E	_	11	case	_	_
+11	parte	parte	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+13	soliti	solito	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+14	due	due	NUM	N	NumType=Card	15	nummod	_	_
+15	risvegli	risveglio	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+16	notturni	notturno	ADJ	A	_	15	amod	_	SpaceAfter=No
+17	...	...	PUNCT	FS	_	3	punct	_	SpaceAfter=No

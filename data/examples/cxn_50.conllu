@@ -1,0 +1,13 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_50_example_1_1
+# text = Non vedo l'ora di vederti
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	ora	ora	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6-7	vederti	_	_	_	_	_	_	_	SpaceAfter=No
+6	veder	vedere	VERB	V	VerbForm=Inf	4	acl	_	_
+7	ti	ti	PRON	PC	Number=Sing|Person=2|PronType=Prs	6	obj	_	Clitic=Yes

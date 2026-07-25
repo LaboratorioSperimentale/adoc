@@ -1,0 +1,184 @@
+# sent_id = 5_WIKIBalzac-287
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-ISDT/it_isdt-ud-test 5_WIKIBalzac-287
+# text = "L'artista della Comédie Humaine", egli scrisse, "è semi-sommerso dallo storico.
+# status = TO_CHECK
+1	"	"	PUNCT	FB	_	3	punct	3:punct	SpaceAfter=No
+2	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	3:det	SpaceAfter=No
+3	artista	artista	NOUN	S	Number=Sing	17	nsubj	17:nsubj	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	6:case	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	6:det	_
+6	Comédie	Comédie	PROPN	SP	_	3	nmod	3:nmod:di	_
+7	Humaine	Humaine	PROPN	SP	_	6	flat:name	6:flat:name	SpaceAfter=No
+8	"	"	PUNCT	FB	_	3	punct	3:punct	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	3:punct	_
+10	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	11:nsubj	_
+11	scrisse	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	parataxis	0:root	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	11:punct	_
+13	"	"	PUNCT	FB	_	17	punct	17:punct	SpaceAfter=No
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	17:cop	_
+15	semi	semi	ADJ	A	_	17	amod	17:amod	SpaceAfter=No
+16	-	-	PUNCT	FF	_	17	punct	17:punct	SpaceAfter=No
+17	sommerso	sommerso	ADJ	A	Gender=Masc|Number=Sing	0	root	11:ccomp	_
+18-19	dallo	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	20:case	_
+19	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	20:det	_
+20	storico	storico	NOUN	S	Gender=Masc|Number=Sing	17	obl:agent	17:obl:agent:da	SpaceAfter=No
+21	.	.	PUNCT	FS	_	17	punct	17:punct	_
+
+# sent_id = VIT-2589
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-VIT/it_vit-ud-train VIT-2589
+# text = 2) variazioni delle rimanenze dei prodotti in corso di lavorazione, semilavorati, e finiti - in questa voce deve essere indicata la differenza algebrica tra il valore delle rimanenze finali e delle iniziali relative ai prodotti risultanti dalla produzione e a quelli in corso di fabbricazione.
+# status = TO_CHECK
+1	2	2	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+2	)	)	PUNCT	FB	_	1	punct	_	_
+3	variazioni	variazione	NOUN	S	Gender=Fem|Number=Plur	25	obl	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	rimanenze	rimanenza	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	prodotti	prodotto	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	corso	corso	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	lavorazione	lavorazione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	9	punct	_	_
+15	semilavorati	semilavorato	ADJ	A	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	finiti	finito	ADJ	A	Gender=Masc|Number=Plur	9	conj	_	_
+19	-	-	PUNCT	FF	_	3	punct	_	_
+20	in	In	ADP	E	_	22	case	_	_
+21	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
+22	voce	voce	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	_
+23	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+24	essere	essere	AUX	VA	VerbForm=Inf	25	aux:pass	_	_
+25	indicata	indicare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	25	nsubj:pass	_	_
+28	algebrica	algebrico	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+29	tra	tra	ADP	E	_	31	case	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	valore	valore	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+32-33	delle	_	_	_	_	_	_	_	_
+32	di	di	ADP	E	_	34	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	rimanenze	rimanenza	NOUN	S	Gender=Fem|Number=Plur	31	nmod	_	_
+35	finali	finale	ADJ	A	Number=Plur	34	amod	_	_
+36	e	e	CCONJ	CC	_	39	cc	_	_
+37-38	delle	_	_	_	_	_	_	_	_
+37	di	di	ADP	E	_	39	case	_	_
+38	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	39	det	_	_
+39	iniziali	iniziale	ADJ	A	Number=Plur	34	conj	_	_
+40	relative	relativo	ADJ	A	Gender=Fem|Number=Plur	39	amod	_	_
+41-42	ai	_	_	_	_	_	_	_	_
+41	a	a	ADP	E	_	43	case	_	_
+42	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	43	det	_	_
+43	prodotti	prodotto	NOUN	S	Gender=Masc|Number=Plur	40	obl	_	_
+44	risultanti	risultante	VERB	V	Number=Plur	43	advcl	_	_
+45-46	dalla	_	_	_	_	_	_	_	_
+45	da	da	ADP	E	_	47	case	_	_
+46	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	produzione	produzione	NOUN	S	Gender=Fem|Number=Sing	44	obl:agent	_	_
+48	e	e	CCONJ	CC	_	50	cc	_	_
+49	a	a	ADP	E	_	50	case	_	_
+50	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	43	conj	_	_
+51	in	in	ADP	E	_	52	case	_	_
+52	corso	corso	NOUN	S	Gender=Masc|Number=Sing	50	nmod	_	_
+53	di	di	ADP	E	_	54	case	_	_
+54	fabbricazione	fabbricazione	NOUN	S	Gender=Fem|Number=Sing	52	nmod	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	25	punct	_	_
+
+# sent_id = VIT-3857
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-VIT/it_vit-ud-train VIT-3857
+# text = Il secondo, l'ufficio semi direzionale, è una cella di un metro e mezzo per tre per quattro d'altezza, con luci al neon lividissime e altarino computer nell'angolo, al servizio di funzionari piranha.
+# status = TO_CHECK
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	secondo	secondo	ADJ	NO	NumType=Ord	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+6	semi	semi	ADJ	A	_	7	amod	_	_
+7	direzionale	direzionale	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	cella	cella	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	un	uno	NUM	N	Gender=Masc|Number=Sing|NumType=Card	11	nummod	_	_
+14	metro	metro	NOUN	S	Gender=Masc	13	nmod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	mezzo	mezzo	NOUN	S	Gender=Masc	14	conj	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	tre	tre	NUM	N	NumType=Card	13	nummod	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	quattro	quattro	NUM	N	NumType=Card	18	conj	_	_
+21	d'	di	ADP	E	_	22	case	_	SpaceAfter=No
+22	altezza	altezza	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	11	punct	_	_
+24	con	con	ADP	E	_	25	case	_	_
+25	luci	luco	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+26-27	al	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	neon	neon	NOUN	S	Gender=Masc	25	nmod	_	_
+29	lividissime	livido	ADJ	A	Degree=Abs|Gender=Fem|Number=Plur	25	amod	_	_
+30	e	e	CCONJ	CC	_	31	cc	_	_
+31	altarino	altarino	NOUN	S	Gender=Masc|Number=Sing	25	conj	_	_
+32	computer	computer	NOUN	S	Gender=Masc|Number=Sing	31	compound	_	_
+33-34	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+33	in	in	ADP	E	_	35	case	_	_
+34	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	35	det	_	_
+35	angolo	angolo	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	11	punct	_	_
+37-38	al	_	_	_	_	_	_	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	servizio	servizio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	funzionari	funzionari	NOUN	S	Gender=Masc|Number=Plur	39	nmod	_	_
+42	piranha	piranha	NOUN	S	Gender=Masc	41	compound	_	SpaceAfter=No
+43	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = VIT-3960
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-VIT/it_vit-ud-train VIT-3960
+# text = Le faccio un esempio, così, semiserio:
+# status = TO_CHECK
+1	Le	le	PRON	PC	Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	expl	_	Clitic=Yes
+2	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	così	così	ADV	B	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	semiserio	semiserio	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = VIT-8523
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-VIT/it_vit-ud-train VIT-8523
+# text = Pochi, i cittadini di buona volontà, e seminascosti da un ingente presidio di poliziotti e di militari.
+# status = TO_CHECK
+1	Pochi	poco	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	cittadini	cittadino	NOUN	S	Gender=Masc|Number=Plur	1	appos	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	buona	buono	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	volontà	volontà	NOUN	S	Gender=Fem	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	seminascosti	seminascosto	ADJ	A	Gender=Masc|Number=Plur	1	conj	_	_
+11	da	da	ADP	E	_	14	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	ingente	ingente	ADJ	A	Number=Sing	14	amod	_	_
+14	presidio	presidio	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	poliziotti	poliziotto	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	militari	militare	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+

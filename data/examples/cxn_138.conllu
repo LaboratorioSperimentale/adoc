@@ -1,0 +1,85 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_138_example_1_1
+# text = Spero di non aver fatto la figura del vanitoso presentandomi così
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	5	mark	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	aver	avere	AUX	VA	VerbForm=Inf	5	aux	_	_
+5	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	xcomp	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	figura	figura	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	vanitoso	vanitoso	ADJ	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	presentandomi	_	_	_	_	_	_	_	_
+11	presentando	presentare	VERB	V	VerbForm=Ger	5	advcl	_	_
+12	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	11	obj	_	Clitic=Yes
+13	così	così	ADV	B	_	11	advmod	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_138_example_2_1
+# text = Io l’ho trovato meraviglioso, come fare la figura del cretino senza che nessuno ti abbia chiesto nulla
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	l’	lo	PRON	PC	Number=Sing|Person=3|PronType=Prs	4	obj	_	Clitic=Yes|SpaceAfter=No
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	meraviglioso	meraviglioso	ADJ	A	Gender=Masc|Number=Sing	4	xcomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	come	come	ADV	CS	_	8	advmod	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	4	parataxis	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	figura	figura	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	cretino	cretino	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	senza	senza	ADP	E	ExtPos=SCONJ	19	mark	_	_
+15	che	che	SCONJ	CS	_	14	fixed	_	_
+16	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	19	nsubj	_	_
+17	ti	ti	PRON	PC	Number=Sing|Person=2|PronType=Prs	19	iobj	_	Clitic=Yes
+18	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+20	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	19	obj	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_138_example_3_1
+# text = Questa vuole fargli fare la figura del pollo come Heidi, lo illude per poi farlo ingelosire con altri, peccato che e’ storia già vista
+1	Questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3-4	fargli	_	_	_	_	_	_	_	_
+3	far	fare	VERB	V	VerbForm=Inf	0	root	_	_
+4	gli	gli	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	Clitic=Yes
+5	fare	fare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	figura	figura	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	pollo	pollo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	come	come	ADP	E	_	12	case	_	_
+12	Heidi	Heidi	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	obj	_	Clitic=Yes
+15	illude	illudere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+16	per	per	ADP	E	_	18	mark	_	_
+17	poi	poi	ADV	B	_	18	advmod	_	_
+18-19	farlo	_	_	_	_	_	_	_	_
+18	far	fare	VERB	V	VerbForm=Inf	15	advcl	_	_
+19	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	Clitic=Yes
+20	ingelosire	ingelosire	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	con	con	ADP	E	_	22	case	_	_
+22	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	22	punct	_	_
+24	peccato	peccato	NOUN	S	Gender=Masc|Number=Sing	3	discourse	_	_
+25	che	che	PRON	PR	PronType=Rel	27	nsubj	_	_
+26	e’	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+27	storia	storia	NOUN	S	Gender=Fem|Number=Sing	24	acl:relcl	_	_
+28	già	già	ADV	B	_	29	advmod	_	_
+29	vista	vedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	acl	_	SpaceAfter=No

@@ -1,0 +1,128 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://www.tio.ch/svizzera/cronaca/1701915/una-ticinese-e-un-controllore-ffs-sono-venuti-alle-mani
+# sent_id = cxn_137_example_1_1
+# text = Una ticinese e un controllore FFS sono venuti alle mani
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ticinese	ticinese	NOUN	S	Number=Sing	8	nsubj	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	controllore	controllore	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+6	FFS	FFS	PROPN	SP	_	5	nmod	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	venuti	venire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+9-10	alle	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	mani	mano	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://www.ilgazzettino.it/esteri/harry_spare_ghostwriter_cosa_ha_detto-7393977.html
+# sent_id = cxn_137_example_2_1
+# text = Siamo quasi venuti alle mani.
+1	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	quasi	quasi	ADV	B	_	3	advmod	_	_
+3	venuti	venire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	alle	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	mani	mano	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# source = https://www.ilgazzettino.it/esteri/harry_spare_ghostwriter_cosa_ha_detto-7393977.html
+# sent_id = cxn_137_example_2_2
+# text = Voleva dimostrare di non essere stupido
+# tags = CONTEXT
+1	Voleva	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	dimostrare	dimostrare	VERB	V	VerbForm=Inf	0	root	_	_
+3	di	di	ADP	E	_	6	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	essere	essere	AUX	VA	VerbForm=Inf	6	cop	_	_
+6	stupido	stupido	ADJ	A	Gender=Masc|Number=Sing	2	xcomp	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://www.oasport.it/2023/05/motogp-bagnaia-e-vinales-sono-venuti-alle-mani-cosa-e-successo-a-le-mans/
+# sent_id = cxn_137_example_3_1
+# text = Nella MotoGP del politicamente corretto e del volemose bene, due piloti sono venuti alle mani
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	MotoGP	MotoGP	PROPN	SP	_	18	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	politicamente	politicamente	ADV	B	_	7	advmod	_	_
+7	corretto	corretto	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11-12	volemose	_	_	_	_	_	_	_	_
+11	volemo	volere	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	_
+12	se	ci	PRON	CP	Number=Plur|Person=1|PronType=Prs	11	obj	_	Clitic=Yes
+13	bene	bene	ADV	B	_	11	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	_
+15	due	due	NUM	N	NumType=Card	16	nummod	_	_
+16	piloti	pilota	NOUN	S	Gender=Masc|Number=Plur	18	nsubj	_	_
+17	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	venuti	venire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+19-20	alle	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	mani	mano	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://www.orizzontescuola.it/insegnante-tenta-di-sedare-rissa-tra-studenti-ma-prende-un-pugno-in-faccia-rischia-di-perdere-un-occhio/
+# sent_id = cxn_137_example_4_1
+# text = Due studenti, di cui uno minorenne, sono venuti alle mani a seguito di una serie di insulti
+1	Due	due	NUM	N	NumType=Card	2	nummod	_	_
+2	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	cui	cui	PRON	PR	PronType=Rel	6	nmod	_	_
+6	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	appos	_	_
+7	minorenne	minorenne	ADJ	A	Number=Sing	6	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	venuti	venire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	mani	mano	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	serie	serie	NOUN	S	Gender=Fem	15	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	insulti	insulto	NOUN	S	Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://www.ilgazzettino.it/cultura/rissa_uomini_e_donne_armando_incarnato_riccardo_guarnieri-7362989.html
+# sent_id = cxn_137_example_5_1
+# text = Si è messo in mezzo Riccardo e lui e Armando sono arrivati alle mani
+1	Si	si	PRON	PC	Person=3|PronType=Prs	3	expl	_	Clitic=Yes
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	messo	mettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	Riccardo	Riccardo	PROPN	SP	_	3	nsubj	_	_
+7	e	e	CCONJ	CC	_	12	cc	_	_
+8	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	Armando	Armando	PROPN	SP	_	8	conj	_	_
+11	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	_
+13-14	alle	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	mani	mano	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	SpaceAfter=No

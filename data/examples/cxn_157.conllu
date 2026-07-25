@@ -1,0 +1,136 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = la Repubblica
+# sent_id = cxn_157_example_1_1
+# text = Per fortuna il campo è bello grande, anche il fondo è buono.
+1	Per	per	ADP	E	_	2	case	_	_
+2	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	campo	campo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	bello	bello	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	grande	grande	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	13	punct	_	_
+9	anche	anche	ADV	B	_	11	advmod	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+12	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	buono	buono	ADJ	A	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itTenTen20
+# sent_id = cxn_157_example_2_1
+# text = Ho seguito due corsi di formazione belli tosti ma ne sono orgogliosa.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	seguito	seguire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	due	due	NUM	N	NumType=Card	4	nummod	_	_
+4	corsi	corso	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	formazione	formazione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	belli	bello	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+8	tosti	tosto	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+9	ma	ma	CCONJ	CC	_	12	cc	_	_
+10	ne	ne	PRON	PC	PronType=Prs	12	obl	_	Clitic=Yes
+11	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	orgogliosa	orgoglioso	ADJ	A	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = la Repubblica
+# sent_id = cxn_157_example_3_1
+# text = Quelle della Honda sono adatte a me:
+# tags = CONTEXT
+1	Quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	6	nsubj	_	_
+2-3	della	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Honda	Honda	PROPN	SP	_	1	nmod	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	adatte	adatto	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	obl	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	6	punct	_	_
+
+# source = la Repubblica
+# sent_id = cxn_157_example_3_2
+# text = è una moto bella compatta.
+1	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	moto	moto	NOUN	S	Gender=Fem	0	root	_	_
+4	bella	bello	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	compatta	compatto	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_157_example_4_1
+# text = E adesso beva il caffè bello caldo.
+1	E	e	CCONJ	CC	_	3	cc	_	SpacesBefore=
+2	adesso	adesso	ADV	B	_	3	advmod	_	_
+3	beva	bere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	caffè	caffè	NOUN	S	Gender=Masc	3	obj	_	_
+6	bello	bello	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	caldo	caldo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_157_example_5_1
+# text = Bevemmo una bella bottiglia di Gutturnio dei colli piacentini e, al momento di assaggiare la torta di mele che avevo preparato al pomeriggio, ne aprimmo un'altra, bella frizzantina, sempre dello stesso Gutturnio.
+1	Bevemmo	bevere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	bella	bello	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	bottiglia	bottiglia	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Gutturnio	Gutturnio	PROPN	SP	_	4	nmod	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	colli	colle	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+10	piacentini	piacentino	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	e	e	CCONJ	CC	_	30	cc	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	momento	momento	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	assaggiare	assaggiare	VERB	V	VerbForm=Inf	15	acl	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	torta	torta	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	mele	mela	NOUN	S	Gender=Fem|Number=Plur	19	nmod	_	_
+22	che	che	PRON	PR	PronType=Rel	24	obj	_	_
+23	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	24	aux	_	_
+24	preparato	preparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+25-26	al	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	15	punct	_	_
+29	ne	ne	PRON	PC	PronType=Prs	30	obl	_	Clitic=Yes
+30	aprimmo	aprire	VERB	V	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+31	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	SpaceAfter=No
+32	altra	altro	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	35	punct	_	_
+34	bella	bello	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	_
+35	frizzantina	frizzantina	NOUN	S	Gender=Fem|Number=Sing	30	obj	_	SpaceAfter=No
+36	,	,	PUNCT	FF	_	35	punct	_	_
+37	sempre	sempre	ADV	B	_	41	advmod	_	_
+38-39	dello	_	_	_	_	_	_	_	_
+38	di	di	ADP	E	_	41	case	_	_
+39	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	_
+40	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	41	amod	_	_
+41	Gutturnio	Gutturnio	PROPN	SP	_	35	nmod	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=
