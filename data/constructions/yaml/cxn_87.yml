@@ -2,7 +2,7 @@ cxn-id: |
   87
 
 name: |
-  anna ciarlantini
+  visto che X
 
 cxn-machine-readable-formalization: |
   cxn_87.conllc
@@ -28,10 +28,10 @@ coll-preferences: |
 usage: |
   Frequent
 
-formal-tags: 
+formal-tags:
   - formal-idiom
 
-functional-tags: 
+functional-tags:
   - context-dependence
   - focus-marker
   - sequentiality
@@ -54,7 +54,7 @@ horizontal-links: |
 
 vertical-links: |
 
-examples: 
+examples:
   - cxn_87_example_1.txt
   - cxn_87_example_2.txt
 
@@ -65,4 +65,5 @@ note: |
 references: |
 
 collector: |
+  anna ciarlantini
 
