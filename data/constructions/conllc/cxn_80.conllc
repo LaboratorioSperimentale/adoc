@@ -1,5 +1,5 @@
 # cxn_id = cxn_80
 # cxn_name = Homolexemic binominal adverbial construction #2 cxn-machine-readable-formalization: | cxn_80.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	_	VERB	_	0	root	_
-B	_	_	_	_	A	obj	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	_	_	VERB	_	0	root	_	_	_	_	_
+B	_	_	_	_	A	obj	_	_	_	_	_

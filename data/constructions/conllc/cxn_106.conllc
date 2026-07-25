@@ -1,7 +1,7 @@
 # cxn_id = cxn_106
 # cxn_name = al volo" construction cxn-machine-readable-formalization: | cxn_106.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	_	VERB	Mood=Ind|VerbForm=Fin	0	root	_
-B	a	a	ADP	_	D	case	_
-C	il	il	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	D	det	_
-D	volo	volo	NOUN	Gender=Masc|Number=Sing	A	obl	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	_	_	VERB	Mood=Ind|VerbForm=Fin	0	root	_	_	_	_	_
+B	a	a	ADP	_	D	case	_	_	_	_	_
+C	il	il	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	D	det	_	_	_	_	_
+D	volo	volo	NOUN	Gender=Masc|Number=Sing	A	obl	_	_	_	_	_

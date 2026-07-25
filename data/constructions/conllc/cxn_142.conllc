@@ -1,6 +1,6 @@
 # cxn_id = cxn_142
 # cxn_name = Verbo+che+"aria tira" cxn-machine-readable-formalization: | cxn_142.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	che	che	DET	_	B	det	_
-B	aria	aria	NOUN	Gender=Fem|Number=Sing	C	nsubj	_
-C	tira	tirare	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	che	che	DET	_	B	det	_	_	_	_	_
+B	aria	aria	NOUN	Gender=Fem|Number=Sing	C	nsubj	_	_	_	_	_
+C	tira	tirare	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_	_	_	_

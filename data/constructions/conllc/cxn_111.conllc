@@ -1,6 +1,6 @@
 # cxn_id = cxn_111
 # cxn_name = Vedersela/Me la vedo io, veditela tu cxn-machine-readable-formalization: | cxn_111.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	_	PRON	PronType=Prs	C	expl	LinearOrder=Variable
-B	la	la	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	C	obj	LinearOrder=Variable
-C	_	vedere	VERB	_	0	root	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	_	_	PRON	PronType=Prs	C	expl	_	_	_	_	_
+B	la	la	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	C	obj	_	_	_	_	_
+C	_	vedere	VERB	_	0	root	_	_	_	_	_

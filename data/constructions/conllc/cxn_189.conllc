@@ -1,6 +1,6 @@
 # cxn_id = cxn_189
 # cxn_name = quanto a N
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	quanto	quanto	ADV	ExtPos=ADP	C	case	_
-B	a	a	ADP	_	A	fixed	_
-C	_	_	NOUN	_	0	root	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	quanto	quanto	ADV	ExtPos=ADP	C	case	_	_	_	_	_
+B	a	a	ADP	_	A	fixed	_	_	_	_	_
+C	_	_	NOUN	_	0	root	_	_	_	_	_

@@ -1,9 +1,9 @@
 # cxn_id = cxn_124
 # cxn_name = Costruzioni Avere+X+"in tasca" cxn-machine-readable-formalization: | cxn_124.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	di	di	ADP	_	B	mark	_
-B	avere	avere	VERB	VerbForm=Inf	0	root	_
-C	_	_	DET	Definite=Def|Number=Sing|PronType=Art	D	det	_
-D	_	_	NOUN	Number=Sing	B	obj	_
-E	in	in	ADP	_	F	case	_
-F	tasca	tasca	NOUN	Gender=Fem|Number=Sing	D	nmod	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	di	di	ADP	_	B	mark	_	_	_	_	_
+B	avere	avere	VERB	VerbForm=Inf	0	root	_	_	_	_	_
+C	_	_	DET	Definite=Def|Number=Sing|PronType=Art	D	det	_	_	_	_	_
+D	_	_	NOUN	Number=Sing	B	obj	_	_	_	_	_
+E	in	in	ADP	_	F	case	_	_	_	_	_
+F	tasca	tasca	NOUN	Gender=Fem|Number=Sing	D	nmod	_	_	_	_	_

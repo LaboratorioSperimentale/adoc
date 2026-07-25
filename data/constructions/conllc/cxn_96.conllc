@@ -1,6 +1,6 @@
 # cxn_id = cxn_96
 # cxn_name = a fagiolo construction cxn-machine-readable-formalization: | cxn_96.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	_	VERB	_	0	root	_
-B	a	a	ADP	_	C	case	_
-C	fagiolo	fagiolo	NOUN	Gender=Masc|Number=Sing	A	obl	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	_	_	VERB	_	0	root	_	_	_	_	_
+B	a	a	ADP	_	C	case	_	_	_	_	_
+C	fagiolo	fagiolo	NOUN	Gender=Masc|Number=Sing	A	obl	_	_	_	_	_

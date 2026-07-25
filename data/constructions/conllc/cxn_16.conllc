@@ -1,10 +1,10 @@
 # cxn_id = cxn_16
 # cxn_name = cxn-machine-readable-formalization: | cxn_16.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	_	VERB	_	0	root	_
-B	in	in	ADP	_	C	case	_
-C	men	meno	ADV	_	A	advmod	LinearOrder=Variable
-D	che	che	SCONJ	_	G	mark	_
-E	non	non	ADV	PronType=Neg	G	advmod	_
-F	si	si	PRON	Person=3|PronType=Prs	G	expl:impers	_
-G	dica	dire	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	C	advcl	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	_	_	VERB	_	0	root	_	_	_	_	_
+B	in	in	ADP	_	C	case	_	_	_	_	_
+C	men	meno	ADV	_	A	advmod	_	_	_	_	_
+D	che	che	SCONJ	_	G	mark	_	_	_	_	_
+E	non	non	ADV	PronType=Neg	G	advmod	_	_	_	_	_
+F	si	si	PRON	Person=3|PronType=Prs	G	expl:impers	_	_	_	_	_
+G	dica	dire	VERB	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	C	advcl	_	_	_	_	_

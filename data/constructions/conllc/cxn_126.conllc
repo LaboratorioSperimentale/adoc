@@ -1,6 +1,6 @@
 # cxn_id = cxn_126
 # cxn_name = Pronome relativo preposto cxn-machine-readable-formalization: | cxn_126.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	chi	chi	PRON	_	C	nsubj	_
-B	_	_	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	A	acl:relcl	_
-C	_	_	_	Number=Sing	0	root	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	chi	chi	PRON	_	C	nsubj	_	_	_	_	_
+B	_	_	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	A	acl:relcl	_	_	_	_	_
+C	_	_	_	Number=Sing	0	root	_	_	_	_	_

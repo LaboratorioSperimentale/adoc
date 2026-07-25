@@ -1,5 +1,5 @@
 # cxn_id = cxn_171
 # cxn_name = Tanto (...) quanto (...) cxn-machine-readable-formalization: | cxn_171.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	_	_	_	0	root	_
-B	_	_	_	_	A	conj	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	_	_	_	_	0	root	_	_	_	_	_
+B	_	_	_	_	A	conj	_	_	_	_	_

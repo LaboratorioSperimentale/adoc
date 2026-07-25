@@ -1,6 +1,6 @@
 # cxn_id = cxn_114
 # cxn_name = Discontinuous reduplication N-per-N cxn-machine-readable-formalization: | cxn_114.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	_	NOUN	_	0	root	_
-B	_	_	ADP	_	C	case	_
-C	_	_	_	_	A	nmod	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	_	_	NOUN	_	0	root	_	_	_	_	_
+B	_	_	ADP	_	C	case	_	_	_	_	_
+C	_	_	_	_	A	nmod	_	_	_	_	_

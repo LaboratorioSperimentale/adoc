@@ -1,6 +1,6 @@
 # cxn_id = cxn_73
 # cxn_name = Speigare di essere senza soldi cxn-machine-readable-formalization: | cxn_73.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	essere	essere	AUX	VerbForm=Inf	0	root	_
-B	in	in	ADP	_	C	case	_
-C	bolletta	bolletta	NOUN	Gender=Fem|Number=Sing	A	obl	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	essere	essere	AUX	VerbForm=Inf	0	root	_	_	_	_	_
+B	in	in	ADP	_	C	case	_	_	_	_	_
+C	bolletta	bolletta	NOUN	Gender=Fem|Number=Sing	A	obl	_	_	_	_	_

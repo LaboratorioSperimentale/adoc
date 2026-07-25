@@ -1,7 +1,7 @@
 # cxn_id = cxn_98
 # cxn_name = Paragone con "per quanto" cxn-machine-readable-formalization: | cxn_98.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	per	per	ADP	_	B	case	_
-B	quanto	quanto	ADV	Gender=Masc|Number=Sing|PronType=Rel	D	advmod	_
-C	è	essere	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	D	cop	_
-D	_	_	ADJ	Number=Sing	0	root	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	per	per	ADP	_	B	case	_	_	_	_	_
+B	quanto	quanto	ADV	Gender=Masc|Number=Sing|PronType=Rel	D	advmod	_	_	_	_	_
+C	è	essere	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	D	cop	_	_	_	_	_
+D	_	_	ADJ	Number=Sing	0	root	_	_	_	_	_

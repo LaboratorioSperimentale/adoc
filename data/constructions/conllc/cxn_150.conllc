@@ -1,5 +1,5 @@
 # cxn_id = cxn_150
 # cxn_name = Caused Motion Construction cxn-machine-readable-formalization: | cxn_150.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	_	ADP	_	B	case	_
-B	_	_	_	_	0	root	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	_	_	ADP	_	B	case	_	_	_	_	_
+B	_	_	_	_	0	root	_	_	_	_	_

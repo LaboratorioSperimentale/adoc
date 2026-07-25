@@ -1,7 +1,7 @@
 # cxn_id = cxn_104
 # cxn_name = Fare a meno di cxn-machine-readable-formalization: | cxn_104.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	potere	AUX	_	B	aux	_
-B	fare	fare	VERB	_	0	root	_
-C	a	a	ADP	_	D	case	_
-D	meno	meno	ADV	_	B	advmod	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	_	potere	AUX	_	B	aux	_	_	_	_	_
+B	fare	fare	VERB	_	0	root	_	_	_	_	_
+C	a	a	ADP	_	D	case	_	_	_	_	_
+D	meno	meno	ADV	_	B	advmod	_	_	_	_	_

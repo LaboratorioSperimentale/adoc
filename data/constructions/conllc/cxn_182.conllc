@@ -1,6 +1,6 @@
 # cxn_id = cxn_182
 # cxn_name = N da N
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	_	NOUN	_	0	root	_
-B	da	da	ADP	_	C	case	_
-C	_	_	NOUN	Number=Sing	A	nmod	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	_	_	NOUN	_	0	root	_	_	_	_	_
+B	da	da	ADP	_	C	case	_	_	_	_	_
+C	_	_	NOUN	Number=Sing	A	nmod	_	_	_	_	_

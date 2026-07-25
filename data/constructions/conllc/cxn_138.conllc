@@ -1,9 +1,9 @@
 # cxn_id = cxn_138
 # cxn_name = ac cxn-machine-readable-formalization: | cxn_138.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	fare	VERB	_	0	root	_
-B	la	il	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	C	det	_
-C	figura	figura	NOUN	Gender=Fem|Number=Sing	A	obj	_
-D	di	di	ADP	_	F	case	_
-E	il	il	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	F	det	_
-F	_	_	_	Gender=Masc|Number=Sing	C	nmod	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	_	fare	VERB	_	0	root	_	_	_	_	_
+B	la	il	DET	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	C	det	_	_	_	_	_
+C	figura	figura	NOUN	Gender=Fem|Number=Sing	A	obj	_	_	_	_	_
+D	di	di	ADP	_	F	case	_	_	_	_	_
+E	il	il	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	F	det	_	_	_	_	_
+F	_	_	_	Gender=Masc|Number=Sing	C	nmod	_	_	_	_	_

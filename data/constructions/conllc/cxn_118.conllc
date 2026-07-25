@@ -1,4 +1,4 @@
 # cxn_id = cxn_118
 # cxn_name = double verb assertion cxn-machine-readable-formalization: | cxn_118.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	_	_	Number=Sing	0	root	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	_	_	_	Number=Sing	0	root	_	_	_	_	_

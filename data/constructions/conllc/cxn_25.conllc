@@ -1,6 +1,6 @@
 # cxn_id = cxn_25
 # cxn_name = [Che/Cosa/Che cosa [(Obj1) (Obj2) [XV [a fare] ] cxn-machine-readable-formalization: | cxn_25.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	_	VERB	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_
-B	a	a	ADP	_	C	mark	_
-C	fare	fare	VERB	VerbForm=Inf	A	xcomp	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	_	_	VERB	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_	_	_	_
+B	a	a	ADP	_	C	mark	_	_	_	_	_
+C	fare	fare	VERB	VerbForm=Inf	A	xcomp	_	_	_	_	_

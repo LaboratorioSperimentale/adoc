@@ -1,7 +1,7 @@
 # cxn_id = cxn_170
 # cxn_name = mezzo ADJ cxn-machine-readable-formalization: | cxn_170.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	_	ADP	_	D	case	_
-B	_	il	DET	Definite=Def|PronType=Art	D	det	_
-C	_	_	ADJ	_	D	amod	LinearOrder=Variable
-D	_	_	NOUN	_	0	root	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	_	_	ADP	_	D	case	_	_	_	_	_
+B	_	il	DET	Definite=Def|PronType=Art	D	det	_	_	_	_	_
+C	_	_	ADJ	_	D	amod	_	_	_	_	_
+D	_	_	NOUN	_	0	root	_	_	_	_	_

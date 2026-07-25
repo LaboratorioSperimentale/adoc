@@ -1,9 +1,9 @@
 # cxn_id = cxn_185
 # cxn_name = WITH-pattern Cognate Object Construction
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	_	_	_	0	root	_
-B	_	_	VERB	Mood=Ind|Person=3|VerbForm=Fin	A	conj	_
-C	con	con	ADP	_	E	case	_
-D	_	_	DET	Gender=Masc|Number=Sing|PronType=Art	E	det	_
-E	_	_	NOUN	Gender=Masc|Number=Sing	B	obl	_
-F	_	_	_	Number=Sing	A	advcl	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	_	_	_	_	0	root	_	_	_	_	_
+B	_	_	VERB	Mood=Ind|Person=3|VerbForm=Fin	A	conj	_	_	_	_	_
+C	con	con	ADP	_	E	case	_	_	_	_	_
+D	_	_	DET	Gender=Masc|Number=Sing|PronType=Art	E	det	_	_	_	_	_
+E	_	_	NOUN	Gender=Masc|Number=Sing	B	obl	_	_	_	_	_
+F	_	_	_	Number=Sing	A	advcl	_	_	_	_	_

@@ -1,5 +1,5 @@
 # cxn_id = cxn_95
 # cxn_name = avere + N" idiomatic construction cxn-machine-readable-formalization: | cxn_95.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	avere	VERB	Mood=Ind|Person=3|VerbForm=Fin	0	root	_
-B	_	_	NOUN	Number=Sing	A	obj	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	_	avere	VERB	Mood=Ind|Person=3|VerbForm=Fin	0	root	_	_	_	_	_
+B	_	_	NOUN	Number=Sing	A	obj	_	_	_	_	_

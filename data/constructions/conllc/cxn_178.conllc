@@ -1,4 +1,4 @@
 # cxn_id = cxn_178
 # cxn_name = Meglio X che Y cxn-machine-readable-formalization: | cxn_178.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	meglio	meglio	ADV	_	0	root	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	meglio	meglio	ADV	_	0	root	_	_	_	_	_

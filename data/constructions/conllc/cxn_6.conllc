@@ -1,7 +1,7 @@
 # cxn_id = cxn_6
 # cxn_name = V. parlare + prep. + N cxn-machine-readable-formalization: | cxn_6.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	parlare	parlare	VERB	VerbForm=Inf	0	root	_
-B	a	a	ADP	_	D	case	_
-C	_	il	DET	Definite=Def|Gender=Masc|PronType=Art	D	det	_
-D	_	_	NOUN	Gender=Masc	A	obl	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	parlare	parlare	VERB	VerbForm=Inf	0	root	_	_	_	_	_
+B	a	a	ADP	_	D	case	_	_	_	_	_
+C	_	il	DET	Definite=Def|Gender=Masc|PronType=Art	D	det	_	_	_	_	_
+D	_	_	NOUN	Gender=Masc	A	obl	_	_	_	_	_

@@ -1,7 +1,7 @@
 # cxn_id = cxn_51
 # cxn_name = non+aus+mica+pp. cxn-machine-readable-formalization: | cxn_51.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	non	non	ADV	PronType=Neg	D	advmod	_
-B	_	_	AUX	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	D	aux	_
-C	mica	mica	ADV	_	D	advmod	_
-D	_	_	_	Number=Sing	0	root	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	non	non	ADV	PronType=Neg	D	advmod	_	_	_	_	_
+B	_	_	AUX	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	D	aux	_	_	_	_	_
+C	mica	mica	ADV	_	D	advmod	_	_	_	_	_
+D	_	_	_	Number=Sing	0	root	_	_	_	_	_

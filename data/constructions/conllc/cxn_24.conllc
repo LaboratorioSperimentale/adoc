@@ -1,4 +1,4 @@
 # cxn_id = cxn_24
 # cxn_name = Adj1+Adj2 cxn-machine-readable-formalization: | cxn_24.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	_	ADV	_	0	root	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	_	_	ADV	_	0	root	_	_	_	_	_

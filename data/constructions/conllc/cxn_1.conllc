@@ -1,8 +1,8 @@
 # cxn_id = cxn_1
 # cxn_name = non vedo perchè doverefles Vinf  adv (e/o)Prep. X cxn-machine-readable-formalization: | cxn_1.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	non	non	ADV	PronType=Neg	B	advmod	_
-B	vedo	vedere	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_
-C	perché	perché	SCONJ	_	E	mark	_
-D	dovrei	dovere	AUX	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	E	aux	_
-E	_	_	VERB	VerbForm=Inf	B	ccomp	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	non	non	ADV	PronType=Neg	B	advmod	_	_	_	_	_
+B	vedo	vedere	VERB	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_	_	_	_
+C	perché	perché	SCONJ	_	E	mark	_	_	_	_	_
+D	dovrei	dovere	AUX	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	E	aux	_	_	_	_	_
+E	_	_	VERB	VerbForm=Inf	B	ccomp	_	_	_	_	_

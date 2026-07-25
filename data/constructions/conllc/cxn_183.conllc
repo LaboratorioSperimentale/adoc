@@ -1,5 +1,5 @@
 # cxn_id = cxn_183
 # cxn_name = sia X che Y
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	sia	sia	CCONJ	_	B	cc	LinearOrder=Variable
-B	_	_	_	_	0	root	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	sia	sia	CCONJ	_	B	cc	_	_	_	_	_
+B	_	_	_	_	0	root	_	_	_	_	_

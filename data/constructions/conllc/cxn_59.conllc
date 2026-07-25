@@ -1,7 +1,7 @@
 # cxn_id = cxn_59
 # cxn_name = V. (mettersi) + Prep. (nelle) + N. (mani) + Prep. (di) + N. (qualcuno) cxn-machine-readable-formalization: | cxn_59.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	_	VERB	_	0	root	_
-B	in	in	ADP	_	D	case	_
-C	le	il	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	D	det	_
-D	mani	mano	NOUN	Gender=Fem|Number=Plur	A	obl	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	_	_	VERB	_	0	root	_	_	_	_	_
+B	in	in	ADP	_	D	case	_	_	_	_	_
+C	le	il	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	D	det	_	_	_	_	_
+D	mani	mano	NOUN	Gender=Fem|Number=Plur	A	obl	_	_	_	_	_

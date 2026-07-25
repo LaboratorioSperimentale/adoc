@@ -1,8 +1,8 @@
 # cxn_id = cxn_119
 # cxn_name = Low version qualification cxn-machine-readable-formalization: | cxn_119.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	_	DET	Number=Sing|PronType=Art	B	det	_
-B	_	_	_	_	0	root	_
-C	di	di	ADP	_	E	case	_
-D	i	il	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	E	det	_
-E	poveri	povero	NOUN	Gender=Masc|Number=Plur	B	nmod	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	_	_	DET	Number=Sing|PronType=Art	B	det	_	_	_	_	_
+B	_	_	_	_	0	root	_	_	_	_	_
+C	di	di	ADP	_	E	case	_	_	_	_	_
+D	i	il	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	E	det	_	_	_	_	_
+E	poveri	povero	NOUN	Gender=Masc|Number=Plur	B	nmod	_	_	_	_	_

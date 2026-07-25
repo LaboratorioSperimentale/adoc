@@ -7,7 +7,7 @@
       espansa: 1:FORM:non_@advmod_2 2:FORM:vedo_@root 3:FORM:perché_@mark_5 4:FORM:dovrei_@aux_5 5:UPOS:VERB_@ccomp_2
 
   [2] score_bg = 47.55  score_lex = 7  (size=4, lexicalized=3)
-      base:    1:FORM:non_@advmod_2 2:FORM:vedo_@root 3:FORM:perché_@mark_4 4:UPOS:VERB_@ccomp_2
+      base:    1:FORM:non_@advmod_2 2:FORM:vedo_@root 3:FORM:dovrei_@aux_4 4:UPOS:VERB_@ccomp_2
       espansa: 1:FORM:non_@advmod_2 2:FORM:vedo_@root 3:FORM:perché_@mark_5 4:FORM:dovrei_@aux_5 5:UPOS:VERB_@ccomp_2
 
   [3] score_bg = 47.55  score_lex = 7  (size=4, lexicalized=3)
@@ -15,7 +15,7 @@
       espansa: 1:FORM:non_@advmod_2 2:FORM:vedo_@root 3:FORM:perché_@mark_5 4:FORM:dovrei_@aux_5 5:UPOS:VERB_@ccomp_2
 
   [4] score_bg = 47.55  score_lex = 7  (size=4, lexicalized=3)
-      base:    1:FORM:non_@advmod_2 2:FORM:vedo_@root 3:FORM:dovrei_@aux_4 4:UPOS:VERB_@ccomp_2
+      base:    1:FORM:non_@advmod_2 2:FORM:vedo_@root 3:FORM:perché_@mark_4 4:UPOS:VERB_@ccomp_2
       espansa: 1:FORM:non_@advmod_2 2:FORM:vedo_@root 3:FORM:perché_@mark_5 4:FORM:dovrei_@aux_5 5:UPOS:VERB_@ccomp_2
 
   [5] score_bg = 47.55  score_lex = 5  (size=3, lexicalized=2)
@@ -85,12 +85,12 @@
       base:    1:FORM:non_@advmod_4 2:UPOS:PRON_@iobj_4 3:FORM:ne_@obl_4 4:FORM:frega_@root
       espansa: 1:FORM:non_@advmod_4 2:UPOS:PRON_@iobj_4 3:FORM:ne_@obl_4 4:FORM:frega_@root 5:__@obj_4
 
-  [4] score_bg = 38.05  score_lex = 6  (size=4, lexicalized=2)
-      base:    1:FORM:non_@advmod_3 2:UPOS:PRON_@iobj_3 3:FORM:frega_@root 4:__@obj_3
+  [4] score_bg = 38.05  score_lex = 6  (size=3, lexicalized=3)
+      base:    1:FORM:non_@advmod_3 2:FORM:ne_@obl_3 3:FORM:frega_@root
       espansa: 1:FORM:non_@advmod_4 2:UPOS:PRON_@iobj_4 3:FORM:ne_@obl_4 4:FORM:frega_@root 5:__@obj_4
 
-  [5] score_bg = 38.05  score_lex = 6  (size=3, lexicalized=3)
-      base:    1:FORM:non_@advmod_3 2:FORM:ne_@obl_3 3:FORM:frega_@root
+  [5] score_bg = 38.05  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:non_@advmod_3 2:UPOS:PRON_@iobj_3 3:FORM:frega_@root 4:__@obj_3
       espansa: 1:FORM:non_@advmod_4 2:UPOS:PRON_@iobj_4 3:FORM:ne_@obl_4 4:FORM:frega_@root 5:__@obj_4
 
 
@@ -136,11 +136,11 @@
       espansa: 1:LEMMA:potere_@aux_2 2:FORM:fare_@root 3:FORM:a_@case_4 4:FORM:meno_@advmod_2
 
   [4] score_bg = 66.54  score_lex = 4  (size=2, lexicalized=2)
-      base:    1:FORM:fare_@root 2:FORM:meno_@advmod_1
+      base:    1:FORM:a_@case_2 2:FORM:meno_@root
       espansa: 1:LEMMA:potere_@aux_2 2:FORM:fare_@root 3:FORM:a_@case_4 4:FORM:meno_@advmod_2
 
   [5] score_bg = 66.54  score_lex = 4  (size=2, lexicalized=2)
-      base:    1:FORM:a_@case_2 2:FORM:meno_@root
+      base:    1:FORM:fare_@root 2:FORM:meno_@advmod_1
       espansa: 1:LEMMA:potere_@aux_2 2:FORM:fare_@root 3:FORM:a_@case_4 4:FORM:meno_@advmod_2
 
 
@@ -190,7 +190,7 @@
       espansa: 1:UPOS:VERB_@root 2:FORM:a_@case_4 3:FORM:il_@det_4 4:FORM:volo_@obl_1
 
   [5] score_bg = 47.55  score_lex = 4  (size=2, lexicalized=2)
-      base:    1:FORM:il_@det_2 2:FORM:volo_@root
+      base:    1:FORM:a_@case_2 2:FORM:volo_@root
       espansa: 1:UPOS:VERB_@root 2:FORM:a_@case_4 3:FORM:il_@det_4 4:FORM:volo_@obl_1
 
 
@@ -237,11 +237,11 @@
       espansa: 1:FORM:a_@case_2 2:FORM:discapito_@root 3:FORM:di_@case_4 4:__@nmod_2
 
   [2] score_bg = 28.54  score_lex = 5  (size=3, lexicalized=2)
-      base:    1:FORM:a_@case_2 2:FORM:discapito_@root 3:__@nmod_2
+      base:    1:FORM:discapito_@root 2:FORM:di_@case_3 3:__@nmod_1
       espansa: 1:FORM:a_@case_2 2:FORM:discapito_@root 3:FORM:di_@case_4 4:__@nmod_2
 
   [3] score_bg = 28.54  score_lex = 5  (size=3, lexicalized=2)
-      base:    1:FORM:discapito_@root 2:FORM:di_@case_3 3:__@nmod_1
+      base:    1:FORM:a_@case_2 2:FORM:discapito_@root 3:__@nmod_2
       espansa: 1:FORM:a_@case_2 2:FORM:discapito_@root 3:FORM:di_@case_4 4:__@nmod_2
 
   [4] score_bg = 28.54  score_lex = 4  (size=2, lexicalized=2)
@@ -505,11 +505,11 @@
       espansa: 1:UPOS:VERB_@root 2:FORM:le_@det_3 3:FORM:ore_@obj_1 4:UPOS:ADJ_@amod_3
 
   [2] score_bg = 38.05  score_lex = 5  (size=3, lexicalized=2)
-      base:    1:FORM:le_@det_2 2:FORM:ore_@root 3:UPOS:ADJ_@amod_2
+      base:    1:UPOS:VERB_@root 2:FORM:le_@det_3 3:FORM:ore_@obj_1
       espansa: 1:UPOS:VERB_@root 2:FORM:le_@det_3 3:FORM:ore_@obj_1 4:UPOS:ADJ_@amod_3
 
   [3] score_bg = 38.05  score_lex = 5  (size=3, lexicalized=2)
-      base:    1:UPOS:VERB_@root 2:FORM:le_@det_3 3:FORM:ore_@obj_1
+      base:    1:FORM:le_@det_2 2:FORM:ore_@root 3:UPOS:ADJ_@amod_2
       espansa: 1:UPOS:VERB_@root 2:FORM:le_@det_3 3:FORM:ore_@obj_1 4:UPOS:ADJ_@amod_3
 
   [4] score_bg = 38.05  score_lex = 4  (size=3, lexicalized=1)
@@ -517,7 +517,7 @@
       espansa: 1:UPOS:VERB_@root 2:FORM:le_@det_3 3:FORM:ore_@obj_1 4:UPOS:ADJ_@amod_3
 
   [5] score_bg = 38.05  score_lex = 3  (size=2, lexicalized=1)
-      base:    1:FORM:ore_@root 2:UPOS:ADJ_@amod_1
+      base:    1:UPOS:VERB_@root 2:FORM:ore_@obj_1
       espansa: 1:UPOS:VERB_@root 2:FORM:le_@det_3 3:FORM:ore_@obj_1 4:UPOS:ADJ_@amod_3
 
 
@@ -534,11 +534,11 @@
       espansa: 1:FORM:di_@mark_2 2:FORM:avere_@root 3:UPOS:DET_@det_4 4:UPOS:NOUN_@obj_2 5:FORM:in_@case_6 6:FORM:tasca_@nmod_4
 
   [3] score_bg = 28.54  score_lex = 8  (size=5, lexicalized=3)
-      base:    1:FORM:di_@mark_2 2:FORM:avere_@root 3:UPOS:DET_@det_4 4:UPOS:NOUN_@obj_2 5:FORM:tasca_@nmod_4
+      base:    1:FORM:avere_@root 2:UPOS:DET_@det_3 3:UPOS:NOUN_@obj_1 4:FORM:in_@case_5 5:FORM:tasca_@nmod_3
       espansa: 1:FORM:di_@mark_2 2:FORM:avere_@root 3:UPOS:DET_@det_4 4:UPOS:NOUN_@obj_2 5:FORM:in_@case_6 6:FORM:tasca_@nmod_4
 
   [4] score_bg = 28.54  score_lex = 8  (size=5, lexicalized=3)
-      base:    1:FORM:avere_@root 2:UPOS:DET_@det_3 3:UPOS:NOUN_@obj_1 4:FORM:in_@case_5 5:FORM:tasca_@nmod_3
+      base:    1:FORM:di_@mark_2 2:FORM:avere_@root 3:UPOS:DET_@det_4 4:UPOS:NOUN_@obj_2 5:FORM:tasca_@nmod_4
       espansa: 1:FORM:di_@mark_2 2:FORM:avere_@root 3:UPOS:DET_@det_4 4:UPOS:NOUN_@obj_2 5:FORM:in_@case_6 6:FORM:tasca_@nmod_4
 
   [5] score_bg = 28.54  score_lex = 7  (size=4, lexicalized=3)
@@ -735,16 +735,16 @@
       base:    1:UPOS:VERB_@root 2:FORM:a_@case_4 3:FORM:le_@det_4 4:FORM:mani_@obl_1
       espansa: 1:LEMMA:essere_@aux_2 2:UPOS:VERB_@root 3:FORM:a_@case_5 4:FORM:le_@det_5 5:FORM:mani_@obl_2
 
-  [3] score_bg = 47.55  score_lex = 6  (size=3, lexicalized=3)
-      base:    1:FORM:a_@case_3 2:FORM:le_@det_3 3:FORM:mani_@root
+  [3] score_bg = 47.55  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:LEMMA:essere_@aux_2 2:UPOS:VERB_@root 3:FORM:a_@case_4 4:FORM:mani_@obl_2
       espansa: 1:LEMMA:essere_@aux_2 2:UPOS:VERB_@root 3:FORM:a_@case_5 4:FORM:le_@det_5 5:FORM:mani_@obl_2
 
   [4] score_bg = 47.55  score_lex = 6  (size=4, lexicalized=2)
       base:    1:LEMMA:essere_@aux_2 2:UPOS:VERB_@root 3:FORM:le_@det_4 4:FORM:mani_@obl_2
       espansa: 1:LEMMA:essere_@aux_2 2:UPOS:VERB_@root 3:FORM:a_@case_5 4:FORM:le_@det_5 5:FORM:mani_@obl_2
 
-  [5] score_bg = 47.55  score_lex = 6  (size=4, lexicalized=2)
-      base:    1:LEMMA:essere_@aux_2 2:UPOS:VERB_@root 3:FORM:a_@case_4 4:FORM:mani_@obl_2
+  [5] score_bg = 47.55  score_lex = 6  (size=3, lexicalized=3)
+      base:    1:FORM:a_@case_3 2:FORM:le_@det_3 3:FORM:mani_@root
       espansa: 1:LEMMA:essere_@aux_2 2:UPOS:VERB_@root 3:FORM:a_@case_5 4:FORM:le_@det_5 5:FORM:mani_@obl_2
 
 
@@ -761,11 +761,11 @@
       espansa: 1:LEMMA:fare_@root 2:FORM:la_@det_3 3:FORM:figura_@obj_1 4:FORM:di_@case_6 5:FORM:il_@det_6 6:__@nmod_3
 
   [3] score_bg = 28.54  score_lex = 8  (size=5, lexicalized=3)
-      base:    1:LEMMA:fare_@root 2:FORM:la_@det_3 3:FORM:figura_@obj_1 4:FORM:il_@det_5 5:__@nmod_3
+      base:    1:LEMMA:fare_@root 2:FORM:la_@det_3 3:FORM:figura_@obj_1 4:FORM:di_@case_5 5:__@nmod_3
       espansa: 1:LEMMA:fare_@root 2:FORM:la_@det_3 3:FORM:figura_@obj_1 4:FORM:di_@case_6 5:FORM:il_@det_6 6:__@nmod_3
 
   [4] score_bg = 28.54  score_lex = 8  (size=5, lexicalized=3)
-      base:    1:LEMMA:fare_@root 2:FORM:la_@det_3 3:FORM:figura_@obj_1 4:FORM:di_@case_5 5:__@nmod_3
+      base:    1:LEMMA:fare_@root 2:FORM:la_@det_3 3:FORM:figura_@obj_1 4:FORM:il_@det_5 5:__@nmod_3
       espansa: 1:LEMMA:fare_@root 2:FORM:la_@det_3 3:FORM:figura_@obj_1 4:FORM:di_@case_6 5:FORM:il_@det_6 6:__@nmod_3
 
   [5] score_bg = 28.54  score_lex = 8  (size=5, lexicalized=3)
@@ -845,11 +845,11 @@
       espansa: 1:FORM:ancora_@advmod_3 2:FORM:ora_@advmod_3 3:UPOS:VERB_@root 4:FORM:che_@mark_5 5:__@ccomp_3
 
   [2] score_bg = 47.55  score_lex = 6  (size=4, lexicalized=2)
-      base:    1:FORM:ora_@advmod_2 2:UPOS:VERB_@root 3:FORM:che_@mark_4 4:__@ccomp_2
+      base:    1:FORM:ancora_@advmod_3 2:FORM:ora_@advmod_3 3:UPOS:VERB_@root 4:__@ccomp_3
       espansa: 1:FORM:ancora_@advmod_3 2:FORM:ora_@advmod_3 3:UPOS:VERB_@root 4:FORM:che_@mark_5 5:__@ccomp_3
 
   [3] score_bg = 47.55  score_lex = 6  (size=4, lexicalized=2)
-      base:    1:FORM:ancora_@advmod_3 2:FORM:ora_@advmod_3 3:UPOS:VERB_@root 4:__@ccomp_3
+      base:    1:FORM:ora_@advmod_2 2:UPOS:VERB_@root 3:FORM:che_@mark_4 4:__@ccomp_2
       espansa: 1:FORM:ancora_@advmod_3 2:FORM:ora_@advmod_3 3:UPOS:VERB_@root 4:FORM:che_@mark_5 5:__@ccomp_3
 
   [4] score_bg = 47.55  score_lex = 5  (size=3, lexicalized=2)
@@ -870,11 +870,11 @@
       espansa: 1:FORM:che_@det_2 2:FORM:aria_@nsubj_3 3:FORM:tira_@root
 
   [2] score_bg = 28.54  score_lex = 4  (size=2, lexicalized=2)
-      base:    1:FORM:aria_@nsubj_2 2:FORM:tira_@root
+      base:    1:FORM:che_@det_2 2:FORM:aria_@root
       espansa: 1:FORM:che_@det_2 2:FORM:aria_@nsubj_3 3:FORM:tira_@root
 
   [3] score_bg = 28.54  score_lex = 4  (size=2, lexicalized=2)
-      base:    1:FORM:che_@det_2 2:FORM:aria_@root
+      base:    1:FORM:aria_@nsubj_2 2:FORM:tira_@root
       espansa: 1:FORM:che_@det_2 2:FORM:aria_@nsubj_3 3:FORM:tira_@root
 
   [4] score_bg = 9.74  score_lex = 4  (size=4, lexicalized=0)
@@ -924,15 +924,15 @@
       espansa: 1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:niente_@obj_2 4:FORM:a_@mark_6 5:FORM:che_@fixed_4 6:FORM:fare_@advcl_2 7:FORM:con_@case_8 8:__@obl_6
 
   [3] score_bg = 19.03  score_lex = 10  (size=6, lexicalized=4)
-      base:    1:LEMMA:avere_@root 2:FORM:niente_@obj_1 3:FORM:a_@mark_4 4:FORM:fare_@advcl_1 5:FORM:con_@case_6 6:__@obl_4
+      base:    1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:a_@mark_5 4:FORM:che_@fixed_3 5:FORM:fare_@advcl_2 6:__@obl_5
       espansa: 1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:niente_@obj_2 4:FORM:a_@mark_6 5:FORM:che_@fixed_4 6:FORM:fare_@advcl_2 7:FORM:con_@case_8 8:__@obl_6
 
   [4] score_bg = 19.03  score_lex = 10  (size=6, lexicalized=4)
-      base:    1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:niente_@obj_2 4:FORM:a_@mark_5 5:FORM:fare_@advcl_2 6:__@obl_5
+      base:    1:LEMMA:avere_@root 2:FORM:niente_@obj_1 3:FORM:a_@mark_4 4:FORM:fare_@advcl_1 5:FORM:con_@case_6 6:__@obl_4
       espansa: 1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:niente_@obj_2 4:FORM:a_@mark_6 5:FORM:che_@fixed_4 6:FORM:fare_@advcl_2 7:FORM:con_@case_8 8:__@obl_6
 
   [5] score_bg = 19.03  score_lex = 10  (size=6, lexicalized=4)
-      base:    1:LEMMA:avere_@root 2:FORM:niente_@obj_1 3:FORM:a_@mark_5 4:FORM:che_@fixed_3 5:FORM:fare_@advcl_1 6:__@obl_5
+      base:    1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:niente_@obj_2 4:FORM:a_@mark_5 5:FORM:fare_@advcl_2 6:__@obl_5
       espansa: 1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:niente_@obj_2 4:FORM:a_@mark_6 5:FORM:che_@fixed_4 6:FORM:fare_@advcl_2 7:FORM:con_@case_8 8:__@obl_6
 
 
@@ -1261,15 +1261,15 @@
       espansa: 1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:men_@advmod_1 4:FORM:che_@mark_7 5:FORM:non_@advmod_7 6:FORM:si_@expl:impers_7 7:FORM:dica_@advcl_3
 
   [2] score_bg = 47.55  score_lex = 11  (size=6, lexicalized=5)
-      base:    1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:men_@advmod_1 4:FORM:che_@mark_6 5:FORM:non_@advmod_6 6:FORM:dica_@advcl_3
+      base:    1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:men_@advmod_1 4:FORM:che_@mark_6 5:FORM:si_@expl:impers_6 6:FORM:dica_@advcl_3
       espansa: 1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:men_@advmod_1 4:FORM:che_@mark_7 5:FORM:non_@advmod_7 6:FORM:si_@expl:impers_7 7:FORM:dica_@advcl_3
 
   [3] score_bg = 47.55  score_lex = 11  (size=6, lexicalized=5)
-      base:    1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:men_@advmod_1 4:FORM:non_@advmod_6 5:FORM:si_@expl:impers_6 6:FORM:dica_@advcl_3
+      base:    1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:men_@advmod_1 4:FORM:che_@mark_6 5:FORM:non_@advmod_6 6:FORM:dica_@advcl_3
       espansa: 1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:men_@advmod_1 4:FORM:che_@mark_7 5:FORM:non_@advmod_7 6:FORM:si_@expl:impers_7 7:FORM:dica_@advcl_3
 
   [4] score_bg = 47.55  score_lex = 11  (size=6, lexicalized=5)
-      base:    1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:men_@advmod_1 4:FORM:che_@mark_6 5:FORM:si_@expl:impers_6 6:FORM:dica_@advcl_3
+      base:    1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:men_@advmod_1 4:FORM:non_@advmod_6 5:FORM:si_@expl:impers_6 6:FORM:dica_@advcl_3
       espansa: 1:UPOS:VERB_@root 2:FORM:in_@case_3 3:FORM:men_@advmod_1 4:FORM:che_@mark_7 5:FORM:non_@advmod_7 6:FORM:si_@expl:impers_7 7:FORM:dica_@advcl_3
 
   [5] score_bg = 47.55  score_lex = 11  (size=6, lexicalized=5)
@@ -1328,12 +1328,12 @@
       espansa: 1:FORM:viene_@root 2:FORM:fuori_@advmod_1 3:FORM:che_@mark_4 4:__@ccomp_1
 
   [2] score_bg = 47.55  score_lex = 5  (size=3, lexicalized=2)
-      base:    1:FORM:viene_@root 2:FORM:fuori_@advmod_1 3:__@ccomp_1
-      espansa: 1:FORM:viene_@root 2:FORM:fuori_@advmod_1 3:FORM:che_@mark_4 4:__@ccomp_1
-
-  [3] score_bg = 47.55  score_lex = 5  (size=3, lexicalized=2)
       base:    1:FORM:viene_@root 2:FORM:che_@mark_3 3:__@ccomp_1
       espansa: 1:FORM:viene_@root 2:UPOS:ADV_@advmod_1 3:FORM:che_@mark_4 4:__@ccomp_1
+
+  [3] score_bg = 47.55  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:viene_@root 2:FORM:fuori_@advmod_1 3:__@ccomp_1
+      espansa: 1:FORM:viene_@root 2:FORM:fuori_@advmod_1 3:FORM:che_@mark_4 4:__@ccomp_1
 
   [4] score_bg = 47.55  score_lex = 4  (size=2, lexicalized=2)
       base:    1:FORM:viene_@root 2:FORM:fuori_@advmod_1
@@ -1679,11 +1679,11 @@
       espansa: 1:UPOS:PRON_@expl_2 2:UPOS:VERB_@root 3:UPOS:VERB_@conj_2 4:FORM:con_@case_5 5:UPOS:NOUN_@obl_3 6:UPOS:VERB_@advcl_2
 
   [3] score_bg = 15.86  score_lex = 6  (size=5, lexicalized=1)
-      base:    1:UPOS:PRON_@expl_2 2:UPOS:VERB_@root 3:UPOS:VERB_@conj_2 4:FORM:con_@case_5 5:UPOS:NOUN_@obl_3
+      base:    1:UPOS:VERB_@root 2:UPOS:VERB_@conj_1 3:FORM:con_@case_4 4:UPOS:NOUN_@obl_2 5:UPOS:VERB_@advcl_1
       espansa: 1:UPOS:PRON_@expl_2 2:UPOS:VERB_@root 3:UPOS:VERB_@conj_2 4:FORM:con_@case_5 5:UPOS:NOUN_@obl_3 6:UPOS:VERB_@advcl_2
 
   [4] score_bg = 15.86  score_lex = 6  (size=5, lexicalized=1)
-      base:    1:UPOS:VERB_@root 2:UPOS:VERB_@conj_1 3:FORM:con_@case_4 4:UPOS:NOUN_@obl_2 5:UPOS:VERB_@advcl_1
+      base:    1:UPOS:PRON_@expl_2 2:UPOS:VERB_@root 3:UPOS:VERB_@conj_2 4:FORM:con_@case_5 5:UPOS:NOUN_@obl_3
       espansa: 1:UPOS:PRON_@expl_2 2:UPOS:VERB_@root 3:UPOS:VERB_@conj_2 4:FORM:con_@case_5 5:UPOS:NOUN_@obl_3 6:UPOS:VERB_@advcl_2
 
   [5] score_bg = 13.86  score_lex = 5  (size=5, lexicalized=0)
@@ -1804,16 +1804,16 @@
       espansa: 1:FORM:non_@advmod_3 2:FORM:c’_@expl_3 3:FORM:è_@root 4:UPOS:NOUN_@nsubj_3 5:FORM:che_@nsubj_6 6:FORM:tenga_@acl:relcl_4
 
   [3] score_bg = 38.05  score_lex = 9  (size=5, lexicalized=4)
-      base:    1:FORM:c’_@expl_2 2:FORM:è_@root 3:UPOS:NOUN_@nsubj_2 4:FORM:che_@nsubj_5 5:FORM:tenga_@acl:relcl_3
-      espansa: 1:UPOS:ADV_@advmod_3 2:FORM:c’_@expl_3 3:FORM:è_@root 4:UPOS:NOUN_@nsubj_3 5:FORM:che_@nsubj_6 6:FORM:tenga_@acl:relcl_4
-
-  [4] score_bg = 38.05  score_lex = 9  (size=5, lexicalized=4)
       base:    1:FORM:non_@advmod_2 2:FORM:è_@root 3:UPOS:NOUN_@nsubj_2 4:FORM:che_@nsubj_5 5:FORM:tenga_@acl:relcl_3
       espansa: 1:FORM:non_@advmod_3 2:FORM:c’_@expl_3 3:FORM:è_@root 4:UPOS:NOUN_@nsubj_3 5:FORM:che_@nsubj_6 6:FORM:tenga_@acl:relcl_4
 
+  [4] score_bg = 38.05  score_lex = 9  (size=5, lexicalized=4)
+      base:    1:FORM:c’_@expl_2 2:FORM:è_@root 3:UPOS:NOUN_@nsubj_2 4:FORM:che_@nsubj_5 5:FORM:tenga_@acl:relcl_3
+      espansa: 1:UPOS:ADV_@advmod_3 2:FORM:c’_@expl_3 3:FORM:è_@root 4:UPOS:NOUN_@nsubj_3 5:FORM:che_@nsubj_6 6:FORM:tenga_@acl:relcl_4
+
   [5] score_bg = 38.05  score_lex = 7  (size=4, lexicalized=3)
-      base:    1:FORM:non_@advmod_3 2:FORM:c’_@expl_3 3:FORM:è_@root 4:UPOS:NOUN_@nsubj_3
-      espansa: 1:FORM:non_@advmod_3 2:FORM:c’_@expl_3 3:FORM:è_@root 4:UPOS:NOUN_@nsubj_3 5:FORM:che_@nsubj_6 6:FORM:tenga_@acl:relcl_4
+      base:    1:FORM:c’_@expl_2 2:FORM:è_@root 3:UPOS:NOUN_@nsubj_2 4:FORM:tenga_@acl:relcl_3
+      espansa: 1:UPOS:ADV_@advmod_3 2:FORM:c’_@expl_3 3:FORM:è_@root 4:UPOS:NOUN_@nsubj_3 5:FORM:che_@nsubj_6 6:FORM:tenga_@acl:relcl_4
 
 
 # cxn_id = cxn_20
@@ -1832,8 +1832,8 @@
       base:    1:FORM:prender_@root 2:FORM:si_@expl_1 3:UPOS:ADP_@case_4 4:__@obl_1
       espansa: 1:FORM:prender_@root 2:FORM:si_@expl_1 3:UPOS:NOUN_@obj_1 4:UPOS:ADP_@case_5 5:__@obl_1
 
-  [4] score_bg = 38.05  score_lex = 5  (size=3, lexicalized=2)
-      base:    1:FORM:prender_@root 2:FORM:si_@expl_1 3:UPOS:NOUN_@obj_1
+  [4] score_bg = 38.05  score_lex = 5  (size=4, lexicalized=1)
+      base:    1:FORM:prender_@root 2:UPOS:NOUN_@obj_1 3:UPOS:ADP_@case_4 4:__@obl_1
       espansa: 1:FORM:prender_@root 2:FORM:si_@expl_1 3:UPOS:NOUN_@obj_1 4:UPOS:ADP_@case_5 5:__@obl_1
 
   [5] score_bg = 38.05  score_lex = 5  (size=3, lexicalized=2)
@@ -1887,8 +1887,8 @@
       espansa: 1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:uno_@det_4 4:FORM:straccio_@obj_2 5:FORM:di_@case_6 6:UPOS:NOUN_@nmod_4
 
   [5] score_bg = 38.05  score_lex = 7  (size=4, lexicalized=3)
-      base:    1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:uno_@det_4 4:FORM:straccio_@obj_2
-      espansa: 1:FORM:non_@advmod_2 2:LEMMA:avere_@root 3:FORM:uno_@det_4 4:FORM:straccio_@obj_2 5:FORM:di_@case_6 6:UPOS:NOUN_@nmod_4
+      base:    1:FORM:uno_@det_2 2:FORM:straccio_@root 3:FORM:di_@case_4 4:UPOS:NOUN_@nmod_2
+      espansa: 1:UPOS:ADV_@advmod_2 2:LEMMA:avere_@root 3:FORM:uno_@det_4 4:FORM:straccio_@obj_2 5:FORM:di_@case_6 6:UPOS:NOUN_@nmod_4
 
 
 # cxn_id = cxn_23
@@ -1911,8 +1911,8 @@
       base:    1:LEMMA:mettere_@root 2:FORM:in_@case_3 3:FORM:chiaro_@obl_1
       espansa: 1:LEMMA:mettere_@root 2:FORM:in_@case_3 3:FORM:chiaro_@obl_1 4:FORM:le_@det_5 5:UPOS:NOUN_@obj_1
 
-  [5] score_bg = 28.54  score_lex = 4  (size=3, lexicalized=1)
-      base:    1:LEMMA:mettere_@root 2:FORM:le_@det_3 3:UPOS:NOUN_@obj_1
+  [5] score_bg = 28.54  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:in_@case_2 2:FORM:chiaro_@root
       espansa: 1:LEMMA:mettere_@root 2:FORM:in_@case_3 3:FORM:chiaro_@obl_1 4:FORM:le_@det_5 5:UPOS:NOUN_@obj_1
 
 
@@ -1958,12 +1958,12 @@
       base:    1:LEMMA:mandare_@root 2:FORM:a_@case_4 3:FORM:l'_@det_4 4:FORM:aria_@obl_1 5:UPOS:NOUN_@obj_1
       espansa: 1:LEMMA:mandare_@root 2:FORM:a_@case_4 3:FORM:l'_@det_4 4:FORM:aria_@obl_1 5:UPOS:DET_@det_6 6:UPOS:NOUN_@obj_1
 
-  [3] score_bg = 47.55  score_lex = 7  (size=5, lexicalized=2)
-      base:    1:LEMMA:mandare_@root 2:FORM:a_@case_3 3:FORM:aria_@obl_1 4:UPOS:DET_@det_5 5:UPOS:NOUN_@obj_1
+  [3] score_bg = 47.55  score_lex = 7  (size=4, lexicalized=3)
+      base:    1:LEMMA:mandare_@root 2:FORM:a_@case_4 3:FORM:l'_@det_4 4:FORM:aria_@obl_1
       espansa: 1:LEMMA:mandare_@root 2:FORM:a_@case_4 3:FORM:l'_@det_4 4:FORM:aria_@obl_1 5:UPOS:DET_@det_6 6:UPOS:NOUN_@obj_1
 
-  [4] score_bg = 47.55  score_lex = 7  (size=4, lexicalized=3)
-      base:    1:LEMMA:mandare_@root 2:FORM:a_@case_4 3:FORM:l'_@det_4 4:FORM:aria_@obl_1
+  [4] score_bg = 47.55  score_lex = 7  (size=5, lexicalized=2)
+      base:    1:LEMMA:mandare_@root 2:FORM:a_@case_3 3:FORM:aria_@obl_1 4:UPOS:DET_@det_5 5:UPOS:NOUN_@obj_1
       espansa: 1:LEMMA:mandare_@root 2:FORM:a_@case_4 3:FORM:l'_@det_4 4:FORM:aria_@obl_1 5:UPOS:DET_@det_6 6:UPOS:NOUN_@obj_1
 
   [5] score_bg = 47.55  score_lex = 7  (size=5, lexicalized=2)
@@ -1987,12 +1987,12 @@
       base:    1:FORM:è_@cop_3 2:FORM:l'_@det_3 3:UPOS:NOUN_@root 4:__@obj_5 5:UPOS:VERB_@acl:relcl_3
       espansa: 1:FORM:è_@cop_4 2:FORM:l'_@det_4 3:LEMMA:ennesimo_@amod_4 4:UPOS:NOUN_@root 5:__@obj_6 6:UPOS:VERB_@acl:relcl_4
 
-  [4] score_bg = 47.55  score_lex = 6  (size=4, lexicalized=2)
-      base:    1:FORM:è_@cop_4 2:FORM:l'_@det_4 3:LEMMA:ennesimo_@amod_4 4:UPOS:NOUN_@root
+  [4] score_bg = 47.55  score_lex = 6  (size=5, lexicalized=1)
+      base:    1:FORM:l'_@det_3 2:LEMMA:ennesimo_@amod_3 3:UPOS:NOUN_@root 4:__@obj_5 5:UPOS:VERB_@acl:relcl_3
       espansa: 1:FORM:è_@cop_4 2:FORM:l'_@det_4 3:LEMMA:ennesimo_@amod_4 4:UPOS:NOUN_@root 5:__@obj_6 6:UPOS:VERB_@acl:relcl_4
 
-  [5] score_bg = 47.55  score_lex = 6  (size=5, lexicalized=1)
-      base:    1:FORM:è_@cop_3 2:LEMMA:ennesimo_@amod_3 3:UPOS:NOUN_@root 4:__@obj_5 5:UPOS:VERB_@acl:relcl_3
+  [5] score_bg = 47.55  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:è_@cop_4 2:FORM:l'_@det_4 3:LEMMA:ennesimo_@amod_4 4:UPOS:NOUN_@root
       espansa: 1:FORM:è_@cop_4 2:FORM:l'_@det_4 3:LEMMA:ennesimo_@amod_4 4:UPOS:NOUN_@root 5:__@obj_6 6:UPOS:VERB_@acl:relcl_4
 
 
@@ -2034,15 +2034,15 @@
       espansa: 1:FORM:a_@case_2 2:FORM:scanso_@obl_5 3:FORM:di_@case_4 4:__@nmod_2 5:UPOS:VERB_@root
 
   [3] score_bg = 47.55  score_lex = 6  (size=4, lexicalized=2)
-      base:    1:FORM:scanso_@obl_4 2:FORM:di_@case_3 3:__@nmod_1 4:UPOS:VERB_@root
-      espansa: 1:FORM:a_@case_2 2:FORM:scanso_@obl_5 3:FORM:di_@case_4 4:__@nmod_2 5:UPOS:VERB_@root
-
-  [4] score_bg = 47.55  score_lex = 6  (size=4, lexicalized=2)
       base:    1:FORM:a_@case_2 2:FORM:scanso_@obl_4 3:__@nmod_2 4:UPOS:VERB_@root
       espansa: 1:FORM:a_@case_2 2:FORM:scanso_@obl_5 3:FORM:di_@case_4 4:__@nmod_2 5:UPOS:VERB_@root
 
+  [4] score_bg = 47.55  score_lex = 6  (size=4, lexicalized=2)
+      base:    1:FORM:scanso_@obl_4 2:FORM:di_@case_3 3:__@nmod_1 4:UPOS:VERB_@root
+      espansa: 1:FORM:a_@case_2 2:FORM:scanso_@obl_5 3:FORM:di_@case_4 4:__@nmod_2 5:UPOS:VERB_@root
+
   [5] score_bg = 47.55  score_lex = 5  (size=3, lexicalized=2)
-      base:    1:FORM:a_@case_2 2:FORM:scanso_@root 3:__@nmod_2
+      base:    1:FORM:scanso_@root 2:FORM:di_@case_3 3:__@nmod_1
       espansa: 1:FORM:a_@case_2 2:FORM:scanso_@obl_5 3:FORM:di_@case_4 4:__@nmod_2 5:UPOS:VERB_@root
 
 
@@ -2100,9 +2100,9 @@
       base:    1:FORM:occhio_@obl_4 2:FORM:e_@cc_3 3:FORM:croce_@conj_1 4:UPOS:VERB_@root
       espansa: 1:FORM:a_@case_2 2:FORM:occhio_@obl_5 3:FORM:e_@cc_4 4:FORM:croce_@conj_2 5:UPOS:VERB_@root
 
-  [5] score_bg = 28.54  score_lex = 6  (size=3, lexicalized=3)
-      base:    1:FORM:occhio_@root 2:FORM:e_@cc_3 3:FORM:croce_@conj_1
-      espansa: 1:FORM:a_@case_2 2:FORM:occhio_@obl_5 3:FORM:e_@cc_4 4:FORM:croce_@conj_2 5:UPOS:VERB_@root
+  [5] score_bg = 28.54  score_lex = 6  (size=6, lexicalized=0)
+      base:    1:UPOS:VERB_@advcl_3 2:UPOS:ADV_@advmod_3 3:UPOS:VERB_@root 4:UPOS:NOUN_@obl_3 5:UPOS:CCONJ_@cc_6 6:UPOS:NOUN_@conj_4
+      espansa: 1:UPOS:VERB_@advcl_3 2:UPOS:ADV_@advmod_3 3:UPOS:VERB_@root 4:UPOS:ADP_@case_5 5:UPOS:NOUN_@obl_3 6:UPOS:CCONJ_@cc_7 7:UPOS:NOUN_@conj_5
 
 
 # cxn_id = cxn_34
@@ -2369,11 +2369,11 @@
       espansa: 1:FORM:hai_@aux_2 2:FORM:scoperto_@root 3:FORM:l'_@det_4 4:__@obj_2
 
   [2] score_bg = 19.03  score_lex = 5  (size=3, lexicalized=2)
-      base:    1:FORM:scoperto_@root 2:FORM:l'_@det_3 3:__@obj_1
+      base:    1:FORM:hai_@aux_2 2:FORM:scoperto_@root 3:__@obj_2
       espansa: 1:FORM:hai_@aux_2 2:FORM:scoperto_@root 3:FORM:l'_@det_4 4:__@obj_2
 
   [3] score_bg = 19.03  score_lex = 5  (size=3, lexicalized=2)
-      base:    1:FORM:hai_@aux_2 2:FORM:scoperto_@root 3:__@obj_2
+      base:    1:FORM:scoperto_@root 2:FORM:l'_@det_3 3:__@obj_1
       espansa: 1:FORM:hai_@aux_2 2:FORM:scoperto_@root 3:FORM:l'_@det_4 4:__@obj_2
 
   [4] score_bg = 19.03  score_lex = 4  (size=2, lexicalized=2)
@@ -2390,7 +2390,7 @@
 # n_frasi = 2
 
   [1] score_bg = 19.03  score_lex = 9  (size=6, lexicalized=3)
-      base:    1:LEMMA:contare_@root 2:FORM:su_@case_3 3:__@obl_1 4:FORM:per_@case_6 5:FORM:l'_@det_6 6:UPOS:NOUN_@obl_1
+      base:    1:LEMMA:contare_@root 2:FORM:per_@case_4 3:FORM:l'_@det_4 4:UPOS:NOUN_@obl_1 5:FORM:di_@case_6 6:UPOS:NOUN_@nmod_4
       espansa: 1:__@nsubj_2 2:LEMMA:contare_@root 3:FORM:su_@case_4 4:__@obl_2 5:FORM:per_@case_7 6:FORM:l'_@det_7 7:UPOS:NOUN_@obl_2 8:FORM:di_@case_10 9:LEMMA:il_@det_10 10:UPOS:NOUN_@nmod_7
 
   [2] score_bg = 19.03  score_lex = 9  (size=6, lexicalized=3)
@@ -2398,15 +2398,15 @@
       espansa: 1:__@nsubj_2 2:LEMMA:contare_@root 3:FORM:su_@case_4 4:__@obl_2 5:FORM:per_@case_7 6:FORM:l'_@det_7 7:UPOS:NOUN_@obl_2 8:FORM:di_@case_10 9:LEMMA:il_@det_10 10:UPOS:NOUN_@nmod_7
 
   [3] score_bg = 19.03  score_lex = 9  (size=6, lexicalized=3)
-      base:    1:LEMMA:contare_@root 2:FORM:per_@case_4 3:FORM:l'_@det_4 4:UPOS:NOUN_@obl_1 5:FORM:di_@case_6 6:UPOS:NOUN_@nmod_4
+      base:    1:LEMMA:contare_@root 2:FORM:su_@case_3 3:__@obl_1 4:FORM:per_@case_6 5:FORM:l'_@det_6 6:UPOS:NOUN_@obl_1
       espansa: 1:__@nsubj_2 2:LEMMA:contare_@root 3:FORM:su_@case_4 4:__@obl_2 5:FORM:per_@case_7 6:FORM:l'_@det_7 7:UPOS:NOUN_@obl_2 8:FORM:di_@case_10 9:LEMMA:il_@det_10 10:UPOS:NOUN_@nmod_7
 
   [4] score_bg = 19.03  score_lex = 8  (size=6, lexicalized=2)
-      base:    1:LEMMA:contare_@root 2:FORM:per_@case_4 3:FORM:l'_@det_4 4:UPOS:NOUN_@obl_1 5:LEMMA:il_@det_6 6:UPOS:NOUN_@nmod_4
+      base:    1:__@nsubj_2 2:LEMMA:contare_@root 3:__@obl_2 4:FORM:per_@case_6 5:FORM:l'_@det_6 6:UPOS:NOUN_@obl_2
       espansa: 1:__@nsubj_2 2:LEMMA:contare_@root 3:FORM:su_@case_4 4:__@obl_2 5:FORM:per_@case_7 6:FORM:l'_@det_7 7:UPOS:NOUN_@obl_2 8:FORM:di_@case_10 9:LEMMA:il_@det_10 10:UPOS:NOUN_@nmod_7
 
   [5] score_bg = 19.03  score_lex = 8  (size=6, lexicalized=2)
-      base:    1:__@nsubj_2 2:LEMMA:contare_@root 3:FORM:l'_@det_4 4:UPOS:NOUN_@obl_2 5:FORM:di_@case_6 6:UPOS:NOUN_@nmod_4
+      base:    1:LEMMA:contare_@root 2:__@obl_1 3:FORM:per_@case_5 4:FORM:l'_@det_5 5:UPOS:NOUN_@obl_1 6:UPOS:NOUN_@nmod_5
       espansa: 1:__@nsubj_2 2:LEMMA:contare_@root 3:FORM:su_@case_4 4:__@obl_2 5:FORM:per_@case_7 6:FORM:l'_@det_7 7:UPOS:NOUN_@obl_2 8:FORM:di_@case_10 9:LEMMA:il_@det_10 10:UPOS:NOUN_@nmod_7
 
 
@@ -2476,8 +2476,8 @@
       base:    1:UPOS:NOUN_@nsubj_2 2:FORM:spinto_@root 3:FORM:a_@mark_4 4:UPOS:VERB_@xcomp_2
       espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@nsubj_4 3:LEMMA:avere_@aux_4 4:FORM:spinto_@root 5:FORM:a_@mark_6 6:UPOS:VERB_@xcomp_4
 
-  [5] score_bg = 47.55  score_lex = 6  (size=4, lexicalized=2)
-      base:    1:LEMMA:avere_@aux_2 2:FORM:spinto_@root 3:FORM:a_@mark_4 4:UPOS:VERB_@xcomp_2
+  [5] score_bg = 47.55  score_lex = 6  (size=5, lexicalized=1)
+      base:    1:UPOS:DET_@det_2 2:UPOS:NOUN_@nsubj_4 3:LEMMA:avere_@aux_4 4:FORM:spinto_@root 5:UPOS:VERB_@xcomp_4
       espansa: 1:UPOS:DET_@det_2 2:UPOS:NOUN_@nsubj_4 3:LEMMA:avere_@aux_4 4:FORM:spinto_@root 5:FORM:a_@mark_6 6:UPOS:VERB_@xcomp_4
 
 
@@ -2577,7 +2577,7 @@
       espansa: 1:LEMMA:avere_@root 2:FORM:la_@det_3 3:FORM:coda_@obj_1 4:FORM:di_@case_5 5:FORM:paglia_@nmod_3
 
   [5] score_bg = 19.03  score_lex = 6  (size=3, lexicalized=3)
-      base:    1:FORM:la_@det_2 2:FORM:coda_@root 3:FORM:paglia_@nmod_2
+      base:    1:FORM:coda_@root 2:FORM:di_@case_3 3:FORM:paglia_@nmod_1
       espansa: 1:LEMMA:avere_@root 2:FORM:la_@det_3 3:FORM:coda_@obj_1 4:FORM:di_@case_5 5:FORM:paglia_@nmod_3
 
 
@@ -2694,11 +2694,11 @@
       espansa: 1:UPOS:VERB_@root 2:FORM:da_@case_4 3:FORM:la_@det_4 4:FORM:voglia_@obl_1 5:FORM:di_@mark_6 6:UPOS:VERB_@acl_4
 
   [4] score_bg = 47.55  score_lex = 8  (size=5, lexicalized=3)
-      base:    1:UPOS:VERB_@root 2:FORM:da_@case_4 3:FORM:la_@det_4 4:FORM:voglia_@obl_1 5:UPOS:VERB_@acl_4
+      base:    1:UPOS:VERB_@root 2:FORM:la_@det_3 3:FORM:voglia_@obl_1 4:FORM:di_@mark_5 5:UPOS:VERB_@acl_3
       espansa: 1:UPOS:VERB_@root 2:FORM:da_@case_4 3:FORM:la_@det_4 4:FORM:voglia_@obl_1 5:FORM:di_@mark_6 6:UPOS:VERB_@acl_4
 
   [5] score_bg = 47.55  score_lex = 8  (size=5, lexicalized=3)
-      base:    1:UPOS:VERB_@root 2:FORM:la_@det_3 3:FORM:voglia_@obl_1 4:FORM:di_@mark_5 5:UPOS:VERB_@acl_3
+      base:    1:UPOS:VERB_@root 2:FORM:da_@case_4 3:FORM:la_@det_4 4:FORM:voglia_@obl_1 5:UPOS:VERB_@acl_4
       espansa: 1:UPOS:VERB_@root 2:FORM:da_@case_4 3:FORM:la_@det_4 4:FORM:voglia_@obl_1 5:FORM:di_@mark_6 6:UPOS:VERB_@acl_4
 
 
@@ -2773,7 +2773,7 @@
       espansa: 1:UPOS:VERB_@root 2:FORM:a_@case_5 3:FORM:più_@advmod_5 4:FORM:non_@advmod_5 5:FORM:posso_@obl_1
 
   [5] score_bg = 28.54  score_lex = 6  (size=3, lexicalized=3)
-      base:    1:FORM:più_@advmod_3 2:FORM:non_@advmod_3 3:FORM:posso_@root
+      base:    1:FORM:a_@case_3 2:FORM:non_@advmod_3 3:FORM:posso_@root
       espansa: 1:UPOS:VERB_@root 2:FORM:a_@case_5 3:FORM:più_@advmod_5 4:FORM:non_@advmod_5 5:FORM:posso_@obl_1
 
 
@@ -2904,19 +2904,19 @@
       espansa: 1:LEMMA:questo_@dislocated_4 2:FORM:me_@obl_4 3:UPOS:PRON_@obj_4 4:FORM:chiami_@root 5:__@xcomp_4
 
   [2] score_bg = 47.55  score_lex = 6  (size=4, lexicalized=2)
-      base:    1:LEMMA:questo_@dislocated_4 2:FORM:me_@obl_4 3:UPOS:PRON_@obj_4 4:FORM:chiami_@root
+      base:    1:FORM:me_@obl_3 2:UPOS:PRON_@obj_3 3:FORM:chiami_@root 4:__@xcomp_3
       espansa: 1:LEMMA:questo_@dislocated_4 2:FORM:me_@obl_4 3:UPOS:PRON_@obj_4 4:FORM:chiami_@root 5:__@xcomp_4
 
   [3] score_bg = 47.55  score_lex = 6  (size=4, lexicalized=2)
-      base:    1:FORM:me_@obl_3 2:UPOS:PRON_@obj_3 3:FORM:chiami_@root 4:__@xcomp_3
+      base:    1:LEMMA:questo_@dislocated_4 2:FORM:me_@obl_4 3:UPOS:PRON_@obj_4 4:FORM:chiami_@root
       espansa: 1:LEMMA:questo_@dislocated_4 2:FORM:me_@obl_4 3:UPOS:PRON_@obj_4 4:FORM:chiami_@root 5:__@xcomp_4
 
   [4] score_bg = 47.55  score_lex = 6  (size=4, lexicalized=2)
       base:    1:LEMMA:questo_@dislocated_3 2:FORM:me_@obl_3 3:FORM:chiami_@root 4:__@xcomp_3
       espansa: 1:LEMMA:questo_@dislocated_4 2:FORM:me_@obl_4 3:UPOS:PRON_@obj_4 4:FORM:chiami_@root 5:__@xcomp_4
 
-  [5] score_bg = 47.55  score_lex = 5  (size=4, lexicalized=1)
-      base:    1:LEMMA:questo_@dislocated_3 2:UPOS:PRON_@obj_3 3:FORM:chiami_@root 4:__@xcomp_3
+  [5] score_bg = 47.55  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:me_@obl_3 2:UPOS:PRON_@obj_3 3:FORM:chiami_@root
       espansa: 1:LEMMA:questo_@dislocated_4 2:FORM:me_@obl_4 3:UPOS:PRON_@obj_4 4:FORM:chiami_@root 5:__@xcomp_4
 
 
@@ -2954,11 +2954,11 @@
       espansa: 1:FORM:e_@cc_3 2:FORM:tu_@nsubj_3 3:UPOS:VERB_@root 4:FORM:che_@mark_7 5:UPOS:VERB_@advcl_7 6:FORM:si_@expl:impers_7 7:UPOS:VERB_@ccomp_3
 
   [2] score_bg = 19.03  score_lex = 9  (size=6, lexicalized=3)
-      base:    1:FORM:e_@cc_3 2:FORM:tu_@nsubj_3 3:UPOS:VERB_@root 4:UPOS:VERB_@advcl_6 5:FORM:si_@expl:impers_6 6:UPOS:VERB_@ccomp_3
+      base:    1:FORM:e_@cc_3 2:FORM:tu_@nsubj_3 3:UPOS:VERB_@root 4:FORM:che_@mark_6 5:UPOS:VERB_@advcl_6 6:UPOS:VERB_@ccomp_3
       espansa: 1:FORM:e_@cc_3 2:FORM:tu_@nsubj_3 3:UPOS:VERB_@root 4:FORM:che_@mark_7 5:UPOS:VERB_@advcl_7 6:FORM:si_@expl:impers_7 7:UPOS:VERB_@ccomp_3
 
   [3] score_bg = 19.03  score_lex = 9  (size=6, lexicalized=3)
-      base:    1:FORM:e_@cc_2 2:UPOS:VERB_@root 3:FORM:che_@mark_6 4:UPOS:VERB_@advcl_6 5:FORM:si_@expl:impers_6 6:UPOS:VERB_@ccomp_2
+      base:    1:FORM:e_@cc_3 2:FORM:tu_@nsubj_3 3:UPOS:VERB_@root 4:UPOS:VERB_@advcl_6 5:FORM:si_@expl:impers_6 6:UPOS:VERB_@ccomp_3
       espansa: 1:FORM:e_@cc_3 2:FORM:tu_@nsubj_3 3:UPOS:VERB_@root 4:FORM:che_@mark_7 5:UPOS:VERB_@advcl_7 6:FORM:si_@expl:impers_7 7:UPOS:VERB_@ccomp_3
 
   [4] score_bg = 19.03  score_lex = 9  (size=6, lexicalized=3)
@@ -2966,7 +2966,7 @@
       espansa: 1:FORM:e_@cc_3 2:FORM:tu_@nsubj_3 3:UPOS:VERB_@root 4:FORM:che_@mark_7 5:UPOS:VERB_@advcl_7 6:FORM:si_@expl:impers_7 7:UPOS:VERB_@ccomp_3
 
   [5] score_bg = 19.03  score_lex = 9  (size=6, lexicalized=3)
-      base:    1:FORM:e_@cc_3 2:FORM:tu_@nsubj_3 3:UPOS:VERB_@root 4:FORM:che_@mark_6 5:UPOS:VERB_@advcl_6 6:UPOS:VERB_@ccomp_3
+      base:    1:FORM:e_@cc_2 2:UPOS:VERB_@root 3:FORM:che_@mark_6 4:UPOS:VERB_@advcl_6 5:FORM:si_@expl:impers_6 6:UPOS:VERB_@ccomp_2
       espansa: 1:FORM:e_@cc_3 2:FORM:tu_@nsubj_3 3:UPOS:VERB_@root 4:FORM:che_@mark_7 5:UPOS:VERB_@advcl_7 6:FORM:si_@expl:impers_7 7:UPOS:VERB_@ccomp_3
 
 
@@ -3021,12 +3021,12 @@
       espansa: 1:FORM:il_@det_2 2:UPOS:NOUN_@nsubj_3 3:UPOS:VERB_@root 4:UPOS:NOUN_@obj_3 5:FORM:a_@case_6 6:UPOS:NOUN_@obl_3
 
   [2] score_bg = 35.94  score_lex = 6  (size=5, lexicalized=1)
-      base:    1:UPOS:NOUN_@nsubj_2 2:UPOS:VERB_@root 3:UPOS:NOUN_@obj_2 4:FORM:a_@case_5 5:UPOS:NOUN_@obl_2
-      espansa: 1:FORM:il_@det_2 2:UPOS:NOUN_@nsubj_3 3:UPOS:VERB_@root 4:UPOS:NOUN_@obj_3 5:FORM:a_@case_6 6:UPOS:NOUN_@obl_3
-
-  [3] score_bg = 35.94  score_lex = 6  (size=5, lexicalized=1)
       base:    1:FORM:il_@det_2 2:UPOS:NOUN_@nsubj_3 3:UPOS:VERB_@root 4:UPOS:NOUN_@obj_3 5:UPOS:NOUN_@obl_3
       espansa: 1:FORM:il_@det_2 2:UPOS:NOUN_@nsubj_3 3:UPOS:VERB_@root 4:UPOS:NOUN_@obj_3 5:UPOS:ADP_@case_6 6:UPOS:NOUN_@obl_3
+
+  [3] score_bg = 35.94  score_lex = 6  (size=5, lexicalized=1)
+      base:    1:UPOS:NOUN_@nsubj_2 2:UPOS:VERB_@root 3:UPOS:NOUN_@obj_2 4:FORM:a_@case_5 5:UPOS:NOUN_@obl_2
+      espansa: 1:FORM:il_@det_2 2:UPOS:NOUN_@nsubj_3 3:UPOS:VERB_@root 4:UPOS:NOUN_@obj_3 5:FORM:a_@case_6 6:UPOS:NOUN_@obl_3
 
   [4] score_bg = 33.51  score_lex = 5  (size=4, lexicalized=1)
       base:    1:FORM:il_@det_2 2:UPOS:NOUN_@nsubj_3 3:UPOS:VERB_@root 4:UPOS:NOUN_@obj_3
@@ -3071,11 +3071,11 @@
       espansa: 1:FORM:essere_@root 2:FORM:in_@case_3 3:FORM:bolletta_@obl_1
 
   [2] score_bg = 47.55  score_lex = 4  (size=2, lexicalized=2)
-      base:    1:FORM:essere_@root 2:FORM:bolletta_@obl_1
+      base:    1:FORM:in_@case_2 2:FORM:bolletta_@root
       espansa: 1:FORM:essere_@root 2:FORM:in_@case_3 3:FORM:bolletta_@obl_1
 
   [3] score_bg = 47.55  score_lex = 4  (size=2, lexicalized=2)
-      base:    1:FORM:in_@case_2 2:FORM:bolletta_@root
+      base:    1:FORM:essere_@root 2:FORM:bolletta_@obl_1
       espansa: 1:FORM:essere_@root 2:FORM:in_@case_3 3:FORM:bolletta_@obl_1
 
   [4] score_bg = 0.00  score_lex = 1  (size=1, lexicalized=0)
@@ -3155,16 +3155,16 @@
       espansa: 1:FORM:non_@advmod_2 2:FORM:stare_@root 3:UPOS:VERB_@advcl_2 4:UPOS:NOUN_@obj_3
 
   [3] score_bg = 19.03  score_lex = 5  (size=3, lexicalized=2)
+      base:    1:FORM:metter_@root 2:FORM:a_@mark_3 3:UPOS:VERB_@xcomp_1
+      espansa: 1:FORM:metter_@root 2:FORM:a_@mark_3 3:UPOS:VERB_@xcomp_1
+
+  [4] score_bg = 19.03  score_lex = 5  (size=3, lexicalized=2)
       base:    1:FORM:non_@advmod_2 2:FORM:stare_@root 3:UPOS:VERB_@advcl_2
       espansa: 1:FORM:non_@advmod_2 2:FORM:stare_@root 3:UPOS:VERB_@advcl_2 4:UPOS:NOUN_@obj_3
 
-  [4] score_bg = 19.03  score_lex = 5  (size=3, lexicalized=2)
+  [5] score_bg = 19.03  score_lex = 5  (size=3, lexicalized=2)
       base:    1:FORM:stare_@root 2:FORM:a_@mark_3 3:UPOS:VERB_@advcl_1
       espansa: 1:FORM:non_@advmod_2 2:FORM:stare_@root 3:FORM:a_@mark_4 4:UPOS:VERB_@advcl_2
-
-  [5] score_bg = 19.03  score_lex = 5  (size=3, lexicalized=2)
-      base:    1:FORM:metter_@root 2:FORM:a_@mark_3 3:UPOS:VERB_@xcomp_1
-      espansa: 1:FORM:metter_@root 2:FORM:a_@mark_3 3:UPOS:VERB_@xcomp_1
 
 
 # cxn_id = cxn_79
@@ -3188,7 +3188,7 @@
       espansa: 1:FORM:menare_@root 2:FORM:il_@det_3 3:FORM:can_@obj_1 4:FORM:per_@case_6 5:FORM:l'_@det_6 6:FORM:aia_@obl_1
 
   [5] score_bg = 47.55  score_lex = 8  (size=4, lexicalized=4)
-      base:    1:FORM:menare_@root 2:FORM:il_@det_3 3:FORM:can_@obj_1 4:FORM:aia_@obl_1
+      base:    1:FORM:menare_@root 2:FORM:per_@case_4 3:FORM:l'_@det_4 4:FORM:aia_@obl_1
       espansa: 1:FORM:menare_@root 2:FORM:il_@det_3 3:FORM:can_@obj_1 4:FORM:per_@case_6 5:FORM:l'_@det_6 6:FORM:aia_@obl_1
 
 
@@ -3286,11 +3286,11 @@
       espansa: 1:FORM:è_@cop_2 2:FORM:ora_@root 3:FORM:di_@mark_4 4:UPOS:VERB_@acl_2
 
   [2] score_bg = 47.55  score_lex = 5  (size=3, lexicalized=2)
-      base:    1:FORM:è_@cop_2 2:FORM:ora_@root 3:UPOS:VERB_@acl_2
+      base:    1:FORM:ora_@root 2:FORM:di_@mark_3 3:UPOS:VERB_@acl_1
       espansa: 1:FORM:è_@cop_2 2:FORM:ora_@root 3:FORM:di_@mark_4 4:UPOS:VERB_@acl_2
 
   [3] score_bg = 47.55  score_lex = 5  (size=3, lexicalized=2)
-      base:    1:FORM:ora_@root 2:FORM:di_@mark_3 3:UPOS:VERB_@acl_1
+      base:    1:FORM:è_@cop_2 2:FORM:ora_@root 3:UPOS:VERB_@acl_2
       espansa: 1:FORM:è_@cop_2 2:FORM:ora_@root 3:FORM:di_@mark_4 4:UPOS:VERB_@acl_2
 
   [4] score_bg = 47.55  score_lex = 4  (size=2, lexicalized=2)
@@ -3328,7 +3328,7 @@
 # n_frasi = 2
 
   [1] score_bg = 19.03  score_lex = 8  (size=6, lexicalized=2)
-      base:    1:FORM:visto_@advcl_6 2:FORM:che_@mark_4 3:UPOS:ADV_@advmod_4 4:UPOS:VERB_@ccomp_1 5:UPOS:ADV_@advmod_6 6:__@root
+      base:    1:FORM:visto_@advcl_6 2:FORM:che_@mark_4 3:LEMMA:essere_@aux_4 4:UPOS:VERB_@ccomp_1 5:UPOS:ADV_@advmod_6 6:__@root
       espansa: 1:FORM:visto_@advcl_7 2:FORM:che_@mark_5 3:UPOS:ADV_@advmod_5 4:LEMMA:essere_@aux_5 5:UPOS:VERB_@ccomp_1 6:UPOS:ADV_@advmod_7 7:__@root
 
   [2] score_bg = 19.03  score_lex = 8  (size=6, lexicalized=2)
@@ -3336,15 +3336,15 @@
       espansa: 1:FORM:visto_@advcl_7 2:FORM:che_@mark_5 3:UPOS:ADV_@advmod_5 4:LEMMA:essere_@aux_5 5:UPOS:VERB_@ccomp_1 6:UPOS:ADV_@advmod_7 7:__@root
 
   [3] score_bg = 19.03  score_lex = 8  (size=6, lexicalized=2)
-      base:    1:FORM:visto_@advcl_6 2:FORM:che_@mark_4 3:LEMMA:essere_@aux_4 4:UPOS:VERB_@ccomp_1 5:UPOS:ADV_@advmod_6 6:__@root
+      base:    1:FORM:visto_@advcl_6 2:FORM:che_@mark_4 3:UPOS:ADV_@advmod_4 4:UPOS:VERB_@ccomp_1 5:UPOS:ADV_@advmod_6 6:__@root
       espansa: 1:FORM:visto_@advcl_7 2:FORM:che_@mark_5 3:UPOS:ADV_@advmod_5 4:LEMMA:essere_@aux_5 5:UPOS:VERB_@ccomp_1 6:UPOS:ADV_@advmod_7 7:__@root
 
-  [4] score_bg = 19.03  score_lex = 7  (size=5, lexicalized=2)
-      base:    1:FORM:visto_@advcl_5 2:FORM:che_@mark_4 3:LEMMA:essere_@aux_4 4:UPOS:VERB_@ccomp_1 5:__@root
-      espansa: 1:FORM:visto_@advcl_7 2:FORM:che_@mark_5 3:UPOS:ADV_@advmod_5 4:LEMMA:essere_@aux_5 5:UPOS:VERB_@ccomp_1 6:UPOS:ADV_@advmod_7 7:__@root
-
-  [5] score_bg = 19.03  score_lex = 7  (size=6, lexicalized=1)
+  [4] score_bg = 19.03  score_lex = 7  (size=6, lexicalized=1)
       base:    1:FORM:visto_@advcl_6 2:UPOS:ADV_@advmod_4 3:LEMMA:essere_@aux_4 4:UPOS:VERB_@ccomp_1 5:UPOS:ADV_@advmod_6 6:__@root
+      espansa: 1:FORM:visto_@advcl_7 2:FORM:che_@mark_5 3:UPOS:ADV_@advmod_5 4:LEMMA:essere_@aux_5 5:UPOS:VERB_@ccomp_1 6:UPOS:ADV_@advmod_7 7:__@root
+
+  [5] score_bg = 19.03  score_lex = 7  (size=5, lexicalized=2)
+      base:    1:FORM:visto_@advcl_5 2:FORM:che_@mark_4 3:LEMMA:essere_@aux_4 4:UPOS:VERB_@ccomp_1 5:__@root
       espansa: 1:FORM:visto_@advcl_7 2:FORM:che_@mark_5 3:UPOS:ADV_@advmod_5 4:LEMMA:essere_@aux_5 5:UPOS:VERB_@ccomp_1 6:UPOS:ADV_@advmod_7 7:__@root
 
 
@@ -3416,15 +3416,15 @@
       espansa: 1:FORM:aver_@root 2:FORM:ce_@expl_1 3:FORM:la_@obj_1 4:FORM:con_@case_5 5:__@obl_1
 
   [2] score_bg = 28.54  score_lex = 7  (size=4, lexicalized=3)
-      base:    1:FORM:aver_@root 2:FORM:la_@obj_1 3:FORM:con_@case_4 4:__@obl_1
+      base:    1:FORM:aver_@root 2:FORM:ce_@expl_1 3:FORM:la_@obj_1 4:__@obl_1
       espansa: 1:FORM:aver_@root 2:FORM:ce_@expl_1 3:FORM:la_@obj_1 4:FORM:con_@case_5 5:__@obl_1
 
   [3] score_bg = 28.54  score_lex = 7  (size=4, lexicalized=3)
-      base:    1:FORM:aver_@root 2:FORM:ce_@expl_1 3:FORM:con_@case_4 4:__@obl_1
+      base:    1:FORM:aver_@root 2:FORM:la_@obj_1 3:FORM:con_@case_4 4:__@obl_1
       espansa: 1:FORM:aver_@root 2:FORM:ce_@expl_1 3:FORM:la_@obj_1 4:FORM:con_@case_5 5:__@obl_1
 
   [4] score_bg = 28.54  score_lex = 7  (size=4, lexicalized=3)
-      base:    1:FORM:aver_@root 2:FORM:ce_@expl_1 3:FORM:la_@obj_1 4:__@obl_1
+      base:    1:FORM:aver_@root 2:FORM:ce_@expl_1 3:FORM:con_@case_4 4:__@obl_1
       espansa: 1:FORM:aver_@root 2:FORM:ce_@expl_1 3:FORM:la_@obj_1 4:FORM:con_@case_5 5:__@obl_1
 
   [5] score_bg = 28.54  score_lex = 6  (size=3, lexicalized=3)
@@ -3616,12 +3616,12 @@
       base:    1:LEMMA:fare_@root 2:FORM:le_@det_3 3:FORM:ossa_@obj_1
       espansa: 1:LEMMA:fare_@root 2:UPOS:PRON_@expl_1 3:FORM:le_@det_4 4:FORM:ossa_@obj_1
 
-  [3] score_bg = 28.54  score_lex = 4  (size=2, lexicalized=2)
-      base:    1:FORM:le_@det_2 2:FORM:ossa_@root
+  [3] score_bg = 28.54  score_lex = 4  (size=3, lexicalized=1)
+      base:    1:LEMMA:fare_@root 2:UPOS:PRON_@expl_1 3:FORM:ossa_@obj_1
       espansa: 1:LEMMA:fare_@root 2:UPOS:PRON_@expl_1 3:FORM:le_@det_4 4:FORM:ossa_@obj_1
 
-  [4] score_bg = 28.54  score_lex = 4  (size=3, lexicalized=1)
-      base:    1:LEMMA:fare_@root 2:UPOS:PRON_@expl_1 3:FORM:ossa_@obj_1
+  [4] score_bg = 28.54  score_lex = 4  (size=2, lexicalized=2)
+      base:    1:FORM:le_@det_2 2:FORM:ossa_@root
       espansa: 1:LEMMA:fare_@root 2:UPOS:PRON_@expl_1 3:FORM:le_@det_4 4:FORM:ossa_@obj_1
 
   [5] score_bg = 28.54  score_lex = 3  (size=2, lexicalized=1)

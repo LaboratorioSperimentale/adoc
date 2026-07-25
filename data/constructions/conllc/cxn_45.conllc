@@ -1,13 +1,13 @@
 # cxn_id = cxn_45
 # cxn_name = V (Contare) + Prep(su/sul/sulla...) + N/Pronpers cxn-machine-readable-formalization: | cxn_45.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	_	_	_	B	nsubj	_
-B	_	contare	VERB	Mood=Ind|Number=Sing|VerbForm=Fin	0	root	_
-C	su	su	ADP	_	D	case	_
-D	_	_	_	_	B	obl	_
-E	per	per	ADP	_	G	case	_
-F	l'	il	DET	Definite=Def|Number=Sing|PronType=Art	G	det	_
-G	_	_	NOUN	Number=Sing	B	obl	_
-H	di	di	ADP	_	J	case	_
-I	_	il	DET	Definite=Def|Number=Sing|PronType=Art	J	det	_
-J	_	_	NOUN	Number=Sing	G	nmod	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	_	_	_	_	B	nsubj	_	_	_	_	_
+B	_	contare	VERB	Mood=Ind|Number=Sing|VerbForm=Fin	0	root	_	_	_	_	_
+C	su	su	ADP	_	D	case	_	_	_	_	_
+D	_	_	_	_	B	obl	_	_	_	_	_
+E	per	per	ADP	_	G	case	_	_	_	_	_
+F	l'	il	DET	Definite=Def|Number=Sing|PronType=Art	G	det	_	_	_	_	_
+G	_	_	NOUN	Number=Sing	B	obl	_	_	_	_	_
+H	di	di	ADP	_	J	case	_	_	_	_	_
+I	_	il	DET	Definite=Def|Number=Sing|PronType=Art	J	det	_	_	_	_	_
+J	_	_	NOUN	Number=Sing	G	nmod	_	_	_	_	_

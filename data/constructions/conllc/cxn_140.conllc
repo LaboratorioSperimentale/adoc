@@ -1,5 +1,5 @@
 # cxn_id = cxn_140
 # cxn_name = Piace/piacciono cxn-machine-readable-formalization: | cxn_140.conllc
-# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	_	_	_	B	iobj	_
-B	_	piacere	VERB	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	_	_	_	_	B	iobj	_	_	_	_	_
+B	_	piacere	VERB	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_	_	_	_
