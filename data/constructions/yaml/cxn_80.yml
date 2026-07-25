@@ -60,6 +60,9 @@ examples:
 	- cxn_80_example_3.txt
 	- cxn_80_example_4.txt
 	- cxn_80_example_5.txt
+	- cxn_161_example_1.txt
+	- cxn_161_example_2.txt
+	- cxn_161_example_3.txt
 
 note: |
 	-

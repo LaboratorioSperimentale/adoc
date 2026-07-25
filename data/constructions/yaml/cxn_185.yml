@@ -1,0 +1,52 @@
+cxn-id: |
+    185
+
+name: WITH-pattern Cognate Object Construction
+
+cxn-machine-readable: cxn_185.conllc
+
+definition: >
+    argument structure construction in which an intransitive verb combines with a prepositional object introduced by "con" that is either morphologically or semantically cognate to the verb
+
+restrictions: the object needs to be morphologically or semantically cognate to the verb
+
+coll-preferences:
+
+usage:
+    - Formal
+    - Informal
+    - Written
+    - Standard
+
+form-tags:
+    - cc:cxn:argument-complex-predicate
+
+function-tags:
+
+complexity-level:
+    - clause
+
+category-tags:
+    - verb
+    - noun
+
+schematicity: fully schematic
+
+horizontal-links:
+    - 149
+    - 151
+vertical-links:
+
+examples:
+    - itTENTEN20_1506607
+    - itTENTEN20_924906
+
+cefr-level:
+
+references:
+    - mellonimasini2017cognate
+
+collector: LuciaBusso
+
+note:
+

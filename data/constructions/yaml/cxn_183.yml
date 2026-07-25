@@ -1,0 +1,56 @@
+cxn-id: |
+    183
+
+name: sia X che Y
+
+cxn-machine-readable: cxn_183.conllc
+
+definition: |
+    Coordination between two properties or entities: the speaker wants to include both in a concept.
+
+restrictions: |
+    X and Y may be NOUNS, ADJ or ADV (but they must have the same UPOS and same features). Even V-INF are permitted, if nominal.
+
+coll-preferences:
+
+usage:
+    - Formal
+    - Informal
+    - Spoken
+    - Written
+    - Standard
+
+form-tags:
+    #- exocentric
+    #- cc:str:compounding
+
+function-tags:
+    #- professional nouns
+
+complexity-level:
+    - phrase
+
+category-tags:
+    - noun
+    - adjective
+    - adverb
+    - v-inf
+
+schematicity: fully schematic
+
+horizontal-links:
+vertical-links:
+
+examples:
+    - tut-3121
+    - ItTenten20_19072024_SM
+
+cefr-level:
+
+references:
+    #- Micheli2020composizione
+
+
+collector: leosanpietro
+
+note:

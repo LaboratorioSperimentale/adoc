@@ -63,6 +63,16 @@ examples:
 	- cxn_84_example_3.txt
 	- cxn_84_example_4.txt
 	- cxn_84_example_5.txt
+	- cxn_127_example_1.txt
+	- cxn_127_example_2.txt
+	- cxn_127_example_3.txt
+	- cxn_127_example_4.txt
+	- cxn_127_example_5.txt
+	- cxn_135_example_1.txt
+	- cxn_135_example_2.txt
+	- cxn_135_example_3.txt
+	- cxn_135_example_4.txt
+	- cxn_135_example_5.txt
 
 note: |
 	-

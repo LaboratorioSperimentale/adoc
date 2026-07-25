@@ -58,6 +58,11 @@ examples:
 	- cxn_159_example_3.txt
 	- cxn_159_example_4.txt
 	- cxn_159_example_5.txt
+	- cxn_172_example_1.txt
+	- cxn_172_example_2.txt
+	- cxn_172_example_3.txt
+	- cxn_172_example_4.txt
+	- cxn_172_example_5.txt
 
 note: |
 	-

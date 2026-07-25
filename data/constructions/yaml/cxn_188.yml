@@ -1,0 +1,40 @@
+cxn-id: |
+    188
+
+name: mettersi a V
+
+cxn-machine-readable: cxn_188.conllc
+
+definition:
+
+restrictions:
+
+coll-preferences:
+
+usage:
+
+form-tags:
+
+function-tags:
+
+complexity-level:
+    - phrase
+
+category-tags:
+    - verb
+
+schematicity: partially filled/schematic
+
+horizontal-links:
+vertical-links:
+
+examples:
+    - 2_Paisà_FP06072024
+
+cefr-level:
+
+references:
+
+collector: ellepannitto
+
+note:

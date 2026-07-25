@@ -1,0 +1,10 @@
+# cxn_id = 184
+# name = V in malo modo
+# function = 
+# horizontal_links = 
+# vertical_links =
+# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY										
+A	_	_	VERB    _	0	root	1	_	_	_   _   _
+B	in	in	ADP	_	D	case	1	_   _   _   _   _
+C	malo	malo	ADJ	Gender=Masc|Number=Sing	D	amod	1	_   _   _   B   _
+D	modo	modo	NOUN	Gender=Masc|Number=Sing	A	obl	1	_	_   _   C   _
