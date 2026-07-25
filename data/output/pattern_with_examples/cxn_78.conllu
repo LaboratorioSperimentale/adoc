@@ -1,0 +1,94 @@
+# sent_id = cxn_78
+# text = non stare a _
+# form = non stare a VERB
+1	non	non	ADV	_	_	2	advmod	_	OrigID=A
+2	stare	stare	VERB	_	_	0	root	_	OrigID=B
+3	a	a	ADP	_	_	4	mark	_	OrigID=C
+4	_	_	VERB	_	_	2	advcl	_	OrigID=D
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_78_example_1_1
+# text = Sì, per me va benissimo.
+# tags = CONTEXT
+1	Sì	sì	INTJ	I	Polarity=Pos	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+5	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	benissimo	bene	ADV	B	Degree=Abs	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+
+# source = CORIS
+# sent_id = cxn_78_example_1_2
+# text = Ma non stare a metterti a cucinare, semmai ordiniamo delle pizze.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	SpacesAfter=_
+2	non	non	ADV	B	_	3	advmod	_	CXN=78:A
+3	stare	stare	VERB	V	VerbForm=Inf	0	root	_	CXN=78:B
+4	a	a	ADP	E	_	5	mark	_	CXN=78:C
+5-6	metterti	_	_	_	_	_	_	_	_
+5	metter	mettere	VERB	V	VerbForm=Inf	3	advcl	_	CXN=78:D
+6	ti	ti	PRON	PC	Number=Sing|Person=2|PronType=Prs	5	expl	_	Clitic=Yes
+7	a	a	ADP	E	_	8	mark	_	_
+8	cucinare	cucinare	VERB	V	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	semmai	semmai	ADV	B	_	11	advmod	_	_
+11	ordiniamo	ordinare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+12	delle	del	DET	_	Gender=Fem|Number=Plur	13	case	_	_
+13	pizze	pizza	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_78_example_2_1
+# text = Che te ne frega della coerenza, o di quello che dice Pepe.
+# tags = CONTEXT
+1	Che	che	PRON	PQ	_	4	obj	_	_
+2	te	te	PRON	PC	Number=Sing|Person=2|PronType=Prs	4	iobj	_	Clitic=Yes
+3	ne	ne	PRON	PC	PronType=Prs	4	obl	_	Clitic=Yes
+4	frega	fregare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	della	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	coerenza	coerenza	NOUN	S	Gender=Fem|Number=Sing	4	dislocated	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	o	o	CCONJ	CC	_	11	cc	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	conj	_	_
+12	che	che	PRON	PR	PronType=Rel	13	obj	_	_
+13	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	Pepe	Pepe	PROPN	SP	_	13	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+
+# source = CORIS
+# sent_id = cxn_78_example_2_2
+# text = Vai ora, non stare a perdere tempo, aggiungi donna a donna, e non metterti a contare
+1	Vai	andare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ora	ora	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	CXN=78:A
+5	stare	stare	VERB	V	VerbForm=Inf	1	conj	_	CXN=78:B
+6	a	a	ADP	V	_	7	mark	_	CXN=78:C
+7	perdere	perdere	VERB	V	VerbForm=Inf	5	advcl	_	CXN=78:D
+8	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	aggiungi	aggiungere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	conj	_	_
+11	donna	donna	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	donna	donna	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+17-18	metterti	_	_	_	_	_	_	_	_
+17	metter	mettere	VERB	V	VerbForm=Inf	1	conj	_	_
+18	ti	ti	PRON	PC	Number=Sing|Person=2|PronType=Prs	17	obj	_	Clitic=Yes
+19	a	a	ADP	E	_	20	mark	_	_
+20	contare	contare	VERB	V	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
+

@@ -1,0 +1,233 @@
+# sent_id = cxn_183
+# text = sia _
+# form = sia _
+1	sia	sia	CCONJ	_	_	2	cc	_	OrigID=A|LinearOrder=Variable
+2	_	_	_	_	_	0	root	_	OrigID=B
+
+# sent_id = VIT-4364
+# text = La richiesta di trasferimento per compensazione sarà presa in considerazione solo se l'interessato ha espresso, per la stessa provincia richiesta per compensazione, la preferenza sintetica relativa alla provincia e quella relativa alla dotazione aggiuntiva, se ha dichiarato nell'apposita sezione e) del modulo domanda, di accettare il trasferimento anche per cattedre orarie esterne, con completamento sia in sede che fuori sede, e per corsi serali.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	trasferimento	trasferimento	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	compensazione	compensazione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	aux:pass	_	_
+8	presa	prendere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	considerazione	considerazione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	solo	solo	ADV	B	ExtPos=SCONJ	16	mark	_	_
+12	se	se	SCONJ	CS	_	11	fixed	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	interessato	interessato	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+15	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	espresso	esprimere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	ccomp	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	per	per	ADP	E	_	21	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+21	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+22	richiesta	richiedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	advcl	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	compensazione	compensazione	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	16	punct	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	preferenza	preferenza	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+28	sintetica	sintetico	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+29	relativa	relativo	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+30-31	alla	_	_	_	_	_	_	_	_
+30	a	a	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	provincia	provincia	NOUN	S	Gender=Fem|Number=Sing	29	obl	_	_
+33	e	e	CCONJ	CC	_	34	cc	_	_
+34	quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	27	conj	_	_
+35	relativa	relativo	ADJ	A	Gender=Fem|Number=Sing	34	amod	_	_
+36-37	alla	_	_	_	_	_	_	_	_
+36	a	a	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	dotazione	dotazione	NOUN	S	Gender=Fem|Number=Sing	35	obl	_	_
+39	aggiuntiva	aggiuntivo	ADJ	A	Gender=Fem|Number=Sing	38	amod	_	SpaceAfter=No
+40	,	,	PUNCT	FF	_	43	punct	_	_
+41	se	se	SCONJ	CS	_	43	mark	_	_
+42	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	_
+43	dichiarato	dichiarare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
+44-45	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+44	in	in	ADP	E	_	47	case	_	_
+45	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	47	det	_	_
+46	apposita	apposito	ADJ	A	Gender=Fem|Number=Sing	47	amod	_	_
+47	sezione	sezione	NOUN	S	Gender=Fem|Number=Sing	43	obl	_	_
+48	e	e	NOUN	S	_	47	compound	_	SpaceAfter=No
+49	)	)	PUNCT	FB	_	48	punct	_	_
+50-51	del	_	_	_	_	_	_	_	_
+50	di	di	ADP	E	_	52	case	_	_
+51	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	_
+52	modulo	modulo	NOUN	S	Gender=Masc|Number=Sing	47	nmod	_	_
+53	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	52	compound	_	SpaceAfter=No
+54	,	,	PUNCT	FF	_	43	punct	_	_
+55	di	di	ADP	E	_	56	mark	_	_
+56	accettare	accettare	VERB	V	VerbForm=Inf	43	ccomp	_	_
+57	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+58	trasferimento	trasferimento	NOUN	S	Gender=Masc|Number=Sing	56	obj	_	_
+59	anche	anche	ADV	B	_	61	advmod	_	_
+60	per	per	ADP	E	_	61	case	_	_
+61	cattedre	cattedra	NOUN	S	Gender=Fem|Number=Plur	56	obl	_	_
+62	orarie	orario	ADJ	A	Gender=Fem|Number=Plur	61	amod	_	_
+63	esterne	esterno	ADJ	A	Gender=Fem|Number=Plur	61	amod	_	SpaceAfter=No
+64	,	,	PUNCT	FF	_	61	punct	_	_
+65	con	con	ADP	E	_	66	case	_	_
+66	completamento	completamento	NOUN	S	Gender=Masc|Number=Sing	61	nmod	_	CXN=183:B
+67	sia	sia	CCONJ	CC	_	66	cc	_	CXN=183:A
+68	in	in	ADP	E	_	69	case	_	_
+69	sede	sede	NOUN	S	Gender=Fem|Number=Sing	66	nmod	_	_
+70	che	che	CCONJ	CC	_	72	cc	_	_
+71	fuori	fuori	ADP	E	_	72	case	_	_
+72	sede	sede	NOUN	S	Gender=Fem|Number=Sing	69	conj	_	SpaceAfter=No
+73	,	,	PUNCT	FF	_	76	punct	_	_
+74	e	e	CCONJ	CC	_	76	cc	_	_
+75	per	per	ADP	E	_	76	case	_	_
+76	corsi	corso	NOUN	S	Gender=Masc|Number=Plur	61	conj	_	_
+77	serali	serale	ADJ	A	Number=Plur	76	amod	_	SpaceAfter=No
+78	.	.	PUNCT	FS	_	8	punct	_	_
+
+
+# sent_id = VIT-4480
+# text = Gli Insegnanti utilizzati nelle attività di tirocinio presso le scuole magistrali statali ai sensi e con gli effetti dell'o m, n. 239 del 31/8/1983 che, pertanto, hanno conservato la titolarità sulla scuola, possono, invece, partecipare sia ai trasferimenti che alle assegnazioni provvisorie.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Insegnanti	Insegnanti	PROPN	SP	_	47	nsubj	_	_
+3	utilizzati	utilizzare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	nelle	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	attività	attività	NOUN	S	Gender=Fem	3	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	tirocinio	tirocinio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	presso	presso	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+12	magistrali	magistrale	ADJ	A	Number=Plur	11	amod	_	_
+13	statali	statale	ADJ	A	Number=Plur	11	amod	_	_
+14-15	ai	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	sensi	senso	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	effetti	effetto	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	_
+21-22	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+21	di	di	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	o	ordinanza	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	_
+24	m	ministeriale	ADJ	A	Number=Sing	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	23	punct	_	_
+26	n.	numero	NOUN	S	_	23	nmod	_	_
+27	239	239	NUM	N	NumType=Card	26	nummod	_	_
+28-29	del	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	30	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	31/8/1983	31/8/1983	NUM	N	NumType=Card	23	nmod	_	_
+31	che	che	PRON	PR	PronType=Rel	36	nsubj	_	SpaceAfter=No
+32	,	,	PUNCT	FF	_	36	punct	_	_
+33	pertanto	pertanto	ADV	B	_	36	advmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	36	punct	_	_
+35	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	aux	_	_
+36	conservato	conservare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	titolarità	titolarità	NOUN	S	Gender=Fem	36	obj	_	_
+39-40	sulla	_	_	_	_	_	_	_	_
+39	su	su	ADP	E	_	41	case	_	_
+40	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	41	det	_	_
+41	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	38	nmod	_	SpaceAfter=No
+42	,	,	PUNCT	FF	_	47	punct	_	_
+43	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	47	aux	_	SpaceAfter=No
+44	,	,	PUNCT	FF	_	47	punct	_	_
+45	invece	invece	ADV	B	_	47	advmod	_	SpaceAfter=No
+46	,	,	PUNCT	FF	_	47	punct	_	_
+47	partecipare	partecipare	VERB	V	VerbForm=Inf	0	root	_	_
+48	sia	sia	CCONJ	CC	_	51	cc	_	CXN=183:A
+49-50	ai	_	_	_	_	_	_	_	_
+49	a	a	ADP	E	_	51	case	_	_
+50	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	51	det	_	_
+51	trasferimenti	trasferimento	NOUN	S	Gender=Masc|Number=Plur	47	obl	_	CXN=183:B
+52	che	che	CCONJ	CC	_	55	cc	_	_
+53-54	alle	_	_	_	_	_	_	_	_
+53	a	a	ADP	E	_	55	case	_	_
+54	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	55	det	_	_
+55	assegnazioni	assegnazione	NOUN	S	Gender=Fem|Number=Plur	51	conj	_	_
+56	provvisorie	provvisorio	ADJ	A	Gender=Fem|Number=Plur	55	amod	_	SpaceAfter=No
+57	.	.	PUNCT	FS	_	47	punct	_	_
+
+
+# sent_id = BOA1009_48_50
+# text = perché comunque sia la professoressa rossi che la professoressa verdi sia la mia scuola della lingua dei segni qua a bologna mi possono dare una mano quindi comunque materliali bibliografie cose
+# jefferson_text = [p]erché comunque sia la professoressa rossi che la professoressa verdi (.) sia la mia scuola della lingua dei segni qua a bologna mi possono dare una mano [quindi] comunque, | materliali bibliograf[ie cose],
+# speaker_id = BO037
+1	perché	perché	SCONJ	_	_	26	discourse	_	Begin=109.891|KID=48-0|OverlappingGroup=23
+2	comunque	comunque	ADV	_	_	26	discourse	_	KID=48-1
+3	sia	sia	CCONJ	_	_	5	cc	_	KID=48-2|CXN=183:A
+4	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	KID=48-3
+5	professoressa	professore	NOUN	_	Gender=Fem|Number=Sing	26	nsubj	_	KID=48-4|CXN=183:B
+6	rossi	Rossi	PROPN	_	Gender=Masc|Number=Plur	5	flat:name	_	KID=48-5
+7	che	che	CCONJ	_	PronType=Rel	9	cc	_	KID=48-6
+8	la	la	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	iobj	_	Clitic=Yes|KID=48-7
+9	professoressa	professoressare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	KID=48-8
+10	verdi	Verdi	PROPN	_	Gender=Masc|Number=Plur	9	flat:name	_	KID=48-9|PauseAfter=Yes
+11	sia	essere	CCONJ	_	_	14	cc	_	KID=48-11
+12	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	KID=48-12
+13	mia	mio	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	KID=48-13
+14	scuola	scuola	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	KID=48-14
+15-16	della	_	_	_	_	_	_	_	KID=48-15
+15	di	di	ADP	_	_	17	case	_	KID=48-15a
+16	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	KID=48-15b
+17	lingua	lingua	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	KID=48-16
+18-19	dei	_	_	_	_	_	_	_	KID=48-17
+18	di	di	ADP	_	_	20	case	_	KID=48-17a
+19	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	KID=48-17b
+20	segni	segno	NOUN	_	Gender=Masc|Number=Plur	17	nmod	_	KID=48-18
+21	qua	qua	ADV	_	_	23	advmod	_	KID=48-19
+22	a	a	ADP	_	_	23	case	_	KID=48-20
+23	bologna	Bologna	PROPN	_	Gender=Fem|Number=Sing	20	nmod	_	KID=48-21
+24	mi	mi	PRON	_	Number=Sing|Person=1|PronType=Prs	26	iobj	_	Clitic=Yes|KID=48-22
+25	possono	potere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	KID=48-23
+26	dare	dare	VERB	_	VerbForm=Inf	0	root	_	KID=48-24
+27	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	28	det	_	KID=48-25
+28	mano	mano	NOUN	_	Gender=Fem|Number=Sing	26	obj	_	KID=48-26
+29	quindi	quindi	ADV	_	_	26	advmod	_	KID=48-27|OverlappingGroup=24
+30	comunque	comunque	ADV	_	_	26	advmod	_	End=117.735|Intonation=WeaklyRising|KID=48-28
+31	materliali	materliale	NOUN	_	Gender=Fem|Number=Plur	26	obl	_	Begin=117.848|KID=50-0
+32	bibliografie	bibliografio	ADJ	_	Gender=Fem|Number=Plur	31	conj	_	KID=50-1|OverlappingGroup=25
+33	cose	cosa	NOUN	_	Gender=Fem|Number=Plur	31	conj	_	End=119.87|Intonation=WeaklyRising|KID=50-2|OverlappingGroup=25
+
+
+# sent_id = BOA1009_152
+# text = e da quel punto di vista comunque ho tutto il materiale della scuola di lingua dei segni di insegnanti sia sordi che udenti
+# jefferson_text = [e d]a quel [punto di vi]sta comunque ho tutto il materiale della scuola di lingua dei segni di insegnanti: sia sordi c[he udenti].
+# speaker_id = BO037
+1	e	e	CCONJ	_	_	8	cc	_	Begin=375.778|KID=152-0|OverlappingGroup=78
+2	da	da	ADP	_	_	4	case	_	KID=152-1|OverlappingGroup=78
+3	quel	quello	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	KID=152-2
+4	punto	punto	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	KID=152-3|OverlappingGroup=79
+5	di	di	ADP	_	_	6	case	_	KID=152-4|OverlappingGroup=79
+6	vista	vista	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	KID=152-5|OverlappingGroup=79
+7	comunque	comunque	ADV	_	_	8	advmod	_	KID=152-6
+8	ho	avere	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	KID=152-7
+9	tutto	tutto	DET	_	Gender=Masc|Number=Sing|PronType=Tot	11	det	_	KID=152-8
+10	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	KID=152-9
+11	materiale	materiale	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	KID=152-10
+12-13	della	_	_	_	_	_	_	_	KID=152-11
+12	di	di	ADP	_	_	14	case	_	KID=152-11a
+13	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	KID=152-11b
+14	scuola	scuola	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	KID=152-12
+15	di	di	ADP	_	_	16	case	_	KID=152-13
+16	lingua	lingua	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	KID=152-14
+17-18	dei	_	_	_	_	_	_	_	KID=152-15
+17	di	di	ADP	_	_	19	case	_	KID=152-15a
+18	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	KID=152-15b
+19	segni	segno	NOUN	_	Gender=Masc|Number=Plur	16	nmod	_	KID=152-16
+20	di	di	ADP	_	_	21	case	_	KID=152-17
+21	insegnanti	insegnante	NOUN	_	Number=Plur	11	nmod	_	KID=152-18|Prolonged=Yes
+22	sia	sia	CCONJ	_	_	23	cc	_	KID=152-19|CXN=183:A
+23	sordi	sordare	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	amod	_	KID=152-20|CXN=183:B
+24	che	che	CCONJ	_	_	25	cc	_	KID=152-21|OverlappingGroup=80
+25	udenti	udente	ADJ	_	Number=Plur	23	conj	_	End=382.226|Intonation=Falling|KID=152-22|OverlappingGroup=80
+

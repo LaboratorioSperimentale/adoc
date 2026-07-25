@@ -1,0 +1,268 @@
+# sent_id = cxn_80
+# text = _ su _
+# form = _ su NOUN
+1	_	_	_	_	_	0	root	_	OrigID=A
+2	su	su	ADP	_	_	3	case	_	OrigID=B
+3	_	_	NOUN	_	_	1	nmod	_	OrigID=C
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_80_example_1_1
+# text = continua ad accumulare errori su errori
+1	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ad	a	ADP	E	_	3	mark	_	_
+3	accumulare	accumulare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	errori	errore	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	CXN=80:A
+5	su	su	ADP	E	_	6	case	_	CXN=80:B
+6	errori	errore	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No|CXN=80:C
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_80_example_2_1
+# text = sono due anni che faccio esami su esami al colon
+1	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	che	che	SCONJ	CS	_	5	obl	_	_
+5	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	esami	esame	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	CXN=80:A
+7	su	su	ADP	E	_	8	case	_	CXN=80:B
+8	esami	esame	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	CXN=80:C
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	colon	colon	NOUN	S	Gender=Masc	8	nmod	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_80_example_3_1
+# text = ricevo in continuazione libri su libri
+1	ricevo	ricevere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	continuazione	continuazione	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+4	libri	libro	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	CXN=80:A
+5	su	su	ADP	E	_	6	case	_	CXN=80:B
+6	libri	libro	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No|CXN=80:C
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_80_example_4_1
+# text = comincerà a far domande su domande
+1	comincerà	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3	far	fare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	CXN=80:A
+5	su	su	ADP	E	_	6	case	_	CXN=80:B
+6	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No|CXN=80:C
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_80_example_5_1_2
+# text = La logica pretende di farla da padrona e queste sono le inevitabili conseguenze: odio su odio.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	logica	logica	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	pretende	pretendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	farla	_	_	_	_	_	_	_	_
+5	far	fare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	la	la	PRON	PC	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	Clitic=Yes
+7	da	da	ADP	E	_	8	case	_	_
+8	padrona	padrona	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	e	e	CCONJ	CC	_	14	cc	_	_
+10	queste	questo	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	14	nsubj	_	_
+11	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	inevitabili	inevitabile	ADJ	A	Number=Plur	14	amod	_	_
+14	conseguenze	conseguenza	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	16	punct	_	_
+16	odio	odiare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	parataxis	_	CXN=80:A
+17	su	su	ADP	E	_	18	case	_	CXN=80:B
+18	odio	odio	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No|CXN=80:C
+19	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS2021
+# sent_id = cxn_161_example_1_1
+# text = È stata forse Miuccia Prada a portare definitivamente la tendenza sotto gli occhi di tutti con la sua recente sfilata donna per il prossimo autunno/inverno:
+# tags = CONTEXT
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
+3	forse	forse	ADV	B	_	4	advmod	_	_
+4	Miuccia	Miuccia	PROPN	SP	_	0	root	_	_
+5	Prada	Prada	PROPN	SP	_	4	flat:name	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	portare	portare	VERB	V	VerbForm=Inf	4	acl	_	_
+8	definitivamente	definitivamente	ADV	B	_	7	advmod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	tendenza	tendenza	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+11	sotto	sotto	ADP	E	_	13	case	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	13	nmod	_	_
+16	con	con	ADP	E	_	20	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+18	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+19	recente	recente	ADJ	A	Number=Sing	20	amod	_	_
+20	sfilata	sfilata	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+21	donna	donna	NOUN	S	Gender=Fem|Number=Sing	20	compound	_	_
+22	per	per	ADP	E	_	25	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+25	autunno	autunno	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+26	/	/	PUNCT	FF	_	25	punct	_	SpaceAfter=No
+27	inverno	inverno	NOUN	S	Gender=Masc|Number=Sing	25	conj	_	SpaceAfter=No
+28	:	:	PUNCT	FC	_	4	punct	_	_
+
+
+# source = CORIS2021
+# sent_id = cxn_161_example_1_2
+# text = ha ricoperto i revers di giacche e spolverini di struzzo con enormi spille di bachelite e strass color sorbetto, dando così la stura a centinaia di post a tema sui social media e a pagine su pagine sulle riviste di tutto il mondo che improvvisamente si sono accorte del trend.
+1	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	ricoperto	ricoprire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	revers	revers	NOUN	S	Gender=Masc	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	giacche	giacca	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	spolverini	spolverino	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	struzzo	struzzo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	enormi	enorme	ADJ	A	Number=Plur	13	amod	_	_
+13	spille	spilla	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	bachelite	bachelita	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	strass	strass	NOUN	S	Gender=Masc	13	conj	_	_
+18	color	colui	NOUN	S	Gender=Masc|Number=Sing	17	compound	_	_
+19	sorbetto	sorbetto	NOUN	A	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	21	punct	_	_
+21	dando	dare	VERB	V	VerbForm=Ger	2	advcl	_	_
+22	così	così	ADV	B	_	21	advmod	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	stura	stura	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	_
+25	a	a	ADP	E	_	26	case	_	_
+26	centinaia	centinaio	NOUN	S	Gender=Fem|Number=Plur	21	iobj	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	post	posta	NOUN	S	Gender=Fem|Number=Plur	26	nmod	_	CXN=80:A
+29	a	a	ADP	E	_	30	case	_	_
+30	tema	tema	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	_
+31-32	sui	_	_	_	_	_	_	_	_
+31	su	su	ADP	E	_	34	case	_	CXN=80:B
+32	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+33	social	sociale	ADJ	A	_	34	amod	_	_
+34	media	media	NOUN	S	Gender=Masc|Number=Plur	28	nmod	_	CXN=80:C
+35	e	e	CCONJ	CC	_	37	cc	_	_
+36	a	a	ADP	E	_	37	case	_	_
+37	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	26	conj	_	_
+38	su	su	ADP	E	_	39	case	_	_
+39	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	37	nmod	_	_
+40-41	sulle	_	_	_	_	_	_	_	_
+40	su	su	ADP	E	_	42	case	_	_
+41	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	42	det	_	_
+42	riviste	rivista	NOUN	S	Gender=Fem|Number=Plur	37	nmod	_	_
+43	di	di	ADP	E	_	46	case	_	_
+44	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	46	det:predet	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	42	nmod	_	_
+47	che	che	PRON	PR	PronType=Rel	51	nsubj	_	_
+48	improvvisamente	improvvisamente	ADV	B	_	51	advmod	_	_
+49	si	si	PRON	PC	Person=3|PronType=Prs	51	expl	_	Clitic=Yes
+50	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	51	aux	_	_
+51	accorte	accorgere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	42	acl:relcl	_	_
+52-53	del	_	_	_	_	_	_	_	_
+52	di	di	ADP	E	_	54	case	_	_
+53	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	trend	trend	NOUN	S	Gender=Masc	51	obl	_	SpaceAfter=No
+55	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS2021
+# sent_id = cxn_161_example_2_1
+# text = E, al contrario, il mister argentino continua ad accumulare errori su errori, cambiando ogni settimana le carte in tavola, senza trovare, naturalmente, il rimedio.
+1	E	e	CCONJ	CC	_	10	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	5	punct	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	contrario	contrario	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	mister	mister	NOUN	S	Gender=Masc	10	nsubj	_	_
+9	argentino	argentino	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+10	continua	continuare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	ad	a	ADP	E	_	12	mark	_	_
+12	accumulare	accumulare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	errori	errore	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	CXN=80:A
+14	su	su	ADP	E	_	15	case	_	CXN=80:B
+15	errori	errore	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No|CXN=80:C
+16	,	,	PUNCT	FF	_	12	punct	_	_
+17	cambiando	cambiare	VERB	V	VerbForm=Ger	12	advcl	_	_
+18	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	19	det	_	_
+19	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	carte	carta	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	tavola	tavola	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	senza	senza	ADP	E	_	26	mark	_	_
+26	trovare	trovare	VERB	V	VerbForm=Inf	17	advcl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	naturalmente	naturalmente	ADV	B	_	26	advmod	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	28	punct	_	_
+30	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	rimedio	rimedio	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	10	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS2021
+# sent_id = cxn_161_example_3_1
+# text = Harry trangugiava un bicchiere fresco dopo l'altro, ordinando caraffe su caraffe, convinto che sapessero tutte di alcol da massaggi.
+1	Harry	Harry	PROPN	SP	_	2	nsubj	_	_
+2	trangugiava	trangugiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	bicchiere	bicchiere	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	fresco	fresco	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	dopo	dopo	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	ordinando	ordinare	VERB	V	VerbForm=Ger	2	advcl	_	_
+11	caraffe	caraffa	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	CXN=80:A
+12	su	su	ADP	E	_	13	case	_	CXN=80:B
+13	caraffe	caraffa	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No|CXN=80:C
+14	,	,	PUNCT	FF	_	10	punct	_	_
+15	convinto	convinto	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+16	che	che	SCONJ	CS	_	17	mark	_	_
+17	sapessero	sapere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	15	ccomp	_	_
+18	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	17	nsubj	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	alcol	alcol	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+21	da	da	ADP	E	_	22	case	_	_
+22	massaggi	massaggio	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+

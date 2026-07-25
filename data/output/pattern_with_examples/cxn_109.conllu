@@ -1,0 +1,144 @@
+# sent_id = cxn_109
+# text = a discapito di _
+# form = a discapito di _
+1	a	a	ADP	_	_	2	case	_	OrigID=A
+2	discapito	discapito	NOUN	_	_	0	root	_	OrigID=B
+3	di	di	ADP	_	_	4	case	_	OrigID=C
+4	_	_	_	_	_	2	nmod	_	OrigID=D
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = PAISA'
+# sent_id = cxn_109_example_1_1
+# text = A partire dal 1999 cominciò il declino del club del principato a discapito di società più forti come il FC Santa Coloma ed il Sant Julià.
+1	A	a	ADP	E	_	2	mark	_	SpacesAfter=_
+2	partire	partire	VERB	V	VerbForm=Inf	6	advcl	_	SpacesAfter=_
+3-4	dal	_	_	_	_	_	_	_	SpacesAfter=_
+3	da	da	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	1999	1999	NUM	N	NumType=Card	2	obl	_	SpacesAfter=_
+6	cominciò	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpacesAfter=_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	SpacesAfter=_
+8	declino	declino	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	SpacesAfter=_
+9-10	del	_	_	_	_	_	_	_	SpacesAfter=_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	club	club	NOUN	S	Gender=Masc	8	nmod	_	SpacesAfter=_
+12-13	del	_	_	_	_	_	_	_	SpacesAfter=_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	principato	principato	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpacesAfter=_
+15	a	a	ADP	E	_	16	case	_	SpacesAfter=_|CXN=109:A
+16	discapito	discapito	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpacesAfter=_|CXN=109:B
+17	di	di	ADP	E	_	18	case	_	SpacesAfter=_|CXN=109:C
+18	società	società	NOUN	S	Gender=Fem	16	nmod	_	SpacesAfter=_|CXN=109:D
+19	più	più	ADV	B	_	20	advmod	_	SpacesAfter=_
+20	forti	forte	ADJ	A	Number=Plur	18	amod	_	SpacesAfter=_
+21	come	come	ADP	E	_	23	case	_	SpacesAfter=_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	SpacesAfter=_
+23	FC	FC	PROPN	SP	_	18	nmod	_	SpacesAfter=_
+24	Santa	Santa	PROPN	SP	_	23	flat:name	_	SpacesAfter=_
+25	Coloma	Coloma	PROPN	SP	_	23	flat:name	_	SpacesAfter=_
+26	ed	e	CCONJ	CC	_	28	cc	_	SpacesAfter=_
+27	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	SpacesAfter=_
+28	Sant	Sant	PROPN	SP	_	23	conj	_	SpacesAfter=_
+29	Julià	Julià	PROPN	SP	_	28	flat:name	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = PAISA'
+# sent_id = cxn_109_example_2_1
+# text = Un altro argomento a discapito della sua teoria è che non è conosciuto nessun corso abbastanza lungo di un ghiacciaio che all'epoca avrebbe potuto trasportare delle pietre dalle colline alla pianura di Salisbury dove Stonehenge è stata costruita.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	altro	altro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	argomento	argomento	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+4	a	a	ADP	E	_	5	case	_	CXN=109:A
+5	discapito	discapito	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	CXN=109:B
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	CXN=109:C
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	teoria	teoria	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	CXN=109:D
+10	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	che	che	SCONJ	CS	_	14	mark	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	conosciuto	conoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	ccomp	_	_
+15	nessun	nessuno	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	16	det	_	_
+16	corso	corso	NOUN	S	Gender=Masc|Number=Sing	14	nsubj:pass	_	_
+17	abbastanza	abbastanza	ADV	B	_	18	advmod	_	_
+18	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	ghiacciaio	ghiacciaio	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+22	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+23-24	all'	_	_	_	_	_	_	_	SpaceAfter=No
+23	a	a	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	epoca	epoca	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+26	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+27	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	aux	_	_
+28	trasportare	trasportare	VERB	V	VerbForm=Inf	21	acl:relcl	_	_
+29-30	delle	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	pietre	pietra	NOUN	S	Gender=Fem|Number=Plur	28	obj	_	_
+32-33	dalle	_	_	_	_	_	_	_	_
+32	da	da	ADP	E	_	34	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	colline	collina	NOUN	S	Gender=Fem|Number=Plur	28	obl	_	_
+35-36	alla	_	_	_	_	_	_	_	_
+35	a	a	ADP	E	_	37	case	_	_
+36	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
+37	pianura	pianura	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+38	di	di	ADP	E	_	39	case	_	_
+39	Salisbury	Salisbury	PROPN	SP	_	37	nmod	_	_
+40	dove	dove	ADV	B	_	44	advmod	_	_
+41	Stonehenge	Stonehenge	PROPN	SP	_	44	nsubj:pass	_	_
+42	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	_
+43	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	44	aux:pass	_	_
+44	costruita	costruire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	37	acl:relcl	_	SpaceAfter=No
+45	.	.	PUNCT	FS	_	10	punct	_	_
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = PAISA'
+# sent_id = cxn_109_example_3_1
+# text = In breve tempo Rahvin divenne il vero sovrano, riempiendo la corte ed il regno di suoi fedeli servitori, a discapito di quelli fedeli alla regina.
+1	In	in	ADP	E	_	3	case	_	_
+2	breve	breve	ADJ	A	Number=Sing	3	amod	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	Rahvin	Rahvin	PROPN	SP	_	5	nsubj	_	_
+5	divenne	divenire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	vero	vero	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	sovrano	sovrano	NOUN	S	Gender=Masc|Number=Sing	5	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	riempiendo	riempire	VERB	V	VerbForm=Ger	5	advcl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	corte	corte	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	ed	e	CCONJ	CC	_	15	cc	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	regno	regno	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	_
+18	fedeli	fedele	ADJ	A	Number=Plur	19	amod	_	_
+19	servitori	servitore	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	a	a	ADP	E	_	22	case	_	CXN=109:A
+22	discapito	discapito	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	CXN=109:B
+23	di	di	ADP	E	_	24	case	_	CXN=109:C
+24	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	22	nmod	_	CXN=109:D
+25	fedeli	fedele	ADJ	A	Number=Plur	24	amod	_	_
+26-27	alla	_	_	_	_	_	_	_	_
+26	a	a	ADP	E	_	28	case	_	_
+27	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	regina	regina	NOUN	S	Gender=Fem|Number=Sing	25	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	_
+

@@ -1,0 +1,43 @@
+# sent_id = cxn_6
+# text = parlare a _ _
+# form = parlare a il NOUN
+1	parlare	parlare	VERB	_	_	0	root	_	OrigID=A
+2	a	a	ADP	_	_	4	case	_	OrigID=B
+3	_	il	DET	_	_	4	det	_	OrigID=C
+4	_	_	NOUN	_	_	1	obl	_	OrigID=D
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_6_example_1_1
+# text = Parlare al muro
+1	Parlare	parlare	VERB	V	VerbForm=Inf	0	root	_	CXN=6:A
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	CXN=6:B
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	CXN=6:C
+4	muro	muro	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|CXN=6:D
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_6_example_2_1
+# text = Parlare al vento
+1	Parlare	parlare	VERB	V	VerbForm=Inf	0	root	_	CXN=6:A
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	CXN=6:B
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	CXN=6:C
+4	vento	vento	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|CXN=6:D
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_6_example_3_1
+# text = Parlare ai sordi
+1	Parlare	parlare	VERB	V	VerbForm=Inf	0	root	_	CXN=6:A
+2-3	ai	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	CXN=6:B
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	CXN=6:C
+4	sordi	sordo	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No|CXN=6:D
+

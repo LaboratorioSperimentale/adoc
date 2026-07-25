@@ -1,0 +1,76 @@
+# sent_id = cxn_19
+# text = _ far _ a _
+# form = ADP far VERB a NOUN
+1	_	_	ADP	_	_	2	mark	_	OrigID=A
+2	far	fare	VERB	_	_	0	root	_	OrigID=B
+3	_	_	VERB	_	_	2	ccomp	_	OrigID=C
+4	a	a	ADP	_	_	5	case	_	OrigID=D
+5	_	_	NOUN	_	_	3	obl	_	OrigID=E
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_19_example_1_1
+# text = Anzi, visto che ci sei, va' a casa a far ammirare a tua madre la nuova pettinatura
+1	Anzi	anzi	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	ci	ci	PRON	PC	PronType=Prs	6	expl	_	Clitic=Yes
+6	sei	essere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	va'	andare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	casa	casa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	a	a	ADP	E	_	12	mark	_	CXN=19:A
+12	far	fare	VERB	V	VerbForm=Inf	8	xcomp	_	CXN=19:B
+13	ammirare	ammirare	VERB	V	VerbForm=Inf	12	ccomp	_	CXN=19:C
+14	a	a	ADP	E	_	16	case	_	CXN=19:D
+15	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	madre	madre	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	CXN=19:E
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+19	pettinatura	pettinatura	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_19_example_2_1
+# text = Tenevano tutti in mano la macchina fotografica o la videocamera che puntavano in continuazione a destra e sinistra nel tentativo di ottenere immagini esclusive da far vedere agli amici
+1	Tenevano	tenere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	nsubj	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	mano	mano	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+7	fotografica	fotografico	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	o	o	CCONJ	CC	_	10	cc	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	videocamera	videocamera	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	_
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	puntavano	puntare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	continuazione	continuazione	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	destra	destra	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	sinistra	sinistra	NOUN	S	Gender=Fem|Number=Sing	16	conj	_	_
+19-20	nel	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+22	di	di	ADP	E	_	23	mark	_	_
+23	ottenere	ottenere	VERB	V	VerbForm=Inf	21	acl	_	_
+24	immagini	immagine	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	_
+25	esclusive	esclusivo	ADJ	A	Gender=Fem|Number=Plur	24	amod	_	_
+26	da	da	ADP	E	_	27	mark	_	CXN=19:A
+27	far	fare	VERB	V	VerbForm=Inf	24	acl	_	CXN=19:B
+28	vedere	vedere	VERB	V	VerbForm=Inf	27	ccomp	_	CXN=19:C
+29-30	agli	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	31	case	_	CXN=19:D
+30	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	amici	amico	NOUN	S	Gender=Masc|Number=Plur	28	obl	_	CXN=19:E
+

@@ -25,9 +25,9 @@
 3	quanto	quanto	ADV	B	_	5	advmod	_	_
 4	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	5	iobj	_	Clitic=Yes
 5	tocca	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	aspettare	aspettare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+6	aspettare	aspettare	VERB	V	VerbForm=Inf	5	csubj	_	_
 7	per	per	ADP	E	_	8	mark	_	_
-8	sapere	sapere	VERB	V	VerbForm=Inf	6	advcl	_	_
+8	sapere	sapere	VERB	V	VerbForm=Inf	5	advcl	_	_
 9	come	come	ADV	CS	_	10	mark	_	_
 10	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
 11	a	a	ADP	E	_	12	mark	_	_
@@ -77,7 +77,7 @@
 2	ci	ci	PRON	PC	PronType=Prs	4	iobj	_	Clitic=Yes
 3	sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
 4	toccato	toccare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
-5	uscire	uscire	VERB	V	VerbForm=Inf	4	xcomp	_	_
+5	uscire	uscire	VERB	V	VerbForm=Inf	4	csubj	_	_
 6-7	col	_	_	_	_	_	_	_	_
 6	con	con	ADP	E	_	8	case	_	_
 7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -96,7 +96,7 @@
 4	chiusa	chiudere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	FF	_	6	punct	_	_
 6	tocca	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
-7	stare	stare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+7	stare	stare	VERB	V	VerbForm=Inf	6	csubj	_	_
 8	ancora	ancora	ADV	B	_	7	advmod	_	_
 9	a	a	ADP	E	_	10	case	_	_
 10	casa	casa	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
@@ -125,7 +125,7 @@
 9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
 10	gli	gli	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	Clitic=Yes
 11	tocca	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
-12	scrivere	scrivere	VERB	V	VerbForm=Inf	11	xcomp	_	_
+12	scrivere	scrivere	VERB	V	VerbForm=Inf	11	csubj	_	_
 13-14	sul	_	_	_	_	_	_	_	_
 13	su	su	ADP	E	_	16	case	_	_
 14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -188,9 +188,9 @@
 8	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	che	che	SCONJ	CS	_	12	mark	_	_
 10	a	a	ADP	E	_	11	case	_	_
-11	Davide	Davide	PROPN	SP	_	12	iobj	_	_
+11	Davide	Davide	PROPN	SP	_	12	obl	_	_
 12	toccherà	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	ccomp	_	_
-13	portare	portare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+13	portare	portare	VERB	V	VerbForm=Inf	12	csubj	_	_
 14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
 15	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
 16	e	e	CCONJ	CC	_	17	cc	_	_
@@ -216,7 +216,6 @@
 # sent_id = CORIS_MONITOR2011_13
 # source = . https://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=49889918&End=49889920 2129015
 # text = Ci mettevo un mucchio di tempo a decidere, come fanno i bambini di cinque anni con i gusti del gelato, e il lunedì mi toccava digiunare tutto il giorno, per smaltire l'abbuffata.
-# status = TO_CHECK
 1	Ci	ci	PRON	PC	Number=Plur|Person=1|PronType=Prs	2	expl	_	Clitic=Yes
 2	mettevo	mettere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -246,13 +245,13 @@
 26	lunedì	lunedì	NOUN	S	Gender=Masc	28	obl	_	_
 27	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	28	iobj	_	Clitic=Yes
 28	toccava	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj	_	_
-29	digiunare	digiunare	VERB	V	VerbForm=Inf	28	xcomp	_	_
+29	digiunare	digiunare	VERB	V	VerbForm=Inf	28	csubj	_	_
 30	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	32	det:predet	_	_
 31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
 32	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
 33	,	,	PUNCT	FF	_	29	punct	_	_
 34	per	per	ADP	E	_	35	mark	_	_
-35	smaltire	smaltire	VERB	V	VerbForm=Inf	29	advcl	_	_
+35	smaltire	smaltire	VERB	V	VerbForm=Inf	28	advcl	_	_
 36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	SpaceAfter=No
 37	abbuffata	abbuffata	NOUN	S	Gender=Fem|Number=Sing	35	obj	_	SpaceAfter=No
 38	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
@@ -260,7 +259,6 @@
 # sent_id = isst_tanl-679
 # source = http://hdl.handle.net/11234/1-5502 UD_Italian-ISDT/it_isdt-ud-train isst_tanl-679
 # text = Toccava a me indicare la relatrice per la legge sulla violenza femminile.
-# status = TO_CHECK
 1	Toccava	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	0:root	_
 2	a	a	ADP	E	_	3	case	3:case	_
 3	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	1	obl	1:obl:a	_
@@ -286,7 +284,7 @@
 # status = TO_CHECK
 1	Quindi	quindi	CCONJ	CC	_	2	cc	_	_
 2	tocca	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	smettere	smettere	VERB	V	VerbForm=Inf	2	ccomp	_	_
+3	smettere	smettere	VERB	V	VerbForm=Inf	2	csubj	_	_
 4	di	di	ADP	E	_	5	mark	_	_
 5-6	lamentarsi	_	_	_	_	_	_	_	_
 5	lamentar	lamentare	VERB	V	VerbForm=Inf	3	xcomp	_	_

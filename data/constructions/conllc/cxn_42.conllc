@@ -2,5 +2,5 @@
 # cxn_name = X(v) + prep. + X(n) cxn-machine-readable-formalization: | cxn_42.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	essere	essere	AUX	VerbForm=Inf	0	root	_	_	_	_	_
-B	_	_	ADP	_	C	case	_	_	_	_	_
-C	_	_	NOUN	_	A	obl	_	_	_	_	_
+B	_	_	ADP	_	C	case	_	A	_	_	_
+C	_	_	NOUN	_	A	obl	_	B	_	_	_

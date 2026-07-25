@@ -2,5 +2,5 @@
 # cxn_name = neanche per + N(sogno/idea/scherzo) cxn-machine-readable-formalization: | cxn_34.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	neanche	neanche	ADV	PronType=Neg	C	advmod	_	_	_	_	_
-B	per	per	ADP	_	C	case	_	_	_	_	_
-C	_	_	NOUN	Number=Sing	0	root	_	_	_	_	_
+B	per	per	ADP	_	C	case	_	A	_	_	_
+C	_	_	NOUN	Number=Sing	0	root	_	B	_	_	_

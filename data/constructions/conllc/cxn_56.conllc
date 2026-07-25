@@ -2,5 +2,5 @@
 # cxn_name = apriti + N (cielo/terra/sesamo) cxn-machine-readable-formalization: | cxn_56.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	apri	_	VERB	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_	_	_	_
-B	ti	ti	PRON	Number=Sing|Person=2|PronType=Prs	A	obj	_	_	_	_	_
-C	_	_	NOUN	Number=Sing	A	vocative	_	_	_	_	_
+B	ti	ti	PRON	Number=Sing|Person=2|PronType=Prs	A	obj	_	A	_	_	_
+C	_	_	NOUN	Number=Sing	A	vocative	_	B	_	_	_

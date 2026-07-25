@@ -2,6 +2,6 @@
 # cxn_name = N/PronPers + Congcoord + compagnia bella cxn-machine-readable-formalization: | cxn_39.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	_	_	_	_	0	root	_	_	_	_	_
-B	e	e	CCONJ	_	C	cc	_	_	_	_	_
-C	compagnia	compagnia	NOUN	Gender=Fem|Number=Sing	A	conj	_	_	_	_	_
-D	bella	bello	ADJ	Gender=Fem|Number=Sing	C	amod	_	_	_	_	_
+B	e	e	CCONJ	_	C	cc	_	A	_	_	_
+C	compagnia	compagnia	NOUN	Gender=Fem|Number=Sing	A	conj	_	B	_	_	_
+D	bella	bello	ADJ	Gender=Fem|Number=Sing	C	amod	_	C	_	_	_

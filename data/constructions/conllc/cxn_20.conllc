@@ -2,7 +2,7 @@
 # cxn_name = prendersi + N+Prep +N/V/Pron cxn-machine-readable-formalization: | cxn_20.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	prender	prendere	VERB	VerbForm=Inf	0	root	_	_	_	_	_
-B	si	si	PRON	Person=3|PronType=Prs	A	expl	_	_	_	_	_
-C	_	_	NOUN	Number=Sing	A	obj	_	_	_	_	_
-D	_	_	ADP	_	E	case	_	_	_	_	_
+B	si	si	PRON	Person=3|PronType=Prs	A	expl	_	A	_	_	_
+C	_	_	NOUN	Number=Sing	A	obj	_	B	_	_	_
+D	_	_	ADP	_	E	case	_	C	_	_	_
 E	_	_	_	Gender=Masc|Number=Sing	A	obl	_	_	_	_	_

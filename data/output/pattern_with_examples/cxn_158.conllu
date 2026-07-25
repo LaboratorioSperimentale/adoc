@@ -1,0 +1,120 @@
+# sent_id = cxn_158
+# text = _ _
+# form = essere VERB
+1	_	essere	AUX	_	_	2	aux:pass	_	OrigID=A
+2	_	_	VERB	_	_	0	root	_	OrigID=B
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_158_example_1_1
+# text = Nel 1991 è stato nominato direttore
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	1991	1991	NUM	N	NumType=Card	6	obl	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux:pass	_	CXN=158:A
+6	nominato	nominare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	CXN=158:B
+7	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	6	xcomp	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_158_example_2_1
+# text = Il privilegio più importante fu rappresentato dall' onore di fornire gli uomini per la guardia capitolina
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	privilegio	privilegio	NOUN	S	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	importante	importante	ADJ	A	Number=Sing	2	amod	_	_
+5	fu	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	CXN=158:A
+6	rappresentato	rappresentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	CXN=158:B
+7-8	dall'	_	_	_	_	_	_	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	onore	onore	NOUN	S	Gender=Masc|Number=Sing	6	obl:agent	_	_
+10	di	di	ADP	E	_	11	mark	_	_
+11	fornire	fornire	VERB	V	VerbForm=Inf	9	acl	_	_
+12	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	guardia	guardia	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	capitolina	capitolino	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_158_example_3_1
+# text = Il blindato è stato distrutto dall' esplosione di un ordigno non identificato
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	blindato	blindato	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	CXN=158:A
+5	distrutto	distruggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	CXN=158:B
+6-7	dall'	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	esplosione	esplosione	NOUN	S	Gender=Fem|Number=Sing	5	obl:agent	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ordigno	ordigno	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	identificato	identificare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_158_example_4_1
+# text = Il testo delle note qui pubblicato è stato redatto dall' amministrazione competente
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	testo	testo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	note	nota	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	qui	qui	ADV	B	_	7	advmod	_	_
+7	pubblicato	pubblicato	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	aux:pass	_	CXN=158:A
+10	redatto	redigere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	CXN=158:B
+11-12	dall'	_	_	_	_	_	_	_	_
+11	da	da	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	amministrazione	amministrazione	NOUN	S	Gender=Fem|Number=Sing	10	obl:agent	_	_
+14	competente	competente	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_158_example_5_1
+# text = Gli indici così individuati devono essere forniti dall' ISTAT all' Agenzia delle entrate
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	indici	indice	NOUN	S	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+3	così	così	ADV	B	_	4	advmod	_	_
+4	individuati	individuato	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+5	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	essere	essere	AUX	VA	VerbForm=Inf	7	aux:pass	_	CXN=158:A
+7	forniti	fornire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	CXN=158:B
+8-9	dall'	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	ISTAT	ISTAT	PROPN	SP	_	7	obl:agent	_	_
+11-12	all'	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	Agenzia	Agenzia	PROPN	SP	_	7	iobj	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	entrate	entrata	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+

@@ -1,0 +1,200 @@
+# sent_id = cxn_28
+# text = _ a l' aria _ _
+# form = mandare a l' aria DET NOUN
+1	_	mandare	VERB	_	_	0	root	_	OrigID=A
+2	a	a	ADP	_	_	4	case	_	OrigID=B
+3	l'	il	DET	_	_	4	det	_	OrigID=C
+4	aria	aria	NOUN	_	_	1	obl	_	OrigID=D
+5	_	_	DET	_	_	6	det	_	OrigID=E
+6	_	_	NOUN	_	_	1	obj	_	OrigID=F
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ITALIAN WEB 2016 (ITTENTEN16) Sketch Engine
+# sent_id = cxn_28_example_1_1
+# text = In fondo è bastato negli ultimi concorsi il sorteggio dei commissari per mandare all' aria le strategie e gli accordi stipulati.
+1	In	in	ADP	E	_	2	case	_	_
+2	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	bastato	bastare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	negli	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	8	amod	_	_
+8	concorsi	concorso	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	sorteggio	sorteggio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	commissari	commissario	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	mandare	mandare	VERB	V	VerbForm=Inf	4	advcl	_	CXN=28:A
+16-17	all'	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	CXN=28:B
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	CXN=28:C
+18	aria	aria	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	CXN=28:D
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	CXN=28:E
+20	strategie	strategia	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	CXN=28:F
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+23	accordi	accordo	NOUN	S	Gender=Masc|Number=Plur	20	conj	_	_
+24	stipulati	stipulato	ADJ	A	Gender=Masc|Number=Plur	23	amod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=_
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ITALIAN WEB 2016 (ITTENTEN16) Sketch Engine
+# sent_id = cxn_28_example_2_1
+# text = Potrete mangiare fuori tutte le volte che vorrete senza dover rinunciare agli inviti fuori casa per paura di mandare all' aria la dieta.
+1	Potrete	potere	AUX	VM	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	2	aux	_	_
+2	mangiare	mangiare	VERB	V	VerbForm=Inf	0	root	_	_
+3	fuori	fuori	ADV	B	_	2	advmod	_	_
+4	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	6	det:predet	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	volte	volta	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	8	obl	_	_
+8	vorrete	vlere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	6	acl:relcl	_	_
+9	senza	senza	ADP	E	_	11	mark	_	_
+10	dover	dovere	AUX	VM	VerbForm=Inf	11	aux	_	_
+11	rinunciare	rinunciare	VERB	V	VerbForm=Inf	8	advcl	_	_
+12-13	agli	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	inviti	invito	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+15	fuori	fuori	ADP	E	_	16	case	_	_
+16	casa	casa	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	per	per	ADP	E	_	18	case	_	_
+18	paura	paura	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	mandare	mandare	VERB	V	VerbForm=Inf	18	acl	_	CXN=28:A
+21-22	all'	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	CXN=28:B
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	CXN=28:C
+23	aria	aria	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	CXN=28:D
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	CXN=28:E
+25	dieta	dieta	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No|CXN=28:F
+26	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ITALIAN WEB 2016 (ITTENTEN16) Sketch Engine
+# sent_id = cxn_28_example_3_1
+# text = Si preannunciava l'arrivo di 300-400 ultrà serbi con l'obiettivo infiltrarsi tra gli altri tifosi e mandare all' aria la partita.
+1	Si	si	PRON	PC	Person=3|PronType=Prs	2	expl	_	Clitic=Yes
+2	preannunciava	preannunciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	arrivo	arrivo	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	di	di	ADP	E	_	9	case	_	_
+6	300	300	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+7	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+8	400	400	NUM	N	NumType=Card	6	conj	_	_
+9	ultrà	ultrà	NOUN	S	Gender=Masc	4	nmod	_	_
+10	serbi	serbo	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	obiettivo	obiettivo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+14-15	infiltrarsi	_	_	_	_	_	_	_	_
+14	infiltrar	infiltrare	VERB	V	VerbForm=Inf	13	acl	_	_
+15	si	si	PRON	PC	Person=3|PronType=Prs	14	expl	_	Clitic=Yes
+16	tra	tra	ADP	E	_	19	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	altri	altro	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+19	tifosi	tifoso	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	_
+21	mandare	mandare	VERB	V	VerbForm=Inf	14	conj	_	CXN=28:A
+22-23	all'	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	CXN=28:B
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	CXN=28:C
+24	aria	aria	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	CXN=28:D
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	CXN=28:E
+26	partita	partita	NOUN	S	Gender=Fem|Number=Sing	21	obj	_	SpaceAfter=No|CXN=28:F
+27	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=_
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ITALIAN WEB 2016 (ITTENTEN16) Sketch Engine
+# sent_id = cxn_28_example_4_1
+# text = Ma quello che non capisco è che non riesco neanche a pensare ai rischi che corro comportandomi così, alla possibilità di mandare all' aria una bellissima storia a causa delle mie paure.
+1	Ma	ma	CCONJ	CC	_	6	cc	_	_
+2	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	obj	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	capisco	capire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	che	che	SCONJ	CS	_	9	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	riesco	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	xcomp	_	_
+10	neanche	neanche	ADV	BN	PronType=Neg	9	advmod	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	pensare	pensare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+13-14	ai	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	rischi	rischio	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+16	che	che	PRON	PR	PronType=Rel	17	obj	_	_
+17	corro	correre	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18-19	comportandomi	_	_	_	_	_	_	_	_
+18	comportando	comportare	VERB	V	VerbForm=Ger	17	advcl	_	_
+19	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	18	expl	_	Clitic=Yes
+20	così	così	ADV	B	_	18	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	_
+22-23	alla	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	possibilità	possibilità	NOUN	S	Gender=Fem	15	conj	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26	mandare	mandare	VERB	V	VerbForm=Inf	24	acl	_	CXN=28:A
+27-28	all'	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	CXN=28:B
+28	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	29	det	_	CXN=28:C
+29	aria	aria	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	CXN=28:D
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	CXN=28:E
+31	bellissima	bello	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	32	amod	_	_
+32	storia	storia	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	CXN=28:F
+33	a	a	ADP	E	_	34	case	_	_
+34	causa	causa	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+35-36	delle	_	_	_	_	_	_	_	_
+35	di	di	ADP	E	_	38	case	_	_
+36	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	38	det	_	_
+37	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	38	det:poss	_	_
+38	paure	paura	NOUN	S	Gender=Fem|Number=Plur	34	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=_
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ITALIAN WEB 2016 (ITTENTEN16) Sketch Engine
+# sent_id = cxn_28_example_5_1
+# text = Quando mandò all' aria la tournée combinatagli da George Wein disse soltanto che non se la sentiva.
+1	Quando	quando	SCONJ	CS	_	2	mark	_	_
+2	mandò	mandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	advcl	_	CXN=28:A
+3-4	all'	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	CXN=28:B
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	CXN=28:C
+5	aria	aria	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	CXN=28:D
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	CXN=28:E
+7	tournée	tournée	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	CXN=28:F
+8-9	combinatagli	_	_	_	_	_	_	_	_
+8	combinata	combinata	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+9	gli	gli	PRON	PC	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	obl	_	Clitic=Yes
+10	da	da	ADP	E	_	11	case	_	_
+11	George	George	PROPN	SP	_	8	obl:agent	_	_
+12	Wein	Wein	PROPN	SP	_	11	flat:name	_	_
+13	disse	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	soltanto	soltanto	ADV	B	_	13	advmod	_	_
+15	che	che	SCONJ	CS	_	19	mark	_	_
+16	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+17	se	se	PRON	PC	Person=3|PronType=Prs	19	expl	_	Clitic=Yes
+18	la	la	PRON	PC	Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	obj	_	Clitic=Yes
+19	sentiva	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	ccomp	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	13	punct	_	SpaceAfter=No
+

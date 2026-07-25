@@ -1,0 +1,166 @@
+# sent_id = cxn_182
+# text = _ da _
+# form = NOUN da NOUN
+1	_	_	NOUN	_	_	0	root	_	OrigID=A
+2	da	da	ADP	_	_	3	case	_	OrigID=B
+3	_	_	NOUN	_	_	1	nmod	_	OrigID=C
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = ItTenten20_19072024_SM
+# source = . itTenTen20 .
+# text = Questi portachiavi in plastica dura dalla forma rotonda daranno un tocco di originalità al tuo look
+# status = TO_CHECK
+1	Questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	portachiavi	portachiavo	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	CXN=182:A
+3	in	in	ADP	E	_	4	case	_	_
+4	plastica	plastica	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	dura	duro	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	CXN=182:B
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	forma	forma	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	CXN=182:C
+9	rotonda	rotondo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	daranno	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tocco	tocco	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	originalità	originalità	NOUN	S	Gender=Fem	12	nmod	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	look	look	NOUN	S	Gender=Masc	10	obl	_	SpaceAfter=No
+
+
+# sent_id = VIT-4045
+# text = Le grandi multinazionali dell'informatica sono le prime e più convinte utilizzatrici dei computer da scrivania:
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	grandi	grande	ADJ	A	Number=Plur	3	amod	_	_
+3	multinazionali	multinazionale	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+4-5	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+4	di	di	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	informatica	informatica	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	prime	primo	ADJ	NO	NumType=Ord	0	root	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	convinte	convinto	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+13	utilizzatrici	utilizzatore	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+14-15	dei	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	computer	computer	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	CXN=182:A
+17	da	da	ADP	E	_	18	case	_	CXN=182:B
+18	scrivania	scrivania	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No|CXN=182:C
+19	:	:	PUNCT	FS	_	9	punct	_	_
+
+
+# sent_id = isst_tanl-331
+# text = L'11 novembre 1961, due dei sei "C 119" della 46 Aerobrigata richiesti dalle Nazioni Unite all'Italia per un "ponte aereo" di rifornimenti alla popolazione locale e ai presidi dell'Onu, atterrarono all'aeroporto di Kindu con un carico di automezzi da esplorazione per il contingente malese dell'Onu.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	11	11	NUM	N	NumType=Card	46	obl	_	_
+3	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	2	flat	_	_
+4	1961	1961	NUM	N	NumType=Card	2	flat	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	due	due	NUM	N	NumType=Card	46	nsubj	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	11	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+9	sei	sei	NUM	N	NumType=Card	11	nummod	_	_
+10	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+11	C	C	PROPN	SP	_	6	nmod	_	_
+12	119	119	NUM	N	NumType=Card	11	flat:name	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	11	punct	_	_
+14-15	della	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	17	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	46	46	NUM	N	NumType=Card	17	nummod	_	_
+17	Aerobrigata	Aerobrigata	PROPN	SP	_	11	nmod	_	_
+18	richiesti	richiedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	acl	_	_
+19-20	dalle	_	_	_	_	_	_	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	Nazioni	nazione	NOUN	S	Gender=Fem|Number=Plur	18	obl:agent	_	_
+22	Unite	unito	ADJ	A	Gender=Fem|Number=Plur	21	amod	_	_
+23-24	all'	_	_	_	_	_	_	_	SpaceAfter=No
+23	a	a	ADP	E	_	25	case	_	_
+24	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
+25	Italia	Italia	PROPN	SP	_	18	obl	_	_
+26	per	per	ADP	E	_	29	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+28	"	"	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+29	ponte	ponte	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+30	aereo	aereo	ADJ	A	Gender=Masc|Number=Sing	29	amod	_	SpaceAfter=No
+31	"	"	PUNCT	FB	_	29	punct	_	_
+32	di	di	ADP	E	_	33	case	_	_
+33	rifornimenti	rifornimento	NOUN	S	Gender=Masc|Number=Plur	29	nmod	_	_
+34-35	alla	_	_	_	_	_	_	_	_
+34	a	a	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	popolazione	popolazione	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	_
+37	locale	locale	ADJ	A	Number=Sing	36	amod	_	_
+38	e	e	CCONJ	CC	_	41	cc	_	_
+39-40	ai	_	_	_	_	_	_	_	_
+39	a	a	ADP	E	_	41	case	_	_
+40	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	41	det	_	_
+41	presidi	presidio	NOUN	S	Gender=Masc|Number=Plur	36	conj	_	_
+42-43	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+42	di	di	ADP	E	_	44	case	_	_
+43	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	44	det	_	_
+44	Onu	Onu	PROPN	SP	_	41	nmod	_	SpaceAfter=No
+45	,	,	PUNCT	FF	_	6	punct	_	_
+46	atterrarono	atterrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+47-48	all'	_	_	_	_	_	_	_	SpaceAfter=No
+47	a	a	ADP	E	_	49	case	_	_
+48	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	49	det	_	_
+49	aeroporto	aeroporto	NOUN	S	Gender=Masc|Number=Sing	46	obl	_	_
+50	di	di	ADP	E	_	51	case	_	_
+51	Kindu	Kindu	PROPN	SP	_	49	nmod	_	_
+52	con	con	ADP	E	_	54	case	_	_
+53	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	carico	carico	NOUN	S	Gender=Masc|Number=Sing	46	obl	_	_
+55	di	di	ADP	E	_	56	case	_	_
+56	automezzi	automezzo	NOUN	S	Gender=Masc|Number=Plur	54	nmod	_	CXN=182:A
+57	da	da	ADP	E	_	58	case	_	CXN=182:B
+58	esplorazione	esplorazione	NOUN	S	Gender=Fem|Number=Sing	56	nmod	_	CXN=182:C
+59	per	per	ADP	E	_	61	case	_	_
+60	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	61	det	_	_
+61	contingente	contingente	NOUN	S	Gender=Masc|Number=Sing	56	nmod	_	_
+62	malese	malese	ADJ	A	Number=Sing	61	amod	_	_
+63-64	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+63	di	di	ADP	E	_	65	case	_	_
+64	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	65	det	_	_
+65	Onu	Onu	PROPN	SP	_	61	nmod	_	SpaceAfter=No
+66	.	.	PUNCT	FS	_	46	punct	_	_
+
+
+# sent_id = isst_tanl-1307
+# text = Il padre di lei, spalleggiato forse dalla moglie, gli ha sparato contro numerosi colpi d'arma da fuoco.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	padre	padre	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	spalleggiato	spalleggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+7	forse	forse	ADV	B	_	10	advmod	_	_
+8-9	dalla	_	_	_	_	_	_	_	_
+8	da	da	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	6	obl:agent	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	2	punct	_	_
+12	gli	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	iobj	_	_
+13	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	sparato	sparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	contro	contro	ADV	B	_	14	advmod	_	_
+16	numerosi	numeroso	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+17	colpi	colpo	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+18	d'	di	ADP	E	_	19	case	_	SpaceAfter=No
+19	arma	arma	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	CXN=182:A
+20	da	da	ADP	E	_	21	case	_	CXN=182:B
+21	fuoco	fuoco	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No|CXN=182:C
+22	.	.	PUNCT	FS	_	14	punct	_	_
+

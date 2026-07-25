@@ -1,0 +1,47 @@
+# sent_id = cxn_51
+# text = non _ mica _
+# form = non AUX mica _
+1	non	non	ADV	_	_	4	advmod	_	OrigID=A
+2	_	_	AUX	_	_	4	aux	_	OrigID=B
+3	mica	mica	ADV	_	_	4	advmod	_	OrigID=C
+4	_	_	_	_	_	0	root	_	OrigID=D
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = italiano colloquiale
+# sent_id = cxn_51_example_1_1
+# text = non hai mica capito.
+1	non	non	ADV	BN	PronType=Neg	4	advmod	_	CXN=51:A
+2	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	CXN=51:B
+3	mica	mica	ADV	B	_	4	advmod	_	CXN=51:C
+4	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No|CXN=51:D
+5	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = italiano colloquiale
+# sent_id = cxn_51_example_2_1
+# text = non ho mica esagerato.
+1	non	non	ADV	BN	PronType=Neg	4	advmod	_	CXN=51:A
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	CXN=51:B
+3	mica	mica	ADV	B	_	4	advmod	_	CXN=51:C
+4	esagerato	esagerare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No|CXN=51:D
+5	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = italiano colloquiale
+# sent_id = cxn_51_example_3_1
+# text = non sono mica stato io!
+1	non	non	ADV	BN	PronType=Neg	5	advmod	_	CXN=51:A
+2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	CXN=51:B
+3	mica	mica	ADV	BN	_	5	advmod	_	CXN=51:C
+4	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	_
+5	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No|CXN=51:D
+6	!	!	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+

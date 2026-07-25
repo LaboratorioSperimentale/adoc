@@ -1,0 +1,275 @@
+# sent_id = cxn_88
+# text = _ per _ _
+# form = prendere per il NOUN
+1	_	prendere	VERB	_	_	0	root	_	OrigID=A
+2	per	per	ADP	_	_	4	case	_	OrigID=B
+3	_	il	DET	_	_	4	det	_	OrigID=C
+4	_	_	NOUN	_	_	1	obl	_	OrigID=D
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_88_example_1_1
+# text = Io e Francesca eravamo incantati da quel racconto.
+# tags = CONTEXT
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj:pass	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	Francesca	Francesca	PROPN	SP	_	1	conj	_	_
+4	eravamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	5	aux:pass	_	_
+5	incantati	incantare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	racconto	racconto	NOUN	S	Gender=Masc|Number=Sing	5	obl:agent	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+
+# source = CORIS
+# sent_id = cxn_88_example_1_2
+# text = Infatti credo che a Federico sia dispiaciuto doverci confessare che non era vero, e che si era inventato tutto per prenderci per il culo.
+1	Infatti	infatti	ADV	B	_	2	advmod	_	_
+2	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Federico	Federico	PROPN	SP	_	7	obl	_	_
+6	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+7	dispiaciuto	dispiacere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+8-9	doverci	_	_	_	_	_	_	_	_
+8	dover	dovere	AUX	VM	VerbForm=Inf	10	aux	_	_
+9	ci	ci	PRON	PC	Number=Plur|Person=1|PronType=Prs	10	iobj	_	Clitic=Yes
+10	confessare	confessare	VERB	V	VerbForm=Inf	7	nsubj	_	_
+11	che	che	SCONJ	CS	_	14	mark	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+14	vero	vero	ADJ	A	Gender=Masc|Number=Sing	10	ccomp	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	20	punct	_	_
+16	e	e	CCONJ	CC	_	20	cc	_	_
+17	che	che	SCONJ	CS	_	20	mark	_	_
+18	si	si	PRON	PC	Person=3|PronType=Prs	20	expl	_	Clitic=Yes
+19	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	aux	_	_
+20	inventato	inventare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	conj	_	_
+21	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	20	obj	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23-24	prenderci	_	_	_	_	_	_	_	_
+23	prender	prendere	VERB	V	VerbForm=Inf	20	advcl	_	CXN=88:A
+24	ci	ci	PRON	PC	Number=Plur|Person=1|PronType=Prs	23	obj	_	Clitic=Yes
+25	per	per	ADP	E	_	27	case	_	CXN=88:B
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	CXN=88:C
+27	culo	culo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No|CXN=88:D
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+
+# source = CORIS
+# sent_id = cxn_88_example_1_3
+# text = È sempre stato un suo talento raccontare palle.
+# tags = CONTEXT
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+2	sempre	sempre	ADV	B	_	6	advmod	_	_
+3	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	talento	talento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	raccontare	raccontare	VERB	V	VerbForm=Inf	6	csubj	_	_
+8	palle	palla	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_88_example_2_1
+# text = Vogliamo prenderci in giro?
+# tags = CONTEXT
+1	Vogliamo	volere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	prenderci	_	_	_	_	_	_	_	_
+2	prender	prendere	VERB	V	VerbForm=Inf	0	root	_	_
+3	ci	ci	PRON	PC	Number=Plur|Person=1|PronType=Prs	2	obj	_	Clitic=Yes
+4	in	in	ADP	E	_	5	case	_	_
+5	giro	giro	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+
+# source = CORIS
+# sent_id = cxn_88_example_2_2
+# text = Se è così, facciamolo pure.
+# tags = CONTEXT
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+3	così	così	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5-6	facciamolo	_	_	_	_	_	_	_	_
+5	facciamo	fare	VERB	V	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	Clitic=Yes
+7	pure	pure	ADV	B	_	5	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+
+# source = CORIS
+# sent_id = cxn_88_example_2_3
+# text = Ma non andiamo avanti con questo ritornello se no la Roma si lascerà prendere per i fondelli dall'intero mondo calcistico.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	avanti	avanti	ADV	B	_	3	advmod	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	ritornello	ritornello	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	se	se	SCONJ	CS	_	13	mark	_	_
+9	no	no	ADV	BN	PronType=Neg	8	fixed	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Roma	Roma	PROPN	SP	_	13	nsubj	_	_
+12	si	si	PRON	PC	Person=3|PronType=Prs	13	expl	_	Clitic=Yes
+13	lascerà	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	advcl	_	_
+14	prendere	prendere	VERB	V	VerbForm=Inf	13	xcomp	_	CXN=88:A
+15	per	per	ADP	E	_	17	case	_	CXN=88:B
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	CXN=88:C
+17	fondelli	fondello	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	CXN=88:D
+18-19	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+18	da	da	ADP	E	_	21	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+20	intero	intero	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	_
+21	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+22	calcistico	calcistico	ADJ	A	Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_88_example_3_1
+# text = Proprio come a Lisbeth Salander, gli piaceva risolvere rompicapi ed enigmi.
+# tags = CONTEXT
+1	Proprio	proprio	ADV	B	_	2	advmod	_	_
+2	come	come	ADV	B	ExtPos=ADP	4	case	_	_
+3	a	a	ADP	E	_	2	fixed	_	_
+4	Lisbeth	Lisbeth	PROPN	SP	_	8	obl	_	_
+5	Salander	Salander	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	gli	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	iobj	_	Clitic=Yes
+8	piaceva	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+9	risolvere	risolvere	VERB	V	VerbForm=Inf	8	nsubj	_	_
+10	rompicapi	rompicapo	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+11	ed	e	CCONJ	CC	_	12	cc	_	_
+12	enigmi	enigmo	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	8	punct	_	_
+
+
+# source = CORIS
+# sent_id = cxn_88_example_3_2
+# text = Pare che si divertisse particolarmente a prendere per il naso altri matematici costruendo problemi ma tralasciando di includere la soluzione.
+1	Pare	parere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	si	si	PRON	PC	Person=3|PronType=Prs	4	expl	_	Clitic=Yes
+4	divertisse	divertire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	nsubj	_	_
+5	particolarmente	particolarmente	ADV	B	_	4	advmod	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	prendere	prendere	VERB	V	VerbForm=Inf	4	xcomp	_	CXN=88:A
+8	per	per	ADP	E	_	10	case	_	CXN=88:B
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	CXN=88:C
+10	naso	naso	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	CXN=88:D
+11	altri	altro	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+12	matematici	matematico	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	_
+13	costruendo	costruire	VERB	V	VerbForm=Ger	7	advcl	_	_
+14	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	_
+15	ma	ma	CCONJ	CC	_	16	cc	_	_
+16	tralasciando	tralasciare	VERB	V	VerbForm=Ger	13	conj	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	includere	includere	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_88_example_4_1
+# text = Sei andato di fuori, piedipiatti.
+# tags = CONTEXT
+1	Sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	fuori	fuori	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	piedipiatti	piedipiatti	NOUN	S	Gender=Masc|Number=Plur	2	vocative	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+
+# source = CORIS
+# sent_id = cxn_88_example_4_3
+# text = Ti avevo avvertito di non prendermi per il bavero.
+1	Ti	ti	PRON	PC	Number=Sing|Person=2|PronType=Prs	3	obj	_	Clitic=Yes
+2	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	avvertito	avvertire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	di	di	ADP	E	_	6	mark	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6-7	prendermi	_	_	_	_	_	_	_	_
+6	prender	prendere	VERB	V	VerbForm=Inf	3	xcomp	_	CXN=88:A
+7	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	6	obj	_	Clitic=Yes
+8	per	per	ADP	E	_	10	case	_	CXN=88:B
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	CXN=88:C
+10	bavero	bavero	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No|CXN=88:D
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+
+# source = CORIS
+# sent_id = cxn_88_example_4_4
+# text = E io te l’avevo detto che era troppo furba per nascondersela la addosso replicò Malone
+# tags = CONTEXT, 2CLITICS
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	te	te	PRON	PC	Number=Sing|Person=2|PronType=Prs	6	iobj	_	Clitic=Yes
+4	l’	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	Clitic=Yes|SpaceAfter=No
+5	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	cop	_	_
+9	troppo	troppo	ADV	B	_	10	advmod	_	_
+10	furba	furbo	ADJ	A	Gender=Fem|Number=Sing	6	obj	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12-13	nascondersela	_	_	_	_	_	_	_	_
+12	nasconder	nascondere	VERB	V	VerbForm=Inf	10	advcl	_	_
+13	se	se	PRON	PC	Number=Sing|Person=3|PronType=Prs	12	expl	_	Clitic=Yes
+14	la	la	PRON	PC	Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	_	Clitic=Yes
+15	addosso	addosso	ADV	B	_	12	advmod	_	_
+16	replicò	replicare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	parataxis	_	_
+17	Malone	Malone	PROPN	SP	_	16	nsubj	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Invented
+# sent_id = cxn_88_example_5_1
+# text = Marco è una persona paziente e accomodante, ma diventa molto severo con chi tenta di prenderlo per il fondo dei calzoni.
+1	Marco	Marco	PROPN	SP	_	4	nsubj	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	persona	persona	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	paziente	paziente	ADJ	A	Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	accomodante	accomodante	ADJ	A	Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	ma	ma	CCONJ	CC	_	10	cc	_	_
+10	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+11	molto	molto	ADV	B	_	12	advmod	_	_
+12	severo	severo	ADJ	A	Gender=Masc|Number=Sing	10	xcomp	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	chi	chi	PRON	PR	Number=Sing|PronType=Rel	10	obl	_	_
+15	tenta	tentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17-18	prenderlo	_	_	_	_	_	_	_	_
+17	prender	prendere	VERB	V	VerbForm=Inf	15	xcomp	_	CXN=88:A
+18	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	Clitic=Yes
+19	per	per	ADP	E	_	21	case	_	CXN=88:B
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	CXN=88:C
+21	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	CXN=88:D
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	calzoni	calzone	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+

@@ -1,0 +1,100 @@
+# sent_id = cxn_64
+# text = non è _ ma è _
+# form = non è _ ma è _
+1	non	non	ADV	_	_	3	advmod	_	OrigID=A
+2	è	essere	AUX	_	_	3	cop	_	OrigID=B
+3	_	_	_	_	_	0	root	_	OrigID=C
+4	ma	ma	CCONJ	_	_	6	cc	_	OrigID=D
+5	è	essere	AUX	_	_	6	cop	_	OrigID=E
+6	_	_	_	_	_	3	conj	_	OrigID=F
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Google Search
+# sent_id = cxn_64_example_1_1
+# text = Non è tanto il caldo, ma è l'umidità che uccide
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	CXN=64:A
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	CXN=64:B
+3	tanto	tanto	ADV	B	_	5	advmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	caldo	caldo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|CXN=64:C
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	ma	ma	CCONJ	CC	_	10	cc	_	CXN=64:D
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	CXN=64:E
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	umidità	umidità	NOUN	S	Gender=Fem	5	conj	_	CXN=64:F
+11	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+12	uccide	uccidere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itTenTen20
+# sent_id = cxn_64_example_2_1
+# text = Non è solo il balzello, ma è il senso di sconforto che opprime e offende
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	CXN=64:A
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	CXN=64:B
+3	solo	solo	ADV	B	_	5	advmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	balzello	balzello	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No|CXN=64:C
+6	,	,	PUNCT	FF	_	10	punct	_	_
+7	ma	ma	CCONJ	CC	_	10	cc	_	CXN=64:D
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	CXN=64:E
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	senso	senso	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	CXN=64:F
+11	di	di	ADP	E	_	12	case	_	_
+12	sconforto	sconforto	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	opprime	opprimere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	offende	offendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itTenTen20
+# sent_id = cxn_64_example_3_1
+# text = Non è bello ciò che è bello, ma è bello ciò che piace
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	CXN=64:A
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	CXN=64:B
+3	bello	bello	ADJ	A	Gender=Masc|Number=Sing	0	root	_	CXN=64:C
+4	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	bello	bello	ADJ	A	Gender=Masc|Number=Sing	4	acl:relcl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	CXN=64:D
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	CXN=64:E
+11	bello	bello	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	CXN=64:F
+12	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	11	nsubj	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itTenTen20
+# sent_id = cxn_64_example_4_1
+# text = Non è il diritto che fa la legge, ma è la legge che fa il diritto
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	CXN=64:A
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	CXN=64:B
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	CXN=64:C
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	legge	legge	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	ma	ma	CCONJ	CC	_	13	cc	_	CXN=64:D
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	CXN=64:E
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	legge	legge	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	CXN=64:F
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	diritto	diritto	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+

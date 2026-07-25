@@ -2,7 +2,7 @@
 # cxn_name = Mettere + in chiaro + X Alternativa: Mettere + X + in chiaro cxn-machine-readable-formalization: | cxn_23.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	_	mettere	VERB	_	0	root	_	_	_	_	_
-B	in	in	ADP	_	C	case	_	_	_	_	_
-C	chiaro	chiaro	ADJ	Gender=Masc|Number=Sing	A	obl	_	_	_	_	_
-D	le	il	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	E	det	_	_	_	_	_
-E	_	_	NOUN	Gender=Fem|Number=Plur	A	obj	_	_	_	_	_
+B	in	in	ADP	_	C	case	_	A	_	_	_
+C	chiaro	chiaro	ADJ	Gender=Masc|Number=Sing	A	obl	_	B	_	_	_
+D	le	il	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	E	det	_	C	_	_	_
+E	_	_	NOUN	Gender=Fem|Number=Plur	A	obj	_	D	_	_	_

@@ -2,6 +2,6 @@
 # cxn_name = X (v)  + compl.ogg. cxn-machine-readable-formalization: | cxn_44.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	hai	avere	AUX	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	B	aux	_	_	_	_	_
-B	scoperto	scoprire	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_	_	_	_
-C	l'	il	DET	Definite=Def|Number=Sing|PronType=Art	D	det	_	_	_	_	_
-D	_	_	_	_	B	obj	_	_	_	_	_
+B	scoperto	scoprire	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	A	_	_	_
+C	l'	il	DET	Definite=Def|Number=Sing|PronType=Art	D	det	_	B	_	_	_
+D	_	_	_	_	B	obj	_	C	_	_	_

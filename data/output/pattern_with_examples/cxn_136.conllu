@@ -1,0 +1,56 @@
+# sent_id = cxn_136
+# text = alzare _ _
+# form = alzare il NOUN
+1	alzare	alzare	VERB	_	_	0	root	_	OrigID=A
+2	_	il	DET	_	_	3	det	_	OrigID=B
+3	_	_	NOUN	_	_	1	obj	_	OrigID=C
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_136_example_1_1
+# text = alzare gli occhi (al cielo)
+1	alzare	alzare	VERB	V	VerbForm=Inf	0	root	_	CXN=136:A
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	CXN=136:B
+3	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	CXN=136:C
+4	(	(	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+8	)	)	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_136_example_2_1
+# text = alzare il gomito
+1	alzare	alzare	VERB	V	VerbForm=Inf	0	root	_	CXN=136:A
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	CXN=136:B
+3	gomito	gomito	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpacesAfter=_|CXN=136:C
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_136_example_3_1
+# text = alzare le mani (contro qualcuno)
+1	alzare	alzare	VERB	V	VerbForm=Inf	0	root	_	CXN=136:A
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	CXN=136:B
+3	mani	mano	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	CXN=136:C
+4	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+5	contro	contro	ADP	E	_	6	case	_	_
+6	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	1	obl	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_136_example_4_1
+# text = alzare la voce
+1	alzare	alzare	VERB	V	VerbForm=Inf	0	root	_	CXN=136:A
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	CXN=136:B
+3	voce	voce	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpacesAfter= \s|CXN=136:C
+

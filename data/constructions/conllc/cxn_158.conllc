@@ -2,4 +2,4 @@
 # cxn_name = Passive Construction cxn-machine-readable-formalization: | cxn_158.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	_	essere	AUX	_	B	aux:pass	_	_	_	_	_
-B	_	_	VERB	Gender=Masc|Tense=Past|VerbForm=Part	0	root	_	_	_	_	_
+B	_	_	VERB	Gender=Masc|Tense=Past|VerbForm=Part	0	root	_	A	_	_	_

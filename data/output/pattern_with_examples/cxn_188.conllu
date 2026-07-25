@@ -1,0 +1,61 @@
+# sent_id = cxn_188
+# text = e _ _ _
+# form = e VERB _ _
+1	e	e	CCONJ	_	_	2	cc	_	OrigID=A
+2	_	_	VERB	_	_	0	root	_	OrigID=B
+3	_	_	_	_	_	4	mark	_	OrigID=C
+4	_	_	_	_	_	2	ccomp	_	OrigID=D
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = 2_Paisà_FP06072024
+# source = http://hdl.handle.net/20.500.12124/3 paisa.raw.utf8/7404393 .
+# text = Poi ci siamo messi a parlare ... e salta fuori che era davvero Chris Squire ! !
+# status = TO_CHECK
+1	Poi	poi	ADV	B	_	4	advmod	_	_
+2	ci	ci	PRON	PC	Number=Plur|Person=1|PronType=Prs	4	expl	_	Clitic=Yes
+3	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	messi	mettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	parlare	parlare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	...	...	PUNCT	FF	_	9	punct	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	CXN=188:A
+9	salta	saltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	CXN=188:B
+10	fuori	fuori	ADV	B	_	9	advmod	_	_
+11	che	che	SCONJ	CS	_	14	mark	_	CXN=188:C
+12	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+13	davvero	davvero	ADV	B	_	14	advmod	_	_
+14	Chris	Chris	PROPN	SP	_	9	ccomp	_	CXN=188:D
+15	Squire	Squire	PROPN	SP	_	14	flat:name	_	_
+16	!	!	PUNCT	FS	_	4	punct	_	_
+17	!	!	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+
+# sent_id = VIT-8767
+# text = E per mettere a tacere le voci incalzanti che già circolavano nella capitale su un possibile annullamento del voto.
+1	E	e	CCONJ	CC	_	3	cc	_	CXN=188:A
+2	per	per	ADP	E	_	3	mark	_	_
+3	mettere	mettere	VERB	V	VerbForm=Inf	0	root	_	CXN=188:B
+4	a	a	ADP	E	_	5	mark	_	CXN=188:C
+5	tacere	tacere	VERB	V	VerbForm=Inf	3	ccomp	_	CXN=188:D
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	voci	voce	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8	incalzanti	incalzante	VERB	V	Number=Plur	7	advcl	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	già	già	ADV	B	_	11	advmod	_	_
+11	circolavano	circolare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	acl:relcl	_	_
+12-13	nella	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	capitale	capitale	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15	su	su	ADP	E	_	18	case	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	possibile	possibile	ADJ	A	Number=Sing	18	amod	_	_
+18	annullamento	annullamento	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+19-20	del	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	voto	voto	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	_
+

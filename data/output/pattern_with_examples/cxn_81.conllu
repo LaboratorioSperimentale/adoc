@@ -1,0 +1,109 @@
+# sent_id = cxn_81
+# text = battere un colpo
+# form = battere un colpo
+1	battere	battere	VERB	_	_	0	root	_	OrigID=A
+2	un	uno	DET	_	_	3	det	_	OrigID=B
+3	colpo	colpo	NOUN	_	_	1	obj	_	OrigID=C
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Glosbe dizionario online
+# sent_id = cxn_81_example_1_1
+# text = Comunque, puoi dirle di battere un colpo quando ha un minuto?
+1	Comunque	comunque	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4-5	dirle	_	_	_	_	_	_	_	_
+4	dir	dire	VERB	V	VerbForm=Inf	0	root	_	_
+5	le	le	PRON	PC	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	iobj	_	Clitic=Yes
+6	di	di	ADP	E	_	7	mark	_	SpacesAfter=_
+7	battere	battere	VERB	V	VerbForm=Inf	4	xcomp	_	CXN=81:A
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	CXN=81:B
+9	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpacesAfter=_|CXN=81:C
+10	quando	quando	SCONJ	CS	_	11	mark	_	_
+11	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Glosbe dizionario online
+# sent_id = cxn_81_example_2_1
+# text = Credo che ora spetti al Parlamento, per così dire, battere un colpo.
+1	Credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	ora	ora	ADV	B	_	4	advmod	_	_
+4	spetti	spettare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Parlamento	Parlamento	PROPN	SP	_	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	per	per	ADP	E	_	11	mark	_	_
+10	così	così	ADV	B	_	11	advmod	_	_
+11	dire	dire	VERB	V	VerbForm=Inf	4	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	SpacesAfter=_
+13	battere	battere	VERB	V	VerbForm=Inf	4	xcomp	_	CXN=81:A
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	CXN=81:B
+15	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No|CXN=81:C
+16	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Glosbe dizionario online
+# sent_id = cxn_81_example_3_1
+# text = Ruth ringhiò, e senza battere un colpo, balzò sull'uomo, infilandogli i denti nella gola.
+1	Ruth	Ruth	PROPN	SP	_	2	nsubj	_	_
+2	ringhiò	ringhiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	10	punct	_	_
+4	e	e	CCONJ	CC	_	10	cc	_	_
+5	senza	senza	ADP	E	_	6	mark	_	SpacesAfter=_
+6	battere	battere	VERB	V	VerbForm=Inf	10	advcl	_	CXN=81:A
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	CXN=81:B
+8	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No|CXN=81:C
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	balzò	balzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	_
+11-12	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+11	su	su	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
+13	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	15	punct	_	_
+15-16	infilandogli	_	_	_	_	_	_	_	_
+15	infilando	infilare	VERB	V	VerbForm=Ger	10	advcl	_	_
+16	gli	gli	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	iobj	_	Clitic=Yes
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	denti	dente	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	_
+19-20	nella	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	gola	gola	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Glosbe dizionario online
+# sent_id = cxn_81_example_4_1
+# text = Circa cinque minuti dopo sentì battere un colpo esitante alla porta.
+1	Circa	circa	ADV	B	_	2	advmod	_	_
+2	cinque	cinque	NUM	N	NumType=Card	3	nummod	_	_
+3	minuti	minuto	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+4	dopo	dopo	ADV	B	_	3	advmod	_	_
+5	sentì	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpacesAfter=_
+6	battere	battere	VERB	V	VerbForm=Inf	5	xcomp	_	CXN=81:A
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	CXN=81:B
+8	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpacesAfter=_|CXN=81:C
+9	esitante	esitante	ADJ	A	Number=Sing	8	amod	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	porta	porta	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+

@@ -1,0 +1,137 @@
+# sent_id = cxn_165
+# text = _ _ _ il _
+# form = DET NOUN ADP il NOUN
+1	_	_	DET	_	_	2	det	_	OrigID=A
+2	_	_	NOUN	_	_	0	root	_	OrigID=B
+3	_	_	ADP	_	_	5	case	_	OrigID=C
+4	il	il	DET	_	_	5	det	_	OrigID=D
+5	_	_	NOUN	_	_	2	nmod	_	OrigID=E
+
+# sent_id = isst_tanl-3010
+# text = La navicella è una tazzina per il cacao stile Biedermeier.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	navicella	navicella	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	CXN=165:A
+5	tazzina	tazzina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	CXN=165:B
+6	per	per	ADP	E	_	8	case	_	CXN=165:C
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	CXN=165:D
+8	cacao	cacao	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	CXN=165:E
+9	stile	stile	NOUN	S	Gender=Masc|Number=Sing	8	compound	_	_
+10	Biedermeier	Biedermeier	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+
+# sent_id = 3307
+# text = @user In comune noto anche una certa visione funesta del futuro, stile Cormac McCarthy, dal quale solo #Grillo può salvarci, ahinoi!
+1	@user	@user	SYM	SYM	_	4	vocative	_	_
+2	In	in	ADP	E	_	3	case	_	_
+3	comune	comune	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	noto	notare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	anche	anche	ADV	B	_	8	advmod	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	certa	certo	DET	DI	PronType=Ind	8	det	_	CXN=165:A
+8	visione	visione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	CXN=165:B
+9	funesta	funesto	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	CXN=165:C
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	CXN=165:D
+12	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No|CXN=165:E
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	stile	stile	NOUN	S	Gender=Masc|Number=Sing	8	appos	_	_
+15	Cormac	Cormac	PROPN	SP	_	14	nmod	_	_
+16	McCarthy	McCarthy	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	8	punct	_	_
+18-19	dal	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	quale	quale	PRON	PR	Number=Sing|PronType=Rel	24	obl	_	_
+21	solo	solo	ADV	B	_	22	advmod	_	_
+22	#Grillo	#Grillo	SYM	SYM	_	24	nsubj	_	_
+23	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24-25	salvarci	_	_	_	_	_	_	_	SpaceAfter=No
+24	salvar	salvare	VERB	V	VerbForm=Inf	8	acl:relcl	_	_
+25	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	24	obj	_	_
+26	,	,	PUNCT	FF	_	24	punct	_	_
+27	ahinoi	ahinoi	INTJ	I	_	4	discourse	_	SpaceAfter=No
+28	!	!	PUNCT	FS	_	4	punct	_	_
+
+
+# sent_id = VIT-6983
+# text = Gai Mattiolo a Cinecittà apre domani l'haute couture con una collezione dedicata ai cent anni del cinema ambientata in un set stile antica Roma e punta su quattro mannequine d'eccezione, tra cui Shana, meglio ricordata per la pubblicità dove dice: "toglietemi tutto ma non il mio Breil" e tre volti noti: Domiziana Giordano, Dalila Di Lazzaro e Milly Carlucci.
+1	Gai	Gai	PROPN	SP	_	5	nsubj	_	_
+2	Mattiolo	Mattiolo	PROPN	SP	_	1	flat:name	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Cinecittà	Cinecittà	PROPN	SP	_	5	obl	_	_
+5	apre	aprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	domani	domani	ADV	B	_	5	advmod	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	haute	haute	NOUN	S	Gender=Fem	5	obj	_	_
+9	couture	couture	NOUN	S	Gender=Fem	8	compound	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	collezione	collezione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+13	dedicata	dedicare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+14-15	ai	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	17	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	CXN=165:A
+16	cent	cent	NUM	N	NumType=Card	17	nummod	_	_
+17	anni	anno	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	CXN=165:B
+18-19	del	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	CXN=165:C
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	CXN=165:D
+20	cinema	cinema	NOUN	S	Gender=Masc	17	nmod	_	CXN=165:E
+21	ambientata	ambientare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	set	set	NOUN	S	Gender=Masc	21	obl	_	_
+25	stile	stile	ADP	E	_	27	case	_	_
+26	antica	antico	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+27	Roma	Roma	PROPN	SP	_	24	nmod	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	punta	puntare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+30	su	su	ADP	E	_	32	case	_	_
+31	quattro	quattro	NUM	N	NumType=Card	32	nummod	_	_
+32	mannequine	mannequine	NOUN	S	_	29	obl	_	_
+33	d'	di	ADP	E	_	34	case	_	SpaceAfter=No
+34	eccezione	eccezione	NOUN	S	Gender=Fem|Number=Sing	32	nmod	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	32	punct	_	_
+36	tra	tra	ADP	E	_	37	case	_	_
+37	cui	cui	PRON	PR	PronType=Rel	38	nmod	_	_
+38	Shana	Shana	PROPN	SP	_	32	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	38	punct	_	_
+40	meglio	meglio	ADV	B	_	41	advmod	_	_
+41	ricordata	ricordare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	38	acl	_	_
+42	per	per	ADP	E	_	44	case	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	pubblicità	pubblicità	NOUN	S	Gender=Fem	41	obl	_	_
+45	dove	dove	PRON	PR	PronType=Rel	46	obl	_	_
+46	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	acl:relcl	_	SpaceAfter=No
+47	:	:	PUNCT	FC	_	46	punct	_	_
+48	"	"	PUNCT	FB	_	49	punct	_	SpaceAfter=No
+49-50	toglietemi	_	_	_	_	_	_	_	_
+49	togliete	togliere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	46	ccomp	_	_
+50	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	49	iobj	_	_
+51	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	49	obj	_	_
+52	ma	ma	CCONJ	CC	_	56	cc	_	_
+53	non	non	ADV	BN	PronType=Neg	56	advmod	_	_
+54	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	56	det	_	_
+55	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	56	det:poss	_	_
+56	Breil	Breil	PROPN	SP	_	51	conj	_	SpaceAfter=No
+57	"	"	PUNCT	FB	_	49	punct	_	_
+58	e	e	CCONJ	CC	_	60	cc	_	_
+59	tre	tre	NUM	N	NumType=Card	60	nummod	_	_
+60	volti	volto	NOUN	S	Gender=Masc|Number=Plur	32	conj	_	_
+61	noti	noto	ADJ	A	Gender=Masc|Number=Plur	60	amod	_	SpaceAfter=No
+62	:	:	PUNCT	FC	_	60	punct	_	_
+63	Domiziana	Domiziana	PROPN	SP	_	60	appos	_	_
+64	Giordano	Giordano	PROPN	SP	_	63	flat:name	_	SpaceAfter=No
+65	,	,	PUNCT	FF	_	66	punct	_	_
+66	Dalila	Dalila	PROPN	SP	_	63	conj	_	_
+67	Di	Di	PROPN	SP	_	66	flat:name	_	_
+68	Lazzaro	Lazzaro	PROPN	SP	_	66	flat:name	_	_
+69	e	e	CCONJ	CC	_	70	cc	_	_
+70	Milly	Milly	PROPN	SP	_	66	conj	_	_
+71	Carlucci	Carlucci	PROPN	SP	_	70	flat:name	_	SpaceAfter=No
+72	.	.	PUNCT	FS	_	5	punct	_	_
+

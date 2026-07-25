@@ -1,0 +1,101 @@
+# sent_id = cxn_153
+# text = _ _ _
+# form = VERB ADP _
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	_	_	ADP	_	_	3	case	_	OrigID=B
+3	_	_	_	_	_	1	obl	_	OrigID=C
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_153_example_1_1
+# text = Luigi Amedeo (...) nel 1883 entrò in Accademia Militare
+1	Luigi	Luigi	PROPN	SP	_	9	nsubj	_	SpacesBefore=\s
+2	Amedeo	Amedeo	PROPN	SP	_	1	flat:name	_	_
+3	(	(	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+4	...	...	PUNCT	FF	_	9	punct	_	SpaceAfter=No
+5	)	)	PUNCT	FB	_	4	punct	_	_
+6-7	nel	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	1883	1883	NUM	N	NumType=Card	9	obl	_	_
+9	entrò	entrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	CXN=153:A
+10	in	in	ADP	E	_	11	case	_	CXN=153:B
+11	Accademia	Accademia	PROPN	SP	_	9	obl	_	CXN=153:C
+12	Militare	militare	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_153_example_2_1
+# text = le macchine vanno (...) verso Valle Olona
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	macchine	macchina	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CXN=153:A
+4	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	...	...	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+6	)	)	PUNCT	FB	_	5	punct	_	_
+7	verso	verso	ADP	E	_	8	case	_	CXN=153:B
+8	Valle	Valle	PROPN	SP	_	3	obl	_	CXN=153:C
+9	Olona	Olona	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_153_example_3_1
+# text = io e Patrizia abbiamo sperato che tali notizie non giungessero a casa
+1	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	Patrizia	Patrizia	PROPN	SP	_	1	conj	_	_
+4	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	sperato	sperare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	che	che	SCONJ	CS	_	10	mark	_	_
+7	tali	tale	DET	DD	Number=Plur|PronType=Dem	8	det	_	_
+8	notizie	notizia	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	giungessero	giungere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	CXN=153:A
+11	a	a	ADP	E	_	12	case	_	CXN=153:B
+12	casa	casa	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No|CXN=153:C
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_153_example_4_1
+# text = Arrivo a Genova in Piazza della Vittoria.
+1	Arrivo	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CXN=153:A
+2	a	a	ADP	E	_	3	case	_	_
+3	Genova	Genova	PROPN	SP	_	1	obl	_	_
+4	in	in	ADP	E	_	5	case	_	CXN=153:B
+5	Piazza	Piazza	NOUN	SP	_	1	obl	_	CXN=153:C
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Vittoria	Vittoria	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_153_example_5_1
+# text = Poi un giorno andai a Venezia, alla Biennale
+1	Poi	poi	ADV	B	_	4	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	andai	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	CXN=153:A
+5	a	a	ADP	E	_	6	case	_	_
+6	Venezia	Venezia	PROPN	SP	_	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	CXN=153:B
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Biennale	Biennale	PROPN	SP	_	4	obl	_	SpaceAfter=No|CXN=153:C
+

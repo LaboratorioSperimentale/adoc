@@ -2,9 +2,9 @@
 # cxn_name = E tu V che X ? cxn-machine-readable-formalization: | cxn_69.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	e	e	CCONJ	_	C	cc	_	_	_	_	_
-B	tu	tu	PRON	Number=Sing|Person=2|PronType=Prs	C	nsubj	_	_	_	_	_
-C	_	_	VERB	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_	_	_	_
-D	che	che	SCONJ	_	G	mark	_	_	_	_	_
-E	_	_	VERB	Tense=Past|VerbForm=Part	G	advcl	_	_	_	_	_
-F	si	si	PRON	Person=3|PronType=Prs	G	expl:impers	_	_	_	_	_
-G	_	_	VERB	_	C	ccomp	_	_	_	_	_
+B	tu	tu	PRON	Number=Sing|Person=2|PronType=Prs	C	nsubj	_	A	_	_	_
+C	_	_	VERB	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	B	_	_	_
+D	che	che	SCONJ	_	G	mark	_	C	_	_	_
+E	_	_	VERB	Tense=Past|VerbForm=Part	G	advcl	_	D	_	_	_
+F	si	si	PRON	Person=3|PronType=Prs	G	expl:impers	_	E	_	_	_
+G	_	_	VERB	_	C	ccomp	_	F	_	_	_

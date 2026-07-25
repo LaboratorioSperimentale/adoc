@@ -1,0 +1,69 @@
+# sent_id = cxn_42
+# text = essere _ _
+# form = essere ADP NOUN
+1	essere	essere	AUX	_	_	0	root	_	OrigID=A
+2	_	_	ADP	_	_	3	case	_	OrigID=B
+3	_	_	NOUN	_	_	1	obl	_	OrigID=C
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = internet
+# sent_id = cxn_42_example_1_1
+# text = essere al verde
+1	essere	essere	AUX	VA	VerbForm=Inf	0	root	_	CXN=42:A
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	CXN=42:B
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	verde	verde	NOUN	S	Number=Sing	1	obl	_	SpacesAfter=_|CXN=42:C
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = internet
+# sent_id = cxn_42_example_2_1
+# text = essere al settimo cielo
+1	essere	essere	AUX	VA	VerbForm=Inf	0	root	_	CXN=42:A
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	5	case	_	CXN=42:B
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	settimo	settimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	cielo	cielo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|CXN=42:C
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = internet
+# sent_id = cxn_42_example_3_1
+# text = essere in alto mare
+1	essere	essere	AUX	VA	VerbForm=Inf	0	root	_	CXN=42:A
+2	in	in	ADP	E	_	4	case	_	CXN=42:B
+3	alto	alto	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	mare	mare	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No|CXN=42:C
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = internet
+# sent_id = cxn_42_example_4_1
+# text = essere in vena
+1	essere	essere	AUX	VA	VerbForm=Inf	0	root	_	CXN=42:A
+2	in	in	ADP	E	_	3	case	_	CXN=42:B
+3	vena	vena	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No|CXN=42:C
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = internet
+# sent_id = cxn_42_example_5_1
+# text = essere nelle canne
+1	essere	essere	AUX	VA	VerbForm=Inf	0	root	_	CXN=42:A
+2-3	nelle	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	CXN=42:B
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	canne	canna	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No|CXN=42:C
+

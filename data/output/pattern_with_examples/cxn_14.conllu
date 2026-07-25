@@ -1,0 +1,119 @@
+# sent_id = cxn_14
+# text = bello come _ _
+# form = bello come DET NOUN
+1	bello	bello	ADJ	_	_	0	root	_	OrigID=A
+2	come	come	ADP	_	_	4	case	_	OrigID=B
+3	_	_	DET	_	_	4	det	_	OrigID=C
+4	_	_	NOUN	_	_	1	obl	_	OrigID=D
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=29254770&End=29254770
+# sent_id = cxn_14_example_1_1
+# text = Aveva saputo per lettera che lontano, a casa, la giovane moglie gli aveva appena partorito un figlio bello come il sole
+1	Aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	che	che	SCONJ	CS	_	17	mark	_	_
+6	lontano	lontano	ADV	B	_	17	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	casa	casa	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	giovane	giovane	ADJ	A	Number=Sing	13	amod	_	_
+13	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+14	gli	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	iobj	_	Clitic=Yes
+15	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+16	appena	appena	ADV	B	_	17	advmod	_	_
+17	partorito	partorire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	bello	bello	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	CXN=14:A
+21	come	come	ADP	E	_	23	case	_	CXN=14:B
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	CXN=14:C
+23	sole	sole	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No|CXN=14:D
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=25633205&End=25633206
+# sent_id = cxn_14_example_2_1
+# text = Vede nelle fotografie e nei disegni la trasformazione di un giovane che era bello come un angelo in un uomo devastato dalla crudeltà ottusa dei suoi simili
+1	Vede	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	nelle	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	fotografie	fotografia	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6-7	nei	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	disegni	disegno	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	trasformazione	trasformazione	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	giovane	giovane	NOUN	S	Number=Sing	10	nmod	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+16	bello	bello	ADJ	A	Gender=Masc|Number=Sing	13	acl:relcl	_	CXN=14:A
+17	come	come	ADP	E	_	19	case	_	CXN=14:B
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	CXN=14:C
+19	angelo	angelo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	CXN=14:D
+20	in	in	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+23	devastato	devastare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	acl	_	_
+24-25	dalla	_	_	_	_	_	_	_	_
+24	da	da	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	crudeltà	crudeltà	NOUN	S	Gender=Fem	23	obl:agent	_	_
+27	ottusa	ottuso	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+28-29	dei	_	_	_	_	_	_	_	_
+28	di	di	ADP	E	_	31	case	_	_
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+30	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	simili	simile	NOUN	S	Number=Plur	26	nmod	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=50494567&End=50494568
+# sent_id = cxn_14_example_3_1
+# text = Accidenti... innamorarsi di un uomo bello come un dio , più ricco di Onassis , e con una Stanza Rossa delle Torture che mi aspetta
+1	Accidenti	accidente	NOUN	S	Gender=Masc|Number=Plur	3	discourse	_	SpaceAfter=No
+2	...	...	PUNCT	FF	_	1	punct	_	_
+3-4	innamorarsi	_	_	_	_	_	_	_	_
+3	innamorar	innamorare	VERB	V	VerbForm=Inf	0	root	_	_
+4	si	si	PRON	PC	Person=3|PronType=Prs	3	expl	_	Clitic=Yes
+5	di	di	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	bello	bello	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	CXN=14:A
+9	come	come	ADP	E	_	11	case	_	CXN=14:B
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	CXN=14:C
+11	dio	dio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	CXN=14:D
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	più	più	ADV	B	_	14	advmod	_	_
+14	ricco	ricco	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Onassis	Onassis	PROPN	SP	_	14	obl	_	_
+17	,	,	PUNCT	FF	_	21	punct	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	con	con	ADP	E	_	21	case	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Stanza	Stanza	PROPN	SP	_	7	conj	_	_
+22	Rossa	rosso	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+23-24	delle	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	Torture	tortura	PROPN	SP	Gender=Fem|Number=Plur	21	nmod	_	_
+26	che	che	PRON	PR	PronType=Rel	28	nsubj	_	_
+27	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	28	obj	_	Clitic=Yes
+28	aspetta	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	SpaceAfter=No
+

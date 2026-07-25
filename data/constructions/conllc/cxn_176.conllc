@@ -2,5 +2,5 @@
 # cxn_name = uscirne + agg (fisico/psicologico) cxn-machine-readable-formalization: | cxn_176.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	ne	ne	PRON	PronType=Prs	B	obl	_	_	_	_	_
-B	_	uscire	VERB	_	0	root	_	_	_	_	_
-C	_	_	_	_	B	xcomp	_	_	_	_	_
+B	_	uscire	VERB	_	0	root	_	A	_	_	_
+C	_	_	_	_	B	xcomp	_	B	_	_	_

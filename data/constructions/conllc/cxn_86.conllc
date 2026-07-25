@@ -2,5 +2,5 @@
 # cxn_name = motion verb + "a" + infinitive construction cxn-machine-readable-formalization: | cxn_86.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	_	_	VERB	_	0	root	_	_	_	_	_
-B	_	a	ADP	_	C	mark	_	_	_	_	_
-C	_	_	VERB	VerbForm=Inf	A	advcl	_	_	_	_	_
+B	_	a	ADP	_	C	mark	_	A	_	_	_
+C	_	_	VERB	VerbForm=Inf	A	advcl	_	B	_	_	_

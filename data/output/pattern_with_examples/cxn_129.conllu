@@ -1,0 +1,201 @@
+# sent_id = cxn_129
+# text = che non _
+# form = che non VERB
+1	che	che	SCONJ	_	_	3	mark	_	OrigID=A
+2	non	non	ADV	_	_	3	advmod	_	OrigID=B
+3	_	_	VERB	_	_	0	root	_	OrigID=C
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS Time Slice:	CORIS1980_2000 SubCorpus :	NARRAT
+# sent_id = cxn_129_example_1_1
+# text = Precisiamo, però; non è che non provassi sconcerto, ero anzi in preda all'angoscia e del mio diaframma l'orrore aveva fatto un anello di acciaio che serrava fino a togliermi il respiro.
+1	Precisiamo	precisere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	però	però	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	;	;	PUNCT	FC	_	1	punct	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+7	che	che	SCONJ	CS	_	9	mark	_	CXN=129:A
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	CXN=129:B
+9	provassi	provare	VERB	V	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	nsubj	_	CXN=129:C
+10	sconcerto	sconcerto	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	conj	_	_
+13	anzi	anzi	ADV	B	_	12	advmod	_	_
+14	in	in	ADP	A	_	15	case	_	_
+15	preda	preda	NOUN	_	Number=Sing	12	obl	_	_
+16-17	all'	_	_	_	_	_	_	_	SpaceAfter=No
+16	a	a	ADP	A	_	18	case	_	_
+17	l'	il	DET	A	Number=Sing	18	det	_	_
+18	angoscia	angoscia	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+19	e	e	CCONJ	CC	_	27	cc	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	23	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	diaframma	diaframma	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+24	l'	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
+25	orrore	orrore	NOUN	S	Gender=Masc|Number=Sing	27	nsubj	_	_
+26	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	27	aux	_	_
+27	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+28	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	anello	anello	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	acciaio	acciaio	NOUN	S	Gender=Masc|Number=Sing	29	nmod	_	_
+32	che	che	PRON	PR	PronType=Rel	33	nsubj	_	_
+33	serrava	serrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	acl:relcl	_	_
+34	fino	fino	ADV	B	_	33	advmod	_	_
+35	a	a	ADP	B	_	34	flat	_	_
+36-37	togliermi	_	_	_	_	_	_	_	_
+36	toglier	toglier	VERB	V	VerbForm=Inf	33	xcomp	_	_
+37	mi	mi	PRON	_	_	36	iobj	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	respiro	respiro	NOUN	S	Gender=Masc|Number=Sing	36	obj	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	1	punct	_	_
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS Time Slice:	CORIS1980_2000 SubCorpus :	NARRAT
+# sent_id = cxn_129_example_2_1
+# text = Ma c'era un altro (forse Chesterton?) che aveva detto: da quando gli uomini non credono più in Dio, non è che non credano più a nulla, credono a tutto.
+1	Ma	ma	CCONJ	CC	_	3	discourse	_	_
+2	c'	ci	PRON	PC	PronType=Prs	3	expl	_	Clitic=Yes|SpaceAfter=No
+3	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+6	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+7	forse	forse	ADV	B	_	8	advmod	_	_
+8	Chesterton	Chesterton	PROPN	SP	_	5	appos	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	8	punct	_	SpaceAfter=No
+10	)	)	PUNCT	FB	_	8	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	13	punct	_	_
+15	da	da	ADP	E	ExtPos=SCONJ	16	case	_	_
+16	quando	quando	SCONJ	CS	_	20	advmod	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	20	nsubj	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	credono	credere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+21	più	più	ADV	B	_	20	advmod	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	Dio	Dio	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	_
+25	non	non	ADV	BN	PronType=Neg	26	advmod	_	_
+26	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+27	che	che	SCONJ	CS	_	29	mark	_	CXN=129:A
+28	non	non	ADV	BN	PronType=Neg	29	advmod	_	CXN=129:B
+29	credano	credere	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	csubj	_	CXN=129:C
+30	più	più	ADV	B	_	29	advmod	_	_
+31	a	a	ADP	E	_	32	case	_	_
+32	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	29	obl	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	34	punct	_	_
+34	credono	credere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	_
+35	a	a	ADP	E	_	36	case	_	_
+36	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	34	obl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	3	punct	_	_
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS Time Slice:	CORIS1980_2000 SubCorpus :	STAMPA
+# sent_id = cxn_129_example_3_1
+# text = Mi spiego: non è che non vorrei farlo sapere per i giudizi politici, perché ho alle spalle una lunga interlocuzione con il mondo cattolico.
+1	Mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	2	iobj	_	Clitic=Yes
+2	spiego	spiegare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	2	punct	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	CXN=129:A
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	SpacesAfter=_|CXN=129:B
+8	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9-10	farlo	_	_	_	_	_	_	_	_
+9	far	fare	VERB	V	VerbForm=Inf	5	nsubj	_	CXN=129:C
+10	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	Clitic=Yes
+11	sapere	sapere	VERB	V	VerbForm=Inf	9	ccomp	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	giudizi	giudizio	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+15	politici	politico	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	9	punct	_	_
+17	perché	perché	SCONJ	CS	_	18	mark	_	_
+18	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+19-20	alle	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	spalle	spalla	NOUN	S	Gender=Fem|Number=Plur	18	obl	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	24	amod	_	_
+24	interlocuzione	interlocuzione	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+25	con	con	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+28	cattolico	cattolico	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Time Slice:	MONITOR2005_07 SubCorpus :	MISC
+# sent_id = cxn_129_example_4_1
+# text = Sai, se a un uomo gli fai vedere un ponte, anche se poi lo togli di mezzo non è che non attraversa più il fiume.
+1	Sai	sapere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	se	se	SCONJ	CS	_	8	mark	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	8	dislocated	_	_
+7	gli	gli	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	iobj	_	Clitic=Yes
+8	fai	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+9	vedere	vedere	VERB	V	VerbForm=Inf	8	ccomp	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ponte	ponte	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	_	_	_	_
+13	anche	anche	ADV	B	ExtPos=SCONJ	17	advmod	_	_
+14	se	se	SCONJ	CS	_	17	mark	_	_
+15	poi	poi	ADV	B	_	17	advmod	_	_
+16	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	Clitic=Yes
+17	togli	togliere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+20	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+21	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+22	che	che	SCONJ	CS	_	24	mark	_	CXN=129:A
+23	non	non	ADV	BN	PronType=Neg	24	advmod	_	CXN=129:B
+24	attraversa	attraversare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	nsubj	_	CXN=129:C
+25	più	più	ADV	B	_	24	advmod	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	fiume	fiume	NOUN	S	Gender=Masc|Number=Sing	24	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	21	punct	_	_
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS Time Slice:	MONITOR2001_04 SubCorpus :	NARRAT
+# sent_id = cxn_129_example_5_1
+# text = Vedi, non è che non voglio , ma questo non si può davvero fare.
+1	Vedi	vedere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	CXN=129:A
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	SpacesAfter=_|CXN=129:B
+7	voglio	volere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	csubj	_	CXN=129:C
+8	,	,	PUNCT	FF	_	15	punct	_	_
+9	ma	ma	CCONJ	CC	_	15	cc	_	_
+10	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	15	obj	_	_
+11	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+12	si	si	PRON	PC	Person=3|PronType=Prs	15	expl:impers	_	Clitic=Yes
+13	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	davvero	davvero	ADV	B	_	15	advmod	_	_
+15	fare	fare	VERB	V	VerbForm=Inf	4	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+

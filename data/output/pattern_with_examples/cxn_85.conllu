@@ -1,0 +1,150 @@
+# sent_id = cxn_85
+# text = è ora di _
+# form = è ora di VERB
+1	è	essere	AUX	_	_	2	cop	_	OrigID=A
+2	ora	ora	ADV	_	_	0	root	_	OrigID=B
+3	di	di	ADP	_	_	4	mark	_	OrigID=C
+4	_	_	VERB	_	_	2	acl	_	OrigID=D
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_85_example_1_1
+# text = Luisa, che forse è stata anche felice nei suoi anni di matrimonio con Bruno, scopre che è ora di dire addio a tutto questo.
+1	Luisa	Luisa	PROPN	SP	_	18	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	8	punct	_	_
+3	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+4	forse	forse	ADV	B	_	8	advmod	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	stata	essere	AUX	VA	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+7	anche	anche	ADV	B	_	8	advmod	_	_
+8	felice	felice	ADJ	A	Number=Sing	1	acl:relcl	_	_
+9-10	nei	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	con	con	ADP	E	_	16	case	_	_
+16	Bruno	Bruno	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	8	punct	_	_
+18	scopre	scoprire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	che	che	SCONJ	CS	_	21	mark	_	_
+20	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	CXN=85:A
+21	ora	ora	ADV	B	_	18	ccomp	_	CXN=85:B
+22	di	di	ADP	E	_	23	mark	_	CXN=85:C
+23	dire	dire	VERB	V	VerbForm=Inf	21	acl	_	CXN=85:D
+24	addio	addio	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	tutto	tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	27	det	_	_
+27	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	23	obl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	18	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_85_example_2_1
+# text = Ops, suonano, è ora di andarsene ne .
+# tags = 2CLITICS
+1	Ops	ops	INTJ	I	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	suonano	suonare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	CXN=85:A
+6	ora	ora	ADV	B	Gender=Fem|Number=Sing	3	parataxis	_	CXN=85:B
+7	di	di	ADP	E	_	8	mark	_	CXN=85:C
+8-9	andarsene	_	_	_	_	_	_	_	_
+8	andar	andare	VERB	V	VerbForm=Inf	6	acl	_	CXN=85:D
+9	se	se	PRON	PC	Person=3|PronType=Prs	8	expl	_	Clitic=Yes
+10	ne	ne	PRON	PC	PronType=Prs	8	obl	_	Clitic=Yes
+11	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_85_example_3_1
+# text = Per quanto riguarda gli argomenti dei suoi assertori, è ora di smetterla con la storia della nostra tradizione, delle nostre peculiarità.
+1	Per	per	ADP	E	_	2	case	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	12	obl	_	_
+3	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	argomenti	argomento	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	assertori	assertore	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	CXN=85:A
+12	ora	ora	ADV	B	_	0	root	_	CXN=85:B
+13	di	di	ADP	E	_	14	mark	_	CXN=85:C
+14-15	smetterla	_	_	_	_	_	_	_	_
+14	smetter	smettere	VERB	V	VerbForm=Inf	12	acl	_	CXN=85:D
+15	la	la	PRON	PC	Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	expl	_	Clitic=Yes
+16	con	con	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	storia	storia	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	_
+19-20	della	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	22	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	tradizione	tradizione	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	27	punct	_	_
+24-25	delle	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	27	case	_	_
+25	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	_
+26	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	peculiarità	peculiarità	NOUN	S	Gender=Fem	22	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	12	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_85_example_4_1
+# text = Forse è ora di capire davvero che non c'è nulla da salvare.
+1	Forse	forse	ADV	B	_	3	advmod	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	CXN=85:A
+3	ora	ora	ADV	B	Gender=Fem|Number=Sing	0	root	_	CXN=85:B
+4	di	di	ADP	E	_	5	mark	_	CXN=85:C
+5	capire	capire	VERB	V	VerbForm=Inf	3	acl	_	CXN=85:D
+6	davvero	davvero	ADV	B	_	5	advmod	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	c'	ci	PRON	PC	PronType=Prs	10	expl	_	Clitic=Yes|SpaceAfter=No
+10	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+11	nulla	nulla	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	nsubj	_	_
+12	da	da	ADP	E	_	13	mark	_	_
+13	salvare	salvare	VERB	V	VerbForm=Inf	11	acl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_85_example_5_1
+# text = è ora di esaminare il contributo della teoria sociale a questo riguardo.
+1	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	CXN=85:A
+2	ora	ora	ADV	B	_	0	root	_	CXN=85:B
+3	di	di	ADP	E	_	4	mark	_	CXN=85:C
+4	esaminare	esaminare	VERB	V	VerbForm=Inf	2	acl	_	CXN=85:D
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	contributo	contributo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	teoria	teoria	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	sociale	sociale	ADJ	A	Number=Sing	9	amod	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+13	riguardo	riguardo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+

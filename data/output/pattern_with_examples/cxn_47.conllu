@@ -1,0 +1,79 @@
+# sent_id = cxn_47
+# text = fa molto _
+# form = fa molto _
+1	fa	fare	VERB	_	_	0	root	_	OrigID=A
+2	molto	molto	ADV	_	_	1	advmod	_	OrigID=B
+3	_	_	_	_	_	1	obj	_	OrigID=C
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Ecce Bombo, (1978), Nanni Moretti.
+# sent_id = cxn_47_example_1_1
+# text = Fa molto Fellini, vero?
+1	Fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CXN=47:A
+2	molto	molto	ADV	B	_	1	advmod	_	CXN=47:B
+3	Fellini	Fellini	PROPN	SP	_	1	obj	_	SpaceAfter=No|CXN=47:C
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	vero	vero	INTJ	I	_	1	discourse	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	1	punct	_	_
+
+
+# source = Ecce Bombo, (1978), Nanni Moretti.
+# sent_id = cxn_47_example_1_2
+# text = Che bello!
+# tags = CONTEXT
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	bello	bello	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=_
+
+
+# source = https://www.corpusitaliano.it/static/documents/sources/770/7705365
+# sent_id = cxn_47_example_2_2
+# text = la frangetta, soprattutto sul caschetto corto, che fa molto Arisa
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	frangetta	frangetta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	7	punct	_	_
+4	soprattutto	soprattutto	ADV	B	_	7	advmod	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	caschetto	caschetto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+8	corto	corto	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	SpacesAfter=_
+11	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	CXN=47:A
+12	molto	molto	ADV	B	_	11	advmod	_	CXN=47:B
+13	Arisa	Arisa	PROPN	SP	_	11	obj	_	SpaceAfter=No|CXN=47:C
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://www.corpusitaliano.it/static/documents/sources/780/7807716
+# sent_id = cxn_47_example_3_1
+# text = il che fa molto Piazza Grande
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	che	che	PRON	PR	PronType=Rel	3	nsubj	_	_
+3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CXN=47:A
+4	molto	molto	ADV	B	_	3	advmod	_	CXN=47:B
+5	Piazza	Piazza	PROPN	SP	_	3	obj	_	CXN=47:C
+6	Grande	Grande	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://www.corpusitaliano.it/static/documents/sources/780/7808466
+# sent_id = cxn_47_example_4_1
+# text = un'automobile di altri tempi che fa molto retrò
+1	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	automobile	automobile	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	altri	altro	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
+5	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	CXN=47:A
+8	molto	molto	ADV	B	_	7	advmod	_	CXN=47:B
+9	retrò	retrò	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	obj	_	SpaceAfter=No|CXN=47:C
+

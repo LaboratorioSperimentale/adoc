@@ -1,0 +1,88 @@
+# sent_id = cxn_86
+# text = _ _ _
+# form = VERB a VERB
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	_	a	ADP	_	_	3	mark	_	OrigID=B
+3	_	_	VERB	_	_	1	advcl	_	OrigID=C
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://ricerca.repubblica.it/repubblica/archivio/repubblica/2011/04/22/quando-orfeo-lascia-euridice.html
+# sent_id = cxn_86_example_1_1
+# text = quando Orfeo si gira a guardare Euridice
+1	quando	quando	SCONJ	CS	_	4	mark	_	_
+2	Orfeo	Orfeo	PROPN	SP	_	4	nsubj	_	_
+3	si	si	PRON	PC	Person=3|PronType=Prs	4	expl	_	Clitic=Yes
+4	gira	girare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CXN=86:A
+5	a	a	ADP	E	_	6	mark	_	CXN=86:B
+6	guardare	guardare	VERB	V	VerbForm=Inf	4	advcl	_	CXN=86:C
+7	Euridice	Euridice	PROPN	SP	_	6	obj	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://context.reverso.net/translation/italian-english/restare+ad+ascoltare  >  https://www.statmt.org/europarl/v7/it-en.tgz
+# sent_id = cxn_86_example_2_1
+# text = la prego di scusarmi se non potrò restare ad ascoltare la sua risposta
+1	la	la	PRON	PC	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	Clitic=Yes
+2	prego	pregare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4-5	scusarmi	_	_	_	_	_	_	_	_
+4	scusar	scusare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	4	obj	_	Clitic=Yes
+6	se	se	SCONJ	CS	_	9	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	potrò	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	9	aux	_	SpacesAfter=_
+9	restare	restare	VERB	V	VerbForm=Inf	2	advcl	_	CXN=86:A
+10	ad	a	ADP	E	_	11	mark	_	CXN=86:B
+11	ascoltare	ascoltare	VERB	V	VerbForm=Inf	9	advcl	_	CXN=86:C
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Dante Alighieri, Inferno, XXXIV, 139
+# sent_id = cxn_86_example_3_1
+# text = E quindi uscimmo a riveder le stelle
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	quindi	quindi	ADV	B	_	3	advmod	_	_
+3	uscimmo	uscire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CXN=86:A
+4	a	a	ADP	E	_	5	mark	_	CXN=86:B
+5	riveder	rivedere	VERB	V	VerbForm=Inf	3	advcl	_	CXN=86:C
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	stelle	stella	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=123144192&End=123144195
+# sent_id = cxn_86_example_4_1
+# text = si è fermato a chiacchierare
+1	si	si	PRON	PC	Person=3|PronType=Prs	3	expl	_	Clitic=Yes
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fermato	fermare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	CXN=86:A
+4	a	a	ADP	E	_	5	mark	_	CXN=86:B
+5	chiacchierare	chiacchierare	VERB	V	VerbForm=Inf	3	advcl	_	SpaceAfter=No|CXN=86:C
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=80159752&End=80159753
+# sent_id = cxn_86_example_5_1
+# text = E tutti sono andati a preparare la partenza
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	nsubj	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	andati	andare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	CXN=86:A
+5	a	a	ADP	E	_	6	mark	_	CXN=86:B
+6	preparare	preparare	VERB	V	VerbForm=Inf	4	advcl	_	CXN=86:C
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	partenza	partenza	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+

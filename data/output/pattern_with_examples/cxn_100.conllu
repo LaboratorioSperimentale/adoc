@@ -1,0 +1,107 @@
+# sent_id = cxn_100
+# text = quanto sono _
+# form = quanto sono _
+1	quanto	quanto	_	_	_	3	advmod	_	OrigID=A
+2	sono	essere	AUX	_	_	3	cop	_	OrigID=B
+3	_	_	_	_	_	0	root	_	OrigID=C
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itWaC
+# sent_id = cxn_100_example_1_1
+# text = Quanto sono lieto di essere partito!
+1	Quanto	quanto	PRON	PQ	Number=Sing|PronType=Int	3	advmod	_	CXN=100:A
+2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	CXN=100:B
+3	lieto	lieto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	CXN=100:C
+4	di	di	ADP	E	_	6	mark	_	_
+5	essere	essere	AUX	VA	VerbForm=Inf	6	aux	_	_
+6	partito	partire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_100_example_2_1
+# text = Hai visto quanto sono impazienti i loro figli di offrirsi volontari come tributi.
+1	Hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	quanto	quanto	ADV	B	_	5	advmod	_	CXN=100:A
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	CXN=100:B
+5	impazienti	impaziente	ADJ	A	Number=Plur	2	ccomp	_	CXN=100:C
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	loro	loro	DET	AP	Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10-11	offrirsi	_	_	_	_	_	_	_	_
+10	offrir	offrire	VERB	V	VerbForm=Inf	5	advcl	_	_
+11	si	si	PRON	PC	Person=3|PronType=Prs	10	obj	_	Clitic=Yes
+12	volontari	volontario	ADJ	A	Gender=Masc|Number=Plur	10	xcomp	_	_
+13	come	come	ADP	E	_	14	case	_	_
+14	tributi	tributo	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_100_example_3_1
+# text = Volevo dirti quanto sono fiera di te.
+1	Volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2-3	dirti	_	_	_	_	_	_	_	_
+2	dir	dire	VERB	V	VerbForm=Inf	0	root	_	_
+3	ti	ti	PRON	PC	Number=Sing|Person=2|PronType=Prs	2	iobj	_	Clitic=Yes
+4	quanto	quanto	ADV	B	_	6	advmod	_	CXN=100:A
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	CXN=100:B
+6	fiera	fiera	NOUN	S	Gender=Fem|Number=Sing	2	ccomp	_	CXN=100:C
+7	di	di	ADP	E	_	8	case	_	_
+8	te	te	PRON	PE	Number=Sing|Person=2|PronType=Prs	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itWaC
+# sent_id = cxn_100_example_4_1
+# text = Ah, quanto sono stufo di tutte le cose inadeguate...
+1	Ah	ah	INTJ	I	_	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	quanto	quanto	ADV	B	_	5	advmod	_	CXN=100:A
+4	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	CXN=100:B
+5	stufo	stufo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	CXN=100:C
+6	di	di	ADP	E	_	9	case	_	_
+7	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	9	det:predet	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+10	inadeguate	inadeguato	ADJ	A	_	9	amod	_	SpaceAfter=No
+11	...	...	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itWaC
+# sent_id = cxn_100_example_5_1
+# text = Mamma mia quanto sono migliorata e quanto sono pentita di non averlo fatto prima!
+1	Mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	5	discourse	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	1	det:poss	_	_
+3	quanto	quanto	ADV	B	_	5	advmod	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	migliorata	migliorare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	quanto	quanto	ADV	B	_	9	advmod	_	CXN=100:A
+8	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	CXN=100:B
+9	pentita	pentito	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	CXN=100:C
+10	di	di	ADP	E	_	14	mark	_	_
+11	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+12-13	averlo	_	_	_	_	_	_	_	_
+12	aver	avere	AUX	VA	VerbForm=Inf	14	aux	_	_
+13	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	Clitic=Yes
+14	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+15	prima	prima	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	!	!	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+

@@ -2,6 +2,6 @@
 # cxn_name = venire fuori che V cxn-machine-readable-formalization: | cxn_167.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	viene	venire	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_	_	_	_
-B	fuori	fuori	ADV	_	A	advmod	_	_	_	_	_
-C	che	che	SCONJ	_	D	mark	_	_	_	_	_
-D	_	_	_	_	A	ccomp	_	_	_	_	_
+B	fuori	fuori	ADV	_	A	advmod	_	A	_	_	_
+C	che	che	SCONJ	_	D	mark	_	B	_	_	_
+D	_	_	_	_	A	ccomp	_	C	_	_	_

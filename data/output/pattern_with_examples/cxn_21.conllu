@@ -1,0 +1,105 @@
+# sent_id = cxn_21
+# text = _ a _
+# form = andare a VERB
+1	_	andare	VERB	_	_	0	root	_	OrigID=A
+2	a	a	ADP	_	_	3	mark	_	OrigID=B
+3	_	_	VERB	_	_	1	xcomp	_	OrigID=C
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: CORIS
+# sent_id = cxn_21_example_1_1
+# text = Porta a toppa - Una porta le cui coste vanno a coprire i bordi della carcassa quando è chiusa.
+1	Porta	porta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	toppa	toppa	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+4	-	-	PUNCT	FF	_	1	punct	_	_
+5	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	porta	porta	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	cui	cui	DET	DR	PronType=Rel	9	det:poss	_	_
+9	coste	costa	NOUN	S	Gender=Fem|Number=Plur	10	nsubj	_	SpacesAfter=_
+10	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	CXN=21:A
+11	a	a	ADP	E	_	12	mark	_	CXN=21:B
+12	coprire	coprire	VERB	V	VerbForm=Inf	10	xcomp	_	CXN=21:C
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	bordi	bordo	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	carcassa	carcassa	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+18	quando	quando	SCONJ	CS	_	20	mark	_	_
+19	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux:pass	_	_
+20	chiusa	chiudere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: CORIS
+# sent_id = cxn_21_example_2_1
+# text = Andiamo a vedere la sua seconda pagina.
+1	Andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CXN=21:A
+2	a	a	ADP	E	_	3	mark	_	CXN=21:B
+3	vedere	vedere	VERB	V	VerbForm=Inf	1	xcomp	_	CXN=21:C
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+6	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	7	amod	_	_
+7	pagina	pagina	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: CORIS
+# sent_id = cxn_21_example_3_1
+# text = Si va a gestire, in qualche modo, qualcosa che poi tocca [...] e che condiziona la vita.
+1	Si	si	PRON	PC	Person=3|PronType=Prs	2	expl:impers	_	Clitic=Yes
+2	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CXN=21:A
+3	a	a	ADP	E	_	4	mark	_	CXN=21:B
+4	gestire	gestire	VERB	V	VerbForm=Inf	2	xcomp	_	SpaceAfter=No|CXN=21:C
+5	,	,	PUNCT	FF	_	8	punct	_	SpacesAfter=_
+6	in	in	ADP	E	_	8	case	_	_
+7	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+8	modo	modo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	4	obj	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	poi	poi	ADV	B	_	13	advmod	_	_
+13	tocca	toccare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	[	[	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	...	...	PUNCT	FF	_	13	punct	_	SpaceAfter=No
+16	]	]	PUNCT	FB	_	15	punct	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+19	condiziona	condizionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	vita	vita	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: CORIS
+# sent_id = cxn_21_example_4_1
+# text = Dice Santina Vinciguerra [...] "tra qualche settimana andremo a verificare".
+1	Dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	Santina	Santina	PROPN	SP	_	1	nsubj	_	_
+3	Vinciguerra	Vinciguerra	PROPN	SP	_	2	flat:name	_	_
+4	[	[	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+5	...	...	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+6	]	]	PUNCT	FB	_	5	punct	_	_
+7	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+8	tra	tra	ADP	E	_	10	case	_	_
+9	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
+10	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+11	andremo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	1	parataxis	_	CXN=21:A
+12	a	a	ADP	E	_	13	mark	_	CXN=21:B
+13	verificare	verificare	VERB	V	VerbForm=Inf	11	xcomp	_	SpaceAfter=No|CXN=21:C
+14	"	"	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+

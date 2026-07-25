@@ -1,0 +1,110 @@
+# sent_id = cxn_147
+# text = _ _
+# form = il NOUN
+1	_	il	DET	_	_	2	det	_	OrigID=A
+2	_	_	NOUN	_	_	0	root	_	OrigID=B
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS 2021
+# sent_id = cxn_147_example_1_1
+# text = Ci sono lavavetri (to wash+window) che sono saliti sulle auto di anziani perché volevano più soldi.
+# tags = MORPHOLOGICAL
+1	Ci	ci	PRON	PC	PronType=Prs	2	expl	_	Clitic=Yes
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	lavavetri	lavavetro	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	saliti	salire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7-8	sulle	_	_	_	_	_	_	_	_
+7	su	su	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	CXN=147:A
+9	auto	auto	NOUN	S	Gender=Fem	6	obl	_	CXN=147:B
+10	di	di	ADP	E	_	11	case	_	_
+11	anziani	anziano	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+12	perché	perché	SCONJ	CS	_	13	mark	_	_
+13	volevano	volere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+14	più	più	ADV	B	_	15	advmod	_	_
+15	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS 2021
+# sent_id = cxn_147_example_2_1
+# text = Alla fine il decreto salva-Rete4 arriva, senza una sola parola sul problema delle concentrazioni televisive.
+# tags = MORPHOLOGICAL
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	CXN=147:A
+3	fine	fine	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	CXN=147:B
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	decreto	decreto	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	salva-Rete4	Salva-Rete4	PROPN	SP	_	5	nmod	_	_
+7	arriva	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	senza	senza	ADP	E	_	12	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	sola	solo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+12	parola	parola	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+13-14	sul	_	_	_	_	_	_	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	problema	problema	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+16-17	delle	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	18	case	_	_
+17	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	concentrazioni	concentrazione	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	_
+19	televisive	televisivo	ADJ	A	Gender=Fem|Number=Plur	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	7	punct	_	_
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = ItTenten20_19072024_SM
+# source = . itTenTen20 .
+# text = Questi portachiavi in plastica dura dalla forma rotonda daranno un tocco di originalità al tuo look
+# status = TO_CHECK
+1	Questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	portachiavi	portachiavo	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	plastica	plastica	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+5	dura	duro	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6-7	dalla	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	CXN=147:A
+8	forma	forma	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	CXN=147:B
+9	rotonda	rotondo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	daranno	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tocco	tocco	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	originalità	originalità	NOUN	S	Gender=Fem	12	nmod	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	look	look	NOUN	S	Gender=Masc	10	obl	_	SpaceAfter=No
+
+
+# sent_id = tut-3121
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-ISDT/it_isdt-ud-train tut-3121
+# text = Vediamo allora qualche criterio per ricomporre o confermare il proprio portafoglio.
+# status = TO_CHECK
+1	Vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+2	allora	allora	ADV	B	_	1	advmod	1:advmod	_
+3	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	4	det	4:det	_
+4	criterio	criterio	NOUN	S	Gender=Masc|Number=Sing	1	obj	1:obj	_
+5	per	per	ADP	E	_	6	mark	6:mark	_
+6	ricomporre	ricomporre	VERB	V	VerbForm=Inf	4	acl	4:acl:per	_
+7	o	o	CCONJ	CC	_	8	cc	8:cc	_
+8	confermare	confermare	VERB	V	VerbForm=Inf	6	conj	4:acl:per|6:conj:o	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	11:det	CXN=147:A
+10	proprio	proprio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	11:det:poss	_
+11	portafoglio	portafoglio	NOUN	S	Gender=Masc|Number=Sing	8	obj	8:obj	SpaceAfter=No|CXN=147:B
+12	.	.	PUNCT	FS	_	1	punct	1:punct	_
+

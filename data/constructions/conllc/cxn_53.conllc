@@ -2,5 +2,5 @@
 # cxn_name = (PROdat+)V3Sing"Venire"Temp+Prep"Da"+VInf cxn-machine-readable-formalization: | cxn_53.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	_	venire	VERB	Number=Sing	0	root	_	_	_	_	_
-B	da	da	ADP	_	C	mark	_	_	_	_	_
-C	_	_	VERB	VerbForm=Inf	A	xcomp	_	_	_	_	_
+B	da	da	ADP	_	C	mark	_	A	_	_	_
+C	_	_	VERB	VerbForm=Inf	A	xcomp	_	B	_	_	_

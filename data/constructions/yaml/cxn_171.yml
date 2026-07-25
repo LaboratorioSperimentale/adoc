@@ -70,6 +70,9 @@ examples:
   - cxn_171_example_3.txt
   - cxn_171_example_4.txt
   - cxn_171_example_5.txt
+  - cxn_110_example_1.txt
+  - cxn_110_example_2.txt
+  - cxn_110_example_3.txt
 
 note: |
   -  Ex. 6  Il conduttore assegna loro tanti punti quanto è il

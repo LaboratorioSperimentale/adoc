@@ -23,9 +23,9 @@
 2	sto	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
 3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 4	,	,	PUNCT	FF	_	3	punct	_	SpacesAfter=
-5	persa	persa	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	persa	perdere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
 6	per	per	ADP	E	_	7	case	_	_
-7	persa	persa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpacesAfter=
+7	persa	perdere	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpacesAfter=
 8	...	...	PUNCT	FF	_	5	punct	_	SpaceAfter=No
 9	.	.	PUNCT	FS	_	5	punct	_	_
 
@@ -89,7 +89,7 @@
 1	tanto	tanto	ADV	B	_	2	discourse	_	SpacesAfter=
 2	morto	morire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	parataxis	_	_
 3	per	per	ADP	E	_	4	case	_	_
-4	morto	morto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpacesAfter=
+4	morto	morire	VERB	S	Gender=Masc|Number=Sing	2	obl	_	SpacesAfter=
 5	...	...	PUNCT	FF	_	11	punct	_	_
 6	e	e	CCONJ	CC	_	11	cc	_	_
 7	poi	poi	ADV	B	_	11	advmod	_	_
@@ -137,7 +137,7 @@
 3	se	se	SCONJ	CS	_	8	mark	_	SpacesAfter=
 4	pazzo	pazzo	ADJ	A	Gender=Masc|Number=Sing	8	parataxis	_	_
 5	per	per	ADP	E	_	6	case	_	_
-6	pazzo	pazzo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpacesAfter=
+6	pazzo	pazzo	ADJ	S	Gender=Masc|Number=Sing	4	obl	_	SpacesAfter=
 7	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	8	iobj	_	Clitic=Yes
 8	convenisse	convenire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
 9	rischiare	rischiare	VERB	V	VerbForm=Inf	8	csubj	_	_

@@ -1,0 +1,153 @@
+# sent_id = cxn_173
+# text = _ di _
+# form = dare di NOUN
+1	_	dare	VERB	_	_	0	root	_	OrigID=A
+2	di	di	ADP	_	_	3	case	_	OrigID=B
+3	_	_	NOUN	_	_	1	obl	_	OrigID=C
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itTenTen20
+# sent_id = cxn_173_example_1_1
+# text = Ci va del tempo, alle soglie del matrimonio poi, un'altra avrebbe già dato di testa.
+1	Ci	ci	PRON	PC	PronType=Prs	2	expl	_	Clitic=Yes
+2	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7-8	alle	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	soglie	soglia	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	poi	poi	ADV	B	_	9	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	9	punct	_	_
+15	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	altra	altro	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	19	nsubj	_	_
+17	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	già	già	ADV	B	_	19	advmod	_	SpacesAfter=_
+19	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	CXN=173:A
+20	di	di	ADP	E	_	21	case	_	CXN=173:B
+21	testa	testa	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No|CXN=173:C
+22	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itTenTen20
+# sent_id = cxn_173_example_2_1
+# text = Mio figlio di sei mesi dà di stomaco molto spesso, devo allarmarmi?
+1	Mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	sei	sei	NUM	N	NumType=Card	5	nummod	_	_
+5	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	SpacesAfter=_
+6	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CXN=173:A
+7	di	di	ADP	E	_	8	case	_	CXN=173:B
+8	stomaco	stomaco	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpacesAfter=_|CXN=173:C
+9	molto	molto	ADV	B	_	10	advmod	_	_
+10	spesso	spesso	ADV	B	_	6	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13-14	allarmarmi	_	_	_	_	_	_	_	SpaceAfter=No
+13	allarmar	allarmare	VERB	V	VerbForm=Inf	6	conj	_	_
+14	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	13	expl	_	Clitic=Yes
+15	?	?	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itTenTen20
+# sent_id = cxn_173_example_3_1
+# text = Sedutosi sul gradino al mio fianco, parlando sottovoce, cominciò a darmi di gomito mentre mi chiedeva con morbosa curiosità:
+1-2	Sedutosi	_	_	_	_	_	_	_	_
+1	seduto	sedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	advcl	_	_
+2	si	si	PRON	PC	Number=Sing|Person=3|PronType=Prs	1	expl	_	Clitic=Yes
+3-4	sul	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	gradino	gradino	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	fianco	fianco	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	_
+11	parlando	parlare	VERB	V	VerbForm=Ger	14	advcl	_	_
+12	sottovoce	sottovoce	ADV	_	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	cominciò	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+15	a	a	ADP	E	_	16	mark	_	SpacesAfter=_
+16-17	darmi	_	_	_	_	_	_	_	_
+16	dar	dare	VERB	V	VerbForm=Inf	14	xcomp	_	CXN=173:A
+17	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	16	iobj	_	Clitic=Yes
+18	di	di	ADP	E	_	19	case	_	CXN=173:B
+19	gomito	gomito	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpacesAfter=_|CXN=173:C
+20	mentre	mentre	SCONJ	CS	_	22	mark	_	_
+21	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	22	obj	_	Clitic=Yes
+22	chiedeva	chiedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	advcl	_	_
+23	con	con	ADP	E	_	25	case	_	_
+24	morbosa	morboso	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+25	curiosità	curiosità	NOUN	S	Gender=Fem	22	obl	_	SpaceAfter=No
+26	:	:	PUNCT	FC	_	14	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itTenTen20
+# sent_id = cxn_173_example_4_1
+# text = con l'ausilio di puntelli opportunamente conficcati, diamo di scalpello, non certo per romperle, bensì per riforgiarle.
+1	con	con	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	ausilio	ausilio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	puntelli	puntello	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+6	opportunamente	opportunamente	ADV	B	_	7	advmod	_	_
+7	conficcati	conficcato	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	SpacesAfter=_
+9	diamo	dare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CXN=173:A
+10	di	di	ADP	E	_	11	case	_	CXN=173:B
+11	scalpello	scalpello	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No|CXN=173:C
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+14	certo	certo	ADV	B	_	16	advmod	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16-17	romperle	_	_	_	_	_	_	_	SpaceAfter=No
+16	romper	rompere	VERB	V	VerbForm=Inf	9	advcl	_	_
+17	le	le	PRON	PC	Gender=Fem|Number=Plur|Person=3|PronType=Prs	16	obj	_	Clitic=Yes
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	bensì	bensì	CCONJ	CC	_	21	cc	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21-22	riforgiarle	_	_	_	_	_	_	_	SpaceAfter=No
+21	riforgiar	riforgiare	VERB	V	VerbForm=Inf	16	conj	_	_
+22	le	le	PRON	PC	Gender=Fem|Number=Plur|Person=3|PronType=Prs	21	obj	_	Clitic=Yes
+23	.	.	PUNCT	FS	_	9	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itTenTen20
+# sent_id = cxn_173_example_5_1
+# text = Ci ho dato di retino a maglie finissime e pazienza.
+1	Ci	ci	PRON	PC	Number=Plur|Person=1|PronType=Prs	3	expl	_	Clitic=Yes
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	CXN=173:A
+4	di	di	ADP	E	_	5	case	_	CXN=173:B
+5	retino	retino	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	CXN=173:C
+6	a	a	ADP	E	_	7	case	_	_
+7	maglie	maglia	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+8	finissime	fine	ADJ	A	Degree=Abs|Gender=Fem|Number=Plur	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	pazienza	pazienza	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+

@@ -3,6 +3,6 @@
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	a	a	ADP	_	B	case	_	_	_	_	_
 B	scanso	scanso	NOUN	Gender=Masc|Number=Sing	E	obl	_	_	_	_	_
-C	di	di	ADP	_	D	case	_	_	_	_	_
-D	_	_	_	_	B	nmod	_	_	_	_	_
-E	_	_	VERB	Number=Sing|Tense=Past	0	root	_	_	_	_	_
+C	di	di	ADP	_	D	case	_	B	_	_	_
+D	_	_	_	_	B	nmod	_	C	_	_	_
+E	_	_	VERB	Number=Sing|Tense=Past	0	root	_	D	_	_	_

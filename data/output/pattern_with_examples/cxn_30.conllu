@@ -1,0 +1,150 @@
+# sent_id = cxn_30
+# text = a scanso di _ _
+# form = a scanso di _ VERB
+1	a	a	ADP	_	_	2	case	_	OrigID=A
+2	scanso	scanso	NOUN	_	_	5	obl	_	OrigID=B|LinearOrder=Variable
+3	di	di	ADP	_	_	4	case	_	OrigID=C
+4	_	_	_	_	_	2	nmod	_	OrigID=D
+5	_	_	VERB	_	_	0	root	_	OrigID=E
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = (corpus) CORIS http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=47534312&End=47534312
+# sent_id = cxn_30_example_1_1
+# text = A scanso di equivoci , va detto che la scalata di Infront al campionato italiano è tutt' altro che ostile.
+1	A	a	ADP	E	_	2	case	_	CXN=30:A
+2	scanso	scanso	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	CXN=30:B
+3	di	di	ADP	E	_	4	case	_	CXN=30:C
+4	equivoci	equivoco	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	CXN=30:D
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	CXN=30:E
+8	che	che	SCONJ	CS	_	21	mark	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	scalata	scalata	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Infront	Infront	PROPN	SP	_	10	nmod	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	campionato	campionato	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+16	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+18	tutt'	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	21	advmod	_	_
+19	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	18	fixed	_	_
+20	che	che	SCONJ	CS	_	19	fixed	_	_
+21	ostile	ostile	ADJ	A	Number=Sing	7	ccomp	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=_
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = (corpus) CORIS :  http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=154151025&End=154151025
+# sent_id = cxn_30_example_2_1
+# text = Lo fece con la massima attenzione , a scanso di brutte figure.
+1	Lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	Clitic=Yes
+2	fece	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	CXN=30:E
+3	con	con	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	massima	massimo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	a	a	ADP	E	_	9	case	_	CXN=30:A
+9	scanso	scanso	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	CXN=30:B
+10	di	di	ADP	E	_	12	case	_	CXN=30:C
+11	brutte	brutto	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+12	figure	figura	NOUN	S	Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No|CXN=30:D
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = (corpus) Paisà corpus dell'italiano:  https://www.corpusitaliano.it/static/documents/sources/781/7813724
+# sent_id = cxn_30_example_3_1
+# text = E Livio, a scanso giustamente di ogni antiquato razzismo, ha sbaragliato un’agguerrita concorrenza
+1	E	e	CCONJ	CC	_	13	cc	_	_
+2	Livio	Livio	PROPN	SP	_	13	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	a	a	ADP	E	_	5	case	_	CXN=30:A
+5	scanso	scanso	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	CXN=30:B
+6	giustamente	giustamente	ADV	B	_	5	advmod	_	_
+7	di	di	ADP	E	_	10	case	_	CXN=30:C
+8	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
+9	antiquato	antiquato	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	razzismo	razzismo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|CXN=30:D
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	sbaragliato	sbaragliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	CXN=30:E
+14	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+15	agguerrita	agguerrito	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+16	concorrenza	concorrenza	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = (corpus) Paisà corpus dell'italiano:  https://www.corpusitaliano.it/static/documents/sources/119/1193940
+# sent_id = cxn_30_example_4_1
+# text = A scanso di ogni possibile equivoco, lo slogan è preceduto dall’inciso "per queste cause" .
+1	A	a	ADP	E	_	2	case	_	CXN=30:A
+2	scanso	scanso	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	CXN=30:B
+3	di	di	ADP	E	_	6	case	_	CXN=30:C
+4	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+5	possibile	possibile	ADJ	A	Number=Sing	6	amod	_	_
+6	equivoco	equivoco	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No|CXN=30:D
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	slogan	slogan	NOUN	S	Gender=Masc	11	nsubj:pass	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	preceduto	precedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	CXN=30:E
+12-13	dall’	_	_	_	_	_	_	_	SpaceAfter=No
+12	da	da	ADP	E	_	14	case	_	_
+13	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	inciso	inciso	NOUN	S	Gender=Masc|Number=Sing	11	obl:agent	_	_
+15	"	"	PUNCT	FB	_	18	punct	_	SpaceAfter=No
+16	per	per	ADP	E	_	18	case	_	_
+17	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	18	det	_	_
+18	cause	causa	NOUN	S	Gender=Fem|Number=Plur	14	parataxis	_	SpaceAfter=No
+19	"	"	PUNCT	FB	_	18	punct	_	_
+20	.	.	PUNCT	FS	_	11	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = (corpus) Paisà corpus dell'italiano:  https://www.corpusitaliano.it/static/documents/sources/730/7306809
+# sent_id = cxn_30_example_5_1
+# text = A scanso di un non auspicato “sad ending” per la storia Saab, il modello dovrebbe essere presentato nel corso del prossimo autunno
+1	A	a	ADP	E	_	2	case	_	CXN=30:A
+2	scanso	scanso	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	CXN=30:B
+3	di	di	ADP	E	_	9	case	_	CXN=30:C
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	auspicato	auspicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	amod	_	_
+7	“	“	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+8	sad	sad	X	S	_	9	amod	_	_
+9	ending	ending	X	SW	_	2	nmod	_	SpaceAfter=No|CXN=30:D
+10	”	”	PUNCT	FB	_	9	punct	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	storia	storia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	Saab	Saab	PROPN	SP	_	20	nsubj:pass	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	17	punct	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	modello	modello	NOUN	S	Gender=Masc|Number=Sing	14	appos	_	_
+18	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	essere	essere	AUX	VA	VerbForm=Inf	20	aux:pass	_	_
+20	presentato	presentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	CXN=30:E
+21-22	nel	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	corso	corso	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24-25	del	_	_	_	_	_	_	_	_
+24	di	di	ADP	E	_	27	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+26	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+27	autunno	autunno	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+

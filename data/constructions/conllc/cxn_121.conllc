@@ -2,5 +2,5 @@
 # cxn_name = Attenuazione del verbo cxn-machine-readable-formalization: | cxn_121.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	_	_	VERB	_	0	root	_	_	_	_	_
-B	un	uno	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	C	det	_	_	_	_	_
-C	po'	poco	ADV	_	A	advmod	_	_	_	_	_
+B	un	uno	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	C	det	_	A	_	_	_
+C	po'	poco	ADV	_	A	advmod	_	B	_	_	_

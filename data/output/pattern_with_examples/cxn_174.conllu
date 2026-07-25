@@ -1,0 +1,161 @@
+# sent_id = cxn_174
+# text = più _ che _
+# form = più _ che _
+1	più	più	ADV	_	_	2	advmod	_	OrigID=A
+2	_	_	_	_	_	0	root	_	OrigID=B
+3	che	che	CCONJ	_	_	4	cc	_	OrigID=C
+4	_	_	_	_	_	2	conj	_	OrigID=D
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItTenTen20
+# sent_id = cxn_174_example_1_1
+# text = Questi, egli dice generalmente sono più astuti che prudenti, più acuti che sinceri, amano le novità, sono litigiosi, adulatori e per natura invidiosi;
+1	Questi	questo	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	egli	egli	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	_
+5	generalmente	generalmente	ADV	B	_	8	advmod	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	più	più	ADV	B	_	8	advmod	_	CXN=174:A
+8	astuti	astuto	ADJ	A	Gender=Masc|Number=Plur	0	root	_	CXN=174:B
+9	che	che	CCONJ	E	_	10	cc	_	CXN=174:C
+10	prudenti	prudente	ADJ	A	Number=Plur	8	conj	_	SpaceAfter=No|CXN=174:D
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	acuti	acuto	ADJ	A	Gender=Masc|Number=Plur	8	conj	_	_
+14	che	che	CCONJ	CS	_	15	cc	_	_
+15	sinceri	sincero	ADJ	A	Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	amano	amare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	novità	novità	NOUN	S	Gender=Fem	17	obj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	22	punct	_	_
+21	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	litigiosi	litigioso	ADJ	A	Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	adulatori	adulatore	ADJ	A	Gender=Masc|Number=Plur	22	conj	_	_
+25	e	e	CCONJ	CC	_	28	cc	_	_
+26	per	per	ADP	E	_	27	case	_	_
+27	natura	natura	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+28	invidiosi	invidioso	ADJ	A	Gender=Masc|Number=Plur	22	conj	_	SpaceAfter=No
+29	;	;	PUNCT	FC	_	8	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItTenTen20
+# sent_id = cxn_174_example_2_1
+# text = Rifornivano metà dell'universo, e avevano, tuttavia, più lavoro che lavoratori.
+1	Rifornivano	rifornire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	metà	metà	NOUN	S	Gender=Fem	1	obj	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	universo	universo	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	tuttavia	tuttavia	ADV	B	_	8	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	più	più	ADV	B	_	13	advmod	_	CXN=174:A
+13	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	CXN=174:B
+14	che	che	CCONJ	E	_	15	cc	_	CXN=174:C
+15	lavoratori	lavoratore	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No|CXN=174:D
+16	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_174_example_3_1
+# text = La luce della luna cadeva attraverso le tende giallastre , i rumori notturni del paese si potevano più intuire che sentire.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	luce	luce	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	luna	luna	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	cadeva	cadere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	attraverso	attraverso	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	tende	tenda	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+10	giallastre	giallastro	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+11	,	,	PUNCT	FF	_	21	punct	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	rumori	rumore	NOUN	S	Gender=Masc|Number=Plur	21	nsubj	_	_
+14	notturni	notturno	ADJ	A	Gender=Masc|Number=Plur	13	amod	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	paese	paese	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+18	si	si	PRON	PC	Person=3|PronType=Prs	21	expl:impers	_	Clitic=Yes
+19	potevano	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	aux	_	_
+20	più	più	ADV	B	_	21	advmod	_	CXN=174:A
+21	intuire	intuire	VERB	V	VerbForm=Inf	6	conj	_	CXN=174:B
+22	che	che	CCONJ	CS	_	23	cc	_	CXN=174:C
+23	sentire	sentire	VERB	V	VerbForm=Inf	21	conj	_	SpaceAfter=No|CXN=174:D
+24	.	.	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItTenTen20
+# sent_id = cxn_174_example_4_1
+# text = Ma se guardo al presente, ai fatti, mi ritrovo e leggo l'uscita affrettata delle Z - perché non pronte e progettate più commercialmente che tecnicamente - come il tentativo di conservare volumi adeguati al sostentamento dell'impresa
+1	Ma	ma	CCONJ	CC	_	13	cc	_	_
+2	se	se	SCONJ	CS	_	3	mark	_	_
+3	guardo	guardare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	presente	presente	NOUN	A	Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8-9	ai	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	13	expl	_	Clitic=Yes
+13	ritrovo	ritrovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	leggo	leggere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	conj	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	uscita	uscita	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	affrettata	affrettato	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19-20	delle	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	Z	Z	PROPN	SP	_	17	nmod	_	_
+22	-	-	PUNCT	FB	_	25	punct	_	_
+23	perché	perché	SCONJ	CS	_	25	mark	_	_
+24	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+25	pronte	pronto	ADJ	A	Gender=Fem|Number=Plur	21	parataxis	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	progettate	progettare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	25	conj	_	_
+28	più	più	ADV	B	_	29	advmod	_	CXN=174:A
+29	commercialmente	commercialmente	ADV	B	_	27	advmod	_	CXN=174:B
+30	che	che	CCONJ	E	_	31	cc	_	CXN=174:C
+31	tecnicamente	tecnicamente	ADV	B	_	29	conj	_	CXN=174:D
+32	-	-	PUNCT	FB	_	25	punct	_	_
+33	come	come	ADP	E	_	35	case	_	_
+34	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+36	di	di	ADP	E	_	37	mark	_	_
+37	conservare	conservare	VERB	V	VerbForm=Inf	35	acl	_	_
+38	volumi	volume	NOUN	S	Gender=Masc|Number=Plur	37	obj	_	_
+39	adeguati	adeguato	ADJ	A	Gender=Masc|Number=Plur	38	amod	_	_
+40-41	al	_	_	_	_	_	_	_	_
+40	a	a	ADP	E	_	42	case	_	_
+41	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	sostentamento	sostentamento	NOUN	S	Gender=Masc|Number=Sing	39	obl	_	_
+43-44	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+43	di	di	ADP	E	_	45	case	_	_
+44	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	45	det	_	_
+45	impresa	impresa	NOUN	S	Gender=Fem|Number=Sing	42	nmod	_	SpaceAfter=No
+

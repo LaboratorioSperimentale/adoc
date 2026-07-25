@@ -1,0 +1,206 @@
+# sent_id = cxn_122
+# text = sbolognare _
+# form = sbolognare _
+1	sbolognare	sbolognare	VERB	_	_	0	root	_	OrigID=A
+2	_	_	_	_	_	1	obj	_	OrigID=B|LinearOrder=Variable
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itWaC
+# sent_id = cxn_122_example_1_1
+# text = Cambiamenti sostanziali di questa realtà non se ne prevedono neanche per il futuro alla faccia delle promesse roboanti del direttore generale forse condizionato dal programma elettorale dell'Assessore alla Sanità che prevede di sbolognare la patata difficile della psichiatria dalle Aziende Ospedaliere alle ASL.
+1	Cambiamenti	cambiamento	NOUN	S	Gender=Masc|Number=Plur	9	dislocated	_	_
+2	sostanziali	sostanziale	ADJ	A	Number=Plur	1	amod	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	realtà	realtà	NOUN	S	Gender=Fem	1	nmod	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	se	se	PRON	PC	Person=3|PronType=Prs	9	expl	_	Clitic=Yes
+8	ne	ne	PRON	PC	PronType=Prs	9	obj	_	Clitic=Yes
+9	prevedono	prevedere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	neanche	neanche	ADV	BN	PronType=Neg	13	advmod	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+14-15	alla	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+17-18	delle	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	promesse	promessa	NOUN	S	Gender=Fem|Number=Plur	16	nmod	_	_
+20	roboanti	roboante	ADJ	A	Number=Plur	19	amod	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+24	generale	generale	ADJ	A	Number=Sing	23	amod	_	_
+25	forse	forse	ADV	B	_	26	advmod	_	_
+26	condizionato	condizionare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+27-28	dal	_	_	_	_	_	_	_	_
+27	da	da	ADP	E	_	29	case	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	programma	programma	NOUN	S	Gender=Masc|Number=Sing	26	obl:agent	_	_
+30	elettorale	elettorale	ADJ	A	Number=Sing	29	amod	_	_
+31-32	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+31	di	di	ADP	E	_	33	case	_	_
+32	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	33	det	_	SpaceAfter=No
+33	Assessore	Assessore	NOUN	S	_	29	nmod	_	_
+34-35	alla	_	_	_	_	_	_	_	_
+34	a	a	ADP	E	_	36	case	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	Sanità	sanità	NOUN	SP	Gender=Fem	33	nmod	_	_
+37	che	che	PRON	PR	PronType=Rel	38	nsubj	_	_
+38	prevede	prevedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	acl:relcl	_	_
+39	di	di	ADP	E	_	40	mark	_	_
+40	sbolognare	sbolognare	VERB	V	VerbForm=Inf	38	xcomp	_	CXN=122:A
+41	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
+42	patata	patata	NOUN	S	Gender=Fem|Number=Sing	40	obj	_	CXN=122:B
+43	difficile	difficile	ADJ	A	Number=Sing	42	amod	_	_
+44-45	della	_	_	_	_	_	_	_	_
+44	di	di	ADP	E	_	46	case	_	_
+45	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	psichiatria	psichiatria	NOUN	S	Gender=Fem|Number=Sing	42	nmod	_	_
+47-48	dalle	_	_	_	_	_	_	_	_
+47	da	da	ADP	E	_	49	case	_	_
+48	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	49	det	_	_
+49	Aziende	azienda	NOUN	S	Gender=Fem|Number=Plur	40	obl	_	_
+50	Ospedaliere	ospedaliero	ADJ	A	Gender=Fem|Number=Plur	49	amod	_	_
+51-52	alle	_	_	_	_	_	_	_	_
+51	a	a	ADP	E	_	53	case	_	_
+52	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	53	det	_	_
+53	ASL	ASL	PROPN	SP	_	40	obl	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	9	punct	_	_
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itWaC
+# sent_id = cxn_122_example_2_1
+# text = per chi è interessato potrebbe essere un buon motivo per sbolognare il vecchio botolone in vista dell' acquisto del 360.
+1	per	per	ADP	E	_	2	case	_	SpacesAfter=_
+2	chi	chi	PRON	PR	PronType=Rel	9	obl	_	SpacesAfter=_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpacesAfter=_
+4	interessato	interessato	ADJ	A	Gender=Masc|Number=Sing	2	acl:relcl	_	_
+5	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpacesAfter=_
+6	essere	essere	AUX	VA	VerbForm=Inf	9	cop	_	SpacesAfter=_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	SpacesAfter=_
+8	buon	buono	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpacesAfter=_
+9	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=_
+10	per	per	ADP	E	_	11	mark	_	SpacesAfter=_
+11	sbolognare	sbolognare	VERB	V	VerbForm=Inf	9	acl	_	SpacesAfter=_|CXN=122:A
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	SpacesAfter=_
+13	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpacesAfter=_
+14	botolone	botolone	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpacesAfter=_|CXN=122:B
+15	in	in	ADP	E	_	16	case	_	SpacesAfter=_
+16	vista	vista	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpacesAfter=_
+17-18	dell'	_	_	_	_	_	_	_	SpacesAfter=_
+17	di	di	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	acquisto	acquisto	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpacesAfter=_
+20-21	del	_	_	_	_	_	_	_	SpacesAfter=_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	360	360	NUM	N	NumType=Card	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	9	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itWaC
+# sent_id = cxn_122_example_3_1
+# text = Non riusciamo a sbolognare un giocatore che sia uno.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	SpacesAfter=_
+2	riusciamo	riuscire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=_
+3	a	a	ADP	E	_	4	mark	_	SpacesAfter=_
+4	sbolognare	sbolognare	VERB	V	VerbForm=Inf	2	xcomp	_	SpacesAfter=_|CXN=122:A
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	SpacesAfter=_
+6	giocatore	giocatore	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpacesAfter=_|CXN=122:B
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	SpacesAfter=_
+8	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	SpacesAfter=_
+9	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	acl:relcl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itWaC
+# sent_id = cxn_122_example_4_1
+# text = Indubbio invece il vantaggio di sbolognare hardware vecchio , che magari con Linux funzionerebbe benissimo , e rivenderlo a un prezzo esagerato...
+1	Indubbio	indubbio	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=_
+2	invece	invece	ADV	B	_	1	advmod	_	SpacesAfter=_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	SpacesAfter=_
+4	vantaggio	vantaggio	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	SpacesAfter=_
+5	di	di	ADP	E	_	6	mark	_	SpacesAfter=_
+6	sbolognare	sbolognare	VERB	V	VerbForm=Inf	4	acl	_	SpacesAfter=_|CXN=122:A
+7	hardware	hardware	NOUN	S	Gender=Masc	6	obj	_	SpacesAfter=_|CXN=122:B
+8	vecchio	vecchio	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpacesAfter=_
+9	,	,	PUNCT	FF	_	14	punct	_	SpacesAfter=_
+10	che	che	PRON	PR	PronType=Rel	14	nsubj	_	SpacesAfter=_
+11	magari	magari	ADV	B	_	14	advmod	_	SpacesAfter=_
+12	con	con	ADP	E	_	13	case	_	SpacesAfter=_
+13	Linux	Linux	PROPN	SP	_	14	obl	_	SpacesAfter=_
+14	funzionerebbe	funzionare	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	SpacesAfter=_
+15	benissimo	bene	ADV	B	Degree=Abs	14	advmod	_	SpacesAfter=_
+16	,	,	PUNCT	FF	_	14	punct	_	SpacesAfter=_
+17	e	e	CCONJ	CC	_	18	cc	_	SpacesAfter=_
+18-19	rivenderlo	_	_	_	_	_	_	_	SpacesAfter=_
+18	rivender	rivendere	VERB	V	VerbForm=Inf	6	conj	_	_
+19	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	Clitic=Yes
+20	a	a	ADP	E	_	22	case	_	SpacesAfter=_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	SpacesAfter=_
+22	prezzo	prezzo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpacesAfter=_
+23	esagerato	esagerato	ADJ	A	_	22	amod	_	SpaceAfter=No
+24	...	...	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itWaC
+# sent_id = cxn_122_example_5_1
+# text = adesso ho terminato francese... e x sabato termino anche latino... così poi mi manca solo il libro di inglese e i 3 temi di italiano che x forza me li devo sbolognare in due settimane...
+1	adesso	adesso	ADV	B	_	3	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	terminato	terminare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	francese	francese	NOUN	S	Number=Sing	3	obj	_	SpaceAfter=No
+5	...	...	PUNCT	FF	_	9	punct	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	x	per	ADP	E	_	8	case	_	_
+8	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+9	termino	terminare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	anche	anche	ADV	B	_	11	advmod	_	_
+11	latino	latino	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	...	...	PUNCT	FF	_	9	punct	_	_
+13	così	così	ADV	B	_	16	advmod	_	_
+14	poi	poi	ADV	B	_	16	advmod	_	_
+15	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	16	iobj	_	Clitic=Yes
+16	manca	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+17	solo	solo	ADV	B	_	19	advmod	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	libro	libro	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	inglese	inglese	NOUN	S	Number=Sing	19	nmod	_	_
+22	e	e	CCONJ	CC	_	25	cc	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+24	3	3	NUM	N	NumType=Card	25	nummod	_	_
+25	temi	tema	NOUN	S	Gender=Masc|Number=Plur	19	conj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+28	che	che	PRON	PR	PronType=Rel	34	obj	_	_
+29	x	per	ADP	E	_	30	case	_	_
+30	forza	forza	NOUN	S	Gender=Fem|Number=Sing	34	obl	_	_
+31	me	me	PRON	PC	Number=Sing|Person=1|PronType=Prs	34	expl	_	Clitic=Yes
+32	li	li	PRON	PC	Gender=Masc|Number=Plur|Person=3|PronType=Prs	34	obj	_	Clitic=Yes|CXN=122:B
+33	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	sbolognare	sbolognare	VERB	V	VerbForm=Inf	25	acl:relcl	_	CXN=122:A
+35	in	in	ADP	E	_	37	case	_	_
+36	due	due	NUM	N	NumType=Card	37	nummod	_	_
+37	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	34	obl	_	SpaceAfter=No
+38	...	...	PUNCT	FS	_	3	punct	_	_
+

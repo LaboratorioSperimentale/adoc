@@ -1,0 +1,206 @@
+# sent_id = cxn_18
+# text = _ _ _ _ _
+# form = VERB ADP _ ADP NOUN
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	_	_	ADP	_	_	3	case	_	OrigID=B
+3	_	_	_	_	_	1	obl	_	OrigID=C|LinearOrder=Variable
+4	_	_	ADP	_	_	5	case	_	OrigID=D
+5	_	_	NOUN	_	_	3	nmod	_	OrigID=E
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=149376816&End=149376819
+# sent_id = cxn_18_example_1_1
+# text = Un' amicizia che a poco a poco diventa fratellanza espansa, in una Gerusalemme di contrasti laceranti, di agguati a colpi di sassi e di proiettili.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	amicizia	amicizia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	poco	poco	ADV	B	_	8	advmod	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	poco	poco	ADV	B	_	5	nmod	_	SpacesAfter=_
+8	diventa	diventare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	CXN=18:A
+9	fratellanza	fratellanza	NOUN	S	Gender=Fem|Number=Sing	8	xcomp	_	_
+10	espansa	espansare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	in	in	ADP	E	_	14	case	_	CXN=18:B
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Gerusalemme	Gerusalemme	PROPN	SP	_	8	obl	_	CXN=18:C
+15	di	di	ADP	E	_	16	case	_	CXN=18:D
+16	contrasti	contrasto	NOUN	S	Gender=Masc|Number=Plur	14	nmod	_	CXN=18:E
+17	laceranti	lacerante	ADJ	A	Number=Plur	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	20	punct	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	agguati	agguato	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	colpi	colpo	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	sassi	sasso	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	proiettili	proiettile	NOUN	S	Gender=Masc|Number=Plur	24	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=83014793&End=83014796
+# sent_id = cxn_18_example_2_1
+# text = Tanis guardò sopra la testa di lei, puntando gli occhi sulla porta decorata attraverso la quale sarebbero entrati quando fosse giunto il loro turno, contemplando con uno sgomento che non riusciva a nascondere lo spettacolo, a mano a mano che si dispiegava davanti ai suoi occhi.
+1	Tanis	Tanis	PROPN	SP	_	2	nsubj	_	_
+2	guardò	guardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	sopra	sopra	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	testa	testa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	puntando	puntare	VERB	V	VerbForm=Ger	2	advcl	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12-13	sulla	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	porta	porta	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+15	decorata	decorato	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+16	attraverso	attraverso	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	quale	quale	PRON	PR	Number=Sing|PronType=Rel	20	obl	_	_
+19	sarebbero	essere	AUX	VA	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	entrati	entrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	14	acl:relcl	_	_
+21	quando	quando	SCONJ	CS	_	23	mark	_	_
+22	fosse	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	aux	_	_
+23	giunto	giungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	advcl	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+25	loro	loro	DET	AP	Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	turno	turno	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	2	punct	_	_
+28	contemplando	contemplare	VERB	V	VerbForm=Ger	2	advcl	_	_
+29	con	con	ADP	E	_	31	case	_	_
+30	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+31	sgomento	sgomento	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+32	che	che	PRON	CS	PronType=Rel	34	obj	_	_
+33	non	non	ADV	BN	PronType=Neg	34	advmod	_	_
+34	riusciva	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	acl:relcl	_	_
+35	a	a	ADP	E	_	36	mark	_	_
+36	nascondere	nascondere	VERB	V	VerbForm=Inf	34	xcomp	_	_
+37	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
+38	spettacolo	spettacolo	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	28	punct	_	_
+40	a	a	ADP	E	_	41	case	_	CXN=18:B
+41	mano	mano	NOUN	S	Gender=Fem|Number=Sing	46	obl	_	CXN=18:C
+42	a	a	ADP	E	_	43	case	_	CXN=18:D
+43	mano	mano	NOUN	S	Gender=Fem|Number=Sing	41	nmod	_	CXN=18:E
+44	che	che	SCONJ	CS	_	46	mark	_	_
+45	si	si	PRON	PC	Person=3|PronType=Prs	46	expl	_	Clitic=Yes
+46	dispiegava	dispiegare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	28	advcl	_	CXN=18:A
+47	davanti	davanti	ADV	_	_	51	case	_	_
+48-49	ai	_	_	_	_	_	_	_	_
+48	a	a	ADP	_	_	47	fixed	_	_
+49	i	i	DET	RD	Gender=Masc|Number=Plur	47	fixed	_	_
+50	suoi	suo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	51	det:poss	_	_
+51	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	46	obl	_	SpaceAfter=No
+52	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=91871784&End=91871787
+# sent_id = cxn_18_example_3_1
+# text = Normalmente la mucosa epiteliale orofaringea funge da barriera per il batterio, ma di tanto in tanto l'equilibrio può venir meno, così da consentire lo sviluppo di una grave infezione.
+1	Normalmente	normalmente	ADV	B	_	6	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	mucosa	mucosa	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	epiteliale	epiteliale	ADJ	A	Number=Sing	3	amod	_	_
+5	orofaringea	orofaringeo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+6	funge	fungere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CXN=18:A
+7	da	da	ADP	E	_	8	case	_	CXN=18:B
+8	barriera	barriera	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	CXN=18:C
+9	per	per	ADP	E	_	11	case	_	CXN=18:D
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	batterio	batterio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No|CXN=18:E
+12	,	,	PUNCT	FF	_	21	punct	_	_
+13	ma	ma	CCONJ	CC	_	21	cc	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	tanto	tanto	ADV	B	Gender=Masc|Number=Sing|PronType=Ind	21	obl	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	tanto	tanto	ADV	B	_	15	nmod	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	equilibrio	equilibrio	NOUN	S	Gender=Masc|Number=Sing	21	nsubj	_	_
+20	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	venir	venire	VERB	V	VerbForm=Inf	6	conj	_	_
+22	meno	meno	ADV	B	_	21	advmod	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	21	punct	_	_
+24	così	così	ADV	B	ExtPos=ADP	26	mark	_	_
+25	da	da	ADP	E	_	24	fixed	_	_
+26	consentire	consentire	VERB	V	VerbForm=Inf	21	advcl	_	_
+27	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	26	obj	_	_
+29	di	di	ADP	E	_	32	case	_	_
+30	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	grave	grave	ADJ	A	Number=Sing	32	amod	_	_
+32	infezione	infezione	NOUN	S	Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=82562945&End=82562948
+# sent_id = cxn_18_example_4_1
+# text = Per la prima volta dopo tanto tempo, pensò, si trovava a faccia a faccia con una donna che non desiderava niente da lui .
+1	Per	per	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	volta	volta	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+5	dopo	dopo	ADP	E	_	7	case	_	_
+6	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+7	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	pensò	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	parataxis	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	si	si	PRON	PC	Person=3|PronType=Prs	12	expl	_	Clitic=Yes
+12	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	CXN=18:A
+13	a	a	ADP	E	_	14	case	_	CXN=18:B
+14	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	CXN=18:C
+15	a	a	ADP	E	_	16	case	_	CXN=18:D
+16	faccia	faccia	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	CXN=18:E
+17	con	con	ADP	E	_	19	case	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	donna	donna	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+22	desiderava	desiderare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	acl:relcl	_	_
+23	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	22	obj	_	_
+24	da	da	ADP	E	_	25	case	_	_
+25	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	obl	_	_
+26	.	.	PUNCT	FS	_	12	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=11680488&End=11680491
+# sent_id = cxn_18_example_5_1
+# text = le cose potrebbero andare di male in peggio, meglio dunque provvedere all'istante.
+1	le	il	DET	RD	Gender=Fem|Number=Plur	2	det	_	_
+2	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	andare	andare	VERB	V	VerbForm=Inf	0	root	_	CXN=18:A
+5	di	di	ADP	E	_	6	case	_	CXN=18:B
+6	male	male	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	CXN=18:C
+7	in	in	ADP	E	_	8	case	_	CXN=18:D
+8	peggio	peggio	NOUN	S	Gender=Masc	6	nmod	_	SpaceAfter=No|CXN=18:E
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	meglio	meglio	ADV	B	_	12	advmod	_	_
+11	dunque	dunque	ADV	B	_	12	advmod	_	_
+12	provvedere	provvedere	VERB	V	VerbForm=Inf	4	conj	_	_
+13-14	all'	_	_	_	_	_	_	_	SpaceAfter=No
+13	a	a	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	istante	istante	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+

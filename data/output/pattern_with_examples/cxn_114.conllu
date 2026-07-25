@@ -1,0 +1,331 @@
+# sent_id = cxn_114
+# text = _ _ _
+# form = NOUN ADP _
+1	_	_	NOUN	_	_	0	root	_	OrigID=A
+2	_	_	ADP	_	_	3	case	_	OrigID=B
+3	_	_	_	_	_	1	nmod	_	OrigID=C
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS2021
+# sent_id = cxn_114_example_1_1
+# text = Esaminò il terreno centimetro per centimetro, spostando i vasi da fiori, esaminando dei vecchi sacchi.
+1	Esaminò	esaminare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	terreno	terreno	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	centimetro	centimetro	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	CXN=114:A
+5	per	per	ADP	E	_	6	case	_	CXN=114:B
+6	centimetro	centimetro	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No|CXN=114:C
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	spostando	spostare	VERB	V	VerbForm=Ger	1	advcl	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	vasi	vaso	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11	da	da	ADP	E	_	12	case	_	_
+12	fiori	fiore	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	esaminando	esaminare	VERB	V	VerbForm=Ger	8	conj	_	_
+15-16	dei	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	vecchi	vecchio	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	_
+18	sacchi	sacco	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS2021
+# sent_id = cxn_114_example_2_1
+# text = Vogliamo potenziare sempre più la raccolta differenziata […] pensiamo quindi […] a individuare nuove aree per lo stoccaggio dei rifiuti speciali, con una raccolta terminal per terminal.
+1	Vogliamo	volere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	potenziare	potenziare	VERB	V	VerbForm=Inf	0	root	_	_
+3	sempre	sempre	ADV	B	_	4	advmod	_	_
+4	più	più	ADV	B	_	2	advmod	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	raccolta	raccolta	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+7	differenziata	differenziato	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	[	[	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+9	…	…	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+10	]	]	PUNCT	FB	_	9	punct	_	_
+11	pensiamo	pensare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+12	quindi	quindi	ADV	B	_	11	advmod	_	_
+13	[	[	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	…	…	PUNCT	FF	_	11	punct	_	SpaceAfter=No
+15	]	]	PUNCT	FB	_	14	punct	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	individuare	individuare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+18	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+19	aree	area	NOUN	S	Gender=Fem|Number=Plur	17	obj	_	CXN=114:A
+20	per	per	ADP	E	_	22	case	_	CXN=114:B
+21	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	stoccaggio	stoccaggio	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	CXN=114:C
+23-24	dei	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	rifiuti	rifiuto	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+26	speciali	speciale	ADJ	A	Number=Plur	25	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	30	punct	_	_
+28	con	con	ADP	E	_	30	case	_	_
+29	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	raccolta	raccolta	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+31	terminal	terminal	NOUN	S	Gender=Masc	30	nmod	_	_
+32	per	per	ADP	E	_	33	case	_	_
+33	terminal	terminal	NOUN	S	Gender=Masc	31	nmod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS2021
+# sent_id = cxn_114_example_3_1
+# text = Il paesaggio è bellissimo, dolce, joyful;
+# tags = CONTEXT
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	paesaggio	paesaggio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	bellissimo	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	dolce	dolce	ADJ	A	Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	joyful	joyful	ADJ	A	Gender=Masc	4	conj	_	SpaceAfter=No
+9	;	;	PUNCT	FC	_	4	punct	_	_
+
+
+# source = CORIS2021
+# sent_id = cxn_114_example_3_2
+# text = i bambini vanno a scuola, raccolti casa per casa, dal bus che passa ogni mattina.
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	vanno	andare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	raccolti	raccogliere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	advcl	_	SpacesAfter=_
+8	casa	casa	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	CXN=114:A
+9	per	per	ADP	E	_	10	case	_	CXN=114:B
+10	casa	casa	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No|CXN=114:C
+11	,	,	PUNCT	FF	_	7	punct	_	_
+12-13	dal	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	bus	bus	NOUN	S	Gender=Masc	3	obl	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	passa	passare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	18	det	_	_
+18	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+
+# sent_id = ParlaMint-IT_2015-03-11-LEG17-Sed-407_226
+# source = http://hdl.handle.net/11356/1911 ParlaMint-IT/2015/ParlaMint-IT_2015-03-11-LEG17-Senato-sed-407 ParlaMint-IT_2015-03-11-LEG17-Senato-sed-407.ana.seg50.4
+# text = Nella formulazione del capoverso 5- bis vi è un problema, che, ad una prima lettura, nella globalità dell'articolato, potrebbe essere visto in modo superficiale, mentre questo testo di legge verrà utilizzato per quello che dice parola per parola (perché questo è quello che ho imparato in Commissione giustizia: un articolato viene valutato e soppesato parola per parola e proposizione per proposizione).
+1-2	Nella	_	_	_	_	_	_	_	NER=O
+1	In	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	formulazione	formulazione	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	NER=O|CXN=114:A
+4-5	del	_	_	_	_	_	_	_	NER=O
+4	di	di	ADP	E	_	6	case	_	CXN=114:B
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	capoverso	capoverso	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	NER=O|CXN=114:C
+7	5-	5-	NUM	N	NumType=Card	6	nummod	_	NER=O
+8	bis	bis	NOUN	S	Gender=Masc	6	nmod	_	NER=O
+9	vi	vi	PRON	PC	PronType=Prs	10	expl	_	Clitic=Yes|NER=O
+10	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	NER=O
+12	problema	problema	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	NER=O|SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	NER=O
+14	che	che	PRON	PR	PronType=Rel	30	nsubj:pass	_	NER=O|SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	NER=O
+16	ad	a	ADP	E	_	19	case	_	NER=O
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	NER=O
+18	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	19	amod	_	NER=O
+19	lettura	lettura	NOUN	S	Gender=Fem|Number=Sing	30	obl	_	NER=O|SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	NER=O
+21-22	nella	_	_	_	_	_	_	_	NER=O
+21	in	in	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	globalità	globalità	NOUN	S	Gender=Fem	30	obl	_	NER=O
+24-25	dell'	_	_	_	_	_	_	_	NER=O|SpaceAfter=No
+24	di	di	ADP	E	_	26	case	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	articolato	articolato	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	NER=O|SpaceAfter=No
+27	,	,	PUNCT	FF	_	30	punct	_	NER=O
+28	potrebbe	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	NER=O
+29	essere	essere	AUX	VA	VerbForm=Inf	30	aux:pass	_	NER=O
+30	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	NER=O
+31	in	in	ADP	E	_	32	case	_	NER=O
+32	modo	modo	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	NER=O
+33	superficiale	superficiale	ADJ	A	Number=Sing	32	amod	_	NER=O|SpaceAfter=No
+34	,	,	PUNCT	FF	_	30	punct	_	NER=O
+35	mentre	mentre	SCONJ	CS	_	41	mark	_	NER=O
+36	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	37	det	_	NER=O
+37	testo	testo	NOUN	S	Gender=Masc|Number=Sing	41	nsubj:pass	_	NER=O
+38	di	di	ADP	E	_	39	case	_	NER=O
+39	legge	legge	NOUN	S	Gender=Fem|Number=Sing	37	nmod	_	NER=O
+40	verrà	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	41	aux:pass	_	NER=O
+41	utilizzato	utilizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	30	advcl	_	NER=O
+42	per	per	ADP	E	_	43	case	_	NER=O
+43	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	41	obl	_	NER=O
+44	che	che	PRON	PR	PronType=Rel	45	nsubj	_	NER=O
+45	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	acl:relcl	_	NER=O
+46	parola	parola	NOUN	S	Gender=Fem|Number=Sing	45	obj	_	NER=O
+47	per	per	ADP	E	_	48	case	_	NER=O
+48	parola	parola	NOUN	S	Gender=Fem|Number=Sing	46	nmod	_	NER=O
+49	(	(	PUNCT	FB	_	53	punct	_	NER=O|SpaceAfter=No
+50	perché	perché	SCONJ	CS	_	53	mark	_	NER=O
+51	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	53	nsubj	_	NER=O
+52	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	53	cop	_	NER=O
+53	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	45	advcl	_	NER=O
+54	che	che	PRON	PR	PronType=Rel	56	nsubj	_	NER=O
+55	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	56	aux	_	NER=O
+56	imparato	imparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	53	acl:relcl	_	NER=O
+57	in	in	ADP	E	_	58	case	_	NER=O
+58	Commissione	commissione	NOUN	S	Gender=Fem|Number=Sing	56	obl	_	NER=B-ORG
+59	giustizia	giustizia	NOUN	S	Gender=Fem|Number=Sing	58	compound	_	NER=I-ORG|SpaceAfter=No
+60	:	:	PUNCT	FC	_	53	punct	_	NER=O
+61	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	62	det	_	NER=O
+62	articolato	articolato	NOUN	S	Gender=Masc|Number=Sing	64	nsubj:pass	_	NER=O
+63	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	64	aux:pass	_	NER=O
+64	valutato	valutare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	53	parataxis	_	NER=O
+65	e	e	CCONJ	CC	_	66	cc	_	NER=O
+66	soppesato	soppesare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	64	conj	_	NER=O
+67	parola	parola	NOUN	S	Gender=Fem|Number=Sing	64	nsubj:pass	_	NER=O
+68	per	per	ADP	E	_	69	case	_	NER=O
+69	parola	parola	NOUN	S	Gender=Fem|Number=Sing	67	nmod	_	NER=O
+70	e	e	CCONJ	CC	_	71	cc	_	NER=O
+71	proposizione	proposizione	NOUN	S	Gender=Fem|Number=Sing	69	conj	_	NER=O
+72	per	per	ADP	E	_	73	case	_	NER=O
+73	proposizione	proposizione	NOUN	S	Gender=Fem|Number=Sing	71	nmod	_	NER=O|SpaceAfter=No
+74	)	)	PUNCT	FB	_	64	punct	_	NER=O|SpaceAfter=No
+75	.	.	PUNCT	FS	_	10	punct	_	NER=O
+
+
+# sent_id = ParlaMint-IT_2015-03-11-LEG17-Sed-407_68
+# source = http://hdl.handle.net/11356/1911 ParlaMint-IT/2015/ParlaMint-IT_2015-03-11-LEG17-Senato-sed-407 ParlaMint-IT_2015-03-11-LEG17-Senato-sed-407.ana.seg19.4
+# text = Pertanto, anche su questo aspetto è opportuno lasciare agli operatori e alla magistratura la possibilità di valutare caso per caso.
+# status = TO_CHECK
+1	Pertanto	pertanto	ADV	B	_	8	advmod	_	NER=O|SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	NER=O
+3	anche	anche	ADV	B	_	6	advmod	_	NER=O
+4	su	su	ADP	E	_	6	case	_	NER=O
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	NER=O
+6	aspetto	aspetto	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	NER=O
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	NER=O
+8	opportuno	opportuno	ADJ	A	Gender=Masc|Number=Sing	0	root	_	NER=O
+9	lasciare	lasciare	VERB	V	VerbForm=Inf	8	csubj	_	NER=O
+10-11	agli	_	_	_	_	_	_	_	NER=O
+10	a	a	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	operatori	operatore	NOUN	S	Gender=Masc|Number=Plur	9	obl	_	NER=O
+13	e	e	CCONJ	CC	_	16	cc	_	NER=O
+14-15	alla	_	_	_	_	_	_	_	NER=O
+14	a	a	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	magistratura	magistratura	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	NER=B-ORG
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	NER=O
+18	possibilità	possibilità	NOUN	S	Gender=Fem	9	obj	_	NER=O
+19	di	di	ADP	E	_	20	mark	_	NER=O
+20	valutare	valutare	VERB	V	VerbForm=Inf	18	acl	_	NER=O
+21	caso	caso	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	NER=O|CXN=114:A
+22	per	per	ADP	E	_	23	case	_	NER=O|CXN=114:B
+23	caso	caso	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	NER=O|SpaceAfter=No|CXN=114:C
+24	.	.	PUNCT	FS	_	8	punct	_	NER=O
+
+
+# sent_id = isst_tanl-3198
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-ISDT/it_isdt-ud-train isst_tanl-3198
+# text = Per ottenere i disegni, il primo strato di cemento viene versato, colore per colore, in uno stampo.
+# status = TO_CHECK
+1	Per	per	ADP	E	_	2	mark	2:mark	_
+2	ottenere	ottenere	VERB	V	VerbForm=Inf	12	advcl	12:advcl:per	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	4:det	_
+4	disegni	disegno	NOUN	S	Gender=Masc|Number=Plur	2	obj	2:obj	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	2:punct	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	8:det	_
+7	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	8	amod	8:amod	_
+8	strato	strato	NOUN	S	Gender=Masc|Number=Sing	12	nsubj:pass	12:nsubj:pass	CXN=114:A
+9	di	di	ADP	E	_	10	case	10:case	CXN=114:B
+10	cemento	cemento	NOUN	S	Gender=Masc|Number=Sing	8	nmod	8:nmod:di	CXN=114:C
+11	viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	12:aux:pass	_
+12	versato	versare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	0:root	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	12:punct	_
+14	colore	colore	NOUN	S	Gender=Masc|Number=Sing	12	obl	12:obl	_
+15	per	per	ADP	E	_	16	case	16:case	_
+16	colore	colore	NOUN	S	Gender=Masc|Number=Sing	14	nmod	14:nmod:per	SpaceAfter=No
+17	,	,	PUNCT	FF	_	12	punct	12:punct	_
+18	in	in	ADP	E	_	20	case	20:case	_
+19	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	20:det	_
+20	stampo	stampo	NOUN	S	Gender=Masc|Number=Sing	12	obl	12:obl:in	SpaceAfter=No
+21	.	.	PUNCT	FS	_	12	punct	12:punct	_
+
+
+# sent_id = isst_tanl-3641
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-ISDT/it_isdt-ud-test isst_tanl-3641
+# text = Ma conoscono bene Carmen Castillo, la signora cilena nella cui casa, a Parigi, è avvenuto l'incontro tra Gaston Salvatore e la Payita, e che conferma punto per punto l'intervista.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	conoscono	conoscere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bene	bene	ADV	B	_	2	advmod	_	_
+4	Carmen	Carmen	PROPN	SP	_	2	obj	_	_
+5	Castillo	Castillo	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	signora	signore	NOUN	S	Gender=Fem|Number=Sing	4	appos	_	_
+9	cilena	cileno	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10-11	nella	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	cui	cui	DET	DR	PronType=Rel	13	det:poss	_	_
+13	casa	casa	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No|CXN=114:A
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	a	a	ADP	E	_	16	case	_	CXN=114:B
+16	Parigi	Parigi	PROPN	SP	_	13	nmod	_	SpaceAfter=No|CXN=114:C
+17	,	,	PUNCT	FF	_	13	punct	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	avvenuto	avvenire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
+21	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+22	tra	tra	ADP	E	_	23	case	_	_
+23	Gaston	Gaston	PROPN	SP	_	21	nmod	_	_
+24	Salvatore	Salvatore	PROPN	SP	_	23	flat:name	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Payita	Payita	PROPN	SP	_	23	conj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	31	punct	_	_
+29	e	e	CCONJ	CC	_	31	cc	_	_
+30	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+31	conferma	confermare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj	_	_
+32	punto	punto	NOUN	S	Gender=Masc|Number=Sing	31	obl	_	_
+33	per	per	ADP	E	_	34	case	_	_
+34	punto	punto	NOUN	S	Gender=Masc|Number=Sing	32	nmod	_	_
+35	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	36	det	_	SpaceAfter=No
+36	intervista	intervista	NOUN	S	Gender=Fem|Number=Sing	31	obj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	2	punct	_	_
+
+
+# sent_id = sent_560
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-PoSTWITA/it_postwita-ud-train 560
+# text = È online @user1! I discorsi di Mario Monti in formato commentabile, frase per frase: http://t.co/tRSYrHev via @user2
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	online	online	ADJ	A	_	0	root	_	_
+3	@user1	@user1	SYM	SYM	_	2	nsubj	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	_
+5	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	discorsi	discorso	NOUN	S	Gender=Masc|Number=Plur	2	parataxis	_	CXN=114:A
+7	di	di	ADP	E	_	8	case	_	_
+8	Mario	mario	PROPN	SP	_	6	nmod	_	_
+9	Monti	Monti	PROPN	SP	_	8	flat:name	_	_
+10	in	in	ADP	E	_	11	case	_	CXN=114:B
+11	formato	formato	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	CXN=114:C
+12	commentabile	commentabile	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	frase	frase	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	_
+15	per	per	ADP	E	_	16	case	_	_
+16	frase	frase	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	2	punct	_	_
+18	http://t.co/tRSYrHev	http://t.co/tRSYrHev	SYM	X	_	2	parataxis	_	_
+19	via	via	ADP	E	_	20	case	_	_
+20	@user2	@user2	SYM	SYM	_	2	vocative	_	_
+

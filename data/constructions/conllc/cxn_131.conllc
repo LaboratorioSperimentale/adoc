@@ -2,6 +2,6 @@
 # cxn_name = Costruzioni "in croce" cxn-machine-readable-formalization: | cxn_131.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	_	_	NUM	NumType=Card	B	nummod	_	_	_	_	_
-B	_	_	NOUN	_	0	root	_	_	_	_	_
-C	in	in	ADP	_	D	case	_	_	_	_	_
-D	croce	croce	NOUN	Gender=Fem|Number=Sing	B	nmod	_	_	_	_	_
+B	_	_	NOUN	_	0	root	_	A	_	_	_
+C	in	in	ADP	_	D	case	_	B	_	_	_
+D	croce	croce	NOUN	Gender=Fem|Number=Sing	B	nmod	_	C	_	_	_

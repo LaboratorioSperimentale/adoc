@@ -2,7 +2,7 @@
 # cxn_name = Reduplicazione discontinua del tipo: N-DET-N cxn-machine-readable-formalization: | cxn_117.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	il	il	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	B	det	_	_	_	_	_
-B	_	_	NOUN	Gender=Masc	0	root	_	_	_	_	_
-C	di	di	ADP	_	E	case	_	_	_	_	_
-D	i	il	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	E	det	_	_	_	_	_
-E	_	_	NOUN	Gender=Masc|Number=Plur	B	nmod	_	_	_	_	_
+B	_	_	NOUN	Gender=Masc	0	root	_	A	_	_	_
+C	di	di	ADP	_	E	case	_	B	_	_	_
+D	i	il	DET	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	E	det	_	C	_	_	_
+E	_	_	NOUN	Gender=Masc|Number=Plur	B	nmod	_	D	_	_	_

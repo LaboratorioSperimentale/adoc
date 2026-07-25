@@ -1,0 +1,290 @@
+# sent_id = cxn_7
+# text = _ e _
+# form = prendere e VERB
+1	_	prendere	VERB	_	_	0	root	_	OrigID=A
+2	e	e	CCONJ	_	_	3	cc	_	OrigID=B
+3	_	_	VERB	_	_	1	conj	_	OrigID=C
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: CORIS
+# sent_id = cxn_7_example_1_1
+# text = Ha aggiunto che da un po’ di tempo c’erano problemi, e che la situazione fra loro due era un po’ tesa, e che a volte capitava che sua moglie dopo una litigata particolarmente violenta dicesse che adesso si era stufata sul serio, prendesse e andasse via per un paio di giorni.
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	che	che	SCONJ	CS	_	10	mark	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	po’	poco	ADV	B	_	10	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	c’	ci	PRON	PC	PronType=Prs	10	expl	_	Clitic=Yes|SpaceAfter=No
+10	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+11	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	23	punct	_	_
+13	e	e	CCONJ	CC	_	23	cc	_	_
+14	che	che	SCONJ	CS	_	23	mark	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	23	nsubj	_	_
+17	fra	fra	ADP	E	_	18	case	_	_
+18	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	16	nmod	_	_
+19	due	due	NUM	N	NumType=Card	18	nummod	_	_
+20	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	cop	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	po’	poco	ADV	B	_	23	advmod	_	_
+23	tesa	teso	ADJ	A	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	29	punct	_	_
+25	e	e	CCONJ	CC	_	29	cc	_	_
+26	che	che	SCONJ	CS	_	29	mark	_	_
+27	a	a	ADP	E	_	28	case	_	_
+28	volte	volta	NOUN	S	Gender=Fem|Number=Plur	29	obl	_	_
+29	capitava	capitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	conj	_	_
+30	che	che	SCONJ	CS	_	38	mark	_	_
+31	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	moglie	moglie	NOUN	S	Gender=Fem|Number=Sing	38	nsubj	_	_
+33	dopo	dopo	ADP	E	_	35	case	_	_
+34	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+35	litigata	litigata	NOUN	S	Gender=Fem|Number=Sing	38	obl	_	_
+36	particolarmente	particolarmente	ADV	B	_	37	advmod	_	_
+37	violenta	violento	ADJ	A	Gender=Fem|Number=Sing	35	amod	_	_
+38	dicesse	dire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	ccomp	_	_
+39	che	che	SCONJ	CS	_	43	mark	_	_
+40	adesso	adesso	ADV	B	_	43	advmod	_	_
+41	si	si	PRON	PC	Person=3|PronType=Prs	43	expl	_	Clitic=Yes
+42	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	43	aux	_	_
+43	stufata	stufare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	38	ccomp	_	_
+44-45	sul	_	_	_	_	_	_	_	_
+44	su	su	ADP	E	_	46	case	_	_
+45	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	_
+46	serio	serio	NOUN	S	Gender=Masc|Number=Sing	43	obl	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	48	punct	_	_
+48	prendesse	prendere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	38	conj	_	CXN=7:A
+49	e	e	CCONJ	CC	_	50	cc	_	CXN=7:B
+50	andasse	andare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	48	conj	_	CXN=7:C
+51	via	via	ADV	B	_	50	advmod	_	_
+52	per	per	ADP	E	_	54	case	_	_
+53	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
+54	paio	paio	NOUN	S	Gender=Masc|Number=Sing	50	obl	_	_
+55	di	di	ADP	E	_	56	case	_	_
+56	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	54	nmod	_	SpaceAfter=No
+57	.	.	PUNCT	FS	_	2	punct	_	_
+
+
+# source = Corpus: CORIS
+# sent_id = cxn_7_example_1_2
+# text = Ma poi torna sempre, ha aggiunto.
+# tags = CONTEXT
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	poi	poi	ADV	B	_	3	advmod	_	_
+3	torna	tornare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sempre	sempre	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	aggiunto	aggiungere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+
+# source = Corpus: CORIS
+# sent_id = cxn_7_example_1_3
+# text = Purtroppo.
+# tags = CONTEXT
+1	Purtroppo	purtroppo	ADV	B	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: CORIS
+# sent_id = cxn_7_example_2_1
+# text = E poi gli orsi non sono animali migratori, non assomigliano per niente alle rondini.
+# tags = CONTEXT
+1	E	e	CCONJ	CC	_	7	cc	_	_
+2	poi	poi	ADV	B	_	7	advmod	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	orsi	orso	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	animali	animale	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+8	migratori	migratorio	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	assomigliano	assomigliare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	11	obl	_	_
+14-15	alle	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	rondini	rondine	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	_
+
+
+# source = Corpus: CORIS
+# sent_id = cxn_7_example_2_2
+# text = Gli orsi vagabondano, sono animali erranti.
+# tags = CONTEXT
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	orsi	orso	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	vagabondano	vagabondare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	animali	animale	NOUN	S	Gender=Masc|Number=Plur	3	conj	_	_
+7	erranti	errante	ADJ	A	Number=Plur	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+
+# source = Corpus: CORIS
+# sent_id = cxn_7_example_2_3
+# text = Prendono e partono, e non è affatto detto che ritornino.
+1	Prendono	prendere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CXN=7:A
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	partono	partire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	9	punct	_	_
+5	e	e	CCONJ	CC	_	9	cc	_	CXN=7:B
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	affatto	affatto	ADV	B	_	9	advmod	_	_
+9	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	CXN=7:C
+10	che	che	SCONJ	CS	_	11	mark	_	_
+11	ritornino	ritornare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: CORIS
+# sent_id = cxn_7_example_3_1
+# text = Io e mio marito si litiga, chiaro, come tutte le coppie sposate di questo mondo.
+# tags = CONTEXT
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	e	e	CCONJ	CC	_	4	cc	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	marito	marito	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+5	si	si	PRON	PC	Person=3|PronType=Prs	6	expl	_	Clitic=Yes
+6	litiga	litigare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	chiaro	chiaro	ADJ	A	Gender=Masc|Number=Sing	6	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	come	come	ADP	E	_	13	case	_	_
+11	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	13	det:predet	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	coppie	coppia	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+14	sposate	sposato	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+17	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+
+# source = Corpus: CORIS
+# sent_id = cxn_7_example_3_2
+# text = E ogni tanto salta la pazienza, anche perché l’ultima delle pensate che ha avuto, vero, lasciamo perdere.
+# tags = CONTEXT
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	tanto	tanto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	salta	saltare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	pazienza	pazienza	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	4	punct	_	_
+8	anche	anche	ADV	B	_	9	advmod	_	_
+9	perché	perché	SCONJ	CS	_	11	mark	_	_
+10	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	ultima	ultimo	ADJ	S	Gender=Fem|Number=Sing	4	acl	_	_
+12-13	delle	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	pensate	pensata	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+15	che	che	PRON	PR	PronType=Rel	17	obj	_	_
+16	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	acl:relcl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	vero	vero	ADJ	A	Gender=Masc|Number=Sing	11	parataxis	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	lasciamo	lasciare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+22	perdere	perdere	VERB	V	VerbForm=Inf	21	xcomp	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+
+# source = Corpus: CORIS
+# sent_id = cxn_7_example_3_3
+# text = Ci siamo fatti ridere dietro da tutto il paese.
+# tags = CONTEXT
+1	Ci	ci	PRON	PC	Number=Plur|Person=1|PronType=Prs	3	expl	_	Clitic=Yes
+2	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fatti	fare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	ridere	ridere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	dietro	dietro	ADV	B	_	4	advmod	_	_
+6	da	da	ADP	E	_	9	case	_	_
+7	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	9	det:predet	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	paese	paese	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+
+# source = Corpus: CORIS
+# sent_id = cxn_7_example_3_4
+# text = E io ho preso e sono andata per i fatti miei.
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	CXN=7:A
+5	e	e	CCONJ	CC	_	7	cc	_	CXN=7:B
+6	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	CXN=7:C
+8	per	per	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	fatti	fatto	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+11	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: CORIS
+# sent_id = cxn_7_example_4_1
+# text = ogni tanto qualcuno chiama per un intervento e allora prendo su e vado a fare il mio dovere.
+1	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	tanto	tanto	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+3	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+4	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	intervento	intervento	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	allora	allora	ADV	B	_	10	advmod	_	_
+10	prendo	prendere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	CXN=7:A
+11	su	su	ADV	B	_	10	advmod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	CXN=7:B
+13	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	conj	_	CXN=7:C
+14	a	a	ADP	E	_	15	mark	_	_
+15	fare	fare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	dovere	dovere	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Corpus: itWaC
+# sent_id = cxn_7_example_5_1
+# text = Ma magari prendo e mi vado a cercare una stanza in città.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	magari	magari	ADV	B	_	3	advmod	_	_
+3	prendo	prendere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=_|CXN=7:A
+4	e	e	CCONJ	CC	_	6	cc	_	SpacesAfter=_|CXN=7:B
+5	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	6	obl	_	Clitic=Yes
+6	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	CXN=7:C
+7	a	a	ADP	E	_	8	mark	_	_
+8	cercare	cercare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	città	città	NOUN	S	Gender=Fem	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+

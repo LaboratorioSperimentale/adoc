@@ -1,0 +1,87 @@
+# sent_id = cxn_108
+# text = _ _ _
+# form = _ VERB VERB
+1	_	_	_	_	_	2	iobj	_	OrigID=A|LinearOrder=Variable
+2	_	_	VERB	_	_	0	root	_	OrigID=B
+3	_	_	VERB	_	_	2	xcomp	_	OrigID=C
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://aulalingue.scuola.zanichelli.it/benvenuti/2017/11/09/i-verbi-causativi/
+# sent_id = cxn_108_example_1_1
+# text = Mia madre mi fa sempre mettere in ordine la mia stanza
+1	Mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	madre	madre	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	4	iobj	_	Clitic=Yes|CXN=108:A
+4	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CXN=108:B
+5	sempre	sempre	ADV	B	_	4	advmod	_	_
+6	mettere	mettere	VERB	V	VerbForm=Inf	4	xcomp	_	CXN=108:C
+7	in	in	ADP	E	_	8	case	_	_
+8	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	stanza	stanza	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpacesAfter=_
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = https://accademiadellacrusca.it/it/consulenza/emfar-fare-qualcosa-a-qualcuno-emo-emda-qualcunoem-quando-il-causativo-causa-dubbi/17161
+# sent_id = cxn_108_example_2_1
+# text = Ho fatto riparare la macchina al meccanico
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpacesAfter=_|CXN=108:B
+3	riparare	riparare	VERB	V	VerbForm=Inf	2	xcomp	_	CXN=108:C
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	meccanico	meccanico	NOUN	S	Gender=Masc|Number=Sing	2	iobj	_	SpaceAfter=No|CXN=108:A
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://www.scudit.net/copertine/pdffarfare.pdf
+# sent_id = cxn_108_example_3_1
+# text = Ti faccio aspettare qualche minuto
+1	Ti	ti	PRON	PC	Number=Sing|Person=2|PronType=Prs	2	iobj	_	Clitic=Yes|CXN=108:A
+2	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CXN=108:B
+3	aspettare	aspettare	VERB	V	VerbForm=Inf	2	xcomp	_	CXN=108:C
+4	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	minuto	minuto	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://www.scudit.net/copertine/pdffarfare.pdf
+# sent_id = cxn_108_example_4_1
+# text = Il padre lascia usare la macchina al figlio
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	padre	padre	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	lascia	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CXN=108:B
+4	usare	usare	VERB	V	VerbForm=Inf	3	xcomp	_	CXN=108:C
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	3	iobj	_	SpaceAfter=No|CXN=108:A
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://www.scudit.net/copertine/pdffarfare.pdf
+# sent_id = cxn_108_example_5_1
+# text = Ti lascio dormire a casa mia
+1	Ti	ti	PRON	PC	Number=Sing|Person=2|PronType=Prs	2	iobj	_	Clitic=Yes|CXN=108:A
+2	lascio	lasciare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CXN=108:B
+3	dormire	dormire	VERB	V	VerbForm=Inf	2	xcomp	_	CXN=108:C
+4	a	a	ADP	E	_	5	case	_	_
+5	casa	casa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	SpaceAfter=No
+

@@ -2,5 +2,5 @@
 # cxn_name = ma+anche+X cxn-machine-readable-formalization: | cxn_62.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	ma	ma	CCONJ	_	C	cc	_	_	_	_	_
-B	anche	anche	ADV	_	C	advmod	_	_	_	_	_
-C	_	_	_	_	0	root	_	_	_	_	_
+B	anche	anche	ADV	_	C	advmod	_	A	_	_	_
+C	_	_	_	_	0	root	_	B	_	_	_

@@ -1,0 +1,131 @@
+# sent_id = cxn_95
+# text = _ _
+# form = avere NOUN
+1	_	avere	VERB	_	_	0	root	_	OrigID=A
+2	_	_	NOUN	_	_	1	obj	_	OrigID=B
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CODIS
+# sent_id = cxn_95_example_1_1
+# text = Le sue parole sono solo per i contadini, che hanno sete di vita
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	parole	parola	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	solo	solo	ADV	B	_	8	advmod	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	contadini	contadino	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	CXN=95:A
+12	sete	sete	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	CXN=95:B
+13	di	di	ADP	E	_	14	case	_	_
+14	vita	vita	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_95_example_2_1
+# text = il passare degli anni dimostrò a tutti che aveva stoffa in quel mestiere.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	passare	passare	VERB	V	VerbForm=Inf	6	nsubj	_	_
+3-4	degli	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6	dimostrò	dimostrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	iobj	_	_
+9	che	che	SCONJ	CS	_	10	mark	_	_
+10	aveva	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	ccomp	_	CXN=95:A
+11	stoffa	stoffa	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	CXN=95:B
+12	in	in	ADP	E	_	14	case	_	_
+13	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	mestiere	mestiere	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_95_example_3_1
+# text = dice che un uomo non ha cervello quando è stupido, che non ha cuore quando è meschino, che non ha fegato quando è un fifone.
+1	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	CXN=95:A
+7	cervello	cervello	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	CXN=95:B
+8	quando	quando	SCONJ	CS	_	10	mark	_	_
+9	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	stupido	stupido	ADJ	A	Gender=Masc|Number=Sing	6	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	che	che	SCONJ	CS	_	14	mark	_	_
+13	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+14	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+15	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+16	quando	quando	SCONJ	CS	_	18	mark	_	_
+17	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	meschino	meschino	NOUN	S	Gender=Masc|Number=Sing	14	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	23	punct	_	_
+20	che	che	SCONJ	CS	_	23	mark	_	_
+21	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+22	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	fegato	fegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+24	quando	quando	SCONJ	CS	_	27	mark	_	_
+25	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	fifone	fifone	NOUN	S	Gender=Masc|Number=Sing	23	advcl	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_95_example_4_1
+# text = Braudel ebbe agio di scrivere pagine memorabili
+1	Braudel	Braudel	PROPN	SP	_	2	nsubj	_	_
+2	ebbe	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	CXN=95:A
+3	agio	agio	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	CXN=95:B
+4	di	di	ADP	E	_	5	mark	_	_
+5	scrivere	scrivere	VERB	V	VerbForm=Inf	3	acl	_	_
+6	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+7	memorabili	memorabile	ADJ	A	Number=Plur	6	amod	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_95_example_5_1
+# text = Perché chi ama le scritture ed ha fame di conoscenza e verità dovrebbe rigettare l’ idea di un profeta vivente?
+1	Perché	perché	SCONJ	CS	_	14	advmod	_	_
+2	chi	chi	PRON	PR	Number=Sing|PronType=Rel	14	nsubj	_	_
+3	ama	amare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	scritture	scrittura	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	ed	e	CCONJ	CC	_	7	cc	_	_
+7	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	CXN=95:A
+8	fame	fame	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	CXN=95:B
+9	di	di	ADP	E	_	10	case	_	_
+10	conoscenza	conoscenza	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	verità	verità	NOUN	S	Gender=Fem	10	conj	_	_
+13	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	rigettare	rigettare	VERB	V	VerbForm=Inf	0	root	_	_
+15	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	idea	idea	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	profeta	profeta	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	vivente	vivente	ADJ	A	Number=Sing	19	amod	_	SpaceAfter=No
+21	?	?	PUNCT	FS	_	14	punct	_	SpaceAfter=No
+

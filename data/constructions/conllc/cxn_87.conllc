@@ -2,9 +2,9 @@
 # cxn_name = visto che X cxn-machine-readable-formalization: | cxn_87.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	visto	vedere	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	G	advcl	_	_	_	_	_
-B	che	che	SCONJ	_	E	mark	_	_	_	_	_
+B	che	che	SCONJ	_	E	mark	_	A	_	_	_
 C	_	_	ADV	_	E	advmod	_	_	_	_	_
-D	_	essere	AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	E	aux	_	_	_	_	_
-E	_	_	VERB	Gender=Masc|Tense=Past|VerbForm=Part	A	ccomp	_	_	_	_	_
-F	_	_	ADV	_	G	advmod	_	_	_	_	_
-G	_	_	_	_	0	root	_	_	_	_	_
+D	_	essere	AUX	Mood=Ind|Tense=Pres|VerbForm=Fin	E	aux	_	C	_	_	_
+E	_	_	VERB	Gender=Masc|Tense=Past|VerbForm=Part	A	ccomp	_	D	_	_	_
+F	_	_	ADV	_	G	advmod	_	E	_	_	_
+G	_	_	_	_	0	root	_	F	_	_	_

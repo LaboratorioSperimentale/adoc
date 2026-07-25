@@ -2,6 +2,6 @@
 # cxn_name = se non V(esserefless)+ N/Avv V(esserefless) + N/Avv cxn-machine-readable-formalization: | cxn_54.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	se	se	SCONJ	_	C	mark	_	_	_	_	_
-B	non	non	ADV	PronType=Neg	C	advmod	_	_	_	_	_
-C	_	_	_	Number=Sing	D	advcl	_	_	_	_	_
-D	_	_	_	_	0	root	_	_	_	_	_
+B	non	non	ADV	PronType=Neg	C	advmod	_	A	_	_	_
+C	_	_	_	Number=Sing	D	advcl	_	B	_	_	_
+D	_	_	_	_	0	root	_	C	_	_	_

@@ -2,4 +2,4 @@
 # cxn_name = prendere + nome cxn-machine-readable-formalization: | cxn_83.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	prendere	prendere	VERB	VerbForm=Inf	0	root	_	_	_	_	_
-B	_	_	NOUN	Number=Sing	A	obj	_	_	_	_	_
+B	_	_	NOUN	Number=Sing	A	obj	_	A	_	_	_

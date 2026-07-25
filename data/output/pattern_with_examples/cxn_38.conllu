@@ -1,0 +1,60 @@
+# sent_id = cxn_38
+# text = _ un colpo di _
+# form = VERB un colpo di NOUN
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	un	uno	DET	_	_	3	det	_	OrigID=B
+3	colpo	colpo	NOUN	_	_	1	obj	_	OrigID=C
+4	di	di	ADP	_	_	5	case	_	OrigID=D
+5	_	_	NOUN	_	_	3	nmod	_	OrigID=E
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://193.205.158.203/metamotorelessico/MetamotoreLessico.html
+# sent_id = cxn_38_example_1_1
+# text = Dare un colpo di telefono
+1	Dare	dare	VERB	V	VerbForm=Inf	0	root	_	CXN=38:A
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	CXN=38:B
+3	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpacesAfter=_|CXN=38:C
+4	di	di	ADP	E	_	5	case	_	SpacesAfter=_|CXN=38:D
+5	telefono	telefono	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No|CXN=38:E
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://193.205.158.204:8983/solr/collection1/browse?q=id:stper158.xml
+# sent_id = cxn_38_example_2_1
+# text = Detti un colpo di tosse
+1	Detti	dire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	CXN=38:A
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	CXN=38:B
+3	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	CXN=38:C
+4	di	di	ADP	E	_	5	case	_	CXN=38:D
+5	tosse	tosse	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No|CXN=38:E
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_38_example_3_1
+# text = Dare un colpo di phon
+1	Dare	dare	VERB	V	VerbForm=Inf	0	root	_	CXN=38:A
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	CXN=38:B
+3	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	CXN=38:C
+4	di	di	ADP	E	_	5	case	_	CXN=38:D
+5	phon	phon	NOUN	S	_	3	nmod	_	SpaceAfter=No|CXN=38:E
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_38_example_4_1
+# text = Mi ha fatto un colpo di telefono
+1	Mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	3	iobj	_	Clitic=Yes
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	CXN=38:A
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	CXN=38:B
+5	colpo	colpo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	CXN=38:C
+6	di	di	ADP	E	_	7	case	_	CXN=38:D
+7	telefono	telefono	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No|CXN=38:E
+

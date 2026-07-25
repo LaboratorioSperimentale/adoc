@@ -1,0 +1,143 @@
+# sent_id = cxn_149
+# text = _ _ _
+# form = VERB NOUN ADJ
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	_	_	NOUN	_	_	1	obj	_	OrigID=B
+3	_	_	ADJ	_	_	2	amod	_	OrigID=C|LinearOrder=Variable
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_149_example_1_1
+# text = Fredrik viveva vita normale e si era recato come sempre al turno
+1	Fredrik	Fredrik	PROPN	SP	_	2	nsubj	_	_
+2	viveva	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	CXN=149:A
+3	vita	vita	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	CXN=149:B
+4	normale	normale	ADJ	A	Number=Sing	3	amod	_	CXN=149:C
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	si	si	PRON	PC	Person=3|PronType=Prs	8	expl	_	Clitic=Yes
+7	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	recato	recare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+9	come	come	ADP	E	_	10	case	_	_
+10	sempre	sempre	ADV	B	_	8	advmod	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	turno	turno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_149_example_2_1
+# text = Certo che Capello non dorme sonni tranquilli
+1	Certo	certo	ADV	B	_	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	Capello	Capello	PROPN	SP	_	5	nsubj	_	SpacesAfter=_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	dorme	dormire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	CXN=149:A
+6	sonni	sonno	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	SpacesAfter=_|CXN=149:B
+7	tranquilli	tranquillo	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	CXN=149:C
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Google
+# sent_id = cxn_149_example_3_1
+# text = Per correre una buona 10 km non è necessario usare dei mezzi di allenamento stratosferici.
+1	Per	per	ADP	E	_	2	mark	_	SpacesAfter=_
+2	correre	correre	VERB	V	VerbForm=Inf	9	advcl	_	CXN=149:A
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	SpacesAfter=_
+4	buona	buono	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	CXN=149:C
+5	10	10	NUM	N	NumType=Card	6	nummod	_	_
+6	km	chilometro	NOUN	S	Gender=Masc	2	obj	_	CXN=149:B
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+10	usare	usare	VERB	V	VerbForm=Inf	9	csubj	_	_
+11	dei	del	DET	RD	Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	mezzi	mezzo	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	allenamento	allenamento	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	stratosferici	stratosferico	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	9	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_149_example_4_1
+# text = La città dormirà sonni agitati, questa notte
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	SpacesAfter=_
+2	città	città	NOUN	S	Gender=Fem	3	nsubj	_	_
+3	dormirà	dormire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	CXN=149:A
+4	sonni	sonno	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	SpacesAfter=_|CXN=149:B
+5	agitati	agitato	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No|CXN=149:C
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	notte	notte	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_149_example_5_1
+# text = i personaggi vivono vita autonoma e spesso cercano invano l' autore
+1	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	SpacesAfter=_
+2	personaggi	personaggio	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	vivono	vivere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CXN=149:A
+4	vita	vita	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpacesAfter=_|CXN=149:B
+5	autonoma	autonomo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	CXN=149:C
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	spesso	spesso	ADV	B	_	8	advmod	_	_
+8	cercano	cercare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	invano	invano	ADV	B	_	8	advmod	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	autore	autore	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = CORIS_MONITOR2014_16
+# source = . https://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=58879730&End=58879732 2552984
+# text = Mi sembrava di vivere una vita che non avevo avuto la minima possibilità  di prevedere.
+# status = TO_CHECK
+1	Mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	2	iobj	_	Clitic=Yes
+2	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	vivere	vivere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	vita	vita	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	che	che	PRON	PR	PronType=Rel	10	obl	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	CXN=149:A
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	minima	minimo	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	CXN=149:C
+13	possibilità	possibilità	NOUN	S	Gender=Fem	10	obj	_	CXN=149:B
+14	di	di	ADP	E	_	15	mark	_	_
+15	prevedere	prevedere	VERB	V	VerbForm=Inf	13	acl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+
+# sent_id = VIT-4917
+# source = http://hdl.handle.net/11234/1-5502 UD_Italian-VIT/it_vit-ud-train VIT-4917
+# text = Nessuno, insomma, poteva più dormire sonni tranquilli.
+# status = TO_CHECK
+1	Nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	7	punct	_	_
+3	insomma	insomma	ADV	B	_	7	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	aux	_	_
+6	più	più	ADV	B	_	7	advmod	_	_
+7	dormire	dormire	VERB	V	VerbForm=Inf	0	root	_	CXN=149:A
+8	sonni	sonno	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	CXN=149:B
+9	tranquilli	tranquillo	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No|CXN=149:C
+10	.	.	PUNCT	FS	_	7	punct	_	_
+

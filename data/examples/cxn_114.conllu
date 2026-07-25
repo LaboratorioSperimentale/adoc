@@ -111,7 +111,6 @@
 # sent_id = ParlaMint-IT_2015-03-11-LEG17-Sed-407_226
 # source = http://hdl.handle.net/11356/1911 ParlaMint-IT/2015/ParlaMint-IT_2015-03-11-LEG17-Senato-sed-407 ParlaMint-IT_2015-03-11-LEG17-Senato-sed-407.ana.seg50.4
 # text = Nella formulazione del capoverso 5- bis vi è un problema, che, ad una prima lettura, nella globalità dell'articolato, potrebbe essere visto in modo superficiale, mentre questo testo di legge verrà utilizzato per quello che dice parola per parola (perché questo è quello che ho imparato in Commissione giustizia: un articolato viene valutato e soppesato parola per parola e proposizione per proposizione).
-# status = TO_CHECK
 1-2	Nella	_	_	_	_	_	_	_	NER=O
 1	In	in	ADP	E	_	3	case	_	_
 2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
@@ -163,7 +162,7 @@
 45	dice	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	acl:relcl	_	NER=O
 46	parola	parola	NOUN	S	Gender=Fem|Number=Sing	45	obj	_	NER=O
 47	per	per	ADP	E	_	48	case	_	NER=O
-48	parola	parola	NOUN	S	Gender=Fem|Number=Sing	45	obl	_	NER=O
+48	parola	parola	NOUN	S	Gender=Fem|Number=Sing	46	nmod	_	NER=O
 49	(	(	PUNCT	FB	_	53	punct	_	NER=O|SpaceAfter=No
 50	perché	perché	SCONJ	CS	_	53	mark	_	NER=O
 51	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	53	nsubj	_	NER=O
@@ -252,7 +251,6 @@
 # sent_id = isst_tanl-3641
 # source = http://hdl.handle.net/11234/1-5502 UD_Italian-ISDT/it_isdt-ud-test isst_tanl-3641
 # text = Ma conoscono bene Carmen Castillo, la signora cilena nella cui casa, a Parigi, è avvenuto l'incontro tra Gaston Salvatore e la Payita, e che conferma punto per punto l'intervista.
-# status = TO_CHECK
 1	Ma	ma	CCONJ	CC	_	2	cc	_	_
 2	conoscono	conoscere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	bene	bene	ADV	B	_	2	advmod	_	_
@@ -295,7 +293,6 @@
 # sent_id = sent_560
 # source = http://hdl.handle.net/11234/1-5502 UD_Italian-PoSTWITA/it_postwita-ud-train 560
 # text = È online @user1! I discorsi di Mario Monti in formato commentabile, frase per frase: http://t.co/tRSYrHev via @user2
-# status = TO_CHECK
 1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
 2	online	online	ADJ	A	_	0	root	_	_
 3	@user1	@user1	SYM	SYM	_	2	nsubj	_	SpaceAfter=No

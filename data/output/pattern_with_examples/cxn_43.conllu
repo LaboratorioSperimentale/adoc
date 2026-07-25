@@ -1,0 +1,43 @@
+# sent_id = cxn_43
+# text = cantare come _ _
+# form = cantare come uno NOUN
+1	cantare	cantare	VERB	_	_	0	root	_	OrigID=A
+2	come	come	ADP	_	_	4	case	_	OrigID=B
+3	_	uno	DET	_	_	4	det	_	OrigID=C
+4	_	_	NOUN	_	_	1	obl	_	OrigID=D
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Internet
+# sent_id = cxn_43_example_1_1
+# text = Cantare come una rana
+1	Cantare	cantare	VERB	V	VerbForm=Inf	0	root	_	CXN=43:A
+2	come	come	ADP	E	_	4	case	_	CXN=43:B
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	CXN=43:C
+4	rana	rana	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpacesAfter=_|CXN=43:D
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Internet
+# sent_id = cxn_43_example_2_1
+# text = Cantare come un usignolo
+1	Cantare	cantare	VERB	V	VerbForm=Inf	0	root	_	CXN=43:A
+2	come	come	ADP	E	_	4	case	_	CXN=43:B
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	CXN=43:C
+4	usignolo	usignolo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpacesAfter=_|CXN=43:D
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Internet
+# sent_id = cxn_43_example_3_1
+# text = Cantare come un fringuello
+1	Cantare	cantare	VERB	V	VerbForm=Inf	0	root	_	CXN=43:A
+2	come	come	ADP	E	_	4	case	_	CXN=43:B
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	CXN=43:C
+4	fringuello	fringuello	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpacesAfter=_|CXN=43:D
+

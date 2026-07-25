@@ -1,0 +1,207 @@
+# sent_id = cxn_104
+# text = _ fare a meno
+# form = potere fare a meno
+1	_	potere	AUX	_	_	2	aux	_	OrigID=A
+2	fare	fare	VERB	_	_	0	root	_	OrigID=B
+3	a	a	ADP	_	_	4	case	_	OrigID=C
+4	meno	meno	ADV	_	_	2	advmod	_	OrigID=D
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_104_example_1_1
+# text = Tuttavia l'economista non può fare a meno di atteggiarsi a fervente sostenitore del progresso
+1	Tuttavia	tuttavia	ADV	B	_	6	advmod	_	_
+2	l'	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	economista	economista	NOUN	S	Number=Sing	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	CXN=104:A
+6	fare	fare	VERB	V	VerbForm=Inf	0	root	_	CXN=104:B
+7	a	a	ADP	B	_	8	case	_	CXN=104:C
+8	meno	meno	ADV	B	_	6	advmod	_	CXN=104:D
+9	di	di	ADP	B	_	10	mark	_	_
+10-11	atteggiarsi	_	_	_	_	_	_	_	_
+10	atteggiar	atteggiare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+11	si	si	PRON	PC	Person=3|PronType=Prs	10	expl	_	Clitic=Yes
+12	a	a	ADP	E	_	14	case	_	_
+13	fervente	fervente	ADJ	A	Number=Sing	14	amod	_	_
+14	sostenitore	sostenitore	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	progresso	progresso	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_104_example_2_1
+# text = Quando poco prima di prendere sonno ripensò al suo sogno non potè fare a meno di sorridere nel buio.
+1	Quando	quando	SCONJ	CS	_	7	mark	_	_
+2	poco	poco	ADV	B	_	3	advmod	_	_
+3	prima	prima	SCONJ	B	_	5	mark	_	_
+4	di	di	ADP	B	_	3	fixed	_	_
+5	prendere	prendere	VERB	V	VerbForm=Inf	7	parataxis	_	_
+6	sonno	sonno	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7	ripensò	ripensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	advcl	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	potè	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	CXN=104:A
+14	fare	fare	VERB	V	VerbForm=Inf	0	root	_	CXN=104:B
+15	a	a	ADP	B	_	16	case	_	CXN=104:C
+16	meno	meno	ADV	B	_	14	advmod	_	CXN=104:D
+17	di	di	ADP	B	_	18	mark	_	_
+18	sorridere	sorridere	VERB	V	VerbForm=Inf	14	xcomp	_	_
+19-20	nel	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	buio	buio	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	14	punct	_	_
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_104_example_3_1
+# text = La cultura orizzontale in altre parole non può fare a meno della cultura verticale.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	orizzontale	orizzontale	ADJ	A	Number=Sing	2	amod	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+6	parole	parola	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	CXN=104:A
+9	fare	fare	VERB	V	VerbForm=Inf	0	root	_	CXN=104:B
+10	a	a	ADP	A	Gender=Fem|Number=Sing	11	case	_	CXN=104:C
+11	meno	meno	ADV	A	Gender=Fem|Number=Sing	9	advmod	_	CXN=104:D
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	A	Gender=Fem|Number=Sing	14	case	_	_
+13	la	la	DET	A	Gender=Fem|Number=Sing	14	det	_	_
+14	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+15	verticale	verticale	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	9	punct	_	_
+
+
+# sent_id = KIParla_BOD2019
+# source = . KIPARLA/BOD2019 .
+# text = è una cosa che non puoi mh non puoi fare a meno di notare
+# status = TO_CHECK
+1	è	essere	VERB	_	_	0	root	_	_
+2	una	uno	DET	_	_	3	det	_	_
+3	cosa	cosa	NOUN	_	_	1	obj	_	_
+4	che	che	PRON	_	_	10	obl	_	_
+5	non	non	ADV	_	_	6	advmod	_	_
+6	puoi	potere	AUX	_	_	10	reparandum	_	_
+7	mh	mh	INTJ	_	_	10	discourse	_	_
+8	non	non	ADV	_	_	10	advmod	_	_
+9	puoi	potere	AUX	_	_	10	aux	_	CXN=104:A
+10	fare	fare	VERB	_	_	3	acl:relcl	_	CXN=104:B
+11	a	a	ADP	_	_	12	case	_	CXN=104:C
+12	meno	meno	ADV	_	_	10	advmod	_	CXN=104:D
+13	di	di	ADP	_	_	14	mark	_	_
+14	notare	notare	VERB	_	_	10	xcomp	_	_
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = PAISÀ_18072024BB1
+# source = http://hdl.handle.net/20.500.12124/3 paisa.raw.utf8/0045650 .
+# text = Se gli antichi potevano fare a meno della nozione di " bello " in senso stretto era perché avevano termini appropriati per il bello visibile , chiamato " simmetria " , come per il bello udibile , chiamato " armonia " .
+# status = TO_CHECK
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	antichi	antico	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	potevano	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	CXN=104:A
+5	fare	fare	VERB	V	VerbForm=Inf	18	advcl	_	CXN=104:B
+6	a	a	ADP	E	_	7	case	_	CXN=104:C
+7	meno	meno	ADV	B	_	5	advmod	_	CXN=104:D
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	nozione	nozione	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	"	"	PUNCT	FB	_	13	punct	_	_
+13	bello	bello	ADJ	A	Gender=Masc|Number=Sing	10	nmod	_	_
+14	"	"	PUNCT	FB	_	13	punct	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	senso	senso	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+17	stretto	stretto	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+19	perché	perché	SCONJ	CS	_	20	mark	_	_
+20	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	18	ccomp	_	_
+21	termini	termine	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	_
+22	appropriati	appropriato	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+23	per	per	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	bello	bello	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+26	visibile	visibile	ADJ	A	Number=Sing	25	amod	_	_
+27	,	,	PUNCT	FF	_	25	punct	_	_
+28	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	acl	_	_
+29	"	"	PUNCT	FB	_	30	punct	_	_
+30	simmetria	simmetria	NOUN	S	Gender=Fem|Number=Sing	28	xcomp	_	_
+31	"	"	PUNCT	FB	_	30	punct	_	_
+32	,	,	PUNCT	FF	_	36	punct	_	_
+33	come	come	CCONJ	E	_	36	cc	_	_
+34	per	per	ADP	E	_	36	case	_	_
+35	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
+36	bello	bello	NOUN	S	Gender=Masc|Number=Sing	25	conj	_	_
+37	udibile	udibile	ADJ	A	Number=Sing	36	amod	_	_
+38	,	,	PUNCT	FF	_	36	punct	_	_
+39	chiamato	chiamare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	36	acl	_	_
+40	"	"	PUNCT	FB	_	41	punct	_	_
+41	armonia	armonia	NOUN	S	Gender=Fem|Number=Sing	39	xcomp	_	_
+42	"	"	PUNCT	FB	_	41	punct	_	_
+43	.	.	PUNCT	FS	_	18	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = itTenTen20_17072024_BB1
+# source = . itTenTen20 .
+# text = L'inglese non puo' fare a meno di attaccare bottone.
+# status = TO_CHECK
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	inglese	inglese	NOUN	S	Number=Sing	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	puo'	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	CXN=104:A
+5	fare	fare	VERB	V	VerbForm=Inf	0	root	_	CXN=104:B
+6	a	a	ADP	E	_	7	case	_	CXN=104:C
+7	meno	meno	ADV	B	_	5	advmod	_	CXN=104:D
+8	di	di	ADP	E	_	9	mark	_	_
+9	attaccare	attaccare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+10	bottone	bottone	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = itTenTen20_18072024_BB1
+# source = . itTenTen20 .
+# text = Ma certo, in fondo si può fare a meno di quasi tutto.
+# status = TO_CHECK
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	certo	certo	ADV	B	_	8	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+6	si	si	PRON	PC	Person=3|PronType=Prs	8	expl:impers	_	Clitic=Yes
+7	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	CXN=104:A
+8	fare	fare	VERB	V	VerbForm=Inf	0	root	_	CXN=104:B
+9	a	a	ADP	E	_	10	case	_	CXN=104:C
+10	meno	meno	ADV	B	_	8	advmod	_	CXN=104:D
+11	di	di	ADP	E	_	13	case	_	_
+12	quasi	quasi	ADV	B	_	13	advmod	_	_
+13	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	SpaceAfter=No
+

@@ -2,8 +2,8 @@
 # cxn_name = In lungo e in largo cxn-machine-readable-formalization: | cxn_132.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	_	_	VERB	_	0	root	_	_	_	_	_
-B	in	in	ADP	_	C	case	_	_	_	_	_
-C	lungo	lungo	ADJ	Gender=Masc|Number=Sing	A	obl	_	_	_	_	_
-D	e	e	CCONJ	_	F	cc	_	_	_	_	_
-E	in	in	ADP	_	F	case	_	_	_	_	_
-F	largo	largo	NOUN	Gender=Masc|Number=Sing	C	conj	_	_	_	_	_
+B	in	in	ADP	_	C	case	_	A	_	_	_
+C	lungo	lungo	ADJ	Gender=Masc|Number=Sing	A	obl	_	B	_	_	_
+D	e	e	CCONJ	_	F	cc	_	C	_	_	_
+E	in	in	ADP	_	F	case	_	D	_	_	_
+F	largo	largo	NOUN	Gender=Masc|Number=Sing	C	conj	_	E	_	_	_

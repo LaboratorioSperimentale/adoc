@@ -1,0 +1,35 @@
+# sent_id = cxn_175
+# text = _ _ _
+# form = NOUN _ _
+1	_	_	NOUN	_	_	2	nsubj	_	OrigID=A
+2	_	_	_	_	_	0	root	_	OrigID=B
+3	_	_	_	_	_	2	conj	_	OrigID=C
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_175_example_1_1
+# text = Più gente c'è meglio è.
+1	Più	più	ADV	B	_	2	advmod	_	_
+2	gente	gente	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	CXN=175:A
+3	c'	ci	PRON	PC	PronType=Prs	4	expl	_	Clitic=Yes|SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CXN=175:B
+5	meglio	meglio	ADV	B	_	6	advmod	_	_
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	SpaceAfter=No|CXN=175:C
+7	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_175_example_2_1
+# text = Il gelato più freddo è meglio è.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	gelato	gelato	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	CXN=175:A
+3	più	più	ADV	B	_	4	advmod	_	_
+4	freddo	freddo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	CXN=175:B
+5	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+6	meglio	meglio	ADV	B	_	4	conj	_	CXN=175:C
+7	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+

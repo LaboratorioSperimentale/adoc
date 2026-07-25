@@ -1,0 +1,108 @@
+# sent_id = cxn_141
+# text = ancora ora _ che _
+# form = ancora ora VERB che _
+1	ancora	ancora	ADV	_	_	3	advmod	_	OrigID=A
+2	ora	ora	ADV	_	_	3	advmod	_	OrigID=B
+3	_	_	VERB	_	_	0	root	_	OrigID=C
+4	che	che	SCONJ	_	_	5	mark	_	OrigID=D
+5	_	_	_	_	_	3	ccomp	_	OrigID=E
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_141_example_1_1
+# text = Ancora ora noto che i tuoi occhi sono color nocciola.
+1	Ancora	ancora	ADV	B	_	3	advmod	_	CXN=141:A
+2	ora	ora	ADV	B	_	3	advmod	_	CXN=141:B
+3	noto	notare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CXN=141:C
+4	che	che	SCONJ	CS	_	9	mark	_	CXN=141:D
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	tuoi	tuo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+8	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	color	colore	NOUN	S	Gender=Masc|Number=Sing	3	ccomp	_	CXN=141:E
+10	nocciola	nocciola	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_141_example_2_1
+# text = Ancora ora scopro che la lezione comincerà alle 13 e non alle 14.
+1	Ancora	ancora	ADV	B	_	3	advmod	_	CXN=141:A
+2	ora	ora	ADV	B	_	3	advmod	_	CXN=141:B
+3	scopro	scoprire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CXN=141:C
+4	che	che	SCONJ	CS	_	7	mark	_	CXN=141:D
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	lezione	lezione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+7	comincerà	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	ccomp	_	CXN=141:E
+8-9	alle	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	13	13	NUM	N	NumType=Card	7	obl	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13-14	alle	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	14	14	NUM	N	NumType=Card	10	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_141_example_3_1
+# text = Ancora ora mi accorgo che Filippo non è venuto all'aperitivo.
+1	Ancora	ancora	ADV	B	_	4	advmod	_	CXN=141:A
+2	ora	ora	ADV	B	_	4	advmod	_	CXN=141:B
+3	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	4	expl	_	Clitic=Yes
+4	accorgo	accorgere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CXN=141:C
+5	che	che	SCONJ	CS	_	9	mark	_	CXN=141:D
+6	Filippo	Filippo	PROPN	SP	_	9	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	ccomp	_	CXN=141:E
+10-11	all'	_	_	_	_	_	_	_	SpaceAfter=No
+10	a	a	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	aperitivo	aperitivo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_141_example_4_1
+# text = Ancora ora vedo che non hai sparecchiato la tavola.
+1	Ancora	ancora	ADV	B	_	3	advmod	_	CXN=141:A
+2	ora	ora	ADV	B	_	3	advmod	_	CXN=141:B
+3	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CXN=141:C
+4	che	che	SCONJ	CS	_	7	mark	_	CXN=141:D
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	sparecchiato	sparecchiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	CXN=141:E
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	tavola	tavola	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_141_example_5_1
+# text = Ancora ora scopro che il secondo nome di Giacomo è Matteo.
+1	Ancora	ancora	ADV	B	_	3	advmod	_	CXN=141:A
+2	ora	ora	ADV	B	_	3	advmod	_	CXN=141:B
+3	scopro	scoprire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CXN=141:C
+4	che	che	SCONJ	CS	_	11	mark	_	CXN=141:D
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
+7	nome	nome	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Giacomo	Giacomo	PROPN	SP	_	7	nmod	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	Matteo	Matteo	PROPN	SP	_	3	ccomp	_	SpaceAfter=No|CXN=141:E
+12	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=_
+

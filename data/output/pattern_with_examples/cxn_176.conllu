@@ -1,0 +1,67 @@
+# sent_id = cxn_176
+# text = ne _ _
+# form = ne uscire _
+1	ne	ne	PRON	_	_	2	obl	_	OrigID=A
+2	_	uscire	VERB	_	_	0	root	_	OrigID=B
+3	_	_	_	_	_	2	xcomp	_	OrigID=C
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_176_example_1_1
+# text = Ne sono uscito distrutto.
+1	Ne	ne	PRON	PC	PronType=Prs	3	obl	_	Clitic=Yes|CXN=176:A
+2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	uscito	uscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	CXN=176:B
+4	distrutto	distruggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	xcomp	_	SpaceAfter=No|CXN=176:C
+5	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_176_example_2_1
+# text = Ne è uscita più forte di prima.
+1	Ne	ne	PRON	PC	PronType=Prs	3	obl	_	Clitic=Yes|CXN=176:A
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	uscita	uscire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	CXN=176:B
+4	più	più	ADV	B	_	5	advmod	_	_
+5	forte	forte	ADJ	A	Number=Sing	3	xcomp	_	CXN=176:C
+6	di	di	ADP	E	_	7	case	_	_
+7	prima	prima	ADV	B	_	5	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_176_example_3_1
+# text = Ne sei uscito pazzo.
+1	Ne	ne	PRON	PC	PronType=Prs	3	obl	_	Clitic=Yes|CXN=176:A
+2	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	uscito	uscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	CXN=176:B
+4	pazzo	pazzo	ADJ	A	Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No|CXN=176:C
+5	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_176_example_4_1
+# text = Ne uscirono illesi.
+1	Ne	ne	PRON	PC	PronType=Prs	2	obl	_	Clitic=Yes|CXN=176:A
+2	uscirono	uscire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	CXN=176:B
+3	illesi	illese	ADJ	A	Gender=Masc|Number=Plur	2	xcomp	_	SpaceAfter=No|CXN=176:C
+4	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = cxn_176_example_5_1
+# text = Ne uscirete vincitori.
+1	Ne	ne	PRON	PC	PronType=Prs	2	obl	_	Clitic=Yes|CXN=176:A
+2	uscirete	uscire	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	CXN=176:B
+3	vincitori	vincitore	NOUN	S	Gender=Masc|Number=Plur	2	xcomp	_	SpaceAfter=No|CXN=176:C
+4	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+

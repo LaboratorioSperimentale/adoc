@@ -2,10 +2,10 @@
 # cxn_name = Avere a che fare con X cxn-machine-readable-formalization: | cxn_144.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	non	non	ADV	PronType=Neg	B	advmod	_	_	_	_	_
-B	_	avere	VERB	_	0	root	_	_	_	_	_
-C	niente	niente	PRON	Gender=Masc|Number=Sing|PronType=Ind	B	obj	_	_	_	_	_
-D	a	a	ADP	ExtPos=SCONJ	F	mark	_	_	_	_	_
-E	che	che	SCONJ	_	D	fixed	_	_	_	_	_
-F	fare	fare	VERB	VerbForm=Inf	B	advcl	_	_	_	_	_
-G	con	con	ADP	_	H	case	_	_	_	_	_
-H	_	_	_	Gender=Masc|Number=Sing	F	obl	_	_	_	_	_
+B	_	avere	VERB	_	0	root	_	A	_	_	_
+C	niente	niente	PRON	Gender=Masc|Number=Sing|PronType=Ind	B	obj	_	B	_	_	_
+D	a	a	ADP	ExtPos=SCONJ	F	mark	_	C	_	_	_
+E	che	che	SCONJ	_	D	fixed	_	D	_	_	_
+F	fare	fare	VERB	VerbForm=Inf	B	advcl	_	E	_	_	_
+G	con	con	ADP	_	H	case	_	F	_	_	_
+H	_	_	_	Gender=Masc|Number=Sing	F	obl	_	G	_	_	_

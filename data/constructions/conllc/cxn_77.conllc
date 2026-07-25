@@ -2,4 +2,4 @@
 # cxn_name = Modal prepositional phrase cxn-machine-readable-formalization: | cxn_77.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	a	a	ADP	_	B	case	_	_	_	_	_
-B	_	_	NOUN	Number=Sing	0	root	_	_	_	_	_
+B	_	_	NOUN	Number=Sing	0	root	_	A	_	_	_

@@ -1,0 +1,87 @@
+# sent_id = cxn_99
+# text = _ _ le ossa
+# form = fare PRON le ossa
+1	_	fare	VERB	_	_	0	root	_	OrigID=A
+2	_	_	PRON	_	_	1	expl	_	OrigID=B|LinearOrder=Variable
+3	le	il	DET	_	_	4	det	_	OrigID=C
+4	ossa	osso	NOUN	_	_	1	obj	_	OrigID=D
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = bab.la - dizionario online italiano-inglese
+# sent_id = cxn_99_example_1_1
+# text = Viene poi mandato nelle federazioni di sviluppo per farsi le ossa.
+1	Viene	venire	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+2	poi	poi	ADV	B	_	3	advmod	_	_
+3	mandato	mandare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	nelle	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	federazioni	federazione	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	sviluppo	sviluppo	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10-11	farsi	_	_	_	_	_	_	_	_
+10	far	fare	VERB	V	VerbForm=Inf	3	advcl	_	CXN=99:A
+11	si	si	PRON	PC	Person=3|PronType=Prs	10	expl	_	Clitic=Yes|CXN=99:B
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	CXN=99:C
+13	ossa	osso	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No|CXN=99:D
+14	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = facebook - impariamo l'italiano
+# sent_id = cxn_99_example_2_1
+# text = In quell'azienda mi sono fatto le ossa per dieci anni.
+1	In	in	ADP	E	_	3	case	_	_
+2	quell'	quello	DET	DD	Number=Sing|PronType=Dem	3	det	_	SpaceAfter=No
+3	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+4	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	6	expl	_	Clitic=Yes|CXN=99:B
+5	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	CXN=99:A
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	CXN=99:C
+8	ossa	osso	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	CXN=99:D
+9	per	per	ADP	E	_	11	case	_	_
+10	dieci	dieci	NUM	N	NumType=Card	11	nummod	_	_
+11	anni	anno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Blog - italiano naturale
+# sent_id = cxn_99_example_3_1
+# text = È stato importantissimo farsi le ossa in una realtà più piccola, perché ti permette di capire il funzionamento e la visione di un’azienda.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	cop	_	_
+3	importantissimo	importante	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	0	root	_	SpacesAfter=_
+4-5	farsi	_	_	_	_	_	_	_	_
+4	far	fare	VERB	V	VerbForm=Inf	3	csubj	_	CXN=99:A
+5	si	si	PRON	PC	Person=3|PronType=Prs	4	expl	_	Clitic=Yes|CXN=99:B
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	CXN=99:C
+7	ossa	osso	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpacesAfter=_|CXN=99:D
+8	in	in	ADP	E	_	10	case	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	realtà	realtà	NOUN	S	Gender=Fem	4	obl	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	perché	perché	SCONJ	CS	_	16	mark	_	_
+15	ti	ti	PRON	PC	Number=Sing|Person=2|PronType=Prs	16	iobj	_	Clitic=Yes
+16	permette	permettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18	capire	capire	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	funzionamento	funzionamento	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	e	e	CCONJ	CC	_	23	cc	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	visione	visione	NOUN	S	Gender=Fem|Number=Sing	20	conj	_	_
+24	di	di	ADP	E	_	26	case	_	_
+25	un’	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+

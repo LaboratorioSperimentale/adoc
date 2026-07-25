@@ -1,0 +1,122 @@
+# sent_id = cxn_25
+# text = _ a fare
+# form = VERB a fare
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	a	a	ADP	_	_	3	mark	_	OrigID=B
+3	fare	fare	VERB	_	_	1	xcomp	_	OrigID=C
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Forum di matematicamente.it 07.10.2015
+# sent_id = cxn_25_example_1_1
+# text = Ma che ti lamenti a fare con i voti che hai?
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	che	che	ADV	PQ	PronType=Int	4	advmod	_	_
+3	ti	ti	PRON	PC	Number=Sing|Person=2|PronType=Prs	4	expl	_	Clitic=Yes
+4	lamenti	lamentare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CXN=25:A
+5	a	a	ADP	E	_	6	mark	_	CXN=25:B
+6	fare	fare	VERB	V	VerbForm=Inf	4	xcomp	_	CXN=25:C
+7	con	con	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	voti	voto	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+10	che	che	PRON	PR	PronType=Rel	11	obj	_	_
+11	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	4	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = sampdoria.forum.free.it 27.10.2020
+# sent_id = cxn_25_example_2_1
+# text = Ma cosa piangi a fare?
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obl	_	_
+3	piangi	piangere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CXN=25:A
+4	a	a	ADP	E	_	5	mark	_	CXN=25:B
+5	fare	fare	VERB	V	VerbForm=Inf	3	xcomp	_	SpaceAfter=No|CXN=25:C
+6	?	?	PUNCT	FS	_	3	punct	_	_
+
+
+# source = sampdoria.forum.free.it 27.10.2020
+# sent_id = cxn_25_example_2_2
+# text = Mica pensavi di vincere eh?
+# tags = CONTEXT
+1	Mica	mica	ADV	B	_	2	advmod	_	_
+2	pensavi	pensare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	vincere	vincere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	eh	eh	INTJ	I	_	4	discourse	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Forum di riflessioni.it 30.09.2007
+# sent_id = cxn_25_example_3_1
+# text = Allora che me lo dici a fare?
+1	Allora	allora	ADV	B	_	5	advmod	_	_
+2	che	che	SCONJ	CS	_	5	advmod	_	_
+3	me	me	PRON	PC	Number=Sing|Person=1|PronType=Prs	5	iobj	_	Clitic=Yes
+4	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	Clitic=Yes
+5	dici	dire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CXN=25:A
+6	a	a	ADP	E	_	7	mark	_	CXN=25:B
+7	fare	fare	VERB	V	VerbForm=Inf	5	xcomp	_	SpaceAfter=No|CXN=25:C
+8	?	?	PUNCT	FS	_	5	punct	_	_
+
+
+# source = Forum di riflessioni.it 30.09.2007
+# sent_id = cxn_25_example_3_2
+# text = Vacci e non rompere.
+# tags = CONTEXT
+1-2	Vacci	_	_	_	_	_	_	_	_
+1	va'	andare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ci	ci	PRON	PC	_	1	obl	_	Clitic=Yes
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	rompere	rompere	VERB	V	VerbForm=Inf	1	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = forum.metal.it 28.05.2021
+# sent_id = cxn_25_example_4_1
+# text = Vingenzo ma che te la prendi a fare così seriamente?
+1	Vingenzo	Vingenzo	PROPN	_	_	6	vocative	_	_
+2	ma	ma	CCONJ	CC	_	6	cc	_	_
+3	che	che	ADV	PR	PronType=Rel	6	advmod	_	_
+4	te	te	PRON	PC	Number=Sing|Person=2|PronType=Prs	6	expl	_	Clitic=Yes
+5	la	la	PRON	PC	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	Clitic=Yes
+6	prendi	prendere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CXN=25:A
+7	a	a	ADP	E	_	8	mark	_	CXN=25:B
+8	fare	fare	VERB	V	VerbForm=Inf	6	xcomp	_	CXN=25:C
+9	così	così	ADV	B	_	10	advmod	_	_
+10	seriamente	seriamente	ADV	B	_	6	advmod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	6	punct	_	_
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = matrimonio.alfemminile.com 14.04.2006
+# sent_id = cxn_25_example_5_1
+# text = Ma cosa fai a fare tutte quella roba lì che siamo solo noi?
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obl	_	_
+3	fai	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CXN=25:A
+4	a	a	ADP	E	_	5	mark	_	CXN=25:B
+5	fare	fare	VERB	V	VerbForm=Inf	3	xcomp	_	CXN=25:C
+6	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	5	obj	_	_
+7	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	roba	roba	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+9	lì	lì	ADV	B	_	8	advmod	_	_
+10	che	che	PRON	PR	PronType=Rel	13	mark	_	_
+11	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	solo	solo	ADV	B	_	13	advmod	_	_
+13	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	8	acl:relcl	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+

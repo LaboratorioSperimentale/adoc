@@ -2,5 +2,5 @@
 # cxn_name = dare di N cxn-machine-readable-formalization: | cxn_173.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	_	dare	VERB	_	0	root	_	_	_	_	_
-B	di	di	ADP	_	C	case	_	_	_	_	_
-C	_	_	NOUN	Number=Sing	A	obl	_	_	_	_	_
+B	di	di	ADP	_	C	case	_	A	_	_	_
+C	_	_	NOUN	Number=Sing	A	obl	_	B	_	_	_

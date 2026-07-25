@@ -1,0 +1,96 @@
+# sent_id = cxn_29
+# text = è l' _ _ _ _
+# form = è l' ennesimo NOUN _ VERB
+1	è	essere	AUX	_	_	4	cop	_	OrigID=A
+2	l'	il	DET	_	_	4	det	_	OrigID=B
+3	_	ennesimo	ADJ	_	_	4	amod	_	OrigID=C
+4	_	_	NOUN	_	_	0	root	_	OrigID=D
+5	_	_	_	_	_	6	obj	_	OrigID=E|LinearOrder=Variable
+6	_	_	VERB	_	_	4	acl:relcl	_	OrigID=F
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Italiano colloquiale
+# sent_id = cxn_29_example_1_1
+# text = è l'ennesima volta che te lo dico
+1	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	CXN=29:A
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No|CXN=29:B
+3	ennesima	ennesimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	CXN=29:C
+4	volta	volta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	CXN=29:D
+5	che	che	SCONJ	CS	_	8	obl	_	_
+6	te	te	PRON	PC	Number=Sing|Person=2|PronType=Prs	8	iobj	_	Clitic=Yes
+7	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	Clitic=Yes|CXN=29:E
+8	dico	dire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No|CXN=29:F
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Italiano colloquiale
+# sent_id = cxn_29_example_2_1
+# text = è l'ennesima scusa che usi
+1	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	CXN=29:A
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No|CXN=29:B
+3	ennesima	ennesimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	CXN=29:C
+4	scusa	scusa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	CXN=29:D
+5	che	che	PRON	PR	PronType=Rel	6	obj	_	CXN=29:E
+6	usi	usare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No|CXN=29:F
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Treccani online
+# sent_id = cxn_29_example_3_1
+# text = è l'ennesimo tentativo che faccio
+1	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	CXN=29:A
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No|CXN=29:B
+3	ennesimo	ennesimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	4	amod	_	CXN=29:C
+4	tentativo	tentativo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	CXN=29:D
+5	che	che	PRON	PR	PronType=Rel	6	obj	_	CXN=29:E
+6	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No|CXN=29:F
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Italian Web 2016 (itTenTen16)
+# sent_id = cxn_29_example_4_1
+# text = è l'ennesima prova che Nortan amplia costantemente la propria gamma di prodotti
+1	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	CXN=29:A
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No|CXN=29:B
+3	ennesima	ennesimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	CXN=29:C
+4	prova	prova	NOUN	S	Gender=Fem|Number=Sing	0	root	_	CXN=29:D
+5	che	che	SCONJ	CS	_	7	obl	_	_
+6	Nortan	Nortan	PROPN	SP	_	7	nsubj	_	_
+7	amplia	ampliare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	CXN=29:F
+8	costantemente	costantemente	ADV	B	_	7	advmod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	gamma	gamma	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	CXN=29:E
+12	di	di	ADP	E	_	13	case	_	_
+13	prodotti	prodotto	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpacesAfter=_
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Italian Web 2016 (itTenTen16)
+# sent_id = cxn_29_example_5_1
+# text = è solamente l'ennesima rotazione ciclica dei mercati che nessuno può prevedere
+1	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	CXN=29:A
+2	solamente	solamente	ADV	B	_	5	advmod	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No|CXN=29:B
+4	ennesima	ennesimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	CXN=29:C
+5	rotazione	rotazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	CXN=29:D
+6	ciclica	ciclico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	mercati	mercato	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	13	obj	_	CXN=29:E
+11	nessuno	nessuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	nsubj	_	_
+12	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	prevedere	prevedere	VERB	V	VerbForm=Inf	5	acl:relcl	_	SpacesAfter=_|CXN=29:F
+

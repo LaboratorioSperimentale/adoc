@@ -2,5 +2,5 @@
 # cxn_name = quanto a N
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	quanto	quanto	ADV	ExtPos=ADP	C	case	_	_	_	_	_
-B	a	a	ADP	_	A	fixed	_	_	_	_	_
-C	_	_	NOUN	_	0	root	_	_	_	_	_
+B	a	a	ADP	_	A	fixed	_	A	_	_	_
+C	_	_	NOUN	_	0	root	_	B	_	_	_

@@ -1,0 +1,449 @@
+# sent_id = cxn_159
+# text = _ _
+# form = VERB _
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	_	_	_	_	_	1	xcomp	_	OrigID=B
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_159_example_1_1
+# text = Le parole di Maresca trovano orecchie attente nei circoli della politica americana
+# tags = DROP
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	SpacesBefore=\s
+2	parole	parola	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Maresca	Maresca	PROPN	SP	_	2	nmod	_	_
+5	trovano	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	orecchie	orecchia	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+7	attente	attento	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8-9	nei	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	circoli	circolo	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+11-12	della	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	politica	politica	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+14	americana	americano	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_159_example_2_1
+# text = Il testo non accenna all' ipotesi che Giuseppe ritenesse Maria innocente
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	testo	testo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	accenna	accennare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	all'	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	ipotesi	ipotesi	NOUN	S	Gender=Fem	4	obl	_	_
+8	che	che	SCONJ	CS	_	10	mark	_	_
+9	Giuseppe	Giuseppe	PROPN	SP	_	10	nsubj	_	_
+10	ritenesse	ritenere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl	_	CXN=159:A
+11	Maria	Maria	PROPN	SP	_	10	obj	_	_
+12	innocente	innocente	ADJ	A	Number=Sing	10	xcomp	_	SpaceAfter=No|CXN=159:B
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_159_example_3_1
+# text = parecchi uomini trovano JLO sexy
+1	parecchi	parecchio	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	trovano	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CXN=159:A
+4	JLO	JLO	PROPN	SP	_	3	obj	_	_
+5	sexy	sexy	ADJ	A	_	3	xcomp	_	SpaceAfter=No|CXN=159:B
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_159_example_4_1
+# text = Si considerano molluschi bivalvi (...) gli esemplari inferiori alle seguenti dimensioni:
+1	Si	si	PRON	PC	Person=3|PronType=Prs	2	expl	_	Clitic=Yes
+2	considerano	considerare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CXN=159:A
+3	molluschi	mollusco	NOUN	S	Gender=Masc|Number=Plur	2	xcomp	_	CXN=159:B
+4	bivalvi	bivalvo	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	SpacesAfter=_
+5	(	(	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	...	...	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	6	punct	_	_
+8	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	esemplari	esemplare	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+10	inferiori	inferiore	ADJ	A	Degree=Cmp|Number=Plur	9	amod	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	14	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	seguenti	seguente	ADJ	A	Number=Plur	14	amod	_	_
+14	dimensioni	dimensione	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	2	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = ItWac
+# sent_id = cxn_159_example_5_1
+# text = La maggioranza dei tifosi ritiene Ujfalusi superiore a Dainelli.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	maggioranza	maggioranza	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	tifosi	tifoso	NOUN	S	Gender=Masc|Number=Plur	2	nmod	_	_
+6	ritiene	ritenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CXN=159:A
+7	Ujfalusi	Ujfalusi	PROPN	SP	_	6	obj	_	_
+8	superiore	superiore	ADJ	A	Degree=Cmp|Number=Sing	6	xcomp	_	CXN=159:B
+9	a	a	ADP	E	_	10	case	_	_
+10	Dainelli	Dainelli	PROPN	SP	_	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itTenTen20 (Sketch Engine)
+# sent_id = cxn_172_example_1_1
+# text = Guardate come reagiscono al suo attacco...
+# tags = CONTEXT
+1	Guardate	guardare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	come	come	SCONJ	CS	_	3	advmod	_	_
+3	reagiscono	reagire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	attacco	attacco	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	...	...	PUNCT	FS	_	3	punct	_	_
+
+
+# source = itTenTen20 (Sketch Engine)
+# sent_id = cxn_172_example_1_2
+# text = se non sai ricevere l'ingratitudine.
+# tags = CONTEXT
+1	se	se	SCONJ	CS	_	3	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	sai	sapere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ricevere	ricevere	VERB	V	VerbForm=Inf	3	ccomp	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	ingratitudine	ingratitudine	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+
+# source = itTenTen20 (Sketch Engine)
+# sent_id = cxn_172_example_1_3
+# text = Questa frase me l'hanno detta oggi, la trovo bellissima e molto profonda non credete?
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	frase	frase	NOUN	S	Gender=Fem|Number=Sing	6	dislocated	_	_
+3	me	me	PRON	PC	Number=Sing|Person=1|PronType=Prs	6	iobj	_	Clitic=Yes
+4	l'	lo	PRON	PC	Number=Sing|Person=3|PronType=Prs	6	obj	_	Clitic=Yes|SpaceAfter=No
+5	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	detta	dire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	oggi	oggi	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	la	la	PRON	PC	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	Clitic=Yes
+10	trovo	trovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	CXN=159:A
+11	bellissima	bello	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	10	xcomp	_	CXN=159:B
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	molto	molto	ADV	B	_	14	advmod	_	_
+14	profonda	profondo	ADJ	A	Gender=Fem|Number=Sing	11	conj	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	credete	credere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	6	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = itTenTen20 (Sketch Engine)
+# sent_id = cxn_172_example_2_1
+# text = - No, non ho avuto un vero e proprio modello di riferimento, è una passione nata nel tempo osservando i diversi suonatori di battente nei concerti di piazza.
+# tags = CONTEXT
+1	No	no	INTJ	I	Polarity=Neg	5	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+7	vero	vero	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	proprio	proprio	ADJ	A	Gender=Masc|Number=Sing	7	conj	_	_
+10	modello	modello	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	passione	passione	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+17	nata	nascere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl	_	_
+18-19	nel	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+21	osservando	osservare	VERB	V	VerbForm=Ger	17	advcl	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+23	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	24	det	_	_
+24	suonatori	suonatore	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	battente	battente	NOUN	S	Number=Sing	24	nmod	_	_
+27-28	nei	_	_	_	_	_	_	_	_
+27	in	in	ADP	E	_	29	case	_	_
+28	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	_
+29	concerti	concerto	NOUN	S	Gender=Masc|Number=Plur	21	obl	_	_
+30	di	di	ADP	E	_	31	case	_	_
+31	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	29	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	5	punct	_	_
+
+
+# source = itTenTen20 (Sketch Engine)
+# sent_id = cxn_172_example_2_2
+# text = Hai trovato utile qualche testo, libro, pubblicazione, cd, ecc.?
+1	Hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	CXN=159:A
+3	utile	utile	ADJ	A	Number=Sing	2	xcomp	_	CXN=159:B
+4	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	testo	testo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	libro	libro	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	pubblicazione	pubblicazione	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	cd	cd	NOUN	S	Gender=Masc	5	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	ecc.	ecc.	ADV	_	_	5	conj	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	2	punct	_	_
+
+
+# source = itTenTen20 (Sketch Engine)
+# sent_id = cxn_172_example_2_3
+# text = Non mi sono mai imbattuta in libri che trattassero questo strumento.
+# tags = CONTEXT
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	5	expl	_	Clitic=Yes
+3	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	mai	mai	ADV	B	_	5	advmod	_	_
+5	imbattuta	imbattere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	libri	libro	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	trattassero	trattare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	acl:relcl	_	_
+10	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	strumento	strumento	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_172_example_3_1
+# text = Quella era la sua filosofia di vita:
+# tags = CONTEXT
+1	Quella	quello	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	5	nsubj	_	_
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	filosofia	filosofia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	vita	vita	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	:	:	PUNCT	FC	_	5	punct	_	_
+
+
+# source = CORIS
+# sent_id = cxn_172_example_3_2
+# text = caricava sempre perché ci provava con tutte, belle, brutte, grasse e magre.
+# tags = CONTEXT
+1	caricava	caricare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	sempre	sempre	ADV	B	_	1	advmod	_	_
+3	perché	perché	SCONJ	CS	_	5	mark	_	_
+4	ci	ci	PRON	PC	Number=Plur|Person=1|PronType=Prs	5	expl	_	Clitic=Yes
+5	provava	provare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	advcl	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	tutte	tutto	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	belle	bello	ADJ	A	Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	brutte	brutto	ADJ	A	Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	grasse	grasso	ADJ	A	Gender=Fem|Number=Plur	7	conj	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	magre	magro	ADJ	A	Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+
+# source = CORIS
+# sent_id = cxn_172_example_3_3
+# text = Guido non era a questi livelli, certo, ma trovava interessante la sua teoria e l'avrebbe messa in pratica quel sabato e domenica.
+1	Guido	Guido	PROPN	SP	_	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	livelli	livello	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	certo	certo	ADV	B	_	3	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	ma	ma	CCONJ	CC	_	11	cc	_	_
+11	trovava	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj	_	CXN=159:A
+12	interessante	interessante	ADJ	A	Number=Sing	11	xcomp	_	CXN=159:B
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	teoria	teoria	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	l'	lo	PRON	PC	Number=Sing|Person=3|PronType=Prs	19	obj	_	Clitic=Yes|SpaceAfter=No
+18	avrebbe	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	messa	mettere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	pratica	pratica	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+22	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	_
+23	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+24	e	e	CCONJ	CC	_	25	cc	_	_
+25	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	23	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_172_example_4_1
+# text = L'ho ringraziato ancora una volta e, osservandolo meglio, non ho potuto fare a meno di restare colpita dalla sua bellezza.
+# tags = CONTEXT
+1	L'	lo	PRON	PC	Number=Sing|Person=3|PronType=Prs	3	obj	_	Clitic=Yes|SpaceAfter=No
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	ringraziato	ringraziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	ancora	ancora	ADV	B	_	6	advmod	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	volta	volta	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	e	e	CCONJ	CC	_	16	cc	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9-10	osservandolo	_	_	_	_	_	_	_	_
+9	osservando	osservare	VERB	V	VerbForm=Ger	16	advcl	_	_
+10	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	Clitic=Yes
+11	meglio	meglio	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+14	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	aux	_	_
+16	fare	fare	VERB	V	VerbForm=Inf	3	conj	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	meno	meno	ADV	B	_	16	advmod	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	restare	restare	VERB	V	VerbForm=Inf	16	xcomp	_	_
+21	colpita	colpire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	20	xcomp	_	_
+22-23	dalla	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	25	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	bellezza	bellezza	NOUN	S	Gender=Fem|Number=Sing	21	obl:agent	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+
+# source = CORIS
+# sent_id = cxn_172_example_4_2
+# text = L'avresti trovato affascinante anche tu:
+1	L'	lo	PRON	PC	Number=Sing|Person=3|PronType=Prs	3	obj	_	Clitic=Yes|SpaceAfter=No
+2	avresti	avere	AUX	VA	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	CXN=159:A
+4	affascinante	affascinante	ADJ	A	Number=Sing	3	xcomp	_	CXN=159:B
+5	anche	anche	ADV	B	_	6	advmod	_	_
+6	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	3	punct	_	_
+
+
+# source = CORIS
+# sent_id = cxn_172_example_4_3
+# text = hai presente il tipo d' uomo con penetranti occhi verdi, naso importante e riccioli neri?
+# tags = CONTEXT
+1	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	presente	presente	ADJ	A	Number=Sing	1	xcomp	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+5	d'	di	ADP	E	_	6	case	_	_
+6	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	penetranti	penetrante	ADJ	A	Number=Plur	9	amod	_	_
+9	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	verdi	verde	ADJ	A	Number=Plur	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	12	punct	_	_
+12	naso	naso	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+13	importante	importante	ADJ	A	Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	riccioli	ricciolo	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+16	neri	nero	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS
+# sent_id = cxn_172_example_5_1
+# text = Nascere e morire erano cose standard, ora esistono più modi di far nascere e eventualmente scegliere di morire .
+# tags = CONTEXT
+1	Nascere	nascere	VERB	V	VerbForm=Inf	5	csubj	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	morire	morire	VERB	V	VerbForm=Inf	1	conj	_	_
+4	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+6	standard	standard	ADJ	A	Gender=Masc	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	ora	ora	ADV	B	_	9	advmod	_	_
+9	esistono	esistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+10	più	più	ADV	B	_	11	advmod	_	_
+11	modi	modo	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	far	fare	VERB	V	VerbForm=Inf	11	acl	_	_
+14	nascere	nascere	VERB	V	VerbForm=Inf	13	ccomp	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	eventualmente	eventualmente	ADV	B	_	17	advmod	_	_
+17	scegliere	scegliere	VERB	V	VerbForm=Inf	14	conj	_	_
+18	di	di	ADP	E	_	19	mark	_	_
+19	morire	morire	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+
+# source = CORIS
+# sent_id = cxn_172_example_5_2
+# text = Non do alla posizione sull'embrione il valore di verità assoluta, ma la trovo coerente con le tesi sull'autonomia degli individui.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	do	dare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	2	iobj	_	_
+6-7	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+6	su	su	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	embrione	embrione	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	valore	valore	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	verità	verità	NOUN	S	Gender=Fem	10	nmod	_	_
+13	assoluta	assoluto	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	17	punct	_	_
+15	ma	ma	CCONJ	CC	_	17	cc	_	_
+16	la	la	PRON	PC	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obj	_	Clitic=Yes
+17	trovo	trovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	CXN=159:A
+18	coerente	coerente	ADJ	A	Number=Sing	17	xcomp	_	CXN=159:B
+19	con	con	ADP	E	_	21	case	_	_
+20	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
+21	tesi	tesi	NOUN	S	Gender=Fem	18	obl	_	_
+22-23	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+22	su	su	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	autonomia	autonomia	NOUN	S	Gender=Fem|Number=Sing	21	nmod	_	_
+25-26	degli	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	individui	individuo	NOUN	S	Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+

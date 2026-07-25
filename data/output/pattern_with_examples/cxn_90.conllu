@@ -1,0 +1,69 @@
+# sent_id = cxn_90
+# text = aver ce la con _
+# form = aver ce la con _
+1	aver	_	VERB	_	_	0	root	_	OrigID=A
+2	ce	ce	PRON	_	_	1	expl	_	OrigID=B
+3	la	la	PRON	_	_	1	obj	_	OrigID=C
+4	con	con	ADP	_	_	5	case	_	OrigID=D
+5	_	_	_	_	_	1	obl	_	OrigID=E
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS [CORIS1980_2000]
+# sent_id = cxn_90_example_2_1
+# text = Potevo avercela la con Ugo per aver spezzato...
+# tags = 2CLITICS
+1	Potevo	potere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	SpacesAfter=\s\s
+2-3	avercela	_	_	_	_	_	_	_	_
+2	aver	aver	VERB	V	VerbForm=Inf	0	root	_	CXN=90:A
+3	ce	ce	PRON	PC	PronType=Prs	2	expl	_	Clitic=Yes|CXN=90:B
+4	la	la	PRON	PC	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	Clitic=Yes|CXN=90:C
+5	con	con	ADP	E	_	6	case	_	CXN=90:D
+6	Ugo	Ugo	PROPN	SP	_	2	obl	_	CXN=90:E
+7	per	per	ADP	E	_	9	mark	_	_
+8	aver	avere	AUX	VA	VerbForm=Inf	9	aux	_	_
+9	spezzato	spezzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	SpaceAfter=No
+10	...	...	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS [CORIS1980_2000]
+# sent_id = cxn_90_example_3_1
+# text = pur precisando di non aver ce la con il governo...
+# tags = 2CLITICS
+1	pur	pure	ADV	B	_	2	advmod	_	_
+2	precisando	precisare	VERB	V	VerbForm=Ger	0	root	_	_
+3	di	di	ADP	E	_	5	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	SpacesAfter=\s\s
+5-6	avercela	_	_	_	_	_	_	_	_
+5	aver	avere	VERB	V	VerbForm=Inf	2	xcomp	_	CXN=90:A
+6	ce	ce	PRON	PC	PronType=Prs	5	expl	_	Clitic=Yes|CXN=90:B
+7	la	la	PRON	PC	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	Clitic=Yes|CXN=90:C
+8	con	con	ADP	E	_	10	case	_	CXN=90:D
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	governo	governo	NOUN	S	_	5	obl	_	SpaceAfter=No|CXN=90:E
+11	...	...	PUNCT	FS	_	2	punct	_	_
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = CORIS [CORIS1980_2000]
+# sent_id = cxn_90_example_4_1
+# text = Non ho motivo di avercela la con lei...
+# tags = 2CLITICS
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	avercela	_	_	_	_	_	_	_	_
+5	aver	avere	VERB	V	VerbForm=Inf	3	acl	_	CXN=90:A
+6	ce	ce	PRON	PC	PronType=Prs	5	expl	_	Clitic=Yes|CXN=90:B
+7	la	la	PRON	PC	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	Clitic=Yes|CXN=90:C
+8	con	con	ADP	E	_	9	case	_	CXN=90:D
+9	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obl	_	SpaceAfter=No|CXN=90:E
+10	...	...	PUNCT	FS	_	2	punct	_	_
+

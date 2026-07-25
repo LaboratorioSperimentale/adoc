@@ -2,8 +2,8 @@
 # cxn_name = NP_subj V NP_obj a NP_compl cxn-machine-readable-formalization: | cxn_71.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	il	il	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	B	det	_	_	_	_	_
-B	_	_	NOUN	Number=Sing	C	nsubj	_	_	_	_	_
-C	_	_	VERB	_	0	root	_	_	_	_	_
-D	_	_	NOUN	_	C	obj	_	_	_	_	_
-E	a	a	ADP	_	F	case	_	_	_	_	_
+B	_	_	NOUN	Number=Sing	C	nsubj	_	A	_	_	_
+C	_	_	VERB	_	0	root	_	B	_	_	_
+D	_	_	NOUN	_	C	obj	_	C	_	_	_
+E	a	a	ADP	_	F	case	_	D	_	_	_
 F	_	_	NOUN	_	C	obl	_	_	_	_	_

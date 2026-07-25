@@ -2,5 +2,5 @@
 # cxn_name = Dative Construction cxn-machine-readable-formalization: | cxn_152.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	_	_	ADP	_	C	case	_	_	_	_	_
-B	_	il	DET	Definite=Def|PronType=Art	C	det	_	_	_	_	_
-C	_	_	_	_	0	root	_	_	_	_	_
+B	_	il	DET	Definite=Def|PronType=Art	C	det	_	A	_	_	_
+C	_	_	_	_	0	root	_	B	_	_	_

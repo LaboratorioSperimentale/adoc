@@ -1,0 +1,75 @@
+# sent_id = cxn_32
+# text = _ già
+# form = VERB già
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	già	già	ADV	_	_	1	advmod	_	OrigID=B
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Dalle risposte al form: https://docs.google.com/forms/d/1qCaY3q50Aoxaze0p0IAug1DG6d64yfSc5qVdbfXpkYI/edit?usp=sharing
+# sent_id = cxn_32_example_2_1
+# text = Cosa hai cucinato già per pranzo?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
+2	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	cucinato	cucinare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	CXN=32:A
+4	già	già	ADV	B	_	3	advmod	_	CXN=32:B
+5	per	per	ADP	E	_	6	case	_	_
+6	pranzo	pranzo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Dalle risposte al form: https://docs.google.com/forms/d/1qCaY3q50Aoxaze0p0IAug1DG6d64yfSc5qVdbfXpkYI/edit?usp=sharing
+# sent_id = cxn_32_example_3_1
+# text = Dov'era già che l'avevamo visto?
+1	Dov'	dove	ADV	B	_	2	advmod	_	SpaceAfter=No
+2	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	CXN=32:A
+3	già	già	ADV	B	_	2	advmod	_	CXN=32:B
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	l'	lo	PRON	PC	Number=Sing|Person=3|PronType=Prs	7	obj	_	Clitic=Yes|SpaceAfter=No
+6	avevamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Dalle risposte al form: https://docs.google.com/forms/d/1qCaY3q50Aoxaze0p0IAug1DG6d64yfSc5qVdbfXpkYI/edit?usp=sharing
+# sent_id = cxn_32_example_4_1
+# text = Com'è che si chiama già quel posto dove hai mangiato bene?
+1	Com'	come	ADV	B	_	2	advmod	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	si	si	PRON	PC	Person=3|PronType=Prs	5	expl	_	Clitic=Yes
+5	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	CXN=32:A
+6	già	già	ADV	B	_	5	advmod	_	CXN=32:B
+7	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	posto	posto	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+9	dove	dove	ADV	B	_	11	advmod	_	_
+10	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	mangiato	mangiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+12	bene	bene	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	2	punct	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = Dalle risposte al form: https://docs.google.com/forms/d/1qCaY3q50Aoxaze0p0IAug1DG6d64yfSc5qVdbfXpkYI/edit?usp=sharing
+# sent_id = cxn_32_example_5_1
+# text = Raga ma di cos'è che parlavamo ieri già?
+1	Raga	ragazzo	VERB	V	Gender=Fem|Number=Sing	5	vocative	_	_
+2	ma	ma	CCONJ	CC	_	5	cc	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	cos'	cosa	PRON	PQ	Number=Sing|PronType=Int	5	obl	_	SpaceAfter=No
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	7	mark	_	_
+7	parlavamo	parlare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	5	ccomp	_	CXN=32:A
+8	ieri	ieri	ADV	B	_	7	advmod	_	_
+9	già	già	ADV	B	_	7	advmod	_	SpaceAfter=No|CXN=32:B
+10	?	?	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+

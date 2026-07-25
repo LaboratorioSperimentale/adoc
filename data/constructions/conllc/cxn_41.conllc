@@ -2,5 +2,5 @@
 # cxn_name = Frase reggente + tanto vale + fraseEspl (che+ind/cong)/Impl (inf) cxn-machine-readable-formalization: | cxn_41.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	tanto	tanto	_	_	B	advmod	_	_	_	_	_
-B	vale	valere	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_	_	_	_
-C	_	_	VERB	_	B	ccomp	_	_	_	_	_
+B	vale	valere	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	A	_	_	_
+C	_	_	VERB	_	B	ccomp	_	B	_	_	_

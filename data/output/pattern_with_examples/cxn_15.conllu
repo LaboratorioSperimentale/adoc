@@ -1,0 +1,124 @@
+# sent_id = cxn_15
+# text = piove a _
+# form = piove a NOUN
+1	piove	piovere	VERB	_	_	0	root	_	OrigID=A
+2	a	a	ADP	_	_	3	case	_	OrigID=B
+3	_	_	NOUN	_	_	1	obl	_	OrigID=C
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=4853113&End=4853114
+# sent_id = cxn_15_example_1_1
+# text = In qualche modo ricorda Quebec City per il "vecchio" del centro ma piove a dirotto per cui mi limito ad un giretto in macchina e, quando smette ad una non lunga passeggiata nel quartiere dei ristoranti, mercato all’aperto e negozi
+1	In	in	ADP	E	_	3	case	_	_
+2	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	modo	modo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	ricorda	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Quebec	Quebec	PROPN	SP	_	4	obj	_	_
+6	City	City	PROPN	SP	_	5	flat:name	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	vecchio	vecchio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	centro	centro	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+15	ma	ma	CCONJ	CC	_	16	cc	_	_
+16	piove	piovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	CXN=15:A
+17	a	a	ADP	E	_	18	case	_	CXN=15:B
+18	dirotto	dirotto	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	CXN=15:C
+19	per	per	ADP	E	_	22	case	_	_
+20	cui	cui	PRON	PR	PronType=Rel	19	fixed	_	_
+21	mi	mi	PRON	PC	Number=Sing|Person=1|PronType=Prs	22	expl	_	Clitic=Yes
+22	limito	limitare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+23	ad	a	ADP	E	_	25	case	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	giretto	giretto	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+26	in	in	ADP	E	_	27	case	_	_
+27	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	25	nmod	_	_
+28	e	e	CCONJ	CC	_	36	cc	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	31	punct	_	_
+30	quando	quando	SCONJ	CS	_	31	mark	_	_
+31	smette	smettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	advcl	_	_
+32	ad	a	ADP	E	_	36	case	_	_
+33	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+34	non	non	ADV	BN	PronType=Neg	35	advmod	_	_
+35	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	36	amod	_	_
+36	passeggiata	passeggiata	NOUN	S	Gender=Fem|Number=Sing	25	conj	_	_
+37-38	nel	_	_	_	_	_	_	_	_
+37	in	in	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	quartiere	quartiere	NOUN	S	Gender=Masc|Number=Sing	36	nmod	_	_
+40-41	dei	_	_	_	_	_	_	_	_
+40	di	di	ADP	E	_	42	case	_	_
+41	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	42	det	_	_
+42	ristoranti	ristorante	NOUN	S	Gender=Masc|Number=Plur	39	nmod	_	SpaceAfter=No
+43	,	,	PUNCT	FF	_	44	punct	_	_
+44	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	39	conj	_	_
+45-46	all’	_	_	_	_	_	_	_	SpaceAfter=No
+45	a	a	ADP	E	_	47	case	_	_
+46	l’	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	47	det	_	SpaceAfter=No
+47	aperto	aperto	NOUN	S	Gender=Masc|Number=Sing	44	nmod	_	_
+48	e	e	CCONJ	CC	_	49	cc	_	_
+49	negozi	negozio	NOUN	S	Gender=Masc|Number=Plur	39	conj	_	SpaceAfter=No
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=153771509&End=153771510
+# sent_id = cxn_15_example_2_1
+# text = «Devo uscire di qui.» « Ma piove a catinelle »
+1	«	«	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	uscire	uscire	VERB	V	VerbForm=Inf	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	qui	qui	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+7	»	»	PUNCT	FB	_	3	punct	_	_
+8	«	«	PUNCT	FB	_	10	punct	_	_
+9	Ma	ma	CCONJ	CC	_	10	cc	_	_
+10	piove	piovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	CXN=15:A
+11	a	a	ADP	E	_	12	case	_	CXN=15:B
+12	catinelle	catinella	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	CXN=15:C
+13	»	»	PUNCT	FB	_	10	punct	_	_
+
+
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# source = http://corpora.ficlit.unibo.it/TCORIS/Context.php?Start=57218135&End=57218136
+# sent_id = cxn_15_example_3_1
+# text = Può lambire gli immensi ficus su cui il sole piove a cascate in piazza Marina e sentire l'odore del mare impregnare le pietre di tufo
+1	Può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	lambire	lambire	VERB	V	VerbForm=Inf	0	root	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	immensi	immenso	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+5	ficus	ficus	NOUN	S	Gender=Masc	2	obj	_	_
+6	su	su	ADP	E	_	7	case	_	_
+7	cui	cui	PRON	PR	PronType=Rel	10	obl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sole	sole	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+10	piove	piovere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	CXN=15:A
+11	a	a	ADP	E	_	12	case	_	CXN=15:B
+12	cascate	cascata	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	CXN=15:C
+13	in	in	ADP	E	_	14	case	_	_
+14	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+15	Marina	Marina	PROPN	SP	_	14	nmod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	sentire	sentire	VERB	V	VerbForm=Inf	2	conj	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
+19	odore	odore	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20-21	del	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	mare	mare	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	_
+23	impregnare	impregnare	VERB	V	VerbForm=Inf	17	xcomp	_	_
+24	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	25	det	_	_
+25	pietre	pietra	NOUN	S	Gender=Fem|Number=Plur	23	obj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	tufo	tufo	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+

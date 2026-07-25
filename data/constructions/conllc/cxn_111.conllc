@@ -3,4 +3,4 @@
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	_	_	PRON	PronType=Prs	C	expl	_	_	_	_	_
 B	la	la	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	C	obj	_	_	_	_	_
-C	_	vedere	VERB	_	0	root	_	_	_	_	_
+C	_	vedere	VERB	_	0	root	_	B	_	_	_

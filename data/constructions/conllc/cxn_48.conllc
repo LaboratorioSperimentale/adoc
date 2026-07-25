@@ -2,8 +2,8 @@
 # cxn_name = S spingere (O) a V cxn-machine-readable-formalization: | cxn_48.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	_	_	DET	_	B	det	_	_	_	_	_
-B	_	_	NOUN	_	D	nsubj	_	_	_	_	_
-C	_	avere	AUX	Mood=Ind|Person=3|VerbForm=Fin	D	aux	_	_	_	_	_
-D	spinto	spingere	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_	_	_	_
-E	a	a	ADP	_	F	mark	_	_	_	_	_
-F	_	_	VERB	VerbForm=Inf	D	xcomp	_	_	_	_	_
+B	_	_	NOUN	_	D	nsubj	_	A	_	_	_
+C	_	avere	AUX	Mood=Ind|Person=3|VerbForm=Fin	D	aux	_	B	_	_	_
+D	spinto	spingere	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	C	_	_	_
+E	a	a	ADP	_	F	mark	_	D	_	_	_
+F	_	_	VERB	VerbForm=Inf	D	xcomp	_	E	_	_	_
