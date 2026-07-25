@@ -40,13 +40,12 @@
 5	_	_	ADV	_	_	4	advmod	_	OrigID=E|LinearOrder=Variable
 
 # sent_id = cxn_104
-# text = non _ fare a meno
-# form = non potere fare a meno
-1	non	non	ADV	_	_	3	advmod	_	OrigID=A
-2	_	potere	AUX	_	_	3	aux	_	OrigID=B
-3	fare	fare	VERB	_	_	0	root	_	OrigID=C
-4	a	a	ADP	_	_	5	case	_	OrigID=D
-5	meno	meno	ADV	_	_	3	advmod	_	OrigID=E
+# text = _ fare a meno
+# form = potere fare a meno
+1	_	potere	AUX	_	_	2	aux	_	OrigID=A
+2	fare	fare	VERB	_	_	0	root	_	OrigID=B
+3	a	a	ADP	_	_	4	case	_	OrigID=C
+4	meno	meno	ADV	_	_	2	advmod	_	OrigID=D
 
 # sent_id = cxn_105
 # text = _ per _
@@ -106,19 +105,18 @@
 3	_	vedere	VERB	_	_	0	root	_	OrigID=C
 
 # sent_id = cxn_113
-# text = _ _ dopo _
-# form = VERB NOUN dopo NOUN
-1	_	_	VERB	_	_	0	root	_	OrigID=A
-2	_	_	NOUN	_	_	1	obl	_	OrigID=B|LinearOrder=Variable
-3	dopo	dopo	ADP	_	_	4	case	_	OrigID=C
-4	_	_	NOUN	_	_	2	nmod	_	OrigID=D
+# text = _ dopo _
+# form = NOUN dopo NOUN
+1	_	_	NOUN	_	_	0	root	_	OrigID=A
+2	dopo	dopo	ADP	_	_	3	case	_	OrigID=B
+3	_	_	NOUN	_	_	1	nmod	_	OrigID=C
 
 # sent_id = cxn_114
-# text = _ per _
-# form = NOUN per NOUN
+# text = _ _ _
+# form = NOUN ADP _
 1	_	_	NOUN	_	_	0	root	_	OrigID=A
-2	per	per	ADP	_	_	3	case	_	OrigID=B
-3	_	_	NOUN	_	_	1	nmod	_	OrigID=C
+2	_	_	ADP	_	_	3	case	_	OrigID=B
+3	_	_	_	_	_	1	nmod	_	OrigID=C
 
 # sent_id = cxn_117
 # text = il _ di i _
@@ -196,11 +194,6 @@
 2	_	_	VERB	_	_	1	acl:relcl	_	OrigID=B
 3	_	_	_	_	_	0	root	_	OrigID=C
 
-# sent_id = cxn_127
-# text = _
-# form = _
-1	_	_	_	_	_	0	root	_	OrigID=A
-
 # sent_id = cxn_129
 # text = che non _
 # form = che non VERB
@@ -243,13 +236,6 @@
 # form = un botto
 1	un	uno	DET	_	_	2	det	_	OrigID=A
 2	botto	botto	NOUN	_	_	0	root	_	OrigID=B
-
-# sent_id = cxn_135
-# text = _ _ _
-# form = DET NOUN _
-1	_	_	DET	_	_	2	det	_	OrigID=A
-2	_	_	NOUN	_	_	0	root	_	OrigID=B
-3	_	_	_	_	_	2	acl:relcl	_	OrigID=C
 
 # sent_id = cxn_136
 # text = alzare _ _
@@ -332,6 +318,34 @@
 7	con	con	ADP	_	_	8	case	_	OrigID=G
 8	_	_	_	_	_	6	obl	_	OrigID=H
 
+# sent_id = cxn_145
+# text = _ _ _
+# form = VERB il NOUN
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	_	il	DET	_	_	3	det	_	OrigID=B
+3	_	_	NOUN	_	_	1	obj	_	OrigID=C
+
+# sent_id = cxn_146
+# text = _ _ _ _
+# form = NOUN ADP il NOUN
+1	_	_	NOUN	_	_	0	root	_	OrigID=A
+2	_	_	ADP	_	_	4	case	_	OrigID=B
+3	_	il	DET	_	_	4	det	_	OrigID=C
+4	_	_	NOUN	_	_	1	nmod	_	OrigID=D|LinearOrder=Variable
+
+# sent_id = cxn_147
+# text = _ _
+# form = il NOUN
+1	_	il	DET	_	_	2	det	_	OrigID=A
+2	_	_	NOUN	_	_	0	root	_	OrigID=B
+
+# sent_id = cxn_148
+# text = _ _ _
+# form = ADP _ VERB
+1	_	_	ADP	_	_	2	case	_	OrigID=A
+2	_	_	_	_	_	3	obl	_	OrigID=B|LinearOrder=Variable
+3	_	_	VERB	_	_	0	root	_	OrigID=C
+
 # sent_id = cxn_149
 # text = _ _ _
 # form = VERB NOUN ADJ
@@ -348,16 +362,15 @@
 
 # sent_id = cxn_150
 # text = _ _
-# form = VERB _
-1	_	_	VERB	_	_	0	root	_	OrigID=A
-2	_	_	_	_	_	1	obj	_	OrigID=B|LinearOrder=Variable
+# form = ADP _
+1	_	_	ADP	_	_	2	case	_	OrigID=A
+2	_	_	_	_	_	0	root	_	OrigID=B
 
 # sent_id = cxn_151
-# text = _ via _
-# form = VERB via _
-1	_	_	VERB	_	_	0	root	_	OrigID=A
-2	via	via	ADV	_	_	1	advmod	_	OrigID=B
-3	_	_	_	_	_	1	obj	_	OrigID=C
+# text = _ _
+# form = ADP NOUN
+1	_	_	ADP	_	_	2	case	_	OrigID=A
+2	_	_	NOUN	_	_	0	root	_	OrigID=B
 
 # sent_id = cxn_152
 # text = _ _ _
@@ -387,10 +400,9 @@
 2	_	_	_	_	_	0	root	_	OrigID=B
 
 # sent_id = cxn_156
-# text = _ _
-# form = toccare VERB
-1	_	toccare	VERB	_	_	0	root	_	OrigID=A
-2	_	_	VERB	_	_	1	xcomp	_	OrigID=B
+# text = _
+# form = VERB
+1	_	_	VERB	_	_	0	root	_	OrigID=A
 
 # sent_id = cxn_157
 # text = _ _
@@ -405,11 +417,10 @@
 2	_	_	VERB	_	_	0	root	_	OrigID=B
 
 # sent_id = cxn_159
-# text = _ _ _
-# form = _ VERB _
-1	_	_	_	_	_	2	nsubj	_	OrigID=A|LinearOrder=Variable
-2	_	_	VERB	_	_	0	root	_	OrigID=B
-3	_	_	_	_	_	2	xcomp	_	OrigID=C
+# text = _ _
+# form = VERB _
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	_	_	_	_	_	1	xcomp	_	OrigID=B
 
 # sent_id = cxn_16
 # text = _ in men che non si dica
@@ -428,15 +439,28 @@
 1	_	il	DET	_	_	2	det	_	OrigID=A
 2	_	_	NOUN	_	_	0	root	_	OrigID=B
 
-# sent_id = cxn_161
-# text = _ _ _ _ _ _
-# form = VERB DET NOUN _ VERB NOUN
-1	_	_	VERB	_	_	0	root	_	OrigID=A
-2	_	_	DET	_	_	3	det	_	OrigID=B
-3	_	_	NOUN	_	_	1	obj	_	OrigID=C
-4	_	_	_	_	_	1	obl	_	OrigID=D
-5	_	_	VERB	_	_	1	advcl	_	OrigID=E
-6	_	_	NOUN	_	_	5	obj	_	OrigID=F
+# sent_id = cxn_165
+# text = _ _ _ il _
+# form = DET NOUN ADP il NOUN
+1	_	_	DET	_	_	2	det	_	OrigID=A
+2	_	_	NOUN	_	_	0	root	_	OrigID=B
+3	_	_	ADP	_	_	5	case	_	OrigID=C
+4	il	il	DET	_	_	5	det	_	OrigID=D
+5	_	_	NOUN	_	_	2	nmod	_	OrigID=E
+
+# sent_id = cxn_167
+# text = viene fuori che _
+# form = viene fuori che _
+1	viene	venire	VERB	_	_	0	root	_	OrigID=A
+2	fuori	fuori	ADV	_	_	1	advmod	_	OrigID=B
+3	che	che	SCONJ	_	_	4	mark	_	OrigID=C
+4	_	_	_	_	_	1	ccomp	_	OrigID=D
+
+# sent_id = cxn_169
+# text = _ _
+# form = _ ADJ
+1	_	_	_	_	_	0	root	_	OrigID=A
+2	_	_	ADJ	_	_	1	amod	_	OrigID=B|LinearOrder=Variable
 
 # sent_id = cxn_17
 # text = prima o poi _
@@ -446,18 +470,19 @@
 3	poi	poi	ADV	_	_	1	conj	_	OrigID=C
 4	_	_	_	_	_	0	root	_	OrigID=D
 
+# sent_id = cxn_170
+# text = _ _ _ _
+# form = ADP il ADJ NOUN
+1	_	_	ADP	_	_	4	case	_	OrigID=A
+2	_	il	DET	_	_	4	det	_	OrigID=B
+3	_	_	ADJ	_	_	4	amod	_	OrigID=C|LinearOrder=Variable
+4	_	_	NOUN	_	_	0	root	_	OrigID=D
+
 # sent_id = cxn_171
 # text = _ _
 # form = _ _
 1	_	_	_	_	_	0	root	_	OrigID=A
 2	_	_	_	_	_	1	conj	_	OrigID=B
-
-# sent_id = cxn_172
-# text = _ _ _
-# form = _ trovare ADJ
-1	_	_	_	_	_	2	obj	_	OrigID=A|LinearOrder=Variable
-2	_	trovare	VERB	_	_	0	root	_	OrigID=B
-3	_	_	ADJ	_	_	2	xcomp	_	OrigID=C
 
 # sent_id = cxn_173
 # text = _ di _
@@ -489,11 +514,9 @@
 3	_	_	_	_	_	2	xcomp	_	OrigID=C
 
 # sent_id = cxn_178
-# text = _ che _
-# form = _ che _
-1	_	_	_	_	_	0	root	_	OrigID=A
-2	che	che	CCONJ	_	_	3	cc	_	OrigID=B
-3	_	_	_	_	_	1	conj	_	OrigID=C
+# text = meglio
+# form = meglio
+1	meglio	meglio	ADV	_	_	0	root	_	OrigID=A
 
 # sent_id = cxn_179
 # text = di il _
@@ -518,6 +541,52 @@
 2	io	io	PRON	_	_	0	root	_	OrigID=B
 3	che	che	PRON	_	_	4	nsubj	_	OrigID=C
 4	_	_	VERB	_	_	2	acl:relcl	_	OrigID=D
+
+# sent_id = cxn_182
+# text = _ da _
+# form = NOUN da NOUN
+1	_	_	NOUN	_	_	0	root	_	OrigID=A
+2	da	da	ADP	_	_	3	case	_	OrigID=B
+3	_	_	NOUN	_	_	1	nmod	_	OrigID=C
+
+# sent_id = cxn_183
+# text = sia _
+# form = sia _
+1	sia	sia	CCONJ	_	_	2	cc	_	OrigID=A|LinearOrder=Variable
+2	_	_	_	_	_	0	root	_	OrigID=B
+
+# sent_id = cxn_185
+# text = _ _ con _ _ _
+# form = _ VERB con DET NOUN _
+1	_	_	_	_	_	0	root	_	OrigID=A
+2	_	_	VERB	_	_	1	conj	_	OrigID=B
+3	con	con	ADP	_	_	5	case	_	OrigID=C
+4	_	_	DET	_	_	5	det	_	OrigID=D
+5	_	_	NOUN	_	_	2	obl	_	OrigID=E
+6	_	_	_	_	_	1	advcl	_	OrigID=F
+
+# sent_id = cxn_186
+# text = _ di un _
+# form = VERB di un NOUN
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	di	di	ADP	_	_	4	case	_	OrigID=B
+3	un	uno	DET	_	_	4	det	_	OrigID=C
+4	_	_	NOUN	_	_	1	obl	_	OrigID=D
+
+# sent_id = cxn_188
+# text = e _ _ _
+# form = e VERB _ _
+1	e	e	CCONJ	_	_	2	cc	_	OrigID=A
+2	_	_	VERB	_	_	0	root	_	OrigID=B
+3	_	_	_	_	_	4	mark	_	OrigID=C
+4	_	_	_	_	_	2	ccomp	_	OrigID=D
+
+# sent_id = cxn_189
+# text = quanto a _
+# form = quanto a NOUN
+1	quanto	quanto	ADV	_	_	3	case	_	OrigID=A
+2	a	a	ADP	_	_	1	fixed	_	OrigID=B
+3	_	_	NOUN	_	_	0	root	_	OrigID=C
 
 # sent_id = cxn_19
 # text = _ far _ a _
@@ -885,6 +954,12 @@
 2	anche	anche	ADV	_	_	3	advmod	_	OrigID=B
 3	_	_	_	_	_	0	root	_	OrigID=C
 
+# sent_id = cxn_63
+# text = _ _
+# form = DET _
+1	_	_	DET	_	_	2	det	_	OrigID=A
+2	_	_	_	_	_	0	root	_	OrigID=B
+
 # sent_id = cxn_64
 # text = non è _ ma è _
 # form = non è _ ma è _
@@ -943,6 +1018,23 @@
 1	_	prendere	VERB	_	_	0	root	_	OrigID=A
 2	e	e	CCONJ	_	_	3	cc	_	OrigID=B
 3	_	_	VERB	_	_	1	conj	_	OrigID=C
+
+# sent_id = cxn_70
+# text = _ _ _
+# form = ADP DET NOUN
+1	_	_	ADP	_	_	3	case	_	OrigID=A
+2	_	_	DET	_	_	3	det	_	OrigID=B
+3	_	_	NOUN	_	_	0	root	_	OrigID=C
+
+# sent_id = cxn_71
+# text = il _ _ _ a _
+# form = il NOUN VERB NOUN a NOUN
+1	il	il	DET	_	_	2	det	_	OrigID=A
+2	_	_	NOUN	_	_	3	nsubj	_	OrigID=B
+3	_	_	VERB	_	_	0	root	_	OrigID=C
+4	_	_	NOUN	_	_	3	obj	_	OrigID=D
+5	a	a	ADP	_	_	6	case	_	OrigID=E
+6	_	_	NOUN	_	_	3	obl	_	OrigID=F|LinearOrder=Variable
 
 # sent_id = cxn_72
 # text = _ _ è _
@@ -1006,10 +1098,10 @@
 6	_	_	_	_	_	4	obl	_	OrigID=F
 
 # sent_id = cxn_80
-# text = su _
-# form = su NOUN
-1	su	su	ADP	_	_	2	case	_	OrigID=A
-2	_	_	NOUN	_	_	0	root	_	OrigID=B
+# text = _ _
+# form = VERB _
+1	_	_	VERB	_	_	0	root	_	OrigID=A
+2	_	_	_	_	_	1	obj	_	OrigID=B
 
 # sent_id = cxn_81
 # text = battere un colpo
@@ -1056,16 +1148,24 @@
 7	_	_	_	_	_	0	root	_	OrigID=G
 
 # sent_id = cxn_88
-# text = _ _
-# form = _ VERB
-1	_	_	_	_	_	2	mark	_	OrigID=A
-2	_	_	VERB	_	_	0	root	_	OrigID=B
+# text = _ per _ _
+# form = prendere per il NOUN
+1	_	prendere	VERB	_	_	0	root	_	OrigID=A
+2	per	per	ADP	_	_	4	case	_	OrigID=B
+3	_	il	DET	_	_	4	det	_	OrigID=C
+4	_	_	NOUN	_	_	1	obl	_	OrigID=D
 
 # sent_id = cxn_89
 # text = non fa
 # form = non fa
 1	non	non	ADV	_	_	2	advmod	_	OrigID=A
 2	fa	fare	VERB	_	_	0	root	_	OrigID=B
+
+# sent_id = cxn_9
+# text = _ _
+# form = ADJ _
+1	_	_	ADJ	_	_	2	amod	_	OrigID=A
+2	_	_	_	_	_	0	root	_	OrigID=B
 
 # sent_id = cxn_90
 # text = aver ce la con _

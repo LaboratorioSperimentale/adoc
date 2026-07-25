@@ -1,9 +1,6 @@
-# cxn_id = 182
-# name = discontinuous reduplication Ni da Ni
-# function = 
-# horizontal_links = 113 114
-# vertical_links =
-# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY
-A	_	_	NOUN	Number=Sing	0	root:obl	1	_	_	_	_	UD.FORM=C
-B	da	da	ADP	_	C	case	1	_	_	_	A	_
-C	_	_	NOUN	Number=Sing	A	nmod	1	_	_	_	B	UD.FORM=A
+# cxn_id = cxn_182
+# cxn_name = N da N
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	NOUN	_	0	root	_
+B	da	da	ADP	_	C	case	_
+C	_	_	NOUN	Number=Sing	A	nmod	_

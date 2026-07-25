@@ -1,0 +1,5 @@
+# cxn_id = cxn_169
+# cxn_name = semiADJ cxn-machine-readable-formalization: | cxn_169.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	_	_	0	root	_
+B	_	_	ADJ	_	A	amod	LinearOrder=Variable

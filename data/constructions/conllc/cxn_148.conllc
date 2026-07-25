@@ -1,0 +1,6 @@
+# cxn_id = cxn_148
+# cxn_name = VV compounds cxn-machine-readable-formalization: | cxn_148.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	ADP	_	B	case	_
+B	_	_	_	Number=Plur	C	obl	LinearOrder=Variable
+C	_	_	VERB	Number=Plur	0	root	_

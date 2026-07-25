@@ -1,4 +1,4 @@
 # cxn_id = cxn_84
 # cxn_name = Costruzione enfatica con il doppio "che" cxn-machine-readable-formalization: | cxn_84.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	_	_	Number=Sing	0	root	_
+A	_	_	_	_	0	root	_

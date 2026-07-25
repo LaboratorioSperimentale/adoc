@@ -1,5 +1,5 @@
 # cxn_id = cxn_87
-# cxn_name = anna ciarlantini cxn-machine-readable-formalization: | cxn_87.conllc
+# cxn_name = visto che X cxn-machine-readable-formalization: | cxn_87.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
 A	visto	vedere	VERB	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	G	advcl	_
 B	che	che	SCONJ	_	E	mark	_

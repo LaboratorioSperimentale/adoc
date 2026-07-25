@@ -1,0 +1,8 @@
+# cxn_id = cxn_165
+# cxn_name = stile (indexical manner) cxn-machine-readable-formalization: | cxn_165.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	DET	_	B	det	_
+B	_	_	NOUN	_	0	root	_
+C	_	_	ADP	_	E	case	_
+D	il	il	DET	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	E	det	_
+E	_	_	NOUN	Gender=Masc	B	nmod	_

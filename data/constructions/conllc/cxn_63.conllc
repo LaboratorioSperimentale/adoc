@@ -1,0 +1,5 @@
+# cxn_id = cxn_63
+# cxn_name = [stra-AGG] cxn-machine-readable-formalization: | cxn_63.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	DET	_	B	det	_
+B	_	_	_	_	0	root	_

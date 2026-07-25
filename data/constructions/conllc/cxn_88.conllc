@@ -1,5 +1,7 @@
 # cxn_id = cxn_88
 # cxn_name = prendere per" construction cxn-machine-readable-formalization: | cxn_88.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
-A	_	_	_	_	B	mark	_
-B	_	_	VERB	_	0	root	_
+A	_	prendere	VERB	VerbForm=Inf	0	root	_
+B	per	per	ADP	_	D	case	_
+C	_	il	DET	Definite=Def|Gender=Masc|PronType=Art	D	det	_
+D	_	_	NOUN	Gender=Masc	A	obl	_

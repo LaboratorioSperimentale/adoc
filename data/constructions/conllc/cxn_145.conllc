@@ -1,0 +1,6 @@
+# cxn_id = cxn_145
+# cxn_name = NN subordinative compounds capo-X cxn-machine-readable-formalization: | cxn_145.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	VERB	VerbForm=Inf	0	root	_
+B	_	il	DET	Definite=Def|PronType=Art	C	det	_
+C	_	_	NOUN	_	A	obj	_

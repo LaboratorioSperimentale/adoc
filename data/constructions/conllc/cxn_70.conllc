@@ -1,0 +1,6 @@
+# cxn_id = cxn_70
+# cxn_name = Endocentric left-headed compounds cxn-machine-readable-formalization: | cxn_70.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	ADP	_	C	case	_
+B	_	_	DET	Number=Sing|PronType=Art	C	det	_
+C	_	_	NOUN	Number=Sing	0	root	_

@@ -1,10 +1,9 @@
-# cxn_id = 185
-# name = WITH-pattern Cognate Construction
-# function = act the event of ref:D, where ref:D is morphologically or semantically related to ref:B
-# horizontal_links = 149 151
-# vertical_links =
-# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY
-A	_	_	NOUN,PROPN,PRON	Animacy=Anim	B	nsubj	0	_	_	Affector	_	_
-B	_	_	VERB	_	0	root	1	CHILDREN:DEPREL=obj	_	_	_	SEMFIELD=D
-C	con	con	ADP	_	D	case	1	_	_	_	_	_
-D	_	_	NOUN	_	B	obl	1	_	_	Undergoer	_	SEMFIELD=B
+# cxn_id = cxn_185
+# cxn_name = WITH-pattern Cognate Object Construction
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	_	_	0	root	_
+B	_	_	VERB	Mood=Ind|Person=3|VerbForm=Fin	A	conj	_
+C	con	con	ADP	_	E	case	_
+D	_	_	DET	Gender=Masc|Number=Sing|PronType=Art	E	det	_
+E	_	_	NOUN	Gender=Masc|Number=Sing	B	obl	_
+F	_	_	_	Number=Sing	A	advcl	_

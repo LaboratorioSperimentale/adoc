@@ -1,0 +1,5 @@
+# cxn_id = cxn_9
+# cxn_name = SIMIL- construction cxn-machine-readable-formalization: | cxn_9.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	ADJ	Number=Sing	B	amod	_
+B	_	_	_	_	0	root	_

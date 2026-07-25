@@ -1,9 +1,6 @@
-# cxn_id = 189							
-# name = quanto a NOUN								
-# function = ref:D aboutness								
-# horizontal_links =								
-# vertical_links =								
-# fields = ID UD.FORM LEMMA UPOS FEATS HEAD DEPREL REQUIRED WITHOUT SEM_FEATS SEM_ROLES ADJACENCY IDENTITY								
-A	quanto	quanto	ADV	_	C	case	1	_	_	_	_	_
-B	a	a	ADP	_	C	case	1	_	_	_	_	_
-C	_	_	NOUN,PROPN	_	0	root:obl	1	_	_	_	_	_	
+# cxn_id = cxn_189
+# cxn_name = quanto a N
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	quanto	quanto	ADV	ExtPos=ADP	C	case	_
+B	a	a	ADP	_	A	fixed	_
+C	_	_	NOUN	_	0	root	_
