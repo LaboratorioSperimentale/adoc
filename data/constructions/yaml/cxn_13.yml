@@ -8,40 +8,40 @@ cxn-machine-readable-formalization: |
   cxn_13.conllc
 
 form: |
-	-  più che mai + Adj Variante: più + Adj + che mai
-	-  Una parte della costruzione è fissa e non funzionerebbe se
+  -  più che mai + Adj Variante: più + Adj + che mai
+  -  Una parte della costruzione è fissa e non funzionerebbe se
   l'ordine dei costituenti fosse diverso.
 
 function: |
-	-  Funzione avverbiale: accresce il significato dell'aggettivo
+  -  Funzione avverbiale: accresce il significato dell'aggettivo
   posto all'interno della costruzione
-	-
-	-
+  -
+  -
 
 restrictions: |
-	-
-	-  L'elemento che si inserisce nella costruzione - e che viene
+  -
+  -  L'elemento che si inserisce nella costruzione - e che viene
   quindi modificato - è sempre un aggettivo.
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	- intensification
+  - intensification
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -53,15 +53,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_13_example_1.txt
-	- cxn_13_example_2.txt
-	- cxn_13_example_3.txt
-	- cxn_13_example_4.txt
-	- cxn_13_example_5.txt
+  - cxn_13_example_1.txt
+  - cxn_13_example_2.txt
+  - cxn_13_example_3.txt
+  - cxn_13_example_4.txt
+  - cxn_13_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

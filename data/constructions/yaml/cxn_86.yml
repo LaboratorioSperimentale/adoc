@@ -8,43 +8,43 @@ cxn-machine-readable-formalization: |
   cxn_86.conllc
 
 form: |
-	-  V1 (motion) + PREP (a) + V2
-	-
+  -  V1 (motion) + PREP (a) + V2
+  -
 
 function: |
-	-  pragmatic
-	-  it expresses the simultaneity of two events, one of which of
+  -  pragmatic
+  -  it expresses the simultaneity of two events, one of which of
   motion
-	-
+  -
 
 restrictions: |
-	-  V1 is a motion verb, V2 is an infinitive
-	-
+  -  V1 is a motion verb, V2 is an infinitive
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Average
 
 formal-tags: 
-	- lexically-open
-	- Preposition-a
+  - lexically-open
+  - Preposition-a
 
 functional-tags: 
-	- action >> cc:inf:active-referent
-	- modalità-dell'azione
-	- durativity >> cc:sem:durativity
-	- imperfective-aspect
+  - action >> cc:inf:active-referent
+  - modalità-dell'azione
+  - durativity >> cc:sem:durativity
+  - imperfective-aspect
 
 complexity-level-tags: |
-	-  Clause
-	-
+  -  Clause
+  -
 
 category-tags: |
-	-  Verb, Preposition
-	-
+  -  Verb, Preposition
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -56,15 +56,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_86_example_1.txt
-	- cxn_86_example_2.txt
-	- cxn_86_example_3.txt
-	- cxn_86_example_4.txt
-	- cxn_86_example_5.txt
+  - cxn_86_example_1.txt
+  - cxn_86_example_2.txt
+  - cxn_86_example_3.txt
+  - cxn_86_example_4.txt
+  - cxn_86_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

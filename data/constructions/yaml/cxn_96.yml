@@ -8,41 +8,41 @@ cxn-machine-readable-formalization: |
   cxn_96.conllc
 
 form: |
-	-  V a fagiolo 
-	-
+  -  V a fagiolo 
+  -
 
 function: |
-	-  pragmatica
-	-  an unforeseen situation happens in an ideal moment; a person
+  -  pragmatica
+  -  an unforeseen situation happens in an ideal moment; a person
   arrives at the right time; an object  is in our hands just
   when we need it
-	-
+  -
 
 restrictions: |
-	-  andare, cadere capitare, cascare a fagiolo
-	-
+  -  andare, cadere capitare, cascare a fagiolo
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Average
 
 formal-tags: 
-	- modality
-	- Preposition-a
+  - modality
+  - Preposition-a
 
 functional-tags: 
-	- intensification
+  - intensification
 
 complexity-level-tags: |
-	-  Clause
-	-
+  -  Clause
+  -
 
 category-tags: |
-	-  Noun, Verb, Preposition
-	-
+  -  Noun, Verb, Preposition
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -54,13 +54,13 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_96_example_1.txt
-	- cxn_96_example_2.txt
-	- cxn_96_example_3.txt
+  - cxn_96_example_1.txt
+  - cxn_96_example_2.txt
+  - cxn_96_example_3.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

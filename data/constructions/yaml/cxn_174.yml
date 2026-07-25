@@ -8,44 +8,44 @@ cxn-machine-readable-formalization: |
   cxn_174.conllc
 
 form: |
-	-  più X che Y
-	-
+  -  più X che Y
+  -
 
 function: |
-	-  X è prominente rispetto a Y
-	-  La costruzione comparativa assimetrica crea una comparazione
+  -  X è prominente rispetto a Y
+  -  La costruzione comparativa assimetrica crea una comparazione
   tra due elementi in cui il primo è predominante rispetto al
   secondo ma non in maniera totalmente contrastiva. Porta con
   sé un giudizio soggettivo su qualcosa.
-	-
+  -
 
 restrictions: |
-	-  X e Y devono essere semanticamente affini o comparabili. *È
+  -  X e Y devono essere semanticamente affini o comparabili. *È
   più triangolare che verde
-	-
+  -
 
 coll-preferences: |
-	-  X e Y = tendenzialmente A o N (più raro Adv e molto
+  -  X e Y = tendenzialmente A o N (più raro Adv e molto
   marginale V). Spesso preceduto una da forma di ESSERE
-	-
+  -
 
 usage: |
   Standard
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	- comparazione
-	- prominenza
+  - comparazione
+  - prominenza
 
 complexity-level-tags: |
-	-  Phrase
-	-
+  -  Phrase
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -57,15 +57,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_174_example_1.txt
-	- cxn_174_example_2.txt
-	- cxn_174_example_3.txt
-	- cxn_174_example_4.txt
+  - cxn_174_example_1.txt
+  - cxn_174_example_2.txt
+  - cxn_174_example_3.txt
+  - cxn_174_example_4.txt
 
 note: |
-	-  Le strutture riempite con X e Y = Adv sembrano essere più
+  -  Le strutture riempite con X e Y = Adv sembrano essere più
   lessicalmente piene (es. più Adv che non)
-	-  USAGE:
+  -  USAGE:
 
 references: |
 

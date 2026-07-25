@@ -1,9 +1,0 @@
-pattern {
-  A [upos=ADP];
-  B [lemma="mettere", upos=VERB, form=/mettere/i, VerbForm=Inf];
-  C [lemma="su", upos=ADP, form=/su/i];
-  D [upos=NOUN];
-  B -[case]-> A;
-  B -[advmod]-> C;
-  B -[obj]-> D;
-}

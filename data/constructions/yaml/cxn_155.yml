@@ -8,41 +8,41 @@ cxn-machine-readable-formalization: |
   cxn_155.conllc
 
 form: |
-	-  N + V + {che}clause
-	-
+  -  N + V + {che}clause
+  -
 
 function: |
-	-  La costruzione profila eventi di dire, chiedere, narrare,
+  -  La costruzione profila eventi di dire, chiedere, narrare,
   etc. in cui alla principale segue una subordinata esplicita
   introdotta da che e seguita da un verbo in forma finita
-	-
-	-
+  -
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Frequent
 
 formal-tags: 
-	- argument-structure-construction >> cc:cxn:clause
-	- explicit-construction
+  - argument-structure-construction >> cc:cxn:clause
+  - explicit-construction
 
 functional-tags: 
-	- verbs-of-saying
+  - verbs-of-saying
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -55,15 +55,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_155_example_1.txt
-	- cxn_155_example_2.txt
-	- cxn_155_example_3.txt
-	- cxn_155_example_4.txt
-	- cxn_155_example_5.txt
+  - cxn_155_example_1.txt
+  - cxn_155_example_2.txt
+  - cxn_155_example_3.txt
+  - cxn_155_example_4.txt
+  - cxn_155_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

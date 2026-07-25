@@ -9,26 +9,26 @@ cxn-machine-readable-formalization: |
   cxn_67.conllc
 
 form: |
-	-  me l- chiam- X? Formal variants: (e) (tu) quest-/quell- me
+  -  me l- chiam- X? Formal variants: (e) (tu) quest-/quell- me
   l- chiam- X? (e) (tu) me l- chiam- X quest-/quell-?
-	-
+  -
 
 function: |
-	-  it is not true that (supposed)X can be defined as X
+  -  it is not true that (supposed)X can be defined as X
   (supposed)X is not a real/good example of X
-	-
-	-  The function of the construction is not predictable from its
+  -
+  -  The function of the construction is not predictable from its
   parts. This construction is used to indicate that someone's
   judgement on X is wrong (epistemic value challenging
   function).
 
 restrictions: |
-	-
-	-  V must be in the 2nd person (singular or plural)
+  -
+  -  V must be in the 2nd person (singular or plural)
 
 coll-preferences: |
-	-
-	-  X = tendentially N (other categories are possible but
+  -
+  -  X = tendentially N (other categories are possible but
   marginal) X = tendentially single word (other elements, like
   phrases or sentences, are possible but more marginal) Noun
   can occasionally be preceded by an article eventuale
@@ -38,19 +38,19 @@ coll-preferences: |
 usage: |
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	- CRITICISM
-	- rhetorical-question
+  - CRITICISM
+  - rhetorical-question
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -62,15 +62,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_67_example_1.txt
-	- cxn_67_example_2.txt
-	- cxn_67_example_3.txt
-	- cxn_67_example_4.txt
-	- cxn_67_example_5.txt
+  - cxn_67_example_1.txt
+  - cxn_67_example_2.txt
+  - cxn_67_example_3.txt
+  - cxn_67_example_4.txt
+  - cxn_67_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

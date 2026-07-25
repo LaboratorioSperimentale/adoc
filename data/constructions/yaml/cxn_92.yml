@@ -8,41 +8,41 @@ cxn-machine-readable-formalization: |
   cxn_92.conllc
 
 form: |
-	-  X1 conjunction ri-X1
-	-
+  -  X1 conjunction ri-X1
+  -
 
 function: |
-	-  pragmatic
-	-  The X1 conjunction ri-X1 - construction is used in order to
+  -  pragmatic
+  -  The X1 conjunction ri-X1 - construction is used in order to
   emphasize the action expressed by the verb, which is
   repeated twice. It highlights the duration of the verb with
   the prefix ri.
-	-
+  -
 
 restrictions: |
-	-  X1= verb
-	-
+  -  X1= verb
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Average
 
 formal-tags: 
-	- repetition
+  - repetition
 
 functional-tags: 
-	- intensification
+  - intensification
 
 complexity-level-tags: |
-	-  Phrase
-	-
+  -  Phrase
+  -
 
 category-tags: |
-	-  Verb, Other
-	-
+  -  Verb, Other
+  -
 
 schematicity-level: |
   fully schematic
@@ -54,14 +54,14 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_92_example_1.txt
-	- cxn_92_example_2.txt
-	- cxn_92_example_3.txt
-	- cxn_92_example_4.txt
+  - cxn_92_example_1.txt
+  - cxn_92_example_2.txt
+  - cxn_92_example_3.txt
+  - cxn_92_example_4.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

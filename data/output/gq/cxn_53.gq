@@ -1,7 +1,0 @@
-pattern {
-  A [lemma="venire", upos=VERB, Number=Sing];
-  B [lemma="da", upos=ADP, form=/da/i];
-  C [upos=VERB, VerbForm=Inf];
-  C -[mark]-> B;
-  A -[xcomp]-> C;
-}

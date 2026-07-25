@@ -8,38 +8,38 @@ cxn-machine-readable-formalization: |
   cxn_83.conllc
 
 form: |
-	-  prendere + nome
-	-
+  -  prendere + nome
+  -
 
 function: |
-	-  pragmatica
-	-
-	-
+  -  pragmatica
+  -
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Frequent
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -51,13 +51,13 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_83_example_1.txt
-	- cxn_83_example_2.txt
-	- cxn_83_example_3.txt
+  - cxn_83_example_1.txt
+  - cxn_83_example_2.txt
+  - cxn_83_example_3.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

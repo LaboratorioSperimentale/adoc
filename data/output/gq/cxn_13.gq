@@ -1,7 +1,0 @@
-pattern {
-  A [];
-  B [lemma="che", upos=ADP, form=/che/i];
-  C [lemma="mai", upos=ADV, form=/mai/i];
-  C -[case]-> B;
-  A -[advmod]-> C;
-}

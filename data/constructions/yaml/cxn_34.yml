@@ -8,16 +8,16 @@ cxn-machine-readable-formalization: |
   cxn_34.conllc
 
 form: |
-	-  neanche per + N(sogno/idea/scherzo)
-	-
+  -  neanche per + N(sogno/idea/scherzo)
+  -
 
 function: |
-	-  Serve ad esprimere in modo enfatico la negazione di qualcosa
+  -  Serve ad esprimere in modo enfatico la negazione di qualcosa
   (o in risposta ad una domanda o in aggiunta a "non" in una
   dichiarativa), anche con funzione pragmatica di comunicare
   sdegno e disapprovazione. 
-	-
-	-  Il suo significato rafforzativo della negazione, soprattutto
+  -
+  -  Il suo significato rafforzativo della negazione, soprattutto
   nei casi in cui è utilizzato per esprimere lo sdegno o la
   ritrosia del parlante di fronte a qualcosa, non è dato dal
   significato letterale di
@@ -26,32 +26,32 @@ function: |
   scherzo". 
 
 restrictions: |
-	-
-	-  N deve essere per forza una parola di una lista determinata,
+  -
+  -  N deve essere per forza una parola di una lista determinata,
   non può essere un qualsiasi sostantivo; in particolare, ciò
   che accomuna i sostantivi accettati, a livello semantico, è
   il fatto di essere un risultato dell'attività del pensiero,
   un frutto della mente umana (idea, sogno, scherzo...). 
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
 
 formal-tags: 
-	- complex-adverb
+  - complex-adverb
 
 functional-tags: 
-	- intensification
+  - intensification
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -63,19 +63,19 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_34_example_1.txt
-	- cxn_34_example_2.txt
-	- cxn_34_example_3.txt
-	- cxn_34_example_4.txt
-	- cxn_34_example_5.txt
+  - cxn_34_example_1.txt
+  - cxn_34_example_2.txt
+  - cxn_34_example_3.txt
+  - cxn_34_example_4.txt
+  - cxn_34_example_5.txt
 
 note: |
-	-  Costruzione molto simile nella forma (relazione di
+  -  Costruzione molto simile nella forma (relazione di
   sottoparte?): neanche per + Det. +
   N(attimo/istante/minuto/momento/secondo...) -> significato
   leggermente diverso, implica l'idea di temporalità e si può
   sostituire con "mai". 
-	-  USAGE:
+  -  USAGE:
 
 references: |
 

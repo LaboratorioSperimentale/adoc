@@ -1,7 +1,0 @@
-pattern {
-  A [lemma="piovere", upos=VERB, form=/piove/i, Mood=Ind, Number=Sing, Person=3, Tense=Pres, VerbForm=Fin];
-  B [lemma="a", upos=ADP, form=/a/i];
-  C [upos=NOUN];
-  C -[case]-> B;
-  A -[obl]-> C;
-}

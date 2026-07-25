@@ -1,9 +1,0 @@
-pattern {
-  A [upos=VERB, VerbForm=Inf];
-  B [lemma="il", upos=DET, form=/le/i, Definite=Def, Gender=Fem, Number=Plur, PronType=Art];
-  C [lemma="ora", upos=NOUN, form=/ore/i, Gender=Fem, Number=Plur];
-  D [upos=ADJ, Gender=Fem, Number=Plur];
-  C -[det]-> B;
-  A -[obj]-> C;
-  C -[amod]-> D;
-}

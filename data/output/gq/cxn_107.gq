@@ -1,5 +1,0 @@
-pattern {
-  A [lemma="fare", upos=VERB];
-  B [lemma="finta", upos=NOUN, form=/finta/i, Gender=Fem, Number=Sing];
-  A -[obj]-> B;
-}

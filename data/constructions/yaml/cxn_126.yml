@@ -8,43 +8,43 @@ cxn-machine-readable-formalization: |
   cxn_126.conllc
 
 form: |
-	-  Pron. rel. X  Y x;y = v / adv. + v
-	-
+  -  Pron. rel. X  Y x;y = v / adv. + v
+  -
 
 function: |
-	-  Chi X (allora) Y; X implica Y; Y risultato, conseguenza di X
-	-  Chi compie una certa azione ottiene un certo risultato; Una
+  -  Chi X (allora) Y; X implica Y; Y risultato, conseguenza di X
+  -  Chi compie una certa azione ottiene un certo risultato; Una
   certa azione implica un certo atteggiamento.
-	-
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-  X e Y hanno tendenzialmente uguali struttura e ordine dei
+  -  X e Y hanno tendenzialmente uguali struttura e ordine dei
   costituenti: Chi v v  Chi  adv1 + v1  adv2 + v2 Chi  v1 +
   adv1  v2 + adv2 Categorie diverse da v e adv per i
   costituenti sembrano comunque ammesse in certe espressioni
-	-
+  -
 
 usage: |
   Infrequent
 
 formal-tags: 
-	- subordinazione
+  - subordinazione
 
 functional-tags: 
-	- risultato
-	- implicazione
+  - risultato
+  - implicazione
 
 complexity-level-tags: |
-	-  Phrase
-	-
+  -  Phrase
+  -
 
 category-tags: |
-	-  Adverb, Verb
-	-
+  -  Adverb, Verb
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -56,21 +56,21 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_126_example_1.txt
-	- cxn_126_example_2.txt
-	- cxn_126_example_3.txt
-	- cxn_126_example_4.txt
-	- cxn_126_example_5.txt
+  - cxn_126_example_1.txt
+  - cxn_126_example_2.txt
+  - cxn_126_example_3.txt
+  - cxn_126_example_4.txt
+  - cxn_126_example_5.txt
 
 note: |
-	-  Caso limite quello rappresentato dall'esempio chi tace
+  -  Caso limite quello rappresentato dall'esempio chi tace
   acconsente. Se negli altri casi, infatti, il verbo della
   prop. reggente rappresenta un'azione cronologicamente
   successiva a quella veicolata dal verbo della relativa,
   nell'esempio sopracitato i due verbi sembrano definire
   azioni quantomeno contemporanee. Nonostante ciò la frase
   sembra coerente con la possibile costruzione proposta.
-	-  USAGE:
+  -  USAGE:
 
 references: |
 

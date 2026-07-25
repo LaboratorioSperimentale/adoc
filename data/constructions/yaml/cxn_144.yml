@@ -8,39 +8,39 @@ cxn-machine-readable-formalization: |
   cxn_144.conllc
 
 form: |
-	-  Avere a che Fare/Vedere con X
-	-
+  -  Avere a che Fare/Vedere con X
+  -
 
 function: |
-	-  Relationship 
-	-  Indica un rapporto, un legame o una relazione con qualcosa/
+  -  Relationship 
+  -  Indica un rapporto, un legame o una relazione con qualcosa/
   qualcuno 
-	-
+  -
 
 restrictions: |
-	-  Avere a che andare (X)
-	-
+  -  Avere a che andare (X)
+  -
 
 coll-preferences: |
-	-  Avere a che fare avere a che Vedere
-	-
+  -  Avere a che fare avere a che Vedere
+  -
 
 usage: |
   Frequent
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -52,12 +52,12 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_144_example_1.txt
-	- cxn_144_example_2.txt
+  - cxn_144_example_1.txt
+  - cxn_144_example_2.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

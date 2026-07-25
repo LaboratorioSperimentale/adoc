@@ -8,24 +8,23 @@ cxn-machine-readable-formalization: |
   cxn_1.conllc
 
 form: |
-	-  non vedo perchè doverefles Vinf  adv (e/o)Prep. X
-	-  la costruzione è formata dalla prima parte fissa e la
+  -  non vedo perchè doverefles Vinf  adv (e/o)Prep. X
+  -  la costruzione è formata dalla prima parte fissa e la
   seconda parte con costituenti che presentano maggiore
   variabilità
 
 function: |
-	-  esprime contrarietà rispetto allo svolgimento di un'azione,
+  -  esprime contrarietà rispetto allo svolgimento di un'azione,
   di un'attività o rispetto ad uno stato d'animo, ad un
   pensiero espresso da altri o pensato in prima persona. 
-	-
-	-  la comprensione di questo tipo di costruzione non è
+  -
+  -  la comprensione di questo tipo di costruzione non è
   possibile se si prescinde dal contesto, prevede infatti una
   coreferenza con un discorso precedente riferito
   all'interazione fra conoscenti.
 
 restrictions: |
-	-
-	-  -"Non vedo perchè": si trova in posizione iniziale con
+  -  -"Non vedo perchè": si trova in posizione iniziale con
   ordine fisso e costituenti non variabili. -Nel caso in cui
   la frase venga espressa senza elementi sottintesi, il verbo
   modale che lo segue è necessariamente -dovere, il quale
@@ -37,8 +36,8 @@ restrictions: |
   punto di vista dei costituenti e meno fissità. 
 
 coll-preferences: |
-	-
-	-  -V: deve necessariamente essere all'infinito. In alcuni casi
+  -
+  -  -V: deve necessariamente essere all'infinito. In alcuni casi
   può essere accompagnato da pronomi personali clitici posti
   alla fine del verbo. adv: possono essere avverbi spaziali
   deittici o temporali. Può essere assente -Prep: deve essere
@@ -60,22 +59,22 @@ coll-preferences: |
 usage: |
   Frequent
 
-formal-tags: 
-	- semi-fixity
-	- semi-variability
+formal-tags:
+  - semi-fixity
+  - semi-variability
 
-functional-tags: 
-	- opposition
-	- disappointment
-	- context-dependence
+functional-tags:
+  - opposition
+  - disappointment
+  - context-dependence
 
 complexity-level-tags: |
-	-
-	-  Word
+  -
+  -  Word
 
 category-tags: |
-	-
-	-  Adjective
+  -
+  -  Adjective
 
 schematicity-level: |
   partially filled/schematic
@@ -88,15 +87,15 @@ horizontal-links: |
 vertical-links: |
   29
 
-examples: 
-	- cxn_1_example_1.txt
-	- cxn_1_example_2.txt
-	- cxn_1_example_3.txt
-	- cxn_1_example_4.txt
-	- cxn_1_example_5.txt
+examples:
+  - cxn_1_example_1.txt
+  - cxn_1_example_2.txt
+  - cxn_1_example_3.txt
+  - cxn_1_example_4.txt
+  - cxn_1_example_5.txt
 
 note: |
-	-  lo schema della costruzione che riporto è quella in cui
+  -  lo schema della costruzione che riporto è quella in cui
   nessun elemento viene sottinteso, però preciso che sopo il
   -perchè possono seguire diversi tipi di elementi, perciò
   volendo aggiungere una forma sintetica si potrebbe indicare
@@ -108,7 +107,7 @@ note: |
   comprensibili grazie all'abituale utilizzo della frase, il
   quale quindi permette di sottintedere alcune sue parti, in
   congiunto con il riferimento al contesto colloquiale. 
-	-  USAGE:
+  -  USAGE:
 
 references: |
 

@@ -1,7 +1,0 @@
-pattern {
-  A [upos=VERB, VerbForm=Fin];
-  B [upos=ADP];
-  C [];
-  C -[case]-> B;
-  A -[obl]-> C;
-}

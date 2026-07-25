@@ -8,40 +8,40 @@ cxn-machine-readable-formalization: |
   cxn_121.conllc
 
 form: |
-	-  V un po'
-	-
+  -  V un po'
+  -
 
 function: |
-	-  Attenuare l'azione.
-	-  È un'espressione informale per attenuare il tono altrimenti
+  -  Attenuare l'azione.
+  -  È un'espressione informale per attenuare il tono altrimenti
   rigido di verbi spesso all'imperativo.
-	-
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-  V è spesso all'imperativo.
-	-
+  -  V è spesso all'imperativo.
+  -
 
 usage: |
   Frequent
 
 formal-tags: 
-	- lexically-open
-	- verbi >> cc:cxn:verb
+  - lexically-open
+  - verbi >> cc:cxn:verb
 
 functional-tags: 
-	- attenuazione
+  - attenuazione
 
 complexity-level-tags: |
-	-  Phrase
-	-
+  -  Phrase
+  -
 
 category-tags: |
-	-  Verb
-	-
+  -  Verb
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -53,14 +53,14 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_121_example_1.txt
-	- cxn_121_example_2.txt
-	- cxn_121_example_3.txt
-	- cxn_121_example_4.txt
-	- cxn_121_example_5.txt
+  - cxn_121_example_1.txt
+  - cxn_121_example_2.txt
+  - cxn_121_example_3.txt
+  - cxn_121_example_4.txt
+  - cxn_121_example_5.txt
 
 note: |
-	-  La Costruzione V un po' può anche:   - esprimere valori
+  -  La Costruzione V un po' può anche:   - esprimere valori
   esortativi esempio da ItWac Complete: , ma mentre la
   giornalista ne parlava hanno fatto vedere alcune immagini
   satellitari di Roma tratte indovinate un po' da dove ?
@@ -82,7 +82,7 @@ note: |
   arruolerei , pensa un pò ! Altra menzione è da farsi per la
   maglietta sfoggiata da Wild ... ero in estasi ! Wild
   tranquillo , se ho passato
-	-  USAGE:
+  -  USAGE:
 
 references: |
 

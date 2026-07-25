@@ -1,9 +1,0 @@
-pattern {
-  A [lemma="a", upos=ADP, form=/a/i];
-  B [lemma="discapito", upos=NOUN, form=/discapito/i, Gender=Masc, Number=Sing];
-  C [lemma="di", upos=ADP, form=/di/i];
-  D [];
-  B -[case]-> A;
-  D -[case]-> C;
-  B -[nmod]-> D;
-}

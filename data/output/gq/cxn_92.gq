@@ -1,7 +1,0 @@
-pattern {
-  A [upos=VERB];
-  B [lemma="e", upos=CCONJ, form=/e/i];
-  C [upos=VERB];
-  C -[cc]-> B;
-  A -[conj]-> C;
-}

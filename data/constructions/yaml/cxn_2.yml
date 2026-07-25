@@ -8,49 +8,49 @@ cxn-machine-readable-formalization: |
   cxn_2.conllc
 
 form: |
-	-  non V (ci+essere) - N - che V (tenere)
-	-
+  -  non V (ci+essere) - N - che V (tenere)
+  -
 
 function: |
-	-  Esprime determinazione al raggiungimento di uno scopo,
+  -  Esprime determinazione al raggiungimento di uno scopo,
   enunciato indifferentemente prima o dopo questa costruzione:
   esprime determinazione nel raggiungere un obiettivo,
   talvolta superando proprio l'ostacolo enunciato nella
   costruzione.
-	-
-	-  Il significato dell'espressione non è deducibile dalla
+  -
+  -  Il significato dell'espressione non è deducibile dalla
   semplice somma dei significati delle parti: il verbo tenere
   qui non sta per "prendere, afferrare" quanto piuttosto per
   "essere abbastanza valido", valendo "reggere" (o meglio,
   "non reggere")
 
 restrictions: |
-	-
-	-  N può essere solamente un sostantivo. Ad esempio, non può
+  -
+  -  N può essere solamente un sostantivo. Ad esempio, non può
   mai essere riempito da un aggettivo: oggi mi vesto di rosso,
   *non c'è verde che tenga. Inoltre V (tenere) può essere
   declinato solamente al congiuntivo, e solamente alla III
   pers. sing. o plur.
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -62,14 +62,14 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_2_example_1.txt
-	- cxn_2_example_2.txt
-	- cxn_2_example_3.txt
-	- cxn_2_example_4.txt
+  - cxn_2_example_1.txt
+  - cxn_2_example_2.txt
+  - cxn_2_example_3.txt
+  - cxn_2_example_4.txt
 
 note: |
-	-
-	-  USAGE: Non pare esserci variazione diatopica associata a
+  -
+  -  USAGE: Non pare esserci variazione diatopica associata a
   questa costruzione: piuttosto, la variazione è diastratica
   (situazionale) e diamesica. La costruzione sembra essere
   associata a situazioni di lingua informale oltre che

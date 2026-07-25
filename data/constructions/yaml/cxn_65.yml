@@ -8,46 +8,46 @@ cxn-machine-readable-formalization: |
   cxn_65.conllc
 
 form: |
-	-  X Adv che Y 
-	-
+  -  X Adv che Y 
+  -
 
 function: |
-	-  [X]FOCUS
-	-
-	-  The function of the construction is not entirely predictable
+  -  [X]FOCUS
+  -
+  -  The function of the construction is not entirely predictable
   from its parts. From a semantic point of view, Adv che can
   be omitted without changing the truth conditions and the
   acceptability of the constructions (CFR., e.g., "All'asilo
   sì che si stava bene" and "All'asilo si stava bene").
 
 restrictions: |
-	-
-	-  Adv = sì, no, certo. Other adverbs (e.g., sicuro, ovvio) are
+  -
+  -  Adv = sì, no, certo. Other adverbs (e.g., sicuro, ovvio) are
   possible but rather marginal. 
 
 coll-preferences: |
-	-
-	-  X = phrase (clauses are possible, although they are more
+  -
+  -  X = phrase (clauses are possible, although they are more
   marginal) Y = clause (X is a constituent of Y) When Adv
   is no, Y contains a negator.
 
 usage: |
 
 formal-tags: 
-	- cleft-like-construction
-	- che-construction
+  - cleft-like-construction
+  - che-construction
 
 functional-tags: 
-	- focus-marker
-	- epistemic-reinforcement
+  - focus-marker
+  - epistemic-reinforcement
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -59,18 +59,18 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_65_example_1.txt
-	- cxn_65_example_2.txt
-	- cxn_65_example_3.txt
-	- cxn_65_example_4.txt
-	- cxn_65_example_5.txt
+  - cxn_65_example_1.txt
+  - cxn_65_example_2.txt
+  - cxn_65_example_3.txt
+  - cxn_65_example_4.txt
+  - cxn_65_example_5.txt
 
 note: |
-	-  According to the adopted definition, the construction can be
+  -  According to the adopted definition, the construction can be
   conceived as a non-prototypical cleft construction. Its
   relationship with the similar construction Adv che Y should
   be further investigated.
-	-  USAGE:
+  -  USAGE:
 
 references: |
 

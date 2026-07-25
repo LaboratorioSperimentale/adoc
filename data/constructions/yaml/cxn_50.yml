@@ -8,40 +8,40 @@ cxn-machine-readable-formalization: |
   cxn_50.conllc
 
 form: |
-	-  non vedere l'ora di X
-	-
+  -  non vedere l'ora di X
+  -
 
 function: |
-	-  esprimere impazienza (con accezione positiva) nei confronti
+  -  esprimere impazienza (con accezione positiva) nei confronti
   di un evento futuro
-	-
-	-
+  -
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-  non vedo l'ora di + V
+  -
+  -  non vedo l'ora di + V
 
 usage: |
 
 formal-tags: 
-	- grammatical-idiom
-	- lexically-filled-idiom
-	- idiom-without-pragmatic-point
+  - grammatical-idiom
+  - lexically-filled-idiom
+  - idiom-without-pragmatic-point
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   lexically filled
@@ -53,11 +53,11 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_50_example_1.txt
+  - cxn_50_example_1.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

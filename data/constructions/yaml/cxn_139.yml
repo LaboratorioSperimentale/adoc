@@ -8,44 +8,44 @@ cxn-machine-readable-formalization: |
   cxn_139.conllc
 
 form: |
-	-  vuoi X  vuoi Y
-	-
+  -  vuoi X  vuoi Y
+  -
 
 function: |
-	-  Funzione discorsiva al fine di fornire più opzioni per
+  -  Funzione discorsiva al fine di fornire più opzioni per
   spiegare una causa. 
-	-  L'espressione vuoi X vuoi Y è usata per dare due (o talvolta
+  -  L'espressione vuoi X vuoi Y è usata per dare due (o talvolta
   tre) possibili cause di un certo evento. Usato solo nel
   registro informale. Il vuoi può essere seguito da diverse
   combinazioni di parole appartenenti a classi grammaticali
   diverse, come dalla coppia DET+N, PREP+N, PREP+DET+N,
   PREP+ADJ o talvolta anche da intere proposizioni. 
-	-
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Average
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -57,15 +57,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_139_example_1.txt
-	- cxn_139_example_2.txt
-	- cxn_139_example_3.txt
-	- cxn_139_example_4.txt
-	- cxn_139_example_5.txt
+  - cxn_139_example_1.txt
+  - cxn_139_example_2.txt
+  - cxn_139_example_3.txt
+  - cxn_139_example_4.txt
+  - cxn_139_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

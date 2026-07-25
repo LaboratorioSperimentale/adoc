@@ -8,39 +8,39 @@ cxn-machine-readable-formalization: |
   cxn_31.conllc
 
 form: |
-	-  saltare+ N
-	-
+  -  saltare+ N
+  -
 
 function: |
-	-  il verbo saltare non è utilizzato con il suo valore
+  -  il verbo saltare non è utilizzato con il suo valore
   semantico di darsi una spinta verso l'alto bensì indica
   un'azione che è non è verificata volontariamente o no
-	-
-	-
+  -
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   lexically filled
@@ -52,14 +52,14 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_31_example_1.txt
-	- cxn_31_example_2.txt
-	- cxn_31_example_3.txt
-	- cxn_31_example_4.txt
+  - cxn_31_example_1.txt
+  - cxn_31_example_2.txt
+  - cxn_31_example_3.txt
+  - cxn_31_example_4.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

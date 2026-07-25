@@ -8,39 +8,39 @@ cxn-machine-readable-formalization: |
   cxn_93.conllc
 
 form: |
-	-  più X più X
-	-
+  -  più X più X
+  -
 
 function: |
-	-  Enfatica/Pragmatica
-	-  Serve a rafforzare l'idea, il concetto cui l'interlocutore
+  -  Enfatica/Pragmatica
+  -  Serve a rafforzare l'idea, il concetto cui l'interlocutore
   pone al centro del discorso, su cui pone enfasi.
-	-
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Frequent
 
 formal-tags: 
-	- repetition
+  - repetition
 
 functional-tags: 
-	- intensification
+  - intensification
 
 complexity-level-tags: |
-	-  Phrase
-	-
+  -  Phrase
+  -
 
 category-tags: |
-	-  Adverb
-	-
+  -  Adverb
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -52,15 +52,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_93_example_1.txt
-	- cxn_93_example_2.txt
-	- cxn_93_example_3.txt
-	- cxn_93_example_4.txt
-	- cxn_93_example_5.txt
+  - cxn_93_example_1.txt
+  - cxn_93_example_2.txt
+  - cxn_93_example_3.txt
+  - cxn_93_example_4.txt
+  - cxn_93_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

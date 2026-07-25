@@ -9,47 +9,47 @@ cxn-machine-readable-formalization: |
   cxn_59.conllc
 
 form: |
-	-  V. (mettersi) + Prep. (nelle) + N. (mani) + Prep. (di) + N.
+  -  V. (mettersi) + Prep. (nelle) + N. (mani) + Prep. (di) + N.
   (qualcuno)
-	-
+  -
 
 function: |
-	-  Espressione utilizzata per indicare la volontà da parte di
+  -  Espressione utilizzata per indicare la volontà da parte di
   un individuo di affidarsi completamente alle cure di un
   altro individuo.
-	-
-	-  L'espressione indica l'affidamento o l'abbandono alle cure
+  -
+  -  L'espressione indica l'affidamento o l'abbandono alle cure
   di un individuo, mediante un lessema verbale semanticamente
   neutro che si appoggia a un sostantivo semanticamente
   forte. «Mani» rappresenta il centro semantico della
   costruzione.
 
 restrictions: |
-	-
-	-  L'espressione viene tendenzialmente utilizzata per indicare
+  -
+  -  L'espressione viene tendenzialmente utilizzata per indicare
   una presunta soluzione a una situazione di difficoltà.
 
 coll-preferences: |
-	-
-	-  L'espressione può essere introdotta da altri verbi,
+  -
+  -  L'espressione può essere introdotta da altri verbi,
   veicolando una sfumatura semantica differente a seconda dei
   casi (Cadere, essere, mettersi).
 
 usage: |
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -61,12 +61,12 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_59_example_1.txt
-	- cxn_59_example_2.txt
-	- cxn_59_example_3.txt
+  - cxn_59_example_1.txt
+  - cxn_59_example_2.txt
+  - cxn_59_example_3.txt
 
 note: |
-	-  L'espressione ha origine medievale e deriva dal gesto
+  -  L'espressione ha origine medievale e deriva dal gesto
   simbolico (immixtio manuum) che legava un vassallo al suo
   signore, tramite un cerimoniale pubblico di giuramento.
   Differenza tra «mettersi nelle mani di qualcuno» ed
@@ -80,7 +80,7 @@ note: |
   (Completo abbandono alla forza protettiva di una divinità)
   «Put your life in someone's hands»  «I put myself in
   your hands»  «Fall into their hands»
-	-  USAGE: Espressione utilizzata in contesti informali.
+  -  USAGE: Espressione utilizzata in contesti informali.
 
 references: |
 

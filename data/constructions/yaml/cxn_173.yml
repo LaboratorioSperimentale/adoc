@@ -8,11 +8,11 @@ cxn-machine-readable-formalization: |
   cxn_173.conllc
 
 form: |
-	-  dare di N
-	-
+  -  dare di N
+  -
 
 function: |
-	-  1 Esprimere una manifestazione improvvisa e intensa fisica o
+  -  1 Esprimere una manifestazione improvvisa e intensa fisica o
   mentale --> dare di testa; dare di matto 2 Forse esprimere
   maggiore partecipazione emotiva/coinvolgimento rispetto a un
   evento --> dare di stomaco; dare di gomito  3 Esprimere
@@ -21,33 +21,33 @@ function: |
   --> variante rafforzata darci di L'interpretazione ha una
   metaforicità variabile nei vari esempi, il verbo "dare" ha
   significato che si specifica unitamente al nome.  
-	-
-	-
+  -
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-  Si lega a termini che indicano parti del corpo    Si lega a
+  -  Si lega a termini che indicano parti del corpo    Si lega a
   termini che indicano strumento  
-	-
+  -
 
 usage: |
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -59,15 +59,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_173_example_1.txt
-	- cxn_173_example_2.txt
-	- cxn_173_example_3.txt
-	- cxn_173_example_4.txt
-	- cxn_173_example_5.txt
+  - cxn_173_example_1.txt
+  - cxn_173_example_2.txt
+  - cxn_173_example_3.txt
+  - cxn_173_example_4.txt
+  - cxn_173_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

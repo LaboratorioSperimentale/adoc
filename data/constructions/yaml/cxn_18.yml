@@ -8,25 +8,25 @@ cxn-machine-readable-formalization: |
   cxn_18.conllc
 
 form: |
-	-  Prepx + Avv/Sostx + Prepy+ Avv/Sosty
-	-  Nella costruzione l'ordine dei costituenti non puo' essere
+  -  Prepx + Avv/Sostx + Prepy+ Avv/Sosty
+  -  Nella costruzione l'ordine dei costituenti non puo' essere
   modificato salvo casi in cui la
   preposizione/avverbio/sostantivo è ripetuta/o, es: a mano a
   mano; a poco a poco ma non di tanto in tanto.
 
 function: |
-	-  Il costrutto indica la modalità o il tempo di svolgimento di
+  -  Il costrutto indica la modalità o il tempo di svolgimento di
   un'azione
-	-
-	-
+  -
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-  La costruzione prevede l'alternanza di una preposizione e di
+  -
+  -  La costruzione prevede l'alternanza di una preposizione e di
   un avverbio/sostantivo, che possono o meno variare nella
   forma, es. a faccia a faccia (mancanza di variazione durante
   la ripetizione della preposizione e del sostantivo); di
@@ -37,19 +37,19 @@ coll-preferences: |
 usage: |
 
 formal-tags: 
-	- repetition
+  - repetition
 
 functional-tags: 
-	- action >> cc:inf:active-referent
-	- time >> cc:sem:time
+  - action >> cc:inf:active-referent
+  - time >> cc:sem:time
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -61,15 +61,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_18_example_1.txt
-	- cxn_18_example_2.txt
-	- cxn_18_example_3.txt
-	- cxn_18_example_4.txt
-	- cxn_18_example_5.txt
+  - cxn_18_example_1.txt
+  - cxn_18_example_2.txt
+  - cxn_18_example_3.txt
+  - cxn_18_example_4.txt
+  - cxn_18_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

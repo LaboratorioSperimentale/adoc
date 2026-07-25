@@ -8,47 +8,47 @@ cxn-machine-readable-formalization: |
   cxn_38.conllc
 
 form: |
-	-  V + Detind + colpo di + N
-	-
+  -  V + Detind + colpo di + N
+  -
 
 function: |
-	-  questo idiom soddisfa la funzione pragmatica di azione
+  -  questo idiom soddisfa la funzione pragmatica di azione
   immediata, puntuale e circoscritta (cfr. colpo di
   telefono/chiamare; colpo di tosse/tossire...)
-	-
-	-  Il significato dell'espressione non è predicibile dalla
+  -
+  -  Il significato dell'espressione non è predicibile dalla
   somma dei suoi componenti.
 
 restrictions: |
-	-
-	-  La costruzione deve necessariamente preceduta da articolo
+  -
+  -  La costruzione deve necessariamente preceduta da articolo
   indeterminativo e seguita da sostantivo.
 
 coll-preferences: |
-	-
-	-  La preferenza collocazionale della costruzione prevede
+  -
+  -  La preferenza collocazionale della costruzione prevede
   fare/dare come verbi che la precedono.
 
 usage: |
 
 formal-tags: 
-	- modality
-	- Substantive-idiom
+  - modality
+  - Substantive-idiom
 
 functional-tags: 
-	- aspect >> cc:sem:aspect
-	- mirativity >> cc:sem:durativity
-	- limitatezza
-	- action >> cc:inf:active-referent
-	- time >> cc:sem:time
+  - aspect >> cc:sem:aspect
+  - mirativity >> cc:sem:durativity
+  - limitatezza
+  - action >> cc:inf:active-referent
+  - time >> cc:sem:time
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -60,14 +60,14 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_38_example_1.txt
-	- cxn_38_example_2.txt
-	- cxn_38_example_3.txt
-	- cxn_38_example_4.txt
+  - cxn_38_example_1.txt
+  - cxn_38_example_2.txt
+  - cxn_38_example_3.txt
+  - cxn_38_example_4.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

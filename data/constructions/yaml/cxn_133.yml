@@ -8,45 +8,45 @@ cxn-machine-readable-formalization: |
   cxn_133.conllc
 
 form: |
-	-  che+N/Adj
-	-
+  -  che+N/Adj
+  -
 
 function: |
-	-  Intensificazione o attribuzione di qualità (solitamente
+  -  Intensificazione o attribuzione di qualità (solitamente
   positive o dimensionali) a N/Adj
-	-  Viene solitamente usata come escalmazione e serve a
+  -  Viene solitamente usata come escalmazione e serve a
   intensificare il nome o aggettivo (es. che brutto=è molto
   brutto), oppure ad attribuirvi qualità positive o
   dimensionali (es. che casa=è una casa molto bella o molto
   grande), ma possono essere anche negative o di semplice
   particolarità (es. che faccia=è una faccia
   brutta/provata/sconvolta...).
-	-
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Frequent
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-  Word, Phrase
-	-
+  -  Word, Phrase
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -58,15 +58,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_133_example_1.txt
-	- cxn_133_example_2.txt
-	- cxn_133_example_3.txt
-	- cxn_133_example_4.txt
-	- cxn_133_example_5.txt
+  - cxn_133_example_1.txt
+  - cxn_133_example_2.txt
+  - cxn_133_example_3.txt
+  - cxn_133_example_4.txt
+  - cxn_133_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

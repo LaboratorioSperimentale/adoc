@@ -8,45 +8,45 @@ cxn-machine-readable-formalization: |
   cxn_76.conllc
 
 form: |
-	-  Ni Prep Ni
-	-
+  -  Ni Prep Ni
+  -
 
 function: |
-	-  SYMMETRICAL SPATIAL LOCATION or SEQUENTIALITY/STACKING
-	-  This construction represents a spatial location in which two
+  -  SYMMETRICAL SPATIAL LOCATION or SEQUENTIALITY/STACKING
+  -  This construction represents a spatial location in which two
   elements are next to or against each other (and so on), or
   it can represent sequentiality and/or stacking.
-	-
+  -
 
 restrictions: |
-	-  Ni represents the same lexeme (a NOUN), before and after the
+  -  Ni represents the same lexeme (a NOUN), before and after the
   PREPOSITION. It might be determined: (Det) Ni Prep (Det) Ni.
-	-
+  -
 
 coll-preferences: |
-	-  There are many expressions involving body parts.
-	-
+  -  There are many expressions involving body parts.
+  -
 
 usage: |
   Average
 
 formal-tags: 
-	- same-referent
-	- noun >> cc:cxn:noun
-	- prepositional-phrase
+  - same-referent
+  - noun >> cc:cxn:noun
+  - prepositional-phrase
 
 functional-tags: 
-	- location >> cc:sem:location
-	- sequentiality
-	- stacking >> cc:inf:semi-active-referent
+  - location >> cc:sem:location
+  - sequentiality
+  - stacking >> cc:inf:semi-active-referent
 
 complexity-level-tags: |
-	-  Phrase
-	-
+  -  Phrase
+  -
 
 category-tags: |
-	-  Adverb
-	-
+  -  Adverb
+  -
 
 schematicity-level: |
   fully schematic
@@ -58,15 +58,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_76_example_1.txt
-	- cxn_76_example_2.txt
-	- cxn_76_example_3.txt
-	- cxn_76_example_4.txt
-	- cxn_76_example_5.txt
+  - cxn_76_example_1.txt
+  - cxn_76_example_2.txt
+  - cxn_76_example_3.txt
+  - cxn_76_example_4.txt
+  - cxn_76_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

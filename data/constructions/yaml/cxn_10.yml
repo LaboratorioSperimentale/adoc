@@ -9,39 +9,39 @@ cxn-machine-readable-formalization: |
   cxn_10.conllc
 
 form: |
-	-  V.inf stare + Prep.semp. con + Agg. due + N1 piedi +
+  -  V.inf stare + Prep.semp. con + Agg. due + N1 piedi +
   Prep.semp. in + Art. una + N2 scarpa 
-	-
+  -
 
 function: |
-	-  Indica una sensazione di scomodità e costrizione, mediante
+  -  Indica una sensazione di scomodità e costrizione, mediante
   metafora. 
-	-
-	-
+  -
+  -
 
 restrictions: |
-	-
-	-  parlato colloquiale.
+  -
+  -  parlato colloquiale.
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
 
 formal-tags: 
-	- semi-fixity
+  - semi-fixity
 
 functional-tags: 
-	- context-dependence
+  - context-dependence
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -53,12 +53,12 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_10_example_1.txt
+  - cxn_10_example_1.txt
 
 note: |
-	-  Il verbo può essere coniugato, mentre gli altri componenti
+  -  Il verbo può essere coniugato, mentre gli altri componenti
   della frase sono stabili e non possono essere modificati.
-	-  USAGE:
+  -  USAGE:
 
 references: |
 

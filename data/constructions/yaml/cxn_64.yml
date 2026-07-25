@@ -8,24 +8,24 @@ cxn-machine-readable-formalization: |
   cxn_64.conllc
 
 form: |
-	-  Non è Xi, ma è Yi che Zi
-	-  There are fixed parts "Non è... ma è... che" that are
+  -  Non è Xi, ma è Yi che Zi
+  -  There are fixed parts "Non è... ma è... che" that are
   separated by slots that can be filled with different
   linguistic elements
 
 function: |
-	-  Predicate on Yi
-	-
-	-  The function of the construction is not fully predictable
+  -  Predicate on Yi
+  -
+  -  The function of the construction is not fully predictable
   from its parts
 
 restrictions: |
-	-
-	-  Yi is in an avversative relation to Xi 
+  -
+  -  Yi is in an avversative relation to Xi 
 
 coll-preferences: |
-	-
-	-  Xi = N or phrase Yi= N (usually in the same semantic field
+  -
+  -  Xi = N or phrase Yi= N (usually in the same semantic field
   of Xi, but with a similar meaning rather than being an
   antonym) or phrase (usually reduplicating part of Xi) Zi= V
   or phrase
@@ -33,19 +33,19 @@ coll-preferences: |
 usage: |
 
 formal-tags: 
-	- discontinuous-reduplication
-	- avversativa
+  - discontinuous-reduplication
+  - avversativa
 
 functional-tags: 
-	- intensification
+  - intensification
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -57,14 +57,14 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_64_example_1.txt
-	- cxn_64_example_2.txt
-	- cxn_64_example_3.txt
-	- cxn_64_example_4.txt
+  - cxn_64_example_1.txt
+  - cxn_64_example_2.txt
+  - cxn_64_example_3.txt
+  - cxn_64_example_4.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

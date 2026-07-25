@@ -8,42 +8,42 @@ cxn-machine-readable-formalization: |
   cxn_70.conllc
 
 form: |
-	-  [[x]Xαk [y]Yβi]Xαj
-	-
+  -  [[x]Xαk [y]Yβi]Xαj
+  -
 
 function: |
-	-  [SEMk in R with SEMi]j
-	-  Italian left-headed endocentric compounds
-	-
+  -  [SEMk in R with SEMi]j
+  -  Italian left-headed endocentric compounds
+  -
 
 restrictions: |
-	-  [x] = N  [y] can be a N or an ADJ The relation (R) can be
+  -  [x] = N  [y] can be a N or an ADJ The relation (R) can be
   subordinative (see example 1) or appositive/attributive (see
   example 2 and 3)
-	-
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Average
 
 formal-tags: 
-	- compounding >> cc:str:compounding
-	- morphology
-	- left-headed
+  - compounding >> cc:str:compounding
+  - morphology
+  - left-headed
 
 functional-tags: 
-	- endocentric-compounds
+  - endocentric-compounds
 
 complexity-level-tags: |
-	-  Word
-	-
+  -  Word
+  -
 
 category-tags: |
-	-  Noun
-	-
+  -  Noun
+  -
 
 schematicity-level: |
   fully schematic
@@ -56,13 +56,13 @@ vertical-links: |
   145
 
 examples: 
-	- cxn_70_example_1.txt
-	- cxn_70_example_2.txt
-	- cxn_70_example_3.txt
+  - cxn_70_example_1.txt
+  - cxn_70_example_2.txt
+  - cxn_70_example_3.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

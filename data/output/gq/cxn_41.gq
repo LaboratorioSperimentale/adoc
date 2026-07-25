@@ -1,7 +1,0 @@
-pattern {
-  A [lemma="tanto", form=/tanto/i];
-  B [lemma="valere", upos=VERB, form=/vale/i, Mood=Ind, Number=Sing, Person=3, Tense=Pres, VerbForm=Fin];
-  C [upos=VERB];
-  B -[advmod]-> A;
-  B -[ccomp]-> C;
-}

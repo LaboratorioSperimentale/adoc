@@ -8,16 +8,16 @@ cxn-machine-readable-formalization: |
   cxn_14.conllc
 
 form: |
-	-  bello/a come Det N
-	-  la costruzione non presenta peculiarità sul piano sintattico
+  -  bello/a come Det N
+  -  la costruzione non presenta peculiarità sul piano sintattico
 
 function: |
-	-  generalmente questa costruzione, che si presenta come una
+  -  generalmente questa costruzione, che si presenta come una
   similitudine, viene usata al posto del superlativo assoluto
   “bellissimo/a” (detto di una persona) in modo da accentuare
   il complimento espresso 
-	-
-	-  il significato complessivo dell’espressione è predicibile
+  -
+  -  il significato complessivo dell’espressione è predicibile
   dalla somma dei significati delle parti costituenti. La
   predicibilità va ricollegata al fatto che si tratta di una
   similitudine, e come tale ritaglia un paragone tra due
@@ -27,8 +27,8 @@ function: |
   definizione incarnano la bellezza suprema
 
 restrictions: |
-	-
-	-  come si può notare dagli esempi forniti, all’interno della
+  -
+  -  come si può notare dagli esempi forniti, all’interno della
   costruzione ci sono due slot strutturali fissi, ovvero
   quello riempito dall’aggettivo qualificativo “bello”
   (passibile di flessione) e quello riempito dalla
@@ -42,25 +42,25 @@ restrictions: |
   costruzione, con uno scopo diverso
 
 coll-preferences: |
-	-
-	-  la costruzione predilige i nomi che presentano una semantica
+  -
+  -  la costruzione predilige i nomi che presentano una semantica
   intrinsecamente positiva
 
 usage: |
 
 formal-tags: 
-	- similutide
+  - similutide
 
 functional-tags: 
-	- intensification
+  - intensification
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -72,13 +72,13 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_14_example_1.txt
-	- cxn_14_example_2.txt
-	- cxn_14_example_3.txt
+  - cxn_14_example_1.txt
+  - cxn_14_example_2.txt
+  - cxn_14_example_3.txt
 
 note: |
-	-
-	-  USAGE: l'espressione è più frequente rispetto ad altre forme
+  -
+  -  USAGE: l'espressione è più frequente rispetto ad altre forme
   altrettanto disponibili nel lessico mentale dei parlanti, ma
   viene preferita per la sua maggiore efficacia comunicativa.
   Inoltre, sebbene una espressione come "bello/a come una

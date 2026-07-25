@@ -1,7 +1,0 @@
-pattern {
-  A [upos=VERB];
-  B [upos=ADV];
-  C [upos=ADV];
-  A -[advmod]-> B;
-  B -[fixed]-> C;
-}

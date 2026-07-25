@@ -8,39 +8,39 @@ cxn-machine-readable-formalization: |
   cxn_113.conllc
 
 form: |
-	-  Ni dopo Ni
-	-
+  -  Ni dopo Ni
+  -
 
 function: |
-	-  MODIFIER = SUCCESSION / ITERATION / DISTRIBUTIVITY of N
-	-
-	-
+  -  MODIFIER = SUCCESSION / ITERATION / DISTRIBUTIVITY of N
+  -
+  -
 
 restrictions: |
-	-  N = singular, bare, fixed MODIFIER = invariable
-	-
+  -  N = singular, bare, fixed MODIFIER = invariable
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Frequent
 
 formal-tags: 
-	- reduplication
-	- discontinuous-reduplication
+  - reduplication
+  - discontinuous-reduplication
 
 functional-tags: 
-	- intensification
+  - intensification
 
 complexity-level-tags: |
-	-  Phrase
-	-
+  -  Phrase
+  -
 
 category-tags: |
-	-  Adverb, Adjective
-	-
+  -  Adverb, Adjective
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -53,15 +53,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_113_example_1.txt
-	- cxn_113_example_2.txt
-	- cxn_113_example_3.txt
-	- cxn_113_example_4.txt
-	- cxn_113_example_5.txt
+  - cxn_113_example_1.txt
+  - cxn_113_example_2.txt
+  - cxn_113_example_3.txt
+  - cxn_113_example_4.txt
+  - cxn_113_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

@@ -8,38 +8,38 @@ cxn-machine-readable-formalization: |
   cxn_112.conllc
 
 form: |
-	-  prep + n 
-	-
+  -  prep + n 
+  -
 
 function: |
-	-  modalità
-	-  locuzione avverbiale che donota disordine 
-	-
+  -  modalità
+  -  locuzione avverbiale che donota disordine 
+  -
 
 restrictions: |
-	-  verbi di azione. Es.  spargere, lanciare, mettere ..
-	-
+  -  verbi di azione. Es.  spargere, lanciare, mettere ..
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Frequent
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-  Phrase
-	-
+  -  Phrase
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   lexically filled
@@ -51,11 +51,11 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_112_example_1.txt
+  - cxn_112_example_1.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

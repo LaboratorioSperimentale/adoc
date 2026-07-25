@@ -8,47 +8,47 @@ cxn-machine-readable-formalization: |
   cxn_119.conllc
 
 form: |
-	-  DET X dei poveri
-	-
+  -  DET X dei poveri
+  -
 
 function: |
-	-  QUALIFICATION of an external item Y through the reference to
+  -  QUALIFICATION of an external item Y through the reference to
   X
-	-  You may use this phrase to qualify something or someone
+  -  You may use this phrase to qualify something or someone
   which corresponds to a worse version of something or someone
   else. The 'good' versions you make reference to should
   belong to the collective knowledge: well-known things
   (concrete or abstract) or famous people. The sense of the
   phrase is to describe Y as a low-quality thing but still as
   the best options one can get in lack of resources.
-	-
+  -
 
 restrictions: |
-	-  X = N | any other part of speech used as a noun in a
+  -  X = N | any other part of speech used as a noun in a
   synctactc sense X doesn't accept modifiers
-	-
+  -
 
 coll-preferences: |
-	-  X is often a proper noun or a noun that denotes a type of
+  -  X is often a proper noun or a noun that denotes a type of
   food/common use object
-	-
+  -
 
 usage: |
   Infrequent
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-  Phrase
-	-
+  -  Phrase
+  -
 
 category-tags: |
-	-  Noun
-	-
+  -  Noun
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -60,15 +60,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_119_example_1.txt
-	- cxn_119_example_2.txt
-	- cxn_119_example_3.txt
-	- cxn_119_example_4.txt
-	- cxn_119_example_5.txt
+  - cxn_119_example_1.txt
+  - cxn_119_example_2.txt
+  - cxn_119_example_3.txt
+  - cxn_119_example_4.txt
+  - cxn_119_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

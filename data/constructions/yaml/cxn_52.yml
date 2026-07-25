@@ -8,48 +8,48 @@ cxn-machine-readable-formalization: |
   cxn_52.conllc
 
 form: |
-	-  avere la coda di paglia
-	-
+  -  avere la coda di paglia
+  -
 
 function: |
-	-  Espressione utilizzata per indicare senso di colpa,
+  -  Espressione utilizzata per indicare senso di colpa,
   coscienza sporca, timore che qualcuno stia alludendo a fatti
   e/o difetti di cui ci si vergogna.
-	-
-	-  La costruzione avere la coda di paglia è idiomatica a
+  -
+  -  La costruzione avere la coda di paglia è idiomatica a
   livello di funzione perché non rispetta il principio di
   composizionalità, ovvero non è possibile dedurre il suo
   significato complessivo a partire dalla somma dei
   significati delle sue parti. 
 
 restrictions: |
-	-
-	-  La Costruzione presentà un'altissima fissità sintattica,
+  -
+  -  La Costruzione presentà un'altissima fissità sintattica,
   eccezion fatta per il verbo avere. Accetta di essere
   interrotta da aggettivi o avverbi ma non ammette
   dislocazioni.
 
 coll-preferences: |
-	-
-	-  La Costruzione è interamente fissata a livello lessicale,
+  -
+  -  La Costruzione è interamente fissata a livello lessicale,
   non ammette collocazioni che non siano quelle
   dell'espressione idiomatica di partenza.
 
 usage: |
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   lexically filled
@@ -61,12 +61,12 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_52_example_1.txt
-	- cxn_52_example_2.txt
+  - cxn_52_example_1.txt
+  - cxn_52_example_2.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

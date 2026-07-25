@@ -8,40 +8,40 @@ cxn-machine-readable-formalization: |
   cxn_46.conllc
 
 form: |
-	-  Art. Indet. + N(sacco) + Prep. (di) + N
-	-
+  -  Art. Indet. + N(sacco) + Prep. (di) + N
+  -
 
 function: |
-	-  La costruzione esprime una quantità elevata, ma indefinita,
+  -  La costruzione esprime una quantità elevata, ma indefinita,
   di qualcosa di specifico, anche astratto.
-	-
-	-  La forma della costruzione esprime una quantità che non può
+  -
+  -  La forma della costruzione esprime una quantità che non può
   essere solo quella compresa in un sacco
 
 restrictions: |
-	-
-	-  Solo italiano colloquiale.
+  -
+  -  Solo italiano colloquiale.
 
 coll-preferences: |
-	-
-	-  L'ordine dei componenti non è variabile e si presenta solo
+  -
+  -  L'ordine dei componenti non è variabile e si presenta solo
   in questa forma.
 
 usage: |
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -53,15 +53,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_46_example_1.txt
-	- cxn_46_example_2.txt
-	- cxn_46_example_3.txt
-	- cxn_46_example_4.txt
-	- cxn_46_example_5.txt
+  - cxn_46_example_1.txt
+  - cxn_46_example_2.txt
+  - cxn_46_example_3.txt
+  - cxn_46_example_4.txt
+  - cxn_46_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

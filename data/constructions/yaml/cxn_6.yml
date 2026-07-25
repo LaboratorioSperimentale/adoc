@@ -8,45 +8,45 @@ cxn-machine-readable-formalization: |
   cxn_6.conllc
 
 form: |
-	-  V. parlare + prep. + N
-	-  Perché non ci sono anomalie morfosintattiche
+  -  V. parlare + prep. + N
+  -  Perché non ci sono anomalie morfosintattiche
 
 function: |
-	-  La Costruzione indica l'assenza di ascolto da parte del
+  -  La Costruzione indica l'assenza di ascolto da parte del
   destinatario, ovvero l'azione del parlare senza essere
   ascoltati.
-	-
-	-  Perché il significato del costrutto non è strettamente
+  -
+  -  Perché il significato del costrutto non è strettamente
   deducibile: esso indica la vanità dell'azione del parlare,
   ma non individua, ad esempio nel muro, il vero e proprio
   interlocutore.
 
 restrictions: |
-	-
-	-  Perché l'espressione ha una flessibilità limitata: lo slot N
+  -
+  -  Perché l'espressione ha una flessibilità limitata: lo slot N
   può essere riempito solo da un ristretto numero di nomi che
   veicolano l'idea di assenza di feedback. L'ordine delle
   parole.
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -58,13 +58,13 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_6_example_1.txt
-	- cxn_6_example_2.txt
-	- cxn_6_example_3.txt
+  - cxn_6_example_1.txt
+  - cxn_6_example_2.txt
+  - cxn_6_example_3.txt
 
 note: |
-	-
-	-  USAGE: Perché nonostante l'espressione possa essere
+  -
+  -  USAGE: Perché nonostante l'espressione possa essere
   formulata in vario modo( es. parlare alle pareti o parlare
   ai non udenti), il parlante la seleziona e la riconosce come
   convenzionalizzata.

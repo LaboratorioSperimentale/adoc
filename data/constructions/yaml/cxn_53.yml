@@ -8,46 +8,46 @@ cxn-machine-readable-formalization: |
   cxn_53.conllc
 
 form: |
-	-  (PROdat+)V3Sing"Venire"Temp+Prep"Da"+VInf
-	-  Forma simile alle proposizioni impersonali, ma queste di
+  -  (PROdat+)V3Sing"Venire"Temp+Prep"Da"+VInf
+  -  Forma simile alle proposizioni impersonali, ma queste di
   solito sono seguite dalla preposizione “di” oppure
   direttamente da un verbo all’infinito. Qui invece troviamo
   la preposizione “da”.
 
 function: |
-	-  Esprime una reazione spontanea a uno stimolo sia interno che
+  -  Esprime una reazione spontanea a uno stimolo sia interno che
   esterno. 
-	-
-	-
+  -
+  -
 
 restrictions: |
-	-
-	-  Verbi che esprimono una reazione a uno stimolo improvviso
+  -
+  -  Verbi che esprimono una reazione a uno stimolo improvviso
   sia interno che esterno. Quindi non può essere un’azione
   preponderata:Mi viene da dire. MA NON: *mi viene da
   enunciare.
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
 
 formal-tags: 
-	- complex-predicates >> cc:cxn:complex-predicate
-	- extragrammatical
+  - complex-predicates >> cc:cxn:complex-predicate
+  - extragrammatical
 
 functional-tags: 
-	- modalità-dell'azione
-	- context-dependence
+  - modalità-dell'azione
+  - context-dependence
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -59,15 +59,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_53_example_1.txt
-	- cxn_53_example_2.txt
-	- cxn_53_example_3.txt
-	- cxn_53_example_4.txt
-	- cxn_53_example_5.txt
+  - cxn_53_example_1.txt
+  - cxn_53_example_2.txt
+  - cxn_53_example_3.txt
+  - cxn_53_example_4.txt
+  - cxn_53_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

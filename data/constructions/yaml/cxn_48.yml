@@ -8,20 +8,20 @@ cxn-machine-readable-formalization: |
   cxn_48.conllc
 
 form: |
-	-  S spingere (O) a V 
-	-
+  -  S spingere (O) a V 
+  -
 
 function: |
-	-  X determines/influences (Y) to [do something]z
-	-
-	-  Il verbo spingere, in relazione con la costruzione nel
+  -  X determines/influences (Y) to [do something]z
+  -
+  -  Il verbo spingere, in relazione con la costruzione nel
   complesso, assume un valore semantico specifico,
   riconducibile alla formula «esercitare influenza al punto
   da»
 
 restrictions: |
-	-
-	-  X= N, nominalized sentence (formal/specialized register),
+  -
+  -  X= N, nominalized sentence (formal/specialized register),
   pronoun; more rarely V Y does not necessarily occur. If
   present,  Y= N, nominalized sentence (formal/specialized
   register), pronoun Z= V;     possible, but very rarely
@@ -29,8 +29,8 @@ restrictions: |
   different construction
 
 coll-preferences: |
-	-
-	-  La stessa costruzione sembrerebbe ammettere in maniera
+  -
+  -  La stessa costruzione sembrerebbe ammettere in maniera
   equivalente il verbo “spingere” e il verbo “portare”.
   Eppure, la scelta dell’uno o dell’altro verbo sembrerebbe
   orientare il meaning della costruzione verso direzioni
@@ -43,18 +43,18 @@ coll-preferences: |
 usage: |
 
 formal-tags: 
-	- S-V-O-to-V-patterns
+  - S-V-O-to-V-patterns
 
 functional-tags: 
-	- Causative-construction---------(the-subject-causes-an-action-to-be-performed)
+  - Causative-construction---------(the-subject-causes-an-action-to-be-performed)
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -66,19 +66,19 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_48_example_1.txt
-	- cxn_48_example_2.txt
-	- cxn_48_example_3.txt
-	- cxn_48_example_4.txt
-	- cxn_48_example_5.txt
+  - cxn_48_example_1.txt
+  - cxn_48_example_2.txt
+  - cxn_48_example_3.txt
+  - cxn_48_example_4.txt
+  - cxn_48_example_5.txt
 
 note: |
-	-  La costruzione descritta tende spesso ad occorrere
+  -  La costruzione descritta tende spesso ad occorrere
   intersecata con una costruzione relativa --> S che spingere
   (O) a V        Es. La cosa che ci ha spinto a fare musica
   insieme è stata l’amore per le radici che sentivamo in
   qualche modo comuni. Source: corpusitaliano.it
-	-  USAGE: CONVENZIONALIZZAZIONE: si riscontra una preferenza,
+  -  USAGE: CONVENZIONALIZZAZIONE: si riscontra una preferenza,
   de facto, nella scelta del verbo per la costruzione
   dell’idiom          Alcuni recenti studi hanno spinto a
   ipotizzare che mangiare cioccolato...              ?? Alcuni

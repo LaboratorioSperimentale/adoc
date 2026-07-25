@@ -8,46 +8,46 @@ cxn-machine-readable-formalization: |
   cxn_4.conllc
 
 form: |
-	-  Xi Adv1 Xi Adv2
-	-
+  -  Xi Adv1 Xi Adv2
+  -
 
 function: |
-	-  PLURALITY|VARIETY of X
-	-
-	-
+  -  PLURALITY|VARIETY of X
+  -
+  -
 
 restrictions: |
-	-  Adv1 / Adv2 = deictic spatial adverbs Adv1 = antonym of Adv2
+  -  Adv1 / Adv2 = deictic spatial adverbs Adv1 = antonym of Adv2
   The order in which the two Advs appear is restricted (fixed
   order). 
-	-
+  -
 
 coll-preferences: |
-	-  X = tendentially N or V (other categories are possible but
+  -  X = tendentially N or V (other categories are possible but
   marginal) X = tendentially single word (other elements, like
   phrases or sentences, are possible but more marginal) The
   construction is instantiated by daughter-constructions with
   their own collocational preferences.
-	-
+  -
 
 usage: |
   Infrequent
 
 formal-tags: 
-	- reduplication
-	- repetition
+  - reduplication
+  - repetition
 
 functional-tags: 
-	- plurality
-	- intensification
+  - plurality
+  - intensification
 
 complexity-level-tags: |
-	-  Word, Phrase
-	-  Phrase
+  -  Word, Phrase
+  -  Phrase
 
 category-tags: |
-	-  Adverb
-	-  Noun
+  -  Adverb
+  -  Noun
 
 schematicity-level: |
   fully schematic
@@ -59,18 +59,18 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_4_example_1.txt
-	- cxn_4_example_2.txt
-	- cxn_4_example_3.txt
-	- cxn_4_example_4.txt
-	- cxn_4_example_5.txt
+  - cxn_4_example_1.txt
+  - cxn_4_example_2.txt
+  - cxn_4_example_3.txt
+  - cxn_4_example_4.txt
+  - cxn_4_example_5.txt
 
 note: |
-	-  The function of the construction is not predictable from its
+  -  The function of the construction is not predictable from its
   parts. The construction is instantiated by daughter-
   constructions, each of which has slightly distinct (albeit
   related) functions and more specific properties.
-	-  USAGE:
+  -  USAGE:
 
 references: |
 

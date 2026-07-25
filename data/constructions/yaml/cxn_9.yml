@@ -8,43 +8,43 @@ cxn-machine-readable-formalization: |
   cxn_9.conllc
 
 form: |
-	-  [simil-[x]Xj]Xi
-	-
+  -  [simil-[x]Xj]Xi
+  -
 
 function: |
-	-  [APPROXIMATION of SEMj]i
-	-  The simil- construction creates complex nouns/adjective with
+  -  [APPROXIMATION of SEMj]i
+  -  The simil- construction creates complex nouns/adjective with
   the prefixoid simil- which don't simply convey similarity
   but have developed a network of senses connected with the
   expression of approximation.
-	-
+  -
 
 restrictions: |
-	-  X = N or A (more marginally V) X = words but also phrases
-	-
+  -  X = N or A (more marginally V) X = words but also phrases
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Infrequent
 
 formal-tags: 
-	- prefixation
-	- affixoid
+  - prefixation
+  - affixoid
 
 functional-tags: 
-	- evaluative-morphology
-	- approximation
+  - evaluative-morphology
+  - approximation
 
 complexity-level-tags: |
-	-  Word, Phrase
-	-  Phrase
+  -  Word, Phrase
+  -  Phrase
 
 category-tags: |
-	-  Noun, Adjective
-	-  Adjective
+  -  Noun, Adjective
+  -  Adjective
 
 schematicity-level: |
   partially filled/schematic
@@ -57,18 +57,18 @@ vertical-links: |
   163
 
 examples: 
-	- cxn_9_example_1.txt
-	- cxn_9_example_2.txt
-	- cxn_9_example_3.txt
-	- cxn_9_example_4.txt
-	- cxn_9_example_5.txt
+  - cxn_9_example_1.txt
+  - cxn_9_example_2.txt
+  - cxn_9_example_3.txt
+  - cxn_9_example_4.txt
+  - cxn_9_example_5.txt
 
 note: |
-	-  The construction is instantiated by daughter-constructions,
+  -  The construction is instantiated by daughter-constructions,
   each of which has slightly distinct (albeit related)
   functions and more specific properties and collocational
   preferences.
-	-  USAGE:
+  -  USAGE:
 
 references: |
 

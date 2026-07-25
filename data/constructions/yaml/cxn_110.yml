@@ -8,42 +8,42 @@ cxn-machine-readable-formalization: |
   cxn_110.conllc
 
 form: |
-	-  tanto x quanto y
-	-
+  -  tanto x quanto y
+  -
 
 function: |
-	-  semantica
-	-  Se in un enunciato sono presenti "tanto" e "quanto" in
+  -  semantica
+  -  Se in un enunciato sono presenti "tanto" e "quanto" in
   correlazione, introducono due elementi messi in relazione di
   uguaglianza. Ovvero i due elementi sono paragonati e vengono
   considerati sullo stesso piano. "Tanto" e "quanto" possono
   essere seguiti da aggettivi, da sintagmi verbali e nominali.
-	-
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Average
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-  Clause
-	-
+  -  Clause
+  -
 
 category-tags: |
-	-  Adverb
-	-
+  -  Adverb
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -55,13 +55,13 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_110_example_1.txt
-	- cxn_110_example_2.txt
-	- cxn_110_example_3.txt
+  - cxn_110_example_1.txt
+  - cxn_110_example_2.txt
+  - cxn_110_example_3.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

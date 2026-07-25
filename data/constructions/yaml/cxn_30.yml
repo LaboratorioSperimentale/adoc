@@ -9,9 +9,9 @@ cxn-machine-readable-formalization: |
   cxn_30.conllc
 
 form: |
-	-  A scanso di X Prep a + N scanso + Prep di + X X --> N;  Det+
+  -  A scanso di X Prep a + N scanso + Prep di + X X --> N;  Det+
   N; Det+Adj+N;  Det1 + Det2 + Adj1 + Adj2 + N; ...
-	-  Il sostantivo maschile "scanso" in forma nominale è una
+  -  Il sostantivo maschile "scanso" in forma nominale è una
   forma anomala poichè utilizzato solo nella locuzione "A
   scanso di". Non esistono (o non sono utilizzate) frasi come
   "Lo scanso di Marco nei confronti di Laura o "La volontà di
@@ -19,18 +19,18 @@ form: |
   non appropriate)...
 
 function: |
-	-  La costruzione è utilizzata per prevenire, evitare o
+  -  La costruzione è utilizzata per prevenire, evitare o
   eliminare l'ipotesi che X si verifichi. 
-	-
-	-
+  -
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-  - utilizzata prevalentemente nella forma "A scanso di + Npl"
+  -
+  -  - utilizzata prevalentemente nella forma "A scanso di + Npl"
   dove N= equivoci.  - Generalmente N chiude la costruzione
   (vedi esempi dai corpora). Si possono tuttavia trovare forme
   come "A scanso di chiusura dello stabilimento monzese[...]"
@@ -45,20 +45,20 @@ coll-preferences: |
 usage: |
 
 formal-tags: 
-	- Substantive-idiom
-	- unfamiliar-piece
-	- unfamiliarly-rearranged
+  - Substantive-idiom
+  - unfamiliar-piece
+  - unfamiliarly-rearranged
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -70,15 +70,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_30_example_1.txt
-	- cxn_30_example_2.txt
-	- cxn_30_example_3.txt
-	- cxn_30_example_4.txt
-	- cxn_30_example_5.txt
+  - cxn_30_example_1.txt
+  - cxn_30_example_2.txt
+  - cxn_30_example_3.txt
+  - cxn_30_example_4.txt
+  - cxn_30_example_5.txt
 
 note: |
-	-
-	-  USAGE: particolarmente usato - e preferito- in incisi nel
+  -
+  -  USAGE: particolarmente usato - e preferito- in incisi nel
   linguaggio colloquiale e giornalistico, è ad alto uso quando
   si vuole scongiurare la teorica eventualità che qualcosa si
   verifichi. Parzialmente produttivo.

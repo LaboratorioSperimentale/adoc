@@ -8,43 +8,43 @@ cxn-machine-readable-formalization: |
   cxn_72.conllc
 
 form: |
-	-  quello che V è X Formal variants: ciò che V è X; quello che
+  -  quello che V è X Formal variants: ciò che V è X; quello che
   V sono x; ciò che V sono X
-	-
+  -
 
 function: |
-	-  Focusing structure encoding exhaustiveness and
+  -  Focusing structure encoding exhaustiveness and
   intensification
-	-  In this structure, X is the only element of the AD
+  -  In this structure, X is the only element of the AD
   HOC category created by V that is valid in the context
-	-
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-  X = tendentially a noun or a clause
-	-
+  -  X = tendentially a noun or a clause
+  -
 
 usage: |
   Average
 
 formal-tags: 
-	- cleft-like-construction
+  - cleft-like-construction
 
 functional-tags: 
-	- intensification
-	- limitatezza
-	- focus-marker
+  - intensification
+  - limitatezza
+  - focus-marker
 
 complexity-level-tags: |
-	-  Word, Phrase
-	-
+  -  Word, Phrase
+  -
 
 category-tags: |
-	-  Noun, Verb, Other
-	-
+  -  Noun, Verb, Other
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -56,15 +56,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_72_example_1.txt
-	- cxn_72_example_2.txt
-	- cxn_72_example_3.txt
-	- cxn_72_example_4.txt
-	- cxn_72_example_5.txt
+  - cxn_72_example_1.txt
+  - cxn_72_example_2.txt
+  - cxn_72_example_3.txt
+  - cxn_72_example_4.txt
+  - cxn_72_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

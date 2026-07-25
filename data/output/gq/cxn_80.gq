@@ -1,5 +1,0 @@
-pattern {
-  A [lemma="su", upos=ADP, form=/su/i];
-  B [upos=NOUN];
-  B -[case]-> A;
-}

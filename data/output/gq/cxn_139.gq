@@ -1,5 +1,0 @@
-pattern {
-  A [upos=VERB];
-  B [lemma="volere", upos=VERB, form=/vuoi/i, Mood=Ind, Number=Sing, Person=2, Tense=Pres, VerbForm=Fin];
-  A -[conj]-> B;
-}

@@ -8,42 +8,42 @@ cxn-machine-readable-formalization: |
   cxn_105.conllc
 
 form: |
-	-  V ("stare") + Prep ("per") + V
-	-
+  -  V ("stare") + Prep ("per") + V
+  -
 
 function: |
-	-  Semantico-pragmatica (imminenza di un'azione, intenzione)
-	-  Formula per indicare l'intenzione imminente e temporalmente
+  -  Semantico-pragmatica (imminenza di un'azione, intenzione)
+  -  Formula per indicare l'intenzione imminente e temporalmente
   vicina rispetto al momento di pronuncia di un'azione /stato.
   Estremamente produttiva, la varaibile V specifica il
   significato lessicale del sintagma, mentre la sezione
   iniziale (V + Prep) dà informazioni pragmatiche.
-	-
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Frequent
 
 formal-tags: 
-	- formal-idiom
+  - formal-idiom
 
 functional-tags: 
-	- time >> cc:sem:time
+  - time >> cc:sem:time
 
 complexity-level-tags: |
-	-  Phrase
-	-
+  -  Phrase
+  -
 
 category-tags: |
-	-  Verb
-	-
+  -  Verb
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -55,15 +55,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_105_example_1.txt
-	- cxn_105_example_2.txt
-	- cxn_105_example_3.txt
-	- cxn_105_example_4.txt
-	- cxn_105_example_5.txt
+  - cxn_105_example_1.txt
+  - cxn_105_example_2.txt
+  - cxn_105_example_3.txt
+  - cxn_105_example_4.txt
+  - cxn_105_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

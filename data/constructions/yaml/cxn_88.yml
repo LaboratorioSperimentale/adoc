@@ -8,39 +8,39 @@ cxn-machine-readable-formalization: |
   cxn_88.conllc
 
 form: |
-	-  prendere + Prep + Art + N
-	-
+  -  prendere + Prep + Art + N
+  -
 
 function: |
-	-  Pragmatic
-	-  It is a construction used to fool someone or to make fun of
+  -  Pragmatic
+  -  It is a construction used to fool someone or to make fun of
   someone
-	-
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Frequent
 
 formal-tags: 
-	- formal-idiom
+  - formal-idiom
 
 functional-tags: 
-	- intensification
+  - intensification
 
 complexity-level-tags: |
-	-  Phrase
-	-
+  -  Phrase
+  -
 
 category-tags: |
-	-  Noun, Verb, Preposition
-	-
+  -  Noun, Verb, Preposition
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -52,15 +52,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_88_example_1.txt
-	- cxn_88_example_2.txt
-	- cxn_88_example_3.txt
-	- cxn_88_example_4.txt
-	- cxn_88_example_5.txt
+  - cxn_88_example_1.txt
+  - cxn_88_example_2.txt
+  - cxn_88_example_3.txt
+  - cxn_88_example_4.txt
+  - cxn_88_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

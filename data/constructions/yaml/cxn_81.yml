@@ -8,40 +8,40 @@ cxn-machine-readable-formalization: |
   cxn_81.conllc
 
 form: |
-	-  V + N
-	-
+  -  V + N
+  -
 
 function: |
-	-  pragmatica
-	-  Farsi sentire, manifestare la propria presenza
-	-
+  -  pragmatica
+  -  Farsi sentire, manifestare la propria presenza
+  -
 
 restrictions: |
-	-  l'ordine e la forma delle parole non possono cambiare
-	-
+  -  l'ordine e la forma delle parole non possono cambiare
+  -
 
 coll-preferences: |
-	-  V all'imperativo
-	-
+  -  V all'imperativo
+  -
 
 usage: |
   Average
 
 formal-tags: 
-	- Substantive-idiom
-	- idiom-of-encoding
-	- lexically-filled-idiom
+  - Substantive-idiom
+  - idiom-of-encoding
+  - lexically-filled-idiom
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-  Clause
-	-
+  -  Clause
+  -
 
 category-tags: |
-	-  Noun, Verb
-	-
+  -  Noun, Verb
+  -
 
 schematicity-level: |
   lexically filled
@@ -53,14 +53,14 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_81_example_1.txt
-	- cxn_81_example_2.txt
-	- cxn_81_example_3.txt
-	- cxn_81_example_4.txt
+  - cxn_81_example_1.txt
+  - cxn_81_example_2.txt
+  - cxn_81_example_3.txt
+  - cxn_81_example_4.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

@@ -1,5 +1,0 @@
-pattern {
-  A [upos=VERB];
-  B [];
-  A -[obj]-> B;
-}

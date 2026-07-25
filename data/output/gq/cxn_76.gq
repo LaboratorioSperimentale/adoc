@@ -1,7 +1,0 @@
-pattern {
-  A [upos=NOUN];
-  B [upos=ADP];
-  C [upos=NOUN];
-  C -[case]-> B;
-  A -[nmod]-> C;
-}

@@ -8,41 +8,41 @@ cxn-machine-readable-formalization: |
   cxn_71.conllc
 
 form: |
-	-  NP_subj V NP_obj a NP_compl 
-	-
+  -  NP_subj V NP_obj a NP_compl 
+  -
 
 function: |
-	-  literal or metaphorical tranfer of Theme (NP_obj) from Agent
+  -  literal or metaphorical tranfer of Theme (NP_obj) from Agent
   (Np_subj) to Beneficiary (a NP_compl) through the Verb 
-	-
-	-
+  -
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
 
 formal-tags: 
-	- argument-structure-construction >> cc:cxn:clause
-	- Dative-construction
-	- Preposition-a
-	- "Double-Object"-construction
+  - argument-structure-construction >> cc:cxn:clause
+  - Dative-construction
+  - Preposition-a
+  - Double-Object-construction
 
 functional-tags: 
-	- Beneficiary-construction
+  - Beneficiary-construction
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   fully schematic
@@ -54,12 +54,12 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	
+  
 
 note: |
-	-  - general meaning of transfer (metaphorical or literal) -
+  -  - general meaning of transfer (metaphorical or literal) -
   allostruction/ formal variant: NP V a NP NP ???
-	-  USAGE:
+  -  USAGE:
 
 references: |
 

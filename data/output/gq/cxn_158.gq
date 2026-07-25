@@ -1,5 +1,0 @@
-pattern {
-  A [lemma="essere", upos=AUX];
-  B [upos=VERB, Gender=Masc, Tense=Past, VerbForm=Part];
-  B -[aux:pass]-> A;
-}

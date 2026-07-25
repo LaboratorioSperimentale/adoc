@@ -8,25 +8,25 @@ cxn-machine-readable-formalization: |
   cxn_171.conllc
 
 form: |
-	-  X1 - Y - X2 - Y, dove X1= tanto; X2= quanto; Y= spazio da
+  -  X1 - Y - X2 - Y, dove X1= tanto; X2= quanto; Y= spazio da
   riempire. 
-	-
+  -
 
 function: |
-	-  Costruzione comparativa / di uguaglianza
-	-  In italiano questa espressione può essere ritenuta come
+  -  Costruzione comparativa / di uguaglianza
+  -  In italiano questa espressione può essere ritenuta come
   appartenente alla categoria dei formal idioms, in quanto si
   tratta di una costruzione rigida, ma allo stesso tempo
   produttiva; dal momento che i due avverbi possono essere
   seguiti da qualsiasi parola.  
-	-
+  -
 
 restrictions: |
-	-  Costruzione con Y= verbo Y - X1 - X2 - Y
-	-
+  -  Costruzione con Y= verbo Y - X1 - X2 - Y
+  -
 
 coll-preferences: |
-	-  Tipicamente le parole che riempiono gli spazi tra i due
+  -  Tipicamente le parole che riempiono gli spazi tra i due
   avverbi sono aggettivi. (ex. 1) In particolare poi, è molto
   frequente la costruzione con aggettivi in relazione di
   antonimia. (ex. 2) Inoltre, è possibile che al posto degli
@@ -36,24 +36,24 @@ coll-preferences: |
   L’ultima modalità con cui questa struttura può essere
   utilizzata consiste nel combinare categorie di parole
   differenti associate all’elemento Y. (ex. 6) 
-	-
+  -
 
 usage: |
   Standard
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -65,19 +65,19 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_171_example_1.txt
-	- cxn_171_example_2.txt
-	- cxn_171_example_3.txt
-	- cxn_171_example_4.txt
-	- cxn_171_example_5.txt
+  - cxn_171_example_1.txt
+  - cxn_171_example_2.txt
+  - cxn_171_example_3.txt
+  - cxn_171_example_4.txt
+  - cxn_171_example_5.txt
 
 note: |
-	-  Ex. 6  Il conduttore assegna loro tanti punti quanto è il
+  -  Ex. 6  Il conduttore assegna loro tanti punti quanto è il
   valore complessivo degli oggetti.  La pianta rilascia tanta
   CO2 quanta ne assume. Una tazza di yogurt ha tanto calcio
   quanto una di latte.  Fonte: Corpus ItalianWeb2020 - Sketch
   Engine
-	-  USAGE:
+  -  USAGE:
 
 references: |
 

@@ -1,7 +1,0 @@
-pattern {
-  A [lemma="ne", upos=PRON, form=/ne/i, PronType=Prs];
-  B [lemma="uscire", upos=VERB];
-  C [];
-  B -[obl]-> A;
-  B -[xcomp]-> C;
-}

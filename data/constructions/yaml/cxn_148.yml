@@ -8,42 +8,42 @@ cxn-machine-readable-formalization: |
   cxn_148.conllc
 
 form: |
-	-  [[x]Vαk [y]Vβi]Nγj
-	-
+  -  [[x]Vαk [y]Vβi]Nγj
+  -
 
 function: |
-	-  [ACTION] [ACTION PERFORMED BY SEVERAL PEOPLE]
-	-  VV compounds
-	-
+  -  [ACTION] [ACTION PERFORMED BY SEVERAL PEOPLE]
+  -  VV compounds
+  -
 
 restrictions: |
-	-  [x] and [y] are bisyllabic verbs when [x] and [y] are the
+  -  [x] and [y] are bisyllabic verbs when [x] and [y] are the
   same verb reduplicated, the compound refer to an action
   performed by several people
-	-
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Infrequent
 
 formal-tags: 
-	- reduplication
-	- compounding >> cc:str:compounding
-	- morphology
+  - reduplication
+  - compounding >> cc:str:compounding
+  - morphology
 
 functional-tags: 
-	- event-nouns
+  - event-nouns
 
 complexity-level-tags: |
-	-  Word
-	-
+  -  Word
+  -
 
 category-tags: |
-	-  Noun
-	-
+  -  Noun
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -56,12 +56,12 @@ vertical-links: |
   146
 
 examples: 
-	- cxn_148_example_1.txt
-	- cxn_148_example_2.txt
+  - cxn_148_example_1.txt
+  - cxn_148_example_2.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

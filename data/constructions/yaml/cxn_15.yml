@@ -8,43 +8,43 @@ cxn-machine-readable-formalization: |
   cxn_15.conllc
 
 form: |
-	-  piove + Avv di modo
-	-  non presenta anomalie dal punto di vista sintattico
+  -  piove + Avv di modo
+  -  non presenta anomalie dal punto di vista sintattico
 
 function: |
-	-  l’espressione viene utilizzata per indicare una pioggia
+  -  l’espressione viene utilizzata per indicare una pioggia
   abbondante
-	-
-	-  non è idiomatica perché il significato dell’espressione è
+  -
+  -  non è idiomatica perché il significato dell’espressione è
   deducibile dalla somma dei significati dei componenti che la
   costituiscono
 
 restrictions: |
-	-
-	-  il verbo deve essere impersonale e selezionare
+  -
+  -  il verbo deve essere impersonale e selezionare
   necessariamente una locuzione avverbiale di modo
 
 coll-preferences: |
-	-
-	-  come testimoniato nel corpus di riferimento, il verbo
+  -
+  -  come testimoniato nel corpus di riferimento, il verbo
   occorre unicamente con tre espressioni di modo quali “a
   catinelle”, “a dirotto”, “a cascate”
 
 usage: |
 
 formal-tags: 
-	- modality
+  - modality
 
 functional-tags: 
-	- intensification
+  - intensification
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -56,13 +56,13 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_15_example_1.txt
-	- cxn_15_example_2.txt
-	- cxn_15_example_3.txt
+  - cxn_15_example_1.txt
+  - cxn_15_example_2.txt
+  - cxn_15_example_3.txt
 
 note: |
-	-
-	-  USAGE: è un’espressione utilizzata di frequente dai parlanti
+  -
+  -  USAGE: è un’espressione utilizzata di frequente dai parlanti
   nativi per descrivere abbondanti piogge. Viene utilizzata al
   posto di espressioni come: “piove tanto”, “piove
   abbondantemente”, per porre l’enfasi sul concetto di

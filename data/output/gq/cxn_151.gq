@@ -1,7 +1,0 @@
-pattern {
-  A [upos=VERB, Mood=Ind, VerbForm=Fin];
-  B [lemma="via", upos=ADV, form=/via/i];
-  C [];
-  A -[advmod]-> B;
-  A -[obj]-> C;
-}

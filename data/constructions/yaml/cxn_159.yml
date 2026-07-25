@@ -8,40 +8,40 @@ cxn-machine-readable-formalization: |
   cxn_159.conllc
 
 form: |
-	-  N + V + N + (NP|AdjP)pred
-	-
+  -  N + V + N + (NP|AdjP)pred
+  -
 
 function: |
-	-  consiste in un Soggetto che assegna ad un Tema (oggetto
+  -  consiste in un Soggetto che assegna ad un Tema (oggetto
   diretto) una caratteristica o una categoria, espressa in un
   sintagma nominale o aggettivale
-	-
-	-
+  -
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Average
 
 formal-tags: 
-	- argument-structure-construction >> cc:cxn:clause
+  - argument-structure-construction >> cc:cxn:clause
 
 functional-tags: 
-	- predicative >> cc:inf:predication
+  - predicative >> cc:inf:predication
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   fully schematic
@@ -53,20 +53,20 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_159_example_1.txt
-	- cxn_159_example_2.txt
-	- cxn_159_example_3.txt
-	- cxn_159_example_4.txt
-	- cxn_159_example_5.txt
-	- cxn_172_example_1.txt
-	- cxn_172_example_2.txt
-	- cxn_172_example_3.txt
-	- cxn_172_example_4.txt
-	- cxn_172_example_5.txt
+  - cxn_159_example_1.txt
+  - cxn_159_example_2.txt
+  - cxn_159_example_3.txt
+  - cxn_159_example_4.txt
+  - cxn_159_example_5.txt
+  - cxn_172_example_1.txt
+  - cxn_172_example_2.txt
+  - cxn_172_example_3.txt
+  - cxn_172_example_4.txt
+  - cxn_172_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

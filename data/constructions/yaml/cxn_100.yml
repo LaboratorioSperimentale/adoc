@@ -8,47 +8,47 @@ cxn-machine-readable-formalization: |
   cxn_100.conllc
 
 form: |
-	-  quanto sono Adj (di X)
-	-
+  -  quanto sono Adj (di X)
+  -
 
 function: |
-	-  Expression of and emphasis on a feeling and, if specified,
+  -  Expression of and emphasis on a feeling and, if specified,
   what causes it.
-	-  The construction is used mainly in informal settings to
+  -  The construction is used mainly in informal settings to
   express and intensify the feeling of an emotion. Adj
   describes a feeling experienced by the subject and X
   expresses the reasons of that feeling.
-	-
+  -
 
 restrictions: |
-	-  Adj= expresses a feeling X= V or N or a phrase. It can also
+  -  Adj= expresses a feeling X= V or N or a phrase. It can also
   be unspecified or implicit.
-	-
+  -
 
 coll-preferences: |
-	-  When X = V, V tendentially describes an action done by the
+  -  When X = V, V tendentially describes an action done by the
   speaker
-	-
+  -
 
 usage: |
   Average
 
 formal-tags: 
-	- lexically-open
-	- grammatical-idiom
-	- unformal
+  - lexically-open
+  - grammatical-idiom
+  - unformal
 
 functional-tags: 
-	- intensification
-	- EMOTIVE
+  - intensification
+  - EMOTIVE
 
 complexity-level-tags: |
-	-  Phrase
-	-
+  -  Phrase
+  -
 
 category-tags: |
-	-  Noun, Verb, Adjective
-	-
+  -  Noun, Verb, Adjective
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -60,15 +60,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_100_example_1.txt
-	- cxn_100_example_2.txt
-	- cxn_100_example_3.txt
-	- cxn_100_example_4.txt
-	- cxn_100_example_5.txt
+  - cxn_100_example_1.txt
+  - cxn_100_example_2.txt
+  - cxn_100_example_3.txt
+  - cxn_100_example_4.txt
+  - cxn_100_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

@@ -8,42 +8,42 @@ cxn-machine-readable-formalization: |
   cxn_77.conllc
 
 form: |
-	-  a N
-	-
+  -  a N
+  -
 
 function: |
-	-  MODALITY
-	-  This PREPOSITIONAL PHRASE represents the modality in which
+  -  MODALITY
+  -  This PREPOSITIONAL PHRASE represents the modality in which
   is carried out a certain action, thus involving a VERB, but
   it can also be attached to NOUNS (see for instance bagaglio
   a mano).
-	-
+  -
 
 restrictions: |
-	-  The NOUN can be determined (al sangue, al taglio).
-	-
+  -  The NOUN can be determined (al sangue, al taglio).
+  -
 
 coll-preferences: |
-	-  It often appears with nouns referring to body parts,
+  -  It often appears with nouns referring to body parts,
   sensations or reckoning.
-	-
+  -
 
 usage: |
   Frequent
 
 formal-tags: 
-	- prepositional-phrase
+  - prepositional-phrase
 
 functional-tags: 
-	- modalità-dell'azione
+  - modalità-dell'azione
 
 complexity-level-tags: |
-	-  Phrase
-	-
+  -  Phrase
+  -
 
 category-tags: |
-	-  Adverb
-	-
+  -  Adverb
+  -
 
 schematicity-level: |
   fully schematic
@@ -55,17 +55,17 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_77_example_1.txt
-	- cxn_77_example_2.txt
-	- cxn_77_example_3.txt
-	- cxn_77_example_4.txt
-	- cxn_77_example_5.txt
+  - cxn_77_example_1.txt
+  - cxn_77_example_2.txt
+  - cxn_77_example_3.txt
+  - cxn_77_example_4.txt
+  - cxn_77_example_5.txt
 
 note: |
-	-  Other examples can be: a occhio, a naso, a senso, a
+  -  Other examples can be: a occhio, a naso, a senso, a
   regola (variante di come regola)... a logica is probably
   restricted in (at least) the Tuscany area.
-	-  USAGE:
+  -  USAGE:
 
 references: |
 

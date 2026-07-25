@@ -8,20 +8,20 @@ cxn-machine-readable-formalization: |
   cxn_28.conllc
 
 form: |
-	-  Mandare all'aria - (Det) - (Agg) - N
-	-
+  -  Mandare all'aria - (Det) - (Agg) - N
+  -
 
 function: |
-	-  Espressione utilizzata per indicare che "X" vanifica o causa
+  -  Espressione utilizzata per indicare che "X" vanifica o causa
   il fallimento di "Y" espresso da N 
-	-
-	-  La costruzione assume il significato traslato di rendere
+  -
+  -  La costruzione assume il significato traslato di rendere
   vano qualcosa, compromettere un programma, impedirne la
   realizzazione. 
 
 restrictions: |
-	-
-	-  A livello sintattico la costruzione presenta delle
+  -
+  -  A livello sintattico la costruzione presenta delle
   restrizioni:  - N può essere sia posposto che interposto  -
   N può essere preceduto da un aggettivo - la preposizione
   articolata "all" può essere sostituita dalla preposizione
@@ -35,24 +35,24 @@ restrictions: |
   referente astratto. 
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -64,15 +64,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_28_example_1.txt
-	- cxn_28_example_2.txt
-	- cxn_28_example_3.txt
-	- cxn_28_example_4.txt
-	- cxn_28_example_5.txt
+  - cxn_28_example_1.txt
+  - cxn_28_example_2.txt
+  - cxn_28_example_3.txt
+  - cxn_28_example_4.txt
+  - cxn_28_example_5.txt
 
 note: |
-	-
-	-  USAGE: La costruzione viene solitamente utilizzata nel
+  -
+  -  USAGE: La costruzione viene solitamente utilizzata nel
   parlato e in contesti informali. 
 
 references: |

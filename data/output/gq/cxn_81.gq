@@ -1,7 +1,0 @@
-pattern {
-  A [lemma="battere", upos=VERB, form=/battere/i, VerbForm=Inf];
-  B [lemma="uno", upos=DET, form=/un/i, Definite=Ind, Gender=Masc, Number=Sing, PronType=Art];
-  C [lemma="colpo", upos=NOUN, form=/colpo/i, Gender=Masc, Number=Sing];
-  C -[det]-> B;
-  A -[obj]-> C;
-}

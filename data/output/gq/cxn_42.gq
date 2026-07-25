@@ -1,7 +1,0 @@
-pattern {
-  A [lemma="essere", upos=AUX, form=/essere/i, VerbForm=Inf];
-  B [upos=ADP];
-  C [upos=NOUN];
-  C -[case]-> B;
-  A -[obl]-> C;
-}

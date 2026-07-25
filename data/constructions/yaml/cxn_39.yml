@@ -8,48 +8,48 @@ cxn-machine-readable-formalization: |
   cxn_39.conllc
 
 form: |
-	-  N/PronPers + Congcoord + compagnia bella
-	-
+  -  N/PronPers + Congcoord + compagnia bella
+  -
 
 function: |
-	-  L'espressione ha una funzione associativa collettivizzante
+  -  L'espressione ha una funzione associativa collettivizzante
   in riferimento a persone e cose. Il focus pragmatico ricade
   sul tema (elemento dato), mentre compagnia bella è il rema
   (elemento nuovo).
-	-
-	-
+  -
+  -
 
 restrictions: |
-	-
-	-  La costruzione richiede necessariamente una particella
+  -
+  -  La costruzione richiede necessariamente una particella
   coordinante e che precede il costrutto nominale.
 
 coll-preferences: |
-	-
-	-  Il costrutto è preferibilmente preceduto da un sostantivo o
+  -
+  -  Il costrutto è preferibilmente preceduto da un sostantivo o
   da un pronome personale soggetto.
 
 usage: |
 
 formal-tags: 
-	- approximation/-valuation
+  - approximation/-valuation
 
 functional-tags: 
-	- plurality
-	- dispersion
-	- generalizing
-	- approximation
-	- vagueness
-	- vaghezza
-	- indefinitezza
+  - plurality
+  - dispersion
+  - generalizing
+  - approximation
+  - vagueness
+  - vaghezza
+  - indefinitezza
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   lexically filled
@@ -61,14 +61,14 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_39_example_1.txt
-	- cxn_39_example_2.txt
-	- cxn_39_example_3.txt
-	- cxn_39_example_4.txt
+  - cxn_39_example_1.txt
+  - cxn_39_example_2.txt
+  - cxn_39_example_3.txt
+  - cxn_39_example_4.txt
 
 note: |
-	-
-	-  USAGE: La forma si è fossilizzata nel suo significato non
+  -
+  -  USAGE: La forma si è fossilizzata nel suo significato non
   composizionale (≠ compagnia + bella) per mezzo dell'alta
   frequenza d'uso di tale costruzione nel linguaggio.
 

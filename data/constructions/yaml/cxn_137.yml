@@ -8,40 +8,40 @@ cxn-machine-readable-formalization: |
   cxn_137.conllc
 
 form: |
-	-  verbo di moto (usato in senso figurato) + preposizione
+  -  verbo di moto (usato in senso figurato) + preposizione
   articolata + sostantivo
-	-
+  -
 
 function: |
-	-  espressione informale
-	-  Espressione usata per indicare che una discussione si è
+  -  espressione informale
+  -  Espressione usata per indicare che una discussione si è
   conclusa violentemente. (English: come to blows)
-	-
+  -
 
 restrictions: |
-	-  #andare alle mani; #giungere alle mani
-	-
+  -  #andare alle mani; #giungere alle mani
+  -
 
 coll-preferences: |
-	-  arrivare alle mani
-	-
+  -  arrivare alle mani
+  -
 
 usage: |
   Average
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-  Clause
-	-
+  -  Clause
+  -
 
 category-tags: |
-	-  Adverb
-	-
+  -  Adverb
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -53,15 +53,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_137_example_1.txt
-	- cxn_137_example_2.txt
-	- cxn_137_example_3.txt
-	- cxn_137_example_4.txt
-	- cxn_137_example_5.txt
+  - cxn_137_example_1.txt
+  - cxn_137_example_2.txt
+  - cxn_137_example_3.txt
+  - cxn_137_example_4.txt
+  - cxn_137_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

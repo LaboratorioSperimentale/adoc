@@ -8,40 +8,40 @@ cxn-machine-readable-formalization: |
   cxn_54.conllc
 
 form: |
-	-  se non V(esserefless)+ N/Avv V(esserefless) + N/Avv
-	-
+  -  se non V(esserefless)+ N/Avv V(esserefless) + N/Avv
+  -
 
 function: |
-	-  Esprime risoluzione del riconoscimento/avvenimento del primo
+  -  Esprime risoluzione del riconoscimento/avvenimento del primo
   termine dell'equazione per mezzo del secondo.
-	-
-	-
+  -
+  -
 
 restrictions: |
-	-
-	-  Ordine dei costituenti fisso
+  -
+  -  Ordine dei costituenti fisso
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
 
 formal-tags: 
-	- lexically-filled-idiom
+  - lexically-filled-idiom
 
 functional-tags: 
-	- approximation
-	- EMOTIVE
-	- durativity >> cc:sem:durativity
+  - approximation
+  - EMOTIVE
+  - durativity >> cc:sem:durativity
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -53,13 +53,13 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_54_example_1.txt
-	- cxn_54_example_2.txt
-	- cxn_54_example_3.txt
+  - cxn_54_example_1.txt
+  - cxn_54_example_2.txt
+  - cxn_54_example_3.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

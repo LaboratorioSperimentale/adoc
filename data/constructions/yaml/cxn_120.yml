@@ -8,44 +8,44 @@ cxn-machine-readable-formalization: |
   cxn_120.conllc
 
 form: |
-	-  là/lì/qua/qui + di + (articolo) + nome/pronome
-	-
+  -  là/lì/qua/qui + di + (articolo) + nome/pronome
+  -
 
 function: |
-	-  Espressione del complemento di luogo (stato, moto a, moto
+  -  Espressione del complemento di luogo (stato, moto a, moto
   da)
-	-  La costruzione si usa nell'italiano regionale parlato in
+  -  La costruzione si usa nell'italiano regionale parlato in
   Friuli Venezia Giulia per indicare lo stato in luogo, il
   moto a luogo e il moto da luogo in situazioni informali. La
   costruzione è sentita dai parlanti come regionale ma viene,
   comunque, usata molto nel parlato spontaneo. Si tratta di
   una traduzione in italiano di una costruzione dialettale.
-	-
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Infrequent
 
 formal-tags: 
-	- formal-idiom
+  - formal-idiom
 
 functional-tags: 
-	- intensification
+  - intensification
 
 complexity-level-tags: |
-	-  Phrase
-	-
+  -  Phrase
+  -
 
 category-tags: |
-	-  Other
-	-
+  -  Other
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -57,15 +57,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_120_example_1.txt
-	- cxn_120_example_2.txt
-	- cxn_120_example_3.txt
-	- cxn_120_example_4.txt
-	- cxn_120_example_5.txt
+  - cxn_120_example_1.txt
+  - cxn_120_example_2.txt
+  - cxn_120_example_3.txt
+  - cxn_120_example_4.txt
+  - cxn_120_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

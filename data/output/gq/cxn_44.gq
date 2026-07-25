@@ -1,9 +1,0 @@
-pattern {
-  A [lemma="avere", upos=AUX, form=/hai/i, Mood=Ind, Number=Sing, Person=2, Tense=Pres, VerbForm=Fin];
-  B [lemma="scoprire", upos=VERB, form=/scoperto/i, Gender=Masc, Number=Sing, Tense=Past, VerbForm=Part];
-  C [lemma="il", upos=DET, form=/l'/i, Definite=Def, Number=Sing, PronType=Art];
-  D [];
-  B -[aux]-> A;
-  D -[det]-> C;
-  B -[obj]-> D;
-}

@@ -1,5 +1,0 @@
-pattern {
-  A [lemma="non", upos=ADV, form=/non/i, PronType=Neg];
-  B [lemma="fare", upos=VERB, form=/fa/i, Mood=Ind, Number=Sing, Person=3, Tense=Pres, VerbForm=Fin];
-  B -[advmod]-> A;
-}

@@ -8,39 +8,39 @@ cxn-machine-readable-formalization: |
   cxn_128.conllc
 
 form: |
-	-  non + PronPers (DAT) + ne + 'fare' (3pers sing) + niente
-	-
+  -  non + PronPers (DAT) + ne + 'fare' (3pers sing) + niente
+  -
 
 function: |
-	-  Semantica
-	-  La costruzione è un equivalente di 'non importa', 'non è un
+  -  Semantica
+  -  La costruzione è un equivalente di 'non importa', 'non è un
   problema'. 
-	-
+  -
 
 restrictions: |
-	-  PronPers (DAT): in forma atona 
-	-
+  -  PronPers (DAT): in forma atona 
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Average
 
 formal-tags: 
-	- complex-predicates >> cc:cxn:complex-predicate
+  - complex-predicates >> cc:cxn:complex-predicate
 
 functional-tags: 
-	- mitigation
+  - mitigation
 
 complexity-level-tags: |
-	-  Phrase
-	-
+  -  Phrase
+  -
 
 category-tags: |
-	-  Verb
-	-
+  -  Verb
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -52,11 +52,11 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_128_example_1.txt
+  - cxn_128_example_1.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

@@ -1,7 +1,0 @@
-pattern {
-  A [upos=NOUN];
-  B [lemma="per", upos=ADP, form=/per/i];
-  C [upos=NOUN, Number=Sing];
-  C -[case]-> B;
-  A -[nmod]-> C;
-}

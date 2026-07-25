@@ -8,13 +8,13 @@ cxn-machine-readable-formalization: |
   cxn_143.conllc
 
 form: |
-	-  ADJi per ADJi
-	-
+  -  ADJi per ADJi
+  -
 
 function: |
-	-  Sottolinea il fatto che una situazione non sia più
+  -  Sottolinea il fatto che una situazione non sia più
   modificabile
-	-  Pattern formato dalla ripetizione dello stesso aggettivo
+  -  Pattern formato dalla ripetizione dello stesso aggettivo
   immediatamente prima e immediatamente dopo la preposizione
   per. Indica una situazione che non è più modificabile o uno
   stato in cui, qualunque cosa si faccia, il risultato rimane
@@ -22,32 +22,32 @@ function: |
   espressioni come "(tanto) ormai" oppure "a questo punto".
   Inoltre, la frase in cui compare la costruzione viene spesso
   lasciata in sospeso e non viene portata a termine.
-	-
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Average
 
 formal-tags: 
-	- reduplication
+  - reduplication
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-  Phrase
-	-
+  -  Phrase
+  -
 
 category-tags: |
-	-  Adjective
-	-
+  -  Adjective
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -59,15 +59,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_143_example_1.txt
-	- cxn_143_example_2.txt
-	- cxn_143_example_3.txt
-	- cxn_143_example_4.txt
-	- cxn_143_example_5.txt
+  - cxn_143_example_1.txt
+  - cxn_143_example_2.txt
+  - cxn_143_example_3.txt
+  - cxn_143_example_4.txt
+  - cxn_143_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

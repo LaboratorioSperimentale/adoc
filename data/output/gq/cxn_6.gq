@@ -1,9 +1,0 @@
-pattern {
-  A [lemma="parlare", upos=VERB, form=/parlare/i, VerbForm=Inf];
-  B [lemma="a", upos=ADP, form=/a/i];
-  C [lemma="il", upos=DET, Definite=Def, Gender=Masc, PronType=Art];
-  D [upos=NOUN, Gender=Masc];
-  D -[case]-> B;
-  D -[det]-> C;
-  A -[obl]-> D;
-}

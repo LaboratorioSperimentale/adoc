@@ -1,0 +1,8 @@
+# cxn_id = cxn_71
+# cxn_name = NP_subj V NP_obj a NP_compl cxn-machine-readable-formalization: | cxn_71.conllc
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	MISC
+A	_	_	NOUN	_	B	nsubj	_
+B	_	_	VERB	_	0	root	_
+C	_	_	NOUN	_	B	obj	_
+D	a	a	ADP	_	E	case	_
+E	_	_	NOUN	_	B	obl	_

@@ -8,17 +8,17 @@ cxn-machine-readable-formalization: |
   cxn_25.conllc
 
 form: |
-	-  [Che/Cosa/Che cosa [(Obj1) (Obj2) [XV [a fare] ]
-	-  La costruzione presenta due elementi fissi: l'argomento
+  -  [Che/Cosa/Che cosa [(Obj1) (Obj2) [XV [a fare] ]
+  -  La costruzione presenta due elementi fissi: l'argomento
   invariabile a fare, e il pronome interrogativo espresso
   variabilmente da che/cosa/che cosa.
 
 function: |
-	-  La costruzione si configura come domanda retorica che
+  -  La costruzione si configura come domanda retorica che
   esprime irritazione o critica relativamente all'azione
   espressa dal verbo flesso, ritenuta inutile o superflua.
-	-
-	-  Seppur non nell'assoluta totalità dei casi, un costrutto
+  -
+  -  Seppur non nell'assoluta totalità dei casi, un costrutto
   privato della costituente invariabile a fare risulterebbe
   incompleto o incomprensibile: Ma che ti lamenti? potrebbe
   sostituire Ma che ti lamenti a fare? senza perdita di
@@ -31,14 +31,14 @@ function: |
   lettera. 
 
 restrictions: |
-	-
-	-  La costruzione prevede la presenza obbligatoria di un verbo
+  -
+  -  La costruzione prevede la presenza obbligatoria di un verbo
   flesso che precede immediatamente la costituente invariabile
   a fare.
 
 coll-preferences: |
-	-
-	-  Il verbo flesso della costruzione è preceduto frequentemente
+  -
+  -  Il verbo flesso della costruzione è preceduto frequentemente
   da uno o due pronomi personali con funzione di complemento
   di termine e complemento oggetto (es. 3). Il pronome
   interrogativo è di frequente preceduto dalla congiunzione
@@ -54,22 +54,22 @@ coll-preferences: |
 usage: |
 
 formal-tags: 
-	- WXDY---What’s-X-doing-Y-construction
+  - WXDY---What’s-X-doing-Y-construction
 
 functional-tags: 
-	- USELESSNESS
-	- IRRITATION
-	- INTERROGATIVE
-	- EMOTIVE
-	- CRITICISM
+  - USELESSNESS
+  - IRRITATION
+  - INTERROGATIVE
+  - EMOTIVE
+  - CRITICISM
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -81,14 +81,14 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_25_example_1.txt
-	- cxn_25_example_2.txt
-	- cxn_25_example_3.txt
-	- cxn_25_example_4.txt
-	- cxn_25_example_5.txt
+  - cxn_25_example_1.txt
+  - cxn_25_example_2.txt
+  - cxn_25_example_3.txt
+  - cxn_25_example_4.txt
+  - cxn_25_example_5.txt
 
 note: |
-	-  La costruzione è menzionata in Imperiale, Riccardo,
+  -  La costruzione è menzionata in Imperiale, Riccardo,
   Schafroth, Elmar. "Fraseologia italiana basata sull’uso:
   lessicografia digitale per apprendenti tra la frame
   semantics e la grammatica delle costruzioni." Italiano
@@ -98,7 +98,7 @@ note: |
   for the Italian language." Proceedings of the International
   Conference “Constructionist Approaches to Language
   Pedagogy”, Nov. 2013, pp. 1-10.
-	-  USAGE:
+  -  USAGE:
 
 references: |
 

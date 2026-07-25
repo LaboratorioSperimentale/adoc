@@ -1,0 +1,87 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = italian-isdt-ud-2.17-251125
+# udpipe_model_licence = CC BY-NC-SA
+# sent_id = 1
+# text = E, quanto a concorrenza, basti pensare a balneari e taxi per rendersi conto di quanto non sia un qualcosa che goda di grande seguito nel nostro Paese.
+1	E	e	CCONJ	CC	_	7	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	7	punct	_	_
+3	quanto	quanto	ADV	B	ExtPos=ADP	5	case	_	_
+4	a	a	ADP	E	_	3	fixed	_	_
+5	concorrenza	concorrenza	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	basti	bastare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	pensare	pensare	VERB	V	VerbForm=Inf	7	csubj	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	balneari	balneare	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	taxi	taxi	NOUN	S	Gender=Masc|Number=Plur	10	conj	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14-15	rendersi	_	_	_	_	_	_	_	_
+14	render	rendere	VERB	V	VerbForm=Inf	8	advcl	_	_
+15	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	14	expl	_	_
+16	conto	conto	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	16	nmod	_	_
+19	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+20	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	18	acl:relcl	_	_
+23	che	che	PRON	PR	PronType=Rel	24	nsubj	_	_
+24	goda	godere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	grande	grande	ADJ	A	Number=Sing	27	amod	_	_
+27	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+28-29	nel	_	_	_	_	_	_	_	_
+28	in	in	ADP	E	_	31	case	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
+30	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = La nazione non è più, neanche come entità immaginaria, gruppo omogeneo quanto a lingua, tradizioni e costumi, ma comunità che vive producendo leggi.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	nazione	nazione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+4	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	più	più	ADV	B	_	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	neanche	neanche	ADV	BN	PronType=Neg	9	advmod	_	_
+8	come	come	ADP	E	_	9	case	_	_
+9	entità	entità	NOUN	S	Gender=Fem	5	obl	_	_
+10	immaginaria	immaginario	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	9	appos	_	_
+13	omogeneo	omogeneo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	quanto	quanto	ADV	B	ExtPos=ADP	16	case	_	_
+15	a	a	ADP	E	_	14	fixed	_	_
+16	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	18	punct	_	_
+18	tradizioni	tradizione	NOUN	S	Gender=Fem|Number=Plur	16	conj	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	costumi	costume	NOUN	S	Gender=Masc|Number=Plur	16	conj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	_
+22	ma	ma	CCONJ	CC	_	23	cc	_	_
+23	comunità	comunità	NOUN	S	Gender=Fem	16	conj	_	_
+24	che	che	PRON	PR	PronType=Rel	25	nsubj	_	_
+25	vive	vivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+26	producendo	produrre	VERB	V	VerbForm=Ger	25	advcl	_	_
+27	leggi	legge	NOUN	S	Gender=Fem|Number=Plur	26	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = E, quanto a sussidi, ne abbiamo abbastanza da scrivere svariati volumi.
+1	E	e	CCONJ	CC	_	8	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	8	punct	_	_
+3	quanto	quanto	ADV	B	ExtPos=ADP	5	case	_	_
+4	a	a	ADP	E	_	3	fixed	_	_
+5	sussidi	sussidio	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+8	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	abbastanza	abbastanza	ADV	B	_	8	advmod	_	_
+10	da	da	ADP	E	_	11	mark	_	_
+11	scrivere	scrivere	VERB	V	VerbForm=Inf	9	advcl	_	_
+12	svariati	svariato	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	13	det	_	_
+13	volumi	volume	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	SpaceAfter=No

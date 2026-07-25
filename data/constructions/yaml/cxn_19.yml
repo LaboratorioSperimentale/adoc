@@ -8,39 +8,39 @@ cxn-machine-readable-formalization: |
   cxn_19.conllc
 
 form: |
-	-  Fare + Vinf + prep. + qlcn
-	-
+  -  Fare + Vinf + prep. + qlcn
+  -
 
 function: |
-	-  Porre qualcuno in una situazione di ricezione di
+  -  Porre qualcuno in una situazione di ricezione di
   un'informazione
-	-
-	-  Il significato della costruzione non è immediatamente
+  -
+  -  Il significato della costruzione non è immediatamente
   deducibile dalle parti
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-  I Vinf devono essere tendenzialmente verbi di percezione
+  -
+  -  I Vinf devono essere tendenzialmente verbi di percezione
 
 usage: |
 
 formal-tags: 
-	- light-verbs >> cc:cxn:support-verb
+  - light-verbs >> cc:cxn:support-verb
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -52,12 +52,12 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_19_example_1.txt
-	- cxn_19_example_2.txt
+  - cxn_19_example_1.txt
+  - cxn_19_example_2.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

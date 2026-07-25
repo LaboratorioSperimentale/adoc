@@ -1,7 +1,0 @@
-pattern {
-  A [upos=VERB];
-  B [lemma="a", upos=ADP, form=/a/i];
-  C [lemma="fagiolo", upos=NOUN, form=/fagiolo/i, Gender=Masc, Number=Sing];
-  C -[case]-> B;
-  A -[obl]-> C;
-}

@@ -8,42 +8,42 @@ cxn-machine-readable-formalization: |
   cxn_21.conllc
 
 form: |
-	-  V1 + prep + V2 andare a + V
-	-
+  -  V1 + prep + V2 andare a + V
+  -
 
 function: |
-	-  Mette in evidenza il V2, creando delle semantiche diverse: -
+  -  Mette in evidenza il V2, creando delle semantiche diverse: -
   Indica l'imminenza dell'evento espresso dal V2  - Indica lo
   stato in luogo di qualcosa (es. n°1) Il verbo andare è
   semanticamente vuoto.
-	-
-	-  La semantica della costruzione non è deducibile dalle parti.
+  -
+  -  La semantica della costruzione non è deducibile dalle parti.
   Il verbo andare perde il suo significato pieno, diventando
   un verbo leggero.
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
 
 formal-tags: 
-	- light-verbs >> cc:cxn:support-verb
+  - light-verbs >> cc:cxn:support-verb
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -55,16 +55,16 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_21_example_1.txt
-	- cxn_21_example_2.txt
-	- cxn_21_example_3.txt
-	- cxn_21_example_4.txt
+  - cxn_21_example_1.txt
+  - cxn_21_example_2.txt
+  - cxn_21_example_3.txt
+  - cxn_21_example_4.txt
 
 note: |
-	-  Frequentemente il V2 è vedere e andare è coniugato alla
+  -  Frequentemente il V2 è vedere e andare è coniugato alla
   prima persona plurale, quasi a sottolineare la collettività
   dell'evento espresso.
-	-  USAGE:
+  -  USAGE:
 
 references: |
 

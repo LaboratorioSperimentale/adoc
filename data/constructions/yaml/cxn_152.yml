@@ -8,41 +8,41 @@ cxn-machine-readable-formalization: |
   cxn_152.conllc
 
 form: |
-	-  N + V + Nobj + PPrecipient (+ PPprovenance)
-	-
+  -  N + V + Nobj + PPrecipient (+ PPprovenance)
+  -
 
 function: |
-	-  La costruzione profila un evento di trasferimento (letterale
+  -  La costruzione profila un evento di trasferimento (letterale
   o metaforico) da un Agente ad un Ricevente. Talvolta è
   esplicitata anche la provenienza del Tema trasferito.
-	-
-	-
+  -
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Frequent
 
 formal-tags: 
-	- argument-structure-construction >> cc:cxn:clause
+  - argument-structure-construction >> cc:cxn:clause
 
 functional-tags: 
-	- dative >> cc:inf:active-referent
-	- transfer
+  - dative >> cc:inf:active-referent
+  - transfer
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   fully schematic
@@ -54,15 +54,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_152_example_1.txt
-	- cxn_152_example_2.txt
-	- cxn_152_example_3.txt
-	- cxn_152_example_4.txt
-	- cxn_152_example_5.txt
+  - cxn_152_example_1.txt
+  - cxn_152_example_2.txt
+  - cxn_152_example_3.txt
+  - cxn_152_example_4.txt
+  - cxn_152_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

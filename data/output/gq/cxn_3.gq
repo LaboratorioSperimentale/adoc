@@ -1,9 +1,0 @@
-pattern {
-  A [lemma="dire", upos=VERB];
-  B [lemma="pesta", upos=NOUN, form=/peste/i, Gender=Fem, Number=Plur];
-  C [lemma="e", upos=CCONJ, form=/e/i];
-  D [lemma="corna", upos=NOUN, form=/corna/i, Gender=Fem, Number=Sing];
-  A -[obj]-> B;
-  D -[cc]-> C;
-  B -[conj]-> D;
-}

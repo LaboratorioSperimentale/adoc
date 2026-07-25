@@ -8,41 +8,41 @@ cxn-machine-readable-formalization: |
   cxn_78.conllc
 
 form: |
-	-  AVV NEG (non) +STARE + PREP (a) + V
-	-
+  -  AVV NEG (non) +STARE + PREP (a) + V
+  -
 
 function: |
-	-  PRAGMATIC 
-	-  especially in informal language it means that is not
+  -  PRAGMATIC 
+  -  especially in informal language it means that is not
   important doing something, that is not necessary doing
   something. 
-	-
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-  V= usually used with emotional verbs 
-	-
+  -  V= usually used with emotional verbs 
+  -
 
 usage: |
   Frequent
 
 formal-tags: 
-	- formal-idiom
-	- Preposition-a
+  - formal-idiom
+  - Preposition-a
 
 functional-tags: 
-	- approximation
+  - approximation
 
 complexity-level-tags: |
-	-  Phrase, Clause
-	-
+  -  Phrase, Clause
+  -
 
 category-tags: |
-	-  Verb
-	-
+  -  Verb
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -54,12 +54,12 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_78_example_1.txt
-	- cxn_78_example_2.txt
+  - cxn_78_example_1.txt
+  - cxn_78_example_2.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

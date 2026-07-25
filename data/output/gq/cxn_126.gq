@@ -1,7 +1,0 @@
-pattern {
-  A [lemma="chi", upos=PRON, form=/chi/i];
-  B [upos=VERB, Mood=Ind, Number=Sing, Person=3, Tense=Pres, VerbForm=Fin];
-  C [Number=Sing];
-  C -[nsubj]-> A;
-  A -[acl:relcl]-> B;
-}

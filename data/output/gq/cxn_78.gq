@@ -1,9 +1,0 @@
-pattern {
-  A [lemma="non", upos=ADV, form=/non/i];
-  B [lemma="stare", upos=VERB, form=/stare/i, VerbForm=Inf];
-  C [lemma="a", upos=ADP, form=/a/i];
-  D [upos=VERB, VerbForm=Inf];
-  B -[advmod]-> A;
-  D -[mark]-> C;
-  B -[advcl]-> D;
-}

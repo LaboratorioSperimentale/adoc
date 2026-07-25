@@ -1,7 +1,0 @@
-pattern {
-  A [lemma="che", upos=SCONJ, form=/che/i];
-  B [lemma="non", upos=ADV, form=/non/i, PronType=Neg];
-  C [upos=VERB];
-  C -[mark]-> A;
-  C -[advmod]-> B;
-}

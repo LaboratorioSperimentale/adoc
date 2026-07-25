@@ -8,44 +8,44 @@ cxn-machine-readable-formalization: |
   cxn_129.conllc
 
 form: |
-	-  non è che non + V
-	-
+  -  non è che non + V
+  -
 
 function: |
-	-  Attenuare. Sottoindende da parte di chi parla una presa di
+  -  Attenuare. Sottoindende da parte di chi parla una presa di
   distanza da ciò che la prima negazione nega.
-	-  Il significato della sruttura di doppia negazione non
+  -  Il significato della sruttura di doppia negazione non
   corrispone a una affermazione del tipo "non (non p)" = p, ma
   vi è uno scarto semantico. Ha un elevato valore pragmatico.
   Pone in una zona di indeterminatezza dove non si nega del
   tutto, ma neanche si afferma a pieno.
-	-
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-  Si nota una preferenza della costruzione per l'impiego di
+  -  Si nota una preferenza della costruzione per l'impiego di
   verbi con modo congiuntivo. 
-	-
+  -
 
 usage: |
   Frequent
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-  Phrase
-	-
+  -  Phrase
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -57,15 +57,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_129_example_1.txt
-	- cxn_129_example_2.txt
-	- cxn_129_example_3.txt
-	- cxn_129_example_4.txt
-	- cxn_129_example_5.txt
+  - cxn_129_example_1.txt
+  - cxn_129_example_2.txt
+  - cxn_129_example_3.txt
+  - cxn_129_example_4.txt
+  - cxn_129_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

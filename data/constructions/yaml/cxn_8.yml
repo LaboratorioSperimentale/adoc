@@ -8,41 +8,41 @@ cxn-machine-readable-formalization: |
   cxn_8.conllc
 
 form: |
-	-  V. (andare) + prep. (a) + N. ( monte, rotoli, e catafascio)
-	-
+  -  V. (andare) + prep. (a) + N. ( monte, rotoli, e catafascio)
+  -
 
 function: |
-	-  La Costruzione indica non realizzarsi, non raggiungere lo
+  -  La Costruzione indica non realizzarsi, non raggiungere lo
   scopo, fallire.
-	-
-	-  Perché il significato della Costruzione è convenzionale,
+  -
+  -  Perché il significato della Costruzione è convenzionale,
   cioè non prevedibile a partire dai significati dei singoli
   componenti. Tale indica finire in niente e non dar frutto.
 
 restrictions: |
-	-
-	-  Perché l'espressione deve essere seguita da un nome al
+  -
+  -  Perché l'espressione deve essere seguita da un nome al
   singolare tranne nel caso di "rotoli".
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -54,13 +54,13 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_8_example_1.txt
-	- cxn_8_example_2.txt
-	- cxn_8_example_3.txt
+  - cxn_8_example_1.txt
+  - cxn_8_example_2.txt
+  - cxn_8_example_3.txt
 
 note: |
-	-
-	-  USAGE: Perché la Costruzione può essere formulata in vario
+  -
+  -  USAGE: Perché la Costruzione può essere formulata in vario
   modo, ma non si dice così nella lingua e suona molto male
   per il parlante nativo.
 

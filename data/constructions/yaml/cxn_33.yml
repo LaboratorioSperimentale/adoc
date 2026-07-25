@@ -8,40 +8,40 @@ cxn-machine-readable-formalization: |
   cxn_33.conllc
 
 form: |
-	-  a occhio e croce
-	-  la costruzione non presenta particolarità sintattiche
+  -  a occhio e croce
+  -  la costruzione non presenta particolarità sintattiche
 
 function: |
-	-  espressione comunemente usata per indicare misurazioni o
+  -  espressione comunemente usata per indicare misurazioni o
   valutazioni non perfettamente precise, basate su uno sguardo
   non approfondito
-	-
-	-  Il significato dell'espressione è comprensibile dalla somma
+  -
+  -  Il significato dell'espressione è comprensibile dalla somma
   dei costituenti, non dalle singole parti.
 
 restrictions: |
-	-
-	-  L'intera costruzione è costituita da slot fissi.
+  -
+  -  L'intera costruzione è costituita da slot fissi.
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
 
 formal-tags: 
-	- approximation/-valuation
+  - approximation/-valuation
 
 functional-tags: 
-	- generalizing
+  - generalizing
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   fully schematic
@@ -53,13 +53,13 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_33_example_1.txt
-	- cxn_33_example_2.txt
-	- cxn_33_example_3.txt
+  - cxn_33_example_1.txt
+  - cxn_33_example_2.txt
+  - cxn_33_example_3.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

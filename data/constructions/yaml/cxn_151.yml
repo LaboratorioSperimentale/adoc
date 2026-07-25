@@ -8,43 +8,43 @@ cxn-machine-readable-formalization: |
   cxn_151.conllc
 
 form: |
-	-  N + V (via) + N (via)
-	-
+  -  N + V (via) + N (via)
+  -
 
 function: |
-	-  La costruzione profila un tipo di evento di moto causato ed
+  -  La costruzione profila un tipo di evento di moto causato ed
   è caratterizzata dalla presenza della particella via, che
   può collocarsi subito dopo il verbo o dopo l'oggetto
   diretto. La particella favorisce il senso locativo, sia
   letterale che metaforico
-	-
-	-
+  -
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Frequent
 
 formal-tags: 
-	- particle-verb-construction
+  - particle-verb-construction
 
 functional-tags: 
-	- Causative-construction---------(the-subject-causes-an-action-to-be-performed)
-	- caused-motion >> cc:sem:caused-motion
+  - Causative-construction---------(the-subject-causes-an-action-to-be-performed)
+  - caused-motion >> cc:sem:caused-motion
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -57,14 +57,14 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_151_example_1.txt
-	- cxn_151_example_2.txt
-	- cxn_151_example_3.txt
-	- cxn_151_example_4.txt
+  - cxn_151_example_1.txt
+  - cxn_151_example_2.txt
+  - cxn_151_example_3.txt
+  - cxn_151_example_4.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

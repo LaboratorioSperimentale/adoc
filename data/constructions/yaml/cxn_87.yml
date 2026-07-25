@@ -8,41 +8,41 @@ cxn-machine-readable-formalization: |
   cxn_87.conllc
 
 form: |
-	-  "Visto che..."
-	-
+  -  "Visto che..."
+  -
 
 function: |
-	-
-	-  "Visto che" a inizio frase è usato per sostituire "Dato
+  -
+  -  "Visto che" a inizio frase è usato per sostituire "Dato
   che...". è usato per fare una supposizione
-	-
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-  collocazione a inizio frase, in particolar modo nel parlato
-	-
+  -  collocazione a inizio frase, in particolar modo nel parlato
+  -
 
 usage: |
   Frequent
 
 formal-tags: 
-	- formal-idiom
+  - formal-idiom
 
 functional-tags: 
-	- context-dependence
-	- focus-marker
-	- sequentiality
+  - context-dependence
+  - focus-marker
+  - sequentiality
 
 complexity-level-tags: |
-	-  Phrase
-	-
+  -  Phrase
+  -
 
 category-tags: |
-	-  Other
-	-
+  -  Other
+  -
 
 schematicity-level: |
   lexically filled
@@ -55,12 +55,12 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_87_example_1.txt
-	- cxn_87_example_2.txt
+  - cxn_87_example_1.txt
+  - cxn_87_example_2.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

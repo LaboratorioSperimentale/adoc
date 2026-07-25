@@ -8,12 +8,12 @@ cxn-machine-readable-formalization: |
   cxn_74.conllc
 
 form: |
-	-  stare ART N Formal variants: stare ADV ART N
-	-
+  -  stare ART N Formal variants: stare ADV ART N
+  -
 
 function: |
-	-  PRAGMATIC
-	-  The function of the construction is to express the second
+  -  PRAGMATIC
+  -  The function of the construction is to express the second
   argument of the verb stare (the first being the subject) by
   employing a noun phrase, where we would usually find an
   adverb or a prepositional phrase (complemento di modo).
@@ -21,39 +21,39 @@ function: |
   not be, in fact, a direct object, as it could seem to be in
   this construction.  The construction is used in informal
   conversations only and it adds an emphatic or dramatic tone.
-	-
+  -
 
 restrictions: |
-	-  ART: the article is always indefinite (un/uno/una)
-	-
+  -  ART: the article is always indefinite (un/uno/una)
+  -
 
 coll-preferences: |
-	-  N = tendentially abstract nouns that indicate a quality
+  -  N = tendentially abstract nouns that indicate a quality
   (bellezza, meraviglia, schifo), but also concrete objects
   metaphorically used to indicate a state of being (bomba,
   straccio, merda). Sometimes we can find an ADVERB of
   intensity between the verb and the article.
-	-
+  -
 
 usage: |
   Average
 
 formal-tags: 
-	- formal-idiom
-	- lexically-open
-	- unformal
+  - formal-idiom
+  - lexically-open
+  - unformal
 
 functional-tags: 
-	- intensification
-	- context-dependence
+  - intensification
+  - context-dependence
 
 complexity-level-tags: |
-	-  Word, Phrase
-	-
+  -  Word, Phrase
+  -
 
 category-tags: |
-	-  Noun, Verb
-	-
+  -  Noun, Verb
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -65,14 +65,14 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_74_example_1.txt
-	- cxn_74_example_2.txt
-	- cxn_74_example_3.txt
-	- cxn_74_example_4.txt
-	- cxn_74_example_5.txt
+  - cxn_74_example_1.txt
+  - cxn_74_example_2.txt
+  - cxn_74_example_3.txt
+  - cxn_74_example_4.txt
+  - cxn_74_example_5.txt
 
 note: |
-	-  It is a construction in evolution, only used in oral and
+  -  It is a construction in evolution, only used in oral and
   informal conversations. It coexists with the more usual and
   standard constructions stare + PP (sto di merda; sto da
   schifo) or stare + AdvP (sto come uno straccio). It seems to
@@ -80,7 +80,7 @@ note: |
   where it is considered as almost stardard (especially in the
   regional Italian from Rome: sto 'na crema), while it is
   perceived as non-standard by Northern speakers.
-	-  USAGE:
+  -  USAGE:
 
 references: |
 

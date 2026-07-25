@@ -8,44 +8,44 @@ cxn-machine-readable-formalization: |
   cxn_118.conllc
 
 form: |
-	-  V1 (infinitive) V1
-	-
+  -  V1 (infinitive) V1
+  -
 
 function: |
-	-  ASSERTION|APPROXIMATION
-	-  Double verb assertion is a construction used to assert
+  -  ASSERTION|APPROXIMATION
+  -  Double verb assertion is a construction used to assert
   something, usually already present in the conversation. It
   gives also the possibility to decrease the concept,
   following the construction with an adversative structure. 
-	-
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Average
 
 formal-tags: 
-	- repetition
-	- assertion
+  - repetition
+  - assertion
 
 functional-tags: 
-	- approximation
-	- sequentiality
-	- assertion
+  - approximation
+  - sequentiality
+  - assertion
 
 complexity-level-tags: |
-	-  Clause
-	-
+  -  Clause
+  -
 
 category-tags: |
-	-  Verb
-	-
+  -  Verb
+  -
 
 schematicity-level: |
   fully schematic
@@ -57,15 +57,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_118_example_1.txt
-	- cxn_118_example_2.txt
-	- cxn_118_example_3.txt
-	- cxn_118_example_4.txt
-	- cxn_118_example_5.txt
+  - cxn_118_example_1.txt
+  - cxn_118_example_2.txt
+  - cxn_118_example_3.txt
+  - cxn_118_example_4.txt
+  - cxn_118_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

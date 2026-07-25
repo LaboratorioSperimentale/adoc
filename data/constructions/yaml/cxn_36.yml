@@ -8,8 +8,8 @@ cxn-machine-readable-formalization: |
   cxn_36.conllc
 
 form: |
-	-  V + Avv (-mente) anche ordine inverso:Avv(-mente) + V
-	-  Non ci possono essere interpolazioni all'interno della
+  -  V + Avv (-mente) anche ordine inverso:Avv(-mente) + V
+  -  Non ci possono essere interpolazioni all'interno della
   costruzione. Tuttavia, è possibile l'ordine inverso (avv
   +V). inoltre la ricorrenza non è fissa. Ad esempio un
   avverbio come 'categoricamente' ricorre anche con verbi come
@@ -17,10 +17,10 @@ form: |
   iano.it/it/access/simple_interface.php 
 
 function: |
-	-  informazione di modo (accessoria) agggiunta al verbo, la cui
+  -  informazione di modo (accessoria) agggiunta al verbo, la cui
   ricorrenza è determinata dal verbo stesso.  
-	-
-	-  Nell'esempio 'dubitare fortemente', l'avverbio ha
+  -
+  -  Nell'esempio 'dubitare fortemente', l'avverbio ha
   significato completamente idiomatico, un dubbio non può
   essere forte se ci riferiamo alla classica accezione di
   forte come dotato di forza fisica. Riguarda in questo caso
@@ -31,28 +31,28 @@ function: |
   'rifiutarsi categoricamente'.
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
 
 formal-tags: 
-	- -mente
+  - -mente
 
 functional-tags: 
-	- modalità-dell'azione
+  - modalità-dell'azione
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -64,15 +64,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_36_example_1.txt
-	- cxn_36_example_2.txt
-	- cxn_36_example_3.txt
-	- cxn_36_example_4.txt
-	- cxn_36_example_5.txt
+  - cxn_36_example_1.txt
+  - cxn_36_example_2.txt
+  - cxn_36_example_3.txt
+  - cxn_36_example_4.txt
+  - cxn_36_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

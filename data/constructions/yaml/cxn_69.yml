@@ -8,37 +8,37 @@ cxn-machine-readable-formalization: |
   cxn_69.conllc
 
 form: |
-	-  E tu V che X ?
-	-
+  -  E tu V che X ?
+  -
 
 function: |
-	-  discorsivo-testuale. Sollevare un'obiezione.
-	-
-	-
+  -  discorsivo-testuale. Sollevare un'obiezione.
+  -
+  -
 
 restrictions: |
-	-
-	-  V = verbo epistemico X=clausola
+  -
+  -  V = verbo epistemico X=clausola
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
 
 formal-tags: 
-	- complex-predicates >> cc:cxn:complex-predicate
+  - complex-predicates >> cc:cxn:complex-predicate
 
 functional-tags: 
-	- CRITICISM
+  - CRITICISM
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -50,12 +50,12 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_69_example_1.txt
-	- cxn_69_example_2.txt
+  - cxn_69_example_1.txt
+  - cxn_69_example_2.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

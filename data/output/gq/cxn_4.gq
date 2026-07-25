@@ -1,9 +1,0 @@
-pattern {
-  A [];
-  B [];
-  C [lemma="di", upos=ADP, form=/di/i];
-  D [lemma="là", upos=ADV, form=/là/i];
-  A -[conj]-> B;
-  D -[case]-> C;
-  B -[advmod]-> D;
-}

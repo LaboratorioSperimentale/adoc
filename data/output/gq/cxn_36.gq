@@ -1,5 +1,0 @@
-pattern {
-  A [upos=VERB, Mood=Ind, Number=Sing, Person=3, VerbForm=Fin];
-  B [upos=ADV];
-  A -[advmod]-> B;
-}

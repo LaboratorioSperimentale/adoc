@@ -8,42 +8,42 @@ cxn-machine-readable-formalization: |
   cxn_97.conllc
 
 form: |
-	-  perdere ART N
-	-
+  -  perdere ART N
+  -
 
 function: |
-	-  Pragmatic
-	-  La costruzione è usata per indicare smarrimento,
+  -  Pragmatic
+  -  La costruzione è usata per indicare smarrimento,
   disorientamento (anche interiore), perdita di se stessi e/o
   dei propri obiettivi. Uso enfatico.
-	-
+  -
 
 restrictions: |
-	-  ART: articololo determinativo N: nomi inerenti alla sfera
+  -  ART: articololo determinativo N: nomi inerenti alla sfera
   semantica del viaggio (rotta, via, strada, sentiero,
   orientamento, bussola, tramontana)
-	-
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Average
 
 formal-tags: 
-	- formal-idiom
+  - formal-idiom
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-  Phrase
-	-
+  -  Phrase
+  -
 
 category-tags: |
-	-  Noun, Verb
-	-
+  -  Noun, Verb
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -55,15 +55,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_97_example_1.txt
-	- cxn_97_example_2.txt
-	- cxn_97_example_3.txt
-	- cxn_97_example_4.txt
-	- cxn_97_example_5.txt
+  - cxn_97_example_1.txt
+  - cxn_97_example_2.txt
+  - cxn_97_example_3.txt
+  - cxn_97_example_4.txt
+  - cxn_97_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

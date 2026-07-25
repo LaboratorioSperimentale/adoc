@@ -8,44 +8,44 @@ cxn-machine-readable-formalization: |
   cxn_122.conllc
 
 form: |
-	-  V + X X tendenzialmente corrisponde a un N 
-	-
+  -  V + X X tendenzialmente corrisponde a un N 
+  -
 
 function: |
-	-  Indica volontà di liberarsi di qualcuno/qualcosa.
-	-  La costruzione si usa per indicare la volontà di liberarsi
+  -  Indica volontà di liberarsi di qualcuno/qualcosa.
+  -  La costruzione si usa per indicare la volontà di liberarsi
   di un oggetto o di una persona. Usata principalmente in
   senso dispregiativo, fa parte del registro informale-
   dialettale bolognese. 
-	-
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Infrequent
 
 formal-tags: 
-	- lexically-open
-	- assertion
+  - lexically-open
+  - assertion
 
 functional-tags: 
-	- vaghezza
-	- IRRITATION
-	- disappointment
+  - vaghezza
+  - IRRITATION
+  - disappointment
 
 complexity-level-tags: |
-	-  Phrase
-	-
+  -  Phrase
+  -
 
 category-tags: |
-	-  Verb
-	-
+  -  Verb
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -57,14 +57,14 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_122_example_1.txt
-	- cxn_122_example_2.txt
-	- cxn_122_example_3.txt
-	- cxn_122_example_4.txt
-	- cxn_122_example_5.txt
+  - cxn_122_example_1.txt
+  - cxn_122_example_2.txt
+  - cxn_122_example_3.txt
+  - cxn_122_example_4.txt
+  - cxn_122_example_5.txt
 
 note: |
-	-  Dal Vocabolario online Treccani: "v. tr. [voce di origine
+  -  Dal Vocabolario online Treccani: "v. tr. [voce di origine
   furbesca, derivata prob. da Bologna, dove si fabbricavano e
   si vendevano oggetti d’oro falso o di bassa lega (oro di
   Bologna)] (io sbológno, ... noi sbologniamo, voi sbolognate,
@@ -85,7 +85,7 @@ note: |
   svignarsela". Tra parlanti sembra prevalere l'uso
   esemplificato in 1. b.  Nell'uso comune il verbo sembra
   esprimere un'azione dettata da una certa impellenza. 
-	-  USAGE:
+  -  USAGE:
 
 references: |
 

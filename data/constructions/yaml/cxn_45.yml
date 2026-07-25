@@ -8,8 +8,8 @@ cxn-machine-readable-formalization: |
   cxn_45.conllc
 
 form: |
-	-  V (Contare) + Prep(su/sul/sulla...) + N/Pronpers 
-	-  Non regolare dal punto di vista sintattico: si pensi al
+  -  V (Contare) + Prep(su/sul/sulla...) + N/Pronpers 
+  -  Non regolare dal punto di vista sintattico: si pensi al
   significato lessicale del verbo contare e alle conseguenti
   restrizioni semantiche dei referenti a questo associati.
   L'applicazione e i referenti previsti entro questa
@@ -17,40 +17,40 @@ form: |
   semantiche. 
 
 function: |
-	-  L'espressione retta dal verbo Contare si allontana dal
+  -  L'espressione retta dal verbo Contare si allontana dal
   significato lessicale del verbo per indicare, nella
   Costruzione tutta, un giudizio di affidabilità rispetto a
   qualcuno/qualcosa. 
-	-
-	-  L'espressione non è facilmente interpretabile, è necessaria
+  -
+  -  L'espressione non è facilmente interpretabile, è necessaria
   una familiarità con questa affinchè si possa comprenderne il
   senso. 
 
 restrictions: |
-	-
-	-  L'applicazione e i referenti previsti per un N qualsiasi
+  -
+  -  L'applicazione e i referenti previsti per un N qualsiasi
   sono soggetti a poche restrizioni dal punto di vista
   semantico. 
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -62,12 +62,12 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_45_example_1.txt
-	- cxn_45_example_2.txt
+  - cxn_45_example_1.txt
+  - cxn_45_example_2.txt
 
 note: |
-	-
-	-  USAGE: Espressione colloquiale e ad alta frequenza. 
+  -
+  -  USAGE: Espressione colloquiale e ad alta frequenza. 
 
 references: |
 

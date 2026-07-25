@@ -8,40 +8,40 @@ cxn-machine-readable-formalization: |
   cxn_132.conllc
 
 form: |
-	-  preposizione1, aggettivo1, congiunzione, preposizione1,
+  -  preposizione1, aggettivo1, congiunzione, preposizione1,
   aggettivo2. 
-	-
+  -
 
 function: |
-	-  Intensificare un'azione 
-	-  Per rafforzare un'azione svolta con intensità e impegno.
-	-
+  -  Intensificare un'azione 
+  -  Per rafforzare un'azione svolta con intensità e impegno.
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Frequent
 
 formal-tags: 
-	- pseudocoordination
+  - pseudocoordination
 
 functional-tags: 
-	- intensification
-	- modalità-dell'azione
+  - intensification
+  - modalità-dell'azione
 
 complexity-level-tags: |
-	-  Phrase
-	-
+  -  Phrase
+  -
 
 category-tags: |
-	-  Adverb
-	-
+  -  Adverb
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -53,15 +53,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_132_example_1.txt
-	- cxn_132_example_2.txt
-	- cxn_132_example_3.txt
-	- cxn_132_example_4.txt
-	- cxn_132_example_5.txt
+  - cxn_132_example_1.txt
+  - cxn_132_example_2.txt
+  - cxn_132_example_3.txt
+  - cxn_132_example_4.txt
+  - cxn_132_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

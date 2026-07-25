@@ -1,7 +1,0 @@
-pattern {
-  A [lemma="quanto", form=/quanto/i];
-  B [lemma="essere", upos=AUX, form=/sono/i, Mood=Ind, Tense=Pres, VerbForm=Fin];
-  C [];
-  C -[advmod]-> A;
-  C -[cop]-> B;
-}

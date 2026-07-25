@@ -1,5 +1,0 @@
-pattern {
-  A [lemma="prendere", upos=VERB, form=/prendere/i, VerbForm=Inf];
-  B [upos=NOUN, Number=Sing];
-  A -[obj]-> B;
-}

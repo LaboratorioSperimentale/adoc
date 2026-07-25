@@ -8,38 +8,38 @@ cxn-machine-readable-formalization: |
   cxn_167.conllc
 
 form: |
-	-
-	-
+  -
+  -
 
 function: |
-	-
-	-
-	-
+  -
+  -
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Frequent
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -51,11 +51,11 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	
+  
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

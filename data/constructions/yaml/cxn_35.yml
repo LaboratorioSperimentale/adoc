@@ -8,42 +8,42 @@ cxn-machine-readable-formalization: |
   cxn_35.conllc
 
 form: |
-	-  mettere su + N
-	-
+  -  mettere su + N
+  -
 
 function: |
-	-  Il verbo mettere non è usato nella sua semantica di
+  -  Il verbo mettere non è usato nella sua semantica di
   collocare qualcosa in un determinato posto, ma con il
   significato di allestire, formare, organizzare
-	-
-	-  Il significato generale della costruzione non è deducibile
+  -
+  -  Il significato generale della costruzione non è deducibile
   dalle sue componenti. Il verbo mettere ha il significato
   di collocare, posare; la preposizione su è usata come
   sinonimo di sopra
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -55,15 +55,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_35_example_1.txt
-	- cxn_35_example_2.txt
-	- cxn_35_example_3.txt
-	- cxn_35_example_4.txt
-	- cxn_35_example_5.txt
+  - cxn_35_example_1.txt
+  - cxn_35_example_2.txt
+  - cxn_35_example_3.txt
+  - cxn_35_example_4.txt
+  - cxn_35_example_5.txt
 
 note: |
-	-
-	-  USAGE: L'espressione viene frequentemente usata dai parlanti
+  -
+  -  USAGE: L'espressione viene frequentemente usata dai parlanti
   nativi con il significato di allestire, organizzare
 
 references: |

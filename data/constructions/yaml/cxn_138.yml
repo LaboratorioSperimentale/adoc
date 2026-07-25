@@ -8,38 +8,38 @@ cxn-machine-readable-formalization: |
   cxn_138.conllc
 
 form: |
-	-  V+Art+N+Det.
-	-
+  -  V+Art+N+Det.
+  -
 
 function: |
-	-  expressive; metaphorical
-	-  Used to make a comparison with a negative connotation
-	-
+  -  expressive; metaphorical
+  -  Used to make a comparison with a negative connotation
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Average
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -51,13 +51,13 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_138_example_1.txt
-	- cxn_138_example_2.txt
-	- cxn_138_example_3.txt
+  - cxn_138_example_1.txt
+  - cxn_138_example_2.txt
+  - cxn_138_example_3.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

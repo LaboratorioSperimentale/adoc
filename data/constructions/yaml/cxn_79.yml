@@ -8,43 +8,43 @@ cxn-machine-readable-formalization: |
   cxn_79.conllc
 
 form: |
-	-  V, Obj, Compl
-	-
+  -  V, Obj, Compl
+  -
 
 function: |
-	-  Pragmatica
-	-  "menare il can per l'aia" significa
+  -  Pragmatica
+  -  "menare il can per l'aia" significa
   tergiversare,temporeggiare, parlare di qualcosa senza
   arrivare al dunque.
-	-
+  -
 
 restrictions: |
-	-  Gli elementi della frase non possono essere cambiati o
+  -  Gli elementi della frase non possono essere cambiati o
   invertiti.
-	-
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Average
 
 formal-tags: 
-	- grammatical-idiom
-	- lexically-filled-idiom
+  - grammatical-idiom
+  - lexically-filled-idiom
 
 functional-tags: 
-	- context-dependence
-	- situation >> cc:sem:event
+  - context-dependence
+  - situation >> cc:sem:event
 
 complexity-level-tags: |
-	-  Clause
-	-
+  -  Clause
+  -
 
 category-tags: |
-	-  Noun, Verb
-	-
+  -  Noun, Verb
+  -
 
 schematicity-level: |
   lexically filled
@@ -56,15 +56,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_79_example_1.txt
-	- cxn_79_example_2.txt
-	- cxn_79_example_3.txt
-	- cxn_79_example_4.txt
-	- cxn_79_example_5.txt
+  - cxn_79_example_1.txt
+  - cxn_79_example_2.txt
+  - cxn_79_example_3.txt
+  - cxn_79_example_4.txt
+  - cxn_79_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

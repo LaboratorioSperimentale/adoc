@@ -1,5 +1,0 @@
-pattern {
-  A [lemma="immaginare", upos=VERB, form=/immagina/i, Number=Sing, Tense=Pres, VerbForm=Fin];
-  B [];
-  A -[xcomp]-> B;
-}

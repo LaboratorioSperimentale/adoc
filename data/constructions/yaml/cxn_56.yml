@@ -8,46 +8,46 @@ cxn-machine-readable-formalization: |
   cxn_56.conllc
 
 form: |
-	-  apriti + N (cielo/terra/sesamo)
-	-
+  -  apriti + N (cielo/terra/sesamo)
+  -
 
 function: |
-	-  Esclamazione usata per indicare (la possibilità) il
+  -  Esclamazione usata per indicare (la possibilità) il
   verificarsi di un evento inatteso, di una sciagura. La
   variante "apriti sesamo!" esprime sorpresa o speranza che
   una cosa accada.
-	-
-	-  Il significato dell'espressione non è letterale, non si
+  -
+  -  Il significato dell'espressione non è letterale, non si
   intende usare il verbo aprire nel suo significato standard.
   Si potrebbe dire che qui è un verbo leggero.
 
 restrictions: |
-	-
-	-  N deve essere uno dei tre nomi indicati (cielo/terra/sesamo)
+  -
+  -  N deve essere uno dei tre nomi indicati (cielo/terra/sesamo)
   affinché l'esclamazione conservi il suo significato.
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
 
 formal-tags: 
-	- light-verbs >> cc:cxn:support-verb
-	- lexically-filled-idiom
+  - light-verbs >> cc:cxn:support-verb
+  - lexically-filled-idiom
 
 functional-tags: 
-	- intensification
-	- EMOTIVE
-	- situation >> cc:sem:event
+  - intensification
+  - EMOTIVE
+  - situation >> cc:sem:event
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   lexically filled
@@ -59,15 +59,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_56_example_1.txt
-	- cxn_56_example_2.txt
-	- cxn_56_example_3.txt
-	- cxn_56_example_4.txt
-	- cxn_56_example_5.txt
+  - cxn_56_example_1.txt
+  - cxn_56_example_2.txt
+  - cxn_56_example_3.txt
+  - cxn_56_example_4.txt
+  - cxn_56_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

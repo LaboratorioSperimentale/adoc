@@ -7,8 +7,8 @@ cxn-machine-readable-formalization: |
   cxn_16.conllc
 
 form: |
-	-
-	-  la costruzione si presenta come anomala rispetto alle regole
+  -
+  -  la costruzione si presenta come anomala rispetto alle regole
   morfosintattiche dell'italiano a causa di una ellissi di
   natura frasale. Di fatti, è del tutto assente parte della
   comparazione tra i due termini della costruzione, che
@@ -16,20 +16,20 @@ form: |
   quello che si impiegherebbe a dir(lo)".
 
 function: |
-	-  locuzione avverbiale che ha il significato di “molto
+  -  locuzione avverbiale che ha il significato di “molto
   celermente”. Sostituisce quest’ultima espressione per porre
   enfasi sul concetto di velocità, ulteriormente espresso dal
   ritmo con cui si pronuncia la costruzione, che è di fatto
   composta in maggioranza da parole monosillabiche (salvo
   “dica”)
-	-
-	-  il significato dell’espressione è facilmente intuibile a
+  -
+  -  il significato dell’espressione è facilmente intuibile a
   partire dalla somma dei significati assunti dai vari
   componenti che la costituiscono
 
 restrictions: |
-	-
-	-  l’espressione è totalmente fissa, ossia è vincolata a
+  -
+  -  l’espressione è totalmente fissa, ossia è vincolata a
   determinati slot strutturali. Tuttavia, è possibile
   rintracciare una forma analoga come “in men che non si
   immagini”, dove il verbo “dire” viene sostituito da
@@ -39,26 +39,26 @@ restrictions: |
   agrammaticale
 
 coll-preferences: |
-	-
-	-  nella stragrande maggioranza dei casi, la prima parte della
+  -
+  -  nella stragrande maggioranza dei casi, la prima parte della
   costruzione, verosimilmente quella formata da “in men che
   non si”, è accompagnata dal verbo “dire”
 
 usage: |
 
 formal-tags: 
-	- complex-adverb
+  - complex-adverb
 
 functional-tags: 
-	- intensification
+  - intensification
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   lexically filled
@@ -70,21 +70,21 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_16_example_1.txt
-	- cxn_16_example_2.txt
-	- cxn_16_example_3.txt
-	- cxn_16_example_4.txt
-	- cxn_16_example_5.txt
+  - cxn_16_example_1.txt
+  - cxn_16_example_2.txt
+  - cxn_16_example_3.txt
+  - cxn_16_example_4.txt
+  - cxn_16_example_5.txt
 
 note: |
-	-  La costruzione predilige la forma verbale "dica", ma in un
+  -  La costruzione predilige la forma verbale "dica", ma in un
   esempio tratto dal CORIS è stato rintracciato un esempio in
   cui compare la forma verbale "immagini". Si riporta di
   seguito l'esempio: In  non s ' immagini , ci porge due
   foglietti e un pastello rosso : " Identikit , prego "  http:
   //corpora.ficlit.unibo.it/TCORIS/Context.php?Start=20919156&
   End=20919157
-	-  USAGE: la costruzione viene di solito preferita a forme
+  -  USAGE: la costruzione viene di solito preferita a forme
   funzionalmente corrispondenti quali, per esempio, “molto
   celermente, molto in fretta, all’istante”, per la sua
   maggiore intensità in termini di effetto sull’interlocutore.

@@ -1,7 +1,0 @@
-pattern {
-  A [lemma="cadere", upos=VERB, form=/cadere/i, VerbForm=Inf];
-  B [lemma="in", upos=ADP, form=/in/i];
-  C [upos=NOUN, Number=Sing];
-  C -[case]-> B;
-  A -[obl]-> C;
-}

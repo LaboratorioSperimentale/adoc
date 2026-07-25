@@ -1,7 +1,0 @@
-pattern {
-  A [upos=VERB];
-  B [lemma="a", upos=ADP];
-  C [upos=VERB, VerbForm=Inf];
-  C -[mark]-> B;
-  A -[advcl]-> C;
-}

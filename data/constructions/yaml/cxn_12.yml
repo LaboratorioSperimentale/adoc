@@ -9,38 +9,38 @@ cxn-machine-readable-formalization: |
   cxn_12.conllc
 
 form: |
-	-  V.inf.parlare + Prepart.del + Agg. più + Cong. e +
+  -  V.inf.parlare + Prepart.del + Agg. più + Cong. e +
   Prep.art.del + Agg. meno
-	-
+  -
 
 function: |
-	-  Parlare di qualcosa in generale, poco importante
-	-
-	-
+  -  Parlare di qualcosa in generale, poco importante
+  -
+  -
 
 restrictions: |
-	-
-	-  parlato colloquiale.
+  -
+  -  parlato colloquiale.
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
 
 formal-tags: 
-	- reduplication
+  - reduplication
 
 functional-tags: 
-	- vagueness
+  - vagueness
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -52,12 +52,12 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_12_example_1.txt
+  - cxn_12_example_1.txt
 
 note: |
-	-  Il verbo può essere coniugato, ma gli aggettivi non possono
+  -  Il verbo può essere coniugato, ma gli aggettivi non possono
   essere sostituiti da altri. 
-	-  USAGE:
+  -  USAGE:
 
 references: |
 

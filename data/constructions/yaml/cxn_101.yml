@@ -8,39 +8,39 @@ cxn-machine-readable-formalization: |
   cxn_101.conllc
 
 form: |
-	-  Adv, Adv
-	-
+  -  Adv, Adv
+  -
 
 function: |
-	-  Pragmatic
-	-  repetition of an adverb to reinforce its meaning
-	-
+  -  Pragmatic
+  -  repetition of an adverb to reinforce its meaning
+  -
 
 restrictions: |
-	-  Adverbs of manner, adverbs of frequency, adverbs of time.
-	-
+  -  Adverbs of manner, adverbs of frequency, adverbs of time.
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Frequent
 
 formal-tags: 
-	- reduplication
-	- repetition
+  - reduplication
+  - repetition
 
 functional-tags: 
-	- intensification
+  - intensification
 
 complexity-level-tags: |
-	-  Word, Clause
-	-
+  -  Word, Clause
+  -
 
 category-tags: |
-	-  Adverb
-	-
+  -  Adverb
+  -
 
 schematicity-level: |
   fully schematic
@@ -52,15 +52,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_101_example_1.txt
-	- cxn_101_example_2.txt
-	- cxn_101_example_3.txt
-	- cxn_101_example_4.txt
-	- cxn_101_example_5.txt
+  - cxn_101_example_1.txt
+  - cxn_101_example_2.txt
+  - cxn_101_example_3.txt
+  - cxn_101_example_4.txt
+  - cxn_101_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

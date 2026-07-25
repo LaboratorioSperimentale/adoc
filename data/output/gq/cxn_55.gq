@@ -1,9 +1,0 @@
-pattern {
-  A [];
-  B [lemma="acqua", upos=NOUN, form=/acqua/i, Gender=Fem, Number=Sing];
-  C [lemma="in", upos=ADP, form=/in/i];
-  D [lemma="bocca", upos=NOUN, form=/bocca/i, Gender=Fem, Number=Sing];
-  A -[discourse]-> B;
-  D -[case]-> C;
-  B -[nmod]-> D;
-}

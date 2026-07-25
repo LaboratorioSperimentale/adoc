@@ -8,38 +8,38 @@ cxn-machine-readable-formalization: |
   cxn_63.conllc
 
 form: |
-	-  [stra-AGG]
-	-
+  -  [stra-AGG]
+  -
 
 function: |
-	-  Prefixed superlative
-	-
-	-
+  -  Prefixed superlative
+  -
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
 
 formal-tags: 
-	- prefixation
-	- unformal
+  - prefixation
+  - unformal
 
 functional-tags: 
-	- intensification
+  - intensification
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -51,14 +51,14 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_63_example_1.txt
-	- cxn_63_example_2.txt
-	- cxn_63_example_3.txt
-	- cxn_63_example_4.txt
-	- cxn_63_example_5.txt
+  - cxn_63_example_1.txt
+  - cxn_63_example_2.txt
+  - cxn_63_example_3.txt
+  - cxn_63_example_4.txt
+  - cxn_63_example_5.txt
 
 note: |
-	-  Si confronti la costruzione non solo con la realizzazione
+  -  Si confronti la costruzione non solo con la realizzazione
   "standard" suffissale del superlativo in italiano, ma anche
   con costruzioni aggettivali che apparentemente potrebbero
   essere ricondotte alla stessa rappresentazione schematica
@@ -67,7 +67,7 @@ note: |
   aggettivali non derivate e che sono prive del valore
   intensivo e superlativo proprio a questa costruzione. Es.:
   straordinario != ordinarissimo vs strafelice = felicissimo.
-	-  USAGE:
+  -  USAGE:
 
 references: |
 

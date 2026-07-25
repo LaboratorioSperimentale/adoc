@@ -8,47 +8,47 @@ cxn-machine-readable-formalization: |
   cxn_42.conllc
 
 form: |
-	-  X(v) + prep. + X(n) 
-	-  la costruzione si presenta  con la stessa forma morfo-
+  -  X(v) + prep. + X(n) 
+  -  la costruzione si presenta  con la stessa forma morfo-
   sintattica.
 
 function: |
-	-  metafora; essere al verde= indica il non essere in possesso
+  -  metafora; essere al verde= indica il non essere in possesso
   di denaro;  essere al settimo cielo= essere al massimo stato
   di felicità; essere in alto mare= essere lontano dalla
   soluzione di qualcosa; essere in vena= sentirsi al pieno
   delle forze e dunque nella condizione migliore per fare
   qualcosa; essere nelle canne= essere in difficoltà. 
-	-
-	-  perché il significato dell'espressione non dipende dalla
+  -
+  -  perché il significato dell'espressione non dipende dalla
   semplice somma del significato delle singole parole. Ad
   esempio: "essere al settimo cielo" non implica concretamente
   il luogo in cui si trova una persona ma un suo stato
   d'animo.
 
 restrictions: |
-	-
-	-   l'ordine delle parole non può essere modificato
+  -
+  -   l'ordine delle parole non può essere modificato
 
 coll-preferences: |
-	-
-	-  \\
+  -
+  -  \\
 
 usage: |
 
 formal-tags: 
-	- light-verbs >> cc:cxn:support-verb
+  - light-verbs >> cc:cxn:support-verb
 
 functional-tags: 
-	- aspect >> cc:sem:aspect
+  - aspect >> cc:sem:aspect
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -60,15 +60,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_42_example_1.txt
-	- cxn_42_example_2.txt
-	- cxn_42_example_3.txt
-	- cxn_42_example_4.txt
-	- cxn_42_example_5.txt
+  - cxn_42_example_1.txt
+  - cxn_42_example_2.txt
+  - cxn_42_example_3.txt
+  - cxn_42_example_4.txt
+  - cxn_42_example_5.txt
 
 note: |
-	-
-	-  USAGE: l'espressione si è convenzionalizzata tanto da essere
+  -
+  -  USAGE: l'espressione si è convenzionalizzata tanto da essere
   utilizzata come modo di dire.
 
 references: |

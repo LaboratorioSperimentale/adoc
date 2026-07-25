@@ -8,43 +8,43 @@ cxn-machine-readable-formalization: |
   cxn_141.conllc
 
 form: |
-	-  Ancora + ora + V (di sorpresa) 
-	-
+  -  Ancora + ora + V (di sorpresa) 
+  -
 
 function: |
-	-  "Ancora" come equivalente di "soltanto". 
-	-  La costruzione si riscontra nell'italiano regionale parlato
+  -  "Ancora" come equivalente di "soltanto". 
+  -  La costruzione si riscontra nell'italiano regionale parlato
   in Puglia come sinonimica rispetto a "soltanto ora". Si
   accompagna a verbi che la maggior parte delle volte
   esprimono sorpresa. Viene utilizzata esclusivamente nel
   parlato e quasi esclusivamente in situazioni diafasicamente
   informali. 
-	-
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Infrequent
 
 formal-tags: 
-	- formal-idiom
+  - formal-idiom
 
 functional-tags: 
-	- risultato
+  - risultato
 
 complexity-level-tags: |
-	-  Phrase
-	-
+  -  Phrase
+  -
 
 category-tags: |
-	-  Other
-	-
+  -  Other
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -56,21 +56,21 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_141_example_1.txt
-	- cxn_141_example_2.txt
-	- cxn_141_example_3.txt
-	- cxn_141_example_4.txt
-	- cxn_141_example_5.txt
+  - cxn_141_example_1.txt
+  - cxn_141_example_2.txt
+  - cxn_141_example_3.txt
+  - cxn_141_example_4.txt
+  - cxn_141_example_5.txt
 
 note: |
-	-  Tutti gli esempi hanno come fonte l'esperienza. Di evidenze
+  -  Tutti gli esempi hanno come fonte l'esperienza. Di evidenze
   nei copora non ce ne sono, ma il risultato era atteso date
   le caratteristiche della costruzione. L'idea della
   costruzione nasce dalla frequentazione di persone
   provenienti dalla Puglia. La costruzione risultava
   assolutamente grammaticale alle loro orecchie, mentre alle
   mie e a chi non proveniva dallo stesso posto no.  
-	-  USAGE:
+  -  USAGE:
 
 references: |
 

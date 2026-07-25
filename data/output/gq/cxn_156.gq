@@ -1,5 +1,0 @@
-pattern {
-  A [lemma="toccare", upos=VERB, Number=Sing];
-  B [upos=VERB, VerbForm=Inf];
-  A -[xcomp]-> B;
-}

@@ -8,39 +8,39 @@ cxn-machine-readable-formalization: |
   cxn_184.conllc
 
 form: |
-	-  
-	-
+  -  
+  -
 
 function: |
-	-  
-	-
+  -  
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	- 
-	-
+  - 
+  -
 
 usage: |
 
 
 formal-tags: 
-	- 
+  - 
   -
 
 functional-tags: 
-	-
+  -
   -
 
 complexity-level-tags: |
-	-  
+  -  
 
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   
@@ -52,14 +52,14 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	-
+  -
   -
   -
   -
   -
 
 note: |
-	-  
+  -  
   -
 
 references: |

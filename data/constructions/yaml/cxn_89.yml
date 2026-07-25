@@ -8,41 +8,41 @@ cxn-machine-readable-formalization: |
   cxn_89.conllc
 
 form: |
-	-  non fare (altro) che V
-	-
+  -  non fare (altro) che V
+  -
 
 function: |
-	-  pragmatica
-	-  "Non fare (altro) che" significa qualcuno fa una sola cosa
+  -  pragmatica
+  -  "Non fare (altro) che" significa qualcuno fa una sola cosa
   in continuazione o qualcosa serve solo per un qualche motivo
   e di solito codifica un valore peggiorativo.
-	-
+  -
 
 restrictions: |
-	-
-	-
+  -
+  -
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
   Average
 
 formal-tags: 
-	- che-construction
+  - che-construction
 
 functional-tags: 
-	- durativity >> cc:sem:durativity
-	- pejorative
+  - durativity >> cc:sem:durativity
+  - pejorative
 
 complexity-level-tags: |
-	-  Clause
-	-
+  -  Clause
+  -
 
 category-tags: |
-	-  Verb, Other
-	-
+  -  Verb, Other
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -54,15 +54,15 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_89_example_1.txt
-	- cxn_89_example_2.txt
-	- cxn_89_example_3.txt
-	- cxn_89_example_4.txt
-	- cxn_89_example_5.txt
+  - cxn_89_example_1.txt
+  - cxn_89_example_2.txt
+  - cxn_89_example_3.txt
+  - cxn_89_example_4.txt
+  - cxn_89_example_5.txt
 
 note: |
-	-
-	-  USAGE:
+  -
+  -  USAGE:
 
 references: |
 

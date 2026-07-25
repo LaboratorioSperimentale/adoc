@@ -1,5 +1,0 @@
-pattern {
-  A [lemma="uno", upos=DET, form=/un/i, Definite=Ind, Gender=Masc, Number=Sing, PronType=Art];
-  B [lemma="botto", upos=NOUN, form=/botto/i, Gender=Masc, Number=Sing];
-  B -[det]-> A;
-}

@@ -8,16 +8,16 @@ cxn-machine-readable-formalization: |
   cxn_49.conllc
 
 form: |
-	-  Vessere + AVVluogo + che + V2
-	-  Si tratta di una costruzione extragrammaticale per via della
+  -  Vessere + AVVluogo + che + V2
+  -  Si tratta di una costruzione extragrammaticale per via della
   presenza del che polivalente.
 
 function: |
-	-  trovarsi in un luogo (più o meno definito, reale o figurato,
+  -  trovarsi in un luogo (più o meno definito, reale o figurato,
   indicato dall'AVVluogo) e compiere una determinata azione
   continuativa (espressa da V2), registro informale
-	-
-	-  La semantica della costruzione è facilmente deducibile dalla
+  -
+  -  La semantica della costruzione è facilmente deducibile dalla
   somma dei significati delle parti che la
   compongono.Tuttavia, quando nella costruzione appare lì o
   qui come AVVluogo il livello di idiomaticità è maggiore:
@@ -27,8 +27,8 @@ function: |
   o sempre).
 
 restrictions: |
-	-
-	-  La costruzione presenta in tutto quattro slots, di cui solo
+  -
+  -  La costruzione presenta in tutto quattro slots, di cui solo
   uno è fisso (il terzo, occupato sempre dal che
   polivalente).Il primo slot è occupato dal verbo essere, che
   dev'essere necessariamente coniugato al tempo presente o
@@ -41,35 +41,35 @@ restrictions: |
   essere. 
 
 coll-preferences: |
-	-
-	-
+  -
+  -
 
 usage: |
 
 formal-tags: 
-	- adverb >> cc:cxn:support-verb
-	- che-polivalente
-	- extragrammatical
-	- formal-idiom
-	- lexically-open
-	- idiom-of-encoding
-	- without-pragmatic-point
+  - adverb >> cc:cxn:support-verb
+  - che-polivalente
+  - extragrammatical
+  - formal-idiom
+  - lexically-open
+  - idiom-of-encoding
+  - without-pragmatic-point
 
 functional-tags: 
-	- aspect >> cc:sem:aspect
-	- action >> cc:inf:active-referent
-	- place >> cc:sem:place
-	- situation >> cc:sem:event
-	- durativity >> cc:sem:durativity
-	- imperfective-aspect
+  - aspect >> cc:sem:aspect
+  - action >> cc:inf:active-referent
+  - place >> cc:sem:place
+  - situation >> cc:sem:event
+  - durativity >> cc:sem:durativity
+  - imperfective-aspect
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   partially filled/schematic
@@ -81,18 +81,18 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_49_example_1.txt
-	- cxn_49_example_2.txt
-	- cxn_49_example_3.txt
-	- cxn_49_example_4.txt
-	- cxn_49_example_5.txt
+  - cxn_49_example_1.txt
+  - cxn_49_example_2.txt
+  - cxn_49_example_3.txt
+  - cxn_49_example_4.txt
+  - cxn_49_example_5.txt
 
 note: |
-	-  Possibile caratterizzazione a livello diatopico. Possibile
+  -  Possibile caratterizzazione a livello diatopico. Possibile
   ambiguità di forma con la costruzione della frase scissa
   (es. "è qui che non sa cosa fare" - ambiguità da sciogliere
   in base al contesto o alla prosodia/intonazione). 
-	-  USAGE: La costruzione viene di solito preferita a forme
+  -  USAGE: La costruzione viene di solito preferita a forme
   standard per enfatizzare la duratività dell'azione.Quando il
   livello di idiomaticità è alto (con lì e qui) la costruzione
   può essere ricondotta Ad esempio: "Sono ancora lì che

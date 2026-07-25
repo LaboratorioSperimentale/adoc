@@ -1,7 +1,0 @@
-pattern {
-  A [];
-  B [upos=DET];
-  C [upos=NOUN];
-  C -[det]-> B;
-  A -[nsubj]-> C;
-}

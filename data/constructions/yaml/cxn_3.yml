@@ -8,31 +8,31 @@ cxn-machine-readable-formalization: |
   cxn_3.conllc
 
 form: |
-	-  V (dire) + N + N
-	-  Substantive idiom, espressione lessicalmente specificata
+  -  V (dire) + N + N
+  -  Substantive idiom, espressione lessicalmente specificata
   (principi combinatori generali V + Obj + Obj fissi) che
   assume una particolare interpretazione idiomatica.
 
 function: |
-	-  Espressione idiomatica usata correntemente nell'italiano
+  -  Espressione idiomatica usata correntemente nell'italiano
   popolare. Indica un contesto comunicativo in cui un "X parla
   male (sparla) di Y" o in cui "sia X che Y parlano male l'uno
   dell'altro".
-	-
-	-  Esprime l'astio o la disapprovazione di una persona o tra
+  -
+  -  Esprime l'astio o la disapprovazione di una persona o tra
   due o più persone.
 
 restrictions: |
-	-
-	-  L'espressione, per essere compresa dagli interlocutori, deve
+  -
+  -  L'espressione, per essere compresa dagli interlocutori, deve
   essere enunciata in contesti specifici (soprattutto
   informali) in cui un interlocutore riferisce agli altri
   partecipanti che un determinato soggetto X parl- male di un
   qualsiasi oggetto Y.
 
 coll-preferences: |
-	-
-	-  La costruzione prevede che ci sia un verbo V(dire)
+  -
+  -  La costruzione prevede che ci sia un verbo V(dire)
   all'inizio dell'espressione (pur potendo essere coniugato in
   qualsiasi forma; anche alla forma passiva o reciproca),
   seguito da due oggetti Obj che non variano in alcun caso
@@ -42,18 +42,18 @@ coll-preferences: |
 usage: |
 
 formal-tags: 
-	- 
+  - 
 
 functional-tags: 
-	-  >> cc:inf:different-subject
+  -  "? cc:inf:different-subject"
 
 complexity-level-tags: |
-	-
-	-
+  -
+  -
 
 category-tags: |
-	-
-	-
+  -
+  -
 
 schematicity-level: |
   lexically filled
@@ -65,13 +65,13 @@ horizontal-links: |
 vertical-links: |
 
 examples: 
-	- cxn_3_example_1.txt
-	- cxn_3_example_2.txt
-	- cxn_3_example_3.txt
+  - cxn_3_example_1.txt
+  - cxn_3_example_2.txt
+  - cxn_3_example_3.txt
 
 note: |
-	-
-	-  USAGE: La costruzione di origine prettamente regionale,
+  -
+  -  USAGE: La costruzione di origine prettamente regionale,
   nello specifico meridionale (pugliese), viene usata solo in
   contesti informali ad alto grado di familiarità tra gli
   interlocutori.
