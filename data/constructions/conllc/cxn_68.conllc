@@ -1,7 +1,7 @@
 # cxn_id = cxn_68
-# cxn_name = salta fuori che cxn-machine-readable-formalization: | cxn_68.conllc
+# cxn_name = salta fuori che V
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
-A	_	saltare	VERB	Number=Sing	0	root	_	_	_	_	_
-B	fuori	fuori	ADV	_	A	advmod	_	A	_	_	_
-C	che	che	SCONJ	_	D	mark	_	B	_	_	_
-D	_	_	_	_	A	ccomp	_	C	_	_	_
+A	_	saltare	VERB	Number=Sing	0	root	_	_	CHILDREN:DEPREL=nsubj	_	_
+B	fuori	fuori	ADV	_	A	advmod	_	_	_	_	_
+C	che	che	SCONJ	_	D	mark	_	_	_	_	_
+D	_	_	ADJ,NOUN,VERB	_	A	csubj	_	_	_	Eventuality	_

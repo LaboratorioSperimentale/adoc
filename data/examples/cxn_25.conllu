@@ -5,7 +5,7 @@
 # sent_id = cxn_25_example_1_1
 # text = Ma che ti lamenti a fare con i voti che hai?
 1	Ma	ma	CCONJ	CC	_	4	cc	_	_
-2	che	che	ADV	PQ	PronType=Int	4	advmod	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
 3	ti	ti	PRON	PC	Number=Sing|Person=2|PronType=Prs	4	expl	_	Clitic=Yes
 4	lamenti	lamentare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	a	a	ADP	E	_	6	mark	_	_
@@ -48,7 +48,7 @@
 # sent_id = cxn_25_example_3_1
 # text = Allora che me lo dici a fare?
 1	Allora	allora	ADV	B	_	5	advmod	_	_
-2	che	che	SCONJ	CS	_	5	advmod	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
 3	me	me	PRON	PC	Number=Sing|Person=1|PronType=Prs	5	iobj	_	Clitic=Yes
 4	lo	lo	PRON	PC	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	Clitic=Yes
 5	dici	dire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -76,7 +76,7 @@
 # text = Vingenzo ma che te la prendi a fare così seriamente?
 1	Vingenzo	Vingenzo	PROPN	_	_	6	vocative	_	_
 2	ma	ma	CCONJ	CC	_	6	cc	_	_
-3	che	che	ADV	PR	PronType=Rel	6	advmod	_	_
+3	che	che	SCONJ	SC	_	6	mark	_	_
 4	te	te	PRON	PC	Number=Sing|Person=2|PronType=Prs	6	expl	_	Clitic=Yes
 5	la	la	PRON	PC	Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	Clitic=Yes
 6	prendi	prendere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_

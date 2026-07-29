@@ -1,5 +1,7 @@
 # cxn_id = cxn_65
-# cxn_name = X Adv che Y cxn-machine-readable-formalization: | cxn_65.conllc
+# cxn_name = X sì/no/certo che V
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
-A	che	che	_	_	B	mark	_	_	_	_	_
-B	_	_	VERB	_	0	root	_	A	_	_	_
+A	_	_	_	_	_	_	_	_	_	_	_
+B	sì,no,certo	sì,no,certo	ADV	root	0	_	_	_	_	_	_
+C	che	che	SCONJ	_	D	mark	_	_	_	_	_
+D	_	_	VERB	_	C	xcomp	_	_	_	_	_

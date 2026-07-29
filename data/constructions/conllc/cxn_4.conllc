@@ -1,7 +1,9 @@
 # cxn_id = cxn_4
-# cxn_name = Discontinuous reduplication with antonymic pairs cxn-machine-readable-formalization: | cxn_4.conllc
+# cxn_name = Xi di qua Xi di là
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
-A	_	_	_	_	0	root	_	_	_	_	_
-B	_	_	_	_	A	conj	_	A	_	_	_
-C	di	di	ADP	_	D	case	_	B	_	_	_
-D	là	là	ADV	_	B	advmod	_	C	_	_	_
+A	_	_	NOUN,VERB	_	0	root	FORM:E	_	_	_	_
+B	di	di	ADP	_	D	case	_	_	_	_	_
+D	qua	qua	ADV	_	A	advmod	_	_	_	_	_
+E	_	_	NOUN,VERB	_	A	conj	FORM:A	_	_	_	_
+F	di	di	ADP	_	G	case	_	_	_	_	_
+G	là	là	ADV	_	E	advmod	_	_	_	_	_

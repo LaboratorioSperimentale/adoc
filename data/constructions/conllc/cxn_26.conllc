@@ -1,0 +1,7 @@
+# cxn_id = cxn_26
+# cxn_name = avere le mani legate
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	_	avere	VERB	_	0	root	_	_	_	_	_
+B	le	il	DET	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	C	det	_	_	_	_	_
+C	mani	mano	NOUN	Gender=Fem|Number=Plur	A	obj	_	_	_	_	_
+D	legate	legare	VERB	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	C	amod	_	_	_	_	_

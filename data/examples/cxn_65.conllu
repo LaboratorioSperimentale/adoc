@@ -146,7 +146,7 @@
 7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	possessione	possessione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
 9	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	appos	_	_
-10	sì	sì	INTJ	I	_	9	advmod	_	_
+10	sì	sì	ADV	B	_	9	advmod	_	_
 11	che	che	SCONJ	CS	_	13	mark	_	_
 12	c'	ci	PRON	PC	PronType=Prs	13	expl	_	Clitic=Yes|SpaceAfter=No
 13	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	xcomp	_	_

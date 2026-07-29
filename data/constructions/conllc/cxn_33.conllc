@@ -1,8 +1,7 @@
 # cxn_id = cxn_33
-# cxn_name = a occhio e croce cxn-machine-readable-formalization: | cxn_33.conllc
+# cxn_name = a occhio e croce
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	a	a	ADP	_	B	case	_	_	_	_	_
-B	occhio	occhio	NOUN	Gender=Masc|Number=Sing	E	obl	_	_	_	_	_
+B	occhio	occhio	NOUN	Gender=Masc|Number=Sing	0	root:obl	_	A	_	_	_
 C	e	e	CCONJ	_	D	cc	_	B	_	_	_
 D	croce	croce	NOUN	Gender=Fem|Number=Sing	B	conj	_	C	_	_	_
-E	_	_	VERB	Mood=Ind|Number=Sing|VerbForm=Fin	0	root	_	D	_	_	_

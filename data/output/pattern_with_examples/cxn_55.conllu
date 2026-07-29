@@ -2,7 +2,7 @@
 # text = _ acqua in bocca
 # form = _ acqua in bocca
 1	_	_	_	_	_	0	root	_	OrigID=A
-2	acqua	acqua	NOUN	_	_	1	discourse	_	OrigID=B|LinearOrder=Variable
+2	acqua	acqua	NOUN	_	_	1	parataxis	_	OrigID=B|LinearOrder=Variable
 3	in	in	ADP	_	_	4	case	_	OrigID=C
 4	bocca	bocca	NOUN	_	_	2	nmod	_	OrigID=D
 
@@ -15,7 +15,7 @@
 2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	segreto	segreto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	CXN=55:A
 4	quindi	quindi	ADV	B	_	3	advmod	_	SpacesAfter=_
-5	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	3	discourse	_	CXN=55:B
+5	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	3	parataxis	_	CXN=55:B
 6	in	in	ADP	E	_	7	case	_	CXN=55:C
 7	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No|CXN=55:D
 8	!	!	PUNCT	FS	_	3	punct	_	SpaceAfter=No
@@ -33,7 +33,7 @@
 4	,	,	PUNCT	FF	_	5	punct	_	_
 5	Landsman	Landsman	PROPN	SP	_	3	vocative	_	SpaceAfter=No
 6	,	,	PUNCT	FF	_	5	punct	_	_
-7	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	3	discourse	_	CXN=55:B
+7	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	3	parataxis	_	CXN=55:B
 8	in	in	ADP	E	_	9	case	_	CXN=55:C
 9	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No|CXN=55:D
 10	»	»	PUNCT	FB	_	3	punct	_	_
@@ -61,7 +61,7 @@
 # text = Dunque, acqua in bocca, per il momento, non dire niente a nessuno per non rischiare intrighi e proteste.
 1	Dunque	dunque	ADV	B	_	12	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	FF	_	3	punct	_	_
-3	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	12	discourse	_	CXN=55:B
+3	acqua	acqua	NOUN	S	Gender=Fem|Number=Sing	12	parataxis	_	CXN=55:B
 4	in	in	ADP	E	_	5	case	_	CXN=55:C
 5	bocca	bocca	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No|CXN=55:D
 6	,	,	PUNCT	FF	_	3	punct	_	_

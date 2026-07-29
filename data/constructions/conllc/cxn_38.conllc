@@ -1,8 +1,8 @@
 # cxn_id = cxn_38
-# cxn_name = V + Detind + colpo di + N cxn-machine-readable-formalization: | cxn_38.conllc
+# cxn_name = V un colpo di N
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	_	_	VERB	_	0	root	_	_	_	_	_
-B	un	uno	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	C	det	_	A	_	_	_
-C	colpo	colpo	NOUN	Gender=Masc|Number=Sing	A	obj	_	B	_	_	_
-D	di	di	ADP	_	E	case	_	C	_	_	_
-E	_	_	NOUN	_	C	nmod	_	D	_	_	_
+B	un	uno	DET	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	C	det	_	_	_	_	_
+C	colpo	colpo	NOUN	Gender=Masc|Number=Sing	A	obj	_	_	_	_	_
+D	di	di	ADP	_	E	case	_	_	_	_	_
+E	_	_	NOUN	_	C	nmod	_	_	_	_	_

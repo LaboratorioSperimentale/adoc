@@ -1,9 +1,11 @@
 # cxn_id = cxn_64
-# cxn_name = Non è Xi, ma è Yi che Zi cxn-machine-readable-formalization: | cxn_64.conllc
+# cxn_name = non è X, ma è Y che Z
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	non	non	ADV	PronType=Neg	C	advmod	_	_	_	_	_
-B	è	essere	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	C	cop	_	A	_	_	_
-C	_	_	_	Gender=Masc|Number=Sing	0	root	_	B	_	_	_
-D	ma	ma	CCONJ	_	F	cc	_	C	_	_	_
-E	è	essere	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	F	cop	_	D	_	_	_
-F	_	_	_	_	C	conj	_	E	_	_	_
+B	è	essere	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	C	cop	_	_	_	_	_
+C	_	_	NOUN	_	0	root	_	_	_	_
+D	ma	ma	CCONJ	_	F	cc	_	_	_	_	_
+E	è	essere	AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	F	cop	_	_	_	_	_
+F	_	_	NOUN	_	C	conj	_	_	_	_	_
+G	che	che	PRON	PronType=Rel	H	nsubj,obl	_	_	_	_	_
+H	_	_	VERB	_	F	acl:relcl	_	_	_	_	_

@@ -1,5 +1,7 @@
 # cxn_id = cxn_89
-# cxn_name = non fa che costruction cxn-machine-readable-formalization: | cxn_89.conllc
+# cxn_name = non fare che V
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
 A	non	non	ADV	PronType=Neg	B	advmod	_	_	_	_	_
-B	fa	fare	VERB	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	A	_	_	_
+B	_	fare	VERB	_	0	root	_	_	_	_	_
+C	che	che	SCONJ	_	D	mark	_	_	_	_	_
+D	_	_	VERB	VerbForm=Inf	B	ccomp	_	_	_	_	_
