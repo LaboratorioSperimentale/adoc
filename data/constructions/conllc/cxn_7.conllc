@@ -1,6 +1,6 @@
 # cxn_id = cxn_7
 # cxn_name = Pseudo-coordination cxn-machine-readable-formalization: | cxn_7.conllc
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
-A	_	prendere	VERB	_	0	root	_	_	_	_	_
-B	e	e	CCONJ	_	C	cc	_	A	_	_	_
-C	_	_	VERB	Number=Sing	A	conj	_	B	_	_	_
+A	_	prendere	VERB	_	0	root	FEATS:C	_	_	_	_
+B	e	e	CCONJ	_	C	cc	_	_	_	_	_
+C	_	_	VERB	_	A	conj	FEATS:A	_	_	_	_

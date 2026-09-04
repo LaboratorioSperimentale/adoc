@@ -1,6 +1,6 @@
 # cxn_id = cxn_55
 # cxn_name = acqua in bocca
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
-A	acqua	acqua	NOUN	Gender=Fem|Number=Sing	0	root	_	_	_	_	_
+A	acqua	acqua	NOUN	Gender=Fem|Number=Sing	0	root,root:parataxis	_	_	_	_	_
 B	in	in	ADP	_	C	case	_	A	_	_	_
 C	bocca	bocca	NOUN	Gender=Fem|Number=Sing	A	nmod	_	B	_	_	_

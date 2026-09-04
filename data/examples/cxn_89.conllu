@@ -39,7 +39,7 @@
 1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
 2	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	che	che	SCONJ	CS	_	4	mark	_	_
-4	dire	dire	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	dire	dire	VERB	V	VerbForm=Inf	2	xcomp	_	_
 5	pallonate	pallonata	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
 6	.	.	PUNCT	FS	_	2	punct	_	SpaceAfter=No
 
@@ -91,7 +91,7 @@
 1	non	non	ADV	BN	PronType=Neg	2	advmod	_	_
 2	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	che	che	SCONJ	CS	_	4	mark	_	_
-4	promuovere	promuovere	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	promuovere	promuovere	VERB	V	VerbForm=Inf	2	xcomp	_	_
 5	odio	odio	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
 6	,	,	PUNCT	FF	_	7	punct	_	_
 7	divisioni	divisione	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No

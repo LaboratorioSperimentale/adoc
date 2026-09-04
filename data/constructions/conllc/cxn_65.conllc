@@ -4,4 +4,4 @@
 A	_	_	_	_	_	_	_	_	_	_	_
 B	sì,no,certo	sì,no,certo	ADV	root	0	_	_	_	_	_	_
 C	che	che	SCONJ	_	D	mark	_	_	_	_	_
-D	_	_	VERB	_	C	xcomp	_	_	_	_	_
+D	_	_	VERB	_	C	xcomp,acl	_	_	_	_	_

@@ -5,5 +5,5 @@ A	_	essere	VERB	_	D	cop	_	_	_	_	_
 B	_	il	DET	Definite=Def|PronType=Art	D	det	_	_	_	_	_
 C	_	ennesimo	ADJ	NumType=Ord	D	amod	_	_	_	_	_
 D	_	_	NOUN	_	0	root	_	_	_	OntoClass=time,act	_
-E	che	che	PRON	PronType=Rel	F	obl	_	_	_	_	_
+E	che	che	PRON	PronType=Rel	F	obj,obl	_	_	_	_	_
 F	_	_	VERB	_	D	acl:relcl	_	_	_	_	_

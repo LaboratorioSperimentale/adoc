@@ -1,7 +1,7 @@
 # cxn_id = cxn_110
 # cxn_name = tanto X quanto Y
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
-A	tanto	tanto	ADV	_	amod	B	_	_	_	_	_
+A	_	tanto	ADV,DET	_	advmod,det	B	_	_	_	_	_
 B	_	_	_	_	0	root	_	_	_	_	_
-C	quanto	quanto	ADV	D	amod	_	_	_	_	_	_
+C	_	quanto	ADV,DET	D	advmod,det	_	_	_	_	_	_
 D	_	_	_	_	_	B	conj	_	_	_	_

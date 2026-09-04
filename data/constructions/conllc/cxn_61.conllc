@@ -1,5 +1,7 @@
 # cxn_id = cxn_61
-# cxn_name = Immagina" Vinf SN/Sprep Prep/Conj SV cxn-machine-readable-formalization: | cxn_61.conllc
+# cxn_name = immagina V e V
 # ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
-A	immagina	immaginare	VERB	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	_	_	_	_
-B	_	_	_	_	A	xcomp	_	A	_	_	_
+A	immagina	immaginare	VERB	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_	_	_	_
+B	_	_	VERB	VerbForm=Inf	A	xcomp	_	_	_	_	_
+C	e	e	CCONJ	_	D	cc	_	_	_	_	_
+D	_	_	VERB	VerbForm=Inf	B	conj	_	_	_	_	_
