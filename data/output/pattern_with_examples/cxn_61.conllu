@@ -10,7 +10,7 @@
 # source = Italiano colloquiale
 # sent_id = cxn_61_example_1_1
 # text = Immagina andare a scuola e scoprire che è festa
-1	Immagina	immaginare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CXN=61:A
+1	Immagina	immaginare	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	CXN=61:A
 2	andare	andare	VERB	V	VerbForm=Inf	1	xcomp	_	CXN=61:B
 3	a	a	ADP	E	_	4	case	_	_
 4	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
@@ -45,7 +45,7 @@
 # source = Italiano colloquiale
 # sent_id = cxn_61_example_3_1
 # text = Immagina guidare e non avere la patente
-1	Immagina	immaginare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CXN=61:A
+1	Immagina	immaginare	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	CXN=61:A
 2	guidare	guidare	VERB	V	VerbForm=Inf	1	xcomp	_	CXN=61:B
 3	e	e	CCONJ	CC	_	5	cc	_	_
 4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
@@ -60,7 +60,7 @@
 # source = Italiano colloquiale
 # sent_id = cxn_61_example_4_1
 # text = Immagina essere all'ultima puntata della serie e non averci capito nulla
-1	Immagina	immaginare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CXN=61:A
+1	Immagina	immaginare	VERB	V	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	CXN=61:A
 2	essere	essere	AUX	VA	VerbForm=Inf	1	xcomp	_	CXN=61:B
 3-4	all'	_	_	_	_	_	_	_	SpaceAfter=No
 3	a	a	ADP	E	_	6	case	_	_

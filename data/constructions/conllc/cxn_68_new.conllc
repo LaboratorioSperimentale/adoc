@@ -1,0 +1,6 @@
+# cxn_id = cxn_68
+# cxn_name = salta fuori che V
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	_	saltare	VERB	Number=Sing	0	root	_	_	_	_	_
+B	fuori	fuori	ADV	_	A	advmod	_	A	_	_	_
+C	_	_	_	_	A	csubj	_	B	_	_	_

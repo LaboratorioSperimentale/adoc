@@ -1,0 +1,5 @@
+# cxn_id = cxn_65
+# cxn_name = X sì/no/certo che V
+# ID	FORM	LEMMA	UPOS	FEATS	HEAD	DEPREL	IDENTITY	ADJACENCY	EXCLUSION	SEM_FEATS	SEM_ROLES
+A	che	che	_	_	B	mark	_	_	_	_	_
+B	_	_	VERB	_	0	root	_	A	_	_	_
